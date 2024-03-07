@@ -1,2 +1,1 @@
-# CrestronProject
- A template for Crestron projects: SIMPL, SIMPL+, .clz, VT Pro & Crestron Construct
+# GLOBA-10469 - UTSC IC2
