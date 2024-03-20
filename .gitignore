@@ -172,7 +172,8 @@ dist
 .pnp.*
 
 #contruct output files
-output/
+*.cse
+*.cse2j
 __TEMP/
 *-????-??-??--??-??-??.zip
 #--------------------------------------
