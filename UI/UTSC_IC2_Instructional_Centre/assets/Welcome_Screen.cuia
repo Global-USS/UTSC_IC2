@@ -1,0 +1,21 @@
+{FileMetadata}
+Schema = "1.0.0.0"
+CreatedByAppHost = "1.3101.35.0"
+Created = 2024-04-12 09:56:07.193364-04:00
+LastModifiedByAppHost = "1.3101.35.0"
+Modified = 2024-04-12 09:56:07.193356-04:00
+CreatedByProjectApp = "1.3101.35.0"
+LastModifiedByProjectApp = "1.3101.35.0"
+MinimumProjectApp = ""
+
+{AssetAttributes}
+
+[Attributes]
+Id = "d8c8e9a4-832a-49d3-8409-00481bc02419"
+Name = "Welcome_Screen"
+SourceUri = "Welcome_Screen.jpg"
+AspectRatio = "1.6"
+AssetSourceType = "File"
+Username = ""
+Password = ""
+

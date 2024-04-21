@@ -1,0 +1,19 @@
+{
+  "_fileMetadata": {
+    "_schema": "1.0.0.0",
+    "_createdByAppHost": "1.3101.35.0",
+    "_created": "2024-04-12T09:29:07.1192963-04:00",
+    "_lastModifiedByAppHost": "1.3101.35.0",
+    "_modified": "2024-04-12T09:29:07.1192775-04:00"
+  },
+  "_solution": {
+    "_name": "UTSC_IC2_Instructional_Centre",
+    "_projects": [
+      {
+        "_name": "UTSC_IC2_Instructional_Centre",
+        "_filename": "UTSC_IC2_Instructional_Centre/UTSC_IC2_Instructional_Centre.cuip",
+        "_datetime": "2024-04-12T13:29:06.911523Z"
+      }
+    ]
+  }
+}

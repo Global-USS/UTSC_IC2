@@ -1,0 +1,24 @@
+{FileMetadata}
+Schema = "1.0.0.0"
+CreatedByAppHost = "1.3201.17.0"
+Created = 2024-04-15 13:11:25.086941-04:00
+LastModifiedByAppHost = "1.3201.17.0"
+Modified = 2024-04-15 13:11:25.086936-04:00
+CreatedByProjectApp = "1.3201.17.0"
+LastModifiedByProjectApp = "1.3201.17.0"
+MinimumProjectApp = "1.2600.1"
+
+{DeviceResolutionSource}
+[]
+
+{ProjectAttributes}
+
+[Attributes]
+Name = "UTSC_IC2_Instructional_Centre"
+ThemeId = "light-theme.css"
+SdkId = "CH5:2.8.0"
+ComponentKey = "UiEditor"
+DeviceResolutionIds = "G-L-4KMONIT-2560-1440,D-L-TSW1070-1280-0800"
+ipId = "03"
+ProjectSchemaVersion = "3"
+

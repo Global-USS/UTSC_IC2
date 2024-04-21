@@ -1,0 +1,54 @@
+{FileMetadata}
+Schema = "1.0.0.0"
+CreatedByAppHost = "1.3201.17.0"
+Created = 2024-04-15 13:11:25.082318-04:00
+LastModifiedByAppHost = "1.3201.17.0"
+Modified = 2024-04-15 13:11:25.082314-04:00
+CreatedByProjectApp = "1.3201.17.0"
+LastModifiedByProjectApp = "1.3201.17.0"
+MinimumProjectApp = "1.2600.1"
+
+{Html}
+<ch5-background scale="stretch" refreshrate="600" transitioneffect="ease" transitionduration="1s" assetid="63e4f158-785f-49a6-92aa-33079e35acdb" backgroundcolor="#ffffff" id="ii3s" componentname="Background" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" imgbackgroundcolor="transparent">
+              </ch5-background>
+
+
+
+{Css}
+@media (max-width: 99999px) { #wrapper { background-color: #fff } }
+
+{PageAttributes}
+
+[Attributes]
+Name = "Welcome_Page"
+PageMode = "absolute"
+Id = "55da64c7-d1de-45ad-8072-9f0cfb947b93"
+StartPage = "True"
+VisibilityJoin = "0"
+
+[[Elements]]
+Name = ""
+Type = "Ch5 Background"
+Status = ""
+Content = ""
+Editable = true
+
+[[Elements.Components]]
+Name = ""
+Type = "textnode"
+Status = ""
+Content = "\n              "
+
+[Elements.Attributes]
+scale = "stretch"
+refreshrate = "600"
+transitioneffect = "ease"
+transitionduration = "1s"
+assetid = "63e4f158-785f-49a6-92aa-33079e35acdb"
+backgroundcolor = "#ffffff"
+id = "ii3s"
+componentName = "Background"
+ccid_linkSendReceive = "True"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+imgbackgroundcolor = "transparent"
+
