@@ -1,20 +1,20 @@
 {FileMetadata}
 Schema = "1.0.0.0"
 CreatedByAppHost = "1.3201.17.0"
-Created = 2024-04-19 13:09:30.66388-04:00
+Created = 2024-04-23 16:03:22.969178-04:00
 LastModifiedByAppHost = "1.3201.17.0"
-Modified = 2024-04-19 13:09:30.663875-04:00
+Modified = 2024-04-23 16:03:22.969174-04:00
 CreatedByProjectApp = "1.3201.17.0"
 LastModifiedByProjectApp = "1.3201.17.0"
 MinimumProjectApp = "1.2600.1"
 
 {Html}
-<div id="ipkgeb0puf" devicesVisited="[&quot;4K Monitor&quot;]" defaultWidth="500px" defaultHeight="500px" globalControlContract="on" class="widget-container"><ch5-text clearLabel="false" labelmodeadvncomponent="simple" horizontalalignment="center" verticalalignment="middle" multilinesupport="false" truncatetext="false" id="id8r" componentName="Formatted-Text" ccid_linkSendReceive="True" devicesVisited="[&quot;4K Monitor&quot;]" ccid_themeCSSSet="true" labelinnerhtml="PROJECTOR COOLING DOWN">
-              </ch5-text><ch5-subpage-reference-list orientation="horizontal" columns="1" rows="1" centeritems="true" numberofitems="1" scrolltoposition="0" scrollbar="false" endless="false" indexid="idx" useContractForCustomStyle="false" useContractForCustomClass="false" useContractForEnable="false" useContractForShow="false" useContractForNumItems="false" useContractForItemEnable="false" useContractForItemShow="false" customvstheme="custom" id="i41o" componentName="Widget List" ccid_linkSendReceive="True" devicesVisited="[&quot;4K Monitor&quot;]" widgetid="wdea9a2f2-f0a7-4130-8f03-134c07721838">
-              </ch5-subpage-reference-list><div componentName="Cooling BG" id="ic5h" devicesVisited="[&quot;4K Monitor&quot;]"></div></div>
+<div id="ipkgeb0puf" devicesVisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" defaultWidth="500px" defaultHeight="500px" globalControlContract="on" class="widget-container"><ch5-text clearLabel="false" labelmodeadvncomponent="simple" horizontalalignment="center" verticalalignment="middle" multilinesupport="false" truncatetext="false" id="id8r" componentName="Formatted-Text" ccid_linkSendReceive="True" devicesVisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" ccid_themeCSSSet="true" labelinnerhtml="PROJECTOR COOLING DOWN">
+              </ch5-text><ch5-subpage-reference-list orientation="vertical" columns="1" rows="1" centeritems="true" numberofitems="1" scrolltoposition="0" scrollbar="false" endless="false" indexid="idx" useContractForCustomStyle="false" useContractForCustomClass="false" useContractForEnable="false" useContractForShow="false" useContractForNumItems="false" useContractForItemEnable="false" useContractForItemShow="false" customvstheme="custom" id="i41o" componentName="Widget List" ccid_linkSendReceive="True" devicesVisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" widgetid="wdea9a2f2-f0a7-4130-8f03-134c07721838">
+              </ch5-subpage-reference-list><div componentName="Cooling BG" id="ic5h" devicesVisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" componentWasResized="true"></div></div>
 
 {Css}
-@media (max-width: 99999px){#ic5h{display:block;background-color:rgba(140,201,255,0.96);border-style:solid;border-width:0;border-color:rgba(27,75,124,0);width:2225px;height:1194px;left:0px;top:0px;position:absolute;z-index:120;}#ipkgeb0puf{width:2220px;height:1175px;left:0;top:0;position:absolute;}#wrapper{background-color:#fff;}.widget-container{background-image:linear-gradient(45deg, #DAE2EA 25%, transparent 25%), linear-gradient(-45deg, #DAE2EA 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #DAE2EA 75%), linear-gradient(-45deg, transparent 75%, #DAE2EA 75%);background-size:20px 20px;background-position:0 0, 0 10px, 10px -10px, -10px 0px;z-index:0;}#ia7i .ch5-image{border-color:black;object-fit:contain;}#id8r{width:931px;height:86px;font-family:Roboto;display:block;left:656px;top:397px;position:absolute;z-index:122;font-weight:700;}#id8r .ch5-text{width:931px;height:86px;font-size:60px;custom-font-size:60px;font-weight:700;color:#ffffff;}#i41o .ch5-subpage-reference-list{listStyles_background-color:rgba(0,0,0,0);background-color:rgba(0,0,0,0);}#i41o{width:508px;height:auto;display:block;left:867px;top:414px;position:absolute;z-index:121;listStyles_background-color:rgba(0,0,0,0);}}@media (orientation: landscape) and (max-width: 2561px) and (max-height: 1441px), (orientation: landscape) and (max-width: 2559px){#ic5h{display:block;background-color:rgba(140,201,255,0.96);border-style:solid;border-width:0;border-color:rgba(27,75,124,0);width:2225px;height:1194px;left:0px;top:0px;position:absolute;z-index:120;}#ipkgeb0puf{width:2220px;height:1175px;left:0;top:0;position:absolute;}body{background-color:#fff;}#wrapper{background-color:#fff;}#id8r{width:931px;height:86px;font-family:Roboto;display:block;left:656px;top:397px;position:absolute;z-index:122;font-weight:700;}#i41o{width:508px;height:auto;display:block;left:867px;top:414px;position:absolute;z-index:121;listStyles_background-color:rgba(0,0,0,0);}}
+@media (max-width: 99999px){#wrapper{background-color:#fff;}.widget-container{background-image:linear-gradient(45deg, #DAE2EA 25%, transparent 25%), linear-gradient(-45deg, #DAE2EA 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #DAE2EA 75%), linear-gradient(-45deg, transparent 75%, #DAE2EA 75%);background-size:20px 20px;background-position:0 0, 0 10px, 10px -10px, -10px 0px;z-index:0;}#ia7i .ch5-image{border-color:black;object-fit:contain;}#id8r .ch5-text{width:931px;height:86px;font-size:60px;custom-font-size:60px;font-weight:700;color:#ffffff;}#i41o .ch5-subpage-reference-list{listStyles_background-color:rgba(0,0,0,0);background-color:rgba(0,0,0,0);}#id8r{width:931px;height:86px;font-family:Roboto;display:block;left:656px;top:397px;position:absolute;z-index:122;font-weight:700;}#ic5h{display:block;background-color:rgba(140,201,255,0.96);border-style:solid;border-width:0;border-color:rgba(27,75,124,0);width:2224px;height:1193px;left:0px;top:0px;position:absolute;z-index:120;}#i41o{width:auto;height:508px;display:block;left:867px;top:414px;position:absolute;z-index:121;listStyles_background-color:rgba(0,0,0,0);}#ipkgeb0puf{width:2220px;height:1193px;left:0;top:0;position:absolute;}}@media (orientation: landscape) and (max-width: 2561px) and (max-height: 1441px), (orientation: landscape) and (max-width: 2559px){body{background-color:#fff;}#wrapper{background-color:#fff;}#id8r{width:931px;height:86px;font-family:Roboto;display:block;left:656px;top:397px;position:absolute;z-index:122;font-weight:700;}#ic5h{display:block;background-color:rgba(140,201,255,0.96);border-style:solid;border-width:0;border-color:rgba(27,75,124,0);width:2224px;height:1193px;left:0px;top:0px;position:absolute;z-index:120;}#i41o{width:auto;height:508px;display:block;left:867px;top:414px;position:absolute;z-index:121;listStyles_background-color:rgba(0,0,0,0);}#ipkgeb0puf{width:2220px;height:1193px;left:0;top:0;position:absolute;}}@media (orientation: landscape) and (max-width: 1281px) and (max-height: 801px), (orientation: landscape) and (max-width: 1279px){#id8r{top:173px;left:257px;position:absolute;width:600px;}#ic5h{width:1100px;height:661px;top:0px;left:0px;position:absolute;}#i41o{left:295px;top:173px;position:absolute;width:auto;height:432px;}body{background-color:#fff;}#id8r .ch5-text{font-size:35px;custom-font-size:35px;width:600px;}#ipkgeb0puf{width:1100px;height:658px;left:0;top:0;position:absolute;}#wrapper{background-color:#fff;}}
 
 {PageAttributes}
 
@@ -45,7 +45,7 @@ truncatetext = "false"
 id = "id8r"
 componentName = "Formatted-Text"
 ccid_linkSendReceive = "True"
-devicesVisited = "[\"4K Monitor\"]"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
 ccid_themeCSSSet = "true"
 labelinnerhtml = "PROJECTOR COOLING DOWN"
 [[Elements.Components]]
@@ -57,7 +57,7 @@ Type = "textnode"
 Content = "\n              "
 
 [Elements.Components.Attributes]
-orientation = "horizontal"
+orientation = "vertical"
 columns = "1"
 rows = "1"
 centeritems = "true"
@@ -77,7 +77,7 @@ customvstheme = "custom"
 id = "i41o"
 componentName = "Widget List"
 ccid_linkSendReceive = "True"
-devicesVisited = "[\"4K Monitor\"]"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
 widgetid = "wdea9a2f2-f0a7-4130-8f03-134c07721838"
 [[Elements.Components]]
 Type = "html-div"
@@ -85,11 +85,12 @@ Type = "html-div"
 [Elements.Components.Attributes]
 componentName = "Cooling BG"
 id = "ic5h"
-devicesVisited = "[\"4K Monitor\"]"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+componentWasResized = "true"
 
 [Elements.Attributes]
 id = "ipkgeb0puf"
-devicesVisited = "[\"4K Monitor\"]"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
 defaultWidth = "500px"
 defaultHeight = "500px"
 globalControlContract = "on"

@@ -1,9 +1,9 @@
 {FileMetadata}
 Schema = "1.0.0.0"
 CreatedByAppHost = "1.3201.17.0"
-Created = 2024-04-23 14:19:02.890341-04:00
+Created = 2024-04-23 11:45:53.71787-04:00
 LastModifiedByAppHost = "1.3201.17.0"
-Modified = 2024-04-23 14:19:02.890333-04:00
+Modified = 2024-04-23 11:45:53.717858-04:00
 CreatedByProjectApp = "1.3201.17.0"
 LastModifiedByProjectApp = "1.3201.17.0"
 MinimumProjectApp = ""
@@ -11,10 +11,10 @@ MinimumProjectApp = ""
 {AssetAttributes}
 
 [Attributes]
-Id = "7681d69e-cff3-4627-bd3e-6af4522bc509"
-Name = "DPad"
-SourceUri = "DPad.png"
-AspectRatio = "1.0141987829614605"
+Id = "c3a72b1c-1b1b-4309-b62d-bb3b9b144a43"
+Name = "Projector_Icon"
+SourceUri = "Projector_Icon.svg"
+AspectRatio = "0"
 AssetSourceType = "File"
 Username = ""
 Password = ""

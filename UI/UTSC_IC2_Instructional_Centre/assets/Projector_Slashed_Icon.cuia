@@ -1,9 +1,9 @@
 {FileMetadata}
 Schema = "1.0.0.0"
 CreatedByAppHost = "1.3201.17.0"
-Created = 2024-04-23 14:19:02.890341-04:00
+Created = 2024-04-23 12:19:40.218436-04:00
 LastModifiedByAppHost = "1.3201.17.0"
-Modified = 2024-04-23 14:19:02.890333-04:00
+Modified = 2024-04-23 12:19:40.218416-04:00
 CreatedByProjectApp = "1.3201.17.0"
 LastModifiedByProjectApp = "1.3201.17.0"
 MinimumProjectApp = ""
@@ -11,10 +11,10 @@ MinimumProjectApp = ""
 {AssetAttributes}
 
 [Attributes]
-Id = "7681d69e-cff3-4627-bd3e-6af4522bc509"
-Name = "DPad"
-SourceUri = "DPad.png"
-AspectRatio = "1.0141987829614605"
+Id = "b183be7c-1224-42d9-8afe-ce0d2e941673"
+Name = "Projector_Slashed_Icon"
+SourceUri = "Projector_Slashed_Icon.svg"
+AspectRatio = "0"
 AssetSourceType = "File"
 Username = ""
 Password = ""
