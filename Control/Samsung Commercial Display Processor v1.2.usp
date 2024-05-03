@@ -1,0 +1,153 @@
+/* #region Header */
+//#SYMBOL_NAME ""
+
+//Author: Mat Klucznyk
+//Company: Global USS
+//Email: mathew.klucznyk@globaluss.com
+
+//#USER_SIMPLSHARP_LIBRARY ""
+
+#DEFAULT_VOLATILE
+#ENABLE_STACK_CHECKING
+#ENABLE_TRACE
+
+#DEFINE_CONSTANT true 1
+#DEFINE_CONSTANT false 0
+/* #endregion */
+
+/* #region IO Constructor */
+//digital_inputs
+
+//analog_inputs
+analog_input Volume;
+
+//serial_inputs
+buffer_input FromDev[255];
+string_input Command[255];
+string_input ID[2];
+
+//buffer_inputs
+
+//digital_outputs
+
+//analog_outputs
+analog_output VolumeVal;
+
+//serial_outputs
+string_output ToDev, Response;
+
+//parameters
+
+/*
+#BEGIN_PARAMETER_PROPERTIES parameter_variable, parameter_variable, ...
+   // propValidUnits = // unitString or unitDecimal|unitHex|unitPercent|unitCharacter|unitTime|unitTicks;
+   // propDefaultUnit = // unitString, unitDecimal, unitHex, unitPercent, unitCharacter, unitTime or unitTicks;
+   // propBounds = lower_bound , upper_bound;
+   // propDefaultValue = ;  // or, propDefaultValue = "";
+   // propList = // { "value" , "label" } , { "value" , "label" } , ... ;
+   // propShortDescription = "status_bar_hint_text";
+   // #BEGIN_PROP_FULL_DESCRIPTION  line_1...  line_2...  line_n  #END_PROP_FULL_DESCRIPTION
+   // #BEGIN_PROP_NOTES line_1...  line_2...  line_n  #END_PROP_NOTES
+#END_PARAMETER_PROPERTIES
+*/
+
+//objects
+/* #endregion */
+
+/* #region Functions */
+function Send(string cmd)
+{
+	integer ctr, sum;
+	
+	sum = 0;
+	
+	for(ctr = 1 to len(cmd))
+	{
+		sum = sum + Byte(cmd, ctr);
+	}
+	
+	makestring(ToDev,"\xAA%s%c", cmd, Low(sum));
+	
+}
+
+/* #endregion */
+
+/* #region Events */
+threadsafe change Volume
+{
+	integer x;
+	string temp[255];
+	
+	if(Volume = 0)
+	{
+		MakeString(temp, "\x12%s\x01%c", ID, 0);
+		Send(temp);
+	}
+	else
+	{
+		while(x != Volume)
+		{
+			x = Volume;
+			
+			MakeString(temp, "\x12%s\x01%c", ID, x);
+			Send(temp);
+		}
+	}
+}
+
+threadsafe change FromDev
+{
+	string temp[1000];
+	integer cnt,x;
+	
+	while(len(FromDev))
+	{
+		if(len(FromDev) >= 8)
+		{
+			temp = RemoveByLength(8, FromDev);
+		}
+		else
+		{
+			temp = RemoveByLength(len(FromDev), FromDev);
+		}
+		
+		if(len(temp) = 8)
+		{	
+			if(Byte(temp, 3) = AtoI(ID))
+			{
+				if(Byte(temp, 6) = 18)
+				{
+					VolumeVal = Byte(temp, 7);
+				}
+				else if(Byte(temp, 5) = 65)
+				{
+					Response = Mid(temp, 6, 2);
+				}
+				else if(Byte(temp, 5) = 78 && Byte(temp, 6) = 17)
+				{
+					Response = "\x11\x00";
+				}
+			}
+		}
+	}
+}
+
+change Command
+{
+	string x[255];
+	
+	x = Command;
+	
+	Send(x);
+}
+
+/* #endregion */
+
+/* #region Callbacks */
+
+/* #endregion */
+
+Function Main()
+{
+	WaitForInitializationComplete();
+}

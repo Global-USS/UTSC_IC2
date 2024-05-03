@@ -1,0 +1,150 @@
+#CATEGORY "46" "Communications" // Custom
+/* #region Header */
+//#SYMBOL_NAME ""
+
+//Author: Mat Klucznyk
+//Company: Global USS
+//Email: mathew.klucznyk@globaluss.com
+
+#USER_SIMPLSHARP_LIBRARY "Guss.Communications"
+
+#DEFAULT_VOLATILE
+#ENABLE_STACK_CHECKING
+#ENABLE_TRACE
+
+#DEFINE_CONSTANT true 1
+#DEFINE_CONSTANT false 0
+/* #endregion */
+
+/* #region IO Constructor */
+//inputs
+digital_input Connect, Disconnect;
+analog_input Port;
+string_input IpAddress[255], _skip_, Command[255];
+analog_input _skip_, DebugLevel;
+
+digital_output IsConnected;
+analog_output ConnectionStatusIndex;
+string_output ConnectionStatus, _skip_, _skip_, Response, _skip_, ModuleID;
+//outputs
+
+//parameters
+string_parameter _skip_, _skip_, _skip_, _skip_, _skip_, _skip_, _skip_, _skip_;
+string_parameter DefaultIpAddress[255];
+integer_parameter DefaultPort;
+integer_parameter DefaultDebugLevel;
+/*
+#BEGIN_PARAMETER_PROPERTIES parameter_variable, parameter_variable, ...
+   // propValidUnits = // unitString or unitDecimal|unitHex|unitPercent|unitCharacter|unitTime|unitTicks;
+   // propDefaultUnit = // unitString, unitDecimal, unitHex, unitPercent, unitCharacter, unitTime or unitTicks;
+   // propBounds = lower_bound , upper_bound;
+   // propDefaultValue = ;  // or, propDefaultValue = "";
+   // propList = // { "value" , "label" } , { "value" , "label" } , ... ;
+   // propShortDescription = "status_bar_hint_text";
+   // #BEGIN_PROP_FULL_DESCRIPTION  line_1...  line_2...  line_n  #END_PROP_FULL_DESCRIPTION
+   // #BEGIN_PROP_NOTES line_1...  line_2...  line_n  #END_PROP_NOTES
+#END_PARAMETER_PROPERTIES
+*/
+
+//objects
+UdpClient _client;
+string _ipA[255];
+integer _port;
+
+/* #endregion */
+
+/* #region Functions */
+
+/* #endregion */
+
+/* #region Events */
+integer _allow;
+
+threadsafe push Connect
+{
+	while(!_allow);
+
+	_client.Connect();
+}
+
+push Disconnect
+{
+	_client.Disconnect();
+}
+
+change Port
+{
+	_port = Port;
+	
+	if(_allow)
+	{
+		_client.Port = _port;
+	}
+}
+
+change IpAddress
+{
+	_ipA = IpAddress;
+	
+	if(_allow)
+	{
+		_client.IpAddress = _ipA;
+	}
+}
+
+change Command
+{
+	string c[255];
+	
+	c = Command;
+	_client.SendCommand(c);
+}
+
+change DebugLevel
+{
+	_client.DebugLevel = DebugLevel;
+}
+/* #endregion */
+
+/* #region Callbacks */
+eventhandler NewConnectedChange(UdpClient sender, CommunicationsBoolEventArgs args)
+{
+	IsConnected = args.Payload;
+}
+
+eventhandler NewConnectionStatusChange(UdpClient sender,ConnectionStatusChangeEventArgs args)
+{
+	ConnectionStatus = args.Payload.Status;
+	ConnectionStatusIndex = args.Payload.Index;
+}
+
+eventhandler NewResponseReceived(UdpClient sender,CommunicationsStringEventArgs args)
+{
+   Response = args.Payload;
+}
+/* #endregion */
+
+Function Main()
+{
+	WaitForInitializationComplete();
+	
+	_client.DebugLevel = DefaultDebugLevel;
+	RegisterEvent(_client, ConnectedChange, NewConnectedChange);
+	RegisterEvent(_client, ConnectionStatusChange, NewConnectionStatusChange);
+	RegisterEvent(_client, ResponseReceived, NewResponseReceived);
+	
+	if(_ipA = "" && DefaultIpAddress != "")
+	{
+		_ipA = DefaultIpAddress;
+	}
+	_client.IpAddress = _ipA;
+
+	if(_port = 0 && DefaultPort > 0)
+	{
+		_port = DefaultPort;
+	}
+	_client.Port = _port;
+
+	ModuleID = _client.ID;
+	_allow = true;
+}
