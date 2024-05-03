@@ -1,9 +1,9 @@
 {FileMetadata}
 Schema = "1.0.0.0"
 CreatedByAppHost = "1.3300.16.0"
-Created = 2024-05-03 14:24:04.281689-04:00
+Created = 2024-05-03 14:51:27.139708-04:00
 LastModifiedByAppHost = "1.3300.16.0"
-Modified = 2024-05-03 14:24:04.281683-04:00
+Modified = 2024-05-03 14:51:27.139707-04:00
 CreatedByProjectApp = "1.3300.16.0"
 LastModifiedByProjectApp = "1.3300.16.0"
 MinimumProjectApp = "1.2600.1"
@@ -19,7 +19,7 @@ MinimumProjectApp = "1.2600.1"
 {PageAttributes}
 
 [Attributes]
-Name = "Projector_02_Source_Widget"
+Name = "Proj_02_Source_Widget"
 PageMode = "absolute"
 Id = "45bcd516-ad6b-4b82-8793-873d5ad92f8d"
 

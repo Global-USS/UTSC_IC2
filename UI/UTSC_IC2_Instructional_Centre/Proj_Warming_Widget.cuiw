@@ -1,11 +1,11 @@
 {FileMetadata}
 Schema = "1.0.0.0"
-CreatedByAppHost = "1.3201.17.0"
-Created = 2024-04-23 16:03:21.025173-04:00
-LastModifiedByAppHost = "1.3201.17.0"
-Modified = 2024-04-23 16:03:21.025169-04:00
-CreatedByProjectApp = "1.3201.17.0"
-LastModifiedByProjectApp = "1.3201.17.0"
+CreatedByAppHost = "1.3300.16.0"
+Created = 2024-05-03 14:51:27.14334-04:00
+LastModifiedByAppHost = "1.3300.16.0"
+Modified = 2024-05-03 14:51:27.143338-04:00
+CreatedByProjectApp = "1.3300.16.0"
+LastModifiedByProjectApp = "1.3300.16.0"
 MinimumProjectApp = "1.2600.1"
 
 {Html}
@@ -13,26 +13,38 @@ MinimumProjectApp = "1.2600.1"
               </ch5-text><ch5-subpage-reference-list orientation="horizontal" columns="1" rows="1" centeritems="true" numberofitems="1" scrolltoposition="0" scrollbar="false" endless="false" indexid="idx" useContractForCustomStyle="false" useContractForCustomClass="false" useContractForEnable="false" useContractForShow="false" useContractForNumItems="false" useContractForItemEnable="false" useContractForItemShow="false" customvstheme="custom" id="i2poezd4ka" componentName="Widget List" ccid_linkSendReceive="True" devicesVisited="[&quot;4K Monitor&quot;]" oldID="i41o" widgetid="wdea9a2f2-f0a7-4130-8f03-134c07721838">
               </ch5-subpage-reference-list><div componentName="Warming BG" id="ip1d" devicesVisited="[&quot;4K Monitor&quot;]"></div></div>
 
+
+
 {Css}
 @media (max-width: 99999px){#ilgb3u91cu{width:2220px;height:1193px;left:0;top:0;position:absolute;}#wrapper{background-color:#fff;}.widget-container{background-image:linear-gradient(45deg, #DAE2EA 25%, transparent 25%), linear-gradient(-45deg, #DAE2EA 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #DAE2EA 75%), linear-gradient(-45deg, transparent 75%, #DAE2EA 75%);background-size:20px 20px;background-position:0 0, 0 10px, 10px -10px, -10px 0px;z-index:0;}#ia7i .ch5-image{border-color:black;object-fit:contain;}#ip1d{display:block;background-color:rgba(255,193,140,0.93);border-style:solid;border-width:0;border-color:rgba(27,75,124,0);width:2224px;height:1193px;left:0px;top:0px;position:absolute;z-index:120;}#i19fwjgm7v{width:767px;height:86px;font-family:Roboto;display:block;left:735px;top:397px;position:absolute;z-index:126;font-weight:700;}#i2poezd4ka{width:508px;height:auto;display:block;left:865px;top:414px;position:absolute;z-index:124;listStyles_background-color:rgba(0,0,0,0);}#i19fwjgm7v .ch5-text{width:767px;height:86px;font-size:60px;custom-font-size:60px;font-weight:700;color:#ffffff;}#i2poezd4ka .ch5-subpage-reference-list{listStyles_background-color:rgba(0,0,0,0);background-color:rgba(0,0,0,0);}#wrapper{background-color:#fff;}}@media (orientation: landscape) and (max-width: 2561px) and (max-height: 1441px), (orientation: landscape) and (max-width: 2559px){#ilgb3u91cu{width:2220px;height:1193px;left:0;top:0;position:absolute;}body{background-color:#fff;}#ip1d{display:block;background-color:rgba(255,193,140,0.93);border-style:solid;border-width:0;border-color:rgba(27,75,124,0);width:2224px;height:1193px;left:0px;top:0px;position:absolute;z-index:120;}#wrapper{background-color:#fff;}#i19fwjgm7v{width:767px;height:86px;font-family:Roboto;display:block;left:735px;top:397px;position:absolute;z-index:126;font-weight:700;}#i2poezd4ka{width:508px;height:auto;display:block;left:865px;top:414px;position:absolute;z-index:124;listStyles_background-color:rgba(0,0,0,0);}#wrapper{background-color:#fff;}}
+
+
 
 {PageAttributes}
 
 [Attributes]
-Name = "Projector_Warming_Widget"
+Name = "Proj_Warming_Widget"
 PageMode = "absolute"
 Id = "d032b2e7-e5f8-49f5-959b-2a16c9b39146"
 
 [[Elements]]
+Name = ""
 Type = "widgetContainer"
+Status = ""
+Content = ""
 Classes = ["widget-container"]
 
 [[Elements.Components]]
+Name = ""
 Type = "Ch5 Text"
+Status = ""
+Content = ""
 Editable = true
 
 [[Elements.Components.Components]]
+Name = ""
 Type = "textnode"
+Status = ""
 Content = "\n              "
 
 [Elements.Components.Attributes]
@@ -50,11 +62,16 @@ ccid_themeCSSSet = "true"
 labelinnerhtml = "PROJECTOR WARMING UP"
 oldID = "id8r"
 [[Elements.Components]]
+Name = ""
 Type = "Ch5 Subpage Reference List"
+Status = ""
+Content = ""
 Editable = true
 
 [[Elements.Components.Components]]
+Name = ""
 Type = "textnode"
+Status = ""
 Content = "\n              "
 
 [Elements.Components.Attributes]
@@ -82,7 +99,10 @@ devicesVisited = "[\"4K Monitor\"]"
 oldID = "i41o"
 widgetid = "wdea9a2f2-f0a7-4130-8f03-134c07721838"
 [[Elements.Components]]
+Name = ""
 Type = "html-div"
+Status = ""
+Content = ""
 
 [Elements.Components.Attributes]
 componentName = "Warming BG"

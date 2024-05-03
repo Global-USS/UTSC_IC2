@@ -1,9 +1,9 @@
 {FileMetadata}
 Schema = "1.0.0.0"
 CreatedByAppHost = "1.3300.16.0"
-Created = 2024-05-03 14:36:25.198136-04:00
+Created = 2024-05-03 14:51:27.141866-04:00
 LastModifiedByAppHost = "1.3300.16.0"
-Modified = 2024-05-03 14:36:25.198133-04:00
+Modified = 2024-05-03 14:51:27.141865-04:00
 CreatedByProjectApp = "1.3300.16.0"
 LastModifiedByProjectApp = "1.3300.16.0"
 MinimumProjectApp = "1.2600.1"
@@ -21,7 +21,7 @@ MinimumProjectApp = "1.2600.1"
 {PageAttributes}
 
 [Attributes]
-Name = "Camera_01_Control_Widget"
+Name = "Cam_01_Control_Widget"
 PageMode = "absolute"
 Id = "ae7e73ad-280a-4a6e-8c6d-355feec2bb26"
 
