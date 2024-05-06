@@ -1,0 +1,21 @@
+{FileMetadata}
+Schema = "1.0.0.0"
+CreatedByAppHost = "1.3201.17.0"
+Created = 2024-05-06 13:04:13.478647-04:00
+LastModifiedByAppHost = "1.3201.17.0"
+Modified = 2024-05-06 13:04:13.478639-04:00
+CreatedByProjectApp = "1.3201.17.0"
+LastModifiedByProjectApp = "1.3201.17.0"
+MinimumProjectApp = ""
+
+{AssetAttributes}
+
+[Attributes]
+Id = "ecf66bef-babe-42bb-ab38-8bb9beabbd65"
+Name = "Welcome_Screen_4k"
+SourceUri = "Welcome_Screen_4k.jpg"
+AspectRatio = "1.7777777777777777"
+AssetSourceType = "File"
+Username = ""
+Password = ""
+
