@@ -1,9 +1,9 @@
 {FileMetadata}
 Schema = "1.0.0.0"
 CreatedByAppHost = "1.3300.16.0"
-Created = 2024-05-06 09:30:50.356673-04:00
+Created = 2024-05-06 10:29:26.415334-04:00
 LastModifiedByAppHost = "1.3300.16.0"
-Modified = 2024-05-06 09:30:50.356664-04:00
+Modified = 2024-05-06 10:29:26.415329-04:00
 CreatedByProjectApp = "1.3300.16.0"
 LastModifiedByProjectApp = "1.3300.16.0"
 MinimumProjectApp = "1.2600.1"
@@ -11,16 +11,16 @@ MinimumProjectApp = "1.2600.1"
 {DeviceResolutionSource}
 [
   {
-    "ProjectId": "f4540e88-c276-47ff-b523-94b3fa79fb29",
+    "ProjectId": "3604c1e6-1672-47b5-8301-465267a9ffaf",
     "IsCustom": true,
     "IsSelected": true,
-    "VisitedName": "!920x1080",
-    "id": "Custom-L-0b31aba5-a9bd-4fea-b9ea-50f95e0ff0d6-1920-1080",
-    "idName": "!920x1080",
+    "VisitedName": "1920x1080",
+    "id": "Custom-L-2bd3a58d-3bcf-4d19-a0d3-05dbcd7f95c6-1920-1080",
+    "idName": "1920x1080",
     "resolutionId": "L-1920-1080",
-    "resolutionName": "!920x1080",
+    "resolutionName": "1920x1080",
     "resolutionType": "custom",
-    "deviceSpecId": "!920x1080",
+    "deviceSpecId": "1920x1080",
     "width": "1920px",
     "height": "1080px",
     "widthMedia": "1920px",
@@ -43,7 +43,7 @@ Name = "UTSC_IC2_Instructional_Centre"
 ThemeId = "light-theme.css"
 SdkId = "CH5:2.8.0"
 ComponentKey = "UiEditor"
-DeviceResolutionIds = "G-L-4KMONIT-2560-1440,D-L-TSW1070-1280-0800,Custom-L-0b31aba5-a9bd-4fea-b9ea-50f95e0ff0d6-1920-1080"
+DeviceResolutionIds = "G-L-4KMONIT-2560-1440,D-L-TSW1070-1280-0800,Custom-L-2bd3a58d-3bcf-4d19-a0d3-05dbcd7f95c6-1920-1080"
 ipId = "03"
 ProjectSchemaVersion = "3"
 
