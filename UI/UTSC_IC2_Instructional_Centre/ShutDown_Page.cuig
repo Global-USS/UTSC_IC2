@@ -1,9 +1,9 @@
 {FileMetadata}
 Schema = "1.0.0.0"
 CreatedByAppHost = "1.3300.16.0"
-Created = 2024-05-03 09:43:06.022054-04:00
+Created = 2024-05-06 09:30:19.149952-04:00
 LastModifiedByAppHost = "1.3300.16.0"
-Modified = 2024-05-03 09:43:06.022052-04:00
+Modified = 2024-05-06 09:30:19.149949-04:00
 CreatedByProjectApp = "1.3300.16.0"
 LastModifiedByProjectApp = "1.3300.16.0"
 MinimumProjectApp = "1.2600.1"
@@ -16,8 +16,12 @@ MinimumProjectApp = "1.2600.1"
 
 
 
+
+
 {Css}
 @media (max-width: 99999px){#wrapper{background-color:#fff;}#ijig{width:auto;height:427px;display:block;left:1133px;top:751px;position:absolute;z-index:24;}#irwd .ch5-text{width:925px;height:116px;color:#ffffff;font-size:40px;custom-font-size:40px;}#irwd{width:925px;height:116px;font-family:Roboto;display:block;left:902px;top:784px;position:absolute;z-index:25;}}@media (orientation: landscape) and (max-width: 2561px) and (max-height: 1441px), (orientation: landscape) and (max-width: 2559px){#ijig{left:1133px;top:751px;position:absolute;width:auto;height:427px;}}@media (orientation: landscape) and (max-width: 1281px) and (max-height: 801px), (orientation: landscape) and (max-width: 1279px){#ijig{top:353px;left:411px;position:absolute;width:auto;height:400px;}#i7yi{width:1280px;height:800px;top:0px;left:0px;position:absolute;}#irwd{top:401px;left:216px;position:absolute;}#irwd .ch5-text{font-size:25px;custom-font-size:25px;}}
+
+
 
 
 
