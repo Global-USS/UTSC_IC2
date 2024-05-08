@@ -1,15 +1,15 @@
 {FileMetadata}
 Schema = "1.0.0.0"
 CreatedByAppHost = "1.3300.16.0"
-Created = 2024-05-08 12:10:09.160822-04:00
+Created = 2024-05-08 13:44:26.714358-04:00
 LastModifiedByAppHost = "1.3300.16.0"
-Modified = 2024-05-08 12:10:09.16082-04:00
+Modified = 2024-05-08 13:44:26.714356-04:00
 CreatedByProjectApp = "1.3300.16.0"
 LastModifiedByProjectApp = "1.3300.16.0"
 MinimumProjectApp = "1.2600.1"
 
 {Html}
-<ch5-text clearlabel="false" labelmodeadvncomponent="advanced" horizontalalignment="center" verticalalignment="middle" multilinesupport="false" truncatetext="false" id="ikfl92hn59cb1" componentname="Formatted-Text_1" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;]" ccid_themecssset="true" oldid="iktd" labelinnerhtml="<p><span style=&quot;font-size: 100%;&quot;>Touch Screen To Begin</span></p>"></ch5-text><ch5-text clearlabel="false" labelmodeadvncomponent="advanced" horizontalalignment="center" verticalalignment="middle" multilinesupport="false" truncatetext="false" labelinnerhtml="<p><span style=&quot;font-size: 100%;&quot;>Welcome to <ch5-jointotext-string receiveStateValue=&quot;1&quot; textWhenEmpty=&quot;Room Name&quot;></ch5-jointotext-string></span></p>" id="iktd" componentname="Formatted-Text" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;]" ccid_themecssset="true">
+<ch5-text clearlabel="false" labelmodeadvncomponent="advanced" horizontalalignment="center" verticalalignment="middle" multilinesupport="false" truncatetext="false" id="ikfl92hn59cb1" componentname="Formatted-Text_1" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;]" ccid_themecssset="true" oldid="iktd" labelinnerhtml="<p><span style=&quot;font-size: 100%;&quot;>TOUCH SCREEN TO BEGIN</span></p>"></ch5-text><ch5-text clearlabel="false" labelmodeadvncomponent="advanced" horizontalalignment="center" verticalalignment="middle" multilinesupport="false" truncatetext="false" labelinnerhtml="<p><span style=&quot;font-size: 100%;&quot;>WELCOME TO <ch5-jointotext-string receiveStateValue=&quot;1&quot; textWhenEmpty=&quot;ROOM NAME&quot;></ch5-jointotext-string></span></p>" id="iktd" componentname="Formatted-Text" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;]" ccid_themecssset="true">
               </ch5-text><div componentname="Html-div" id="ibcfm9x9mo" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" oldid="i52n8sy4qf"></div><ch5-image refreshrate="0" customvstheme="custom" assetid="f6529e4c-658b-4d65-bc2f-d9e46a0d59fd" id="i8dh37tink" componentname="Logo" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" oldid="i12vh">
               </ch5-image><div componentname="Top.Menu.Panel" id="i52n8sy4qf" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" oldid="iv6q55rbw09gh" componentwasresized="true"></div><ch5-background scale="stretch" refreshrate="600" transitioneffect="ease" transitionduration="1s" assetid="b3bc514b-9bfe-4462-89bb-48b0e75db888" backgroundcolor="#ffffff" id="i9yqf" componentname="Background_2" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;]" imgbackgroundcolor="transparent">
               </ch5-background><ch5-background scale="stretch" refreshrate="600" transitioneffect="ease" transitionduration="1s" assetid="ecf66bef-babe-42bb-ab38-8bb9beabbd65" id="i4qcl" componentname="Background_1" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;]" imgbackgroundcolor="transparent" backgroundcolor="#ffffff">
@@ -45,7 +45,7 @@ ccid_linkSendReceive = "True"
 devicesVisited = "[\"4K Monitor\"]"
 ccid_themeCSSSet = "true"
 oldID = "iktd"
-labelinnerhtml = "<p><span style=\"font-size: 100%;\">Touch Screen To Begin</span></p>"
+labelinnerhtml = "<p><span style=\"font-size: 100%;\">TOUCH SCREEN TO BEGIN</span></p>"
 [[Elements]]
 Type = "Ch5 Text"
 Editable = true
@@ -61,7 +61,7 @@ horizontalalignment = "center"
 verticalalignment = "middle"
 multilinesupport = "false"
 truncatetext = "false"
-labelinnerhtml = "<p><span style=\"font-size: 100%;\">Welcome to <ch5-jointotext-string receiveStateValue=\"1\" textWhenEmpty=\"Room Name\"></ch5-jointotext-string></span></p>"
+labelinnerhtml = "<p><span style=\"font-size: 100%;\">WELCOME TO <ch5-jointotext-string receiveStateValue=\"1\" textWhenEmpty=\"ROOM NAME\"></ch5-jointotext-string></span></p>"
 id = "iktd"
 componentName = "Formatted-Text"
 ccid_linkSendReceive = "True"
