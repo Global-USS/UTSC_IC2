@@ -1,24 +1,20 @@
 {FileMetadata}
 Schema = "1.0.0.0"
 CreatedByAppHost = "1.3300.16.0"
-Created = 2024-05-06 09:30:19.187401-04:00
+Created = 2024-05-10 08:58:19.796613-04:00
 LastModifiedByAppHost = "1.3300.16.0"
-Modified = 2024-05-06 09:30:19.187399-04:00
+Modified = 2024-05-10 08:58:19.796611-04:00
 CreatedByProjectApp = "1.3300.16.0"
 LastModifiedByProjectApp = "1.3300.16.0"
 MinimumProjectApp = "1.2600.1"
 
 {Html}
-<div id="i8pko139hg" devicesvisited="[&quot;4K Monitor&quot;]" defaultwidth="500px" defaultheight="500px" globalcontrolcontract="on" class="widget-container"><ch5-text clearlabel="false" labelmodeadvncomponent="simple" horizontalalignment="center" verticalalignment="middle" multilinesupport="false" truncatetext="false" labelinnerhtml="Output" id="i426nzprktcbj" componentname="Txt.Ouput" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;]" ccid_themecssset="true" oldid="irt67"></ch5-text><ch5-color-chip maxvalue="255" id="i9m2qk1dahppl" componentname="Color Chip_1" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;]" previewcolor="#ffffff" oldid="i4val"></ch5-color-chip><ch5-text clearlabel="false" labelmodeadvncomponent="simple" horizontalalignment="center" verticalalignment="middle" multilinesupport="false" truncatetext="false" labelinnerhtml="Input" id="irt67" componentname="Txt.Input" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;]" ccid_themecssset="true">
-              </ch5-text><ch5-color-chip maxvalue="255" id="i4val" componentname="Color Chip" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;]" previewcolor="#ffffff">
-              </ch5-color-chip><ch5-button type="default" halignlabel="center" valignlabel="middle" checkboxshow="false" checkboxposition="left" disabled="false" pageflipattributename="pageflip" clearlabel="false" ccid_imageicontype="iconclass" ccid_linksendreceive="True" iconurlfilltype="initial" customclass="ccid-custom" affectedbypreviewstate="True" shape="custom" customvstheme="custom" id="iclorpdbn0fj3" labelinnerhtml="<p style=&quot;white-space: normal;&quot;>Send to Centre Projector</p>" pageflip="0" iconposition="top" previewstate="normal" orientation="horizontal" labelmode="advanced" componentname="Button" ccid_themecssset="true" devicesvisited="[&quot;4K Monitor&quot;]" size="custom" oldid="i7fv" selected="false" componentwasresized="true"></ch5-button><div componentname="Html-div_1" id="izfezppjrk515" devicesvisited="[&quot;4K Monitor&quot;]" oldid="ine0u"></div><ch5-text clearlabel="false" labelmodeadvncomponent="simple" horizontalalignment="center" verticalalignment="middle" multilinesupport="false" truncatetext="false" labelinnerhtml="SOURCE INFORMATION" id="iigt7y29hsb5s" componentname="Formatted-Text" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;]" ccid_themecssset="true" oldid="iivx"></ch5-text><ch5-image refreshrate="0" customvstheme="custom" assetid="ed206c27-6b8b-4855-8cbf-6e874c76b02b" id="ib99ljjx2gi1a" componentname="Image" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;]" oldid="ims7"></ch5-image><ch5-text clearlabel="false" labelmodeadvncomponent="simple" horizontalalignment="center" verticalalignment="middle" multilinesupport="false" truncatetext="false" labelinnerhtml="SOURCE INFORMATION" id="iivx" componentname="Str.Proj[2]_CurrentSrc" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;]" ccid_themecssset="true" oldid="i0s3"></ch5-text><ch5-text clearlabel="false" labelmodeadvncomponent="simple" horizontalalignment="center" verticalalignment="middle" multilinesupport="false" truncatetext="false" labelinnerhtml="SOURCE INFORMATION" id="i3gb" componentname="Str.Proj[1]_CurrentSrc" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;]" ccid_themecssset="true" oldid="i63ej"></ch5-text><ch5-image refreshrate="0" customvstheme="custom" assetid="ed206c27-6b8b-4855-8cbf-6e874c76b02b" id="ims7" componentname="DisplayImage[2]" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;]" oldid="iw0w"></ch5-image><ch5-image refreshrate="0" customvstheme="custom" assetid="ed206c27-6b8b-4855-8cbf-6e874c76b02b" id="iyxk" componentname="DisplayImage[1]" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;]" oldid="ijk09"></ch5-image><ch5-button type="default" halignlabel="center" valignlabel="middle" checkboxshow="false" checkboxposition="left" disabled="false" pageflipattributename="pageflip" clearlabel="false" ccid_imageicontype="iconclass" ccid_linksendreceive="True" iconurlfilltype="initial" customclass="ccid-custom" affectedbypreviewstate="True" shape="custom" customvstheme="custom" id="i7fv" labelinnerhtml="<p style=&quot;white-space: normal;&quot;>Send to Right Projector</p>" pageflip="0" iconposition="top" previewstate="normal" orientation="horizontal" labelmode="advanced" componentname="btn.SendToProj[2]" ccid_themecssset="true" devicesvisited="[&quot;4K Monitor&quot;]" size="custom" oldid="is7w" selected="false" componentwasresized="true" assetid="0"></ch5-button><ch5-button type="default" halignlabel="center" valignlabel="middle" checkboxshow="false" checkboxposition="left" disabled="false" pageflipattributename="pageflip" clearlabel="false" ccid_imageicontype="iconclass" ccid_linksendreceive="True" iconurlfilltype="initial" customclass="ccid-custom" affectedbypreviewstate="True" shape="custom" customvstheme="custom" id="ij59" labelinnerhtml="<p style=&quot;white-space: normal;&quot;>Send to Left Projector</p>" pageflip="0" iconposition="top" previewstate="normal" orientation="horizontal" labelmode="advanced" componentname="Btn.SendToProj[1]" ccid_themecssset="true" devicesvisited="[&quot;4K Monitor&quot;]" size="custom" oldid="ihwfebdq5h" selected="false" componentwasresized="true" assetid="0"></ch5-button><ch5-button type="default" halignlabel="center" valignlabel="middle" checkboxshow="false" checkboxposition="left" disabled="false" pageflipattributename="pageflip" clearlabel="false" ccid_imageicontype="iconclass" ccid_linksendreceive="True" iconurlfilltype="initial" customclass="ccid-custom" affectedbypreviewstate="True" shape="custom" customvstheme="custom" id="inyg" labelinnerhtml="<p style=&quot;white-space: normal;&quot;>Document Camera</p>" pageflip="0" iconposition="top" previewstate="normal" orientation="horizontal" labelmode="advanced" componentname="Btn.SrcSelect[DocCam]" ccid_themecssset="true" devicesvisited="[&quot;4K Monitor&quot;]" size="custom" oldid="imkw1rxm98q5h" iconclass="fas fa-folder" componentwasresized="true" selected="false" assetid="0"></ch5-button><ch5-button type="default" halignlabel="center" valignlabel="middle" checkboxshow="false" checkboxposition="left" disabled="false" pageflipattributename="pageflip" clearlabel="false" ccid_imageicontype="iconclass" ccid_linksendreceive="True" iconurlfilltype="initial" customclass="ccid-custom" affectedbypreviewstate="True" shape="custom" customvstheme="custom" id="iesr" labelinnerhtml="Laptop HDMI" pageflip="0" iconposition="top" previewstate="normal" orientation="horizontal" labelmode="simple" componentname="Btn.SrcSelect[HDMI]" ccid_themecssset="true" devicesvisited="[&quot;4K Monitor&quot;]" size="custom" oldid="i2zckdty6uhxg" iconclass="fas fa-laptop" componentwasresized="true" selected="false" assetid="0"></ch5-button><ch5-button type="default" halignlabel="center" valignlabel="middle" checkboxshow="false" checkboxposition="left" disabled="false" pageflipattributename="pageflip" clearlabel="false" ccid_imageicontype="iconclass" ccid_linksendreceive="True" iconurlfilltype="initial" customclass="ccid-custom" affectedbypreviewstate="True" shape="custom" customvstheme="custom" id="i3tm" labelinnerhtml="Room PC" pageflip="0" iconposition="top" previewstate="normal" orientation="horizontal" labelmode="simple" componentname="Btn.SrcSelect[RoomPc]" ccid_themecssset="true" devicesvisited="[&quot;4K Monitor&quot;]" size="custom" oldid="idqqgbd0qx2sj" iconclass="fas fa-desktop" componentwasresized="true" selected="false" assetid="0"></ch5-button><div componentname="Html-div" id="ine0u" devicesvisited="[&quot;4K Monitor&quot;]"></div></div>
-
-
+<div id="i8pko139hg" devicesvisited="[&quot;4K Monitor&quot;]" defaultwidth="500px" defaultheight="500px" globalcontrolcontract="on" class="widget-container"><ch5-text clearlabel="false" labelmodeadvncomponent="simple" horizontalalignment="center" verticalalignment="middle" multilinesupport="false" truncatetext="false" labelinnerhtml="SOURCE INFORMATION" id="iivx" componentname="Str.Proj[3]_CurrentSrc" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;]" ccid_themecssset="true" oldid="i0s3"></ch5-text><ch5-text clearlabel="false" labelmodeadvncomponent="simple" horizontalalignment="center" verticalalignment="middle" multilinesupport="false" truncatetext="false" labelinnerhtml="SOURCE INFORMATION" id="iigt7y29hsb5s" componentname="Str.Proj[2]_CurrentSrc" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;]" ccid_themecssset="true" oldid="iivx"></ch5-text><ch5-text clearlabel="false" labelmodeadvncomponent="simple" horizontalalignment="center" verticalalignment="middle" multilinesupport="false" truncatetext="false" labelinnerhtml="SOURCE INFORMATION" id="i3gb" componentname="Str.Proj[1]_CurrentSrc" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;]" ccid_themecssset="true" oldid="i63ej"></ch5-text><ch5-image refreshrate="0" customvstheme="custom" assetid="ed206c27-6b8b-4855-8cbf-6e874c76b02b" id="ims7" componentname="DisplayImage[3]" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;]" oldid="iw0w"></ch5-image><ch5-image refreshrate="0" customvstheme="custom" assetid="ed206c27-6b8b-4855-8cbf-6e874c76b02b" id="ib99ljjx2gi1a" componentname="DisplayImage[2]" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;]" oldid="ims7"></ch5-image><ch5-image refreshrate="0" customvstheme="custom" assetid="ed206c27-6b8b-4855-8cbf-6e874c76b02b" id="iyxk" componentname="DisplayImage[1]" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;]" oldid="ijk09"></ch5-image><ch5-button type="default" halignlabel="center" valignlabel="middle" checkboxshow="false" checkboxposition="left" disabled="false" pageflipattributename="pageflip" clearlabel="false" ccid_imageicontype="iconclass" ccid_linksendreceive="True" iconurlfilltype="initial" customclass="ccid-custom" affectedbypreviewstate="True" shape="custom" customvstheme="custom" id="i7fv" labelinnerhtml="<p style=&quot;white-space: normal;&quot;>Send to Right Projector</p>" pageflip="0" iconposition="top" previewstate="normal" orientation="horizontal" labelmode="advanced" componentname="Btn.SendToProj[3]" ccid_themecssset="true" devicesvisited="[&quot;4K Monitor&quot;]" size="custom" oldid="is7w" selected="false" componentwasresized="true"></ch5-button><ch5-button type="default" halignlabel="center" valignlabel="middle" checkboxshow="false" checkboxposition="left" disabled="false" pageflipattributename="pageflip" clearlabel="false" ccid_imageicontype="iconclass" ccid_linksendreceive="True" iconurlfilltype="initial" customclass="ccid-custom" affectedbypreviewstate="True" shape="custom" customvstheme="custom" id="iclorpdbn0fj3" labelinnerhtml="<p style=&quot;white-space: normal;&quot;>Send to Centre Projector</p>" pageflip="0" iconposition="top" previewstate="normal" orientation="horizontal" labelmode="advanced" componentname="Btn.SendToProj[2]" ccid_themecssset="true" devicesvisited="[&quot;4K Monitor&quot;]" size="custom" oldid="i7fv" selected="false" componentwasresized="true"></ch5-button><ch5-button type="default" halignlabel="center" valignlabel="middle" checkboxshow="false" checkboxposition="left" disabled="false" pageflipattributename="pageflip" clearlabel="false" ccid_imageicontype="iconclass" ccid_linksendreceive="True" iconurlfilltype="initial" customclass="ccid-custom" affectedbypreviewstate="True" shape="custom" customvstheme="custom" id="ij59" labelinnerhtml="<p style=&quot;white-space: normal;&quot;>Send to Left Projector</p>" pageflip="0" iconposition="top" previewstate="normal" orientation="horizontal" labelmode="advanced" componentname="Btn.SendToProj[1]" ccid_themecssset="true" devicesvisited="[&quot;4K Monitor&quot;]" size="custom" oldid="ihwfebdq5h" selected="false" componentwasresized="true" assetid="0"></ch5-button><ch5-text clearlabel="false" labelmodeadvncomponent="simple" horizontalalignment="center" verticalalignment="middle" multilinesupport="false" truncatetext="false" labelinnerhtml="Output" id="i426nzprktcbj" componentname="Txt.Ouput" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;]" ccid_themecssset="true" oldid="irt67"></ch5-text><ch5-color-chip maxvalue="255" id="i9m2qk1dahppl" componentname="Txt.Output.Bg" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;]" previewcolor="#ffffff" oldid="i4val"></ch5-color-chip><div componentname="OutputBorder" id="izfezppjrk515" devicesvisited="[&quot;4K Monitor&quot;]" oldid="ine0u"></div><ch5-button type="default" halignlabel="center" valignlabel="middle" checkboxshow="false" checkboxposition="left" disabled="false" pageflipattributename="pageflip" clearlabel="false" ccid_imageicontype="iconclass" ccid_linksendreceive="True" iconurlfilltype="initial" customclass="ccid-custom" affectedbypreviewstate="True" shape="custom" customvstheme="custom" id="inyg" labelinnerhtml="<p style=&quot;white-space: normal;&quot;>Document Camera</p>" pageflip="0" iconposition="top" previewstate="normal" orientation="horizontal" labelmode="advanced" componentname="Btn.SrcSelect[DocCam]" ccid_themecssset="true" devicesvisited="[&quot;4K Monitor&quot;]" size="custom" oldid="imkw1rxm98q5h" iconclass="fas fa-folder" componentwasresized="true" selected="false" assetid="0"></ch5-button><ch5-button type="default" halignlabel="center" valignlabel="middle" checkboxshow="false" checkboxposition="left" disabled="false" pageflipattributename="pageflip" clearlabel="false" ccid_imageicontype="iconclass" ccid_linksendreceive="True" iconurlfilltype="initial" customclass="ccid-custom" affectedbypreviewstate="True" shape="custom" customvstheme="custom" id="iesr" labelinnerhtml="Laptop HDMI" pageflip="0" iconposition="top" previewstate="normal" orientation="horizontal" labelmode="simple" componentname="Btn.SrcSelect[HDMI]" ccid_themecssset="true" devicesvisited="[&quot;4K Monitor&quot;]" size="custom" oldid="i2zckdty6uhxg" iconclass="fas fa-laptop" componentwasresized="true" selected="false" assetid="0"></ch5-button><ch5-button type="default" halignlabel="center" valignlabel="middle" checkboxshow="false" checkboxposition="left" disabled="false" pageflipattributename="pageflip" clearlabel="false" ccid_imageicontype="iconclass" ccid_linksendreceive="True" iconurlfilltype="initial" customclass="ccid-custom" affectedbypreviewstate="True" shape="custom" customvstheme="custom" id="i3tm" labelinnerhtml="Room PC" pageflip="0" iconposition="top" previewstate="normal" orientation="horizontal" labelmode="simple" componentname="Btn.SrcSelect[RoomPc]" ccid_themecssset="true" devicesvisited="[&quot;4K Monitor&quot;]" size="custom" oldid="idqqgbd0qx2sj" iconclass="fas fa-desktop" componentwasresized="true" selected="false"></ch5-button><ch5-text clearlabel="false" labelmodeadvncomponent="simple" horizontalalignment="center" verticalalignment="middle" multilinesupport="false" truncatetext="false" labelinnerhtml="Input" id="irt67" componentname="Txt.Input" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;]" ccid_themecssset="true">
+              </ch5-text><ch5-color-chip maxvalue="255" id="i4val" componentname="Txt.Input.BG" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;]" previewcolor="#ffffff">
+              </ch5-color-chip><div componentname="InputBorder" id="ine0u" devicesvisited="[&quot;4K Monitor&quot;]"></div></div>
 
 {Css}
-@media (max-width: 99999px){#i3tm .ch5-button--default{border-style:solid;border-color:#0091ea;color:#ffffff;background-color:#0099ff;border-width:0;max-height:100%;max-width:100%;display:flex;align-items:center;}#i3tm .ch5-button--default .ch5-button--label{font-family:Roboto;color:#ffffff;font-size:30px;font-weight:400;buttonDefaultLabel_font-size:30px;buttonDefaultLabel_color:#ffffff;buttonDefaultLabel_font-weight:400;custom-font-size:30px;margin-left:0;margin-right:0;margin-bottom:0;}#i3tm .ch5-button--default .ch5-button--icon{color:#ffffff;font-size:30px;custom-font-size:30px;buttonDefaultIcon_font-size:30px;buttonDefaultIcon_color:#ffffff;margin-left:0;margin-right:0;margin-bottom:0;}#i3tm .ch5-button--default .cb-checkbox-icon{color:#ffffff;buttonDefaultCheckbox_color:#ffffff;}#i3tm .ccid-custom.ch5-button--default .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#i3tm .ch5-button--default.ch5-button--pressed{color:#f0fff0;background-color:#76c8ff;border-color:#0091ea;}#i3tm .ch5-button--default.ch5-button--pressed .ch5-button--label{color:#f0fff0;font-size:25px;font-weight:400;buttonDefaultPressedLabel_font-size:25px;buttonDefaultPressedLabel_color:#f0fff0;buttonDefaultPressedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:25px;}#i3tm .ch5-button--default.ch5-button--pressed .ch5-button--icon{color:#f0fff0;font-size:25px;custom-font-size:25px;buttonDefaultPressedIcon_font-size:25px;buttonDefaultPressedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#i3tm .ch5-button--default.ch5-button--pressed .cb-checkbox-icon{color:#f0fff0;buttonDefaultPressedCheckbox_color:#f0fff0;}#i3tm .ccid-custom.ch5-button--default.ch5-button--pressed .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#i3tm .ch5-button--default.ch5-button--selected{color:#f0fff0;background-color:#02426d;border-color:#0091ea;}#i3tm .ch5-button--default.ch5-button--selected .ch5-button--label{color:#f0fff0;font-size:30px;font-weight:400;buttonDefaultSelectedLabel_font-size:30px;buttonDefaultSelectedLabel_color:#f0fff0;buttonDefaultSelectedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:30px;}#i3tm .ch5-button--default.ch5-button--selected .ch5-button--icon{color:#f0fff0;font-size:30px;custom-font-size:30px;buttonDefaultSelectedIcon_font-size:30px;buttonDefaultSelectedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#i3tm .ch5-button--default.ch5-button--selected .cb-checkbox-icon{color:#f0fff0;buttonDefaultSelectedCheckbox_color:#f0fff0;}#i3tm .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#i3tm .ch5-button--size-regular .cb-btn{width:237px;height:133px;}#i3tm .ch5-button--circle.ch5-button--size-regular .cb-btn{width:237px;height:237px;}#i3tm{width:237px;height:133px;left:388px;pointer-events:all;font-family:Roboto;display:block;top:288px;position:absolute;z-index:147;buttonDefaultLabel_font-size:30px;buttonDefaultPressedLabel_font-size:25px;buttonDefaultSelectedLabel_font-size:30px;buttonDefaultIcon_font-size:30px;buttonDefaultPressedIcon_font-size:25px;buttonDefaultSelectedIcon_font-size:30px;newRuleWidth:237px;newRuleHeight:133px;}#i3tm .ch5-button--rounded-rectangle{border-top-left-radius:20px;border-radius:20px 20px 20px 20px;border-top-right-radius:20px;border-bottom-right-radius:20px;border-bottom-left-radius:20px;}#iesr{width:237px;height:133px;left:388px;pointer-events:all;font-family:Roboto;display:block;top:517px;position:absolute;z-index:134;buttonDefaultLabel_font-size:30px;buttonDefaultIcon_font-size:30px;buttonDefaultPressedLabel_font-size:25px;buttonDefaultPressedIcon_font-size:25px;buttonDefaultSelectedLabel_font-size:30px;buttonDefaultSelectedIcon_font-size:30px;newRuleWidth:237px;newRuleHeight:133px;}#iesr .ch5-button--default{border-style:solid;border-color:#0091ea;color:#ffffff;background-color:#0099ff;border-width:0;max-height:100%;max-width:100%;display:flex;align-items:center;}#iesr .ch5-button--default .ch5-button--label{font-family:Roboto;color:#ffffff;font-size:30px;font-weight:400;buttonDefaultLabel_font-size:30px;buttonDefaultLabel_color:#ffffff;buttonDefaultLabel_font-weight:400;custom-font-size:30px;margin-left:0;margin-right:0;margin-bottom:0;}#iesr .ch5-button--default .ch5-button--icon{color:#ffffff;font-size:30px;custom-font-size:30px;buttonDefaultIcon_font-size:30px;buttonDefaultIcon_color:#ffffff;margin-left:0;margin-right:0;margin-bottom:0;}#iesr .ch5-button--default .cb-checkbox-icon{color:#ffffff;buttonDefaultCheckbox_color:#ffffff;}#iesr .ccid-custom.ch5-button--default .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#iesr .ch5-button--default.ch5-button--pressed{color:#f0fff0;background-color:#008ae6;border-color:#0091ea;}#iesr .ch5-button--default.ch5-button--pressed .ch5-button--label{color:#f0fff0;font-size:25px;font-weight:400;buttonDefaultPressedLabel_font-size:25px;buttonDefaultPressedLabel_color:#f0fff0;buttonDefaultPressedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:25px;}#iesr .ch5-button--default.ch5-button--pressed .ch5-button--icon{color:#f0fff0;font-size:25px;custom-font-size:25px;buttonDefaultPressedIcon_font-size:25px;buttonDefaultPressedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#iesr .ch5-button--default.ch5-button--pressed .cb-checkbox-icon{color:#f0fff0;buttonDefaultPressedCheckbox_color:#f0fff0;}#iesr .ccid-custom.ch5-button--default.ch5-button--pressed .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#iesr .ch5-button--default.ch5-button--selected{color:#f0fff0;background-color:#02426d;border-color:#0091ea;}#iesr .ch5-button--default.ch5-button--selected .ch5-button--label{color:#f0fff0;font-size:30px;font-weight:400;buttonDefaultSelectedLabel_font-size:30px;buttonDefaultSelectedLabel_color:#f0fff0;buttonDefaultSelectedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:30px;}#iesr .ch5-button--default.ch5-button--selected .ch5-button--icon{color:#f0fff0;font-size:30px;custom-font-size:30px;buttonDefaultSelectedIcon_font-size:30px;buttonDefaultSelectedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#iesr .ch5-button--default.ch5-button--selected .cb-checkbox-icon{color:#f0fff0;buttonDefaultSelectedCheckbox_color:#f0fff0;}#iesr .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#iesr .ch5-button--size-regular .cb-btn{width:237px;height:133px;}#iesr .ch5-button--circle.ch5-button--size-regular .cb-btn{width:237px;height:237px;}#iesr .ch5-button--rounded-rectangle{border-top-left-radius:20px;border-radius:20px 20px 20px 20px;border-top-right-radius:20px;border-bottom-right-radius:20px;border-bottom-left-radius:20px;}#inyg{width:237px;height:133px;left:388px;pointer-events:none;font-family:Roboto;display:block;top:743px;position:absolute;z-index:135;buttonDefaultLabel_font-size:30px;buttonDefaultIcon_font-size:30px;buttonDefaultSelectedLabel_font-size:30px;buttonDefaultSelectedIcon_font-size:30px;buttonDefaultPressedLabel_font-size:28px;buttonDefaultPressedIcon_font-size:25px;newRuleWidth:237px;newRuleHeight:133px;}#inyg .ch5-button--default{border-style:solid;border-color:#0091ea;color:#ffffff;background-color:#0099ff;border-width:0;max-height:100%;max-width:100%;display:flex;align-items:center;}#inyg .ch5-button--default .ch5-button--label{font-family:Roboto;color:#ffffff;font-size:30px;font-weight:400;buttonDefaultLabel_font-size:30px;buttonDefaultLabel_color:#ffffff;buttonDefaultLabel_font-weight:400;custom-font-size:30px;margin-left:0;margin-right:0;margin-bottom:0;buttonDefaultLabel_margin-top:-15px;margin-top:-30px;}#inyg .ch5-button--default .ch5-button--icon{color:#ffffff;font-size:30px;custom-font-size:30px;buttonDefaultIcon_font-size:30px;buttonDefaultIcon_color:#ffffff;margin-left:0;margin-right:0;margin-bottom:0;buttonDefaultIcon_margin-top:5px;margin-top:10px;}#inyg .ch5-button--default .cb-checkbox-icon{color:#ffffff;buttonDefaultCheckbox_color:#ffffff;}#inyg .ccid-custom.ch5-button--default .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#inyg .ch5-button--default.ch5-button--pressed{color:#f0fff0;background-color:#0099ff;border-color:#0091ea;}#inyg .ch5-button--default.ch5-button--pressed .ch5-button--label{color:#f0fff0;font-size:28px;font-weight:400;buttonDefaultPressedLabel_font-size:28px;buttonDefaultPressedLabel_color:#f0fff0;buttonDefaultPressedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:28px;buttonDefaultPressedLabel_margin-top:-15px;margin-top:-30px;}#inyg .ch5-button--default.ch5-button--pressed .ch5-button--icon{color:#f0fff0;font-size:25px;custom-font-size:25px;buttonDefaultPressedIcon_font-size:25px;buttonDefaultPressedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;buttonDefaultPressedIcon_margin-top:10px;margin-top:20px;}#inyg .ch5-button--default.ch5-button--pressed .cb-checkbox-icon{color:#f0fff0;buttonDefaultPressedCheckbox_color:#f0fff0;}#inyg .ccid-custom.ch5-button--default.ch5-button--pressed .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#inyg .ch5-button--default.ch5-button--selected{color:#f0fff0;background-color:#02426d;border-color:#0091ea;}#inyg .ch5-button--default.ch5-button--selected .ch5-button--label{color:#f0fff0;font-size:30px;font-weight:400;buttonDefaultSelectedLabel_font-size:30px;buttonDefaultSelectedLabel_color:#f0fff0;buttonDefaultSelectedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:30px;buttonDefaultSelectedLabel_margin-top:-15px;margin-top:-30px;}#inyg .ch5-button--default.ch5-button--selected .ch5-button--icon{color:#f0fff0;font-size:30px;custom-font-size:30px;buttonDefaultSelectedIcon_font-size:30px;buttonDefaultSelectedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;buttonDefaultSelectedIcon_margin-top:5px;margin-top:10px;}#inyg .ch5-button--default.ch5-button--selected .cb-checkbox-icon{color:#f0fff0;buttonDefaultSelectedCheckbox_color:#f0fff0;}#inyg .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#inyg .ch5-button--size-regular .cb-btn{width:237px;height:133px;}#inyg .ch5-button--circle.ch5-button--size-regular .cb-btn{width:237px;height:237px;}#inyg .ch5-button--vertical:not(.ch5-button--circle).ch5-button--size-regular{width:133px;height:237px;}#inyg .ch5-button--rounded-rectangle.ch5-button--pressed{border-top-left-radius:20px;border-radius:20px 20px 20px 20px;border-top-right-radius:20px;border-bottom-right-radius:20px;border-bottom-left-radius:20px;}#inyg .ch5-button--rounded-rectangle{border-top-left-radius:20px;border-radius:20px 20px 20px 20px;border-top-right-radius:20px;border-bottom-right-radius:20px;border-bottom-left-radius:20px;}#ij59{width:237px;height:133px;left:1012px;pointer-events:all;font-family:Roboto;display:block;top:247px;position:absolute;z-index:136;buttonDefaultLabel_font-size:30px;buttonDefaultPressedLabel_font-size:30px;buttonDefaultPressedIcon_font-size:25px;buttonDefaultSelectedIcon_font-size:30px;buttonDefaultIcon_font-size:30px;newRuleWidth:237px;newRuleHeight:133px;}#ij59 .ch5-button--default{border-style:solid;border-color:#0091ea;color:#ffffff;background-color:#92005d;border-width:0;max-height:100%;max-width:100%;display:flex;align-items:center;}#ij59 .ch5-button--default .ch5-button--label{font-family:Roboto;color:#ffffff;font-size:30px;font-weight:400;buttonDefaultLabel_font-size:30px;buttonDefaultLabel_color:#ffffff;buttonDefaultLabel_font-weight:400;custom-font-size:30px;margin-left:0;margin-right:0;margin-bottom:0;}#ij59 .ch5-button--default .ch5-button--icon{color:#ffffff;font-size:30px;custom-font-size:30px;buttonDefaultIcon_font-size:30px;buttonDefaultIcon_color:#ffffff;margin-left:0;margin-right:0;margin-bottom:0;}#ij59 .ch5-button--default .cb-checkbox-icon{color:#ffffff;buttonDefaultCheckbox_color:#ffffff;}#ij59 .ccid-custom.ch5-button--default .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#ij59 .ch5-button--default.ch5-button--pressed{color:#f0fff0;background-color:#92005d;border-color:#0091ea;}#ij59 .ch5-button--default.ch5-button--pressed .ch5-button--label{color:#f0fff0;font-size:30px;font-weight:400;buttonDefaultPressedLabel_font-size:30px;buttonDefaultPressedLabel_color:#f0fff0;buttonDefaultPressedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:30px;buttonDefaultPressedLabel_margin-top:2px;margin-top:4px;}#ij59 .ch5-button--default.ch5-button--pressed .ch5-button--icon{color:#f0fff0;font-size:25px;custom-font-size:25px;buttonDefaultPressedIcon_font-size:25px;buttonDefaultPressedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;buttonDefaultPressedIcon_margin-top:0;margin-top:0;}#ij59 .ch5-button--default.ch5-button--pressed .cb-checkbox-icon{color:#f0fff0;buttonDefaultPressedCheckbox_color:#f0fff0;}#ij59 .ccid-custom.ch5-button--default.ch5-button--pressed .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#ij59 .ch5-button--default.ch5-button--selected{color:#f0fff0;background-color:#d20086;border-color:#0091ea;}#ij59 .ch5-button--default.ch5-button--selected .ch5-button--label{color:#f0fff0;font-size:30px;font-weight:400;buttonDefaultSelectedLabel_font-size:30px;buttonDefaultSelectedLabel_color:#f0fff0;buttonDefaultSelectedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:30px;}#ij59 .ch5-button--default.ch5-button--selected .ch5-button--icon{color:#f0fff0;font-size:30px;custom-font-size:30px;buttonDefaultSelectedIcon_font-size:30px;buttonDefaultSelectedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#ij59 .ch5-button--default.ch5-button--selected .cb-checkbox-icon{color:#f0fff0;buttonDefaultSelectedCheckbox_color:#f0fff0;}#ij59 .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#ij59 .ch5-button--size-regular .cb-btn{width:237px;height:133px;}#ij59 .ch5-button--circle.ch5-button--size-regular .cb-btn{width:237px;height:237px;}#ij59 .ch5-button--rounded-rectangle{border-top-left-radius:20px;border-radius:20px 20px 20px 20px;border-top-right-radius:20px;border-bottom-right-radius:20px;border-bottom-left-radius:20px;}#iyxk{width:453px;height:340px;pointer-events:all;display:block;left:1399px;top:144px;position:absolute;z-index:141;}#iyxk .ch5-image{border-color:black;object-fit:contain;}#i3gb{width:390px;height:48px;font-family:Roboto;display:block;left:1431px;top:290px;position:absolute;z-index:143;font-weight:700;}#i3gb .ch5-text{width:390px;height:48px;background-color:rgba(146,0,93,0);color:#ffffff;font-weight:700;font-size:30px;custom-font-size:30px;}#i8pko139hg{width:2224px;height:1193px;left:0;top:0;position:absolute;}#wrapper{background-color:#fff;}.widget-container{background-image:linear-gradient(45deg, #DAE2EA 25%, transparent 25%), linear-gradient(-45deg, #DAE2EA 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #DAE2EA 75%), linear-gradient(-45deg, transparent 75%, #DAE2EA 75%);background-size:20px 20px;background-position:0 0, 0 10px, 10px -10px, -10px 0px;z-index:0;}#ia7i .ch5-image{border-color:black;object-fit:contain;}#iajc6897wuluf .ch5-button--default{border-style:solid;border-color:#0091ea;color:#ffffff;background-color:#92005d;border-width:1px;}#iajc6897wuluf .ch5-button--default .ch5-button--label{font-family:Roboto;color:#ffffff;font-size:30px;font-weight:400;buttonDefaultLabel_font-size:30px;buttonDefaultLabel_color:#ffffff;buttonDefaultLabel_font-weight:400;custom-font-size:30px;margin-left:0;margin-right:0;margin-bottom:0;}#iajc6897wuluf .ch5-button--default .ch5-button--icon{color:#ffffff;font-size:30px;custom-font-size:30px;buttonDefaultIcon_font-size:30px;buttonDefaultIcon_color:#ffffff;margin-left:0;margin-right:0;margin-bottom:0;}#iajc6897wuluf .ch5-button--default .cb-checkbox-icon{color:#ffffff;buttonDefaultCheckbox_color:#ffffff;}#iajc6897wuluf .ccid-custom.ch5-button--default .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#iajc6897wuluf .ch5-button--default.ch5-button--pressed{color:#f0fff0;background-color:#63849b;border-color:#0091ea;}#iajc6897wuluf .ch5-button--default.ch5-button--pressed .ch5-button--label{color:#f0fff0;font-size:25px;font-weight:400;buttonDefaultPressedLabel_font-size:25px;buttonDefaultPressedLabel_color:#f0fff0;buttonDefaultPressedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:25px;}#iajc6897wuluf .ch5-button--default.ch5-button--pressed .ch5-button--icon{color:#f0fff0;font-size:25px;custom-font-size:25px;buttonDefaultPressedIcon_font-size:25px;buttonDefaultPressedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#iajc6897wuluf .ch5-button--default.ch5-button--pressed .cb-checkbox-icon{color:#f0fff0;buttonDefaultPressedCheckbox_color:#f0fff0;}#iajc6897wuluf .ccid-custom.ch5-button--default.ch5-button--pressed .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#iajc6897wuluf .ch5-button--default.ch5-button--selected{color:#f0fff0;background-color:#012841;border-color:#0091ea;}#iajc6897wuluf .ch5-button--default.ch5-button--selected .ch5-button--label{color:#f0fff0;font-size:30px;font-weight:400;buttonDefaultSelectedLabel_font-size:30px;buttonDefaultSelectedLabel_color:#f0fff0;buttonDefaultSelectedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:30px;}#iajc6897wuluf .ch5-button--default.ch5-button--selected .ch5-button--icon{color:#f0fff0;font-size:30px;custom-font-size:30px;buttonDefaultSelectedIcon_font-size:30px;buttonDefaultSelectedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#iajc6897wuluf .ch5-button--default.ch5-button--selected .cb-checkbox-icon{color:#f0fff0;buttonDefaultSelectedCheckbox_color:#f0fff0;}#iajc6897wuluf .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#iajc6897wuluf .ch5-button--size-regular .cb-btn{width:237px;height:133px;}#iajc6897wuluf .ch5-button--circle.ch5-button--size-regular .cb-btn{width:237px;height:237px;}#iajc6897wuluf .ch5-button--rounded-rectangle{border-top-left-radius:20px;border-radius:20px 20px 20px 20px;border-top-right-radius:20px;border-bottom-right-radius:20px;border-bottom-left-radius:20px;}#ims7 .ch5-image{border-color:black;object-fit:contain;}#ims7{width:453px;height:340px;pointer-events:all;display:block;left:1399px;top:687px;position:absolute;z-index:142;}#iivx{width:390px;height:48px;font-family:Roboto;display:block;left:1431px;top:833px;position:absolute;z-index:144;font-weight:700;}#iivx .ch5-text{width:390px;height:48px;background-color:rgba(146,0,93,0);color:#ffffff;font-weight:700;font-size:30px;custom-font-size:30px;}#i7fv .ch5-button--default{border-style:solid;border-color:#0091ea;color:#ffffff;background-color:#92005d;border-width:0;max-height:100%;max-width:100%;display:flex;align-items:center;}#i7fv .ch5-button--default .ch5-button--label{font-family:Roboto;color:#ffffff;font-size:30px;font-weight:400;buttonDefaultLabel_font-size:30px;buttonDefaultLabel_color:#ffffff;buttonDefaultLabel_font-weight:400;custom-font-size:30px;margin-left:0;margin-right:0;margin-bottom:0;}#i7fv .ch5-button--default .ch5-button--icon{color:#ffffff;font-size:30px;custom-font-size:30px;buttonDefaultIcon_font-size:30px;buttonDefaultIcon_color:#ffffff;margin-left:0;margin-right:0;margin-bottom:0;}#i7fv .ch5-button--default .cb-checkbox-icon{color:#ffffff;buttonDefaultCheckbox_color:#ffffff;}#i7fv .ccid-custom.ch5-button--default .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#i7fv .ch5-button--default.ch5-button--pressed{color:#f0fff0;background-color:#92005d;border-color:#0091ea;}#i7fv .ch5-button--default.ch5-button--pressed .ch5-button--label{color:#f0fff0;font-size:30px;font-weight:400;buttonDefaultPressedLabel_font-size:30px;buttonDefaultPressedLabel_color:#f0fff0;buttonDefaultPressedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:30px;buttonDefaultPressedLabel_margin-top:2px;margin-top:4px;}#i7fv .ch5-button--default.ch5-button--pressed .ch5-button--icon{color:#f0fff0;font-size:25px;custom-font-size:25px;buttonDefaultPressedIcon_font-size:25px;buttonDefaultPressedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;buttonDefaultPressedIcon_margin-top:0;margin-top:0;}#i7fv .ch5-button--default.ch5-button--pressed .cb-checkbox-icon{color:#f0fff0;buttonDefaultPressedCheckbox_color:#f0fff0;}#i7fv .ccid-custom.ch5-button--default.ch5-button--pressed .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#i7fv .ch5-button--default.ch5-button--selected{color:#f0fff0;background-color:#d20086;border-color:#0091ea;}#i7fv .ch5-button--default.ch5-button--selected .ch5-button--label{color:#f0fff0;font-size:30px;font-weight:400;buttonDefaultSelectedLabel_font-size:30px;buttonDefaultSelectedLabel_color:#f0fff0;buttonDefaultSelectedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:30px;}#i7fv .ch5-button--default.ch5-button--selected .ch5-button--icon{color:#f0fff0;font-size:30px;custom-font-size:30px;buttonDefaultSelectedIcon_font-size:30px;buttonDefaultSelectedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#i7fv .ch5-button--default.ch5-button--selected .cb-checkbox-icon{color:#f0fff0;buttonDefaultSelectedCheckbox_color:#f0fff0;}#i7fv .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#i7fv .ch5-button--size-regular .cb-btn{width:237px;height:133px;}#i7fv .ch5-button--circle.ch5-button--size-regular .cb-btn{width:237px;height:237px;}#i7fv .ch5-button--rounded-rectangle{border-top-left-radius:20px;border-radius:20px 20px 20px 20px;border-top-right-radius:20px;border-bottom-right-radius:20px;border-bottom-left-radius:20px;}#i7fv{width:237px;height:133px;left:1012px;pointer-events:all;font-family:Roboto;display:block;top:790px;position:absolute;z-index:139;buttonDefaultLabel_font-size:30px;buttonDefaultPressedLabel_font-size:30px;buttonDefaultPressedIcon_font-size:25px;buttonDefaultSelectedIcon_font-size:30px;buttonDefaultIcon_font-size:30px;newRuleWidth:237px;newRuleHeight:133px;}#ib99ljjx2gi1a{width:449px;height:340px;pointer-events:all;display:block;left:1399px;top:417px;position:absolute;z-index:145;}#iigt7y29hsb5s{width:390px;height:48px;font-family:Roboto;display:block;left:1431px;top:559px;position:absolute;z-index:147;font-weight:700;}#iclorpdbn0fj3{width:237px;height:133px;left:1012px;pointer-events:all;font-family:Roboto;display:block;top:516px;position:absolute;z-index:149;buttonDefaultLabel_font-size:30px;buttonDefaultPressedLabel_font-size:30px;buttonDefaultPressedIcon_font-size:25px;buttonDefaultSelectedIcon_font-size:30px;buttonDefaultIcon_font-size:30px;newRuleWidth:237px;newRuleHeight:133px;}#ib99ljjx2gi1a .ch5-image{border-color:black;object-fit:contain;}#iigt7y29hsb5s .ch5-text{width:390px;height:48px;background-color:rgba(146,0,93,0);color:#ffffff;font-weight:700;font-size:30px;custom-font-size:30px;}#iclorpdbn0fj3 .ch5-button--default{border-style:solid;border-color:#0091ea;color:#ffffff;background-color:#92005d;border-width:0;max-height:100%;max-width:100%;display:flex;align-items:center;}#iclorpdbn0fj3 .ch5-button--default .ch5-button--label{font-family:Roboto;color:#ffffff;font-size:30px;font-weight:400;buttonDefaultLabel_font-size:30px;buttonDefaultLabel_color:#ffffff;buttonDefaultLabel_font-weight:400;custom-font-size:30px;margin-left:0;margin-right:0;margin-bottom:0;}#iclorpdbn0fj3 .ch5-button--default .ch5-button--icon{color:#ffffff;font-size:30px;custom-font-size:30px;buttonDefaultIcon_font-size:30px;buttonDefaultIcon_color:#ffffff;margin-left:0;margin-right:0;margin-bottom:0;}#iclorpdbn0fj3 .ch5-button--default .cb-checkbox-icon{color:#ffffff;buttonDefaultCheckbox_color:#ffffff;}#iclorpdbn0fj3 .ccid-custom.ch5-button--default .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#iclorpdbn0fj3 .ch5-button--default.ch5-button--pressed{color:#f0fff0;background-color:#92005d;border-color:#0091ea;}#iclorpdbn0fj3 .ch5-button--default.ch5-button--pressed .ch5-button--label{color:#f0fff0;font-size:30px;font-weight:400;buttonDefaultPressedLabel_font-size:30px;buttonDefaultPressedLabel_color:#f0fff0;buttonDefaultPressedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:30px;buttonDefaultPressedLabel_margin-top:2px;margin-top:4px;}#iclorpdbn0fj3 .ch5-button--default.ch5-button--pressed .ch5-button--icon{color:#f0fff0;font-size:25px;custom-font-size:25px;buttonDefaultPressedIcon_font-size:25px;buttonDefaultPressedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;buttonDefaultPressedIcon_margin-top:0;margin-top:0;}#iclorpdbn0fj3 .ch5-button--default.ch5-button--pressed .cb-checkbox-icon{color:#f0fff0;buttonDefaultPressedCheckbox_color:#f0fff0;}#iclorpdbn0fj3 .ccid-custom.ch5-button--default.ch5-button--pressed .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#iclorpdbn0fj3 .ch5-button--default.ch5-button--selected{color:#f0fff0;background-color:#d20086;border-color:#0091ea;}#iclorpdbn0fj3 .ch5-button--default.ch5-button--selected .ch5-button--label{color:#f0fff0;font-size:30px;font-weight:400;buttonDefaultSelectedLabel_font-size:30px;buttonDefaultSelectedLabel_color:#f0fff0;buttonDefaultSelectedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:30px;}#iclorpdbn0fj3 .ch5-button--default.ch5-button--selected .ch5-button--icon{color:#f0fff0;font-size:30px;custom-font-size:30px;buttonDefaultSelectedIcon_font-size:30px;buttonDefaultSelectedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#iclorpdbn0fj3 .ch5-button--default.ch5-button--selected .cb-checkbox-icon{color:#f0fff0;buttonDefaultSelectedCheckbox_color:#f0fff0;}#iclorpdbn0fj3 .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#iclorpdbn0fj3 .ch5-button--size-regular .cb-btn{width:237px;height:133px;}#iclorpdbn0fj3 .ch5-button--circle.ch5-button--size-regular .cb-btn{width:237px;height:237px;}#iclorpdbn0fj3 .ch5-button--rounded-rectangle{border-top-left-radius:20px;border-radius:20px 20px 20px 20px;border-top-right-radius:20px;border-bottom-right-radius:20px;border-bottom-left-radius:20px;}#ine0u{display:block;background-color:rgba(182,198,213,0);border-style:solid;border-width:5px;border-color:#0099ff;width:324px;height:810px;left:345px;top:186px;position:absolute;z-index:146;border-top-left-radius:20px;border-radius:20px 20px 20px 20px;border-top-right-radius:20px;border-bottom-right-radius:20px;border-bottom-left-radius:20px;}#izfezppjrk515{display:block;background-color:rgba(182,198,213,0);border-style:solid;border-width:5px;border-color:#0099ff;width:1137px;height:945px;left:870px;top:104px;position:absolute;z-index:160;border-top-left-radius:20px;border-radius:20px 20px 20px 20px;border-top-right-radius:20px;border-bottom-right-radius:20px;border-bottom-left-radius:20px;}#irt67 .ch5-text{width:113px;height:48px;font-size:30px;custom-font-size:30px;font-weight:700;}#i4val .ch5-color-chip{width:106px;height:40px;colorChipPreview_background-color:#ffffff;background-color:#ffffff;}#i4val{width:106px;height:40px;display:block;left:438px;top:168px;position:absolute;z-index:161;colorChipPreview_background-color:#ffffff;}#i4val .ch5-color-chip-preview{background-color:#ffffff;colorChipPreview_background-color:#ffffff;}#i9m2qk1dahppl{width:122px;height:40px;display:block;left:978px;top:85px;position:absolute;z-index:165;colorChipPreview_background-color:#ffffff;}#i426nzprktcbj .ch5-text{width:139px;height:48px;font-size:30px;custom-font-size:30px;font-weight:700;}#i9m2qk1dahppl .ch5-color-chip{width:122px;height:40px;colorChipPreview_background-color:#ffffff;background-color:#ffffff;}#i9m2qk1dahppl .ch5-color-chip-preview{background-color:#ffffff;colorChipPreview_background-color:#ffffff;}#irt67{width:119px;height:48px;font-family:Roboto;display:block;left:447px;top:165px;position:absolute;z-index:162;font-weight:700;}#i426nzprktcbj{width:139px;height:48px;font-family:Roboto;display:block;left:969px;top:80px;position:absolute;z-index:184;font-weight:700;}}@media (orientation: landscape) and (max-width: 2561px) and (max-height: 1441px), (orientation: landscape) and (max-width: 2559px){#i3tm{left:388px;top:288px;position:absolute;width:237px;height:133px;z-index:168;buttonDefaultPressedLabel_font-size:25px;buttonDefaultSelectedLabel_font-size:30px;buttonDefaultIcon_font-size:30px;buttonDefaultPressedIcon_font-size:25px;buttonDefaultSelectedIcon_font-size:30px;newRuleWidth:237px;newRuleHeight:133px;}#i3tm .ch5-button--vertical .cx-button-checkbox-pos-left{padding-left:0px;}#i3tm .ch5-button--vertical .cx-button-checkbox-pos-right{padding-right:0px;}#iesr{left:388px;top:517px;position:absolute;width:237px;height:133px;z-index:169;buttonDefaultIcon_font-size:30px;buttonDefaultPressedLabel_font-size:25px;buttonDefaultPressedIcon_font-size:25px;buttonDefaultSelectedLabel_font-size:30px;buttonDefaultSelectedIcon_font-size:30px;newRuleWidth:237px;newRuleHeight:133px;}#iesr .ch5-button--vertical .cx-button-checkbox-pos-left{padding-left:0px;}#iesr .ch5-button--vertical .cx-button-checkbox-pos-right{padding-right:0px;}#inyg{left:388px;top:743px;position:absolute;width:237px;height:133px;display:block;z-index:170;buttonDefaultIcon_font-size:30px;buttonDefaultSelectedLabel_font-size:30px;buttonDefaultSelectedIcon_font-size:30px;buttonDefaultPressedLabel_font-size:28px;buttonDefaultPressedIcon_font-size:25px;newRuleWidth:237px;newRuleHeight:133px;}#inyg .ch5-button--vertical .cx-button-checkbox-pos-left{padding-left:0px;}#inyg .ch5-button--vertical .cx-button-checkbox-pos-right{padding-right:0px;}#ij59{left:1012px;top:247px;position:absolute;width:237px;height:133px;buttonDefaultPressedLabel_font-size:30px;buttonDefaultPressedIcon_font-size:25px;buttonDefaultSelectedIcon_font-size:30px;buttonDefaultIcon_font-size:30px;newRuleWidth:237px;newRuleHeight:133px;z-index:171;}#ij59 .ch5-button--vertical .cx-button-checkbox-pos-left{padding-left:0px;}#ij59 .ch5-button--vertical .cx-button-checkbox-pos-right{padding-right:0px;}#iyxk{left:1399px;top:144px;position:absolute;width:453px;height:340px;z-index:173;}#i3gb{left:1431px;top:290px;position:absolute;width:390px;height:48px;z-index:175;}#i8pko139hg{width:2224px;height:1193px;left:0;top:0;position:absolute;}body{background-color:#fff;}#ims7{left:1399px;top:687px;position:absolute;width:453px;height:340px;z-index:174;}#iivx{left:1431px;top:833px;z-index:176;}#i7fv .ch5-button--vertical .cx-button-checkbox-pos-left{padding-left:0px;}#i7fv .ch5-button--vertical .cx-button-checkbox-pos-right{padding-right:0px;}#i7fv{left:1012px;top:790px;z-index:172;}#ib99ljjx2gi1a{left:1399px;top:417px;position:absolute;width:449px;height:340px;z-index:177;}#iigt7y29hsb5s{left:1431px;top:559px;z-index:178;}#iclorpdbn0fj3{left:1012px;top:516px;z-index:180;}#iclorpdbn0fj3 .ch5-button--vertical .cx-button-checkbox-pos-left{padding-left:0px;}#iclorpdbn0fj3 .ch5-button--vertical .cx-button-checkbox-pos-right{padding-right:0px;}#ine0u{display:block;background-color:rgba(182,198,213,0);border-style:solid;border-width:5px;border-color:#0099ff;width:324px;height:810px;left:345px;top:186px;position:absolute;z-index:167;border-top-left-radius:20px;border-radius:20px 20px 20px 20px;border-top-right-radius:20px;border-bottom-right-radius:20px;border-bottom-left-radius:20px;}#izfezppjrk515{display:block;background-color:rgba(182,198,213,0);border-style:solid;border-width:5px;border-color:#0099ff;width:1137px;height:945px;left:870px;top:104px;position:absolute;z-index:179;border-top-left-radius:20px;border-radius:20px 20px 20px 20px;border-top-right-radius:20px;border-bottom-right-radius:20px;border-bottom-left-radius:20px;}#i4val{width:106px;height:40px;display:block;left:450px;top:168px;position:absolute;z-index:181;colorChipPreview_background-color:#ffffff;}#i9m2qk1dahppl{left:978px;top:85px;position:absolute;width:122px;height:40px;z-index:183;}#irt67{width:119px;height:48px;font-family:Roboto;display:block;left:447px;top:165px;position:absolute;z-index:182;font-weight:700;}#i426nzprktcbj{left:969px;top:80px;z-index:184;position:absolute;width:139px;height:48px;}#wrapper{background-color:#fff;}}
-
-
+@media (max-width: 99999px){#i3tm .ch5-button--default{border-style:solid;border-color:#0091ea;color:#ffffff;background-color:#0099ff;border-width:0;max-height:100%;max-width:100%;display:flex;align-items:center;}#i3tm .ch5-button--default .ch5-button--label{font-family:Roboto;color:#ffffff;font-size:30px;font-weight:400;buttonDefaultLabel_font-size:30px;buttonDefaultLabel_color:#ffffff;buttonDefaultLabel_font-weight:400;custom-font-size:30px;margin-left:0;margin-right:0;margin-bottom:0;}#i3tm .ch5-button--default .ch5-button--icon{color:#ffffff;font-size:30px;custom-font-size:30px;buttonDefaultIcon_font-size:30px;buttonDefaultIcon_color:#ffffff;margin-left:0;margin-right:0;margin-bottom:0;}#i3tm .ch5-button--default .cb-checkbox-icon{color:#ffffff;buttonDefaultCheckbox_color:#ffffff;}#i3tm .ccid-custom.ch5-button--default .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#i3tm .ch5-button--default.ch5-button--pressed{color:#f0fff0;background-color:#76c8ff;border-color:#0091ea;}#i3tm .ch5-button--default.ch5-button--pressed .ch5-button--label{color:#f0fff0;font-size:25px;font-weight:400;buttonDefaultPressedLabel_font-size:25px;buttonDefaultPressedLabel_color:#f0fff0;buttonDefaultPressedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:25px;}#i3tm .ch5-button--default.ch5-button--pressed .ch5-button--icon{color:#f0fff0;font-size:25px;custom-font-size:25px;buttonDefaultPressedIcon_font-size:25px;buttonDefaultPressedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#i3tm .ch5-button--default.ch5-button--pressed .cb-checkbox-icon{color:#f0fff0;buttonDefaultPressedCheckbox_color:#f0fff0;}#i3tm .ccid-custom.ch5-button--default.ch5-button--pressed .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#i3tm .ch5-button--default.ch5-button--selected{color:#f0fff0;background-color:#02426d;border-color:#0091ea;}#i3tm .ch5-button--default.ch5-button--selected .ch5-button--label{color:#f0fff0;font-size:30px;font-weight:400;buttonDefaultSelectedLabel_font-size:30px;buttonDefaultSelectedLabel_color:#f0fff0;buttonDefaultSelectedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:30px;}#i3tm .ch5-button--default.ch5-button--selected .ch5-button--icon{color:#f0fff0;font-size:30px;custom-font-size:30px;buttonDefaultSelectedIcon_font-size:30px;buttonDefaultSelectedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#i3tm .ch5-button--default.ch5-button--selected .cb-checkbox-icon{color:#f0fff0;buttonDefaultSelectedCheckbox_color:#f0fff0;}#i3tm .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#i3tm .ch5-button--size-regular .cb-btn{width:237px;height:133px;}#i3tm .ch5-button--circle.ch5-button--size-regular .cb-btn{width:237px;height:237px;}#i3tm{width:237px;height:133px;left:388px;pointer-events:all;font-family:Roboto;display:block;top:288px;position:absolute;z-index:147;buttonDefaultLabel_font-size:30px;buttonDefaultPressedLabel_font-size:25px;buttonDefaultSelectedLabel_font-size:30px;buttonDefaultIcon_font-size:30px;buttonDefaultPressedIcon_font-size:25px;buttonDefaultSelectedIcon_font-size:30px;newRuleWidth:237px;newRuleHeight:133px;}#i3tm .ch5-button--rounded-rectangle{border-top-left-radius:20px;border-radius:20px 20px 20px 20px;border-top-right-radius:20px;border-bottom-right-radius:20px;border-bottom-left-radius:20px;}#iesr{width:237px;height:133px;left:388px;pointer-events:all;font-family:Roboto;display:block;top:517px;position:absolute;z-index:134;buttonDefaultLabel_font-size:30px;buttonDefaultIcon_font-size:30px;buttonDefaultPressedLabel_font-size:25px;buttonDefaultPressedIcon_font-size:25px;buttonDefaultSelectedLabel_font-size:30px;buttonDefaultSelectedIcon_font-size:30px;newRuleWidth:237px;newRuleHeight:133px;}#iesr .ch5-button--default{border-style:solid;border-color:#0091ea;color:#ffffff;background-color:#0099ff;border-width:0;max-height:100%;max-width:100%;display:flex;align-items:center;}#iesr .ch5-button--default .ch5-button--label{font-family:Roboto;color:#ffffff;font-size:30px;font-weight:400;buttonDefaultLabel_font-size:30px;buttonDefaultLabel_color:#ffffff;buttonDefaultLabel_font-weight:400;custom-font-size:30px;margin-left:0;margin-right:0;margin-bottom:0;}#iesr .ch5-button--default .ch5-button--icon{color:#ffffff;font-size:30px;custom-font-size:30px;buttonDefaultIcon_font-size:30px;buttonDefaultIcon_color:#ffffff;margin-left:0;margin-right:0;margin-bottom:0;}#iesr .ch5-button--default .cb-checkbox-icon{color:#ffffff;buttonDefaultCheckbox_color:#ffffff;}#iesr .ccid-custom.ch5-button--default .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#iesr .ch5-button--default.ch5-button--pressed{color:#f0fff0;background-color:#008ae6;border-color:#0091ea;}#iesr .ch5-button--default.ch5-button--pressed .ch5-button--label{color:#f0fff0;font-size:25px;font-weight:400;buttonDefaultPressedLabel_font-size:25px;buttonDefaultPressedLabel_color:#f0fff0;buttonDefaultPressedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:25px;}#iesr .ch5-button--default.ch5-button--pressed .ch5-button--icon{color:#f0fff0;font-size:25px;custom-font-size:25px;buttonDefaultPressedIcon_font-size:25px;buttonDefaultPressedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#iesr .ch5-button--default.ch5-button--pressed .cb-checkbox-icon{color:#f0fff0;buttonDefaultPressedCheckbox_color:#f0fff0;}#iesr .ccid-custom.ch5-button--default.ch5-button--pressed .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#iesr .ch5-button--default.ch5-button--selected{color:#f0fff0;background-color:#02426d;border-color:#0091ea;}#iesr .ch5-button--default.ch5-button--selected .ch5-button--label{color:#f0fff0;font-size:30px;font-weight:400;buttonDefaultSelectedLabel_font-size:30px;buttonDefaultSelectedLabel_color:#f0fff0;buttonDefaultSelectedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:30px;}#iesr .ch5-button--default.ch5-button--selected .ch5-button--icon{color:#f0fff0;font-size:30px;custom-font-size:30px;buttonDefaultSelectedIcon_font-size:30px;buttonDefaultSelectedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#iesr .ch5-button--default.ch5-button--selected .cb-checkbox-icon{color:#f0fff0;buttonDefaultSelectedCheckbox_color:#f0fff0;}#iesr .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#iesr .ch5-button--size-regular .cb-btn{width:237px;height:133px;}#iesr .ch5-button--circle.ch5-button--size-regular .cb-btn{width:237px;height:237px;}#iesr .ch5-button--rounded-rectangle{border-top-left-radius:20px;border-radius:20px 20px 20px 20px;border-top-right-radius:20px;border-bottom-right-radius:20px;border-bottom-left-radius:20px;}#inyg{width:237px;height:133px;left:388px;pointer-events:none;font-family:Roboto;display:block;top:743px;position:absolute;z-index:135;buttonDefaultLabel_font-size:30px;buttonDefaultIcon_font-size:30px;buttonDefaultSelectedLabel_font-size:30px;buttonDefaultSelectedIcon_font-size:30px;buttonDefaultPressedLabel_font-size:28px;buttonDefaultPressedIcon_font-size:25px;newRuleWidth:237px;newRuleHeight:133px;}#inyg .ch5-button--default{border-style:solid;border-color:#0091ea;color:#ffffff;background-color:#0099ff;border-width:0;max-height:100%;max-width:100%;display:flex;align-items:center;}#inyg .ch5-button--default .ch5-button--label{font-family:Roboto;color:#ffffff;font-size:30px;font-weight:400;buttonDefaultLabel_font-size:30px;buttonDefaultLabel_color:#ffffff;buttonDefaultLabel_font-weight:400;custom-font-size:30px;margin-left:0;margin-right:0;margin-bottom:0;buttonDefaultLabel_margin-top:-15px;margin-top:-30px;}#inyg .ch5-button--default .ch5-button--icon{color:#ffffff;font-size:30px;custom-font-size:30px;buttonDefaultIcon_font-size:30px;buttonDefaultIcon_color:#ffffff;margin-left:0;margin-right:0;margin-bottom:0;buttonDefaultIcon_margin-top:5px;margin-top:10px;}#inyg .ch5-button--default .cb-checkbox-icon{color:#ffffff;buttonDefaultCheckbox_color:#ffffff;}#inyg .ccid-custom.ch5-button--default .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#inyg .ch5-button--default.ch5-button--pressed{color:#f0fff0;background-color:#0099ff;border-color:#0091ea;}#inyg .ch5-button--default.ch5-button--pressed .ch5-button--label{color:#f0fff0;font-size:28px;font-weight:400;buttonDefaultPressedLabel_font-size:28px;buttonDefaultPressedLabel_color:#f0fff0;buttonDefaultPressedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:28px;buttonDefaultPressedLabel_margin-top:-15px;margin-top:-30px;}#inyg .ch5-button--default.ch5-button--pressed .ch5-button--icon{color:#f0fff0;font-size:25px;custom-font-size:25px;buttonDefaultPressedIcon_font-size:25px;buttonDefaultPressedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;buttonDefaultPressedIcon_margin-top:10px;margin-top:20px;}#inyg .ch5-button--default.ch5-button--pressed .cb-checkbox-icon{color:#f0fff0;buttonDefaultPressedCheckbox_color:#f0fff0;}#inyg .ccid-custom.ch5-button--default.ch5-button--pressed .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#inyg .ch5-button--default.ch5-button--selected{color:#f0fff0;background-color:#02426d;border-color:#0091ea;}#inyg .ch5-button--default.ch5-button--selected .ch5-button--label{color:#f0fff0;font-size:30px;font-weight:400;buttonDefaultSelectedLabel_font-size:30px;buttonDefaultSelectedLabel_color:#f0fff0;buttonDefaultSelectedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:30px;buttonDefaultSelectedLabel_margin-top:-15px;margin-top:-30px;}#inyg .ch5-button--default.ch5-button--selected .ch5-button--icon{color:#f0fff0;font-size:30px;custom-font-size:30px;buttonDefaultSelectedIcon_font-size:30px;buttonDefaultSelectedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;buttonDefaultSelectedIcon_margin-top:5px;margin-top:10px;}#inyg .ch5-button--default.ch5-button--selected .cb-checkbox-icon{color:#f0fff0;buttonDefaultSelectedCheckbox_color:#f0fff0;}#inyg .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#inyg .ch5-button--size-regular .cb-btn{width:237px;height:133px;}#inyg .ch5-button--circle.ch5-button--size-regular .cb-btn{width:237px;height:237px;}#inyg .ch5-button--vertical:not(.ch5-button--circle).ch5-button--size-regular{width:133px;height:237px;}#inyg .ch5-button--rounded-rectangle.ch5-button--pressed{border-top-left-radius:20px;border-radius:20px 20px 20px 20px;border-top-right-radius:20px;border-bottom-right-radius:20px;border-bottom-left-radius:20px;}#inyg .ch5-button--rounded-rectangle{border-top-left-radius:20px;border-radius:20px 20px 20px 20px;border-top-right-radius:20px;border-bottom-right-radius:20px;border-bottom-left-radius:20px;}#ij59{width:237px;height:133px;left:1012px;pointer-events:all;font-family:Roboto;display:block;top:247px;position:absolute;z-index:136;buttonDefaultLabel_font-size:30px;buttonDefaultPressedLabel_font-size:30px;buttonDefaultPressedIcon_font-size:25px;buttonDefaultSelectedIcon_font-size:30px;buttonDefaultIcon_font-size:30px;newRuleWidth:237px;newRuleHeight:133px;}#ij59 .ch5-button--default{border-style:solid;border-color:#0091ea;color:#ffffff;background-color:#92005d;border-width:0;max-height:100%;max-width:100%;display:flex;align-items:center;}#ij59 .ch5-button--default .ch5-button--label{font-family:Roboto;color:#ffffff;font-size:30px;font-weight:400;buttonDefaultLabel_font-size:30px;buttonDefaultLabel_color:#ffffff;buttonDefaultLabel_font-weight:400;custom-font-size:30px;margin-left:0;margin-right:0;margin-bottom:0;}#ij59 .ch5-button--default .ch5-button--icon{color:#ffffff;font-size:30px;custom-font-size:30px;buttonDefaultIcon_font-size:30px;buttonDefaultIcon_color:#ffffff;margin-left:0;margin-right:0;margin-bottom:0;}#ij59 .ch5-button--default .cb-checkbox-icon{color:#ffffff;buttonDefaultCheckbox_color:#ffffff;}#ij59 .ccid-custom.ch5-button--default .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#ij59 .ch5-button--default.ch5-button--pressed{color:#f0fff0;background-color:#92005d;border-color:#0091ea;}#ij59 .ch5-button--default.ch5-button--pressed .ch5-button--label{color:#f0fff0;font-size:30px;font-weight:400;buttonDefaultPressedLabel_font-size:30px;buttonDefaultPressedLabel_color:#f0fff0;buttonDefaultPressedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:30px;buttonDefaultPressedLabel_margin-top:2px;margin-top:4px;}#ij59 .ch5-button--default.ch5-button--pressed .ch5-button--icon{color:#f0fff0;font-size:25px;custom-font-size:25px;buttonDefaultPressedIcon_font-size:25px;buttonDefaultPressedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;buttonDefaultPressedIcon_margin-top:0;margin-top:0;}#ij59 .ch5-button--default.ch5-button--pressed .cb-checkbox-icon{color:#f0fff0;buttonDefaultPressedCheckbox_color:#f0fff0;}#ij59 .ccid-custom.ch5-button--default.ch5-button--pressed .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#ij59 .ch5-button--default.ch5-button--selected{color:#f0fff0;background-color:#d20086;border-color:#0091ea;}#ij59 .ch5-button--default.ch5-button--selected .ch5-button--label{color:#f0fff0;font-size:30px;font-weight:400;buttonDefaultSelectedLabel_font-size:30px;buttonDefaultSelectedLabel_color:#f0fff0;buttonDefaultSelectedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:30px;}#ij59 .ch5-button--default.ch5-button--selected .ch5-button--icon{color:#f0fff0;font-size:30px;custom-font-size:30px;buttonDefaultSelectedIcon_font-size:30px;buttonDefaultSelectedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#ij59 .ch5-button--default.ch5-button--selected .cb-checkbox-icon{color:#f0fff0;buttonDefaultSelectedCheckbox_color:#f0fff0;}#ij59 .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#ij59 .ch5-button--size-regular .cb-btn{width:237px;height:133px;}#ij59 .ch5-button--circle.ch5-button--size-regular .cb-btn{width:237px;height:237px;}#ij59 .ch5-button--rounded-rectangle{border-top-left-radius:20px;border-radius:20px 20px 20px 20px;border-top-right-radius:20px;border-bottom-right-radius:20px;border-bottom-left-radius:20px;}#iyxk{width:453px;height:340px;pointer-events:all;display:block;left:1399px;top:144px;position:absolute;z-index:141;}#iyxk .ch5-image{border-color:black;object-fit:contain;}#i3gb{width:390px;height:48px;font-family:Roboto;display:block;left:1431px;top:290px;position:absolute;z-index:143;font-weight:700;}#i3gb .ch5-text{width:390px;height:48px;background-color:rgba(146,0,93,0);color:#ffffff;font-weight:700;font-size:30px;custom-font-size:30px;}#i8pko139hg{width:2224px;height:1193px;left:0;top:0;position:absolute;}#wrapper{background-color:#fff;}.widget-container{background-image:linear-gradient(45deg, #DAE2EA 25%, transparent 25%), linear-gradient(-45deg, #DAE2EA 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #DAE2EA 75%), linear-gradient(-45deg, transparent 75%, #DAE2EA 75%);background-size:20px 20px;background-position:0 0, 0 10px, 10px -10px, -10px 0px;z-index:0;}#ia7i .ch5-image{border-color:black;object-fit:contain;}#iajc6897wuluf .ch5-button--default{border-style:solid;border-color:#0091ea;color:#ffffff;background-color:#92005d;border-width:1px;}#iajc6897wuluf .ch5-button--default .ch5-button--label{font-family:Roboto;color:#ffffff;font-size:30px;font-weight:400;buttonDefaultLabel_font-size:30px;buttonDefaultLabel_color:#ffffff;buttonDefaultLabel_font-weight:400;custom-font-size:30px;margin-left:0;margin-right:0;margin-bottom:0;}#iajc6897wuluf .ch5-button--default .ch5-button--icon{color:#ffffff;font-size:30px;custom-font-size:30px;buttonDefaultIcon_font-size:30px;buttonDefaultIcon_color:#ffffff;margin-left:0;margin-right:0;margin-bottom:0;}#iajc6897wuluf .ch5-button--default .cb-checkbox-icon{color:#ffffff;buttonDefaultCheckbox_color:#ffffff;}#iajc6897wuluf .ccid-custom.ch5-button--default .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#iajc6897wuluf .ch5-button--default.ch5-button--pressed{color:#f0fff0;background-color:#63849b;border-color:#0091ea;}#iajc6897wuluf .ch5-button--default.ch5-button--pressed .ch5-button--label{color:#f0fff0;font-size:25px;font-weight:400;buttonDefaultPressedLabel_font-size:25px;buttonDefaultPressedLabel_color:#f0fff0;buttonDefaultPressedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:25px;}#iajc6897wuluf .ch5-button--default.ch5-button--pressed .ch5-button--icon{color:#f0fff0;font-size:25px;custom-font-size:25px;buttonDefaultPressedIcon_font-size:25px;buttonDefaultPressedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#iajc6897wuluf .ch5-button--default.ch5-button--pressed .cb-checkbox-icon{color:#f0fff0;buttonDefaultPressedCheckbox_color:#f0fff0;}#iajc6897wuluf .ccid-custom.ch5-button--default.ch5-button--pressed .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#iajc6897wuluf .ch5-button--default.ch5-button--selected{color:#f0fff0;background-color:#012841;border-color:#0091ea;}#iajc6897wuluf .ch5-button--default.ch5-button--selected .ch5-button--label{color:#f0fff0;font-size:30px;font-weight:400;buttonDefaultSelectedLabel_font-size:30px;buttonDefaultSelectedLabel_color:#f0fff0;buttonDefaultSelectedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:30px;}#iajc6897wuluf .ch5-button--default.ch5-button--selected .ch5-button--icon{color:#f0fff0;font-size:30px;custom-font-size:30px;buttonDefaultSelectedIcon_font-size:30px;buttonDefaultSelectedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#iajc6897wuluf .ch5-button--default.ch5-button--selected .cb-checkbox-icon{color:#f0fff0;buttonDefaultSelectedCheckbox_color:#f0fff0;}#iajc6897wuluf .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#iajc6897wuluf .ch5-button--size-regular .cb-btn{width:237px;height:133px;}#iajc6897wuluf .ch5-button--circle.ch5-button--size-regular .cb-btn{width:237px;height:237px;}#iajc6897wuluf .ch5-button--rounded-rectangle{border-top-left-radius:20px;border-radius:20px 20px 20px 20px;border-top-right-radius:20px;border-bottom-right-radius:20px;border-bottom-left-radius:20px;}#ims7 .ch5-image{border-color:black;object-fit:contain;}#ims7{width:453px;height:340px;pointer-events:all;display:block;left:1399px;top:687px;position:absolute;z-index:142;}#iivx .ch5-text{width:390px;height:48px;background-color:rgba(146,0,93,0);color:#ffffff;font-weight:700;font-size:30px;custom-font-size:30px;}#i7fv .ch5-button--default{border-style:solid;border-color:#0091ea;color:#ffffff;background-color:#92005d;border-width:0;max-height:100%;max-width:100%;display:flex;align-items:center;}#i7fv .ch5-button--default .ch5-button--label{font-family:Roboto;color:#ffffff;font-size:30px;font-weight:400;buttonDefaultLabel_font-size:30px;buttonDefaultLabel_color:#ffffff;buttonDefaultLabel_font-weight:400;custom-font-size:30px;margin-left:0;margin-right:0;margin-bottom:0;}#i7fv .ch5-button--default .ch5-button--icon{color:#ffffff;font-size:30px;custom-font-size:30px;buttonDefaultIcon_font-size:30px;buttonDefaultIcon_color:#ffffff;margin-left:0;margin-right:0;margin-bottom:0;}#i7fv .ch5-button--default .cb-checkbox-icon{color:#ffffff;buttonDefaultCheckbox_color:#ffffff;}#i7fv .ccid-custom.ch5-button--default .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#i7fv .ch5-button--default.ch5-button--pressed{color:#f0fff0;background-color:#92005d;border-color:#0091ea;}#i7fv .ch5-button--default.ch5-button--pressed .ch5-button--label{color:#f0fff0;font-size:30px;font-weight:400;buttonDefaultPressedLabel_font-size:30px;buttonDefaultPressedLabel_color:#f0fff0;buttonDefaultPressedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:30px;buttonDefaultPressedLabel_margin-top:2px;margin-top:4px;}#i7fv .ch5-button--default.ch5-button--pressed .ch5-button--icon{color:#f0fff0;font-size:25px;custom-font-size:25px;buttonDefaultPressedIcon_font-size:25px;buttonDefaultPressedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;buttonDefaultPressedIcon_margin-top:0;margin-top:0;}#i7fv .ch5-button--default.ch5-button--pressed .cb-checkbox-icon{color:#f0fff0;buttonDefaultPressedCheckbox_color:#f0fff0;}#i7fv .ccid-custom.ch5-button--default.ch5-button--pressed .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#i7fv .ch5-button--default.ch5-button--selected{color:#f0fff0;background-color:#d20086;border-color:#0091ea;}#i7fv .ch5-button--default.ch5-button--selected .ch5-button--label{color:#f0fff0;font-size:30px;font-weight:400;buttonDefaultSelectedLabel_font-size:30px;buttonDefaultSelectedLabel_color:#f0fff0;buttonDefaultSelectedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:30px;}#i7fv .ch5-button--default.ch5-button--selected .ch5-button--icon{color:#f0fff0;font-size:30px;custom-font-size:30px;buttonDefaultSelectedIcon_font-size:30px;buttonDefaultSelectedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#i7fv .ch5-button--default.ch5-button--selected .cb-checkbox-icon{color:#f0fff0;buttonDefaultSelectedCheckbox_color:#f0fff0;}#i7fv .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#i7fv .ch5-button--size-regular .cb-btn{width:237px;height:133px;}#i7fv .ch5-button--circle.ch5-button--size-regular .cb-btn{width:237px;height:237px;}#i7fv .ch5-button--rounded-rectangle{border-top-left-radius:20px;border-radius:20px 20px 20px 20px;border-top-right-radius:20px;border-bottom-right-radius:20px;border-bottom-left-radius:20px;}#i7fv{width:237px;height:133px;left:1012px;pointer-events:all;font-family:Roboto;display:block;top:790px;position:absolute;z-index:139;buttonDefaultLabel_font-size:30px;buttonDefaultPressedLabel_font-size:30px;buttonDefaultPressedIcon_font-size:25px;buttonDefaultSelectedIcon_font-size:30px;buttonDefaultIcon_font-size:30px;newRuleWidth:237px;newRuleHeight:133px;}#ib99ljjx2gi1a{width:449px;height:340px;pointer-events:all;display:block;left:1399px;top:417px;position:absolute;z-index:145;}#iclorpdbn0fj3{width:237px;height:133px;left:1012px;pointer-events:all;font-family:Roboto;display:block;top:516px;position:absolute;z-index:149;buttonDefaultLabel_font-size:30px;buttonDefaultPressedLabel_font-size:30px;buttonDefaultPressedIcon_font-size:25px;buttonDefaultSelectedIcon_font-size:30px;buttonDefaultIcon_font-size:30px;newRuleWidth:237px;newRuleHeight:133px;}#ib99ljjx2gi1a .ch5-image{border-color:black;object-fit:contain;}#iigt7y29hsb5s .ch5-text{width:390px;height:48px;background-color:rgba(146,0,93,0);color:#ffffff;font-weight:700;font-size:30px;custom-font-size:30px;}#iclorpdbn0fj3 .ch5-button--default{border-style:solid;border-color:#0091ea;color:#ffffff;background-color:#92005d;border-width:0;max-height:100%;max-width:100%;display:flex;align-items:center;}#iclorpdbn0fj3 .ch5-button--default .ch5-button--label{font-family:Roboto;color:#ffffff;font-size:30px;font-weight:400;buttonDefaultLabel_font-size:30px;buttonDefaultLabel_color:#ffffff;buttonDefaultLabel_font-weight:400;custom-font-size:30px;margin-left:0;margin-right:0;margin-bottom:0;}#iclorpdbn0fj3 .ch5-button--default .ch5-button--icon{color:#ffffff;font-size:30px;custom-font-size:30px;buttonDefaultIcon_font-size:30px;buttonDefaultIcon_color:#ffffff;margin-left:0;margin-right:0;margin-bottom:0;}#iclorpdbn0fj3 .ch5-button--default .cb-checkbox-icon{color:#ffffff;buttonDefaultCheckbox_color:#ffffff;}#iclorpdbn0fj3 .ccid-custom.ch5-button--default .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#iclorpdbn0fj3 .ch5-button--default.ch5-button--pressed{color:#f0fff0;background-color:#92005d;border-color:#0091ea;}#iclorpdbn0fj3 .ch5-button--default.ch5-button--pressed .ch5-button--label{color:#f0fff0;font-size:30px;font-weight:400;buttonDefaultPressedLabel_font-size:30px;buttonDefaultPressedLabel_color:#f0fff0;buttonDefaultPressedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:30px;buttonDefaultPressedLabel_margin-top:2px;margin-top:4px;}#iclorpdbn0fj3 .ch5-button--default.ch5-button--pressed .ch5-button--icon{color:#f0fff0;font-size:25px;custom-font-size:25px;buttonDefaultPressedIcon_font-size:25px;buttonDefaultPressedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;buttonDefaultPressedIcon_margin-top:0;margin-top:0;}#iclorpdbn0fj3 .ch5-button--default.ch5-button--pressed .cb-checkbox-icon{color:#f0fff0;buttonDefaultPressedCheckbox_color:#f0fff0;}#iclorpdbn0fj3 .ccid-custom.ch5-button--default.ch5-button--pressed .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#iclorpdbn0fj3 .ch5-button--default.ch5-button--selected{color:#f0fff0;background-color:#d20086;border-color:#0091ea;}#iclorpdbn0fj3 .ch5-button--default.ch5-button--selected .ch5-button--label{color:#f0fff0;font-size:30px;font-weight:400;buttonDefaultSelectedLabel_font-size:30px;buttonDefaultSelectedLabel_color:#f0fff0;buttonDefaultSelectedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:30px;}#iclorpdbn0fj3 .ch5-button--default.ch5-button--selected .ch5-button--icon{color:#f0fff0;font-size:30px;custom-font-size:30px;buttonDefaultSelectedIcon_font-size:30px;buttonDefaultSelectedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#iclorpdbn0fj3 .ch5-button--default.ch5-button--selected .cb-checkbox-icon{color:#f0fff0;buttonDefaultSelectedCheckbox_color:#f0fff0;}#iclorpdbn0fj3 .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#iclorpdbn0fj3 .ch5-button--size-regular .cb-btn{width:237px;height:133px;}#iclorpdbn0fj3 .ch5-button--circle.ch5-button--size-regular .cb-btn{width:237px;height:237px;}#iclorpdbn0fj3 .ch5-button--rounded-rectangle{border-top-left-radius:20px;border-radius:20px 20px 20px 20px;border-top-right-radius:20px;border-bottom-right-radius:20px;border-bottom-left-radius:20px;}#ine0u{display:block;background-color:rgba(182,198,213,0);border-style:solid;border-width:5px;border-color:#0099ff;width:324px;height:810px;left:345px;top:186px;position:absolute;z-index:146;border-top-left-radius:20px;border-radius:20px 20px 20px 20px;border-top-right-radius:20px;border-bottom-right-radius:20px;border-bottom-left-radius:20px;}#izfezppjrk515{display:block;background-color:rgba(182,198,213,0);border-style:solid;border-width:5px;border-color:#0099ff;width:1137px;height:945px;left:870px;top:104px;position:absolute;z-index:160;border-top-left-radius:20px;border-radius:20px 20px 20px 20px;border-top-right-radius:20px;border-bottom-right-radius:20px;border-bottom-left-radius:20px;}#irt67 .ch5-text{width:113px;height:48px;font-size:30px;custom-font-size:30px;font-weight:700;}#i4val .ch5-color-chip{width:106px;height:40px;colorChipPreview_background-color:#ffffff;background-color:#ffffff;}#i4val{width:106px;height:40px;display:block;left:438px;top:168px;position:absolute;z-index:161;colorChipPreview_background-color:#ffffff;}#i4val .ch5-color-chip-preview{background-color:#ffffff;colorChipPreview_background-color:#ffffff;}#i9m2qk1dahppl{width:122px;height:40px;display:block;left:978px;top:85px;position:absolute;z-index:165;colorChipPreview_background-color:#ffffff;}#i426nzprktcbj .ch5-text{width:139px;height:48px;font-size:30px;custom-font-size:30px;font-weight:700;}#i9m2qk1dahppl .ch5-color-chip{width:122px;height:40px;colorChipPreview_background-color:#ffffff;background-color:#ffffff;}#i9m2qk1dahppl .ch5-color-chip-preview{background-color:#ffffff;colorChipPreview_background-color:#ffffff;}#irt67{width:119px;height:48px;font-family:Roboto;display:block;left:447px;top:165px;position:absolute;z-index:162;font-weight:700;}#i426nzprktcbj{width:139px;height:48px;font-family:Roboto;display:block;left:969px;top:80px;position:absolute;z-index:184;font-weight:700;}#iivx{width:390px;height:48px;font-family:Roboto;display:block;left:1431px;top:833px;position:absolute;z-index:144;font-weight:700;}#iigt7y29hsb5s{width:390px;height:48px;font-family:Roboto;display:block;left:1431px;top:559px;position:absolute;z-index:147;font-weight:700;}}@media (orientation: landscape) and (max-width: 2561px) and (max-height: 1441px), (orientation: landscape) and (max-width: 2559px){#i3tm{left:388px;top:288px;position:absolute;width:237px;height:133px;z-index:170;buttonDefaultPressedLabel_font-size:25px;buttonDefaultSelectedLabel_font-size:30px;buttonDefaultIcon_font-size:30px;buttonDefaultPressedIcon_font-size:25px;buttonDefaultSelectedIcon_font-size:30px;newRuleWidth:237px;newRuleHeight:133px;}#i3tm .ch5-button--vertical .cx-button-checkbox-pos-left{padding-left:0px;}#i3tm .ch5-button--vertical .cx-button-checkbox-pos-right{padding-right:0px;}#iesr{left:388px;top:517px;position:absolute;width:237px;height:133px;z-index:171;buttonDefaultIcon_font-size:30px;buttonDefaultPressedLabel_font-size:25px;buttonDefaultPressedIcon_font-size:25px;buttonDefaultSelectedLabel_font-size:30px;buttonDefaultSelectedIcon_font-size:30px;newRuleWidth:237px;newRuleHeight:133px;}#iesr .ch5-button--vertical .cx-button-checkbox-pos-left{padding-left:0px;}#iesr .ch5-button--vertical .cx-button-checkbox-pos-right{padding-right:0px;}#inyg{left:388px;top:743px;position:absolute;width:237px;height:133px;display:block;z-index:172;buttonDefaultIcon_font-size:30px;buttonDefaultSelectedLabel_font-size:30px;buttonDefaultSelectedIcon_font-size:30px;buttonDefaultPressedLabel_font-size:28px;buttonDefaultPressedIcon_font-size:25px;newRuleWidth:237px;newRuleHeight:133px;}#inyg .ch5-button--vertical .cx-button-checkbox-pos-left{padding-left:0px;}#inyg .ch5-button--vertical .cx-button-checkbox-pos-right{padding-right:0px;}#ij59{left:1012px;top:247px;position:absolute;width:237px;height:133px;buttonDefaultPressedLabel_font-size:30px;buttonDefaultPressedIcon_font-size:25px;buttonDefaultSelectedIcon_font-size:30px;buttonDefaultIcon_font-size:30px;newRuleWidth:237px;newRuleHeight:133px;z-index:176;}#ij59 .ch5-button--vertical .cx-button-checkbox-pos-left{padding-left:0px;}#ij59 .ch5-button--vertical .cx-button-checkbox-pos-right{padding-right:0px;}#iyxk{left:1399px;top:144px;position:absolute;width:453px;height:340px;z-index:179;}#i3gb{left:1431px;top:290px;position:absolute;width:390px;height:48px;z-index:182;}#i8pko139hg{width:2224px;height:1193px;left:0;top:0;position:absolute;}body{background-color:#fff;}#ims7{left:1399px;top:687px;position:absolute;width:453px;height:340px;z-index:181;}#i7fv .ch5-button--vertical .cx-button-checkbox-pos-left{padding-left:0px;}#i7fv .ch5-button--vertical .cx-button-checkbox-pos-right{padding-right:0px;}#i7fv{left:1012px;top:790px;z-index:178;}#ib99ljjx2gi1a{left:1399px;top:417px;position:absolute;width:449px;height:340px;z-index:180;}#iclorpdbn0fj3{left:1012px;top:516px;z-index:177;}#iclorpdbn0fj3 .ch5-button--vertical .cx-button-checkbox-pos-left{padding-left:0px;}#iclorpdbn0fj3 .ch5-button--vertical .cx-button-checkbox-pos-right{padding-right:0px;}#ine0u{display:block;background-color:rgba(182,198,213,0);border-style:solid;border-width:5px;border-color:#0099ff;width:324px;height:810px;left:345px;top:186px;position:absolute;z-index:167;border-top-left-radius:20px;border-radius:20px 20px 20px 20px;border-top-right-radius:20px;border-bottom-right-radius:20px;border-bottom-left-radius:20px;}#izfezppjrk515{display:block;background-color:rgba(182,198,213,0);border-style:solid;border-width:5px;border-color:#0099ff;width:1137px;height:945px;left:870px;top:104px;position:absolute;z-index:173;border-top-left-radius:20px;border-radius:20px 20px 20px 20px;border-top-right-radius:20px;border-bottom-right-radius:20px;border-bottom-left-radius:20px;}#i4val{width:106px;height:40px;display:block;left:450px;top:168px;position:absolute;z-index:168;colorChipPreview_background-color:#ffffff;}#i9m2qk1dahppl{left:978px;top:85px;position:absolute;width:122px;height:40px;z-index:174;}#irt67{width:119px;height:48px;font-family:Roboto;display:block;left:447px;top:165px;position:absolute;z-index:169;font-weight:700;}#i426nzprktcbj{left:969px;top:80px;z-index:175;position:absolute;width:139px;height:48px;}#wrapper{background-color:#fff;}#iivx{left:1431px;top:833px;z-index:184;}#iigt7y29hsb5s{left:1431px;top:559px;z-index:183;}}
 
 {PageAttributes}
 
@@ -28,185 +24,11 @@ PageMode = "absolute"
 Id = "1a9beef1-913a-4a30-a32e-51625b8a9afc"
 
 [[Elements]]
-Name = ""
 Type = "widgetContainer"
-Status = ""
-Content = ""
 Classes = ["widget-container"]
 
 [[Elements.Components]]
-Name = ""
 Type = "Ch5 Text"
-Status = ""
-Content = ""
-Editable = true
-
-[Elements.Components.Attributes]
-clearLabel = "false"
-labelmodeadvncomponent = "simple"
-horizontalalignment = "center"
-verticalalignment = "middle"
-multilinesupport = "false"
-truncatetext = "false"
-labelinnerhtml = "Output"
-id = "i426nzprktcbj"
-componentName = "Txt.Ouput"
-ccid_linkSendReceive = "True"
-devicesVisited = "[\"4K Monitor\"]"
-ccid_themeCSSSet = "true"
-oldID = "irt67"
-[[Elements.Components]]
-Name = ""
-Type = "Ch5 Color Chip"
-Status = ""
-Content = ""
-Editable = true
-
-[Elements.Components.Attributes]
-maxvalue = "255"
-id = "i9m2qk1dahppl"
-componentName = "Color Chip_1"
-ccid_linkSendReceive = "True"
-devicesVisited = "[\"4K Monitor\"]"
-previewcolor = "#ffffff"
-oldID = "i4val"
-[[Elements.Components]]
-Name = ""
-Type = "Ch5 Text"
-Status = ""
-Content = ""
-Editable = true
-
-[[Elements.Components.Components]]
-Name = ""
-Type = "textnode"
-Status = ""
-Content = "\n              "
-
-[Elements.Components.Attributes]
-clearLabel = "false"
-labelmodeadvncomponent = "simple"
-horizontalalignment = "center"
-verticalalignment = "middle"
-multilinesupport = "false"
-truncatetext = "false"
-labelinnerhtml = "Input"
-id = "irt67"
-componentName = "Txt.Input"
-ccid_linkSendReceive = "True"
-devicesVisited = "[\"4K Monitor\"]"
-ccid_themeCSSSet = "true"
-[[Elements.Components]]
-Name = ""
-Type = "Ch5 Color Chip"
-Status = ""
-Content = ""
-Editable = true
-
-[[Elements.Components.Components]]
-Name = ""
-Type = "textnode"
-Status = ""
-Content = "\n              "
-
-[Elements.Components.Attributes]
-maxvalue = "255"
-id = "i4val"
-componentName = "Color Chip"
-ccid_linkSendReceive = "True"
-devicesVisited = "[\"4K Monitor\"]"
-previewcolor = "#ffffff"
-[[Elements.Components]]
-Name = ""
-Type = "Ch5 Button"
-Status = ""
-Content = ""
-Editable = true
-
-[Elements.Components.Attributes]
-type = "default"
-halignlabel = "center"
-valignlabel = "middle"
-checkboxshow = "false"
-checkboxposition = "left"
-disabled = "false"
-pageFlipAttributeName = "pageflip"
-clearLabel = "false"
-ccid_imageIconType = "iconclass"
-ccid_linkSendReceive = "True"
-iconurlfilltype = "initial"
-customclass = "ccid-custom"
-affectedByPreviewState = "True"
-shape = "custom"
-customvstheme = "custom"
-id = "iclorpdbn0fj3"
-labelinnerhtml = "<p style=\"white-space: normal;\">Send to Centre Projector</p>"
-pageflip = "0"
-iconposition = "top"
-previewstate = "normal"
-orientation = "horizontal"
-labelmode = "advanced"
-componentName = "Button"
-ccid_themeCSSSet = "true"
-devicesVisited = "[\"4K Monitor\"]"
-size = "custom"
-oldID = "i7fv"
-selected = "false"
-componentWasResized = "true"
-[[Elements.Components]]
-Name = ""
-Type = "html-div"
-Status = ""
-Content = ""
-
-[Elements.Components.Attributes]
-componentName = "Html-div_1"
-id = "izfezppjrk515"
-devicesVisited = "[\"4K Monitor\"]"
-oldID = "ine0u"
-[[Elements.Components]]
-Name = ""
-Type = "Ch5 Text"
-Status = ""
-Content = ""
-Editable = true
-
-[Elements.Components.Attributes]
-clearLabel = "false"
-labelmodeadvncomponent = "simple"
-horizontalalignment = "center"
-verticalalignment = "middle"
-multilinesupport = "false"
-truncatetext = "false"
-labelinnerhtml = "SOURCE INFORMATION"
-id = "iigt7y29hsb5s"
-componentName = "Formatted-Text"
-ccid_linkSendReceive = "True"
-devicesVisited = "[\"4K Monitor\"]"
-ccid_themeCSSSet = "true"
-oldID = "iivx"
-[[Elements.Components]]
-Name = ""
-Type = "Ch5 Image"
-Status = ""
-Content = ""
-Editable = true
-
-[Elements.Components.Attributes]
-refreshrate = "0"
-customvstheme = "custom"
-assetid = "ed206c27-6b8b-4855-8cbf-6e874c76b02b"
-id = "ib99ljjx2gi1a"
-componentName = "Image"
-ccid_linkSendReceive = "True"
-devicesVisited = "[\"4K Monitor\"]"
-url = "StaticFiles/f4540e88-c276-47ff-b523-94b3fa79fb29/ed206c27-6b8b-4855-8cbf-6e874c76b02b/n2dbfrq1.svg"
-oldID = "ims7"
-[[Elements.Components]]
-Name = ""
-Type = "Ch5 Text"
-Status = ""
-Content = ""
 Editable = true
 
 [Elements.Components.Attributes]
@@ -218,16 +40,31 @@ multilinesupport = "false"
 truncatetext = "false"
 labelinnerhtml = "SOURCE INFORMATION"
 id = "iivx"
-componentName = "Str.Proj[2]_CurrentSrc"
+componentName = "Str.Proj[3]_CurrentSrc"
 ccid_linkSendReceive = "True"
 devicesVisited = "[\"4K Monitor\"]"
 ccid_themeCSSSet = "true"
 oldID = "i0s3"
 [[Elements.Components]]
-Name = ""
 Type = "Ch5 Text"
-Status = ""
-Content = ""
+Editable = true
+
+[Elements.Components.Attributes]
+clearLabel = "false"
+labelmodeadvncomponent = "simple"
+horizontalalignment = "center"
+verticalalignment = "middle"
+multilinesupport = "false"
+truncatetext = "false"
+labelinnerhtml = "SOURCE INFORMATION"
+id = "iigt7y29hsb5s"
+componentName = "Str.Proj[2]_CurrentSrc"
+ccid_linkSendReceive = "True"
+devicesVisited = "[\"4K Monitor\"]"
+ccid_themeCSSSet = "true"
+oldID = "iivx"
+[[Elements.Components]]
+Type = "Ch5 Text"
 Editable = true
 
 [Elements.Components.Attributes]
@@ -245,10 +82,7 @@ devicesVisited = "[\"4K Monitor\"]"
 ccid_themeCSSSet = "true"
 oldID = "i63ej"
 [[Elements.Components]]
-Name = ""
 Type = "Ch5 Image"
-Status = ""
-Content = ""
 Editable = true
 
 [Elements.Components.Attributes]
@@ -256,16 +90,27 @@ refreshrate = "0"
 customvstheme = "custom"
 assetid = "ed206c27-6b8b-4855-8cbf-6e874c76b02b"
 id = "ims7"
+componentName = "DisplayImage[3]"
+ccid_linkSendReceive = "True"
+devicesVisited = "[\"4K Monitor\"]"
+url = "StaticFiles/f84b6ad2-b147-4d51-aa3c-485c4f6f61ea/ed206c27-6b8b-4855-8cbf-6e874c76b02b/0xvha0t5.svg"
+oldID = "iw0w"
+[[Elements.Components]]
+Type = "Ch5 Image"
+Editable = true
+
+[Elements.Components.Attributes]
+refreshrate = "0"
+customvstheme = "custom"
+assetid = "ed206c27-6b8b-4855-8cbf-6e874c76b02b"
+id = "ib99ljjx2gi1a"
 componentName = "DisplayImage[2]"
 ccid_linkSendReceive = "True"
 devicesVisited = "[\"4K Monitor\"]"
-url = "StaticFiles/f4540e88-c276-47ff-b523-94b3fa79fb29/ed206c27-6b8b-4855-8cbf-6e874c76b02b/n2dbfrq1.svg"
-oldID = "iw0w"
+url = "StaticFiles/f84b6ad2-b147-4d51-aa3c-485c4f6f61ea/ed206c27-6b8b-4855-8cbf-6e874c76b02b/0xvha0t5.svg"
+oldID = "ims7"
 [[Elements.Components]]
-Name = ""
 Type = "Ch5 Image"
-Status = ""
-Content = ""
 Editable = true
 
 [Elements.Components.Attributes]
@@ -276,13 +121,10 @@ id = "iyxk"
 componentName = "DisplayImage[1]"
 ccid_linkSendReceive = "True"
 devicesVisited = "[\"4K Monitor\"]"
-url = "StaticFiles/f4540e88-c276-47ff-b523-94b3fa79fb29/ed206c27-6b8b-4855-8cbf-6e874c76b02b/n2dbfrq1.svg"
+url = "StaticFiles/f84b6ad2-b147-4d51-aa3c-485c4f6f61ea/ed206c27-6b8b-4855-8cbf-6e874c76b02b/0xvha0t5.svg"
 oldID = "ijk09"
 [[Elements.Components]]
-Name = ""
 Type = "Ch5 Button"
-Status = ""
-Content = ""
 Editable = true
 
 [Elements.Components.Attributes]
@@ -308,19 +150,49 @@ iconposition = "top"
 previewstate = "normal"
 orientation = "horizontal"
 labelmode = "advanced"
-componentName = "btn.SendToProj[2]"
+componentName = "Btn.SendToProj[3]"
 ccid_themeCSSSet = "true"
 devicesVisited = "[\"4K Monitor\"]"
 size = "custom"
 oldID = "is7w"
 selected = "false"
 componentWasResized = "true"
-assetid = "0"
 [[Elements.Components]]
-Name = ""
 Type = "Ch5 Button"
-Status = ""
-Content = ""
+Editable = true
+
+[Elements.Components.Attributes]
+type = "default"
+halignlabel = "center"
+valignlabel = "middle"
+checkboxshow = "false"
+checkboxposition = "left"
+disabled = "false"
+pageFlipAttributeName = "pageflip"
+clearLabel = "false"
+ccid_imageIconType = "iconclass"
+ccid_linkSendReceive = "True"
+iconurlfilltype = "initial"
+customclass = "ccid-custom"
+affectedByPreviewState = "True"
+shape = "custom"
+customvstheme = "custom"
+id = "iclorpdbn0fj3"
+labelinnerhtml = "<p style=\"white-space: normal;\">Send to Centre Projector</p>"
+pageflip = "0"
+iconposition = "top"
+previewstate = "normal"
+orientation = "horizontal"
+labelmode = "advanced"
+componentName = "Btn.SendToProj[2]"
+ccid_themeCSSSet = "true"
+devicesVisited = "[\"4K Monitor\"]"
+size = "custom"
+oldID = "i7fv"
+selected = "false"
+componentWasResized = "true"
+[[Elements.Components]]
+Type = "Ch5 Button"
 Editable = true
 
 [Elements.Components.Attributes]
@@ -355,10 +227,45 @@ selected = "false"
 componentWasResized = "true"
 assetid = "0"
 [[Elements.Components]]
-Name = ""
+Type = "Ch5 Text"
+Editable = true
+
+[Elements.Components.Attributes]
+clearLabel = "false"
+labelmodeadvncomponent = "simple"
+horizontalalignment = "center"
+verticalalignment = "middle"
+multilinesupport = "false"
+truncatetext = "false"
+labelinnerhtml = "Output"
+id = "i426nzprktcbj"
+componentName = "Txt.Ouput"
+ccid_linkSendReceive = "True"
+devicesVisited = "[\"4K Monitor\"]"
+ccid_themeCSSSet = "true"
+oldID = "irt67"
+[[Elements.Components]]
+Type = "Ch5 Color Chip"
+Editable = true
+
+[Elements.Components.Attributes]
+maxvalue = "255"
+id = "i9m2qk1dahppl"
+componentName = "Txt.Output.Bg"
+ccid_linkSendReceive = "True"
+devicesVisited = "[\"4K Monitor\"]"
+previewcolor = "#ffffff"
+oldID = "i4val"
+[[Elements.Components]]
+Type = "html-div"
+
+[Elements.Components.Attributes]
+componentName = "OutputBorder"
+id = "izfezppjrk515"
+devicesVisited = "[\"4K Monitor\"]"
+oldID = "ine0u"
+[[Elements.Components]]
 Type = "Ch5 Button"
-Status = ""
-Content = ""
 Editable = true
 
 [Elements.Components.Attributes]
@@ -394,10 +301,7 @@ componentWasResized = "true"
 selected = "false"
 assetid = "0"
 [[Elements.Components]]
-Name = ""
 Type = "Ch5 Button"
-Status = ""
-Content = ""
 Editable = true
 
 [Elements.Components.Attributes]
@@ -433,10 +337,7 @@ componentWasResized = "true"
 selected = "false"
 assetid = "0"
 [[Elements.Components]]
-Name = ""
 Type = "Ch5 Button"
-Status = ""
-Content = ""
 Editable = true
 
 [Elements.Components.Attributes]
@@ -470,15 +371,47 @@ oldID = "idqqgbd0qx2sj"
 iconclass = "fas fa-desktop"
 componentWasResized = "true"
 selected = "false"
-assetid = "0"
 [[Elements.Components]]
-Name = ""
-Type = "html-div"
-Status = ""
-Content = ""
+Type = "Ch5 Text"
+Editable = true
+
+[[Elements.Components.Components]]
+Type = "textnode"
+Content = "\n              "
 
 [Elements.Components.Attributes]
-componentName = "Html-div"
+clearLabel = "false"
+labelmodeadvncomponent = "simple"
+horizontalalignment = "center"
+verticalalignment = "middle"
+multilinesupport = "false"
+truncatetext = "false"
+labelinnerhtml = "Input"
+id = "irt67"
+componentName = "Txt.Input"
+ccid_linkSendReceive = "True"
+devicesVisited = "[\"4K Monitor\"]"
+ccid_themeCSSSet = "true"
+[[Elements.Components]]
+Type = "Ch5 Color Chip"
+Editable = true
+
+[[Elements.Components.Components]]
+Type = "textnode"
+Content = "\n              "
+
+[Elements.Components.Attributes]
+maxvalue = "255"
+id = "i4val"
+componentName = "Txt.Input.BG"
+ccid_linkSendReceive = "True"
+devicesVisited = "[\"4K Monitor\"]"
+previewcolor = "#ffffff"
+[[Elements.Components]]
+Type = "html-div"
+
+[Elements.Components.Attributes]
+componentName = "InputBorder"
 id = "ine0u"
 devicesVisited = "[\"4K Monitor\"]"
 
