@@ -1,0 +1,21 @@
+{FileMetadata}
+Schema = "1.0.0.0"
+CreatedByAppHost = "1.3300.16.0"
+Created = 2024-05-17 08:40:13.310973-04:00
+LastModifiedByAppHost = "1.3300.16.0"
+Modified = 2024-05-17 08:40:13.310969-04:00
+CreatedByProjectApp = "1.3300.16.0"
+LastModifiedByProjectApp = "1.3300.16.0"
+MinimumProjectApp = ""
+
+{AssetAttributes}
+
+[Attributes]
+Id = "214944bb-46a5-464a-bbac-5ed314af9da3"
+Name = "Aura"
+SourceUri = "Aura.png"
+AspectRatio = "0.9001848428835489"
+AssetSourceType = "File"
+Username = ""
+Password = ""
+

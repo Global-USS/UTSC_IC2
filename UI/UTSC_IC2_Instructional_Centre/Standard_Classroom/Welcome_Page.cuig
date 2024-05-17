@@ -1,0 +1,195 @@
+{FileMetadata}
+Schema = "1.0.0.0"
+CreatedByAppHost = "1.3300.16.0"
+Created = 2024-05-17 08:40:13.583516-04:00
+LastModifiedByAppHost = "1.3300.16.0"
+Modified = 2024-05-17 08:40:13.583513-04:00
+CreatedByProjectApp = "1.3300.16.0"
+LastModifiedByProjectApp = "1.3300.16.0"
+MinimumProjectApp = "1.2600.1"
+
+{Html}
+<ch5-text clearlabel="false" labelmodeadvncomponent="advanced" horizontalalignment="center" verticalalignment="middle" multilinesupport="false" truncatetext="false" id="ikfl92hn59cb1" componentname="Formatted-Text_1" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;]" ccid_themecssset="true" oldid="iktd" labelinnerhtml="<p><span style=&quot;font-size: 100%;&quot;>TOUCH SCREEN TO BEGIN</span></p>"></ch5-text><ch5-text clearlabel="false" labelmodeadvncomponent="advanced" horizontalalignment="center" verticalalignment="middle" multilinesupport="false" truncatetext="false" labelinnerhtml="<p><span style=&quot;font-size: 100%;&quot;>WELCOME TO <ch5-jointotext-string receiveStateValue=&quot;1&quot; textWhenEmpty=&quot;ROOM NAME&quot;></ch5-jointotext-string></span></p>" id="iktd" componentname="Formatted-Text" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;]" ccid_themecssset="true">
+              </ch5-text><ch5-image refreshrate="0" customvstheme="custom" assetid="42e5fb4c-75aa-40d5-839e-d99e5556e196" id="i8dh37tink" componentname="Logo" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" oldid="i12vh">
+              </ch5-image><div componentname="Top.Menu.Panel" id="i52n8sy4qf" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" oldid="iv6q55rbw09gh" componentwasresized="true"></div><ch5-background scale="stretch" refreshrate="600" transitioneffect="ease" transitionduration="1s" assetid="a305d8b6-9923-4c12-9513-6ff5b0afbc80" backgroundcolor="#ffffff" id="i9yqf" componentname="Background_2" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;]" imgbackgroundcolor="transparent">
+              </ch5-background><ch5-background scale="stretch" refreshrate="600" transitioneffect="ease" transitionduration="1s" assetid="2e3c6d46-7509-48a1-8ec2-a3efaa0a4954" id="i4qcl" componentname="Background_1" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;]" imgbackgroundcolor="transparent" backgroundcolor="#ffffff">
+              </ch5-background><ch5-background scale="fill" refreshrate="600" transitioneffect="ease" transitionduration="1s" assetid="0" id="ii3s" componentname="Background" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" imgbackgroundcolor="transparent" backgroundcolor="#ffffff">
+              </ch5-background>
+
+
+
+
+
+{Css}
+@media (max-width: 99999px){#wrapper{background-color:#fff;}#i8dh37tink{width:587px;height:243px;pointer-events:all;display:block;left:28px;top:4px;position:absolute;z-index:337;background:transparent;border-color:undefined;}#i8dh37tink .ch5-image{border-color:black;object-fit:scale-down;}#ikfl92hn59cb1 .ch5-text{width:1332px;height:267px;font-size:70px;custom-font-size:70px;background-color:rgba(0,113,219,0);}#iktd .ch5-text{width:1332px;height:267px;font-size:100px;custom-font-size:100px;border-style:none;background-color:rgba(0,0,0,0);}#iktd{width:1332px;height:267px;font-family:Roboto;display:block;left:614px;top:511px;position:absolute;z-index:345;}#i52n8sy4qf{display:none;background-color:#0071db;border-style:solid;border-width:0;border-color:#1b4b7c;width:2560px;height:239px;left:0px;top:0px;position:absolute;z-index:311;}#ikfl92hn59cb1{width:1332px;height:267px;font-family:Roboto;display:block;left:614px;top:758px;position:absolute;z-index:346;}#i4qcl{width:100%;height:100%;z-index:-97;overflow:hidden;position:absolute;left:0;top:0;display:block;}}@media (orientation: landscape) and (max-width: 2561px) and (max-height: 1441px), (orientation: landscape) and (max-width: 2559px){body{background-color:#fff;}#i4qcl{width:100%;height:100%;z-index:-97;overflow:hidden;position:absolute;left:0;top:0;display:none;}#ii3s{display:none;}#iktd{left:614px;top:511px;position:absolute;width:1332px;height:267px;z-index:345;}#i52n8sy4qf{top:0px;height:247px;display:none;z-index:1;}#ikfl92hn59cb1{z-index:346;top:758px;}#i8dh37tink{z-index:342;display:block;}#i9yqf{width:100%;height:100%;z-index:-97;overflow:hidden;position:absolute;display:block;left:0;top:0;}body{background-color:#fff;}}@media (orientation: landscape) and (max-width: 1281px) and (max-height: 801px), (orientation: landscape) and (max-width: 1279px){#i8dh37tink{width:335px;height:139px;top:3px;left:11px;position:absolute;z-index:342;display:block;}#i52n8sy4qf{width:1280px;height:139px;left:0px;top:0px;z-index:1;}}
+
+
+
+
+
+{PageAttributes}
+
+[Attributes]
+Name = "Welcome_Page"
+PageMode = "absolute"
+Id = "049ee1c1-9075-4caf-8e42-a6ecf8719e66"
+StartPage = "True"
+VisibilityJoin = "0"
+
+[[Elements]]
+Name = ""
+Type = "Ch5 Text"
+Status = ""
+Content = ""
+Editable = true
+
+[Elements.Attributes]
+clearLabel = "false"
+labelmodeadvncomponent = "advanced"
+horizontalalignment = "center"
+verticalalignment = "middle"
+multilinesupport = "false"
+truncatetext = "false"
+id = "ikfl92hn59cb1"
+componentName = "Formatted-Text_1"
+ccid_linkSendReceive = "True"
+devicesVisited = "[\"4K Monitor\"]"
+ccid_themeCSSSet = "true"
+oldID = "iktd"
+labelinnerhtml = "<p><span style=\"font-size: 100%;\">TOUCH SCREEN TO BEGIN</span></p>"
+[[Elements]]
+Name = ""
+Type = "Ch5 Text"
+Status = ""
+Content = ""
+Editable = true
+
+[[Elements.Components]]
+Name = ""
+Type = "textnode"
+Status = ""
+Content = "\n              "
+
+[Elements.Attributes]
+clearLabel = "false"
+labelmodeadvncomponent = "advanced"
+horizontalalignment = "center"
+verticalalignment = "middle"
+multilinesupport = "false"
+truncatetext = "false"
+labelinnerhtml = "<p><span style=\"font-size: 100%;\">WELCOME TO <ch5-jointotext-string receiveStateValue=\"1\" textWhenEmpty=\"ROOM NAME\"></ch5-jointotext-string></span></p>"
+id = "iktd"
+componentName = "Formatted-Text"
+ccid_linkSendReceive = "True"
+devicesVisited = "[\"4K Monitor\"]"
+ccid_themeCSSSet = "true"
+[[Elements]]
+Name = ""
+Type = "Ch5 Image"
+Status = ""
+Content = ""
+Editable = true
+
+[[Elements.Components]]
+Name = ""
+Type = "textnode"
+Status = ""
+Content = "\n              "
+
+[Elements.Attributes]
+refreshrate = "0"
+customvstheme = "custom"
+assetid = "42e5fb4c-75aa-40d5-839e-d99e5556e196"
+id = "i8dh37tink"
+componentName = "Logo"
+ccid_linkSendReceive = "True"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+oldID = "i12vh"
+[[Elements]]
+Name = ""
+Type = "html-div"
+Status = ""
+Content = ""
+
+[Elements.Attributes]
+componentName = "Top.Menu.Panel"
+id = "i52n8sy4qf"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+oldID = "iv6q55rbw09gh"
+componentWasResized = "true"
+[[Elements]]
+Name = ""
+Type = "Ch5 Background"
+Status = ""
+Content = ""
+Editable = true
+
+[[Elements.Components]]
+Name = ""
+Type = "textnode"
+Status = ""
+Content = "\n              "
+
+[Elements.Attributes]
+scale = "stretch"
+refreshrate = "600"
+transitioneffect = "ease"
+transitionduration = "1s"
+assetid = "a305d8b6-9923-4c12-9513-6ff5b0afbc80"
+backgroundcolor = "#ffffff"
+id = "i9yqf"
+componentName = "Background_2"
+ccid_linkSendReceive = "True"
+devicesVisited = "[\"4K Monitor\"]"
+imgbackgroundcolor = "transparent"
+[[Elements]]
+Name = ""
+Type = "Ch5 Background"
+Status = ""
+Content = ""
+Editable = true
+
+[[Elements.Components]]
+Name = ""
+Type = "textnode"
+Status = ""
+Content = "\n              "
+
+[Elements.Attributes]
+scale = "stretch"
+refreshrate = "600"
+transitioneffect = "ease"
+transitionduration = "1s"
+assetid = "2e3c6d46-7509-48a1-8ec2-a3efaa0a4954"
+id = "i4qcl"
+componentName = "Background_1"
+ccid_linkSendReceive = "True"
+devicesVisited = "[\"4K Monitor\"]"
+imgbackgroundcolor = "transparent"
+backgroundcolor = "#ffffff"
+[[Elements]]
+Name = ""
+Type = "Ch5 Background"
+Status = ""
+Content = ""
+Editable = true
+
+[[Elements.Components]]
+Name = ""
+Type = "textnode"
+Status = ""
+Content = "\n              "
+
+[Elements.Attributes]
+scale = "fill"
+refreshrate = "600"
+transitioneffect = "ease"
+transitionduration = "1s"
+assetid = "0"
+id = "ii3s"
+componentName = "Background"
+ccid_linkSendReceive = "True"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+imgbackgroundcolor = "transparent"
+backgroundcolor = "#ffffff"
+
