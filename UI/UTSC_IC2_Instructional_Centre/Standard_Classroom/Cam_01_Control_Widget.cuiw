@@ -1,34 +1,22 @@
 {FileMetadata}
 Schema = "1.0.0.0"
 CreatedByAppHost = "1.3300.16.0"
-Created = 2024-05-17 08:40:13.539647-04:00
+Created = 2024-05-21 16:40:48.276078-04:00
 LastModifiedByAppHost = "1.3300.16.0"
-Modified = 2024-05-17 08:40:13.539645-04:00
+Modified = 2024-05-21 16:40:48.276076-04:00
 CreatedByProjectApp = "1.3300.16.0"
 LastModifiedByProjectApp = "1.3300.16.0"
 MinimumProjectApp = "1.2600.1"
 
 {Html}
-<div id="i09y971w5a" devicesvisited="[&quot;4K Monitor&quot;]" defaultwidth="500px" defaultheight="500px" globalcontrolcontract="on" class="widget-container"><ch5-button type="default" halignlabel="center" valignlabel="middle" checkboxshow="false" checkboxposition="left" disabled="false" pageflipattributename="pageflip" clearlabel="false" ccid_imageicontype="iconclass" ccid_linksendreceive="True" iconurlfilltype="initial" customclass="ccid-custom" affectedbypreviewstate="True" shape="custom" customvstheme="custom" id="inetan5fy9jnp" labelinnerhtml="Preset 3" pageflip="0" iconposition="top" previewstate="normal" orientation="horizontal" labelmode="simple" componentname="Btn.Preset[3]" ccid_themecssset="true" devicesvisited="[&quot;4K Monitor&quot;]" size="custom" oldid="isk0b2rnwkila" componentwasresized="true" iconclass="fas fa-pen" selected="false"></ch5-button><ch5-button type="default" halignlabel="center" valignlabel="middle" checkboxshow="false" checkboxposition="left" disabled="false" pageflipattributename="pageflip" clearlabel="false" ccid_imageicontype="iconclass" ccid_linksendreceive="True" iconurlfilltype="initial" customclass="ccid-custom" affectedbypreviewstate="True" shape="custom" customvstheme="custom" id="isk0b2rnwkila" labelinnerhtml="Preset 2" pageflip="0" iconposition="top" previewstate="normal" orientation="horizontal" labelmode="simple" componentname="Btn.Preset[2]" ccid_themecssset="true" devicesvisited="[&quot;4K Monitor&quot;]" size="custom" oldid="i3qqmtbufoqnk" iconclass="fas fa-pen" selected="false" componentwasresized="true"></ch5-button><ch5-button type="default" halignlabel="center" valignlabel="middle" checkboxshow="false" checkboxposition="left" disabled="false" pageflipattributename="pageflip" clearlabel="false" ccid_imageicontype="iconclass" ccid_linksendreceive="True" iconurlfilltype="initial" customclass="ccid-custom" affectedbypreviewstate="True" shape="custom" customvstheme="custom" id="i3qqmtbufoqnk" labelinnerhtml="Preset 1" pageflip="0" iconposition="top" previewstate="normal" orientation="horizontal" labelmode="simple" componentname="Btn.Preset[1]" ccid_themecssset="true" devicesvisited="[&quot;4K Monitor&quot;]" size="custom" oldid="igk3aoqr8gryg" componentwasresized="true" iconclass="fas fa-pen" selected="false"></ch5-button><ch5-button type="default" halignlabel="center" valignlabel="middle" checkboxshow="false" checkboxposition="left" disabled="false" pageflipattributename="pageflip" clearlabel="false" ccid_imageicontype="iconclass" ccid_linksendreceive="True" iconurlfilltype="initial" customclass="ccid-custom" affectedbypreviewstate="True" shape="custom" customvstheme="custom" id="i7ye" labelinnerhtml="Zoom In" pageflip="0" iconposition="top" previewstate="normal" orientation="horizontal" labelmode="simple" componentname="Btn.ZoomIn" ccid_themecssset="true" devicesvisited="[&quot;4K Monitor&quot;]" size="custom" oldid="idqqgbd0qx2sj" iconclass="fas fa-plus-circle" selected="false"></ch5-button><ch5-button type="default" halignlabel="center" valignlabel="middle" checkboxshow="false" checkboxposition="left" disabled="false" pageflipattributename="pageflip" clearlabel="false" ccid_imageicontype="iconclass" ccid_linksendreceive="True" iconurlfilltype="initial" customclass="ccid-custom" affectedbypreviewstate="True" shape="custom" customvstheme="custom" id="ifa2w7b78mn0k" labelinnerhtml="Zoom Out" pageflip="0" iconposition="top" previewstate="normal" orientation="horizontal" labelmode="simple" componentname="Btn.ZoomOut" ccid_themecssset="true" devicesvisited="[&quot;4K Monitor&quot;]" size="custom" oldid="i7ye" iconclass="fas fa-minus-circle" selected="false"></ch5-button><ch5-text clearlabel="false" labelmodeadvncomponent="simple" horizontalalignment="center" verticalalignment="middle" multilinesupport="false" truncatetext="false" labelinnerhtml="Presets" id="i94ytelioj9by" componentname="Txt.Presets" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;]" ccid_themecssset="true" oldid="iqj4ijw7kb8qg"></ch5-text><ch5-color-chip maxvalue="255" id="i4lk747eoiyaj" componentname="Txt.Presets.BG" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;]" previewcolor="#ffffff" oldid="icz3r8bmrs00u"></ch5-color-chip><div componentname="PresetsBorder" id="i54lo427cojov" devicesvisited="[&quot;4K Monitor&quot;]" oldid="ixpu5fz65vq8c"></div><ch5-button type="default" halignlabel="center" valignlabel="middle" checkboxshow="false" checkboxposition="left" disabled="false" pageflipattributename="pageflip" clearlabel="true" ccid_imageicontype="iconclass" ccid_linksendreceive="True" iconurlfilltype="initial" customclass="ccid-custom" affectedbypreviewstate="True" shape="custom" customvstheme="custom" id="imi7hzz9ho2a5" pageflip="0" iconposition="first" previewstate="normal" orientation="horizontal" labelmode="simple" componentname="Btn.DPAD_Center" ccid_themecssset="true" devicesvisited="[&quot;4K Monitor&quot;]" size="custom" oldid="iyghktgpeocqy" labelinnerhtml="" selected="false" componentwasresized="true"><ch5-button-mode componentname="mode 0" class="ch5-button-child" ccid_imageicontype="iconclass" modecount="0" type="default" assetid="0" id="ivred"><ch5-button-mode-state componentname="normal" class="ch5-button-child" ccid_imageicontype="iconclass" state="normal" type="default" iconurlfilltype="initial" id="iz8we" assetid="0" devicesvisited="[&quot;4K Monitor&quot;]"></ch5-button-mode-state><ch5-button-mode-state componentname="pressed" class="ch5-button-child" ccid_imageicontype="iconclass" state="pressed" type="default" iconurlfilltype="initial" id="iymry" assetid="0" devicesvisited="[&quot;4K Monitor&quot;]"></ch5-button-mode-state><ch5-button-mode-state componentname="selected" class="ch5-button-child" ccid_imageicontype="iconclass" state="selected" type="default" iconurlfilltype="initial" id="ihua6" assetid="0" devicesvisited="[&quot;4K Monitor&quot;]"></ch5-button-mode-state></ch5-button-mode></ch5-button><ch5-button type="default" halignlabel="center" valignlabel="middle" checkboxshow="false" checkboxposition="left" disabled="false" pageflipattributename="pageflip" clearlabel="true" ccid_imageicontype="iconclass" ccid_linksendreceive="True" iconurlfilltype="initial" customclass="ccid-custom" affectedbypreviewstate="True" shape="custom" customvstheme="custom" id="iyghktgpeocqy" pageflip="0" iconposition="first" previewstate="normal" orientation="horizontal" labelmode="simple" componentname="Btn.DPAD_Bottom" ccid_themecssset="true" devicesvisited="[&quot;4K Monitor&quot;]" size="custom" oldid="ik48jeief9d9s" labelinnerhtml="" componentwasresized="true" selected="false"></ch5-button><ch5-button type="default" halignlabel="center" valignlabel="middle" checkboxshow="false" checkboxposition="left" disabled="false" pageflipattributename="pageflip" clearlabel="true" ccid_imageicontype="iconclass" ccid_linksendreceive="True" iconurlfilltype="initial" customclass="ccid-custom" affectedbypreviewstate="True" shape="custom" customvstheme="custom" id="izmxa" pageflip="0" iconposition="first" previewstate="normal" orientation="horizontal" labelmode="simple" componentname="Btn.DPAD_Right" ccid_themecssset="true" devicesvisited="[&quot;4K Monitor&quot;]" size="custom" labelinnerhtml="" selected="false" componentwasresized="true">
-              </ch5-button><ch5-button type="default" halignlabel="center" valignlabel="middle" checkboxshow="false" checkboxposition="left" disabled="false" pageflipattributename="pageflip" clearlabel="true" ccid_imageicontype="iconclass" ccid_linksendreceive="True" iconurlfilltype="initial" customclass="ccid-custom" affectedbypreviewstate="True" shape="custom" customvstheme="custom" id="itjiyu7n8giec" pageflip="0" iconposition="first" previewstate="normal" orientation="horizontal" labelmode="simple" componentname="Btn.DPAD_Left" ccid_themecssset="true" devicesvisited="[&quot;4K Monitor&quot;]" size="custom" oldid="izmxa" labelinnerhtml="" componentwasresized="true" selected="false"></ch5-button><ch5-button type="default" halignlabel="center" valignlabel="middle" checkboxshow="false" checkboxposition="left" disabled="false" pageflipattributename="pageflip" clearlabel="true" ccid_imageicontype="iconclass" ccid_linksendreceive="True" iconurlfilltype="initial" customclass="ccid-custom" affectedbypreviewstate="True" shape="custom" customvstheme="custom" id="i667wpyx3kwni" pageflip="0" iconposition="first" previewstate="normal" orientation="horizontal" labelmode="simple" componentname="Btn.DPAD_Top" ccid_themecssset="true" devicesvisited="[&quot;4K Monitor&quot;]" size="custom" oldid="itjiyu7n8giec" labelinnerhtml="" selected="false" componentwasresized="true"></ch5-button><ch5-image refreshrate="0" customvstheme="custom" assetid="974b96a5-d84a-4387-b4f9-a4cbb068a929" id="imgtz" componentname="Img.DPAD" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;]">
-              </ch5-image><ch5-text clearlabel="false" labelmodeadvncomponent="simple" horizontalalignment="center" verticalalignment="middle" multilinesupport="false" truncatetext="false" labelinnerhtml="Camera Control" id="i8bpjox5kc8u1" componentname="Txt.CameraControl" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;]" ccid_themecssset="true" oldid="iqj4ijw7kb8qg"></ch5-text><ch5-color-chip maxvalue="255" id="ito9kk7o5zhe9" componentname="Txt.CameraControl.BG" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;]" previewcolor="#ffffff" oldid="icz3r8bmrs00u"></ch5-color-chip><div componentname="CameraControlBorder" id="i4y2r46uqk9oy" devicesvisited="[&quot;4K Monitor&quot;]" oldid="ixpu5fz65vq8c"></div><ch5-button type="default" halignlabel="center" valignlabel="middle" checkboxshow="false" checkboxposition="left" disabled="false" pageflipattributename="pageflip" clearlabel="false" ccid_imageicontype="iconclass" ccid_linksendreceive="True" iconurlfilltype="initial" customclass="ccid-custom" affectedbypreviewstate="True" shape="custom" customvstheme="custom" id="ibtcl6w3praby" labelinnerhtml="<p style=&quot;white-space: normal;&quot;>Auto Tracking Off</p>" pageflip="0" iconposition="first" orientation="horizontal" labelmode="advanced" componentname="Btn.AutoTrackingTgl" ccid_themecssset="true" devicesvisited="[&quot;4K Monitor&quot;]" size="custom" oldid="iuvk" componentwasresized="true" previewstate="normal" selected="false"><ch5-button-mode componentname="mode 0" class="ch5-button-child" ccid_imageicontype="iconclass" modecount="0" type="default" id="it9wk" devicesvisited="[&quot;4K Monitor&quot;]" assetid="0"><ch5-button-mode-state componentname="normal" class="ch5-button-child" ccid_imageicontype="iconclass" state="normal" type="default" iconurlfilltype="initial" id="ibfo6" assetid="0" devicesvisited="[&quot;4K Monitor&quot;]" ccid_themecssset="true"></ch5-button-mode-state><ch5-button-mode-state componentname="pressed" class="ch5-button-child" ccid_imageicontype="iconclass" state="pressed" type="default" iconurlfilltype="initial" id="iy72v" assetid="0" devicesvisited="[&quot;4K Monitor&quot;]" ccid_themecssset="true"></ch5-button-mode-state><ch5-button-mode-state componentname="selected" class="ch5-button-child" ccid_imageicontype="iconclass" state="selected" type="default" iconurlfilltype="initial" id="i4mv6" assetid="0" devicesvisited="[&quot;4K Monitor&quot;]" ccid_themecssset="true"></ch5-button-mode-state></ch5-button-mode><ch5-button-mode componentname="mode 1" class="ch5-button-child" ccid_imageicontype="iconclass" modecount="1" type="default" assetid="0" id="if6kb"><ch5-button-mode-state componentname="normal" class="ch5-button-child" ccid_imageicontype="iconclass" state="normal" type="default" iconurlfilltype="initial" id="i6x0x" assetid="0" devicesvisited="[&quot;4K Monitor&quot;]" ccid_themecssset="true" labelmodeadvnbtn="advanced" labelinnerhtml="<p style=&quot;white-space: normal;&quot;>Auto Tracking On</p>"></ch5-button-mode-state><ch5-button-mode-state componentname="pressed" class="ch5-button-child" ccid_imageicontype="iconclass" state="pressed" type="default" iconurlfilltype="initial" id="it5xs" assetid="0" devicesvisited="[&quot;4K Monitor&quot;]" ccid_themecssset="true" labelinnerhtml="<p style=&quot;white-space: normal;&quot;>Auto Tracking On</p>"></ch5-button-mode-state><ch5-button-mode-state componentname="selected" class="ch5-button-child" ccid_imageicontype="iconclass" state="selected" type="default" iconurlfilltype="initial" id="ieagk" assetid="0" devicesvisited="[&quot;4K Monitor&quot;]" ccid_themecssset="true" labelinnerhtml="<p style=&quot;white-space: normal;&quot;>Auto Tracking On</p>"></ch5-button-mode-state></ch5-button-mode></ch5-button><ch5-text clearlabel="false" labelmodeadvncomponent="simple" horizontalalignment="center" verticalalignment="middle" multilinesupport="false" truncatetext="false" labelinnerhtml="Auto Tracking" id="iwrpiopcld3bw" componentname="Txt.AutoTracking" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;]" ccid_themecssset="true" oldid="ih1k">
-              </ch5-text><ch5-color-chip maxvalue="255" id="iq032fszgqd1z" componentname="Txt.AutoTracking.BG" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;]" previewcolor="#ffffff" oldid="i52q">
-              </ch5-color-chip><div componentname="AutoTrackingBorder" id="iza4i2ux8lmxh" devicesvisited="[&quot;4K Monitor&quot;]" oldid="iztx"></div></div>
-
-
-
-
-
-
+<div id="i09y971w5a" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" defaultwidth="500px" defaultheight="500px" globalcontrolcontract="on" class="widget-container"><div componentname="AutoTrackingBorder" id="iza4i2ux8lmxh" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" oldid="iztx"></div><ch5-color-chip maxvalue="255" id="iq032fszgqd1z" componentname="Txt.AutoTracking.BG" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" previewcolor="#ffffff" oldid="i52q">
+              </ch5-color-chip><ch5-text clearlabel="false" labelmodeadvncomponent="simple" horizontalalignment="center" verticalalignment="middle" multilinesupport="false" truncatetext="false" labelinnerhtml="Auto Tracking" id="iwrpiopcld3bw" componentname="Txt.AutoTracking" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;,&quot;1920x1080 Monitor&quot;]" ccid_themecssset="true" oldid="ih1k">
+              </ch5-text><ch5-button type="default" halignlabel="center" valignlabel="middle" checkboxshow="false" checkboxposition="left" disabled="false" pageflipattributename="pageflip" clearlabel="false" ccid_imageicontype="iconclass" ccid_linksendreceive="True" iconurlfilltype="initial" customclass="ccid-custom" affectedbypreviewstate="True" shape="custom" customvstheme="custom" id="ibtcl6w3praby" labelinnerhtml="<p style=&quot;white-space: normal;&quot;>Auto Tracking<br>Off</p>" pageflip="0" iconposition="first" orientation="horizontal" labelmode="advanced" componentname="Btn.AutoTrackingTgl" ccid_themecssset="true" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" size="custom" oldid="iuvk" previewstate="normal" selected="false" assetid="0"><ch5-button-mode componentname="mode 0" class="ch5-button-child" ccid_imageicontype="iconclass" modecount="0" type="default" id="it9wk" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" assetid="0"><ch5-button-mode-state componentname="normal" class="ch5-button-child" ccid_imageicontype="iconclass" state="normal" type="default" iconurlfilltype="initial" id="ibfo6" assetid="0" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" ccid_themecssset="true"></ch5-button-mode-state><ch5-button-mode-state componentname="pressed" class="ch5-button-child" ccid_imageicontype="iconclass" state="pressed" type="default" iconurlfilltype="initial" id="iy72v" assetid="0" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" ccid_themecssset="true"></ch5-button-mode-state><ch5-button-mode-state componentname="selected" class="ch5-button-child" ccid_imageicontype="iconclass" state="selected" type="default" iconurlfilltype="initial" id="i4mv6" assetid="0" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" ccid_themecssset="true"></ch5-button-mode-state></ch5-button-mode><ch5-button-mode componentname="mode 1" class="ch5-button-child" ccid_imageicontype="iconclass" modecount="1" type="default" id="if6kb" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" assetid="0"><ch5-button-mode-state componentname="normal" class="ch5-button-child" ccid_imageicontype="iconclass" state="normal" type="default" iconurlfilltype="initial" id="i6x0x" assetid="0" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" ccid_themecssset="true" labelmodeadvnbtn="advanced" labelinnerhtml="<p style=&quot;white-space: normal;&quot;>Auto Tracking<br>On</p>" componentwasresized="false"></ch5-button-mode-state><ch5-button-mode-state componentname="pressed" class="ch5-button-child" ccid_imageicontype="iconclass" state="pressed" type="default" iconurlfilltype="initial" id="it5xs" assetid="0" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" ccid_themecssset="true" labelinnerhtml="<p style=&quot;white-space: normal;&quot;>Auto Tracking<br>On</p>"></ch5-button-mode-state><ch5-button-mode-state componentname="selected" class="ch5-button-child" ccid_imageicontype="iconclass" state="selected" type="default" iconurlfilltype="initial" id="ieagk" assetid="0" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" ccid_themecssset="true" labelinnerhtml="<p style=&quot;white-space: normal;&quot;>Auto Tracking<br>On</p>"></ch5-button-mode-state></ch5-button-mode></ch5-button><div componentname="CameraControlBorder" id="i4y2r46uqk9oy" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" oldid="ixpu5fz65vq8c"></div><ch5-color-chip maxvalue="255" id="ito9kk7o5zhe9" componentname="Txt.CameraControl.BG" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" previewcolor="#ffffff" oldid="icz3r8bmrs00u"></ch5-color-chip><ch5-text clearlabel="false" labelmodeadvncomponent="simple" horizontalalignment="center" verticalalignment="middle" multilinesupport="false" truncatetext="false" labelinnerhtml="Camera Control" id="i8bpjox5kc8u1" componentname="Txt.CameraControl" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;,&quot;1920x1080 Monitor&quot;]" ccid_themecssset="true" oldid="iqj4ijw7kb8qg"></ch5-text><ch5-image refreshrate="0" customvstheme="custom" assetid="974b96a5-d84a-4387-b4f9-a4cbb068a929" id="imgtz" componentname="Img.DPAD" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]">
+              </ch5-image><ch5-button type="default" halignlabel="center" valignlabel="middle" checkboxshow="false" checkboxposition="left" disabled="false" pageflipattributename="pageflip" clearlabel="true" ccid_imageicontype="iconclass" ccid_linksendreceive="True" iconurlfilltype="initial" customclass="ccid-custom" affectedbypreviewstate="True" shape="custom" customvstheme="custom" id="i667wpyx3kwni" pageflip="0" iconposition="first" previewstate="normal" orientation="horizontal" labelmode="simple" componentname="Btn.DPAD_Top" ccid_themecssset="true" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" size="custom" oldid="itjiyu7n8giec" labelinnerhtml="" componentwasresized="false" selected="false" assetid="0"></ch5-button><ch5-button type="default" halignlabel="center" valignlabel="middle" checkboxshow="false" checkboxposition="left" disabled="false" pageflipattributename="pageflip" clearlabel="true" ccid_imageicontype="iconclass" ccid_linksendreceive="True" iconurlfilltype="initial" customclass="ccid-custom" affectedbypreviewstate="True" shape="custom" customvstheme="custom" id="itjiyu7n8giec" pageflip="0" iconposition="first" previewstate="normal" orientation="horizontal" labelmode="simple" componentname="Btn.DPAD_Left" ccid_themecssset="true" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" size="custom" oldid="izmxa" labelinnerhtml="" componentwasresized="false" selected="false" assetid="0"></ch5-button><ch5-button type="default" halignlabel="center" valignlabel="middle" checkboxshow="false" checkboxposition="left" disabled="false" pageflipattributename="pageflip" clearlabel="true" ccid_imageicontype="iconclass" ccid_linksendreceive="True" iconurlfilltype="initial" customclass="ccid-custom" affectedbypreviewstate="True" shape="custom" customvstheme="custom" id="izmxa" pageflip="0" iconposition="first" previewstate="normal" orientation="horizontal" labelmode="simple" componentname="Btn.DPAD_Right" ccid_themecssset="true" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" size="custom" labelinnerhtml="" componentwasresized="false" selected="false" assetid="0">
+              </ch5-button><ch5-button type="default" halignlabel="center" valignlabel="middle" checkboxshow="false" checkboxposition="left" disabled="false" pageflipattributename="pageflip" clearlabel="true" ccid_imageicontype="iconclass" ccid_linksendreceive="True" iconurlfilltype="initial" customclass="ccid-custom" affectedbypreviewstate="True" shape="custom" customvstheme="custom" id="iyghktgpeocqy" pageflip="0" iconposition="first" previewstate="normal" orientation="horizontal" labelmode="simple" componentname="Btn.DPAD_Bottom" ccid_themecssset="true" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" size="custom" oldid="ik48jeief9d9s" labelinnerhtml="" selected="false" assetid="0"></ch5-button><ch5-button type="default" halignlabel="center" valignlabel="middle" checkboxshow="false" checkboxposition="left" disabled="false" pageflipattributename="pageflip" clearlabel="true" ccid_imageicontype="iconclass" ccid_linksendreceive="True" iconurlfilltype="initial" customclass="ccid-custom" affectedbypreviewstate="True" shape="custom" customvstheme="custom" id="imi7hzz9ho2a5" pageflip="0" iconposition="first" orientation="horizontal" labelmode="simple" componentname="Btn.DPAD_Center" ccid_themecssset="true" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" size="custom" oldid="iyghktgpeocqy" labelinnerhtml="" componentwasresized="false" previewstate="normal" selected="false" assetid="0"><ch5-button-mode componentname="mode 0" class="ch5-button-child" ccid_imageicontype="iconclass" modecount="0" type="default" id="ivred" devicesvisited="[]" assetid="0"><ch5-button-mode-state componentname="normal" class="ch5-button-child" ccid_imageicontype="iconclass" state="normal" type="default" iconurlfilltype="initial" id="iz8we" assetid="0" devicesvisited="[&quot;4K Monitor&quot;]" ccid_themecssset="true"></ch5-button-mode-state><ch5-button-mode-state componentname="pressed" class="ch5-button-child" ccid_imageicontype="iconclass" state="pressed" type="default" iconurlfilltype="initial" id="iymry" assetid="0" devicesvisited="[&quot;4K Monitor&quot;]" ccid_themecssset="true"></ch5-button-mode-state><ch5-button-mode-state componentname="selected" class="ch5-button-child" ccid_imageicontype="iconclass" state="selected" type="default" iconurlfilltype="initial" id="ihua6" assetid="0" devicesvisited="[&quot;4K Monitor&quot;]" ccid_themecssset="true"></ch5-button-mode-state></ch5-button-mode></ch5-button><div componentname="PresetsBorder" id="i54lo427cojov" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" oldid="ixpu5fz65vq8c" componentwasresized="true"></div><ch5-color-chip maxvalue="255" id="i4lk747eoiyaj" componentname="Txt.Presets.BG" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" previewcolor="#ffffff" oldid="icz3r8bmrs00u"></ch5-color-chip><ch5-text clearlabel="false" labelmodeadvncomponent="simple" horizontalalignment="center" verticalalignment="middle" multilinesupport="false" truncatetext="false" labelinnerhtml="Presets" id="i94ytelioj9by" componentname="Txt.Presets" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;,&quot;1920x1080 Monitor&quot;]" ccid_themecssset="true" oldid="iqj4ijw7kb8qg"></ch5-text><ch5-button type="default" halignlabel="center" valignlabel="middle" checkboxshow="false" checkboxposition="left" disabled="false" pageflipattributename="pageflip" clearlabel="false" ccid_imageicontype="iconclass" ccid_linksendreceive="True" iconurlfilltype="initial" customclass="ccid-custom" affectedbypreviewstate="True" shape="custom" customvstheme="custom" id="ifa2w7b78mn0k" labelinnerhtml="Zoom Out" pageflip="0" iconposition="top" previewstate="normal" orientation="horizontal" labelmode="simple" componentname="Btn.ZoomOut" ccid_themecssset="true" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" size="custom" oldid="i7ye" iconclass="fas fa-minus-circle" selected="false" assetid="0"></ch5-button><ch5-button type="default" halignlabel="center" valignlabel="middle" checkboxshow="false" checkboxposition="left" disabled="false" pageflipattributename="pageflip" clearlabel="false" ccid_imageicontype="iconclass" ccid_linksendreceive="True" iconurlfilltype="initial" customclass="ccid-custom" affectedbypreviewstate="True" shape="custom" customvstheme="custom" id="i7ye" labelinnerhtml="Zoom In" pageflip="0" iconposition="top" previewstate="pressed" orientation="horizontal" labelmode="simple" componentname="Btn.ZoomIn" ccid_themecssset="true" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" size="custom" oldid="idqqgbd0qx2sj" iconclass="fas fa-plus-circle" pressed="true" selected="false" assetid="0"></ch5-button><ch5-button type="default" halignlabel="center" valignlabel="middle" checkboxshow="false" checkboxposition="left" disabled="false" pageflipattributename="pageflip" clearlabel="false" ccid_imageicontype="iconclass" ccid_linksendreceive="True" iconurlfilltype="initial" customclass="ccid-custom" affectedbypreviewstate="True" shape="custom" customvstheme="custom" id="i3qqmtbufoqnk" labelinnerhtml="Preset 1" pageflip="0" iconposition="top" previewstate="normal" orientation="horizontal" labelmode="simple" componentname="Btn.Preset[1]" ccid_themecssset="true" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" size="custom" oldid="igk3aoqr8gryg" componentwasresized="false" iconclass="fas fa-pen" selected="false" assetid="0"></ch5-button><ch5-button type="default" halignlabel="center" valignlabel="middle" checkboxshow="false" checkboxposition="left" disabled="false" pageflipattributename="pageflip" clearlabel="false" ccid_imageicontype="iconclass" ccid_linksendreceive="True" iconurlfilltype="initial" customclass="ccid-custom" affectedbypreviewstate="True" shape="custom" customvstheme="custom" id="isk0b2rnwkila" labelinnerhtml="Preset 2" pageflip="0" iconposition="top" previewstate="selected" orientation="horizontal" labelmode="simple" componentname="Btn.Preset[2]" ccid_themecssset="true" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" size="custom" oldid="i3qqmtbufoqnk" iconclass="fas fa-pen" componentwasresized="false" selected="true" assetid="0"></ch5-button><ch5-button type="default" halignlabel="center" valignlabel="middle" checkboxshow="false" checkboxposition="left" disabled="false" pageflipattributename="pageflip" clearlabel="false" ccid_imageicontype="iconclass" ccid_linksendreceive="True" iconurlfilltype="initial" customclass="ccid-custom" affectedbypreviewstate="True" shape="custom" customvstheme="custom" id="inetan5fy9jnp" labelinnerhtml="Preset 3" pageflip="0" iconposition="top" previewstate="selected" orientation="horizontal" labelmode="simple" componentname="Btn.Preset[3]" ccid_themecssset="true" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" size="custom" oldid="isk0b2rnwkila" iconclass="fas fa-pen" selected="true" assetid="0"></ch5-button></div>
 
 {Css}
-@media (max-width: 99999px){#i09y971w5a{width:2135px;height:1164px;left:0;top:0;position:absolute;}#wrapper{background-color:#fff;}.widget-container{background-image:linear-gradient(45deg, #DAE2EA 25%, transparent 25%), linear-gradient(-45deg, #DAE2EA 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #DAE2EA 75%), linear-gradient(-45deg, transparent 75%, #DAE2EA 75%);background-size:20px 20px;background-position:0 0, 0 10px, 10px -10px, -10px 0px;z-index:0;}#ia7i .ch5-image{border-color:black;object-fit:contain;}#i3qqmtbufoqnk{width:237px;height:133px;left:1607px;pointer-events:all;font-family:Roboto;display:block;top:212px;position:absolute;z-index:277;buttonDefaultLabel_font-size:30px;buttonDefaultPressedLabel_font-size:25px;buttonDefaultSelectedLabel_font-size:30px;buttonDefaultIcon_font-size:30px;buttonDefaultPressedIcon_font-size:25px;buttonDefaultSelectedIcon_font-size:30px;newRuleWidth:237px;newRuleHeight:133px;}#i3qqmtbufoqnk .ch5-button--circle.ch5-button--size-regular .cb-btn{width:237px;height:237px;}#i3qqmtbufoqnk .ch5-button--size-regular .cb-btn{width:237px;height:133px;}#i3qqmtbufoqnk .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#i3qqmtbufoqnk .ch5-button--default.ch5-button--selected .cb-checkbox-icon{color:#f0fff0;buttonDefaultSelectedCheckbox_color:#f0fff0;}#i3qqmtbufoqnk .ch5-button--default.ch5-button--selected .ch5-button--icon{color:#f0fff0;font-size:30px;custom-font-size:30px;buttonDefaultSelectedIcon_font-size:30px;buttonDefaultSelectedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#i3qqmtbufoqnk .ch5-button--default.ch5-button--selected .ch5-button--label{color:#f0fff0;font-size:30px;font-weight:400;buttonDefaultSelectedLabel_font-size:30px;buttonDefaultSelectedLabel_color:#f0fff0;buttonDefaultSelectedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:30px;}#i3qqmtbufoqnk .ch5-button--default.ch5-button--selected{color:#f0fff0;background-color:#002034;border-color:#0091ea;}#i3qqmtbufoqnk .ccid-custom.ch5-button--default.ch5-button--pressed .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#i3qqmtbufoqnk .ch5-button--default.ch5-button--pressed .cb-checkbox-icon{color:#f0fff0;buttonDefaultPressedCheckbox_color:#f0fff0;}#i3qqmtbufoqnk .ch5-button--default.ch5-button--pressed .ch5-button--icon{color:#f0fff0;font-size:25px;custom-font-size:25px;buttonDefaultPressedIcon_font-size:25px;buttonDefaultPressedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#i3qqmtbufoqnk .ch5-button--default.ch5-button--pressed .ch5-button--label{color:#f0fff0;font-size:25px;font-weight:400;buttonDefaultPressedLabel_font-size:25px;buttonDefaultPressedLabel_color:#f0fff0;buttonDefaultPressedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:25px;}#i3qqmtbufoqnk .ch5-button--default.ch5-button--pressed{color:#f0fff0;background-color:#b9b9b9;border-color:#0091ea;}#i3qqmtbufoqnk .ccid-custom.ch5-button--default .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#i3qqmtbufoqnk .ch5-button--default .cb-checkbox-icon{color:#ffffff;buttonDefaultCheckbox_color:#ffffff;}#i3qqmtbufoqnk .ch5-button--default .ch5-button--icon{color:#ffffff;font-size:30px;custom-font-size:30px;buttonDefaultIcon_font-size:30px;buttonDefaultIcon_color:#ffffff;margin-left:0;margin-right:0;margin-bottom:0;}#i3qqmtbufoqnk .ch5-button--default .ch5-button--label{font-family:Roboto;color:#ffffff;font-size:30px;font-weight:400;buttonDefaultLabel_font-size:30px;buttonDefaultLabel_color:#ffffff;buttonDefaultLabel_font-weight:400;custom-font-size:30px;margin-left:0;margin-right:0;margin-bottom:0;}#i3qqmtbufoqnk .ch5-button--default{border-style:solid;border-color:#0091ea;color:#ffffff;background-color:#696969;border-width:0;max-height:100%;max-width:100%;display:flex;align-items:center;}#isk0b2rnwkila{width:237px;height:133px;left:1607px;pointer-events:all;font-family:Roboto;display:block;top:414px;position:absolute;z-index:126;buttonDefaultLabel_font-size:30px;buttonDefaultPressedLabel_font-size:25px;buttonDefaultSelectedLabel_font-size:30px;buttonDefaultIcon_font-size:30px;buttonDefaultPressedIcon_font-size:25px;buttonDefaultSelectedIcon_font-size:30px;newRuleWidth:237px;newRuleHeight:133px;}#isk0b2rnwkila .ch5-button--circle.ch5-button--size-regular .cb-btn{width:237px;height:237px;}#isk0b2rnwkila .ch5-button--size-regular .cb-btn{width:237px;height:133px;}#isk0b2rnwkila .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#isk0b2rnwkila .ch5-button--default.ch5-button--selected .cb-checkbox-icon{color:#f0fff0;buttonDefaultSelectedCheckbox_color:#f0fff0;}#isk0b2rnwkila .ch5-button--default.ch5-button--selected .ch5-button--icon{color:#f0fff0;font-size:30px;custom-font-size:30px;buttonDefaultSelectedIcon_font-size:30px;buttonDefaultSelectedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#isk0b2rnwkila .ch5-button--default.ch5-button--selected .ch5-button--label{color:#f0fff0;font-size:30px;font-weight:400;buttonDefaultSelectedLabel_font-size:30px;buttonDefaultSelectedLabel_color:#f0fff0;buttonDefaultSelectedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:30px;}#isk0b2rnwkila .ch5-button--default.ch5-button--selected{color:#f0fff0;background-color:#002034;border-color:#0091ea;}#isk0b2rnwkila .ccid-custom.ch5-button--default.ch5-button--pressed .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#isk0b2rnwkila .ch5-button--default.ch5-button--pressed .cb-checkbox-icon{color:#f0fff0;buttonDefaultPressedCheckbox_color:#f0fff0;}#isk0b2rnwkila .ch5-button--default.ch5-button--pressed .ch5-button--icon{color:#f0fff0;font-size:25px;custom-font-size:25px;buttonDefaultPressedIcon_font-size:25px;buttonDefaultPressedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#isk0b2rnwkila .ch5-button--default.ch5-button--pressed .ch5-button--label{color:#f0fff0;font-size:25px;font-weight:400;buttonDefaultPressedLabel_font-size:25px;buttonDefaultPressedLabel_color:#f0fff0;buttonDefaultPressedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:25px;}#isk0b2rnwkila .ch5-button--default.ch5-button--pressed{color:#f0fff0;background-color:#b9b9b9;border-color:#0091ea;}#isk0b2rnwkila .ccid-custom.ch5-button--default .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#isk0b2rnwkila .ch5-button--default .cb-checkbox-icon{color:#ffffff;buttonDefaultCheckbox_color:#ffffff;}#isk0b2rnwkila .ch5-button--default .ch5-button--icon{color:#ffffff;font-size:30px;custom-font-size:30px;buttonDefaultIcon_font-size:30px;buttonDefaultIcon_color:#ffffff;margin-left:0;margin-right:0;margin-bottom:0;}#isk0b2rnwkila .ch5-button--default .ch5-button--label{font-family:Roboto;color:#ffffff;font-size:30px;font-weight:400;buttonDefaultLabel_font-size:30px;buttonDefaultLabel_color:#ffffff;buttonDefaultLabel_font-weight:400;custom-font-size:30px;margin-left:0;margin-right:0;margin-bottom:0;}#isk0b2rnwkila .ch5-button--default{border-style:solid;border-color:#0091ea;color:#ffffff;background-color:#696969;border-width:0;max-height:100%;max-width:100%;display:flex;align-items:center;}#inetan5fy9jnp{width:237px;height:133px;left:1607px;pointer-events:all;font-family:Roboto;display:block;top:626px;position:absolute;z-index:127;buttonDefaultLabel_font-size:30px;buttonDefaultPressedLabel_font-size:25px;buttonDefaultSelectedLabel_font-size:30px;buttonDefaultIcon_font-size:30px;buttonDefaultPressedIcon_font-size:25px;buttonDefaultSelectedIcon_font-size:30px;newRuleWidth:237px;newRuleHeight:133px;}#inetan5fy9jnp .ch5-button--circle.ch5-button--size-regular .cb-btn{width:237px;height:237px;}#inetan5fy9jnp .ch5-button--size-regular .cb-btn{width:237px;height:133px;}#inetan5fy9jnp .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#inetan5fy9jnp .ch5-button--default.ch5-button--selected .cb-checkbox-icon{color:#f0fff0;buttonDefaultSelectedCheckbox_color:#f0fff0;}#inetan5fy9jnp .ch5-button--default.ch5-button--selected .ch5-button--icon{color:#f0fff0;font-size:30px;custom-font-size:30px;buttonDefaultSelectedIcon_font-size:30px;buttonDefaultSelectedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#inetan5fy9jnp .ch5-button--default.ch5-button--selected .ch5-button--label{color:#f0fff0;font-size:30px;font-weight:400;buttonDefaultSelectedLabel_font-size:30px;buttonDefaultSelectedLabel_color:#f0fff0;buttonDefaultSelectedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:30px;}#inetan5fy9jnp .ch5-button--default.ch5-button--selected{color:#f0fff0;background-color:#002034;border-color:#0091ea;}#inetan5fy9jnp .ccid-custom.ch5-button--default.ch5-button--pressed .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#inetan5fy9jnp .ch5-button--default.ch5-button--pressed .cb-checkbox-icon{color:#f0fff0;buttonDefaultPressedCheckbox_color:#f0fff0;}#inetan5fy9jnp .ch5-button--default.ch5-button--pressed .ch5-button--icon{color:#f0fff0;font-size:25px;custom-font-size:25px;buttonDefaultPressedIcon_font-size:25px;buttonDefaultPressedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#inetan5fy9jnp .ch5-button--default.ch5-button--pressed .ch5-button--label{color:#f0fff0;font-size:25px;font-weight:400;buttonDefaultPressedLabel_font-size:25px;buttonDefaultPressedLabel_color:#f0fff0;buttonDefaultPressedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:25px;}#inetan5fy9jnp .ch5-button--default.ch5-button--pressed{color:#f0fff0;background-color:#b9b9b9;border-color:#0091ea;}#inetan5fy9jnp .ccid-custom.ch5-button--default .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#inetan5fy9jnp .ch5-button--default .cb-checkbox-icon{color:#ffffff;buttonDefaultCheckbox_color:#ffffff;}#inetan5fy9jnp .ch5-button--default .ch5-button--icon{color:#ffffff;font-size:30px;custom-font-size:30px;buttonDefaultIcon_font-size:30px;buttonDefaultIcon_color:#ffffff;margin-left:0;margin-right:0;margin-bottom:0;}#inetan5fy9jnp .ch5-button--default .ch5-button--label{font-family:Roboto;color:#ffffff;font-size:30px;font-weight:400;buttonDefaultLabel_font-size:30px;buttonDefaultLabel_color:#ffffff;buttonDefaultLabel_font-weight:400;custom-font-size:30px;margin-left:0;margin-right:0;margin-bottom:0;}#inetan5fy9jnp .ch5-button--default{border-style:solid;border-color:#0091ea;color:#ffffff;background-color:#696969;border-width:0;max-height:100%;max-width:100%;display:flex;align-items:center;}#inetan5fy9jnp .ch5-button--rounded-rectangle{border-top-left-radius:20px;border-radius:20px 20px 20px 20px;border-top-right-radius:20px;border-bottom-right-radius:20px;border-bottom-left-radius:20px;}#i3qqmtbufoqnk .ch5-button--rounded-rectangle{border-top-left-radius:20px;border-radius:20px 20px 20px 20px;border-top-right-radius:20px;border-bottom-right-radius:20px;border-bottom-left-radius:20px;}#isk0b2rnwkila .ch5-button--rounded-rectangle{border-top-left-radius:20px;border-radius:20px 20px 20px 20px;border-top-right-radius:20px;border-bottom-right-radius:20px;border-bottom-left-radius:20px;}#izmxa .ch5-button--default{border-style:solid;border-color:#0091ea;color:#ffffff;background-color:rgba(0,240,255,0);border-width:0;max-height:100%;max-width:100%;display:flex;align-items:center;}#izmxa .ch5-button--default .ch5-button--label{font-family:Roboto;color:#ffffff;font-size:14px;font-weight:400;buttonDefaultLabel_font-size:14px;buttonDefaultLabel_color:#ffffff;buttonDefaultLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;}#izmxa .ch5-button--default .ch5-button--icon{color:#ffffff;font-size:14px;custom-font-size:14px;buttonDefaultIcon_font-size:14px;buttonDefaultIcon_color:#ffffff;margin-left:0;margin-right:0;margin-bottom:0;}#izmxa .ch5-button--default .cb-checkbox-icon{color:#ffffff;buttonDefaultCheckbox_color:#ffffff;}#izmxa .ccid-custom.ch5-button--default .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#izmxa .ch5-button--default.ch5-button--pressed{color:#f0fff0;background-color:#00f0ff26;border-color:#0091ea;}#izmxa .ch5-button--default.ch5-button--pressed .ch5-button--label{color:#f0fff0;font-size:14px;font-weight:400;buttonDefaultPressedLabel_font-size:14px;buttonDefaultPressedLabel_color:#f0fff0;buttonDefaultPressedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;}#izmxa .ch5-button--default.ch5-button--pressed .ch5-button--icon{color:#f0fff0;font-size:14px;custom-font-size:14px;buttonDefaultPressedIcon_font-size:14px;buttonDefaultPressedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#izmxa .ch5-button--default.ch5-button--pressed .cb-checkbox-icon{color:#f0fff0;buttonDefaultPressedCheckbox_color:#f0fff0;}#izmxa .ccid-custom.ch5-button--default.ch5-button--pressed .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#izmxa .ch5-button--default.ch5-button--selected{color:#f0fff0;background-color:#0073bf;border-color:#0091ea;}#izmxa .ch5-button--default.ch5-button--selected .ch5-button--label{color:#f0fff0;font-size:14px;font-weight:400;buttonDefaultSelectedLabel_font-size:14px;buttonDefaultSelectedLabel_color:#f0fff0;buttonDefaultSelectedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;}#izmxa .ch5-button--default.ch5-button--selected .ch5-button--icon{color:#f0fff0;font-size:14px;custom-font-size:14px;buttonDefaultSelectedIcon_font-size:14px;buttonDefaultSelectedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#izmxa .ch5-button--default.ch5-button--selected .cb-checkbox-icon{color:#f0fff0;buttonDefaultSelectedCheckbox_color:#f0fff0;}#izmxa .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#izmxa .ch5-button--size-regular .cb-btn{width:159px;height:164px;}#izmxa .ch5-button--rounded-rectangle{border-top-right-radius:20px;border-radius:0 20px 20px 0;border-bottom-right-radius:20px;}#izmxa-2 .ch5-button--default .ch5-button--label{font-family:Roboto;}#izmxa{pointer-events:all;width:160px;height:165px;font-family:Roboto;display:block;left:1124px;top:389px;position:absolute;z-index:131;newRuleWidth:159px;newRuleHeight:164px;}#i667wpyx3kwni .ch5-button--default{border-style:solid;border-color:#767676;color:#ffffff;background-color:#00f0ff00;border-width:0;max-height:100%;max-width:100%;display:flex;align-items:center;}#i667wpyx3kwni .ch5-button--default .ch5-button--label{font-family:Roboto;color:#ffffff;font-size:14px;font-weight:400;buttonDefaultLabel_font-size:14px;buttonDefaultLabel_color:#ffffff;buttonDefaultLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;}#i667wpyx3kwni .ch5-button--default .ch5-button--icon{color:#ffffff;font-size:14px;custom-font-size:14px;buttonDefaultIcon_font-size:14px;buttonDefaultIcon_color:#ffffff;margin-left:0;margin-right:0;margin-bottom:0;}#i667wpyx3kwni .ch5-button--default .cb-checkbox-icon{color:#ffffff;buttonDefaultCheckbox_color:#ffffff;}#i667wpyx3kwni .ccid-custom.ch5-button--default .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#i667wpyx3kwni .ch5-button--default.ch5-button--pressed{color:#f0fff0;background-color:#00f0ff26;border-color:#0091ea;}#i667wpyx3kwni .ch5-button--default.ch5-button--pressed .ch5-button--label{color:#f0fff0;font-size:14px;font-weight:400;buttonDefaultPressedLabel_font-size:14px;buttonDefaultPressedLabel_color:#f0fff0;buttonDefaultPressedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;}#i667wpyx3kwni .ch5-button--default.ch5-button--pressed .ch5-button--icon{color:#f0fff0;font-size:14px;custom-font-size:14px;buttonDefaultPressedIcon_font-size:14px;buttonDefaultPressedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#i667wpyx3kwni .ch5-button--default.ch5-button--pressed .cb-checkbox-icon{color:#f0fff0;buttonDefaultPressedCheckbox_color:#f0fff0;}#i667wpyx3kwni .ccid-custom.ch5-button--default.ch5-button--pressed .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#i667wpyx3kwni .ch5-button--default.ch5-button--selected{color:#f0fff0;background-color:#0073bf;border-color:#0091ea;}#i667wpyx3kwni .ch5-button--default.ch5-button--selected .ch5-button--label{color:#f0fff0;font-size:14px;font-weight:400;buttonDefaultSelectedLabel_font-size:14px;buttonDefaultSelectedLabel_color:#f0fff0;buttonDefaultSelectedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;}#i667wpyx3kwni .ch5-button--default.ch5-button--selected .ch5-button--icon{color:#f0fff0;font-size:14px;custom-font-size:14px;buttonDefaultSelectedIcon_font-size:14px;buttonDefaultSelectedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#i667wpyx3kwni .ch5-button--default.ch5-button--selected .cb-checkbox-icon{color:#f0fff0;buttonDefaultSelectedCheckbox_color:#f0fff0;}#i667wpyx3kwni .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#i667wpyx3kwni .ch5-button--size-regular .cb-btn{width:168px;height:159px;}#i667wpyx3kwni .ch5-button--rounded-rectangle{border-top-right-radius:20px;border-radius:20px 20px 0 0;border-bottom-right-radius:0;border-top-left-radius:20px;border-bottom-left-radius:0;}#i667wpyx3kwni{pointer-events:all;width:168px;height:159px;font-family:Roboto;display:block;left:957px;top:229px;position:absolute;z-index:133;newRuleWidth:167px;newRuleHeight:158px;en:1;}#ifa2w7b78mn0k{width:237px;height:133px;left:718px;pointer-events:all;font-family:Roboto;display:block;top:816px;position:absolute;z-index:124;buttonDefaultLabel_font-size:30px;buttonDefaultPressedLabel_font-size:25px;buttonDefaultSelectedLabel_font-size:30px;buttonDefaultIcon_font-size:50px;newRuleWidth:237px;newRuleHeight:133px;}#ifa2w7b78mn0k .ch5-button--circle.ch5-button--size-regular .cb-btn{width:237px;height:237px;}#ifa2w7b78mn0k .ch5-button--size-regular .cb-btn{width:237px;height:133px;}#ifa2w7b78mn0k .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#ifa2w7b78mn0k .ch5-button--default.ch5-button--selected .cb-checkbox-icon{color:#f0fff0;buttonDefaultSelectedCheckbox_color:#f0fff0;}#ifa2w7b78mn0k .ch5-button--default.ch5-button--selected .ch5-button--icon{color:#f0fff0;font-size:50px;custom-font-size:50px;buttonDefaultSelectedIcon_font-size:50px;buttonDefaultSelectedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#ifa2w7b78mn0k .ch5-button--default.ch5-button--selected .ch5-button--label{color:#f0fff0;font-size:30px;font-weight:400;buttonDefaultSelectedLabel_font-size:30px;buttonDefaultSelectedLabel_color:#f0fff0;buttonDefaultSelectedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:30px;}#ifa2w7b78mn0k .ch5-button--default.ch5-button--selected{color:#f0fff0;background-color:#002b61;border-color:#0091ea;}#ifa2w7b78mn0k .ccid-custom.ch5-button--default.ch5-button--pressed .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#ifa2w7b78mn0k .ch5-button--default.ch5-button--pressed .cb-checkbox-icon{color:#f0fff0;buttonDefaultPressedCheckbox_color:#f0fff0;}#ifa2w7b78mn0k .ch5-button--default.ch5-button--pressed .ch5-button--icon{color:#f0fff0;font-size:45px;custom-font-size:45px;buttonDefaultPressedIcon_font-size:45px;buttonDefaultPressedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#ifa2w7b78mn0k .ch5-button--default.ch5-button--pressed .ch5-button--label{color:#f0fff0;font-size:25px;font-weight:400;buttonDefaultPressedLabel_font-size:25px;buttonDefaultPressedLabel_color:#f0fff0;buttonDefaultPressedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:25px;}#ifa2w7b78mn0k .ch5-button--default.ch5-button--pressed{color:#f0fff0;background-color:#00d0dd;border-color:#0091ea;}#ifa2w7b78mn0k .ccid-custom.ch5-button--default .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#ifa2w7b78mn0k .ch5-button--default .cb-checkbox-icon{color:#ffffff;buttonDefaultCheckbox_color:#ffffff;}#ifa2w7b78mn0k .ch5-button--default .ch5-button--icon{color:#ffffff;font-size:50px;custom-font-size:50px;buttonDefaultIcon_font-size:50px;buttonDefaultIcon_color:#ffffff;margin-left:0;margin-right:0;margin-bottom:0;buttonDefaultIcon_margin-left:0;}#ifa2w7b78mn0k .ch5-button--default .ch5-button--label{font-family:Roboto;color:#ffffff;font-size:30px;font-weight:400;buttonDefaultLabel_font-size:30px;buttonDefaultLabel_color:#ffffff;buttonDefaultLabel_font-weight:400;custom-font-size:30px;margin-left:0;margin-right:0;margin-bottom:0;buttonDefaultLabel_margin-left:0;}#ifa2w7b78mn0k .ch5-button--default{border-style:solid;border-color:#0091ea;color:#ffffff;background-color:#00838b;border-width:0;max-height:100%;max-width:100%;display:flex;align-items:center;}#ifa2w7b78mn0k .ch5-button--rounded-rectangle{border-top-left-radius:20px;border-radius:20px 20px 20px 20px;border-top-right-radius:20px;border-bottom-right-radius:20px;border-bottom-left-radius:20px;}#imi7hzz9ho2a5{pointer-events:all;width:168px;height:164px;font-family:Roboto;display:block;left:956px;top:389px;position:absolute;z-index:138;buttonDefaultPressedLabel_color:#00f0ff26;newRuleWidth:167px;newRuleHeight:163px;}#imi7hzz9ho2a5 .ch5-button--default{border-style:solid;border-color:#0091ea;color:#ffffff;background-color:rgba(0,240,255,0);border-width:0;max-height:100%;max-width:100%;display:flex;align-items:center;}#imi7hzz9ho2a5 .ch5-button--default .ch5-button--label{font-family:Roboto;color:#ffffff;font-size:14px;font-weight:400;buttonDefaultLabel_font-size:14px;buttonDefaultLabel_color:#ffffff;buttonDefaultLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;}#imi7hzz9ho2a5 .ch5-button--default .ch5-button--icon{color:#ffffff;font-size:14px;custom-font-size:14px;buttonDefaultIcon_font-size:14px;buttonDefaultIcon_color:#ffffff;margin-left:0;margin-right:0;margin-bottom:0;}#imi7hzz9ho2a5 .ch5-button--default .cb-checkbox-icon{color:#ffffff;buttonDefaultCheckbox_color:#ffffff;}#imi7hzz9ho2a5 .ccid-custom.ch5-button--default .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#imi7hzz9ho2a5 .ch5-button--default.ch5-button--pressed{color:#f0fff0;background-color:#00f0ff26;border-color:#0091ea;}#imi7hzz9ho2a5 .ch5-button--default.ch5-button--pressed .ch5-button--label{color:#00f0ff26;font-size:14px;font-weight:400;buttonDefaultPressedLabel_font-size:14px;buttonDefaultPressedLabel_color:#00f0ff26;buttonDefaultPressedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;}#imi7hzz9ho2a5 .ch5-button--default.ch5-button--pressed .ch5-button--icon{color:#f0fff0;font-size:14px;custom-font-size:14px;buttonDefaultPressedIcon_font-size:14px;buttonDefaultPressedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#imi7hzz9ho2a5 .ch5-button--default.ch5-button--pressed .cb-checkbox-icon{color:#f0fff0;buttonDefaultPressedCheckbox_color:#f0fff0;}#imi7hzz9ho2a5 .ccid-custom.ch5-button--default.ch5-button--pressed .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#imi7hzz9ho2a5 .ch5-button--default.ch5-button--selected{color:#f0fff0;background-color:#0073bf;border-color:#0091ea;}#imi7hzz9ho2a5 .ch5-button--default.ch5-button--selected .ch5-button--label{color:#f0fff0;font-size:14px;font-weight:400;buttonDefaultSelectedLabel_font-size:14px;buttonDefaultSelectedLabel_color:#f0fff0;buttonDefaultSelectedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;}#imi7hzz9ho2a5 .ch5-button--default.ch5-button--selected .ch5-button--icon{color:#f0fff0;font-size:14px;custom-font-size:14px;buttonDefaultSelectedIcon_font-size:14px;buttonDefaultSelectedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#imi7hzz9ho2a5 .ch5-button--default.ch5-button--selected .cb-checkbox-icon{color:#f0fff0;buttonDefaultSelectedCheckbox_color:#f0fff0;}#imi7hzz9ho2a5 .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#imi7hzz9ho2a5 .ch5-button--size-regular .cb-btn{width:168px;height:164px;}#imi7hzz9ho2a5 .ch5-button--rounded-rectangle{border-top-right-radius:0;border-radius:0 0 0 0;border-bottom-right-radius:0;border-top-left-radius:0;border-bottom-left-radius:0;}#imi7hzz9ho2a5 .ch5-button-child{top:0;left:0;z-index:0;width:inherit;height:inherit;border-radius:50%;border-style:inherit;border-width:inherit;position:absolute;}#itjiyu7n8giec .ch5-button--default{border-style:solid;border-color:#0091ea;color:#ffffff;background-color:rgba(0,240,255,0);border-width:0;max-height:100%;max-width:100%;display:flex;align-items:center;}#itjiyu7n8giec .ch5-button--default .ch5-button--label{font-family:Roboto;color:#ffffff;font-size:14px;font-weight:400;buttonDefaultLabel_font-size:14px;buttonDefaultLabel_color:#ffffff;buttonDefaultLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;}#itjiyu7n8giec .ch5-button--default .ch5-button--icon{color:#ffffff;font-size:14px;custom-font-size:14px;buttonDefaultIcon_font-size:14px;buttonDefaultIcon_color:#ffffff;margin-left:0;margin-right:0;margin-bottom:0;}#itjiyu7n8giec .ch5-button--default .cb-checkbox-icon{color:#ffffff;buttonDefaultCheckbox_color:#ffffff;}#itjiyu7n8giec .ccid-custom.ch5-button--default .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#itjiyu7n8giec .ch5-button--default.ch5-button--pressed{color:#f0fff0;background-color:#00f0ff26;border-color:#0091ea;}#itjiyu7n8giec .ch5-button--default.ch5-button--pressed .ch5-button--label{color:#f0fff0;font-size:14px;font-weight:400;buttonDefaultPressedLabel_font-size:14px;buttonDefaultPressedLabel_color:#f0fff0;buttonDefaultPressedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;}#itjiyu7n8giec .ch5-button--default.ch5-button--pressed .ch5-button--icon{color:#f0fff0;font-size:14px;custom-font-size:14px;buttonDefaultPressedIcon_font-size:14px;buttonDefaultPressedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#itjiyu7n8giec .ch5-button--default.ch5-button--pressed .cb-checkbox-icon{color:#f0fff0;buttonDefaultPressedCheckbox_color:#f0fff0;}#itjiyu7n8giec .ccid-custom.ch5-button--default.ch5-button--pressed .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#itjiyu7n8giec .ch5-button--default.ch5-button--selected{color:#f0fff0;background-color:#0073bf;border-color:#0091ea;}#itjiyu7n8giec .ch5-button--default.ch5-button--selected .ch5-button--label{color:#f0fff0;font-size:14px;font-weight:400;buttonDefaultSelectedLabel_font-size:14px;buttonDefaultSelectedLabel_color:#f0fff0;buttonDefaultSelectedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;}#itjiyu7n8giec .ch5-button--default.ch5-button--selected .ch5-button--icon{color:#f0fff0;font-size:14px;custom-font-size:14px;buttonDefaultSelectedIcon_font-size:14px;buttonDefaultSelectedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#itjiyu7n8giec .ch5-button--default.ch5-button--selected .cb-checkbox-icon{color:#f0fff0;buttonDefaultSelectedCheckbox_color:#f0fff0;}#itjiyu7n8giec .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#itjiyu7n8giec .ch5-button--size-regular .cb-btn{width:158px;height:167px;}#itjiyu7n8giec .ch5-button--rounded-rectangle{border-top-right-radius:0;border-radius:20px 0 0 20px;border-bottom-right-radius:0;border-top-left-radius:20px;border-bottom-left-radius:20px;}#itjiyu7n8giec{pointer-events:all;width:158px;height:167px;font-family:Roboto;display:block;left:798px;top:388px;position:absolute;z-index:132;newRuleWidth:157px;newRuleHeight:166px;}#i7ye{width:237px;height:133px;left:1125px;pointer-events:all;font-family:Roboto;display:block;top:816px;position:absolute;z-index:1;buttonDefaultLabel_font-size:30px;buttonDefaultPressedLabel_font-size:25px;buttonDefaultSelectedLabel_font-size:30px;buttonDefaultIcon_font-size:50px;buttonDefaultSelectedIcon_font-size:50px;buttonDefaultPressedIcon_font-size:45px;newRuleWidth:237px;newRuleHeight:133px;}#i7ye .ch5-button--circle.ch5-button--size-regular .cb-btn{width:237px;height:237px;}#i7ye .ch5-button--size-regular .cb-btn{width:237px;height:133px;}#i7ye .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#i7ye .ch5-button--default.ch5-button--selected .cb-checkbox-icon{color:#f0fff0;buttonDefaultSelectedCheckbox_color:#f0fff0;}#i7ye .ch5-button--default.ch5-button--selected .ch5-button--icon{color:#f0fff0;font-size:50px;custom-font-size:50px;buttonDefaultSelectedIcon_font-size:50px;buttonDefaultSelectedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#i7ye .ch5-button--default.ch5-button--selected .ch5-button--label{color:#f0fff0;font-size:30px;font-weight:400;buttonDefaultSelectedLabel_font-size:30px;buttonDefaultSelectedLabel_color:#f0fff0;buttonDefaultSelectedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:30px;}#i7ye .ch5-button--default.ch5-button--selected{color:#f0fff0;background-color:#002b61;border-color:#0091ea;}#i7ye .ccid-custom.ch5-button--default.ch5-button--pressed .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#i7ye .ch5-button--default.ch5-button--pressed .cb-checkbox-icon{color:#f0fff0;buttonDefaultPressedCheckbox_color:#f0fff0;}#i7ye .ch5-button--default.ch5-button--pressed .ch5-button--icon{color:#f0fff0;font-size:45px;custom-font-size:45px;buttonDefaultPressedIcon_font-size:45px;buttonDefaultPressedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#i7ye .ch5-button--default.ch5-button--pressed .ch5-button--label{color:#f0fff0;font-size:25px;font-weight:400;buttonDefaultPressedLabel_font-size:25px;buttonDefaultPressedLabel_color:#f0fff0;buttonDefaultPressedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:25px;}#i7ye .ch5-button--default.ch5-button--pressed{color:#f0fff0;background-color:#00d0dd;border-color:#0091ea;}#i7ye .ccid-custom.ch5-button--default .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#i7ye .ch5-button--default .cb-checkbox-icon{color:#ffffff;buttonDefaultCheckbox_color:#ffffff;}#i7ye .ch5-button--default .ch5-button--icon{color:#ffffff;font-size:50px;custom-font-size:50px;buttonDefaultIcon_font-size:50px;buttonDefaultIcon_color:#ffffff;margin-left:0;margin-right:0;margin-bottom:0;buttonDefaultIcon_margin-left:0;}#i7ye .ch5-button--default .ch5-button--label{font-family:Roboto;color:#ffffff;font-size:30px;font-weight:400;buttonDefaultLabel_font-size:30px;buttonDefaultLabel_color:#ffffff;buttonDefaultLabel_font-weight:400;custom-font-size:30px;margin-left:0;margin-right:0;margin-bottom:0;buttonDefaultLabel_margin-left:0;}#i7ye .ch5-button--default{border-style:solid;border-color:#0091ea;color:#ffffff;background-color:#00838b;border-width:0;max-height:100%;max-width:100%;display:flex;align-items:center;}#i7ye .ch5-button--rounded-rectangle{border-top-left-radius:20px;border-radius:20px 20px 20px 20px;border-top-right-radius:20px;border-bottom-right-radius:20px;border-bottom-left-radius:20px;}#iyghktgpeocqy .ch5-button--default{border-style:solid;border-color:#0091ea;color:#ffffff;background-color:rgba(0,240,255,0);border-width:0;max-height:100%;max-width:100%;display:flex;align-items:center;}#iyghktgpeocqy .ch5-button--default .ch5-button--label{font-family:Roboto;color:#ffffff;font-size:14px;font-weight:400;buttonDefaultLabel_font-size:14px;buttonDefaultLabel_color:#ffffff;buttonDefaultLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;}#iyghktgpeocqy .ch5-button--default .ch5-button--icon{color:#ffffff;font-size:14px;custom-font-size:14px;buttonDefaultIcon_font-size:14px;buttonDefaultIcon_color:#ffffff;margin-left:0;margin-right:0;margin-bottom:0;}#iyghktgpeocqy .ch5-button--default .cb-checkbox-icon{color:#ffffff;buttonDefaultCheckbox_color:#ffffff;}#iyghktgpeocqy .ccid-custom.ch5-button--default .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#iyghktgpeocqy .ch5-button--default.ch5-button--pressed{color:#f0fff0;background-color:rgba(0,240,255,0.15);border-color:#0091ea;}#iyghktgpeocqy .ch5-button--default.ch5-button--pressed .ch5-button--label{color:#000000;font-size:14px;font-weight:400;buttonDefaultPressedLabel_font-size:14px;buttonDefaultPressedLabel_color:#000000;buttonDefaultPressedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;}#iyghktgpeocqy .ch5-button--default.ch5-button--pressed .ch5-button--icon{color:#f0fff0;font-size:14px;custom-font-size:14px;buttonDefaultPressedIcon_font-size:14px;buttonDefaultPressedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#iyghktgpeocqy .ch5-button--default.ch5-button--pressed .cb-checkbox-icon{color:#f0fff0;buttonDefaultPressedCheckbox_color:#f0fff0;}#iyghktgpeocqy .ccid-custom.ch5-button--default.ch5-button--pressed .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#iyghktgpeocqy .ch5-button--default.ch5-button--selected{color:#f0fff0;background-color:#0073bf;border-color:#0091ea;}#iyghktgpeocqy .ch5-button--default.ch5-button--selected .ch5-button--label{color:#f0fff0;font-size:14px;font-weight:400;buttonDefaultSelectedLabel_font-size:14px;buttonDefaultSelectedLabel_color:#f0fff0;buttonDefaultSelectedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;}#iyghktgpeocqy .ch5-button--default.ch5-button--selected .ch5-button--icon{color:#f0fff0;font-size:14px;custom-font-size:14px;buttonDefaultSelectedIcon_font-size:14px;buttonDefaultSelectedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#iyghktgpeocqy .ch5-button--default.ch5-button--selected .cb-checkbox-icon{color:#f0fff0;buttonDefaultSelectedCheckbox_color:#f0fff0;}#iyghktgpeocqy .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#iyghktgpeocqy .ch5-button--size-regular .cb-btn{width:168px;height:165px;}#iyghktgpeocqy .ch5-button--rounded-rectangle{border-top-right-radius:0;border-radius:0 0 20px 20px;border-bottom-right-radius:20px;border-top-left-radius:0;border-bottom-left-radius:20px;}#iyghktgpeocqy{pointer-events:all;width:168px;height:165px;font-family:Roboto;display:block;left:956px;top:553px;position:absolute;z-index:134;buttonDefaultPressedLabel_color:#000000;newRuleWidth:167px;newRuleHeight:159px;}#ito9kk7o5zhe9{width:235px;height:40px;display:block;left:658px;top:101px;position:absolute;z-index:193;colorChipPreview_background-color:#ffffff;}#i4y2r46uqk9oy{display:block;background-color:rgba(182,198,213,0);border-style:solid;border-width:5px;border-color:#0099ff;width:873px;height:895px;left:605px;top:117px;position:absolute;z-index:213;border-top-left-radius:20px;border-radius:20px 20px 20px 20px;border-top-right-radius:20px;border-bottom-right-radius:20px;border-bottom-left-radius:20px;}#i8bpjox5kc8u1 .ch5-text{width:260px;height:48px;font-size:30px;custom-font-size:30px;font-weight:700;}#ito9kk7o5zhe9 .ch5-color-chip{width:235px;height:40px;colorChipPreview_background-color:#ffffff;background-color:#ffffff;}#ito9kk7o5zhe9 .ch5-color-chip-preview{background-color:#ffffff;colorChipPreview_background-color:#ffffff;}#i4lk747eoiyaj{width:146px;height:40px;display:block;left:1651px;top:146px;position:absolute;z-index:292;colorChipPreview_background-color:#ffffff;}#i54lo427cojov{display:block;background-color:rgba(182,198,213,0);border-style:solid;border-width:5px;border-color:#0099ff;width:324px;height:641px;left:1563px;top:165px;position:absolute;z-index:274;border-top-left-radius:20px;border-radius:20px 20px 20px 20px;border-top-right-radius:20px;border-bottom-right-radius:20px;border-bottom-left-radius:20px;}#i94ytelioj9by .ch5-text{width:143px;height:48px;font-size:30px;custom-font-size:30px;font-weight:700;}#i4lk747eoiyaj .ch5-color-chip{width:146px;height:40px;colorChipPreview_background-color:#ffffff;background-color:#ffffff;}#i4lk747eoiyaj .ch5-color-chip-preview{background-color:#ffffff;colorChipPreview_background-color:#ffffff;}#i8bpjox5kc8u1{width:260px;height:48px;font-family:Roboto;display:block;left:658px;top:93px;position:absolute;z-index:215;font-weight:700;}#i94ytelioj9by{width:143px;height:48px;font-family:Roboto;display:block;left:1654px;top:141px;position:absolute;z-index:293;font-weight:700;}#iq032fszgqd1z{width:206px;height:40px;display:block;left:266px;top:146px;position:absolute;z-index:296;colorChipPreview_background-color:#ffffff;}#ibtcl6w3praby{width:237px;height:133px;left:250px;pointer-events:all;font-family:Roboto;display:block;top:212px;position:absolute;z-index:298;buttonDefaultLabel_font-size:30px;buttonDefaultPressedLabel_font-size:25px;buttonDefaultSelectedLabel_font-size:30px;newRuleWidth:237px;newRuleHeight:133px;}#iza4i2ux8lmxh{display:block;background-color:rgba(182,198,213,0);border-style:solid;border-width:5px;border-color:#0099ff;width:324px;height:226px;left:207px;top:165px;position:absolute;z-index:301;border-top-left-radius:20px;border-radius:20px 20px 20px 20px;border-top-right-radius:20px;border-bottom-right-radius:20px;border-bottom-left-radius:20px;}#iwrpiopcld3bw .ch5-text{width:220px;height:48px;font-size:30px;custom-font-size:30px;font-weight:700;}#iq032fszgqd1z .ch5-color-chip-preview{background-color:#ffffff;colorChipPreview_background-color:#ffffff;}#iq032fszgqd1z .ch5-color-chip{width:206px;height:40px;colorChipPreview_background-color:#ffffff;background-color:#ffffff;}#ibtcl6w3praby .ch5-button--rounded-rectangle{border-top-left-radius:20px;border-radius:20px 20px 20px 20px;border-top-right-radius:20px;border-bottom-right-radius:20px;border-bottom-left-radius:20px;}#ibtcl6w3praby .ch5-button--default{border-style:solid;border-color:#0091ea;color:#ffffff;background-color:#0099ff;border-width:0;max-height:100%;max-width:100%;display:flex;align-items:center;}#ibtcl6w3praby .ch5-button--default .ch5-button--label{font-family:Roboto;color:#ffffff;font-size:30px;font-weight:400;buttonDefaultLabel_font-size:30px;buttonDefaultLabel_color:#ffffff;buttonDefaultLabel_font-weight:400;custom-font-size:30px;margin-left:0;margin-right:0;margin-bottom:0;}#ibtcl6w3praby .ch5-button--default .ch5-button--icon{color:#ffffff;font-size:14px;custom-font-size:14px;buttonDefaultIcon_font-size:14px;buttonDefaultIcon_color:#ffffff;margin-left:0;margin-right:0;margin-bottom:0;}#ibtcl6w3praby .ch5-button--default .cb-checkbox-icon{color:#ffffff;buttonDefaultCheckbox_color:#ffffff;}#ibtcl6w3praby .ccid-custom.ch5-button--default .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#ibtcl6w3praby .ch5-button--default.ch5-button--pressed{color:#f0fff0;background-color:#76c8ff;border-color:#0091ea;}#ibtcl6w3praby .ch5-button--default.ch5-button--pressed .ch5-button--label{color:#f0fff0;font-size:25px;font-weight:400;buttonDefaultPressedLabel_font-size:25px;buttonDefaultPressedLabel_color:#f0fff0;buttonDefaultPressedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:25px;}#ibtcl6w3praby .ch5-button--default.ch5-button--pressed .ch5-button--icon{color:#f0fff0;font-size:14px;custom-font-size:14px;buttonDefaultPressedIcon_font-size:14px;buttonDefaultPressedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#ibtcl6w3praby .ch5-button--default.ch5-button--pressed .cb-checkbox-icon{color:#f0fff0;buttonDefaultPressedCheckbox_color:#f0fff0;}#ibtcl6w3praby .ccid-custom.ch5-button--default.ch5-button--pressed .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#ibtcl6w3praby .ch5-button--default.ch5-button--selected{color:#f0fff0;background-color:#02426d;border-color:#0091ea;}#ibtcl6w3praby .ch5-button--default.ch5-button--selected .ch5-button--label{color:#f0fff0;font-size:30px;font-weight:400;buttonDefaultSelectedLabel_font-size:30px;buttonDefaultSelectedLabel_color:#f0fff0;buttonDefaultSelectedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:30px;}#ibtcl6w3praby .ch5-button--default.ch5-button--selected .ch5-button--icon{color:#f0fff0;font-size:14px;custom-font-size:14px;buttonDefaultSelectedIcon_font-size:14px;buttonDefaultSelectedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#ibtcl6w3praby .ch5-button--default.ch5-button--selected .cb-checkbox-icon{color:#f0fff0;buttonDefaultSelectedCheckbox_color:#f0fff0;}#ibtcl6w3praby .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#ibtcl6w3praby .ch5-button--size-regular .cb-btn{width:237px;height:133px;}#ibtcl6w3praby .ch5-button--circle.ch5-button--size-regular .cb-btn{width:237px;height:237px;}#ibtcl6w3praby .ch5-button-child{left:0px;top:0px;position:absolute;width:inherit;height:inherit;z-index:299;newRuleWidth:237px;newRuleHeight:133px;border-radius:50%;border-style:inherit;border-width:inherit;}#ibtcl6w3praby[mode="0"] .ch5-button--default{border-style:solid;border-color:#0091ea;color:#ffffff;background-color:#0099ff;border-width:0;max-height:100%;max-width:100%;display:flex;align-items:center;}#ibtcl6w3praby[mode="0"] .ch5-button--default .ch5-button--label{font-family:Roboto;color:#ffffff;font-size:30px;font-weight:400;buttonDefaultLabel_font-size:30px;buttonDefaultLabel_color:#ffffff;buttonDefaultLabel_font-weight:400;custom-font-size:30px;margin-left:0;margin-right:0;margin-bottom:0;}#ibtcl6w3praby[mode="0"] .ch5-button--default .ch5-button--icon{color:#ffffff;font-size:14px;custom-font-size:14px;buttonDefaultIcon_font-size:14px;buttonDefaultIcon_color:#ffffff;margin-left:0;margin-right:0;margin-bottom:0;}#ibtcl6w3praby[mode="0"] .ch5-button--default .cb-checkbox-icon{color:#ffffff;buttonDefaultCheckbox_color:#ffffff;}#ibtcl6w3praby[mode="0"] .ccid-custom.ch5-button--default .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#ibtcl6w3praby[mode="0"][pressed="true"] .ch5-button--default{color:#f0fff0;background-color:#76c8ff;border-color:#0091ea;}#ibtcl6w3praby[mode="0"][pressed="true"] .ch5-button--default.ch5-button--pressed .ch5-button--label{color:#f0fff0;font-size:25px;font-weight:400;buttonDefaultPressedLabel_font-size:25px;buttonDefaultPressedLabel_color:#f0fff0;buttonDefaultPressedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:25px;}#ibtcl6w3praby[mode="0"][pressed="true"] .ch5-button--default.ch5-button--pressed .ch5-button--icon{color:#f0fff0;font-size:14px;custom-font-size:14px;buttonDefaultPressedIcon_font-size:14px;buttonDefaultPressedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#ibtcl6w3praby[mode="0"][pressed="true"] .ch5-button--default.ch5-button--pressed .cb-checkbox-icon{color:#f0fff0;buttonDefaultPressedCheckbox_color:#f0fff0;}#ibtcl6w3praby[mode="0"][pressed="true"] .ccid-custom.ch5-button--default.ch5-button--pressed .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#ibtcl6w3praby[mode="0"][selected="true"] .ch5-button--default{color:#f0fff0;background-color:#02426d;border-color:#0091ea;}#ibtcl6w3praby[mode="0"][selected="true"] .ch5-button--default.ch5-button--selected .ch5-button--label{color:#f0fff0;font-size:30px;font-weight:400;buttonDefaultSelectedLabel_font-size:30px;buttonDefaultSelectedLabel_color:#f0fff0;buttonDefaultSelectedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:30px;}#ibtcl6w3praby[mode="0"][selected="true"] .ch5-button--default.ch5-button--selected .ch5-button--icon{color:#f0fff0;font-size:14px;custom-font-size:14px;buttonDefaultSelectedIcon_font-size:14px;buttonDefaultSelectedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#ibtcl6w3praby[mode="0"][selected="true"] .ch5-button--default.ch5-button--selected .cb-checkbox-icon{color:#f0fff0;buttonDefaultSelectedCheckbox_color:#f0fff0;}#ibtcl6w3praby[mode="0"][selected="true"] .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#ibtcl6w3praby[mode="1"] .ch5-button--default{border-style:solid;border-color:#0091ea;color:#ffffff;background-color:#0099ff;border-width:0;max-height:100%;max-width:100%;display:flex;align-items:center;}#ibtcl6w3praby[mode="1"] .ch5-button--default .ch5-button--label{font-family:Roboto;color:#ffffff;font-size:30px;font-weight:400;buttonDefaultLabel_font-size:30px;buttonDefaultLabel_color:#ffffff;buttonDefaultLabel_font-weight:400;custom-font-size:30px;margin-left:0;margin-right:0;margin-bottom:0;}#ibtcl6w3praby[mode="1"] .ch5-button--default .ch5-button--icon{color:#ffffff;font-size:14px;custom-font-size:14px;buttonDefaultIcon_font-size:14px;buttonDefaultIcon_color:#ffffff;margin-left:0;margin-right:0;margin-bottom:0;}#ibtcl6w3praby[mode="1"] .ch5-button--default .cb-checkbox-icon{color:#ffffff;buttonDefaultCheckbox_color:#ffffff;}#ibtcl6w3praby[mode="1"] .ccid-custom.ch5-button--default .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#ibtcl6w3praby[mode="1"][pressed="true"] .ch5-button--default{color:#f0fff0;background-color:#76c8ff;border-color:#0091ea;}#ibtcl6w3praby[mode="1"][pressed="true"] .ch5-button--default.ch5-button--pressed .ch5-button--label{color:#f0fff0;font-size:25px;font-weight:400;buttonDefaultPressedLabel_font-size:25px;buttonDefaultPressedLabel_color:#f0fff0;buttonDefaultPressedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:25px;}#ibtcl6w3praby[mode="1"][pressed="true"] .ch5-button--default.ch5-button--pressed .ch5-button--icon{color:#f0fff0;font-size:14px;custom-font-size:14px;buttonDefaultPressedIcon_font-size:14px;buttonDefaultPressedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#ibtcl6w3praby[mode="1"][pressed="true"] .ch5-button--default.ch5-button--pressed .cb-checkbox-icon{color:#f0fff0;buttonDefaultPressedCheckbox_color:#f0fff0;}#ibtcl6w3praby[mode="1"][pressed="true"] .ccid-custom.ch5-button--default.ch5-button--pressed .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#ibtcl6w3praby[mode="1"][selected="true"] .ch5-button--default{color:#f0fff0;background-color:#02426d;border-color:#0091ea;}#ibtcl6w3praby[mode="1"][selected="true"] .ch5-button--default.ch5-button--selected .ch5-button--label{color:#f0fff0;font-size:30px;font-weight:400;buttonDefaultSelectedLabel_font-size:30px;buttonDefaultSelectedLabel_color:#f0fff0;buttonDefaultSelectedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:30px;}#ibtcl6w3praby[mode="1"][selected="true"] .ch5-button--default.ch5-button--selected .ch5-button--icon{color:#f0fff0;font-size:14px;custom-font-size:14px;buttonDefaultSelectedIcon_font-size:14px;buttonDefaultSelectedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#ibtcl6w3praby[mode="1"][selected="true"] .ch5-button--default.ch5-button--selected .cb-checkbox-icon{color:#f0fff0;buttonDefaultSelectedCheckbox_color:#f0fff0;}#ibtcl6w3praby[mode="1"][selected="true"] .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#iwrpiopcld3bw{width:220px;height:48px;font-family:Roboto;display:block;left:257px;top:141px;position:absolute;z-index:294;font-weight:700;}#imgtz .ch5-image{border-color:black;object-fit:contain;}#imgtz{width:576px;height:572px;pointer-events:all;display:block;left:752px;top:181px;position:absolute;z-index:130;}}@media (orientation: landscape) and (max-width: 2561px) and (max-height: 1441px), (orientation: landscape) and (max-width: 2559px){#i09y971w5a{width:2135px;height:1164px;left:0;top:0;position:absolute;}#i3qqmtbufoqnk{left:1607px;top:212px;position:absolute;width:237px;height:133px;z-index:297;buttonDefaultIcon_font-size:30px;buttonDefaultPressedIcon_font-size:25px;buttonDefaultSelectedIcon_font-size:30px;newRuleWidth:237px;newRuleHeight:133px;}#isk0b2rnwkila{left:1607px;top:414px;position:absolute;width:237px;height:133px;z-index:300;buttonDefaultIcon_font-size:30px;buttonDefaultPressedIcon_font-size:25px;buttonDefaultSelectedIcon_font-size:30px;newRuleWidth:237px;newRuleHeight:133px;}#inetan5fy9jnp{left:1607px;top:626px;position:absolute;width:237px;height:133px;z-index:301;buttonDefaultIcon_font-size:30px;buttonDefaultPressedIcon_font-size:25px;buttonDefaultSelectedIcon_font-size:30px;newRuleWidth:237px;newRuleHeight:133px;}#i3qqmtbufoqnk .ch5-button--vertical .cx-button-checkbox-pos-left{padding-left:0px;}#i3qqmtbufoqnk .ch5-button--vertical .cx-button-checkbox-pos-right{padding-right:0px;}#isk0b2rnwkila .ch5-button--vertical .cx-button-checkbox-pos-left{padding-left:0px;}#isk0b2rnwkila .ch5-button--vertical .cx-button-checkbox-pos-right{padding-right:0px;}#inetan5fy9jnp .ch5-button--vertical .cx-button-checkbox-pos-left{padding-left:0px;}#inetan5fy9jnp .ch5-button--vertical .cx-button-checkbox-pos-right{padding-right:0px;}#izmxa{pointer-events:all;width:160px;height:165px;font-family:Roboto;display:block;left:1124px;top:389px;position:absolute;z-index:285;newRuleWidth:159px;newRuleHeight:164px;}#i667wpyx3kwni{left:957px;top:229px;position:absolute;width:168px;height:159px;newRuleWidth:167px;newRuleHeight:158px;z-index:283;en:1;}#i667wpyx3kwni .ch5-button--vertical .cx-button-checkbox-pos-left{padding-left:0px;}#i667wpyx3kwni .ch5-button--vertical .cx-button-checkbox-pos-right{padding-right:0px;}#ifa2w7b78mn0k{left:718px;top:816px;position:absolute;width:237px;height:133px;display:block;z-index:293;newRuleWidth:237px;newRuleHeight:133px;}#ifa2w7b78mn0k .ch5-button--vertical .cx-button-checkbox-pos-left{padding-left:0px;}#ifa2w7b78mn0k .ch5-button--vertical .cx-button-checkbox-pos-right{padding-right:0px;}#izmxa .ch5-button--vertical .cx-button-checkbox-pos-left{padding-left:0px;}#izmxa .ch5-button--vertical .cx-button-checkbox-pos-right{padding-right:0px;}#imi7hzz9ho2a5{left:956px;top:389px;position:absolute;width:168px;height:164px;buttonDefaultPressedLabel_color:#00f0ff26;z-index:287;newRuleWidth:167px;newRuleHeight:163px;}#imi7hzz9ho2a5 .ch5-button--vertical .cx-button-checkbox-pos-left{padding-left:0px;}#imi7hzz9ho2a5 .ch5-button--vertical .cx-button-checkbox-pos-right{padding-right:0px;}#iz8we{display:block;}#iymry{display:block;}#ihua6{display:block;}#ivred{display:block;}#itjiyu7n8giec{left:798px;top:388px;position:absolute;width:158px;height:167px;newRuleWidth:157px;newRuleHeight:166px;z-index:284;}#itjiyu7n8giec .ch5-button--vertical .cx-button-checkbox-pos-left{padding-left:0px;}#itjiyu7n8giec .ch5-button--vertical .cx-button-checkbox-pos-right{padding-right:0px;}#i7ye{left:1125px;top:816px;position:absolute;width:237px;height:133px;z-index:295;buttonDefaultPressedLabel_font-size:25px;buttonDefaultSelectedLabel_font-size:30px;buttonDefaultIcon_font-size:50px;buttonDefaultSelectedIcon_font-size:50px;buttonDefaultPressedIcon_font-size:45px;newRuleWidth:237px;newRuleHeight:133px;}#i7ye .ch5-button--vertical .cx-button-checkbox-pos-left{padding-left:0px;}#i7ye .ch5-button--vertical .cx-button-checkbox-pos-right{padding-right:0px;}#iyghktgpeocqy .ch5-button--vertical .cx-button-checkbox-pos-left{padding-left:0px;}#iyghktgpeocqy .ch5-button--vertical .cx-button-checkbox-pos-right{padding-right:0px;}#iyghktgpeocqy{left:956px;top:553px;position:absolute;width:168px;height:165px;buttonDefaultPressedLabel_color:#000000;newRuleWidth:167px;newRuleHeight:159px;z-index:286;}#ito9kk7o5zhe9{left:672px;top:101px;z-index:278;width:235px;}#i4y2r46uqk9oy{display:block;background-color:rgba(182,198,213,0);border-style:solid;border-width:5px;border-color:#0099ff;width:873px;height:895px;left:605px;top:117px;position:absolute;z-index:277;border-top-left-radius:20px;border-radius:20px 20px 20px 20px;border-top-right-radius:20px;border-bottom-right-radius:20px;border-bottom-left-radius:20px;}#i4lk747eoiyaj{left:1651px;top:146px;z-index:291;position:absolute;width:146px;height:40px;}#i54lo427cojov{display:block;background-color:rgba(182,198,213,0);border-style:solid;border-width:5px;border-color:#0099ff;width:324px;height:641px;left:1563px;top:165px;position:absolute;z-index:290;border-top-left-radius:20px;border-radius:20px 20px 20px 20px;border-top-right-radius:20px;border-bottom-right-radius:20px;border-bottom-left-radius:20px;}body{background-color:#fff;}#i8bpjox5kc8u1{left:658px;top:93px;z-index:279;width:260px;}#i94ytelioj9by{left:1654px;top:141px;z-index:292;position:absolute;width:143px;height:48px;display:block;}#wrapper{background-color:#fff;}#iq032fszgqd1z{width:206px;height:40px;display:block;left:266px;top:146px;position:absolute;z-index:274;colorChipPreview_background-color:#ffffff;}#ibtcl6w3praby{left:250px;top:212px;position:absolute;width:237px;height:133px;z-index:276;newRuleWidth:237px;newRuleHeight:133px;}#iza4i2ux8lmxh{display:block;background-color:rgba(182,198,213,0);border-style:solid;border-width:5px;border-color:#0099ff;width:324px;height:226px;left:207px;top:165px;position:absolute;z-index:273;border-top-left-radius:20px;border-radius:20px 20px 20px 20px;border-top-right-radius:20px;border-bottom-right-radius:20px;border-bottom-left-radius:20px;}#ibtcl6w3praby .ch5-button--vertical .cx-button-checkbox-pos-right{padding-right:0px;}#ibtcl6w3praby .ch5-button--vertical .cx-button-checkbox-pos-left{padding-left:0px;}#iwrpiopcld3bw{width:220px;height:48px;font-family:Roboto;left:257px;top:141px;position:absolute;z-index:275;font-weight:700;display:block;}#imgtz{width:576px;height:572px;pointer-events:all;left:752px;top:181px;position:absolute;z-index:282;display:block;}}
-
-
-
-
-
-
+@media (max-width: 99999px){#i09y971w5a{width:2224px;height:1193px;left:0;top:0;position:absolute;}#wrapper{background-color:#fff;}.widget-container{background-image:linear-gradient(45deg, #DAE2EA 25%, transparent 25%), linear-gradient(-45deg, #DAE2EA 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #DAE2EA 75%), linear-gradient(-45deg, transparent 75%, #DAE2EA 75%);background-size:20px 20px;background-position:0 0, 0 10px, 10px -10px, -10px 0px;z-index:0;}#ia7i .ch5-image{border-color:black;object-fit:contain;}#i3qqmtbufoqnk{width:237px;height:133px;left:1677px;pointer-events:all;font-family:Roboto;display:block;top:244px;position:absolute;buttonDefaultLabel_font-size:xx-largename;buttonDefaultPressedLabel_font-size:x-largename;buttonDefaultSelectedLabel_font-size:30px;buttonDefaultIcon_font-size:xx-largename;buttonDefaultPressedIcon_font-size:x-largename;buttonDefaultSelectedIcon_font-size:30px;newRuleWidth:237px;newRuleHeight:133px;}#i3qqmtbufoqnk .ch5-button--circle.ch5-button--size-regular .cb-btn{width:150px;height:237px;}#i3qqmtbufoqnk .ch5-button--size-regular .cb-btn{width:237px;height:133px;}#i3qqmtbufoqnk .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#i3qqmtbufoqnk .ch5-button--default.ch5-button--selected .cb-checkbox-icon{color:#f0fff0;buttonDefaultSelectedCheckbox_color:#f0fff0;}#i3qqmtbufoqnk .ch5-button--default.ch5-button--selected .ch5-button--icon{color:#f0fff0;custom-font-size:30px;buttonDefaultSelectedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#i3qqmtbufoqnk .ch5-button--default.ch5-button--selected .ch5-button--label{color:#f0fff0;font-weight:400;buttonDefaultSelectedLabel_color:#f0fff0;buttonDefaultSelectedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:30px;}#i3qqmtbufoqnk .ch5-button--default.ch5-button--selected{color:#f0fff0;background-color:#002034;border-color:#0091ea;}#i3qqmtbufoqnk .ccid-custom.ch5-button--default.ch5-button--pressed .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#i3qqmtbufoqnk .ch5-button--default.ch5-button--pressed .cb-checkbox-icon{color:#f0fff0;buttonDefaultPressedCheckbox_color:#f0fff0;}#i3qqmtbufoqnk .ch5-button--default.ch5-button--pressed .ch5-button--icon{color:#f0fff0;font-size:x-large;custom-font-size:x-largename;buttonDefaultPressedIcon_font-size:x-largename;buttonDefaultPressedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#i3qqmtbufoqnk .ch5-button--default.ch5-button--pressed .ch5-button--label{color:#f0fff0;font-size:x-large;font-weight:400;buttonDefaultPressedLabel_font-size:x-largename;buttonDefaultPressedLabel_color:#f0fff0;buttonDefaultPressedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:x-largename;}#i3qqmtbufoqnk .ch5-button--default.ch5-button--pressed{color:#f0fff0;background-color:#b9b9b9;border-color:#0091ea;}#i3qqmtbufoqnk .ccid-custom.ch5-button--default .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#i3qqmtbufoqnk .ch5-button--default .cb-checkbox-icon{color:#ffffff;buttonDefaultCheckbox_color:#ffffff;}#i3qqmtbufoqnk .ch5-button--default .ch5-button--icon{color:#ffffff;font-size:xx-large;custom-font-size:xx-largename;buttonDefaultIcon_font-size:xx-largename;buttonDefaultIcon_color:#ffffff;margin-left:0;margin-right:0;margin-bottom:0;}#i3qqmtbufoqnk .ch5-button--default .ch5-button--label{font-family:Roboto;color:#ffffff;font-size:xx-large;font-weight:400;buttonDefaultLabel_font-size:xx-largename;buttonDefaultLabel_color:#ffffff;buttonDefaultLabel_font-weight:400;custom-font-size:xx-largename;margin-left:0;margin-right:0;margin-bottom:0;}#i3qqmtbufoqnk .ch5-button--default{border-style:solid;border-color:#0091ea;color:#ffffff;background-color:#696969;border-width:0;max-height:100%;max-width:100%;display:flex;align-items:center;}#isk0b2rnwkila{width:237px;height:133px;left:1677px;pointer-events:all;font-family:Roboto;display:block;top:446px;position:absolute;buttonDefaultLabel_font-size:xx-largename;buttonDefaultPressedLabel_font-size:x-largename;buttonDefaultSelectedLabel_font-size:30px;buttonDefaultIcon_font-size:xx-largename;buttonDefaultPressedIcon_font-size:x-largename;buttonDefaultSelectedIcon_font-size:30px;newRuleWidth:237px;newRuleHeight:133px;}#isk0b2rnwkila .ch5-button--circle.ch5-button--size-regular .cb-btn{width:150px;height:237px;}#isk0b2rnwkila .ch5-button--size-regular .cb-btn{width:237px;height:133px;}#isk0b2rnwkila .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#isk0b2rnwkila .ch5-button--default.ch5-button--selected .cb-checkbox-icon{color:#f0fff0;buttonDefaultSelectedCheckbox_color:#f0fff0;}#isk0b2rnwkila .ch5-button--default.ch5-button--selected .ch5-button--icon{color:#f0fff0;custom-font-size:30px;buttonDefaultSelectedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#isk0b2rnwkila .ch5-button--default.ch5-button--selected .ch5-button--label{color:#f0fff0;font-weight:400;buttonDefaultSelectedLabel_color:#f0fff0;buttonDefaultSelectedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:30px;}#isk0b2rnwkila .ch5-button--default.ch5-button--selected{color:#f0fff0;background-color:#002034;border-color:#0091ea;}#isk0b2rnwkila .ccid-custom.ch5-button--default.ch5-button--pressed .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#isk0b2rnwkila .ch5-button--default.ch5-button--pressed .cb-checkbox-icon{color:#f0fff0;buttonDefaultPressedCheckbox_color:#f0fff0;}#isk0b2rnwkila .ch5-button--default.ch5-button--pressed .ch5-button--icon{color:#f0fff0;font-size:x-large;custom-font-size:x-largename;buttonDefaultPressedIcon_font-size:x-largename;buttonDefaultPressedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#isk0b2rnwkila .ch5-button--default.ch5-button--pressed .ch5-button--label{color:#f0fff0;font-size:x-large;font-weight:400;buttonDefaultPressedLabel_font-size:x-largename;buttonDefaultPressedLabel_color:#f0fff0;buttonDefaultPressedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:x-largename;}#isk0b2rnwkila .ch5-button--default.ch5-button--pressed{color:#f0fff0;background-color:#b9b9b9;border-color:#0091ea;}#isk0b2rnwkila .ccid-custom.ch5-button--default .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#isk0b2rnwkila .ch5-button--default .cb-checkbox-icon{color:#ffffff;buttonDefaultCheckbox_color:#ffffff;}#isk0b2rnwkila .ch5-button--default .ch5-button--icon{color:#ffffff;font-size:xx-large;custom-font-size:xx-largename;buttonDefaultIcon_font-size:xx-largename;buttonDefaultIcon_color:#ffffff;margin-left:0;margin-right:0;margin-bottom:0;}#isk0b2rnwkila .ch5-button--default .ch5-button--label{font-family:Roboto;color:#ffffff;font-size:xx-large;font-weight:400;buttonDefaultLabel_font-size:xx-largename;buttonDefaultLabel_color:#ffffff;buttonDefaultLabel_font-weight:400;custom-font-size:xx-largename;margin-left:0;margin-right:0;margin-bottom:0;}#isk0b2rnwkila .ch5-button--default{border-style:solid;border-color:#0091ea;color:#ffffff;background-color:#696969;border-width:0;max-height:100%;max-width:100%;display:flex;align-items:center;}#inetan5fy9jnp{width:237px;height:133px;left:1677px;pointer-events:all;font-family:Roboto;display:block;top:658px;position:absolute;buttonDefaultLabel_font-size:xx-largename;buttonDefaultPressedLabel_font-size:x-largename;buttonDefaultSelectedLabel_font-size:30px;buttonDefaultIcon_font-size:xx-largename;buttonDefaultPressedIcon_font-size:x-largename;buttonDefaultSelectedIcon_font-size:30px;newRuleWidth:237px;newRuleHeight:133px;}#inetan5fy9jnp .ch5-button--circle.ch5-button--size-regular .cb-btn{width:150px;height:237px;}#inetan5fy9jnp .ch5-button--size-regular .cb-btn{width:237px;height:133px;}#inetan5fy9jnp .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#inetan5fy9jnp .ch5-button--default.ch5-button--selected .cb-checkbox-icon{color:#f0fff0;buttonDefaultSelectedCheckbox_color:#f0fff0;}#inetan5fy9jnp .ch5-button--default.ch5-button--selected .ch5-button--icon{color:#f0fff0;custom-font-size:30px;buttonDefaultSelectedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#inetan5fy9jnp .ch5-button--default.ch5-button--selected .ch5-button--label{color:#f0fff0;font-weight:400;buttonDefaultSelectedLabel_color:#f0fff0;buttonDefaultSelectedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:30px;}#inetan5fy9jnp .ch5-button--default.ch5-button--selected{color:#f0fff0;background-color:#002034;border-color:#0091ea;}#inetan5fy9jnp .ccid-custom.ch5-button--default.ch5-button--pressed .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#inetan5fy9jnp .ch5-button--default.ch5-button--pressed .cb-checkbox-icon{color:#f0fff0;buttonDefaultPressedCheckbox_color:#f0fff0;}#inetan5fy9jnp .ch5-button--default.ch5-button--pressed .ch5-button--icon{color:#f0fff0;font-size:x-large;custom-font-size:x-largename;buttonDefaultPressedIcon_font-size:x-largename;buttonDefaultPressedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#inetan5fy9jnp .ch5-button--default.ch5-button--pressed .ch5-button--label{color:#f0fff0;font-size:x-large;font-weight:400;buttonDefaultPressedLabel_font-size:x-largename;buttonDefaultPressedLabel_color:#f0fff0;buttonDefaultPressedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:x-largename;}#inetan5fy9jnp .ch5-button--default.ch5-button--pressed{color:#f0fff0;background-color:#b9b9b9;border-color:#0091ea;}#inetan5fy9jnp .ccid-custom.ch5-button--default .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#inetan5fy9jnp .ch5-button--default .cb-checkbox-icon{color:#ffffff;buttonDefaultCheckbox_color:#ffffff;}#inetan5fy9jnp .ch5-button--default .ch5-button--icon{color:#ffffff;font-size:xx-large;custom-font-size:xx-largename;buttonDefaultIcon_font-size:xx-largename;buttonDefaultIcon_color:#ffffff;margin-left:0;margin-right:0;margin-bottom:0;}#inetan5fy9jnp .ch5-button--default .ch5-button--label{font-family:Roboto;color:#ffffff;font-size:xx-large;font-weight:400;buttonDefaultLabel_font-size:xx-largename;buttonDefaultLabel_color:#ffffff;buttonDefaultLabel_font-weight:400;custom-font-size:xx-largename;margin-left:0;margin-right:0;margin-bottom:0;}#inetan5fy9jnp .ch5-button--default{border-style:solid;border-color:#0091ea;color:#ffffff;background-color:#696969;border-width:0;max-height:100%;max-width:100%;display:flex;align-items:center;}#inetan5fy9jnp .ch5-button--rounded-rectangle{border-top-left-radius:20px;border-radius:20px 20px 20px 20px;border-top-right-radius:20px;border-bottom-right-radius:20px;border-bottom-left-radius:20px;}#i3qqmtbufoqnk .ch5-button--rounded-rectangle{border-top-left-radius:20px;border-radius:20px 20px 20px 20px;border-top-right-radius:20px;border-bottom-right-radius:20px;border-bottom-left-radius:20px;}#isk0b2rnwkila .ch5-button--rounded-rectangle{border-top-left-radius:20px;border-radius:20px 20px 20px 20px;border-top-right-radius:20px;border-bottom-right-radius:20px;border-bottom-left-radius:20px;}#ifa2w7b78mn0k{width:237px;height:133px;left:788px;pointer-events:all;font-family:Roboto;display:block;top:848px;position:absolute;buttonDefaultLabel_font-size:xx-largename;buttonDefaultPressedLabel_font-size:x-largename;buttonDefaultSelectedLabel_font-size:30px;buttonDefaultIcon_font-size:xx-largename;newRuleWidth:237px;newRuleHeight:133px;buttonDefaultPressedIcon_font-size:x-largename;}#ifa2w7b78mn0k .ch5-button--circle.ch5-button--size-regular .cb-btn{width:237px;height:237px;}#ifa2w7b78mn0k .ch5-button--size-regular .cb-btn{width:237px;height:133px;}#ifa2w7b78mn0k .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#ifa2w7b78mn0k .ch5-button--default.ch5-button--selected .cb-checkbox-icon{color:#f0fff0;buttonDefaultSelectedCheckbox_color:#f0fff0;}#ifa2w7b78mn0k .ch5-button--default.ch5-button--selected .ch5-button--icon{color:#f0fff0;custom-font-size:50px;buttonDefaultSelectedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#ifa2w7b78mn0k .ch5-button--default.ch5-button--selected .ch5-button--label{color:#f0fff0;font-weight:400;buttonDefaultSelectedLabel_color:#f0fff0;buttonDefaultSelectedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:30px;}#ifa2w7b78mn0k .ch5-button--default.ch5-button--selected{color:#f0fff0;background-color:#002b61;border-color:#0091ea;}#ifa2w7b78mn0k .ccid-custom.ch5-button--default.ch5-button--pressed .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#ifa2w7b78mn0k .ch5-button--default.ch5-button--pressed .cb-checkbox-icon{color:#f0fff0;buttonDefaultPressedCheckbox_color:#f0fff0;}#ifa2w7b78mn0k .ch5-button--default.ch5-button--pressed .ch5-button--icon{color:#f0fff0;font-size:x-large;custom-font-size:x-largename;buttonDefaultPressedIcon_font-size:x-largename;buttonDefaultPressedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#ifa2w7b78mn0k .ch5-button--default.ch5-button--pressed .ch5-button--label{color:#f0fff0;font-size:x-large;font-weight:400;buttonDefaultPressedLabel_font-size:x-largename;buttonDefaultPressedLabel_color:#f0fff0;buttonDefaultPressedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:x-largename;}#ifa2w7b78mn0k .ch5-button--default.ch5-button--pressed{color:#f0fff0;background-color:#00d0dd;border-color:#0091ea;}#ifa2w7b78mn0k .ccid-custom.ch5-button--default .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#ifa2w7b78mn0k .ch5-button--default .cb-checkbox-icon{color:#ffffff;buttonDefaultCheckbox_color:#ffffff;}#ifa2w7b78mn0k .ch5-button--default .ch5-button--icon{color:#ffffff;font-size:xx-large;custom-font-size:xx-largename;buttonDefaultIcon_font-size:xx-largename;buttonDefaultIcon_color:#ffffff;margin-left:0;margin-right:0;margin-bottom:0;buttonDefaultIcon_margin-left:0;}#ifa2w7b78mn0k .ch5-button--default .ch5-button--label{font-family:Roboto;color:#ffffff;font-size:xx-large;font-weight:400;buttonDefaultLabel_font-size:xx-largename;buttonDefaultLabel_color:#ffffff;buttonDefaultLabel_font-weight:400;custom-font-size:xx-largename;margin-left:0;margin-right:0;margin-bottom:0;buttonDefaultLabel_margin-left:0;}#ifa2w7b78mn0k .ch5-button--default{border-style:solid;border-color:#0091ea;color:#ffffff;background-color:#00838b;border-width:0;max-height:100%;max-width:100%;display:flex;align-items:center;}#ifa2w7b78mn0k .ch5-button--rounded-rectangle{border-top-left-radius:20px;border-radius:20px 20px 20px 20px;border-top-right-radius:20px;border-bottom-right-radius:20px;border-bottom-left-radius:20px;}#imi7hzz9ho2a5{pointer-events:all;width:168px;height:167px;font-family:Roboto;display:block;left:1027px;top:420px;position:absolute;buttonDefaultPressedLabel_color:#00f0ff26;newRuleWidth:167px;newRuleHeight:163px;}#imi7hzz9ho2a5 .ch5-button--default{border-style:solid;border-color:#0091ea;color:#ffffff;background-color:rgba(0,240,255,0);border-width:0;max-height:100%;max-width:100%;display:flex;align-items:center;}#imi7hzz9ho2a5 .ch5-button--default .ch5-button--label{font-family:Roboto;color:#ffffff;font-size:14px;font-weight:400;buttonDefaultLabel_font-size:14px;buttonDefaultLabel_color:#ffffff;buttonDefaultLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;}#imi7hzz9ho2a5 .ch5-button--default .ch5-button--icon{color:#ffffff;font-size:14px;custom-font-size:14px;buttonDefaultIcon_font-size:14px;buttonDefaultIcon_color:#ffffff;margin-left:0;margin-right:0;margin-bottom:0;}#imi7hzz9ho2a5 .ch5-button--default .cb-checkbox-icon{color:#ffffff;buttonDefaultCheckbox_color:#ffffff;}#imi7hzz9ho2a5 .ccid-custom.ch5-button--default .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#imi7hzz9ho2a5 .ch5-button--default.ch5-button--pressed{color:#f0fff0;background-color:#00f0ff26;border-color:#0091ea;}#imi7hzz9ho2a5 .ch5-button--default.ch5-button--pressed .ch5-button--label{color:#00f0ff26;font-size:14px;font-weight:400;buttonDefaultPressedLabel_font-size:14px;buttonDefaultPressedLabel_color:#00f0ff26;buttonDefaultPressedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;}#imi7hzz9ho2a5 .ch5-button--default.ch5-button--pressed .ch5-button--icon{color:#f0fff0;font-size:14px;custom-font-size:14px;buttonDefaultPressedIcon_font-size:14px;buttonDefaultPressedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#imi7hzz9ho2a5 .ch5-button--default.ch5-button--pressed .cb-checkbox-icon{color:#f0fff0;buttonDefaultPressedCheckbox_color:#f0fff0;}#imi7hzz9ho2a5 .ccid-custom.ch5-button--default.ch5-button--pressed .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#imi7hzz9ho2a5 .ch5-button--default.ch5-button--selected{color:#f0fff0;background-color:#0073bf;border-color:#0091ea;}#imi7hzz9ho2a5 .ch5-button--default.ch5-button--selected .ch5-button--label{color:#f0fff0;font-size:14px;font-weight:400;buttonDefaultSelectedLabel_font-size:14px;buttonDefaultSelectedLabel_color:#f0fff0;buttonDefaultSelectedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;}#imi7hzz9ho2a5 .ch5-button--default.ch5-button--selected .ch5-button--icon{color:#f0fff0;font-size:14px;custom-font-size:14px;buttonDefaultSelectedIcon_font-size:14px;buttonDefaultSelectedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#imi7hzz9ho2a5 .ch5-button--default.ch5-button--selected .cb-checkbox-icon{color:#f0fff0;buttonDefaultSelectedCheckbox_color:#f0fff0;}#imi7hzz9ho2a5 .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#imi7hzz9ho2a5 .ch5-button--size-regular .cb-btn{width:168px;height:167px;}#imi7hzz9ho2a5 .ch5-button--rounded-rectangle{border-top-right-radius:0;border-radius:0 0 0 0;border-bottom-right-radius:0;border-top-left-radius:0;border-bottom-left-radius:0;}#imi7hzz9ho2a5 .ch5-button-child{top:0;left:0;z-index:0;width:inherit;height:inherit;border-radius:50%;border-style:inherit;border-width:inherit;position:absolute;}#i7ye{width:237px;height:133px;left:1195px;pointer-events:all;font-family:Roboto;display:block;top:848px;position:absolute;buttonDefaultLabel_font-size:xx-largename;buttonDefaultPressedLabel_font-size:x-largename;buttonDefaultSelectedLabel_font-size:30px;buttonDefaultIcon_font-size:xx-largename;buttonDefaultSelectedIcon_font-size:50px;buttonDefaultPressedIcon_font-size:x-largename;newRuleWidth:237px;newRuleHeight:133px;}#i7ye .ch5-button--circle.ch5-button--size-regular .cb-btn{width:237px;height:237px;}#i7ye .ch5-button--size-regular .cb-btn{width:237px;height:133px;}#i7ye .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#i7ye .ch5-button--default.ch5-button--selected .cb-checkbox-icon{color:#f0fff0;buttonDefaultSelectedCheckbox_color:#f0fff0;}#i7ye .ch5-button--default.ch5-button--selected .ch5-button--icon{color:#f0fff0;custom-font-size:50px;buttonDefaultSelectedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#i7ye .ch5-button--default.ch5-button--selected .ch5-button--label{color:#f0fff0;font-weight:400;buttonDefaultSelectedLabel_color:#f0fff0;buttonDefaultSelectedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:30px;}#i7ye .ch5-button--default.ch5-button--selected{color:#f0fff0;background-color:#002b61;border-color:#0091ea;}#i7ye .ccid-custom.ch5-button--default.ch5-button--pressed .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#i7ye .ch5-button--default.ch5-button--pressed .cb-checkbox-icon{color:#f0fff0;buttonDefaultPressedCheckbox_color:#f0fff0;}#i7ye .ch5-button--default.ch5-button--pressed .ch5-button--icon{color:#f0fff0;font-size:x-large;custom-font-size:x-largename;buttonDefaultPressedIcon_font-size:x-largename;buttonDefaultPressedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#i7ye .ch5-button--default.ch5-button--pressed .ch5-button--label{color:#f0fff0;font-size:x-large;font-weight:400;buttonDefaultPressedLabel_font-size:x-largename;buttonDefaultPressedLabel_color:#f0fff0;buttonDefaultPressedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:x-largename;}#i7ye .ch5-button--default.ch5-button--pressed{color:#f0fff0;background-color:#00d0dd;border-color:#0091ea;}#i7ye .ccid-custom.ch5-button--default .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#i7ye .ch5-button--default .cb-checkbox-icon{color:#ffffff;buttonDefaultCheckbox_color:#ffffff;}#i7ye .ch5-button--default .ch5-button--icon{color:#ffffff;font-size:xx-large;custom-font-size:xx-largename;buttonDefaultIcon_font-size:xx-largename;buttonDefaultIcon_color:#ffffff;margin-left:0;margin-right:0;margin-bottom:0;buttonDefaultIcon_margin-left:0;}#i7ye .ch5-button--default .ch5-button--label{font-family:Roboto;color:#ffffff;font-size:xx-large;font-weight:400;buttonDefaultLabel_font-size:xx-largename;buttonDefaultLabel_color:#ffffff;buttonDefaultLabel_font-weight:400;custom-font-size:xx-largename;margin-left:0;margin-right:0;margin-bottom:0;buttonDefaultLabel_margin-left:0;}#i7ye .ch5-button--default{border-style:solid;border-color:#0091ea;color:#ffffff;background-color:#00838b;border-width:0;max-height:100%;max-width:100%;display:flex;align-items:center;}#i7ye .ch5-button--rounded-rectangle{border-top-left-radius:20px;border-radius:20px 20px 20px 20px;border-top-right-radius:20px;border-bottom-right-radius:20px;border-bottom-left-radius:20px;}#i8bpjox5kc8u1 .ch5-text{width:260px;height:44px;font-size:30px;custom-font-size:30px;font-weight:700;}#ito9kk7o5zhe9 .ch5-color-chip{width:229px;height:44px;colorChipPreview_background-color:#ffffff;background-color:#ffffff;}#ito9kk7o5zhe9 .ch5-color-chip-preview{background-color:#ffffff;colorChipPreview_background-color:#ffffff;}#i94ytelioj9by .ch5-text{width:153px;height:44px;font-size:30px;custom-font-size:30px;font-weight:700;}#i4lk747eoiyaj .ch5-color-chip{width:153px;height:44px;colorChipPreview_background-color:#ffffff;background-color:#ffffff;}#i4lk747eoiyaj .ch5-color-chip-preview{background-color:#ffffff;colorChipPreview_background-color:#ffffff;}#ibtcl6w3praby{width:237px;height:133px;left:320px;pointer-events:all;font-family:Roboto;display:block;top:244px;position:absolute;buttonDefaultLabel_font-size:xx-largename;buttonDefaultPressedLabel_font-size:x-largename;buttonDefaultSelectedLabel_font-size:xx-largename;newRuleWidth:237px;newRuleHeight:133px;}#iwrpiopcld3bw .ch5-text{width:222px;height:44px;font-size:30px;custom-font-size:30px;font-weight:700;}#iq032fszgqd1z .ch5-color-chip-preview{background-color:#ffffff;colorChipPreview_background-color:#ffffff;}#iq032fszgqd1z .ch5-color-chip{width:206px;height:40px;colorChipPreview_background-color:#ffffff;background-color:#ffffff;}#ibtcl6w3praby .ch5-button--rounded-rectangle{border-top-left-radius:20px;border-radius:20px 20px 20px 20px;border-top-right-radius:20px;border-bottom-right-radius:20px;border-bottom-left-radius:20px;}#ibtcl6w3praby .ch5-button--default{border-style:solid;border-color:#0091ea;color:#ffffff;background-color:#0099ff;border-width:0;max-height:100%;max-width:100%;display:flex;align-items:center;}#ibtcl6w3praby .ch5-button--default .ch5-button--label{font-family:Roboto;color:#ffffff;font-size:xx-large;font-weight:400;buttonDefaultLabel_font-size:xx-largename;buttonDefaultLabel_color:#ffffff;buttonDefaultLabel_font-weight:400;custom-font-size:xx-largename;margin-left:0;margin-right:0;margin-bottom:0;}#ibtcl6w3praby .ch5-button--default .ch5-button--icon{color:#ffffff;custom-font-size:14px;buttonDefaultIcon_color:#ffffff;margin-left:0;margin-right:0;margin-bottom:0;}#ibtcl6w3praby .ch5-button--default .cb-checkbox-icon{color:#ffffff;buttonDefaultCheckbox_color:#ffffff;}#ibtcl6w3praby .ccid-custom.ch5-button--default .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#ibtcl6w3praby .ch5-button--default.ch5-button--pressed{color:#f0fff0;background-color:#76c8ff;border-color:#0091ea;}#ibtcl6w3praby .ch5-button--default.ch5-button--pressed .ch5-button--label{color:#f0fff0;font-size:x-large;font-weight:400;buttonDefaultPressedLabel_font-size:x-largename;buttonDefaultPressedLabel_color:#f0fff0;buttonDefaultPressedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:x-largename;}#ibtcl6w3praby .ch5-button--default.ch5-button--pressed .ch5-button--icon{color:#f0fff0;custom-font-size:14px;buttonDefaultPressedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#ibtcl6w3praby .ch5-button--default.ch5-button--pressed .cb-checkbox-icon{color:#f0fff0;buttonDefaultPressedCheckbox_color:#f0fff0;}#ibtcl6w3praby .ccid-custom.ch5-button--default.ch5-button--pressed .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#ibtcl6w3praby .ch5-button--default.ch5-button--selected{color:#f0fff0;background-color:#02426d;border-color:#0091ea;}#ibtcl6w3praby .ch5-button--default.ch5-button--selected .ch5-button--label{color:#f0fff0;font-size:xx-large;font-weight:400;buttonDefaultSelectedLabel_font-size:xx-largename;buttonDefaultSelectedLabel_color:#f0fff0;buttonDefaultSelectedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:xx-largename;}#ibtcl6w3praby .ch5-button--default.ch5-button--selected .ch5-button--icon{color:#f0fff0;custom-font-size:14px;buttonDefaultSelectedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#ibtcl6w3praby .ch5-button--default.ch5-button--selected .cb-checkbox-icon{color:#f0fff0;buttonDefaultSelectedCheckbox_color:#f0fff0;}#ibtcl6w3praby .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#ibtcl6w3praby .ch5-button--size-regular .cb-btn{width:237px;height:133px;}#ibtcl6w3praby .ch5-button--circle.ch5-button--size-regular .cb-btn{width:237px;height:237px;}#ibtcl6w3praby .ch5-button-child{left:0px;top:0px;position:absolute;width:inherit;height:inherit;z-index:299;newRuleWidth:237px;newRuleHeight:133px;border-radius:50%;border-style:inherit;border-width:inherit;}#ibtcl6w3praby[mode="0"] .ch5-button--default{border-style:solid;border-color:#0091ea;color:#ffffff;background-color:#0099ff;border-width:0;max-height:100%;max-width:100%;display:flex;align-items:center;}#ibtcl6w3praby[mode="0"] .ch5-button--default .ch5-button--label{font-family:Roboto;color:#ffffff;font-weight:400;buttonDefaultLabel_color:#ffffff;buttonDefaultLabel_font-weight:400;custom-font-size:30px;margin-left:0;margin-right:0;margin-bottom:0;}#ibtcl6w3praby[mode="0"] .ch5-button--default .ch5-button--icon{color:#ffffff;custom-font-size:14px;buttonDefaultIcon_color:#ffffff;margin-left:0;margin-right:0;margin-bottom:0;}#ibtcl6w3praby[mode="0"] .ch5-button--default .cb-checkbox-icon{color:#ffffff;buttonDefaultCheckbox_color:#ffffff;}#ibtcl6w3praby[mode="0"] .ccid-custom.ch5-button--default .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#ibtcl6w3praby[mode="0"][pressed="true"] .ch5-button--default{color:#f0fff0;background-color:#76c8ff;border-color:#0091ea;}#ibtcl6w3praby[mode="0"][pressed="true"] .ch5-button--default.ch5-button--pressed .ch5-button--label{color:#f0fff0;font-weight:400;buttonDefaultPressedLabel_color:#f0fff0;buttonDefaultPressedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:25px;}#ibtcl6w3praby[mode="0"][pressed="true"] .ch5-button--default.ch5-button--pressed .ch5-button--icon{color:#f0fff0;custom-font-size:14px;buttonDefaultPressedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#ibtcl6w3praby[mode="0"][pressed="true"] .ch5-button--default.ch5-button--pressed .cb-checkbox-icon{color:#f0fff0;buttonDefaultPressedCheckbox_color:#f0fff0;}#ibtcl6w3praby[mode="0"][pressed="true"] .ccid-custom.ch5-button--default.ch5-button--pressed .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#ibtcl6w3praby[mode="0"][selected="true"] .ch5-button--default{color:#f0fff0;background-color:#02426d;border-color:#0091ea;}#ibtcl6w3praby[mode="0"][selected="true"] .ch5-button--default.ch5-button--selected .ch5-button--label{color:#f0fff0;font-weight:400;buttonDefaultSelectedLabel_color:#f0fff0;buttonDefaultSelectedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:30px;}#ibtcl6w3praby[mode="0"][selected="true"] .ch5-button--default.ch5-button--selected .ch5-button--icon{color:#f0fff0;custom-font-size:14px;buttonDefaultSelectedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#ibtcl6w3praby[mode="0"][selected="true"] .ch5-button--default.ch5-button--selected .cb-checkbox-icon{color:#f0fff0;buttonDefaultSelectedCheckbox_color:#f0fff0;}#ibtcl6w3praby[mode="0"][selected="true"] .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#ibtcl6w3praby[mode="1"] .ch5-button--default{border-style:solid;border-color:#0091ea;color:#ffffff;background-color:#0099ff;border-width:0;max-height:100%;max-width:100%;display:flex;align-items:center;}#ibtcl6w3praby[mode="1"] .ch5-button--default .ch5-button--label{font-family:Roboto;color:#ffffff;font-weight:400;buttonDefaultLabel_color:#ffffff;buttonDefaultLabel_font-weight:400;custom-font-size:30px;margin-left:0;margin-right:0;margin-bottom:0;}#ibtcl6w3praby[mode="1"] .ch5-button--default .ch5-button--icon{color:#ffffff;custom-font-size:14px;buttonDefaultIcon_color:#ffffff;margin-left:0;margin-right:0;margin-bottom:0;}#ibtcl6w3praby[mode="1"] .ch5-button--default .cb-checkbox-icon{color:#ffffff;buttonDefaultCheckbox_color:#ffffff;}#ibtcl6w3praby[mode="1"] .ccid-custom.ch5-button--default .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#ibtcl6w3praby[mode="1"][pressed="true"] .ch5-button--default{color:#f0fff0;background-color:#76c8ff;border-color:#0091ea;}#ibtcl6w3praby[mode="1"][pressed="true"] .ch5-button--default.ch5-button--pressed .ch5-button--label{color:#f0fff0;font-weight:400;buttonDefaultPressedLabel_color:#f0fff0;buttonDefaultPressedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:25px;}#ibtcl6w3praby[mode="1"][pressed="true"] .ch5-button--default.ch5-button--pressed .ch5-button--icon{color:#f0fff0;font-size:14px;custom-font-size:14px;buttonDefaultPressedIcon_font-size:14px;buttonDefaultPressedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#ibtcl6w3praby[mode="1"][pressed="true"] .ch5-button--default.ch5-button--pressed .cb-checkbox-icon{color:#f0fff0;buttonDefaultPressedCheckbox_color:#f0fff0;}#ibtcl6w3praby[mode="1"][pressed="true"] .ccid-custom.ch5-button--default.ch5-button--pressed .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#ibtcl6w3praby[mode="1"][selected="true"] .ch5-button--default{color:#f0fff0;background-color:#02426d;border-color:#0091ea;}#ibtcl6w3praby[mode="1"][selected="true"] .ch5-button--default.ch5-button--selected .ch5-button--label{color:#f0fff0;font-weight:400;buttonDefaultSelectedLabel_color:#f0fff0;buttonDefaultSelectedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:30px;}#ibtcl6w3praby[mode="1"][selected="true"] .ch5-button--default.ch5-button--selected .ch5-button--icon{color:#f0fff0;custom-font-size:14px;buttonDefaultSelectedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#ibtcl6w3praby[mode="1"][selected="true"] .ch5-button--default.ch5-button--selected .cb-checkbox-icon{color:#f0fff0;buttonDefaultSelectedCheckbox_color:#f0fff0;}#ibtcl6w3praby[mode="1"][selected="true"] .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#imi7hzz9ho2a5[mode="0"] .ch5-button--default{border-style:solid;border-color:#0091ea;color:#ffffff;background-color:rgba(0,240,255,0);border-width:0;max-height:100%;max-width:100%;display:flex;align-items:center;}#imi7hzz9ho2a5[mode="0"] .ch5-button--default .ch5-button--label{font-family:Roboto;color:#ffffff;font-size:14px;font-weight:400;buttonDefaultLabel_font-size:14px;buttonDefaultLabel_color:#ffffff;buttonDefaultLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;}#imi7hzz9ho2a5[mode="0"] .ch5-button--default .ch5-button--icon{color:#ffffff;font-size:14px;custom-font-size:14px;buttonDefaultIcon_font-size:14px;buttonDefaultIcon_color:#ffffff;margin-left:0;margin-right:0;margin-bottom:0;}#imi7hzz9ho2a5[mode="0"] .ch5-button--default .cb-checkbox-icon{color:#ffffff;buttonDefaultCheckbox_color:#ffffff;}#imi7hzz9ho2a5[mode="0"] .ccid-custom.ch5-button--default .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#imi7hzz9ho2a5[mode="0"][pressed="true"] .ch5-button--default{color:#f0fff0;background-color:#00f0ff26;border-color:#0091ea;}#imi7hzz9ho2a5[mode="0"][pressed="true"] .ch5-button--default.ch5-button--pressed .ch5-button--label{color:#00f0ff26;font-size:14px;font-weight:400;buttonDefaultPressedLabel_font-size:14px;buttonDefaultPressedLabel_color:#00f0ff26;buttonDefaultPressedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;}#imi7hzz9ho2a5[mode="0"][pressed="true"] .ch5-button--default.ch5-button--pressed .ch5-button--icon{color:#f0fff0;font-size:14px;custom-font-size:14px;buttonDefaultPressedIcon_font-size:14px;buttonDefaultPressedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#imi7hzz9ho2a5[mode="0"][pressed="true"] .ch5-button--default.ch5-button--pressed .cb-checkbox-icon{color:#f0fff0;buttonDefaultPressedCheckbox_color:#f0fff0;}#imi7hzz9ho2a5[mode="0"][pressed="true"] .ccid-custom.ch5-button--default.ch5-button--pressed .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#imi7hzz9ho2a5[mode="0"][selected="true"] .ch5-button--default{color:#f0fff0;background-color:#0073bf;border-color:#0091ea;}#imi7hzz9ho2a5[mode="0"][selected="true"] .ch5-button--default.ch5-button--selected .ch5-button--label{color:#f0fff0;font-size:14px;font-weight:400;buttonDefaultSelectedLabel_font-size:14px;buttonDefaultSelectedLabel_color:#f0fff0;buttonDefaultSelectedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;}#imi7hzz9ho2a5[mode="0"][selected="true"] .ch5-button--default.ch5-button--selected .ch5-button--icon{color:#f0fff0;font-size:14px;custom-font-size:14px;buttonDefaultSelectedIcon_font-size:14px;buttonDefaultSelectedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#imi7hzz9ho2a5[mode="0"][selected="true"] .ch5-button--default.ch5-button--selected .cb-checkbox-icon{color:#f0fff0;buttonDefaultSelectedCheckbox_color:#f0fff0;}#imi7hzz9ho2a5[mode="0"][selected="true"] .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#iyghktgpeocqy .ch5-button--default{border-style:solid;border-color:#0091ea;color:#ffffff;background-color:rgba(0,240,255,0);border-width:0;max-height:100%;max-width:100%;display:flex;align-items:center;}#iyghktgpeocqy .ch5-button--default .ch5-button--label{font-family:Roboto;color:#ffffff;font-size:14px;font-weight:400;buttonDefaultLabel_font-size:14px;buttonDefaultLabel_color:#ffffff;buttonDefaultLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;}#iyghktgpeocqy .ch5-button--default .ch5-button--icon{color:#ffffff;font-size:14px;custom-font-size:14px;buttonDefaultIcon_font-size:14px;buttonDefaultIcon_color:#ffffff;margin-left:0;margin-right:0;margin-bottom:0;}#iyghktgpeocqy .ch5-button--default .cb-checkbox-icon{color:#ffffff;buttonDefaultCheckbox_color:#ffffff;}#iyghktgpeocqy .ccid-custom.ch5-button--default .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#iyghktgpeocqy .ch5-button--default.ch5-button--pressed{color:#f0fff0;background-color:rgba(0,240,255,0.15);border-color:#0091ea;}#iyghktgpeocqy .ch5-button--default.ch5-button--pressed .ch5-button--label{color:#000000;font-size:14px;font-weight:400;buttonDefaultPressedLabel_font-size:14px;buttonDefaultPressedLabel_color:#000000;buttonDefaultPressedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;}#iyghktgpeocqy .ch5-button--default.ch5-button--pressed .ch5-button--icon{color:#f0fff0;font-size:14px;custom-font-size:14px;buttonDefaultPressedIcon_font-size:14px;buttonDefaultPressedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#iyghktgpeocqy .ch5-button--default.ch5-button--pressed .cb-checkbox-icon{color:#f0fff0;buttonDefaultPressedCheckbox_color:#f0fff0;}#iyghktgpeocqy .ccid-custom.ch5-button--default.ch5-button--pressed .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#iyghktgpeocqy .ch5-button--default.ch5-button--selected{color:#f0fff0;background-color:#0073bf;border-color:#0091ea;}#iyghktgpeocqy .ch5-button--default.ch5-button--selected .ch5-button--label{color:#f0fff0;font-size:14px;font-weight:400;buttonDefaultSelectedLabel_font-size:14px;buttonDefaultSelectedLabel_color:#f0fff0;buttonDefaultSelectedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;}#iyghktgpeocqy .ch5-button--default.ch5-button--selected .ch5-button--icon{color:#f0fff0;font-size:14px;custom-font-size:14px;buttonDefaultSelectedIcon_font-size:14px;buttonDefaultSelectedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#iyghktgpeocqy .ch5-button--default.ch5-button--selected .cb-checkbox-icon{color:#f0fff0;buttonDefaultSelectedCheckbox_color:#f0fff0;}#iyghktgpeocqy .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img{width:129px;height:125px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#iyghktgpeocqy .ch5-button--size-regular .cb-btn{width:168px;height:161px;}#iyghktgpeocqy .ch5-button--rounded-rectangle{border-top-right-radius:0;border-radius:0 0 20px 20px;border-bottom-right-radius:20px;border-top-left-radius:0;border-bottom-left-radius:20px;}#iyghktgpeocqy{pointer-events:all;width:168px;height:161px;font-family:Roboto;display:block;left:1027px;top:586px;position:absolute;buttonDefaultPressedLabel_color:#000000;newRuleWidth:167px;newRuleHeight:159px;}#izmxa .ch5-button--default{border-style:solid;border-color:#0091ea;color:#ffffff;background-color:rgba(0,240,255,0);border-width:0;max-height:100%;max-width:100%;display:flex;align-items:center;}#izmxa .ch5-button--default .ch5-button--label{font-family:Roboto;color:#ffffff;font-size:14px;font-weight:400;buttonDefaultLabel_font-size:14px;buttonDefaultLabel_color:#ffffff;buttonDefaultLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;}#izmxa .ch5-button--default .ch5-button--icon{color:#ffffff;font-size:14px;custom-font-size:14px;buttonDefaultIcon_font-size:14px;buttonDefaultIcon_color:#ffffff;margin-left:0;margin-right:0;margin-bottom:0;}#izmxa .ch5-button--default .cb-checkbox-icon{color:#ffffff;buttonDefaultCheckbox_color:#ffffff;}#izmxa .ccid-custom.ch5-button--default .ch5-button--img{width:21px;height:167px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#izmxa .ch5-button--default.ch5-button--pressed{color:#f0fff0;background-color:#00f0ff26;border-color:#0091ea;}#izmxa .ch5-button--default.ch5-button--pressed .ch5-button--label{color:#f0fff0;font-size:14px;font-weight:400;buttonDefaultPressedLabel_font-size:14px;buttonDefaultPressedLabel_color:#f0fff0;buttonDefaultPressedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;}#izmxa .ch5-button--default.ch5-button--pressed .ch5-button--icon{color:#f0fff0;font-size:14px;custom-font-size:14px;buttonDefaultPressedIcon_font-size:14px;buttonDefaultPressedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#izmxa .ch5-button--default.ch5-button--pressed .cb-checkbox-icon{color:#f0fff0;buttonDefaultPressedCheckbox_color:#f0fff0;}#izmxa .ccid-custom.ch5-button--default.ch5-button--pressed .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#izmxa .ch5-button--default.ch5-button--selected{color:#f0fff0;background-color:#0073bf;border-color:#0091ea;}#izmxa .ch5-button--default.ch5-button--selected .ch5-button--label{color:#f0fff0;font-size:14px;font-weight:400;buttonDefaultSelectedLabel_font-size:14px;buttonDefaultSelectedLabel_color:#f0fff0;buttonDefaultSelectedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;}#izmxa .ch5-button--default.ch5-button--selected .ch5-button--icon{color:#f0fff0;font-size:14px;custom-font-size:14px;buttonDefaultSelectedIcon_font-size:14px;buttonDefaultSelectedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#izmxa .ch5-button--default.ch5-button--selected .cb-checkbox-icon{color:#f0fff0;buttonDefaultSelectedCheckbox_color:#f0fff0;}#izmxa .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#izmxa .ch5-button--size-regular .cb-btn{width:160px;height:167px;}#izmxa .ch5-button--rounded-rectangle{border-top-right-radius:20px;border-radius:0 20px 20px 0;border-bottom-right-radius:20px;}#izmxa{pointer-events:all;width:160px;height:167px;font-family:Roboto;display:block;left:1196px;top:420px;position:absolute;newRuleWidth:159px;newRuleHeight:164px;}#i667wpyx3kwni .ch5-button--default{border-style:solid;border-color:#767676;color:#ffffff;background-color:#00f0ff00;border-width:0;max-height:100%;max-width:100%;display:flex;align-items:center;}#i667wpyx3kwni .ch5-button--default .ch5-button--label{font-family:Roboto;color:#ffffff;font-size:14px;font-weight:400;buttonDefaultLabel_font-size:14px;buttonDefaultLabel_color:#ffffff;buttonDefaultLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;}#i667wpyx3kwni .ch5-button--default .ch5-button--icon{color:#ffffff;font-size:14px;custom-font-size:14px;buttonDefaultIcon_font-size:14px;buttonDefaultIcon_color:#ffffff;margin-left:0;margin-right:0;margin-bottom:0;}#i667wpyx3kwni .ch5-button--default .cb-checkbox-icon{color:#ffffff;buttonDefaultCheckbox_color:#ffffff;}#i667wpyx3kwni .ccid-custom.ch5-button--default .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#i667wpyx3kwni .ch5-button--default.ch5-button--pressed{color:#f0fff0;background-color:#00f0ff26;border-color:#0091ea;}#i667wpyx3kwni .ch5-button--default.ch5-button--pressed .ch5-button--label{color:#f0fff0;font-size:14px;font-weight:400;buttonDefaultPressedLabel_font-size:14px;buttonDefaultPressedLabel_color:#f0fff0;buttonDefaultPressedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;}#i667wpyx3kwni .ch5-button--default.ch5-button--pressed .ch5-button--icon{color:#f0fff0;font-size:14px;custom-font-size:14px;buttonDefaultPressedIcon_font-size:14px;buttonDefaultPressedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#i667wpyx3kwni .ch5-button--default.ch5-button--pressed .cb-checkbox-icon{color:#f0fff0;buttonDefaultPressedCheckbox_color:#f0fff0;}#i667wpyx3kwni .ccid-custom.ch5-button--default.ch5-button--pressed .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#i667wpyx3kwni .ch5-button--default.ch5-button--selected{color:#f0fff0;background-color:#0073bf;border-color:#0091ea;}#i667wpyx3kwni .ch5-button--default.ch5-button--selected .ch5-button--label{color:#f0fff0;font-size:14px;font-weight:400;buttonDefaultSelectedLabel_font-size:14px;buttonDefaultSelectedLabel_color:#f0fff0;buttonDefaultSelectedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;}#i667wpyx3kwni .ch5-button--default.ch5-button--selected .ch5-button--icon{color:#f0fff0;font-size:14px;custom-font-size:14px;buttonDefaultSelectedIcon_font-size:14px;buttonDefaultSelectedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#i667wpyx3kwni .ch5-button--default.ch5-button--selected .cb-checkbox-icon{color:#f0fff0;buttonDefaultSelectedCheckbox_color:#f0fff0;}#i667wpyx3kwni .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img{width:21px;height:161px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#i667wpyx3kwni .ch5-button--size-regular .cb-btn{width:168px;height:161px;}#i667wpyx3kwni .ch5-button--rounded-rectangle{border-top-right-radius:20px;border-radius:20px 20px 0 0;border-bottom-right-radius:0;border-top-left-radius:20px;border-bottom-left-radius:0;}#i667wpyx3kwni{pointer-events:all;width:168px;height:161px;font-family:Roboto;display:block;left:1027px;top:259px;position:absolute;newRuleWidth:167px;newRuleHeight:158px;en:1;}#itjiyu7n8giec .ch5-button--default{border-style:solid;border-color:#0091ea;color:#ffffff;background-color:rgba(0,240,255,0);border-width:0;max-height:100%;max-width:100%;display:flex;align-items:center;}#itjiyu7n8giec .ch5-button--default .ch5-button--label{font-family:Roboto;color:#ffffff;font-size:14px;font-weight:400;buttonDefaultLabel_font-size:14px;buttonDefaultLabel_color:#ffffff;buttonDefaultLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;}#itjiyu7n8giec .ch5-button--default .ch5-button--icon{color:#ffffff;font-size:14px;custom-font-size:14px;buttonDefaultIcon_font-size:14px;buttonDefaultIcon_color:#ffffff;margin-left:0;margin-right:0;margin-bottom:0;}#itjiyu7n8giec .ch5-button--default .cb-checkbox-icon{color:#ffffff;buttonDefaultCheckbox_color:#ffffff;}#itjiyu7n8giec .ccid-custom.ch5-button--default .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#itjiyu7n8giec .ch5-button--default.ch5-button--pressed{color:#f0fff0;background-color:#00f0ff26;border-color:#0091ea;}#itjiyu7n8giec .ch5-button--default.ch5-button--pressed .ch5-button--label{color:#f0fff0;font-size:14px;font-weight:400;buttonDefaultPressedLabel_font-size:14px;buttonDefaultPressedLabel_color:#f0fff0;buttonDefaultPressedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;}#itjiyu7n8giec .ch5-button--default.ch5-button--pressed .ch5-button--icon{color:#f0fff0;font-size:14px;custom-font-size:14px;buttonDefaultPressedIcon_font-size:14px;buttonDefaultPressedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#itjiyu7n8giec .ch5-button--default.ch5-button--pressed .cb-checkbox-icon{color:#f0fff0;buttonDefaultPressedCheckbox_color:#f0fff0;}#itjiyu7n8giec .ccid-custom.ch5-button--default.ch5-button--pressed .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#itjiyu7n8giec .ch5-button--default.ch5-button--selected{color:#f0fff0;background-color:#0073bf;border-color:#0091ea;}#itjiyu7n8giec .ch5-button--default.ch5-button--selected .ch5-button--label{color:#f0fff0;font-size:14px;font-weight:400;buttonDefaultSelectedLabel_font-size:14px;buttonDefaultSelectedLabel_color:#f0fff0;buttonDefaultSelectedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;}#itjiyu7n8giec .ch5-button--default.ch5-button--selected .ch5-button--icon{color:#f0fff0;font-size:14px;custom-font-size:14px;buttonDefaultSelectedIcon_font-size:14px;buttonDefaultSelectedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#itjiyu7n8giec .ch5-button--default.ch5-button--selected .cb-checkbox-icon{color:#f0fff0;buttonDefaultSelectedCheckbox_color:#f0fff0;}#itjiyu7n8giec .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img{width:160px;height:167px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#itjiyu7n8giec .ch5-button--size-regular .cb-btn{width:160px;height:167px;}#itjiyu7n8giec .ch5-button--rounded-rectangle{border-top-right-radius:0;border-radius:20px 0 0 20px;border-bottom-right-radius:0;border-top-left-radius:20px;border-bottom-left-radius:20px;}#itjiyu7n8giec{pointer-events:all;width:160px;height:167px;font-family:Roboto;display:block;left:868px;top:420px;position:absolute;newRuleWidth:157px;newRuleHeight:166px;}#imgtz .ch5-image{border-color:black;object-fit:contain;}#iwrpiopcld3bw{width:222px;height:44px;font-family:Roboto;display:block;left:327px;top:173px;position:absolute;font-weight:700;}#i8bpjox5kc8u1{width:260px;height:44px;font-family:Roboto;display:block;left:728px;top:125px;position:absolute;font-weight:700;}#i94ytelioj9by{width:153px;height:44px;font-family:Roboto;display:block;left:1724px;top:173px;position:absolute;font-weight:700;}#ito9kk7o5zhe9{width:229px;height:44px;display:block;left:742px;top:129px;position:absolute;colorChipPreview_background-color:#ffffff;}#i4lk747eoiyaj{width:153px;height:44px;display:block;left:1721px;top:178px;position:absolute;colorChipPreview_background-color:#ffffff;}#i54lo427cojov{display:block;background-color:rgba(182,198,213,0);border-style:solid;border-width:5px;border-color:#0099ff;width:324px;height:641px;left:1633px;top:197px;position:absolute;border-top-left-radius:20px;border-radius:20px 20px 20px 20px;border-top-right-radius:20px;border-bottom-right-radius:20px;border-bottom-left-radius:20px;}#iq032fszgqd1z{width:206px;height:40px;display:block;left:336px;top:178px;position:absolute;colorChipPreview_background-color:#ffffff;}#iza4i2ux8lmxh{display:block;background-color:rgba(182,198,213,0);border-style:solid;border-width:5px;border-color:#0099ff;width:324px;height:226px;left:277px;top:197px;position:absolute;border-top-left-radius:20px;border-radius:20px 20px 20px 20px;border-top-right-radius:20px;border-bottom-right-radius:20px;border-bottom-left-radius:20px;}#i4y2r46uqk9oy{display:block;background-color:rgba(182,198,213,0);border-style:solid;border-width:5px;border-color:#0099ff;width:873px;height:895px;left:675px;top:149px;position:absolute;border-top-left-radius:20px;border-radius:20px 20px 20px 20px;border-top-right-radius:20px;border-bottom-right-radius:20px;border-bottom-left-radius:20px;}#imgtz{width:579px;height:572px;pointer-events:all;display:block;left:822px;top:213px;position:absolute;}}@media (orientation: landscape) and (max-width: 2561px) and (max-height: 1441px), (orientation: landscape) and (max-width: 2559px){#i667wpyx3kwni{top:259px;height:161px;}#izmxa{height:167px;top:420px;left:1196px;}#iyghktgpeocqy{left:1027px;width:168px;height:161px;top:586px;}#imi7hzz9ho2a5{top:420px;left:1027px;}#itjiyu7n8giec{left:868px;top:420px;position:absolute;width:160px;height:167px;}#i3qqmtbufoqnk{width:237px;height:133px;}#isk0b2rnwkila{width:237px;height:133px;}#inetan5fy9jnp{width:237px;height:133px;}body{background-color:#fff;}#iwrpiopcld3bw{width:222px;}#ito9kk7o5zhe9{width:229px;top:129px;}#imgtz{width:579px;}}@media (orientation: landscape) and (max-width: 1281px) and (max-height: 801px), (orientation: landscape) and (max-width: 1279px){#i09y971w5a{width:1080px;height:650px;left:0;top:0;position:absolute;}#ibtcl6w3praby{left:58px;top:110px;position:absolute;width:150px;height:75px;buttonDefaultLabel_font-size:largename;buttonDefaultPressedLabel_font-size:smallname;buttonDefaultSelectedLabel_font-size:largename;}#i667wpyx3kwni{left:475px;top:86px;position:absolute;width:129px;height:126px;}#itjiyu7n8giec{left:347px;top:214px;position:absolute;height:131px;width:126px;}#izmxa{left:606px;top:214px;position:absolute;width:126px;height:131px;}#iyghktgpeocqy{left:475px;top:346px;position:absolute;height:126px;width:129px;}#imi7hzz9ho2a5{left:475px;top:214px;position:absolute;display:block;width:129px;height:131px;}#ifa2w7b78mn0k{left:309px;top:508px;position:absolute;width:150px;height:75px;buttonDefaultLabel_font-size:largename;buttonDefaultIcon_font-size:x-largename;buttonDefaultPressedLabel_font-size:mediumname;buttonDefaultPressedIcon_font-size:largename;}#i7ye{left:621px;top:508px;position:absolute;width:150px;height:75px;buttonDefaultLabel_font-size:largename;buttonDefaultIcon_font-size:largename;buttonDefaultPressedLabel_font-size:mediumname;buttonDefaultPressedIcon_font-size:largename;}#i3qqmtbufoqnk{left:871px;top:110px;position:absolute;buttonDefaultLabel_font-size:largename;buttonDefaultIcon_font-size:x-largename;buttonDefaultPressedLabel_font-size:mediumname;buttonDefaultPressedIcon_font-size:largename;width:150px;height:75px;}#isk0b2rnwkila{left:871px;top:197px;position:absolute;buttonDefaultLabel_font-size:largename;buttonDefaultIcon_font-size:x-largename;buttonDefaultPressedLabel_font-size:mediumname;buttonDefaultPressedIcon_font-size:largename;height:75px;width:150px;}#inetan5fy9jnp{left:871px;top:292px;position:absolute;buttonDefaultLabel_font-size:largename;buttonDefaultIcon_font-size:x-largename;buttonDefaultPressedLabel_font-size:mediumname;buttonDefaultPressedIcon_font-size:largename;width:150px;height:75px;}#ieagk{left:0px;top:4px;position:absolute;width:237px;height:133px;}#ibtcl6w3praby .ch5-button--size-regular .cb-btn{width:150px;height:75px;}#ibtcl6w3praby .ch5-button--default .ch5-button--label{buttonDefaultLabel_font-size:largename;font-size:large;custom-font-size:largename;}#iwrpiopcld3bw .ch5-text{font-size:16px;custom-font-size:16px;height:44px;width:139px;}#iq032fszgqd1z .ch5-color-chip{height:44px;width:139px;}#ibtcl6w3praby .ch5-button--rounded-rectangle{border-top-left-radius:10px;border-radius:10px 10px 10px 10px;border-top-right-radius:10px;border-bottom-right-radius:10px;border-bottom-left-radius:10px;}#ibtcl6w3praby[mode="0"][pressed="true"] .ch5-button--default.ch5-button--pressed .ch5-button--label{buttonDefaultPressedLabel_font-size:smallname;font-size:small;custom-font-size:smallname;}#ibtcl6w3praby[mode="0"][selected="true"] .ch5-button--default.ch5-button--selected .ch5-button--label{buttonDefaultSelectedLabel_font-size:largename;font-size:large;custom-font-size:largename;}#i6x0x{top:0px;left:0px;position:absolute;}#ibtcl6w3praby .ch5-button--default.ch5-button--pressed .ch5-button--label{font-size:small;buttonDefaultPressedLabel_font-size:smallname;custom-font-size:smallname;}#ibtcl6w3praby .ch5-button--default.ch5-button--selected .ch5-button--label{buttonDefaultSelectedLabel_font-size:largename;font-size:large;custom-font-size:largename;}#i8bpjox5kc8u1 .ch5-text{font-size:16px;custom-font-size:16px;width:153px;}#ifa2w7b78mn0k .ch5-button--size-regular .cb-btn{width:150px;height:75px;}#i7ye .ch5-button--size-regular .cb-btn{width:150px;height:75px;}#ifa2w7b78mn0k .ch5-button--rounded-rectangle{border-top-left-radius:10px;border-radius:10px 10px 10px 10px;border-top-right-radius:10px;border-bottom-right-radius:10px;border-bottom-left-radius:10px;}#i7ye .ch5-button--rounded-rectangle{border-top-left-radius:10px;border-radius:10px 10px 10px 10px;border-top-right-radius:10px;border-bottom-right-radius:10px;border-bottom-left-radius:10px;}#ifa2w7b78mn0k .ch5-button--default .ch5-button--label{buttonDefaultLabel_font-size:largename;font-size:large;custom-font-size:largename;}#i7ye .ch5-button--default .ch5-button--label{buttonDefaultLabel_font-size:largename;font-size:large;custom-font-size:largename;}#ifa2w7b78mn0k .ch5-button--default .ch5-button--icon{buttonDefaultIcon_font-size:x-largename;font-size:x-large;custom-font-size:x-largename;}#i7ye .ch5-button--default .ch5-button--icon{buttonDefaultIcon_font-size:largename;font-size:large;custom-font-size:largename;}#i7ye .ch5-button--default.ch5-button--pressed .ch5-button--label{buttonDefaultPressedLabel_font-size:mediumname;font-size:medium;custom-font-size:mediumname;}#i7ye .ch5-button--default.ch5-button--pressed .ch5-button--icon{buttonDefaultPressedIcon_font-size:largename;font-size:large;custom-font-size:largename;}#ifa2w7b78mn0k .ch5-button--default.ch5-button--pressed .ch5-button--label{buttonDefaultPressedLabel_font-size:mediumname;font-size:medium;custom-font-size:mediumname;}#ifa2w7b78mn0k .ch5-button--default.ch5-button--pressed .ch5-button--icon{buttonDefaultPressedIcon_font-size:largename;font-size:large;custom-font-size:largename;}#isk0b2rnwkila .ch5-button--size-regular .cb-btn{width:150px;height:75px;}#i3qqmtbufoqnk .ch5-button--size-regular .cb-btn{width:150px;height:75px;}#inetan5fy9jnp .ch5-button--size-regular .cb-btn{width:150px;height:75px;}#i3qqmtbufoqnk .ch5-button--rounded-rectangle{border-top-left-radius:10px;border-radius:10px 10px 10px 10px;border-top-right-radius:10px;border-bottom-right-radius:10px;border-bottom-left-radius:10px;}#isk0b2rnwkila .ch5-button--rounded-rectangle{border-top-left-radius:10px;border-radius:10px 10px 10px 10px;border-top-right-radius:10px;border-bottom-right-radius:10px;border-bottom-left-radius:10px;}#inetan5fy9jnp .ch5-button--rounded-rectangle{border-top-left-radius:10px;border-radius:10px 10px 10px 10px;border-top-right-radius:10px;border-bottom-right-radius:10px;border-bottom-left-radius:10px;}#i3qqmtbufoqnk .ch5-button--default .ch5-button--label{buttonDefaultLabel_font-size:largename;font-size:large;custom-font-size:largename;}#isk0b2rnwkila .ch5-button--default .ch5-button--label{buttonDefaultLabel_font-size:largename;font-size:large;custom-font-size:largename;}#inetan5fy9jnp .ch5-button--default .ch5-button--label{buttonDefaultLabel_font-size:largename;font-size:large;custom-font-size:largename;}#i3qqmtbufoqnk .ch5-button--default .ch5-button--icon{buttonDefaultIcon_font-size:x-largename;font-size:x-large;custom-font-size:x-largename;}#isk0b2rnwkila .ch5-button--default .ch5-button--icon{buttonDefaultIcon_font-size:x-largename;font-size:x-large;custom-font-size:x-largename;}#inetan5fy9jnp .ch5-button--default .ch5-button--icon{buttonDefaultIcon_font-size:x-largename;font-size:x-large;custom-font-size:x-largename;}#inetan5fy9jnp .ch5-button--default.ch5-button--pressed .ch5-button--label{buttonDefaultPressedLabel_font-size:mediumname;font-size:medium;custom-font-size:mediumname;}#isk0b2rnwkila .ch5-button--default.ch5-button--pressed .ch5-button--label{buttonDefaultPressedLabel_font-size:mediumname;font-size:medium;custom-font-size:mediumname;}#i3qqmtbufoqnk .ch5-button--default.ch5-button--pressed .ch5-button--label{buttonDefaultPressedLabel_font-size:mediumname;font-size:medium;custom-font-size:mediumname;}#inetan5fy9jnp .ch5-button--default.ch5-button--pressed .ch5-button--icon{buttonDefaultPressedIcon_font-size:largename;font-size:large;custom-font-size:largename;}#isk0b2rnwkila .ch5-button--default.ch5-button--pressed .ch5-button--icon{buttonDefaultPressedIcon_font-size:largename;font-size:large;custom-font-size:largename;}#i3qqmtbufoqnk .ch5-button--default.ch5-button--pressed .ch5-button--icon{buttonDefaultPressedIcon_font-size:largename;font-size:large;custom-font-size:largename;}#i3qqmtbufoqnk .ch5-button--default.ch5-button--selected .ch5-button--label{custom-font-size:name;}#i94ytelioj9by .ch5-text{font-size:16px;custom-font-size:16px;width:139px;}#ito9kk7o5zhe9 .ch5-color-chip{width:153px;}#i4lk747eoiyaj .ch5-color-chip{width:139px;}#i667wpyx3kwni .ch5-button--size-regular .cb-btn{width:129px;height:126px;}#i667wpyx3kwni .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img{width:129px;height:126px;}#itjiyu7n8giec .ch5-button--size-regular .cb-btn{height:131px;width:126px;}#itjiyu7n8giec .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img{height:131px;width:126px;}#izmxa .ch5-button--size-regular .cb-btn{width:126px;height:131px;}#iyghktgpeocqy .ch5-button--size-regular .cb-btn{width:129px;height:126px;}#izmxa .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img{height:131px;}#iyghktgpeocqy .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img{height:126px;}#imi7hzz9ho2a5 .ch5-button--size-regular .cb-btn{width:129px;height:131px;}body{background-color:#fff;}#iwrpiopcld3bw{left:63px;top:54px;position:absolute;width:139px;height:44px;}#i8bpjox5kc8u1{left:298px;top:20px;position:absolute;width:153px;}#i94ytelioj9by{left:876px;top:54px;position:absolute;width:139px;}#iza4i2ux8lmxh{left:34px;top:76px;position:absolute;width:198px;height:136px;}#iq032fszgqd1z{left:63px;top:54px;position:absolute;width:139px;height:44px;}#ito9kk7o5zhe9{left:298px;top:20px;position:absolute;width:153px;}#i54lo427cojov{left:847px;top:76px;position:absolute;width:198px;height:324px;}#i4lk747eoiyaj{left:876px;top:54px;position:absolute;width:139px;}#i4y2r46uqk9oy{left:269px;top:36px;position:absolute;width:542px;height:590px;display:block;}#wrapper{background-color:#fff;}#imgtz{left:295px;top:49px;width:489px;height:453px;}}
 
 {PageAttributes}
 
@@ -38,18 +26,174 @@ PageMode = "absolute"
 Id = "52a17a4f-3080-41cc-bfa8-d9301fe78ca8"
 
 [[Elements]]
-Name = ""
 Type = "widgetContainer"
-Status = ""
-Content = ""
 Classes = ["widget-container"]
 
 [[Elements.Components]]
-Name = ""
-Type = "Ch5 Button"
-Status = ""
-Content = ""
+Type = "html-div"
+
+[Elements.Components.Attributes]
+componentName = "AutoTrackingBorder"
+id = "iza4i2ux8lmxh"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+oldID = "iztx"
+[[Elements.Components]]
+Type = "Ch5 Color Chip"
 Editable = true
+
+[[Elements.Components.Components]]
+Type = "textnode"
+Content = "\n              "
+
+[Elements.Components.Attributes]
+maxvalue = "255"
+id = "iq032fszgqd1z"
+componentName = "Txt.AutoTracking.BG"
+ccid_linkSendReceive = "True"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+previewcolor = "#ffffff"
+oldID = "i52q"
+[[Elements.Components]]
+Type = "Ch5 Text"
+Editable = true
+
+[[Elements.Components.Components]]
+Type = "textnode"
+Content = "\n              "
+
+[Elements.Components.Attributes]
+clearLabel = "false"
+labelmodeadvncomponent = "simple"
+horizontalalignment = "center"
+verticalalignment = "middle"
+multilinesupport = "false"
+truncatetext = "false"
+labelinnerhtml = "Auto Tracking"
+id = "iwrpiopcld3bw"
+componentName = "Txt.AutoTracking"
+ccid_linkSendReceive = "True"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\",\"1920x1080 Monitor\"]"
+ccid_themeCSSSet = "true"
+oldID = "ih1k"
+[[Elements.Components]]
+Type = "Ch5 Button"
+Editable = true
+
+[[Elements.Components.Components]]
+Type = "Ch5 Button Mode"
+Classes = ["ch5-button-child"]
+
+[[Elements.Components.Components.Components]]
+Type = "Ch5 Button Mode State"
+Classes = ["ch5-button-child"]
+
+[Elements.Components.Components.Components.Attributes]
+componentName = "normal"
+ccid_imageIconType = "iconclass"
+state = "normal"
+type = "default"
+iconurlfilltype = "initial"
+id = "ibfo6"
+assetid = "0"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+ccid_themeCSSSet = "true"
+[[Elements.Components.Components.Components]]
+Type = "Ch5 Button Mode State"
+Classes = ["ch5-button-child"]
+
+[Elements.Components.Components.Components.Attributes]
+componentName = "pressed"
+ccid_imageIconType = "iconclass"
+state = "pressed"
+type = "default"
+iconurlfilltype = "initial"
+id = "iy72v"
+assetid = "0"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+ccid_themeCSSSet = "true"
+[[Elements.Components.Components.Components]]
+Type = "Ch5 Button Mode State"
+Classes = ["ch5-button-child"]
+
+[Elements.Components.Components.Components.Attributes]
+componentName = "selected"
+ccid_imageIconType = "iconclass"
+state = "selected"
+type = "default"
+iconurlfilltype = "initial"
+id = "i4mv6"
+assetid = "0"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+ccid_themeCSSSet = "true"
+
+[Elements.Components.Components.Attributes]
+componentName = "mode 0"
+ccid_imageIconType = "iconclass"
+modecount = "0"
+type = "default"
+id = "it9wk"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+assetid = "0"
+[[Elements.Components.Components]]
+Type = "Ch5 Button Mode"
+Classes = ["ch5-button-child"]
+
+[[Elements.Components.Components.Components]]
+Type = "Ch5 Button Mode State"
+Classes = ["ch5-button-child"]
+
+[Elements.Components.Components.Components.Attributes]
+componentName = "normal"
+ccid_imageIconType = "iconclass"
+state = "normal"
+type = "default"
+iconurlfilltype = "initial"
+id = "i6x0x"
+assetid = "0"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+ccid_themeCSSSet = "true"
+labelmodeadvnbtn = "advanced"
+labelinnerhtml = "<p style=\"white-space: normal;\">Auto Tracking<br>On</p>"
+componentWasResized = "false"
+[[Elements.Components.Components.Components]]
+Type = "Ch5 Button Mode State"
+Classes = ["ch5-button-child"]
+
+[Elements.Components.Components.Components.Attributes]
+componentName = "pressed"
+ccid_imageIconType = "iconclass"
+state = "pressed"
+type = "default"
+iconurlfilltype = "initial"
+id = "it5xs"
+assetid = "0"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+ccid_themeCSSSet = "true"
+labelinnerhtml = "<p style=\"white-space: normal;\">Auto Tracking<br>On</p>"
+[[Elements.Components.Components.Components]]
+Type = "Ch5 Button Mode State"
+Classes = ["ch5-button-child"]
+
+[Elements.Components.Components.Components.Attributes]
+componentName = "selected"
+ccid_imageIconType = "iconclass"
+state = "selected"
+type = "default"
+iconurlfilltype = "initial"
+id = "ieagk"
+assetid = "0"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+ccid_themeCSSSet = "true"
+labelinnerhtml = "<p style=\"white-space: normal;\">Auto Tracking<br>On</p>"
+
+[Elements.Components.Components.Attributes]
+componentName = "mode 1"
+ccid_imageIconType = "iconclass"
+modecount = "1"
+type = "default"
+id = "if6kb"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+assetid = "0"
 
 [Elements.Components.Attributes]
 type = "default"
@@ -67,139 +211,349 @@ customclass = "ccid-custom"
 affectedByPreviewState = "True"
 shape = "custom"
 customvstheme = "custom"
-id = "inetan5fy9jnp"
-labelinnerhtml = "Preset 3"
+id = "ibtcl6w3praby"
+labelinnerhtml = "<p style=\"white-space: normal;\">Auto Tracking<br>Off</p>"
 pageflip = "0"
-iconposition = "top"
+iconposition = "first"
+orientation = "horizontal"
+labelmode = "advanced"
+componentName = "Btn.AutoTrackingTgl"
+ccid_themeCSSSet = "true"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+size = "custom"
+oldID = "iuvk"
+previewstate = "normal"
+selected = "false"
+assetid = "0"
+[[Elements.Components]]
+Type = "html-div"
+
+[Elements.Components.Attributes]
+componentName = "CameraControlBorder"
+id = "i4y2r46uqk9oy"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+oldID = "ixpu5fz65vq8c"
+[[Elements.Components]]
+Type = "Ch5 Color Chip"
+Editable = true
+
+[Elements.Components.Attributes]
+maxvalue = "255"
+id = "ito9kk7o5zhe9"
+componentName = "Txt.CameraControl.BG"
+ccid_linkSendReceive = "True"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+previewcolor = "#ffffff"
+oldID = "icz3r8bmrs00u"
+[[Elements.Components]]
+Type = "Ch5 Text"
+Editable = true
+
+[Elements.Components.Attributes]
+clearLabel = "false"
+labelmodeadvncomponent = "simple"
+horizontalalignment = "center"
+verticalalignment = "middle"
+multilinesupport = "false"
+truncatetext = "false"
+labelinnerhtml = "Camera Control"
+id = "i8bpjox5kc8u1"
+componentName = "Txt.CameraControl"
+ccid_linkSendReceive = "True"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\",\"1920x1080 Monitor\"]"
+ccid_themeCSSSet = "true"
+oldID = "iqj4ijw7kb8qg"
+[[Elements.Components]]
+Type = "Ch5 Image"
+Editable = true
+
+[[Elements.Components.Components]]
+Type = "textnode"
+Content = "\n              "
+
+[Elements.Components.Attributes]
+refreshrate = "0"
+customvstheme = "custom"
+assetid = "974b96a5-d84a-4387-b4f9-a4cbb068a929"
+id = "imgtz"
+componentName = "Img.DPAD"
+ccid_linkSendReceive = "True"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+url = "StaticFiles/7a87ce63-dba9-46ba-bd04-d68b6ba8638d/974b96a5-d84a-4387-b4f9-a4cbb068a929/cmvel55h.png"
+[[Elements.Components]]
+Type = "Ch5 Button"
+Editable = true
+
+[Elements.Components.Attributes]
+type = "default"
+halignlabel = "center"
+valignlabel = "middle"
+checkboxshow = "false"
+checkboxposition = "left"
+disabled = "false"
+pageFlipAttributeName = "pageflip"
+clearLabel = "true"
+ccid_imageIconType = "iconclass"
+ccid_linkSendReceive = "True"
+iconurlfilltype = "initial"
+customclass = "ccid-custom"
+affectedByPreviewState = "True"
+shape = "custom"
+customvstheme = "custom"
+id = "i667wpyx3kwni"
+pageflip = "0"
+iconposition = "first"
 previewstate = "normal"
 orientation = "horizontal"
 labelmode = "simple"
-componentName = "Btn.Preset[3]"
+componentName = "Btn.DPAD_Top"
 ccid_themeCSSSet = "true"
-devicesVisited = "[\"4K Monitor\"]"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
 size = "custom"
-oldID = "isk0b2rnwkila"
+oldID = "itjiyu7n8giec"
+labelinnerhtml = ""
+componentWasResized = "false"
+selected = "false"
+assetid = "0"
+[[Elements.Components]]
+Type = "Ch5 Button"
+Editable = true
+
+[Elements.Components.Attributes]
+type = "default"
+halignlabel = "center"
+valignlabel = "middle"
+checkboxshow = "false"
+checkboxposition = "left"
+disabled = "false"
+pageFlipAttributeName = "pageflip"
+clearLabel = "true"
+ccid_imageIconType = "iconclass"
+ccid_linkSendReceive = "True"
+iconurlfilltype = "initial"
+customclass = "ccid-custom"
+affectedByPreviewState = "True"
+shape = "custom"
+customvstheme = "custom"
+id = "itjiyu7n8giec"
+pageflip = "0"
+iconposition = "first"
+previewstate = "normal"
+orientation = "horizontal"
+labelmode = "simple"
+componentName = "Btn.DPAD_Left"
+ccid_themeCSSSet = "true"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+size = "custom"
+oldID = "izmxa"
+labelinnerhtml = ""
+componentWasResized = "false"
+selected = "false"
+assetid = "0"
+[[Elements.Components]]
+Type = "Ch5 Button"
+Editable = true
+
+[[Elements.Components.Components]]
+Type = "textnode"
+Content = "\n              "
+
+[Elements.Components.Attributes]
+type = "default"
+halignlabel = "center"
+valignlabel = "middle"
+checkboxshow = "false"
+checkboxposition = "left"
+disabled = "false"
+pageFlipAttributeName = "pageflip"
+clearLabel = "true"
+ccid_imageIconType = "iconclass"
+ccid_linkSendReceive = "True"
+iconurlfilltype = "initial"
+customclass = "ccid-custom"
+affectedByPreviewState = "True"
+shape = "custom"
+customvstheme = "custom"
+id = "izmxa"
+pageflip = "0"
+iconposition = "first"
+previewstate = "normal"
+orientation = "horizontal"
+labelmode = "simple"
+componentName = "Btn.DPAD_Right"
+ccid_themeCSSSet = "true"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+size = "custom"
+labelinnerhtml = ""
+componentWasResized = "false"
+selected = "false"
+assetid = "0"
+[[Elements.Components]]
+Type = "Ch5 Button"
+Editable = true
+
+[Elements.Components.Attributes]
+type = "default"
+halignlabel = "center"
+valignlabel = "middle"
+checkboxshow = "false"
+checkboxposition = "left"
+disabled = "false"
+pageFlipAttributeName = "pageflip"
+clearLabel = "true"
+ccid_imageIconType = "iconclass"
+ccid_linkSendReceive = "True"
+iconurlfilltype = "initial"
+customclass = "ccid-custom"
+affectedByPreviewState = "True"
+shape = "custom"
+customvstheme = "custom"
+id = "iyghktgpeocqy"
+pageflip = "0"
+iconposition = "first"
+previewstate = "normal"
+orientation = "horizontal"
+labelmode = "simple"
+componentName = "Btn.DPAD_Bottom"
+ccid_themeCSSSet = "true"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+size = "custom"
+oldID = "ik48jeief9d9s"
+labelinnerhtml = ""
+selected = "false"
+assetid = "0"
+[[Elements.Components]]
+Type = "Ch5 Button"
+Editable = true
+
+[[Elements.Components.Components]]
+Type = "Ch5 Button Mode"
+Classes = ["ch5-button-child"]
+
+[[Elements.Components.Components.Components]]
+Type = "Ch5 Button Mode State"
+Classes = ["ch5-button-child"]
+
+[Elements.Components.Components.Components.Attributes]
+componentName = "normal"
+ccid_imageIconType = "iconclass"
+state = "normal"
+type = "default"
+iconurlfilltype = "initial"
+id = "iz8we"
+assetid = "0"
+devicesVisited = "[\"4K Monitor\"]"
+ccid_themeCSSSet = "true"
+[[Elements.Components.Components.Components]]
+Type = "Ch5 Button Mode State"
+Classes = ["ch5-button-child"]
+
+[Elements.Components.Components.Components.Attributes]
+componentName = "pressed"
+ccid_imageIconType = "iconclass"
+state = "pressed"
+type = "default"
+iconurlfilltype = "initial"
+id = "iymry"
+assetid = "0"
+devicesVisited = "[\"4K Monitor\"]"
+ccid_themeCSSSet = "true"
+[[Elements.Components.Components.Components]]
+Type = "Ch5 Button Mode State"
+Classes = ["ch5-button-child"]
+
+[Elements.Components.Components.Components.Attributes]
+componentName = "selected"
+ccid_imageIconType = "iconclass"
+state = "selected"
+type = "default"
+iconurlfilltype = "initial"
+id = "ihua6"
+assetid = "0"
+devicesVisited = "[\"4K Monitor\"]"
+ccid_themeCSSSet = "true"
+
+[Elements.Components.Components.Attributes]
+componentName = "mode 0"
+ccid_imageIconType = "iconclass"
+modecount = "0"
+type = "default"
+id = "ivred"
+devicesVisited = "[]"
+assetid = "0"
+
+[Elements.Components.Attributes]
+type = "default"
+halignlabel = "center"
+valignlabel = "middle"
+checkboxshow = "false"
+checkboxposition = "left"
+disabled = "false"
+pageFlipAttributeName = "pageflip"
+clearLabel = "true"
+ccid_imageIconType = "iconclass"
+ccid_linkSendReceive = "True"
+iconurlfilltype = "initial"
+customclass = "ccid-custom"
+affectedByPreviewState = "True"
+shape = "custom"
+customvstheme = "custom"
+id = "imi7hzz9ho2a5"
+pageflip = "0"
+iconposition = "first"
+orientation = "horizontal"
+labelmode = "simple"
+componentName = "Btn.DPAD_Center"
+ccid_themeCSSSet = "true"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+size = "custom"
+oldID = "iyghktgpeocqy"
+labelinnerhtml = ""
+componentWasResized = "false"
+previewstate = "normal"
+selected = "false"
+assetid = "0"
+[[Elements.Components]]
+Type = "html-div"
+
+[Elements.Components.Attributes]
+componentName = "PresetsBorder"
+id = "i54lo427cojov"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+oldID = "ixpu5fz65vq8c"
 componentWasResized = "true"
-iconclass = "fas fa-pen"
-selected = "false"
 [[Elements.Components]]
-Name = ""
-Type = "Ch5 Button"
-Status = ""
-Content = ""
+Type = "Ch5 Color Chip"
 Editable = true
 
 [Elements.Components.Attributes]
-type = "default"
-halignlabel = "center"
-valignlabel = "middle"
-checkboxshow = "false"
-checkboxposition = "left"
-disabled = "false"
-pageFlipAttributeName = "pageflip"
-clearLabel = "false"
-ccid_imageIconType = "iconclass"
+maxvalue = "255"
+id = "i4lk747eoiyaj"
+componentName = "Txt.Presets.BG"
 ccid_linkSendReceive = "True"
-iconurlfilltype = "initial"
-customclass = "ccid-custom"
-affectedByPreviewState = "True"
-shape = "custom"
-customvstheme = "custom"
-id = "isk0b2rnwkila"
-labelinnerhtml = "Preset 2"
-pageflip = "0"
-iconposition = "top"
-previewstate = "normal"
-orientation = "horizontal"
-labelmode = "simple"
-componentName = "Btn.Preset[2]"
-ccid_themeCSSSet = "true"
-devicesVisited = "[\"4K Monitor\"]"
-size = "custom"
-oldID = "i3qqmtbufoqnk"
-iconclass = "fas fa-pen"
-selected = "false"
-componentWasResized = "true"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+previewcolor = "#ffffff"
+oldID = "icz3r8bmrs00u"
 [[Elements.Components]]
-Name = ""
-Type = "Ch5 Button"
-Status = ""
-Content = ""
+Type = "Ch5 Text"
 Editable = true
 
 [Elements.Components.Attributes]
-type = "default"
-halignlabel = "center"
-valignlabel = "middle"
-checkboxshow = "false"
-checkboxposition = "left"
-disabled = "false"
-pageFlipAttributeName = "pageflip"
 clearLabel = "false"
-ccid_imageIconType = "iconclass"
+labelmodeadvncomponent = "simple"
+horizontalalignment = "center"
+verticalalignment = "middle"
+multilinesupport = "false"
+truncatetext = "false"
+labelinnerhtml = "Presets"
+id = "i94ytelioj9by"
+componentName = "Txt.Presets"
 ccid_linkSendReceive = "True"
-iconurlfilltype = "initial"
-customclass = "ccid-custom"
-affectedByPreviewState = "True"
-shape = "custom"
-customvstheme = "custom"
-id = "i3qqmtbufoqnk"
-labelinnerhtml = "Preset 1"
-pageflip = "0"
-iconposition = "top"
-previewstate = "normal"
-orientation = "horizontal"
-labelmode = "simple"
-componentName = "Btn.Preset[1]"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\",\"1920x1080 Monitor\"]"
 ccid_themeCSSSet = "true"
-devicesVisited = "[\"4K Monitor\"]"
-size = "custom"
-oldID = "igk3aoqr8gryg"
-componentWasResized = "true"
-iconclass = "fas fa-pen"
-selected = "false"
+oldID = "iqj4ijw7kb8qg"
 [[Elements.Components]]
-Name = ""
 Type = "Ch5 Button"
-Status = ""
-Content = ""
-Editable = true
-
-[Elements.Components.Attributes]
-type = "default"
-halignlabel = "center"
-valignlabel = "middle"
-checkboxshow = "false"
-checkboxposition = "left"
-disabled = "false"
-pageFlipAttributeName = "pageflip"
-clearLabel = "false"
-ccid_imageIconType = "iconclass"
-ccid_linkSendReceive = "True"
-iconurlfilltype = "initial"
-customclass = "ccid-custom"
-affectedByPreviewState = "True"
-shape = "custom"
-customvstheme = "custom"
-id = "i7ye"
-labelinnerhtml = "Zoom In"
-pageflip = "0"
-iconposition = "top"
-previewstate = "normal"
-orientation = "horizontal"
-labelmode = "simple"
-componentName = "Btn.ZoomIn"
-ccid_themeCSSSet = "true"
-devicesVisited = "[\"4K Monitor\"]"
-size = "custom"
-oldID = "idqqgbd0qx2sj"
-iconclass = "fas fa-plus-circle"
-selected = "false"
-[[Elements.Components]]
-Name = ""
-Type = "Ch5 Button"
-Status = ""
-Content = ""
 Editable = true
 
 [Elements.Components.Attributes]
@@ -227,525 +581,15 @@ orientation = "horizontal"
 labelmode = "simple"
 componentName = "Btn.ZoomOut"
 ccid_themeCSSSet = "true"
-devicesVisited = "[\"4K Monitor\"]"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
 size = "custom"
 oldID = "i7ye"
 iconclass = "fas fa-minus-circle"
 selected = "false"
+assetid = "0"
 [[Elements.Components]]
-Name = ""
-Type = "Ch5 Text"
-Status = ""
-Content = ""
-Editable = true
-
-[Elements.Components.Attributes]
-clearLabel = "false"
-labelmodeadvncomponent = "simple"
-horizontalalignment = "center"
-verticalalignment = "middle"
-multilinesupport = "false"
-truncatetext = "false"
-labelinnerhtml = "Presets"
-id = "i94ytelioj9by"
-componentName = "Txt.Presets"
-ccid_linkSendReceive = "True"
-devicesVisited = "[\"4K Monitor\"]"
-ccid_themeCSSSet = "true"
-oldID = "iqj4ijw7kb8qg"
-[[Elements.Components]]
-Name = ""
-Type = "Ch5 Color Chip"
-Status = ""
-Content = ""
-Editable = true
-
-[Elements.Components.Attributes]
-maxvalue = "255"
-id = "i4lk747eoiyaj"
-componentName = "Txt.Presets.BG"
-ccid_linkSendReceive = "True"
-devicesVisited = "[\"4K Monitor\"]"
-previewcolor = "#ffffff"
-oldID = "icz3r8bmrs00u"
-[[Elements.Components]]
-Name = ""
-Type = "html-div"
-Status = ""
-Content = ""
-
-[Elements.Components.Attributes]
-componentName = "PresetsBorder"
-id = "i54lo427cojov"
-devicesVisited = "[\"4K Monitor\"]"
-oldID = "ixpu5fz65vq8c"
-[[Elements.Components]]
-Name = ""
 Type = "Ch5 Button"
-Status = ""
-Content = ""
 Editable = true
-
-[[Elements.Components.Components]]
-Name = ""
-Type = "Ch5 Button Mode"
-Status = ""
-Content = ""
-Classes = ["ch5-button-child"]
-
-[[Elements.Components.Components.Components]]
-Name = ""
-Type = "Ch5 Button Mode State"
-Status = ""
-Content = ""
-Classes = ["ch5-button-child"]
-
-[Elements.Components.Components.Components.Attributes]
-componentName = "normal"
-ccid_imageIconType = "iconclass"
-state = "normal"
-type = "default"
-iconurlfilltype = "initial"
-id = "iz8we"
-assetid = "0"
-devicesVisited = "[\"4K Monitor\"]"
-[[Elements.Components.Components.Components]]
-Name = ""
-Type = "Ch5 Button Mode State"
-Status = ""
-Content = ""
-Classes = ["ch5-button-child"]
-
-[Elements.Components.Components.Components.Attributes]
-componentName = "pressed"
-ccid_imageIconType = "iconclass"
-state = "pressed"
-type = "default"
-iconurlfilltype = "initial"
-id = "iymry"
-assetid = "0"
-devicesVisited = "[\"4K Monitor\"]"
-[[Elements.Components.Components.Components]]
-Name = ""
-Type = "Ch5 Button Mode State"
-Status = ""
-Content = ""
-Classes = ["ch5-button-child"]
-
-[Elements.Components.Components.Components.Attributes]
-componentName = "selected"
-ccid_imageIconType = "iconclass"
-state = "selected"
-type = "default"
-iconurlfilltype = "initial"
-id = "ihua6"
-assetid = "0"
-devicesVisited = "[\"4K Monitor\"]"
-
-[Elements.Components.Components.Attributes]
-componentName = "mode 0"
-ccid_imageIconType = "iconclass"
-modecount = "0"
-type = "default"
-assetid = "0"
-id = "ivred"
-
-[Elements.Components.Attributes]
-type = "default"
-halignlabel = "center"
-valignlabel = "middle"
-checkboxshow = "false"
-checkboxposition = "left"
-disabled = "false"
-pageFlipAttributeName = "pageflip"
-clearLabel = "true"
-ccid_imageIconType = "iconclass"
-ccid_linkSendReceive = "True"
-iconurlfilltype = "initial"
-customclass = "ccid-custom"
-affectedByPreviewState = "True"
-shape = "custom"
-customvstheme = "custom"
-id = "imi7hzz9ho2a5"
-pageflip = "0"
-iconposition = "first"
-previewstate = "normal"
-orientation = "horizontal"
-labelmode = "simple"
-componentName = "Btn.DPAD_Center"
-ccid_themeCSSSet = "true"
-devicesVisited = "[\"4K Monitor\"]"
-size = "custom"
-oldID = "iyghktgpeocqy"
-labelinnerhtml = ""
-selected = "false"
-componentWasResized = "true"
-[[Elements.Components]]
-Name = ""
-Type = "Ch5 Button"
-Status = ""
-Content = ""
-Editable = true
-
-[Elements.Components.Attributes]
-type = "default"
-halignlabel = "center"
-valignlabel = "middle"
-checkboxshow = "false"
-checkboxposition = "left"
-disabled = "false"
-pageFlipAttributeName = "pageflip"
-clearLabel = "true"
-ccid_imageIconType = "iconclass"
-ccid_linkSendReceive = "True"
-iconurlfilltype = "initial"
-customclass = "ccid-custom"
-affectedByPreviewState = "True"
-shape = "custom"
-customvstheme = "custom"
-id = "iyghktgpeocqy"
-pageflip = "0"
-iconposition = "first"
-previewstate = "normal"
-orientation = "horizontal"
-labelmode = "simple"
-componentName = "Btn.DPAD_Bottom"
-ccid_themeCSSSet = "true"
-devicesVisited = "[\"4K Monitor\"]"
-size = "custom"
-oldID = "ik48jeief9d9s"
-labelinnerhtml = ""
-componentWasResized = "true"
-selected = "false"
-[[Elements.Components]]
-Name = ""
-Type = "Ch5 Button"
-Status = ""
-Content = ""
-Editable = true
-
-[[Elements.Components.Components]]
-Name = ""
-Type = "textnode"
-Status = ""
-Content = "\n              "
-
-[Elements.Components.Attributes]
-type = "default"
-halignlabel = "center"
-valignlabel = "middle"
-checkboxshow = "false"
-checkboxposition = "left"
-disabled = "false"
-pageFlipAttributeName = "pageflip"
-clearLabel = "true"
-ccid_imageIconType = "iconclass"
-ccid_linkSendReceive = "True"
-iconurlfilltype = "initial"
-customclass = "ccid-custom"
-affectedByPreviewState = "True"
-shape = "custom"
-customvstheme = "custom"
-id = "izmxa"
-pageflip = "0"
-iconposition = "first"
-previewstate = "normal"
-orientation = "horizontal"
-labelmode = "simple"
-componentName = "Btn.DPAD_Right"
-ccid_themeCSSSet = "true"
-devicesVisited = "[\"4K Monitor\"]"
-size = "custom"
-labelinnerhtml = ""
-selected = "false"
-componentWasResized = "true"
-[[Elements.Components]]
-Name = ""
-Type = "Ch5 Button"
-Status = ""
-Content = ""
-Editable = true
-
-[Elements.Components.Attributes]
-type = "default"
-halignlabel = "center"
-valignlabel = "middle"
-checkboxshow = "false"
-checkboxposition = "left"
-disabled = "false"
-pageFlipAttributeName = "pageflip"
-clearLabel = "true"
-ccid_imageIconType = "iconclass"
-ccid_linkSendReceive = "True"
-iconurlfilltype = "initial"
-customclass = "ccid-custom"
-affectedByPreviewState = "True"
-shape = "custom"
-customvstheme = "custom"
-id = "itjiyu7n8giec"
-pageflip = "0"
-iconposition = "first"
-previewstate = "normal"
-orientation = "horizontal"
-labelmode = "simple"
-componentName = "Btn.DPAD_Left"
-ccid_themeCSSSet = "true"
-devicesVisited = "[\"4K Monitor\"]"
-size = "custom"
-oldID = "izmxa"
-labelinnerhtml = ""
-componentWasResized = "true"
-selected = "false"
-[[Elements.Components]]
-Name = ""
-Type = "Ch5 Button"
-Status = ""
-Content = ""
-Editable = true
-
-[Elements.Components.Attributes]
-type = "default"
-halignlabel = "center"
-valignlabel = "middle"
-checkboxshow = "false"
-checkboxposition = "left"
-disabled = "false"
-pageFlipAttributeName = "pageflip"
-clearLabel = "true"
-ccid_imageIconType = "iconclass"
-ccid_linkSendReceive = "True"
-iconurlfilltype = "initial"
-customclass = "ccid-custom"
-affectedByPreviewState = "True"
-shape = "custom"
-customvstheme = "custom"
-id = "i667wpyx3kwni"
-pageflip = "0"
-iconposition = "first"
-previewstate = "normal"
-orientation = "horizontal"
-labelmode = "simple"
-componentName = "Btn.DPAD_Top"
-ccid_themeCSSSet = "true"
-devicesVisited = "[\"4K Monitor\"]"
-size = "custom"
-oldID = "itjiyu7n8giec"
-labelinnerhtml = ""
-selected = "false"
-componentWasResized = "true"
-[[Elements.Components]]
-Name = ""
-Type = "Ch5 Image"
-Status = ""
-Content = ""
-Editable = true
-
-[[Elements.Components.Components]]
-Name = ""
-Type = "textnode"
-Status = ""
-Content = "\n              "
-
-[Elements.Components.Attributes]
-refreshrate = "0"
-customvstheme = "custom"
-assetid = "974b96a5-d84a-4387-b4f9-a4cbb068a929"
-id = "imgtz"
-componentName = "Img.DPAD"
-ccid_linkSendReceive = "True"
-devicesVisited = "[\"4K Monitor\"]"
-url = "StaticFiles/d3a77ca6-1c52-4cb1-9ecd-b4ea42c16908/974b96a5-d84a-4387-b4f9-a4cbb068a929/q5kgnfcv.png"
-[[Elements.Components]]
-Name = ""
-Type = "Ch5 Text"
-Status = ""
-Content = ""
-Editable = true
-
-[Elements.Components.Attributes]
-clearLabel = "false"
-labelmodeadvncomponent = "simple"
-horizontalalignment = "center"
-verticalalignment = "middle"
-multilinesupport = "false"
-truncatetext = "false"
-labelinnerhtml = "Camera Control"
-id = "i8bpjox5kc8u1"
-componentName = "Txt.CameraControl"
-ccid_linkSendReceive = "True"
-devicesVisited = "[\"4K Monitor\"]"
-ccid_themeCSSSet = "true"
-oldID = "iqj4ijw7kb8qg"
-[[Elements.Components]]
-Name = ""
-Type = "Ch5 Color Chip"
-Status = ""
-Content = ""
-Editable = true
-
-[Elements.Components.Attributes]
-maxvalue = "255"
-id = "ito9kk7o5zhe9"
-componentName = "Txt.CameraControl.BG"
-ccid_linkSendReceive = "True"
-devicesVisited = "[\"4K Monitor\"]"
-previewcolor = "#ffffff"
-oldID = "icz3r8bmrs00u"
-[[Elements.Components]]
-Name = ""
-Type = "html-div"
-Status = ""
-Content = ""
-
-[Elements.Components.Attributes]
-componentName = "CameraControlBorder"
-id = "i4y2r46uqk9oy"
-devicesVisited = "[\"4K Monitor\"]"
-oldID = "ixpu5fz65vq8c"
-[[Elements.Components]]
-Name = ""
-Type = "Ch5 Button"
-Status = ""
-Content = ""
-Editable = true
-
-[[Elements.Components.Components]]
-Name = ""
-Type = "Ch5 Button Mode"
-Status = ""
-Content = ""
-Classes = ["ch5-button-child"]
-
-[[Elements.Components.Components.Components]]
-Name = ""
-Type = "Ch5 Button Mode State"
-Status = ""
-Content = ""
-Classes = ["ch5-button-child"]
-
-[Elements.Components.Components.Components.Attributes]
-componentName = "normal"
-ccid_imageIconType = "iconclass"
-state = "normal"
-type = "default"
-iconurlfilltype = "initial"
-id = "ibfo6"
-assetid = "0"
-devicesVisited = "[\"4K Monitor\"]"
-ccid_themeCSSSet = "true"
-[[Elements.Components.Components.Components]]
-Name = ""
-Type = "Ch5 Button Mode State"
-Status = ""
-Content = ""
-Classes = ["ch5-button-child"]
-
-[Elements.Components.Components.Components.Attributes]
-componentName = "pressed"
-ccid_imageIconType = "iconclass"
-state = "pressed"
-type = "default"
-iconurlfilltype = "initial"
-id = "iy72v"
-assetid = "0"
-devicesVisited = "[\"4K Monitor\"]"
-ccid_themeCSSSet = "true"
-[[Elements.Components.Components.Components]]
-Name = ""
-Type = "Ch5 Button Mode State"
-Status = ""
-Content = ""
-Classes = ["ch5-button-child"]
-
-[Elements.Components.Components.Components.Attributes]
-componentName = "selected"
-ccid_imageIconType = "iconclass"
-state = "selected"
-type = "default"
-iconurlfilltype = "initial"
-id = "i4mv6"
-assetid = "0"
-devicesVisited = "[\"4K Monitor\"]"
-ccid_themeCSSSet = "true"
-
-[Elements.Components.Components.Attributes]
-componentName = "mode 0"
-ccid_imageIconType = "iconclass"
-modecount = "0"
-type = "default"
-id = "it9wk"
-devicesVisited = "[\"4K Monitor\"]"
-assetid = "0"
-[[Elements.Components.Components]]
-Name = ""
-Type = "Ch5 Button Mode"
-Status = ""
-Content = ""
-Classes = ["ch5-button-child"]
-
-[[Elements.Components.Components.Components]]
-Name = ""
-Type = "Ch5 Button Mode State"
-Status = ""
-Content = ""
-Classes = ["ch5-button-child"]
-
-[Elements.Components.Components.Components.Attributes]
-componentName = "normal"
-ccid_imageIconType = "iconclass"
-state = "normal"
-type = "default"
-iconurlfilltype = "initial"
-id = "i6x0x"
-assetid = "0"
-devicesVisited = "[\"4K Monitor\"]"
-ccid_themeCSSSet = "true"
-labelmodeadvnbtn = "advanced"
-labelinnerhtml = "<p style=\"white-space: normal;\">Auto Tracking On</p>"
-[[Elements.Components.Components.Components]]
-Name = ""
-Type = "Ch5 Button Mode State"
-Status = ""
-Content = ""
-Classes = ["ch5-button-child"]
-
-[Elements.Components.Components.Components.Attributes]
-componentName = "pressed"
-ccid_imageIconType = "iconclass"
-state = "pressed"
-type = "default"
-iconurlfilltype = "initial"
-id = "it5xs"
-assetid = "0"
-devicesVisited = "[\"4K Monitor\"]"
-ccid_themeCSSSet = "true"
-labelinnerhtml = "<p style=\"white-space: normal;\">Auto Tracking On</p>"
-[[Elements.Components.Components.Components]]
-Name = ""
-Type = "Ch5 Button Mode State"
-Status = ""
-Content = ""
-Classes = ["ch5-button-child"]
-
-[Elements.Components.Components.Components.Attributes]
-componentName = "selected"
-ccid_imageIconType = "iconclass"
-state = "selected"
-type = "default"
-iconurlfilltype = "initial"
-id = "ieagk"
-assetid = "0"
-devicesVisited = "[\"4K Monitor\"]"
-ccid_themeCSSSet = "true"
-labelinnerhtml = "<p style=\"white-space: normal;\">Auto Tracking On</p>"
-
-[Elements.Components.Components.Attributes]
-componentName = "mode 1"
-ccid_imageIconType = "iconclass"
-modecount = "1"
-type = "default"
-assetid = "0"
-id = "if6kb"
 
 [Elements.Components.Attributes]
 type = "default"
@@ -763,83 +607,133 @@ customclass = "ccid-custom"
 affectedByPreviewState = "True"
 shape = "custom"
 customvstheme = "custom"
-id = "ibtcl6w3praby"
-labelinnerhtml = "<p style=\"white-space: normal;\">Auto Tracking Off</p>"
+id = "i7ye"
+labelinnerhtml = "Zoom In"
 pageflip = "0"
-iconposition = "first"
+iconposition = "top"
+previewstate = "pressed"
 orientation = "horizontal"
-labelmode = "advanced"
-componentName = "Btn.AutoTrackingTgl"
+labelmode = "simple"
+componentName = "Btn.ZoomIn"
 ccid_themeCSSSet = "true"
-devicesVisited = "[\"4K Monitor\"]"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
 size = "custom"
-oldID = "iuvk"
-componentWasResized = "true"
-previewstate = "normal"
+oldID = "idqqgbd0qx2sj"
+iconclass = "fas fa-plus-circle"
+pressed = "true"
 selected = "false"
+assetid = "0"
 [[Elements.Components]]
-Name = ""
-Type = "Ch5 Text"
-Status = ""
-Content = ""
+Type = "Ch5 Button"
 Editable = true
 
-[[Elements.Components.Components]]
-Name = ""
-Type = "textnode"
-Status = ""
-Content = "\n              "
-
 [Elements.Components.Attributes]
+type = "default"
+halignlabel = "center"
+valignlabel = "middle"
+checkboxshow = "false"
+checkboxposition = "left"
+disabled = "false"
+pageFlipAttributeName = "pageflip"
 clearLabel = "false"
-labelmodeadvncomponent = "simple"
-horizontalalignment = "center"
-verticalalignment = "middle"
-multilinesupport = "false"
-truncatetext = "false"
-labelinnerhtml = "Auto Tracking"
-id = "iwrpiopcld3bw"
-componentName = "Txt.AutoTracking"
+ccid_imageIconType = "iconclass"
 ccid_linkSendReceive = "True"
-devicesVisited = "[\"4K Monitor\"]"
+iconurlfilltype = "initial"
+customclass = "ccid-custom"
+affectedByPreviewState = "True"
+shape = "custom"
+customvstheme = "custom"
+id = "i3qqmtbufoqnk"
+labelinnerhtml = "Preset 1"
+pageflip = "0"
+iconposition = "top"
+previewstate = "normal"
+orientation = "horizontal"
+labelmode = "simple"
+componentName = "Btn.Preset[1]"
 ccid_themeCSSSet = "true"
-oldID = "ih1k"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+size = "custom"
+oldID = "igk3aoqr8gryg"
+componentWasResized = "false"
+iconclass = "fas fa-pen"
+selected = "false"
+assetid = "0"
 [[Elements.Components]]
-Name = ""
-Type = "Ch5 Color Chip"
-Status = ""
-Content = ""
+Type = "Ch5 Button"
 Editable = true
 
-[[Elements.Components.Components]]
-Name = ""
-Type = "textnode"
-Status = ""
-Content = "\n              "
-
 [Elements.Components.Attributes]
-maxvalue = "255"
-id = "iq032fszgqd1z"
-componentName = "Txt.AutoTracking.BG"
+type = "default"
+halignlabel = "center"
+valignlabel = "middle"
+checkboxshow = "false"
+checkboxposition = "left"
+disabled = "false"
+pageFlipAttributeName = "pageflip"
+clearLabel = "false"
+ccid_imageIconType = "iconclass"
 ccid_linkSendReceive = "True"
-devicesVisited = "[\"4K Monitor\"]"
-previewcolor = "#ffffff"
-oldID = "i52q"
+iconurlfilltype = "initial"
+customclass = "ccid-custom"
+affectedByPreviewState = "True"
+shape = "custom"
+customvstheme = "custom"
+id = "isk0b2rnwkila"
+labelinnerhtml = "Preset 2"
+pageflip = "0"
+iconposition = "top"
+previewstate = "selected"
+orientation = "horizontal"
+labelmode = "simple"
+componentName = "Btn.Preset[2]"
+ccid_themeCSSSet = "true"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+size = "custom"
+oldID = "i3qqmtbufoqnk"
+iconclass = "fas fa-pen"
+componentWasResized = "false"
+selected = "true"
+assetid = "0"
 [[Elements.Components]]
-Name = ""
-Type = "html-div"
-Status = ""
-Content = ""
+Type = "Ch5 Button"
+Editable = true
 
 [Elements.Components.Attributes]
-componentName = "AutoTrackingBorder"
-id = "iza4i2ux8lmxh"
-devicesVisited = "[\"4K Monitor\"]"
-oldID = "iztx"
+type = "default"
+halignlabel = "center"
+valignlabel = "middle"
+checkboxshow = "false"
+checkboxposition = "left"
+disabled = "false"
+pageFlipAttributeName = "pageflip"
+clearLabel = "false"
+ccid_imageIconType = "iconclass"
+ccid_linkSendReceive = "True"
+iconurlfilltype = "initial"
+customclass = "ccid-custom"
+affectedByPreviewState = "True"
+shape = "custom"
+customvstheme = "custom"
+id = "inetan5fy9jnp"
+labelinnerhtml = "Preset 3"
+pageflip = "0"
+iconposition = "top"
+previewstate = "selected"
+orientation = "horizontal"
+labelmode = "simple"
+componentName = "Btn.Preset[3]"
+ccid_themeCSSSet = "true"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+size = "custom"
+oldID = "isk0b2rnwkila"
+iconclass = "fas fa-pen"
+selected = "true"
+assetid = "0"
 
 [Elements.Attributes]
 id = "i09y971w5a"
-devicesVisited = "[\"4K Monitor\"]"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
 defaultWidth = "500px"
 defaultHeight = "500px"
 globalControlContract = "on"

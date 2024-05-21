@@ -1,9 +1,9 @@
 {FileMetadata}
 Schema = "1.0.0.0"
 CreatedByAppHost = "1.3300.16.0"
-Created = 2024-05-17 08:40:13.282681-04:00
+Created = 2024-05-21 12:29:57.017605-04:00
 LastModifiedByAppHost = "1.3300.16.0"
-Modified = 2024-05-17 08:40:13.282678-04:00
+Modified = 2024-05-21 12:29:57.017599-04:00
 CreatedByProjectApp = "1.3300.16.0"
 LastModifiedByProjectApp = "1.3300.16.0"
 MinimumProjectApp = "1.2600.1"
@@ -11,20 +11,20 @@ MinimumProjectApp = "1.2600.1"
 {DeviceResolutionSource}
 [
   {
-    "ProjectId": "d3a77ca6-1c52-4cb1-9ecd-b4ea42c16908",
+    "ProjectId": "7a87ce63-dba9-46ba-bd04-d68b6ba8638d",
     "IsCustom": true,
     "IsSelected": true,
-    "VisitedName": "1920x1080",
-    "id": "Custom-L-2bd3a58d-3bcf-4d19-a0d3-05dbcd7f95c6-1920-1080",
-    "idName": "1920x1080",
-    "resolutionId": "L-1920-1080",
-    "resolutionName": "1920x1080",
+    "VisitedName": "1920x1080 Monitor",
+    "id": "Custom-L-a72991a5-4a5c-4656-85f3-254847e17964-1280-720",
+    "idName": "1920x1080 Monitor",
+    "resolutionId": "L-1280-720",
+    "resolutionName": "1920x1080 Monitor",
     "resolutionType": "custom",
-    "deviceSpecId": "1920x1080",
-    "width": "1920px",
-    "height": "1080px",
-    "widthMedia": "1920px",
-    "heightMedia": "1080px",
+    "deviceSpecId": "1920x1080 Monitor",
+    "width": "1280px",
+    "height": "720px",
+    "widthMedia": "1280px",
+    "heightMedia": "720px",
     "orientation": 1,
     "supportedDevices": "",
     "displayNameSuffix": "",
@@ -39,11 +39,11 @@ MinimumProjectApp = "1.2600.1"
 {ProjectAttributes}
 
 [Attributes]
-ComponentKey = "UiEditor"
 Name = "Standard_Classroom"
 ThemeId = "light-theme.css"
 SdkId = "CH5:2.8.0"
-DeviceResolutionIds = "G-L-4KMONIT-2560-1440,D-L-TSW1070-1280-0800,Custom-L-2bd3a58d-3bcf-4d19-a0d3-05dbcd7f95c6-1920-1080"
+ComponentKey = "UiEditor"
+DeviceResolutionIds = "G-L-4KMONIT-2560-1440,D-L-TSW1070-1280-0800,Custom-L-a72991a5-4a5c-4656-85f3-254847e17964-1280-720"
 ipId = "03"
 ProjectSchemaVersion = "3"
 
