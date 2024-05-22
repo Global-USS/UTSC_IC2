@@ -1,20 +1,20 @@
 {FileMetadata}
 Schema = "1.0.0.0"
 CreatedByAppHost = "1.3300.16.0"
-Created = 2024-05-17 09:00:46.495011-04:00
+Created = 2024-05-22 12:59:14.846084-04:00
 LastModifiedByAppHost = "1.3300.16.0"
-Modified = 2024-05-17 09:00:46.495009-04:00
+Modified = 2024-05-22 12:59:14.846081-04:00
 CreatedByProjectApp = "1.3300.16.0"
 LastModifiedByProjectApp = "1.3300.16.0"
 MinimumProjectApp = "1.2600.1"
 
 {Html}
-<div id="ilgb3u91cu" devicesvisited="[&quot;4K Monitor&quot;]" defaultwidth="500px" defaultheight="500px" globalcontrolcontract="on" class="widget-container"><ch5-animation startanimating="true" customvstheme="custom" size="large" animationstyle="spinner" id="i21qtpiubf" componentname="Animation" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;]" ccid_themecssset="true" oldid="i8va">
-              </ch5-animation><ch5-text clearlabel="false" labelmodeadvncomponent="simple" horizontalalignment="center" verticalalignment="middle" multilinesupport="false" truncatetext="false" id="i19fwjgm7v" componentname="Formatted-Text" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;]" ccid_themecssset="true" labelinnerhtml="PROJECTOR WARMING UP" oldid="id8r">
-              </ch5-text><div componentname="Warming BG" id="ip1d" devicesvisited="[&quot;4K Monitor&quot;]"></div></div>
+<div id="ilgb3u91cu" devicesVisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" defaultWidth="500px" defaultHeight="500px" globalControlContract="on" class="widget-container"><div componentName="Warming BG" id="ip1d" devicesVisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]"></div><ch5-text clearLabel="false" labelmodeadvncomponent="simple" horizontalalignment="center" verticalalignment="middle" multilinesupport="false" truncatetext="false" id="i19fwjgm7v" componentName="Formatted-Text" ccid_linkSendReceive="True" devicesVisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" ccid_themeCSSSet="true" labelinnerhtml="PROJECTOR WARMING UP" oldID="id8r">
+              </ch5-text><ch5-animation startanimating="true" customvstheme="custom" size="large" animationstyle="spinner" id="i21qtpiubf" componentName="Animation" ccid_linkSendReceive="True" devicesVisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" ccid_themeCSSSet="true" oldID="i8va">
+              </ch5-animation></div>
 
 {Css}
-@media (max-width: 99999px){#ilgb3u91cu{width:2220px;height:1193px;left:0;top:0;position:absolute;}#wrapper{background-color:#fff;}.widget-container{background-image:linear-gradient(45deg, #DAE2EA 25%, transparent 25%), linear-gradient(-45deg, #DAE2EA 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #DAE2EA 75%), linear-gradient(-45deg, transparent 75%, #DAE2EA 75%);background-size:20px 20px;background-position:0 0, 0 10px, 10px -10px, -10px 0px;z-index:0;}#ia7i .ch5-image{border-color:black;object-fit:contain;}#ip1d{display:block;background-color:rgba(255,193,140,0.93);border-style:solid;border-width:0;border-color:rgba(27,75,124,0);width:2224px;height:1193px;left:0px;top:0px;position:absolute;z-index:120;}#i19fwjgm7v{width:767px;height:86px;font-family:Roboto;display:block;left:726px;top:397px;position:absolute;z-index:126;font-weight:700;}#i19fwjgm7v .ch5-text{width:767px;height:86px;font-size:60px;custom-font-size:60px;font-weight:700;color:#ffffff;}#i21qtpiubf{display:block;left:1058px;top:516px;position:absolute;z-index:127;animationColor_color:#3f3f3f;width:auto;height:auto;}#i21qtpiubf .ch5-animation{animationColor_color:#3f3f3f;color:#3f3f3f;}#wrapper{background-color:#fff;}}@media (orientation: landscape) and (max-width: 2561px) and (max-height: 1441px), (orientation: landscape) and (max-width: 2559px){#ilgb3u91cu{width:2220px;height:1193px;left:0;top:0;position:absolute;}body{background-color:#fff;}#ip1d{display:block;background-color:rgba(255,193,140,0.93);border-style:solid;border-width:0;border-color:rgba(27,75,124,0);width:2224px;height:1193px;left:0px;top:0px;position:absolute;z-index:120;}#wrapper{background-color:#fff;}#i19fwjgm7v{width:767px;height:86px;font-family:Roboto;display:block;left:726px;top:397px;position:absolute;z-index:126;font-weight:700;}#i21qtpiubf{display:block;left:1058px;top:516px;position:absolute;z-index:128;animationColor_color:#3f3f3f;width:auto;height:auto;}#wrapper{background-color:#fff;}}
+@media (max-width: 99999px){#ilgb3u91cu{width:2220px;height:1193px;left:0;top:0;position:absolute;}#wrapper{background-color:#fff;}.widget-container{background-image:linear-gradient(45deg, #DAE2EA 25%, transparent 25%), linear-gradient(-45deg, #DAE2EA 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #DAE2EA 75%), linear-gradient(-45deg, transparent 75%, #DAE2EA 75%);background-size:20px 20px;background-position:0 0, 0 10px, 10px -10px, -10px 0px;z-index:0;}#ia7i .ch5-image{border-color:black;object-fit:contain;}#i19fwjgm7v .ch5-text{width:767px;height:86px;font-size:60px;custom-font-size:60px;font-weight:700;color:#ffffff;}#i21qtpiubf .ch5-animation{animationColor_color:#3f3f3f;color:#3f3f3f;}#i19fwjgm7v{width:767px;height:86px;font-family:Roboto;display:block;left:726px;top:397px;position:absolute;font-weight:700;}#ip1d{display:block;background-color:rgba(255,193,140,0.93);border-style:solid;border-width:0;border-color:rgba(27,75,124,0);width:2224px;height:1193px;left:0px;top:0px;position:absolute;}#i21qtpiubf{display:block;left:1058px;top:516px;position:absolute;animationColor_color:#3f3f3f;width:auto;height:auto;}#wrapper{background-color:#fff;}#wrapper{background-color:#fff;}}@media (orientation: landscape) and (max-width: 2561px) and (max-height: 1441px), (orientation: landscape) and (max-width: 2559px){#ilgb3u91cu{width:2220px;height:1193px;left:0;top:0;position:absolute;}body{background-color:#fff;}#wrapper{background-color:#fff;}#i19fwjgm7v{width:767px;height:86px;font-family:Roboto;display:block;left:726px;top:397px;position:absolute;font-weight:700;}#ip1d{display:block;background-color:rgba(255,193,140,0.93);border-style:solid;border-width:0;border-color:rgba(27,75,124,0);width:2224px;height:1193px;left:0px;top:0px;position:absolute;}#i21qtpiubf{display:block;left:1058px;top:516px;position:absolute;animationColor_color:#3f3f3f;width:auto;height:auto;}}@media (orientation: landscape) and (max-width: 1281px) and (max-height: 801px), (orientation: landscape) and (max-width: 1279px){#ip1d{width:1080px;height:650px;}#ilgb3u91cu{width:1080px;height:650px;left:0;top:0;position:absolute;}#wrapper{background-color:#fff;}#i19fwjgm7v{left:240px;top:173px;width:600px;font-weight:700;}#i19fwjgm7v .ch5-text{font-size:40px;custom-font-size:40px;width:600px;font-weight:700;}#i21qtpiubf{left:504px;top:273px;}#wrapper{background-color:#fff;}#wrapper{background-color:#fff;}}
 
 {PageAttributes}
 
@@ -28,24 +28,12 @@ Type = "widgetContainer"
 Classes = ["widget-container"]
 
 [[Elements.Components]]
-Type = "Ch5 Animation"
-Editable = true
-
-[[Elements.Components.Components]]
-Type = "textnode"
-Content = "\n              "
+Type = "html-div"
 
 [Elements.Components.Attributes]
-startanimating = "true"
-customvstheme = "custom"
-size = "large"
-animationstyle = "spinner"
-id = "i21qtpiubf"
-componentName = "Animation"
-ccid_linkSendReceive = "True"
-devicesVisited = "[\"4K Monitor\"]"
-ccid_themeCSSSet = "true"
-oldID = "i8va"
+componentName = "Warming BG"
+id = "ip1d"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
 [[Elements.Components]]
 Type = "Ch5 Text"
 Editable = true
@@ -64,21 +52,33 @@ truncatetext = "false"
 id = "i19fwjgm7v"
 componentName = "Formatted-Text"
 ccid_linkSendReceive = "True"
-devicesVisited = "[\"4K Monitor\"]"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
 ccid_themeCSSSet = "true"
 labelinnerhtml = "PROJECTOR WARMING UP"
 oldID = "id8r"
 [[Elements.Components]]
-Type = "html-div"
+Type = "Ch5 Animation"
+Editable = true
+
+[[Elements.Components.Components]]
+Type = "textnode"
+Content = "\n              "
 
 [Elements.Components.Attributes]
-componentName = "Warming BG"
-id = "ip1d"
-devicesVisited = "[\"4K Monitor\"]"
+startanimating = "true"
+customvstheme = "custom"
+size = "large"
+animationstyle = "spinner"
+id = "i21qtpiubf"
+componentName = "Animation"
+ccid_linkSendReceive = "True"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+ccid_themeCSSSet = "true"
+oldID = "i8va"
 
 [Elements.Attributes]
 id = "ilgb3u91cu"
-devicesVisited = "[\"4K Monitor\"]"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
 defaultWidth = "500px"
 defaultHeight = "500px"
 globalControlContract = "on"
