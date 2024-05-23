@@ -1,40 +1,15 @@
 {FileMetadata}
 Schema = "1.0.0.0"
 CreatedByAppHost = "1.3300.16.0"
-Created = 2024-05-21 12:29:57.017605-04:00
+Created = 2024-05-22 14:13:54.994351-04:00
 LastModifiedByAppHost = "1.3300.16.0"
-Modified = 2024-05-21 12:29:57.017599-04:00
+Modified = 2024-05-22 14:13:54.994343-04:00
 CreatedByProjectApp = "1.3300.16.0"
 LastModifiedByProjectApp = "1.3300.16.0"
 MinimumProjectApp = "1.2600.1"
 
 {DeviceResolutionSource}
-[
-  {
-    "ProjectId": "7a87ce63-dba9-46ba-bd04-d68b6ba8638d",
-    "IsCustom": true,
-    "IsSelected": true,
-    "VisitedName": "1920x1080 Monitor",
-    "id": "Custom-L-a72991a5-4a5c-4656-85f3-254847e17964-1280-720",
-    "idName": "1920x1080 Monitor",
-    "resolutionId": "L-1280-720",
-    "resolutionName": "1920x1080 Monitor",
-    "resolutionType": "custom",
-    "deviceSpecId": "1920x1080 Monitor",
-    "width": "1280px",
-    "height": "720px",
-    "widthMedia": "1280px",
-    "heightMedia": "720px",
-    "orientation": 1,
-    "supportedDevices": "",
-    "displayNameSuffix": "",
-    "componentKeys": [
-      "UiEditor"
-    ],
-    "modes": [],
-    "IsMode": false
-  }
-]
+[]
 
 {ProjectAttributes}
 
@@ -43,7 +18,7 @@ Name = "Standard_Classroom"
 ThemeId = "light-theme.css"
 SdkId = "CH5:2.8.0"
 ComponentKey = "UiEditor"
-DeviceResolutionIds = "G-L-4KMONIT-2560-1440,D-L-TSW1070-1280-0800,Custom-L-a72991a5-4a5c-4656-85f3-254847e17964-1280-720"
+DeviceResolutionIds = "G-L-4KMONIT-2560-1440,D-L-TSW1070-1280-0800"
 ipId = "03"
 ProjectSchemaVersion = "3"
 

@@ -1,21 +1,25 @@
 {FileMetadata}
 Schema = "1.0.0.0"
 CreatedByAppHost = "1.3300.16.0"
-Created = 2024-05-21 12:31:11.414849-04:00
+Created = 2024-05-22 14:13:55.018281-04:00
 LastModifiedByAppHost = "1.3300.16.0"
-Modified = 2024-05-21 12:31:11.414847-04:00
+Modified = 2024-05-22 14:13:55.018276-04:00
 CreatedByProjectApp = "1.3300.16.0"
 LastModifiedByProjectApp = "1.3300.16.0"
 MinimumProjectApp = "1.2600.1"
 
 {Html}
-<ch5-background scale="stretch" refreshrate="600" transitioneffect="ease" transitionduration="1s" assetid="a305d8b6-9923-4c12-9513-6ff5b0afbc80" backgroundcolor="#ffffff" id="i9yqf" componentname="Background_2" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;,&quot;1920x1080 Monitor&quot;]" imgbackgroundcolor="transparent" componentwasresized="true">
-              </ch5-background><ch5-image refreshrate="0" customvstheme="custom" assetid="42e5fb4c-75aa-40d5-839e-d99e5556e196" id="i8dh37tink" componentname="Logo" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;,&quot;1920x1080 Monitor&quot;]" oldid="i12vh">
-              </ch5-image><ch5-text clearlabel="false" labelmodeadvncomponent="advanced" horizontalalignment="center" verticalalignment="middle" multilinesupport="false" truncatetext="false" labelinnerhtml="<p><span style=&quot;font-size: 100%;&quot;>WELCOME TO <ch5-jointotext-string receiveStateValue=&quot;1&quot; textWhenEmpty=&quot;ROOM NAME&quot;></ch5-jointotext-string></span></p>" id="iktd" componentname="Txt.WelcomeMsg" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;,&quot;1920x1080 Monitor&quot;]" ccid_themecssset="true">
-              </ch5-text><ch5-text clearlabel="false" labelmodeadvncomponent="advanced" horizontalalignment="center" verticalalignment="middle" multilinesupport="false" truncatetext="false" id="ikfl92hn59cb1" componentname="Txt.TouchToBeginMsg" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;,&quot;1920x1080 Monitor&quot;]" ccid_themecssset="true" oldid="iktd" labelinnerhtml="<p><span style=&quot;font-size: 100%;&quot;>TOUCH SCREEN TO BEGIN</span></p>"></ch5-text>
+<ch5-background scale="stretch" refreshrate="600" transitioneffect="ease" transitionduration="1s" assetid="a305d8b6-9923-4c12-9513-6ff5b0afbc80" backgroundcolor="#ffffff" id="i9yqf" componentname="Background_2" ccid_linksendreceive="True" imgbackgroundcolor="transparent" componentwasresized="true" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]">
+              </ch5-background><ch5-image refreshrate="0" customvstheme="custom" assetid="42e5fb4c-75aa-40d5-839e-d99e5556e196" id="i8dh37tink" componentname="Logo" ccid_linksendreceive="True" oldid="i12vh" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]">
+              </ch5-image><ch5-text clearlabel="false" labelmodeadvncomponent="advanced" horizontalalignment="center" verticalalignment="middle" multilinesupport="false" truncatetext="false" labelinnerhtml="<p><span style=&quot;font-size: 100%;&quot;>WELCOME TO <ch5-jointotext-string receiveStateValue=&quot;1&quot; textWhenEmpty=&quot;ROOM NAME&quot;></ch5-jointotext-string></span></p>" id="iktd" componentname="Txt.WelcomeMsg" ccid_linksendreceive="True" ccid_themecssset="true" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]">
+              </ch5-text><ch5-text clearlabel="false" labelmodeadvncomponent="advanced" horizontalalignment="center" verticalalignment="middle" multilinesupport="false" truncatetext="false" id="ikfl92hn59cb1" componentname="Txt.TouchToBeginMsg" ccid_linksendreceive="True" ccid_themecssset="true" oldid="iktd" labelinnerhtml="<p><span style=&quot;font-size: 100%;&quot;>TOUCH SCREEN TO BEGIN</span></p>" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]"></ch5-text>
+
+
 
 {Css}
-@media (max-width: 99999px){#wrapper{background-color:#fff;}#i8dh37tink{width:587px;height:243px;pointer-events:all;display:block;left:28px;top:4px;position:absolute;background:transparent;border-color:undefined;}#i8dh37tink .ch5-image{border-color:black;object-fit:scale-down;}#ikfl92hn59cb1 .ch5-text{width:1332px;height:267px;font-size:70px;custom-font-size:70px;background-color:rgba(0,113,219,0);}#iktd .ch5-text{width:1332px;height:267px;font-size:100px;custom-font-size:100px;border-style:none;background-color:rgba(0,0,0,0);}#iktd{width:1332px;height:267px;font-family:Roboto;display:block;left:614px;top:511px;position:absolute;}#ikfl92hn59cb1{width:1332px;height:267px;font-family:Roboto;display:block;left:614px;top:758px;position:absolute;}#i9yqf{z-index:default;}}@media (orientation: landscape) and (max-width: 2561px) and (max-height: 1441px), (orientation: landscape) and (max-width: 2559px){body{background-color:#fff;}}@media (orientation: landscape) and (max-width: 1281px) and (max-height: 801px), (orientation: landscape) and (max-width: 1279px){#i8dh37tink{width:335px;height:139px;top:3px;left:11px;position:absolute;display:block;}#iktd{left:174px;width:932px;height:193px;top:271px;}#iktd .ch5-text{width:932px;font-size:60px;custom-font-size:60px;height:193px;}#i9yqf{width:1280px;height:800px;top:0px;left:0px;position:absolute;}#ikfl92hn59cb1{width:932px;height:157px;top:423px;left:174px;position:absolute;}#ikfl92hn59cb1 .ch5-text{font-size:40px;custom-font-size:40px;width:932px;height:157px;}}@media (orientation: landscape) and (max-width: 1281px) and (max-height: 721px), (orientation: landscape) and (max-width: 1279px){#i9yqf{width:1280px;height:720px;display:block;}#iktd{top:231px;}#ikfl92hn59cb1{top:383px;}#i8dh37tink{display:block;}}
+@media (max-width: 99999px) { #wrapper { background-color: #fff } #i8dh37tink { width: 587px; height: 243px; pointer-events: all; display: block; left: 28px; top: 4px; position: absolute; background: transparent; border-color: undefined } #i8dh37tink .ch5-image { border-color: black; object-fit: scale-down } #ikfl92hn59cb1 .ch5-text { width: 1332px; height: 267px; font-size: 70px; custom-font-size: 70px; background-color: rgba(0,113,219,0) } #iktd .ch5-text { width: 1332px; height: 267px; font-size: 100px; custom-font-size: 100px; border-style: none; background-color: rgba(0,0,0,0) } #iktd { width: 1332px; height: 267px; font-family: Roboto; display: block; left: 614px; top: 511px; position: absolute } #ikfl92hn59cb1 { width: 1332px; height: 267px; font-family: Roboto; display: block; left: 614px; top: 758px; position: absolute } #i9yqf { z-index: default } }
+@media (orientation: landscape) and (max-width: 2561px) and (max-height: 1441px), (orientation: landscape) and (max-width: 2559px) { body { background-color: #fff } }
+@media (orientation: landscape) and (max-width: 1281px) and (max-height: 801px), (orientation: landscape) and (max-width: 1279px) { #i8dh37tink { width: 335px; height: 139px; top: 3px; left: 11px; position: absolute; display: block } #iktd { left: 174px; width: 932px; height: 193px; top: 271px } #iktd .ch5-text { width: 932px; font-size: 60px; custom-font-size: 60px; height: 193px } #i9yqf { width: 1280px; height: 800px; top: 0px; left: 0px; position: absolute } #ikfl92hn59cb1 { width: 932px; height: 157px; top: 423px; left: 174px; position: absolute } #ikfl92hn59cb1 .ch5-text { font-size: 40px; custom-font-size: 40px; width: 932px; height: 157px } }
 
 {PageAttributes}
 
@@ -27,11 +31,16 @@ StartPage = "True"
 VisibilityJoin = "0"
 
 [[Elements]]
+Name = ""
 Type = "Ch5 Background"
+Status = ""
+Content = ""
 Editable = true
 
 [[Elements.Components]]
+Name = ""
 Type = "textnode"
+Status = ""
 Content = "\n              "
 
 [Elements.Attributes]
@@ -44,15 +53,20 @@ backgroundcolor = "#ffffff"
 id = "i9yqf"
 componentName = "Background_2"
 ccid_linkSendReceive = "True"
-devicesVisited = "[\"4K Monitor\",\"TSW-1070\",\"1920x1080 Monitor\"]"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
 imgbackgroundcolor = "transparent"
 componentWasResized = "true"
 [[Elements]]
+Name = ""
 Type = "Ch5 Image"
+Status = ""
+Content = ""
 Editable = true
 
 [[Elements.Components]]
+Name = ""
 Type = "textnode"
+Status = ""
 Content = "\n              "
 
 [Elements.Attributes]
@@ -62,14 +76,19 @@ assetid = "42e5fb4c-75aa-40d5-839e-d99e5556e196"
 id = "i8dh37tink"
 componentName = "Logo"
 ccid_linkSendReceive = "True"
-devicesVisited = "[\"4K Monitor\",\"TSW-1070\",\"1920x1080 Monitor\"]"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
 oldID = "i12vh"
 [[Elements]]
+Name = ""
 Type = "Ch5 Text"
+Status = ""
+Content = ""
 Editable = true
 
 [[Elements.Components]]
+Name = ""
 Type = "textnode"
+Status = ""
 Content = "\n              "
 
 [Elements.Attributes]
@@ -83,10 +102,13 @@ labelinnerhtml = "<p><span style=\"font-size: 100%;\">WELCOME TO <ch5-jointotext
 id = "iktd"
 componentName = "Txt.WelcomeMsg"
 ccid_linkSendReceive = "True"
-devicesVisited = "[\"4K Monitor\",\"TSW-1070\",\"1920x1080 Monitor\"]"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
 ccid_themeCSSSet = "true"
 [[Elements]]
+Name = ""
 Type = "Ch5 Text"
+Status = ""
+Content = ""
 Editable = true
 
 [Elements.Attributes]
@@ -99,7 +121,7 @@ truncatetext = "false"
 id = "ikfl92hn59cb1"
 componentName = "Txt.TouchToBeginMsg"
 ccid_linkSendReceive = "True"
-devicesVisited = "[\"4K Monitor\",\"TSW-1070\",\"1920x1080 Monitor\"]"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
 ccid_themeCSSSet = "true"
 oldID = "iktd"
 labelinnerhtml = "<p><span style=\"font-size: 100%;\">TOUCH SCREEN TO BEGIN</span></p>"
