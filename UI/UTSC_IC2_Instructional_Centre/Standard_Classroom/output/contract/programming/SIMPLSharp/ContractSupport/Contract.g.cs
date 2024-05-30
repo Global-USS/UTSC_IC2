@@ -46,8 +46,47 @@ namespace Standard_Classroom
 
         private ComponentMediator ComponentMediator { get; set; }
 
-        public Standard_Classroom.IMain_Page Main_Page { get { return (Standard_Classroom.IMain_Page)InternalMain_Page; } }
-        private Standard_Classroom.Main_Page InternalMain_Page { get; set; }
+        public Standard_Classroom.Main_Page.IMain_Page Main_Page { get { return (Standard_Classroom.Main_Page.IMain_Page)InternalMain_Page; } }
+        private Standard_Classroom.Main_Page.Main_Page InternalMain_Page { get; set; }
+
+        public Standard_Classroom.IAdmin_Login_Widget Admin_Login_Widget { get { return (Standard_Classroom.IAdmin_Login_Widget)InternalAdmin_Login_Widget; } }
+        private Standard_Classroom.Admin_Login_Widget InternalAdmin_Login_Widget { get; set; }
+
+        public Standard_Classroom.ICam_02_ControlPreset_Widget Cam_02_ControlPreset_Widget { get { return (Standard_Classroom.ICam_02_ControlPreset_Widget)InternalCam_02_ControlPreset_Widget; } }
+        private Standard_Classroom.Cam_02_ControlPreset_Widget InternalCam_02_ControlPreset_Widget { get; set; }
+
+        public Standard_Classroom.ILogOff_Page LogOff_Page { get { return (Standard_Classroom.ILogOff_Page)InternalLogOff_Page; } }
+        private Standard_Classroom.LogOff_Page InternalLogOff_Page { get; set; }
+
+        public Standard_Classroom.Proj_03_Source_04_Widget.IProj_03_Source_04_Widget Proj_03_Source_04_Widget { get { return (Standard_Classroom.Proj_03_Source_04_Widget.IProj_03_Source_04_Widget)InternalProj_03_Source_04_Widget; } }
+        private Standard_Classroom.Proj_03_Source_04_Widget.Proj_03_Source_04_Widget InternalProj_03_Source_04_Widget { get; set; }
+
+        public Standard_Classroom.ICam_01_Control_Widget Cam_01_Control_Widget { get { return (Standard_Classroom.ICam_01_Control_Widget)InternalCam_01_Control_Widget; } }
+        private Standard_Classroom.Cam_01_Control_Widget InternalCam_01_Control_Widget { get; set; }
+
+        public Standard_Classroom.Admin_Volume_Widget.IAdmin_Volume_Widget Admin_Volume_Widget { get { return (Standard_Classroom.Admin_Volume_Widget.IAdmin_Volume_Widget)InternalAdmin_Volume_Widget; } }
+        private Standard_Classroom.Admin_Volume_Widget.Admin_Volume_Widget InternalAdmin_Volume_Widget { get; set; }
+
+        public Standard_Classroom.ICam_01_ControlPreset_Widget Cam_01_ControlPreset_Widget { get { return (Standard_Classroom.ICam_01_ControlPreset_Widget)InternalCam_01_ControlPreset_Widget; } }
+        private Standard_Classroom.Cam_01_ControlPreset_Widget InternalCam_01_ControlPreset_Widget { get; set; }
+
+        public Standard_Classroom.ICam_02_Control_Widget Cam_02_Control_Widget { get { return (Standard_Classroom.ICam_02_Control_Widget)InternalCam_02_Control_Widget; } }
+        private Standard_Classroom.Cam_02_Control_Widget InternalCam_02_Control_Widget { get; set; }
+
+        public Standard_Classroom.Proj_02_Source_04_Widget.IProj_02_Source_04_Widget Proj_02_Source_04_Widget { get { return (Standard_Classroom.Proj_02_Source_04_Widget.IProj_02_Source_04_Widget)InternalProj_02_Source_04_Widget; } }
+        private Standard_Classroom.Proj_02_Source_04_Widget.Proj_02_Source_04_Widget InternalProj_02_Source_04_Widget { get; set; }
+
+        public Standard_Classroom.Proj_01_Source_04_Widget.IProj_01_Source_04_Widget Proj_01_Source_04_Widget { get { return (Standard_Classroom.Proj_01_Source_04_Widget.IProj_01_Source_04_Widget)InternalProj_01_Source_04_Widget; } }
+        private Standard_Classroom.Proj_01_Source_04_Widget.Proj_01_Source_04_Widget InternalProj_01_Source_04_Widget { get; set; }
+
+        public Standard_Classroom.IProj_01_PowerScreen_Widget Proj_01_PowerScreen_Widget { get { return (Standard_Classroom.IProj_01_PowerScreen_Widget)InternalProj_01_PowerScreen_Widget; } }
+        private Standard_Classroom.Proj_01_PowerScreen_Widget InternalProj_01_PowerScreen_Widget { get; set; }
+
+        public Standard_Classroom.IProj_02_PowerScreen_Widget Proj_02_PowerScreen_Widget { get { return (Standard_Classroom.IProj_02_PowerScreen_Widget)InternalProj_02_PowerScreen_Widget; } }
+        private Standard_Classroom.Proj_02_PowerScreen_Widget InternalProj_02_PowerScreen_Widget { get; set; }
+
+        public Standard_Classroom.IProjDisp_01_PowerScreen_Widget ProjDisp_01_PowerScreen_Widget { get { return (Standard_Classroom.IProjDisp_01_PowerScreen_Widget)InternalProjDisp_01_PowerScreen_Widget; } }
+        private Standard_Classroom.ProjDisp_01_PowerScreen_Widget InternalProjDisp_01_PowerScreen_Widget { get; set; }
 
         #endregion
 
@@ -71,7 +110,33 @@ namespace Standard_Classroom
             ComponentMediator = new ComponentMediator();
             ComponentMediator.ConfigureActivityEvent(onActivity);
 
-            InternalMain_Page = new Standard_Classroom.Main_Page(ComponentMediator, 3);
+            InternalMain_Page = new Standard_Classroom.Main_Page.Main_Page(ComponentMediator, 3);
+
+            InternalAdmin_Login_Widget = new Standard_Classroom.Admin_Login_Widget(ComponentMediator, 21);
+
+            InternalCam_02_ControlPreset_Widget = new Standard_Classroom.Cam_02_ControlPreset_Widget(ComponentMediator, 22);
+
+            InternalLogOff_Page = new Standard_Classroom.LogOff_Page(ComponentMediator, 23);
+
+            InternalProj_03_Source_04_Widget = new Standard_Classroom.Proj_03_Source_04_Widget.Proj_03_Source_04_Widget(ComponentMediator, 25);
+
+            InternalCam_01_Control_Widget = new Standard_Classroom.Cam_01_Control_Widget(ComponentMediator, 27);
+
+            InternalAdmin_Volume_Widget = new Standard_Classroom.Admin_Volume_Widget.Admin_Volume_Widget(ComponentMediator, 28);
+
+            InternalCam_01_ControlPreset_Widget = new Standard_Classroom.Cam_01_ControlPreset_Widget(ComponentMediator, 31);
+
+            InternalCam_02_Control_Widget = new Standard_Classroom.Cam_02_Control_Widget(ComponentMediator, 32);
+
+            InternalProj_02_Source_04_Widget = new Standard_Classroom.Proj_02_Source_04_Widget.Proj_02_Source_04_Widget(ComponentMediator, 33);
+
+            InternalProj_01_Source_04_Widget = new Standard_Classroom.Proj_01_Source_04_Widget.Proj_01_Source_04_Widget(ComponentMediator, 35);
+
+            InternalProj_01_PowerScreen_Widget = new Standard_Classroom.Proj_01_PowerScreen_Widget(ComponentMediator, 37);
+
+            InternalProj_02_PowerScreen_Widget = new Standard_Classroom.Proj_02_PowerScreen_Widget(ComponentMediator, 38);
+
+            InternalProjDisp_01_PowerScreen_Widget = new Standard_Classroom.ProjDisp_01_PowerScreen_Widget(ComponentMediator, 39);
 
 
             for (int index = 0; index < devices.Length; index++)
@@ -99,12 +164,38 @@ namespace Standard_Classroom
         public void AddDevice(BasicTriListWithSmartObject device)
         {
             InternalMain_Page.AddDevice(device);
+            InternalAdmin_Login_Widget.AddDevice(device);
+            InternalCam_02_ControlPreset_Widget.AddDevice(device);
+            InternalLogOff_Page.AddDevice(device);
+            InternalProj_03_Source_04_Widget.AddDevice(device);
+            InternalCam_01_Control_Widget.AddDevice(device);
+            InternalAdmin_Volume_Widget.AddDevice(device);
+            InternalCam_01_ControlPreset_Widget.AddDevice(device);
+            InternalCam_02_Control_Widget.AddDevice(device);
+            InternalProj_02_Source_04_Widget.AddDevice(device);
+            InternalProj_01_Source_04_Widget.AddDevice(device);
+            InternalProj_01_PowerScreen_Widget.AddDevice(device);
+            InternalProj_02_PowerScreen_Widget.AddDevice(device);
+            InternalProjDisp_01_PowerScreen_Widget.AddDevice(device);
 
         }
 
         public void RemoveDevice(BasicTriListWithSmartObject device)
         {
             InternalMain_Page.RemoveDevice(device);
+            InternalAdmin_Login_Widget.RemoveDevice(device);
+            InternalCam_02_ControlPreset_Widget.RemoveDevice(device);
+            InternalLogOff_Page.RemoveDevice(device);
+            InternalProj_03_Source_04_Widget.RemoveDevice(device);
+            InternalCam_01_Control_Widget.RemoveDevice(device);
+            InternalAdmin_Volume_Widget.RemoveDevice(device);
+            InternalCam_01_ControlPreset_Widget.RemoveDevice(device);
+            InternalCam_02_Control_Widget.RemoveDevice(device);
+            InternalProj_02_Source_04_Widget.RemoveDevice(device);
+            InternalProj_01_Source_04_Widget.RemoveDevice(device);
+            InternalProj_01_PowerScreen_Widget.RemoveDevice(device);
+            InternalProj_02_PowerScreen_Widget.RemoveDevice(device);
+            InternalProjDisp_01_PowerScreen_Widget.RemoveDevice(device);
         }
 
         #endregion
@@ -121,6 +212,19 @@ namespace Standard_Classroom
             IsDisposed = true;
 
             InternalMain_Page.Dispose();
+            InternalAdmin_Login_Widget.Dispose();
+            InternalCam_02_ControlPreset_Widget.Dispose();
+            InternalLogOff_Page.Dispose();
+            InternalProj_03_Source_04_Widget.Dispose();
+            InternalCam_01_Control_Widget.Dispose();
+            InternalAdmin_Volume_Widget.Dispose();
+            InternalCam_01_ControlPreset_Widget.Dispose();
+            InternalCam_02_Control_Widget.Dispose();
+            InternalProj_02_Source_04_Widget.Dispose();
+            InternalProj_01_Source_04_Widget.Dispose();
+            InternalProj_01_PowerScreen_Widget.Dispose();
+            InternalProj_02_PowerScreen_Widget.Dispose();
+            InternalProjDisp_01_PowerScreen_Widget.Dispose();
 
             ComponentMediator.Dispose(); 
         }

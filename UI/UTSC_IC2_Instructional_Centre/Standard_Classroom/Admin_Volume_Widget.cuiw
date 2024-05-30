@@ -1,15 +1,15 @@
 {FileMetadata}
 Schema = "1.0.0.0"
 CreatedByAppHost = "1.3300.16.0"
-Created = 2024-05-23 09:31:02.172591-04:00
+Created = 2024-05-30 10:49:10.466583-04:00
 LastModifiedByAppHost = "1.3300.16.0"
-Modified = 2024-05-23 09:31:02.172589-04:00
+Modified = 2024-05-30 10:49:10.466579-04:00
 CreatedByProjectApp = "1.3300.16.0"
 LastModifiedByProjectApp = "1.3300.16.0"
 MinimumProjectApp = "1.2600.1"
 
 {Html}
-<div id="i7m6q2lufk" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" defaultwidth="500px" defaultheight="500px" class="widget-container"><ch5-subpage-reference-list orientation="horizontal" columns="1" rows="3" centeritems="true" numberofitems="6" scrolltoposition="0" scrollbar="false" endless="false" indexid="idx" usecontractforcustomstyle="false" usecontractforcustomclass="false" usecontractforenable="false" usecontractforshow="false" usecontractfornumitems="false" usecontractforitemenable="false" usecontractforitemshow="false" customvstheme="custom" id="i466" componentname="List.VolControl" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" widgetid="wa0ac1bb8-476f-49a6-9cbb-3c347a555898">
+<div id="i7m6q2lufk" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" defaultwidth="500px" defaultheight="500px" globalcontrolcontract="on" class="widget-container"><ch5-subpage-reference-list orientation="horizontal" columns="1" rows="3" centeritems="true" numberofitems="6" scrolltoposition="0" scrollbar="false" endless="false" indexid="idx" usecontractforcustomstyle="false" usecontractforcustomclass="false" usecontractforenable="false" usecontractforshow="false" usecontractfornumitems="false" usecontractforitemenable="false" usecontractforitemshow="true" customvstheme="custom" id="i466" componentname="List.VolControl" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" widgetid="wa0ac1bb8-476f-49a6-9cbb-3c347a555898" pd-subpagereceivestateshow="Contract Enabled">
               </ch5-subpage-reference-list><ch5-button type="default" halignlabel="center" valignlabel="middle" checkboxshow="false" checkboxposition="left" disabled="false" pageflipattributename="pageflip" clearlabel="false" ccid_imageicontype="iconclass" ccid_linksendreceive="True" iconurlfilltype="initial" customclass="ccid-custom" affectedbypreviewstate="True" shape="custom" customvstheme="custom" id="iw2pmfh6o9" labelinnerhtml="Exit" pageflip="0" iconposition="top" previewstate="normal" orientation="horizontal" labelmode="simple" componentname="Btn.Exit" ccid_themecssset="true" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" size="custom" oldid="iqgcoitkdtfrf" selected="false" assetid="0"></ch5-button></div>
 
 {Css}
@@ -50,13 +50,14 @@ useContractForEnable = "false"
 useContractForShow = "false"
 useContractForNumItems = "false"
 useContractForItemEnable = "false"
-useContractForItemShow = "false"
+useContractForItemShow = "true"
 customvstheme = "custom"
 id = "i466"
 componentName = "List.VolControl"
 ccid_linkSendReceive = "True"
 devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
 widgetid = "wa0ac1bb8-476f-49a6-9cbb-3c347a555898"
+pd-subpagereceivestateshow = "Contract Enabled"
 [[Elements.Components]]
 Type = "Ch5 Button"
 Editable = true
@@ -97,4 +98,5 @@ id = "i7m6q2lufk"
 devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
 defaultWidth = "500px"
 defaultHeight = "500px"
+globalControlContract = "on"
 
