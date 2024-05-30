@@ -32,11 +32,22 @@ namespace Standard_Classroom.Admin_Volume_Widget
         object UserObject { get; set; }
 
         /// <summary>
+        /// Btn.Exit.Press
+        /// </summary>
+        event EventHandler<UIEventArgs> BtnExit_PressEvent;
+
+        /// <summary>
         /// ComplexComponent Admin_Volume_Control_Widget
         /// </summary>
         Standard_Classroom.Admin_Volume_Widget.IListVolControl ListVolControl { get; }
     }
 
+    /// <summary>
+    /// Digital callback used in feedback events.
+    /// </summary>
+    /// <param name="boolInputSig">The <see cref="BoolInputSig"/> signal data.</param>
+    /// <param name="admin_volume_widget">The <see cref="IAdmin_Volume_Widget"/> on which to apply the feedback.</param>
+    public delegate void Admin_Volume_WidgetBoolInputSigDelegate(BoolInputSig boolInputSig, IAdmin_Volume_Widget admin_volume_widget);
 
     /// <summary>
     /// Admin_Volume_Widget
@@ -67,6 +78,19 @@ namespace Standard_Classroom.Admin_Volume_Widget
 
         private static class Joins
         {
+            /// <summary>
+            /// Digital signals,
+            /// </summary>
+            internal static class Booleans
+            {
+                /// <summary>
+                /// Output or Event digital signal from panel to Control System: Admin_Volume_Widget.BtnExit.Press
+                /// Btn.Exit.Press
+                /// </summary>
+                public const uint BtnExit_PressEvent = 3;
+
+
+            }
         }
 
         #endregion
@@ -117,6 +141,7 @@ namespace Standard_Classroom.Admin_Volume_Widget
             _devices = new List<BasicTriListWithSmartObject>(); 
  
 
+            ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.BtnExit_PressEvent, onBtnExit_Press);
             ListVolControl = new Standard_Classroom.Admin_Volume_Widget.ListVolControl(ComponentMediator, 29);
         }
 
@@ -139,6 +164,18 @@ namespace Standard_Classroom.Admin_Volume_Widget
         #endregion
 
         #region CH5 Contract
+
+        /// <summary>
+        /// Event Btn.Exit.Press (from panel to Control System)
+        /// </summary>
+        public event EventHandler<UIEventArgs> BtnExit_PressEvent;
+        private void onBtnExit_Press(SmartObjectEventArgs eventArgs)
+        {
+            EventHandler<UIEventArgs> handler = BtnExit_PressEvent;
+            if (handler != null)
+                handler(this, UIEventArgs.CreateEventArgs(eventArgs));
+        }
+
 
         /// <summary>
         /// ComplexComponent Admin_Volume_Control_Widget
@@ -172,6 +209,7 @@ namespace Standard_Classroom.Admin_Volume_Widget
 
             IsDisposed = true;
 
+            BtnExit_PressEvent = null;
         }
 
         #endregion
