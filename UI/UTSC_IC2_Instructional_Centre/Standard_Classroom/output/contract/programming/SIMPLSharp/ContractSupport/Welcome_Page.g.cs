@@ -32,6 +32,11 @@ namespace Standard_Classroom
         object UserObject { get; set; }
 
         /// <summary>
+        /// Btn.TouchToBegin.Press
+        /// </summary>
+        event EventHandler<UIEventArgs> BtnTouchToBegin_PressEvent;
+
+        /// <summary>
         /// Welcome_Page.VisibilityJoin Feedback
         /// </summary>
         /// <param name="callback">The bool delegate to update the panel.</param>
@@ -85,6 +90,13 @@ namespace Standard_Classroom
             /// </summary>
             internal static class Booleans
             {
+                /// <summary>
+                /// Output or Event digital signal from panel to Control System: Welcome_Page.BtnTouchToBegin.Press
+                /// Btn.TouchToBegin.Press
+                /// </summary>
+                public const uint BtnTouchToBegin_PressEvent = 3;
+
+
                 /// <summary>
                 /// Input or Feedback digital signal from Control System to panel: Welcome_PageVisibilityJoin
                 /// Welcome_Page.VisibilityJoin
@@ -142,6 +154,7 @@ namespace Standard_Classroom
             _devices = new List<BasicTriListWithSmartObject>(); 
  
 
+            ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.BtnTouchToBegin_PressEvent, onBtnTouchToBegin_Press);
         }
 
         public void AddDevice(BasicTriListWithSmartObject device)
@@ -159,6 +172,17 @@ namespace Standard_Classroom
         #endregion
 
         #region CH5 Contract
+
+        /// <summary>
+        /// Event Btn.TouchToBegin.Press (from panel to Control System)
+        /// </summary>
+        public event EventHandler<UIEventArgs> BtnTouchToBegin_PressEvent;
+        private void onBtnTouchToBegin_Press(SmartObjectEventArgs eventArgs)
+        {
+            EventHandler<UIEventArgs> handler = BtnTouchToBegin_PressEvent;
+            if (handler != null)
+                handler(this, UIEventArgs.CreateEventArgs(eventArgs));
+        }
 
         /// <summary>
         /// Boolean feedback Welcome_Page.VisibilityJoin (from Control System to Panel)
@@ -206,6 +230,7 @@ namespace Standard_Classroom
 
             IsDisposed = true;
 
+            BtnTouchToBegin_PressEvent = null;
         }
 
         #endregion
