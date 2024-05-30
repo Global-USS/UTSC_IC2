@@ -46,6 +46,12 @@ namespace Standard_Classroom
 
         private ComponentMediator ComponentMediator { get; set; }
 
+        public Standard_Classroom.IWelcome_Page Welcome_Page { get { return (Standard_Classroom.IWelcome_Page)InternalWelcome_Page; } }
+        private Standard_Classroom.Welcome_Page InternalWelcome_Page { get; set; }
+
+        public Standard_Classroom.IShutdown_Page Shutdown_Page { get { return (Standard_Classroom.IShutdown_Page)InternalShutdown_Page; } }
+        private Standard_Classroom.Shutdown_Page InternalShutdown_Page { get; set; }
+
         public Standard_Classroom.Main_Page.IMain_Page Main_Page { get { return (Standard_Classroom.Main_Page.IMain_Page)InternalMain_Page; } }
         private Standard_Classroom.Main_Page.Main_Page InternalMain_Page { get; set; }
 
@@ -110,6 +116,10 @@ namespace Standard_Classroom
             ComponentMediator = new ComponentMediator();
             ComponentMediator.ConfigureActivityEvent(onActivity);
 
+            InternalWelcome_Page = new Standard_Classroom.Welcome_Page(ComponentMediator, 1);
+
+            InternalShutdown_Page = new Standard_Classroom.Shutdown_Page(ComponentMediator, 2);
+
             InternalMain_Page = new Standard_Classroom.Main_Page.Main_Page(ComponentMediator, 3);
 
             InternalAdmin_Login_Widget = new Standard_Classroom.Admin_Login_Widget(ComponentMediator, 21);
@@ -163,6 +173,8 @@ namespace Standard_Classroom
 
         public void AddDevice(BasicTriListWithSmartObject device)
         {
+            InternalWelcome_Page.AddDevice(device);
+            InternalShutdown_Page.AddDevice(device);
             InternalMain_Page.AddDevice(device);
             InternalAdmin_Login_Widget.AddDevice(device);
             InternalCam_02_ControlPreset_Widget.AddDevice(device);
@@ -182,6 +194,8 @@ namespace Standard_Classroom
 
         public void RemoveDevice(BasicTriListWithSmartObject device)
         {
+            InternalWelcome_Page.RemoveDevice(device);
+            InternalShutdown_Page.RemoveDevice(device);
             InternalMain_Page.RemoveDevice(device);
             InternalAdmin_Login_Widget.RemoveDevice(device);
             InternalCam_02_ControlPreset_Widget.RemoveDevice(device);
@@ -211,6 +225,8 @@ namespace Standard_Classroom
 
             IsDisposed = true;
 
+            InternalWelcome_Page.Dispose();
+            InternalShutdown_Page.Dispose();
             InternalMain_Page.Dispose();
             InternalAdmin_Login_Widget.Dispose();
             InternalCam_02_ControlPreset_Widget.Dispose();
