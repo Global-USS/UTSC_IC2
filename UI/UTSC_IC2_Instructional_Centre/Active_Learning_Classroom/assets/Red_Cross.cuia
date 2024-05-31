@@ -1,0 +1,21 @@
+{FileMetadata}
+Schema = "1.0.0.0"
+CreatedByAppHost = "1.3300.16.0"
+Created = 2024-05-31 09:42:00.869771-04:00
+LastModifiedByAppHost = "1.3300.16.0"
+Modified = 2024-05-31 09:42:00.869767-04:00
+CreatedByProjectApp = "1.3300.16.0"
+LastModifiedByProjectApp = "1.3300.16.0"
+MinimumProjectApp = ""
+
+{AssetAttributes}
+
+[Attributes]
+Id = "be7b5747-d4ac-45b9-b273-5bca1377362c"
+Name = "Red_Cross"
+SourceUri = "Red_Cross.png"
+AspectRatio = "1"
+AssetSourceType = "File"
+Username = ""
+Password = ""
+

@@ -1,0 +1,21 @@
+{FileMetadata}
+Schema = "1.0.0.0"
+CreatedByAppHost = "1.3300.16.0"
+Created = 2024-05-31 09:42:00.876857-04:00
+LastModifiedByAppHost = "1.3300.16.0"
+Modified = 2024-05-31 09:42:00.876855-04:00
+CreatedByProjectApp = "1.3300.16.0"
+LastModifiedByProjectApp = "1.3300.16.0"
+MinimumProjectApp = ""
+
+{AssetAttributes}
+
+[Attributes]
+Id = "cb14d7a5-51b4-4f28-b6b1-50b6bdd1a0ac"
+Name = "UofT_SC_logo_White"
+SourceUri = "UofT_SC_logo_White.png"
+AspectRatio = "2.2884386174016687"
+AssetSourceType = "File"
+Username = ""
+Password = ""
+

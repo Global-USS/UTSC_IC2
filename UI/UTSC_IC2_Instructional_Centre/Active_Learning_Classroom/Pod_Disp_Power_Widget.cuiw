@@ -1,0 +1,133 @@
+{FileMetadata}
+Schema = "1.0.0.0"
+CreatedByAppHost = "1.3300.16.0"
+Created = 2024-05-31 12:44:07.424658-04:00
+LastModifiedByAppHost = "1.3300.16.0"
+Modified = 2024-05-31 12:44:07.424654-04:00
+CreatedByProjectApp = "1.3300.16.0"
+LastModifiedByProjectApp = "1.3300.16.0"
+MinimumProjectApp = "1.2600.1"
+
+{Html}
+<div id="itu0n9giqf" devicesVisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" defaultWidth="2560px" defaultHeight="247px" class="widget-container"><div componentName="DispBorder" id="i2eq4k36v1" devicesVisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" oldID="iq05f0ecqoqyt"></div><ch5-button type="default" halignlabel="center" valignlabel="middle" checkboxshow="false" checkboxposition="left" disabled="false" pageFlipAttributeName="pageflip" clearLabel="false" ccid_imageIconType="iconclass" ccid_linkSendReceive="True" iconurlfilltype="initial" customclass="ccid-custom" affectedByPreviewState="True" shape="custom" customvstheme="custom" id="iaqhzcjg4j" pageflip="0" iconposition="top" previewstate="normal" orientation="horizontal" labelmode="simple" componentName="Btn.DispPowerOn" ccid_themeCSSSet="true" devicesVisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" size="custom" oldID="i0b6je9qkj0if" componentWasResized="true" iconclass="fas fa-power-off" labelinnerhtml="Power On" selected="false" sendeventontouch="Contract Enabled" pd-receivestateselected="Contract Enabled"></ch5-button><ch5-button type="default" halignlabel="center" valignlabel="middle" checkboxshow="false" checkboxposition="left" disabled="false" pageFlipAttributeName="pageflip" clearLabel="false" ccid_imageIconType="iconclass" ccid_linkSendReceive="True" iconurlfilltype="initial" customclass="ccid-custom" affectedByPreviewState="True" shape="custom" customvstheme="custom" id="ioe5my5yam" labelinnerhtml="Power Off" pageflip="0" iconposition="top" previewstate="normal" orientation="horizontal" labelmode="simple" componentName="Btn.DispPowerOff" ccid_themeCSSSet="true" devicesVisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" size="custom" oldID="i8kdj1mffhgtt" iconclass="fas fa-power-off" selected="false" sendeventontouch="Contract Enabled" pd-receivestateselected="Contract Enabled"></ch5-button><ch5-text clearLabel="false" labelmodeadvncomponent="simple" horizontalalignment="center" verticalalignment="middle" multilinesupport="false" truncatetext="false" id="iyq95kyquk" ccid_linkSendReceive="True" devicesVisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" ccid_themeCSSSet="true" oldID="i9d3ab4v3a9g8" componentName="Txt.DispName" labelinnerhtml="Pod Display Power  Control"></ch5-text></div>
+
+{Css}
+@media (max-width: 99999px){#itu0n9giqf{width:2560px;height:247px;left:0;top:0;position:absolute;}#wrapper{background-color:#fff;}.widget-container{background-image:linear-gradient(45deg, #DAE2EA 25%, transparent 25%), linear-gradient(-45deg, #DAE2EA 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #DAE2EA 75%), linear-gradient(-45deg, transparent 75%, #DAE2EA 75%);background-size:20px 20px;background-position:0 0, 0 10px, 10px -10px, -10px 0px;z-index:0;}#iaqhzcjg4j{width:140px;top:114px;left:1135px;position:absolute;height:75px;buttonDefaultLabel_font-size:25px;buttonDefaultIcon_font-size:25px;newRuleWidth:140px;newRuleHeight:74px;buttonDefaultPressedLabel_font-size:20px;buttonDefaultSelectedLabel_font-size:25px;buttonDefaultSelectedIcon_font-size:25px;buttonDefaultPressedIcon_font-size:20px;display:block;}#ioe5my5yam{width:140px;height:75px;left:1282px;pointer-events:all;font-family:Roboto;display:block;top:114px;position:absolute;buttonDefaultLabel_font-size:25px;buttonDefaultIcon_font-size:25px;buttonDefaultPressedLabel_font-size:20px;buttonDefaultPressedIcon_font-size:20px;buttonDefaultSelectedLabel_font-size:25px;buttonDefaultSelectedIcon_font-size:25px;newRuleWidth:141px;newRuleHeight:75px;}#iaqhzcjg4j .ch5-button--rounded-rectangle{border-top-left-radius:20px;border-radius:20px 20px 20px 20px;border-top-right-radius:20px;border-bottom-right-radius:20px;border-bottom-left-radius:20px;}#iaqhzcjg4j .ch5-button--circle.ch5-button--size-regular .cb-btn{width:237px;height:237px;}#iaqhzcjg4j .ch5-button--size-regular .cb-btn{width:140px;height:75px;}#iaqhzcjg4j .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#iaqhzcjg4j .ch5-button--default.ch5-button--selected .cb-checkbox-icon{color:#f0fff0;buttonDefaultSelectedCheckbox_color:#f0fff0;}#iaqhzcjg4j .ch5-button--default.ch5-button--selected .ch5-button--icon{color:#f0fff0;custom-font-size:25px;buttonDefaultSelectedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#iaqhzcjg4j .ch5-button--default.ch5-button--selected .ch5-button--label{color:#f0fff0;font-weight:400;buttonDefaultSelectedLabel_color:#f0fff0;buttonDefaultSelectedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:name;}#iaqhzcjg4j .ch5-button--default.ch5-button--selected{color:#f0fff0;background-color:#4cdd00;border-color:#0091ea;}#iaqhzcjg4j .ccid-custom.ch5-button--default.ch5-button--pressed .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#iaqhzcjg4j .ch5-button--default.ch5-button--pressed .cb-checkbox-icon{color:#f0fff0;buttonDefaultPressedCheckbox_color:#f0fff0;}#iaqhzcjg4j .ch5-button--default.ch5-button--pressed .ch5-button--icon{color:#f0fff0;font-size:large;custom-font-size:largename;buttonDefaultPressedIcon_font-size:largename;buttonDefaultPressedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#iaqhzcjg4j .ch5-button--default.ch5-button--pressed .ch5-button--label{color:#f0fff0;font-size:large;font-weight:400;buttonDefaultPressedLabel_font-size:largename;buttonDefaultPressedLabel_color:#f0fff0;buttonDefaultPressedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:largename;}#iaqhzcjg4j .ch5-button--default.ch5-button--pressed{color:#f0fff0;background-color:#76c8ff;border-color:#0091ea;}#iaqhzcjg4j .ccid-custom.ch5-button--default .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#iaqhzcjg4j .ch5-button--default .cb-checkbox-icon{color:#ffffff;buttonDefaultCheckbox_color:#ffffff;}#iaqhzcjg4j .ch5-button--default .ch5-button--icon{color:#ffffff;font-size:25px;custom-font-size:25px;buttonDefaultIcon_font-size:25px;buttonDefaultIcon_color:#ffffff;margin-left:0;margin-right:0;margin-bottom:0;}#iaqhzcjg4j .ch5-button--default .ch5-button--label{font-family:Roboto;color:#ffffff;font-size:x-large;font-weight:400;buttonDefaultLabel_font-size:x-largename;buttonDefaultLabel_color:#ffffff;buttonDefaultLabel_font-weight:400;custom-font-size:x-largename;margin-left:0;margin-right:0;margin-bottom:0;}#iaqhzcjg4j .ch5-button--default{border-style:solid;border-color:#506b5f;color:#ffffff;background-color:#0099ff;border-width:0;max-height:100%;max-width:100%;display:flex;align-items:center;}#ioe5my5yam .ch5-button--rounded-rectangle{border-top-left-radius:20px;border-radius:20px 20px 20px 20px;border-top-right-radius:20px;border-bottom-right-radius:20px;border-bottom-left-radius:20px;}#ioe5my5yam .ch5-button--circle.ch5-button--size-regular .cb-btn{width:237px;height:237px;}#ioe5my5yam .ch5-button--size-regular .cb-btn{width:140px;height:75px;}#ioe5my5yam .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#ioe5my5yam .ch5-button--default.ch5-button--selected .cb-checkbox-icon{color:#f0fff0;buttonDefaultSelectedCheckbox_color:#f0fff0;}#ioe5my5yam .ch5-button--default.ch5-button--selected .ch5-button--icon{color:#f0fff0;custom-font-size:25px;buttonDefaultSelectedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#ioe5my5yam .ch5-button--default.ch5-button--selected .ch5-button--label{color:#f0fff0;font-weight:400;buttonDefaultSelectedLabel_color:#f0fff0;buttonDefaultSelectedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:name;}#ioe5my5yam .ch5-button--default.ch5-button--selected{color:#f0fff0;background-color:#ff0000;border-color:#0091ea;}#ioe5my5yam .ccid-custom.ch5-button--default.ch5-button--pressed .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#ioe5my5yam .ch5-button--default.ch5-button--pressed .cb-checkbox-icon{color:#f0fff0;buttonDefaultPressedCheckbox_color:#f0fff0;}#ioe5my5yam .ch5-button--default.ch5-button--pressed .ch5-button--icon{color:#f0fff0;font-size:large;custom-font-size:largename;buttonDefaultPressedIcon_font-size:largename;buttonDefaultPressedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#ioe5my5yam .ch5-button--default.ch5-button--pressed .ch5-button--label{color:#f0fff0;font-size:large;font-weight:400;buttonDefaultPressedLabel_font-size:largename;buttonDefaultPressedLabel_color:#f0fff0;buttonDefaultPressedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:largename;}#ioe5my5yam .ch5-button--default.ch5-button--pressed{color:#f0fff0;background-color:#76c8ff;border-color:#0091ea;}#ioe5my5yam .ccid-custom.ch5-button--default .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#ioe5my5yam .ch5-button--default .cb-checkbox-icon{color:#ffffff;buttonDefaultCheckbox_color:#ffffff;}#ioe5my5yam .ch5-button--default .ch5-button--icon{color:#ffffff;custom-font-size:x-largename;buttonDefaultIcon_color:#ffffff;margin-left:0;margin-right:0;margin-bottom:0;buttonDefaultIcon_font-size:x-largename;font-size:x-large;}#ioe5my5yam .ch5-button--default .ch5-button--label{font-family:Roboto;color:#ffffff;font-size:x-large;font-weight:400;buttonDefaultLabel_font-size:x-largename;buttonDefaultLabel_color:#ffffff;buttonDefaultLabel_font-weight:400;custom-font-size:x-largename;margin-left:0;margin-right:0;margin-bottom:0;}#ioe5my5yam .ch5-button--default{border-style:solid;border-color:#0091ea;color:#ffffff;background-color:#0099ff;border-width:0;max-height:100%;max-width:100%;display:flex;align-items:center;}#iyq95kyquk .ch5-text{width:449px;height:48px;font-size:30px;custom-font-size:30px;font-weight:700;}#iyq95kyquk{width:449px;height:48px;font-family:Roboto;display:block;left:1056px;top:39px;position:absolute;font-weight:700;}#i2eq4k36v1{display:block;background-color:#ffffff;border-style:solid;border-width:5px;border-color:#1B4B7C;width:494px;height:200px;left:1033px;top:23px;position:absolute;border-top-left-radius:20px;border-radius:20px 20px 20px 20px;border-top-right-radius:20px;border-bottom-right-radius:20px;border-bottom-left-radius:20px;}}@media (orientation: landscape) and (max-width: 2561px) and (max-height: 1441px), (orientation: landscape) and (max-width: 2559px){#iaqhzcjg4j{left:1135px;top:114px;display:block;buttonDefaultLabel_font-size:x-largename;buttonDefaultPressedLabel_font-size:largename;buttonDefaultIcon_font-size:x-largename;buttonDefaultPressedIcon_font-size:largename;}#ioe5my5yam{left:1282px;top:114px;buttonDefaultLabel_font-size:x-largename;buttonDefaultPressedLabel_font-size:largename;buttonDefaultIcon_font-size:x-largename;buttonDefaultPressedIcon_font-size:largename;}#iaqhzcjg4j .ch5-button--vertical .cx-button-checkbox-pos-right{padding-right:0px;}#iaqhzcjg4j .ch5-button--vertical .cx-button-checkbox-pos-left{padding-left:0px;}#ioe5my5yam .ch5-button--vertical .cx-button-checkbox-pos-right{padding-right:0px;}#ioe5my5yam .ch5-button--vertical .cx-button-checkbox-pos-left{padding-left:0px;}#iyq95kyquk{left:1056px;top:39px;}#i2eq4k36v1{display:block;background-color:#ffffff;border-style:solid;border-width:5px;border-color:#1B4B7C;width:494px;height:200px;left:1033px;top:23px;position:absolute;border-top-left-radius:20px;border-radius:20px 20px 20px 20px;border-top-right-radius:20px;border-bottom-right-radius:20px;border-bottom-left-radius:20px;}}@media (orientation: landscape) and (max-width: 1281px) and (max-height: 801px), (orientation: landscape) and (max-width: 1279px){#iaqhzcjg4j{width:100px;height:60px;buttonDefaultLabel_font-size:largename;buttonDefaultPressedLabel_font-size:mediumname;buttonDefaultSelectedLabel_font-size:largename;buttonDefaultSelectedIcon_font-size:x-largename;top:60px;left:535px;}#iaqhzcjg4j .ch5-button--size-regular .cb-btn{width:100px;height:60px;}#iaqhzcjg4j .ch5-button--rounded-rectangle{border-top-left-radius:10px;border-radius:10px 10px 10px 10px;border-top-right-radius:10px;border-bottom-right-radius:10px;border-bottom-left-radius:10px;}#iaqhzcjg4j .ch5-button--default .ch5-button--label{buttonDefaultLabel_font-size:largename;font-size:large;custom-font-size:largename;}#iaqhzcjg4j .ch5-button--default.ch5-button--pressed .ch5-button--label{buttonDefaultPressedLabel_font-size:mediumname;font-size:medium;custom-font-size:mediumname;}#iaqhzcjg4j .ch5-button--default.ch5-button--selected .ch5-button--label{buttonDefaultSelectedLabel_font-size:largename;custom-font-size:largename;font-size:large;}#iaqhzcjg4j .ch5-button--default.ch5-button--selected .ch5-button--icon{custom-font-size:x-largename;font-size:x-large;buttonDefaultSelectedIcon_font-size:x-largename;}#ioe5my5yam{width:100px;height:60px;buttonDefaultLabel_font-size:largename;buttonDefaultPressedLabel_font-size:mediumname;buttonDefaultSelectedLabel_font-size:largename;buttonDefaultSelectedIcon_font-size:x-largename;top:60px;left:646px;}#ioe5my5yam .ch5-button--size-regular .cb-btn{width:100px;height:60px;}#ioe5my5yam .ch5-button--rounded-rectangle{border-top-left-radius:10px;border-radius:10px 10px 10px 10px;border-top-right-radius:10px;border-bottom-right-radius:10px;border-bottom-left-radius:10px;}#ioe5my5yam .ch5-button--default .ch5-button--label{buttonDefaultLabel_font-size:largename;font-size:large;custom-font-size:largename;}#ioe5my5yam .ch5-button--default.ch5-button--pressed .ch5-button--label{buttonDefaultPressedLabel_font-size:mediumname;font-size:medium;custom-font-size:mediumname;}#ioe5my5yam .ch5-button--default.ch5-button--selected .ch5-button--label{buttonDefaultSelectedLabel_font-size:largename;custom-font-size:largename;font-size:large;}#ioe5my5yam .ch5-button--default.ch5-button--selected .ch5-button--icon{custom-font-size:x-largename;font-size:x-large;buttonDefaultSelectedIcon_font-size:x-largename;}#iyq95kyquk .ch5-text{font-size:16px;custom-font-size:16px;height:44px;width:235px;}#itu0n9giqf{width:1280px;height:150px;left:0;top:0;position:absolute;}#iyq95kyquk{height:44px;width:235px;left:522px;top:16px;}#i2eq4k36v1{height:130px;top:10px;left:513px;width:254px;}#wrapper{background-color:#fff;}}
+
+{PageAttributes}
+
+[Attributes]
+Name = "Pod_Disp_Power_Widget"
+PageMode = "absolute"
+Id = "5f7f7209-6347-4846-a916-dfdf0ea11e53"
+
+[[Elements]]
+Type = "widgetContainer"
+Classes = ["widget-container"]
+
+[[Elements.Components]]
+Type = "html-div"
+
+[Elements.Components.Attributes]
+componentName = "DispBorder"
+id = "i2eq4k36v1"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+oldID = "iq05f0ecqoqyt"
+[[Elements.Components]]
+Type = "Ch5 Button"
+Editable = true
+
+[Elements.Components.Attributes]
+type = "default"
+halignlabel = "center"
+valignlabel = "middle"
+checkboxshow = "false"
+checkboxposition = "left"
+disabled = "false"
+pageFlipAttributeName = "pageflip"
+clearLabel = "false"
+ccid_imageIconType = "iconclass"
+ccid_linkSendReceive = "True"
+iconurlfilltype = "initial"
+customclass = "ccid-custom"
+affectedByPreviewState = "True"
+shape = "custom"
+customvstheme = "custom"
+id = "iaqhzcjg4j"
+pageflip = "0"
+iconposition = "top"
+previewstate = "normal"
+orientation = "horizontal"
+labelmode = "simple"
+componentName = "Btn.DispPowerOn"
+ccid_themeCSSSet = "true"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+size = "custom"
+oldID = "i0b6je9qkj0if"
+componentWasResized = "true"
+iconclass = "fas fa-power-off"
+labelinnerhtml = "Power On"
+selected = "false"
+sendeventontouch = "Contract Enabled"
+pd-receivestateselected = "Contract Enabled"
+[[Elements.Components]]
+Type = "Ch5 Button"
+Editable = true
+
+[Elements.Components.Attributes]
+type = "default"
+halignlabel = "center"
+valignlabel = "middle"
+checkboxshow = "false"
+checkboxposition = "left"
+disabled = "false"
+pageFlipAttributeName = "pageflip"
+clearLabel = "false"
+ccid_imageIconType = "iconclass"
+ccid_linkSendReceive = "True"
+iconurlfilltype = "initial"
+customclass = "ccid-custom"
+affectedByPreviewState = "True"
+shape = "custom"
+customvstheme = "custom"
+id = "ioe5my5yam"
+labelinnerhtml = "Power Off"
+pageflip = "0"
+iconposition = "top"
+previewstate = "normal"
+orientation = "horizontal"
+labelmode = "simple"
+componentName = "Btn.DispPowerOff"
+ccid_themeCSSSet = "true"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+size = "custom"
+oldID = "i8kdj1mffhgtt"
+iconclass = "fas fa-power-off"
+selected = "false"
+sendeventontouch = "Contract Enabled"
+pd-receivestateselected = "Contract Enabled"
+[[Elements.Components]]
+Type = "Ch5 Text"
+Editable = true
+
+[Elements.Components.Attributes]
+clearLabel = "false"
+labelmodeadvncomponent = "simple"
+horizontalalignment = "center"
+verticalalignment = "middle"
+multilinesupport = "false"
+truncatetext = "false"
+id = "iyq95kyquk"
+ccid_linkSendReceive = "True"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+ccid_themeCSSSet = "true"
+oldID = "i9d3ab4v3a9g8"
+componentName = "Txt.DispName"
+labelinnerhtml = "Pod Display Power  Control"
+
+[Elements.Attributes]
+id = "itu0n9giqf"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+defaultWidth = "2560px"
+defaultHeight = "247px"
+
