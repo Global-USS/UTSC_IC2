@@ -21,7 +21,7 @@ using Crestron.SimplSharpPro.DeviceSupport;
 using Crestron.SimplSharpPro;
 using Standard_Classroom;
 
-namespace Standard_Classroom.Main_Page.Volume_Control_0x_Panel_Widget
+namespace Standard_Classroom.Volume_Control_0x_Panel_Widget
 {
 
     /// <summary>
@@ -35,32 +35,18 @@ namespace Standard_Classroom.Main_Page.Volume_Control_0x_Panel_Widget
         event EventHandler<IndexedButtonEventArgs> Button_PressEvent;
 
         /// <summary>
-        /// Main_Page.Volume_Control_0x_Panel_Widget.Button1.ItemSelected Feedback
+        /// Button1.ItemSelected Feedback
         /// </summary>
         /// <param name="buttonIndex">The index of the button (0 based).</param>
         /// <param name="callback">The delegate to set the feedback.</param>
         void Button_Selected(ushort buttonIndex, ListMicSelectionBoolInputSigDelegate callback);
 
         /// <summary>
-        /// Helper Main_Page.Volume_Control_0x_Panel_Widget.Button1.ItemSelected Feedback
+        /// Helper Button1.ItemSelected Feedback
         /// </summary>
         /// <param name="buttonIndex">The index of the button (0 based).</param>
         /// <param name="digital">The <see="bool"/> value to set on the panel.</param>
         void Button_Selected(ushort buttonIndex, bool digital);
-
-        /// <summary>
-        /// Main_Page.Volume_Control_0x_Panel_Widget.Button1.Visible Feedback
-        /// </summary>
-        /// <param name="buttonIndex">The index of the button (0 based).</param>
-        /// <param name="callback">The delegate to set the feedback.</param>
-        void Button_Visible(ushort buttonIndex, ListMicSelectionBoolInputSigDelegate callback);
-
-        /// <summary>
-        /// Helper Main_Page.Volume_Control_0x_Panel_Widget.Button1.Visible Feedback
-        /// </summary>
-        /// <param name="buttonIndex">The index of the button (0 based).</param>
-        /// <param name="digital">The <see="bool"/> value to set on the panel.</param>
-        void Button_Visible(ushort buttonIndex, bool digital);
     }
 
 
@@ -79,28 +65,6 @@ namespace Standard_Classroom.Main_Page.Volume_Control_0x_Panel_Widget
                 handler(this, new IndexedButtonEventArgs((SmartObjectEventArgs)eventArgs.SigArgs, eventArgs.JoinIndex));
         }
                 
-        /// <summary>
-        /// Boolean feedbacks (from Control System to Panel)
-        /// </summary>
-        /// <param name="buttonIndex">The index of the button (0 based).</param>
-        /// <param name="callback">The delegate to set the feedback.</param>
-        public void Button_Visible(ushort buttonIndex, ListMicSelectionBoolInputSigDelegate callback)
-        {
-            for (int index = 0; index < Devices.Count; index++)
-            {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.Button_1_Button_VisibleState + buttonIndex], this);
-            }
-        }
-
-        /// <summary>
-        /// Set Boolean feedback (from Control System to Panel)
-        /// </summary>
-        /// <param name="buttonIndex">The index of the button (0 based).</param>
-        /// <param name="digital">The bool value to set.</param>
-        public void Button_Visible(ushort buttonIndex, bool digital)
-        {
-            Button_Visible(buttonIndex, (sig, component) => sig.BoolValue = digital);
-        }
         /// <summary>
         /// Boolean feedbacks (from Control System to Panel)
         /// </summary>
@@ -135,120 +99,90 @@ namespace Standard_Classroom.Main_Page.Volume_Control_0x_Panel_Widget
         object UserObject { get; set; }
 
         /// <summary>
-        /// Main_Page.Volume_Control_0x_Panel_Widget.Button1.ItemPress
+        /// Button1.ItemPress
         /// </summary>
         event EventHandler<UIEventArgs> Button_1_Button_PressEvent;
 
         /// <summary>
-        /// Main_Page.Volume_Control_0x_Panel_Widget.Button2.ItemPress
+        /// Button2.ItemPress
         /// </summary>
         event EventHandler<UIEventArgs> Button_2_Button_PressEvent;
 
         /// <summary>
-        /// Main_Page.Volume_Control_0x_Panel_Widget.Button3.ItemPress
+        /// Button3.ItemPress
         /// </summary>
         event EventHandler<UIEventArgs> Button_3_Button_PressEvent;
 
         /// <summary>
-        /// Main_Page.Volume_Control_0x_Panel_Widget.Button4.ItemPress
+        /// Button4.ItemPress
         /// </summary>
         event EventHandler<UIEventArgs> Button_4_Button_PressEvent;
 
         /// <summary>
-        /// Main_Page.Volume_Control_0x_Panel_Widget.Button1.ItemSelected Feedback
+        /// Button1.ItemSelected Feedback
         /// </summary>
         /// <param name="callback">The bool delegate to update the panel.</param>
         void Button_1_Button_Selected(ListMicSelectionBoolInputSigDelegate callback);
 
         /// <summary>
-        /// Main_Page.Volume_Control_0x_Panel_Widget.Button1.ItemSelected Feedback
+        /// Button1.ItemSelected Feedback
         /// </summary>
         /// <param name="digital">The bool to update the panel.</param>
         void Button_1_Button_Selected(bool digital);
 
         /// <summary>
-        /// Main_Page.Volume_Control_0x_Panel_Widget.Button2.ItemSelected Feedback
+        /// Button2.ItemSelected Feedback
         /// </summary>
         /// <param name="callback">The bool delegate to update the panel.</param>
         void Button_2_Button_Selected(ListMicSelectionBoolInputSigDelegate callback);
 
         /// <summary>
-        /// Main_Page.Volume_Control_0x_Panel_Widget.Button2.ItemSelected Feedback
+        /// Button2.ItemSelected Feedback
         /// </summary>
         /// <param name="digital">The bool to update the panel.</param>
         void Button_2_Button_Selected(bool digital);
 
         /// <summary>
-        /// Main_Page.Volume_Control_0x_Panel_Widget.Button3.ItemSelected Feedback
+        /// Button3.ItemSelected Feedback
         /// </summary>
         /// <param name="callback">The bool delegate to update the panel.</param>
         void Button_3_Button_Selected(ListMicSelectionBoolInputSigDelegate callback);
 
         /// <summary>
-        /// Main_Page.Volume_Control_0x_Panel_Widget.Button3.ItemSelected Feedback
+        /// Button3.ItemSelected Feedback
         /// </summary>
         /// <param name="digital">The bool to update the panel.</param>
         void Button_3_Button_Selected(bool digital);
 
         /// <summary>
-        /// Main_Page.Volume_Control_0x_Panel_Widget.Button4.ItemSelected Feedback
+        /// Button4.ItemSelected Feedback
         /// </summary>
         /// <param name="callback">The bool delegate to update the panel.</param>
         void Button_4_Button_Selected(ListMicSelectionBoolInputSigDelegate callback);
 
         /// <summary>
-        /// Main_Page.Volume_Control_0x_Panel_Widget.Button4.ItemSelected Feedback
+        /// Button4.ItemSelected Feedback
         /// </summary>
         /// <param name="digital">The bool to update the panel.</param>
         void Button_4_Button_Selected(bool digital);
 
         /// <summary>
-        /// Main_Page.Volume_Control_0x_Panel_Widget.Button1.Visible Feedback
+        /// List.MicSelection.List Number Of Items Feedback
         /// </summary>
-        /// <param name="callback">The bool delegate to update the panel.</param>
-        void Button_1_Button_Visible(ListMicSelectionBoolInputSigDelegate callback);
+        /// <param name="callback">The ushort delegate to update the panel.</param>
+        void ListMicSelection_ListNumberOfItems(ListMicSelectionUShortInputSigDelegate callback);
 
         /// <summary>
-        /// Main_Page.Volume_Control_0x_Panel_Widget.Button1.Visible Feedback
+        /// List.MicSelection.List Number Of Items Feedback
         /// </summary>
-        /// <param name="digital">The bool to update the panel.</param>
-        void Button_1_Button_Visible(bool digital);
+        /// <param name="callback">The ushort analog to update the panel.</param>
+        void ListMicSelection_ListNumberOfItems(ushort analog);
 
         /// <summary>
-        /// Main_Page.Volume_Control_0x_Panel_Widget.Button2.Visible Feedback
+        /// List.MicSelection.List Number Of Items Feedback
         /// </summary>
-        /// <param name="callback">The bool delegate to update the panel.</param>
-        void Button_2_Button_Visible(ListMicSelectionBoolInputSigDelegate callback);
-
-        /// <summary>
-        /// Main_Page.Volume_Control_0x_Panel_Widget.Button2.Visible Feedback
-        /// </summary>
-        /// <param name="digital">The bool to update the panel.</param>
-        void Button_2_Button_Visible(bool digital);
-
-        /// <summary>
-        /// Main_Page.Volume_Control_0x_Panel_Widget.Button3.Visible Feedback
-        /// </summary>
-        /// <param name="callback">The bool delegate to update the panel.</param>
-        void Button_3_Button_Visible(ListMicSelectionBoolInputSigDelegate callback);
-
-        /// <summary>
-        /// Main_Page.Volume_Control_0x_Panel_Widget.Button3.Visible Feedback
-        /// </summary>
-        /// <param name="digital">The bool to update the panel.</param>
-        void Button_3_Button_Visible(bool digital);
-
-        /// <summary>
-        /// Main_Page.Volume_Control_0x_Panel_Widget.Button4.Visible Feedback
-        /// </summary>
-        /// <param name="callback">The bool delegate to update the panel.</param>
-        void Button_4_Button_Visible(ListMicSelectionBoolInputSigDelegate callback);
-
-        /// <summary>
-        /// Main_Page.Volume_Control_0x_Panel_Widget.Button4.Visible Feedback
-        /// </summary>
-        /// <param name="digital">The bool to update the panel.</param>
-        void Button_4_Button_Visible(bool digital);
+        /// <param name="callback">The short analog to update the panel.</param>
+        void ListMicSelection_ListNumberOfItems(short analog);
     }
 
     /// <summary>
@@ -257,6 +191,12 @@ namespace Standard_Classroom.Main_Page.Volume_Control_0x_Panel_Widget
     /// <param name="boolInputSig">The <see cref="BoolInputSig"/> signal data.</param>
     /// <param name="listmicselection">The <see cref="IListMicSelection"/> on which to apply the feedback.</param>
     public delegate void ListMicSelectionBoolInputSigDelegate(BoolInputSig boolInputSig, IListMicSelection listmicselection);
+    /// <summary>
+    /// Digital callback used in feedback events.
+    /// </summary>
+    /// <param name="uShortInputSig">The <see cref="UShortInputSig"/> signal data.</param>
+    /// <param name="listmicselection">The <see cref="IListMicSelection"/> on which to apply the feedback.</param>
+    public delegate void ListMicSelectionUShortInputSigDelegate(UShortInputSig uShortInputSig, IListMicSelection listmicselection);
 
     /// <summary>
     /// List.MicSelection
@@ -293,77 +233,65 @@ namespace Standard_Classroom.Main_Page.Volume_Control_0x_Panel_Widget
             internal static class Booleans
             {
                 /// <summary>
-                /// Output or Event digital signal from panel to Control System: Main_Page.Volume_Control_0x_Panel_Widget.ListMicSelection.Button1ItemPress
-                /// Main_Page.Volume_Control_0x_Panel_Widget.Button1.ItemPress
+                /// Output or Event digital signal from panel to Control System: Volume_Control_0x_Panel_Widget.ListMicSelection.Button1ItemPress
+                /// Button1.ItemPress
                 /// </summary>
                 public const uint Button_1_Button_PressEvent = 1001;
 
                 /// <summary>
-                /// Output or Event digital signal from panel to Control System: Main_Page.Volume_Control_0x_Panel_Widget.ListMicSelection.Button2ItemPress
-                /// Main_Page.Volume_Control_0x_Panel_Widget.Button2.ItemPress
+                /// Output or Event digital signal from panel to Control System: Volume_Control_0x_Panel_Widget.ListMicSelection.Button2ItemPress
+                /// Button2.ItemPress
                 /// </summary>
                 public const uint Button_2_Button_PressEvent = 1002;
 
                 /// <summary>
-                /// Output or Event digital signal from panel to Control System: Main_Page.Volume_Control_0x_Panel_Widget.ListMicSelection.Button3ItemPress
-                /// Main_Page.Volume_Control_0x_Panel_Widget.Button3.ItemPress
+                /// Output or Event digital signal from panel to Control System: Volume_Control_0x_Panel_Widget.ListMicSelection.Button3ItemPress
+                /// Button3.ItemPress
                 /// </summary>
                 public const uint Button_3_Button_PressEvent = 1003;
 
                 /// <summary>
-                /// Output or Event digital signal from panel to Control System: Main_Page.Volume_Control_0x_Panel_Widget.ListMicSelection.Button4ItemPress
-                /// Main_Page.Volume_Control_0x_Panel_Widget.Button4.ItemPress
+                /// Output or Event digital signal from panel to Control System: Volume_Control_0x_Panel_Widget.ListMicSelection.Button4ItemPress
+                /// Button4.ItemPress
                 /// </summary>
                 public const uint Button_4_Button_PressEvent = 1004;
 
 
                 /// <summary>
-                /// Input or Feedback digital signal from Control System to panel: Main_Page.Volume_Control_0x_Panel_Widget.ListMicSelection.Button1ItemSelected
-                /// Main_Page.Volume_Control_0x_Panel_Widget.Button1.ItemSelected
+                /// Input or Feedback digital signal from Control System to panel: Volume_Control_0x_Panel_Widget.ListMicSelection.Button1ItemSelected
+                /// Button1.ItemSelected
                 /// </summary>
                 public const uint Button_1_Button_SelectedState = 1001;
 
                 /// <summary>
-                /// Input or Feedback digital signal from Control System to panel: Main_Page.Volume_Control_0x_Panel_Widget.ListMicSelection.Button2ItemSelected
-                /// Main_Page.Volume_Control_0x_Panel_Widget.Button2.ItemSelected
+                /// Input or Feedback digital signal from Control System to panel: Volume_Control_0x_Panel_Widget.ListMicSelection.Button2ItemSelected
+                /// Button2.ItemSelected
                 /// </summary>
                 public const uint Button_2_Button_SelectedState = 1002;
 
                 /// <summary>
-                /// Input or Feedback digital signal from Control System to panel: Main_Page.Volume_Control_0x_Panel_Widget.ListMicSelection.Button3ItemSelected
-                /// Main_Page.Volume_Control_0x_Panel_Widget.Button3.ItemSelected
+                /// Input or Feedback digital signal from Control System to panel: Volume_Control_0x_Panel_Widget.ListMicSelection.Button3ItemSelected
+                /// Button3.ItemSelected
                 /// </summary>
                 public const uint Button_3_Button_SelectedState = 1003;
 
                 /// <summary>
-                /// Input or Feedback digital signal from Control System to panel: Main_Page.Volume_Control_0x_Panel_Widget.ListMicSelection.Button4ItemSelected
-                /// Main_Page.Volume_Control_0x_Panel_Widget.Button4.ItemSelected
+                /// Input or Feedback digital signal from Control System to panel: Volume_Control_0x_Panel_Widget.ListMicSelection.Button4ItemSelected
+                /// Button4.ItemSelected
                 /// </summary>
                 public const uint Button_4_Button_SelectedState = 1004;
 
+            }
+            /// <summary>
+            /// Analog signals.
+            /// </summary>
+            internal static class Numerics
+            {
                 /// <summary>
-                /// Input or Feedback digital signal from Control System to panel: Main_Page.Volume_Control_0x_Panel_Widget.ListMicSelection.Button1Visible
-                /// Main_Page.Volume_Control_0x_Panel_Widget.Button1.Visible
+                /// Input or Feedback analog signal from Control System to panel: Volume_Control_0x_Panel_Widget.ListMicSelection.ListNumberOfItems
+                /// List.MicSelection.List Number Of Items
                 /// </summary>
-                public const uint Button_1_Button_VisibleState = 1501;
-
-                /// <summary>
-                /// Input or Feedback digital signal from Control System to panel: Main_Page.Volume_Control_0x_Panel_Widget.ListMicSelection.Button2Visible
-                /// Main_Page.Volume_Control_0x_Panel_Widget.Button2.Visible
-                /// </summary>
-                public const uint Button_2_Button_VisibleState = 1502;
-
-                /// <summary>
-                /// Input or Feedback digital signal from Control System to panel: Main_Page.Volume_Control_0x_Panel_Widget.ListMicSelection.Button3Visible
-                /// Main_Page.Volume_Control_0x_Panel_Widget.Button3.Visible
-                /// </summary>
-                public const uint Button_3_Button_VisibleState = 1503;
-
-                /// <summary>
-                /// Input or Feedback digital signal from Control System to panel: Main_Page.Volume_Control_0x_Panel_Widget.ListMicSelection.Button4Visible
-                /// Main_Page.Volume_Control_0x_Panel_Widget.Button4.Visible
-                /// </summary>
-                public const uint Button_4_Button_VisibleState = 1504;
+                public const uint ListMicSelection_ListNumberOfItemsState = 501;
 
             }
         }
@@ -458,7 +386,7 @@ namespace Standard_Classroom.Main_Page.Volume_Control_0x_Panel_Widget
         #region CH5 Contract
 
         /// <summary>
-        /// Event Main_Page.Volume_Control_0x_Panel_Widget.Button1.ItemPress (from panel to Control System)
+        /// Event Button1.ItemPress (from panel to Control System)
         /// </summary>
         public event EventHandler<UIEventArgs> Button_1_Button_PressEvent;
         private void onButton_1_Button_Press(SmartObjectEventArgs eventArgs)
@@ -469,7 +397,7 @@ namespace Standard_Classroom.Main_Page.Volume_Control_0x_Panel_Widget
         }
 
         /// <summary>
-        /// Event Main_Page.Volume_Control_0x_Panel_Widget.Button2.ItemPress (from panel to Control System)
+        /// Event Button2.ItemPress (from panel to Control System)
         /// </summary>
         public event EventHandler<UIEventArgs> Button_2_Button_PressEvent;
         private void onButton_2_Button_Press(SmartObjectEventArgs eventArgs)
@@ -480,7 +408,7 @@ namespace Standard_Classroom.Main_Page.Volume_Control_0x_Panel_Widget
         }
 
         /// <summary>
-        /// Event Main_Page.Volume_Control_0x_Panel_Widget.Button3.ItemPress (from panel to Control System)
+        /// Event Button3.ItemPress (from panel to Control System)
         /// </summary>
         public event EventHandler<UIEventArgs> Button_3_Button_PressEvent;
         private void onButton_3_Button_Press(SmartObjectEventArgs eventArgs)
@@ -491,7 +419,7 @@ namespace Standard_Classroom.Main_Page.Volume_Control_0x_Panel_Widget
         }
 
         /// <summary>
-        /// Event Main_Page.Volume_Control_0x_Panel_Widget.Button4.ItemPress (from panel to Control System)
+        /// Event Button4.ItemPress (from panel to Control System)
         /// </summary>
         public event EventHandler<UIEventArgs> Button_4_Button_PressEvent;
         private void onButton_4_Button_Press(SmartObjectEventArgs eventArgs)
@@ -502,7 +430,7 @@ namespace Standard_Classroom.Main_Page.Volume_Control_0x_Panel_Widget
         }
 
         /// <summary>
-        /// Boolean feedback Main_Page.Volume_Control_0x_Panel_Widget.Button1.ItemSelected (from Control System to Panel)
+        /// Boolean feedback Button1.ItemSelected (from Control System to Panel)
         /// </summary>
         public void Button_1_Button_Selected(ListMicSelectionBoolInputSigDelegate callback)
         {
@@ -513,32 +441,14 @@ namespace Standard_Classroom.Main_Page.Volume_Control_0x_Panel_Widget
         }
 
         /// <summary>
-        /// Boolean feedback Main_Page.Volume_Control_0x_Panel_Widget.Button1.ItemSelected (from Control System to Panel)
+        /// Boolean feedback Button1.ItemSelected (from Control System to Panel)
         /// </summary>
         public void Button_1_Button_Selected(bool digital)
         {
             Button_1_Button_Selected((sig, component) => sig.BoolValue = digital);
         }
         /// <summary>
-        /// Boolean feedback Main_Page.Volume_Control_0x_Panel_Widget.Button1.Visible (from Control System to Panel)
-        /// </summary>
-        public void Button_1_Button_Visible(ListMicSelectionBoolInputSigDelegate callback)
-        {
-            for (int index = 0; index < Devices.Count; index++)
-            {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.Button_1_Button_VisibleState], this);
-            }
-        }
-
-        /// <summary>
-        /// Boolean feedback Main_Page.Volume_Control_0x_Panel_Widget.Button1.Visible (from Control System to Panel)
-        /// </summary>
-        public void Button_1_Button_Visible(bool digital)
-        {
-            Button_1_Button_Visible((sig, component) => sig.BoolValue = digital);
-        }
-        /// <summary>
-        /// Boolean feedback Main_Page.Volume_Control_0x_Panel_Widget.Button2.ItemSelected (from Control System to Panel)
+        /// Boolean feedback Button2.ItemSelected (from Control System to Panel)
         /// </summary>
         public void Button_2_Button_Selected(ListMicSelectionBoolInputSigDelegate callback)
         {
@@ -549,32 +459,14 @@ namespace Standard_Classroom.Main_Page.Volume_Control_0x_Panel_Widget
         }
 
         /// <summary>
-        /// Boolean feedback Main_Page.Volume_Control_0x_Panel_Widget.Button2.ItemSelected (from Control System to Panel)
+        /// Boolean feedback Button2.ItemSelected (from Control System to Panel)
         /// </summary>
         public void Button_2_Button_Selected(bool digital)
         {
             Button_2_Button_Selected((sig, component) => sig.BoolValue = digital);
         }
         /// <summary>
-        /// Boolean feedback Main_Page.Volume_Control_0x_Panel_Widget.Button2.Visible (from Control System to Panel)
-        /// </summary>
-        public void Button_2_Button_Visible(ListMicSelectionBoolInputSigDelegate callback)
-        {
-            for (int index = 0; index < Devices.Count; index++)
-            {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.Button_2_Button_VisibleState], this);
-            }
-        }
-
-        /// <summary>
-        /// Boolean feedback Main_Page.Volume_Control_0x_Panel_Widget.Button2.Visible (from Control System to Panel)
-        /// </summary>
-        public void Button_2_Button_Visible(bool digital)
-        {
-            Button_2_Button_Visible((sig, component) => sig.BoolValue = digital);
-        }
-        /// <summary>
-        /// Boolean feedback Main_Page.Volume_Control_0x_Panel_Widget.Button3.ItemSelected (from Control System to Panel)
+        /// Boolean feedback Button3.ItemSelected (from Control System to Panel)
         /// </summary>
         public void Button_3_Button_Selected(ListMicSelectionBoolInputSigDelegate callback)
         {
@@ -585,32 +477,14 @@ namespace Standard_Classroom.Main_Page.Volume_Control_0x_Panel_Widget
         }
 
         /// <summary>
-        /// Boolean feedback Main_Page.Volume_Control_0x_Panel_Widget.Button3.ItemSelected (from Control System to Panel)
+        /// Boolean feedback Button3.ItemSelected (from Control System to Panel)
         /// </summary>
         public void Button_3_Button_Selected(bool digital)
         {
             Button_3_Button_Selected((sig, component) => sig.BoolValue = digital);
         }
         /// <summary>
-        /// Boolean feedback Main_Page.Volume_Control_0x_Panel_Widget.Button3.Visible (from Control System to Panel)
-        /// </summary>
-        public void Button_3_Button_Visible(ListMicSelectionBoolInputSigDelegate callback)
-        {
-            for (int index = 0; index < Devices.Count; index++)
-            {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.Button_3_Button_VisibleState], this);
-            }
-        }
-
-        /// <summary>
-        /// Boolean feedback Main_Page.Volume_Control_0x_Panel_Widget.Button3.Visible (from Control System to Panel)
-        /// </summary>
-        public void Button_3_Button_Visible(bool digital)
-        {
-            Button_3_Button_Visible((sig, component) => sig.BoolValue = digital);
-        }
-        /// <summary>
-        /// Boolean feedback Main_Page.Volume_Control_0x_Panel_Widget.Button4.ItemSelected (from Control System to Panel)
+        /// Boolean feedback Button4.ItemSelected (from Control System to Panel)
         /// </summary>
         public void Button_4_Button_Selected(ListMicSelectionBoolInputSigDelegate callback)
         {
@@ -621,29 +495,42 @@ namespace Standard_Classroom.Main_Page.Volume_Control_0x_Panel_Widget
         }
 
         /// <summary>
-        /// Boolean feedback Main_Page.Volume_Control_0x_Panel_Widget.Button4.ItemSelected (from Control System to Panel)
+        /// Boolean feedback Button4.ItemSelected (from Control System to Panel)
         /// </summary>
         public void Button_4_Button_Selected(bool digital)
         {
             Button_4_Button_Selected((sig, component) => sig.BoolValue = digital);
         }
+
         /// <summary>
-        /// Boolean feedback Main_Page.Volume_Control_0x_Panel_Widget.Button4.Visible (from Control System to Panel)
+        /// Numeric feedback List.MicSelection.List Number Of Items
         /// </summary>
-        public void Button_4_Button_Visible(ListMicSelectionBoolInputSigDelegate callback)
+        /// <param name="itemIndex">Index of the Widget List (0 based).</param>
+        /// <param name="callback">The ushort delegate to update the panel.</param>
+        public void ListMicSelection_ListNumberOfItems(ListMicSelectionUShortInputSigDelegate callback)
         {
             for (int index = 0; index < Devices.Count; index++)
             {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.Button_4_Button_VisibleState], this);
+                callback(Devices[index].SmartObjects[ControlJoinId].UShortInput[Joins.Numerics.ListMicSelection_ListNumberOfItemsState], this);
             }
         }
 
         /// <summary>
-        /// Boolean feedback Main_Page.Volume_Control_0x_Panel_Widget.Button4.Visible (from Control System to Panel)
+        /// Numeric feedback List.MicSelection.List Number Of Items
         /// </summary>
-        public void Button_4_Button_Visible(bool digital)
+        /// <param name="analog">The ushort analog to update the panel.</param>
+        public void ListMicSelection_ListNumberOfItems(ushort analog)
         {
-            Button_4_Button_Visible((sig, component) => sig.BoolValue = digital);
+            ListMicSelection_ListNumberOfItems((sig, component) => sig.UShortValue = analog);
+        }
+
+        /// <summary>
+        /// Numeric feedback List.MicSelection.List Number Of Items
+        /// </summary>
+        /// <param name="analog">The short analog to update the panel.</param>
+        public void ListMicSelection_ListNumberOfItems(short analog)
+        {
+            ListMicSelection_ListNumberOfItems((sig, component) => sig.ShortValue = analog);
         }
 
         #endregion

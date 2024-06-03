@@ -1,0 +1,351 @@
+#CATEGORY "32" // Miscellaneous
+#SYMBOL_NAME "MK - Passcode Entry v1.0"
+
+/*
+Written by: Mat Klucznyk
+Tested on: AV2/AV3
+*/
+
+//****DIRECTIVES****
+#DEFAULT_VOLATILE
+#ENABLE_STACK_CHECKING
+#ENABLE_TRACE
+#DEFINE_CONSTANT maxDigits 4
+
+//****IO****
+Buffer_Input FromDatabase[255];
+Digital_Input _skip_, UserSearch, AllSearch, _skip_, Delete, Clear, Enter, key[10,10];
+Analog_Input User, ID;
+
+String_Output ToDatabase, _skip_, _Skip_, _skip_, EntryString;
+Digital_Output _skip_, PasscodeCorrect, BackdoorCorrect, PasscodeWrong, _skip_;
+Digital_Output ReEnterPasscode, PasscodeStored, PasscodeStoreFail, Digit[maxDigits,maxDigits];
+Analog_output UserFB;
+
+//****VARS****
+Integer_Parameter enableDigitCnt;
+
+String new[maxDigits], id$[2], comp[maxDigits], stars[maxDigits][maxDigits];
+Integer flag1, flag2, semephore, newUser, Master, tryCnt;
+
+//****HELPERS****
+Function DigitCount() 
+{
+	Integer x,ctr;
+	
+	x = len(new);
+
+	For(ctr = 1 to x)
+	{
+		Digit[ctr] = ON;
+	}
+
+	If( x < maxDigits)
+	{
+		For(ctr = (x + 1) to maxDigits)
+		{
+			Digit[ctr] = OFF;
+		}
+	}
+	
+	If(Master)
+	{
+		EntryString=new;
+	}
+	Else
+	{
+		EntryString = stars[x];
+	}
+}
+
+Function SendAsMaster()
+{
+	If(tryCnt=1)
+	{
+		If(CompareStrings(new, comp) = 0 && newUser>0)
+		{
+			flag1 = 0;
+			MakeString(ToDatabase, "<0><entry><instance=%u><new=%s>\n", newUser, new);
+			tryCnt = 0;
+		}
+		Else
+		{
+			EntryString = "Passcodes do not match";
+			Pulse(100, PasscodeStoreFail);
+			tryCnt = 0;
+		}
+	}
+	
+	Else If(tryCnt=0)
+	{
+		comp = new;
+		new = "";
+		DigitCount();
+		tryCnt = 1;
+		EntryString = "Re-enter passcode";
+		Pulse(100, ReEnterPasscode);
+	}
+}
+
+Function SendAsUser()
+{
+	flag1 = 0;
+	MakeString(ToDatabase, "<%s><query><search=%s>\n", id$, new);
+}
+
+//****EVENTS****
+Push key
+{
+	Integer x;
+	
+	If(flag1)
+	{
+		x = getLastModifiedArrayIndex() - 1;
+		new = new + ItoA(x);
+		DigitCount();
+
+		If(len(new) = maxDigits && enableDigitCnt)
+		{
+			If(Master)
+			{
+				SendAsMaster();
+			}
+			Else
+			{
+				SendAsUser();
+			}
+		}
+	}
+}
+
+Push Delete
+{
+	If(flag1 && len(new))
+	{
+		if(len(new) > 1)
+		{
+			new=RemoveByLength(len(new)-1,new);
+		}
+		else
+		{
+			new = "";
+		}
+		DigitCount();
+	}
+}
+
+Push Clear
+{
+	If(flag1)
+	{
+		new = "";
+		DigitCount();
+	}
+}
+
+Push Enter
+{
+	If(len(new))
+	{
+		If(Master)
+		{
+			SendAsMaster();
+		}
+		Else
+		{
+			SendAsUser();
+		}
+	}
+}
+
+Change User 
+{
+	If(flag1)
+	{
+		newUser = User;
+		UserFB = User;
+		new = "";
+		EntryString = "";
+	}
+}
+
+Change FromDatabase
+{
+	Integer mark1, mark2;
+	String data[255], foundID[2];
+	
+	If(flag2)
+	{
+		flag2 = 0;
+		While(len(FromDatabase))
+		{
+			If(semephore)
+			{
+				semephore = 0;
+				data = gather("\n", FromDatabase);
+				
+				mark1 = 2;
+				mark2 = find(">", data, mark1+1);
+				foundID = Mid(data, mark1, mark2 - mark1);
+				If(foundID = id$ && ID > 0)
+				{
+					Trace("My ID is %s and I match", id$);
+					If(find("<incorrect>", data))
+					{
+						EntryString = "Incorrect";
+						Pulse(100, PasscodeWrong);
+						Delay(100);
+						new = "";
+						DigitCount();
+					}
+					
+					Else If(find("<correct>", data))
+					{
+						If(UserSearch)
+						{
+							If(find("backdoor", data))
+							{
+								Pulse(100, BackdoorCorrect);
+								Delay(100);
+								new = "";
+								UserFB = 0;
+								DigitCount();
+							}
+							
+							Else If(find("passcode", data))
+							{
+								mark1 = find("passcode", data) + 8;
+								mark2 = find(">", data, mark1 + 1);
+								If(AtoI(Mid(data, mark1, mark2 - mark1)) = newUser)
+								{
+									Pulse(100, PasscodeCorrect);
+									Delay(100);
+									new = "";
+									UserFB = 0;
+									DigitCount();
+								} 
+								
+								Else
+								{
+									EntryString = "Incorrect";
+									Pulse(100, PasscodeWrong);
+									Delay(100);
+									new = "";
+									DigitCount();
+								}
+							}
+							
+							Else
+							{
+								EntryString = "Incorrect";
+								Pulse(100, PasscodeWrong);
+								Delay(100);
+								new = "";
+								DigitCount();
+							}
+						}
+						
+						Else If(AllSearch)
+						{
+							If(find("backdoor", data))
+							{
+								Pulse(100, BackdoorCorrect);
+								Delay(100);
+								new = "";
+								UserFB = 0;
+								DigitCount();
+							}
+							
+							Else If(find("passcode", data) && find("correct", data))
+							{
+								mark1 = find("passcode", data) + 8;
+								mark2 = find(">", data, mark1 + 1);
+								UserFB = AtoI(Mid(data, mark1, mark2 - mark1));
+								Pulse(100, PasscodeCorrect);
+								Delay(100);
+								new = "";
+								UserFB = 0;
+								DigitCount();
+							}
+						}
+					}				
+				}
+				
+				Else If(foundID=id$ && Master)
+				{
+					If(find("stored", data)) {
+						mark1 = find("passcode", data) + 8;
+						mark2 = find(">", data, mark1 + 1);
+						Trace("Stored passcode %u and tried to store %u", AtoI(Mid(data, mark1, mark2 - mark1)), newUser);
+
+						If(AtoI(Mid(data, mark1, mark2 - mark1)) = newUser)
+						{
+							EntryString = "New passcode stored";
+							Pulse(100, PasscodeStored);
+							Delay(100);
+							new = "";
+							UserFB = 0;
+							DigitCount();
+						}
+					}
+				}
+				ClearBuffer(data);				
+			}
+			semephore = 1;
+		}
+		flag1 = 1;
+		flag2 = 1;
+	}
+}
+
+Change ID
+{
+	If(ID = 0)
+	{
+		Master = 1;
+	}
+	Else
+	{
+		Master = 0;
+	}
+	id$ = ItoA(ID);
+}
+
+//**MAIN**
+Function Main()
+{
+	Integer cnt, innerCnt;
+	
+	WaitForInitializationComplete();
+	Trace("ID=%s", id$);
+
+	If(ID = 0)
+	{
+		Master = 1;
+	}
+	Else
+	{
+		Master = 0;
+	}
+
+	id$ = ItoA(ID);
+	flag1 = 1;
+	flag2 = 1;
+	semephore =1 ;
+	tryCnt = 0;
+
+	for(cnt = 0 to maxDigits)
+	{
+		for(innerCnt = 0 to cnt)
+		{
+			if(innerCnt = 0)
+			{
+				stars[cnt] = "";
+			}
+			else
+			{
+				stars[cnt] = stars[cnt] + "*";
+			}
+		}
+	}
+}

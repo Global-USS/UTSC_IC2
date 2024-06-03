@@ -1,0 +1,120 @@
+/* #region Header */
+//#SYMBOL_NAME ""
+
+//Author: Mat Klucznyk
+//Company: Global USS
+//Email: mathew.klucznyk@globaluss.com
+
+#USER_SIMPLSHARP_LIBRARY "Guss.SimplExtensions"
+
+#DEFAULT_VOLATILE
+#ENABLE_STACK_CHECKING
+#ENABLE_TRACE
+
+#DEFINE_CONSTANT true 1
+#DEFINE_CONSTANT false 0
+/* #endregion */
+
+/* #region IO Constructor */
+//inputs
+string_input Input[255], RegexMatchPattern[255];
+analog_input RegexCaptureGroup;
+
+//outputs
+string_output Match;
+
+//parameters
+string_parameter _skip_, _skip_, _skip_, Default_Regex_Match_Pattern[255];
+integer_parameter Default_Regex_Capture_Group;
+
+#BEGIN_PARAMETER_PROPERTIES Default_Regex_Match_Pattern
+propValidUnits = unitString;
+propDefaultValue = "";
+#END_PARAMETER_PROPERTIES
+
+#BEGIN_PARAMETER_PROPERTIES Default_Regex_Capture_Group
+propValidUnits = unitDecimal;
+propBounds = 1d , 65535d;
+propDefaultValue = 1d;
+#END_PARAMETER_PROPERTIES
+
+//objects
+string _pattern[255];
+integer _group;
+CMutex _mutex;
+
+/* #endregion */
+
+/* #region Functions */
+
+/* #endregion */
+
+/* #region Events */
+change Input
+{
+	string val[255];
+	
+	val = Input;
+	
+	_mutex.WaitForMutex();
+	
+	try
+	{
+		Match = StringOperations.Extract(val, _pattern, _group);
+	}
+	catch
+	{
+		trace("Exception occurred: %s", GetExceptionMessage());
+		
+	}
+	
+	_mutex.ReleaseMutex();
+}
+
+change RegexMatchPattern
+{
+	string val[255];
+	
+	val = RegexMatchPattern;
+	
+	_mutex.WaitForMutex();
+	
+	_pattern = val;
+	
+	_mutex.ReleaseMutex();
+}
+
+change RegexCaptureGroup
+{
+   integer val;
+
+   val = RegexCaptureGroup;
+
+   _mutex.WaitForMutex();
+
+   _group = val;
+
+   _mutex.ReleaseMutex();
+}
+/* #endregion */
+
+/* #region Callbacks */
+
+/* #endregion */
+
+Function Main()
+{
+	_mutex.WaitForMutex();
+	WaitForInitializationComplete();
+	
+	if(len(_pattern) <= 0)
+	{
+		_pattern = Default_Regex_Match_Pattern;
+	}
+
+   if(_group <= 0)
+   {
+      _group = Default_Regex_Capture_Group;
+   }
+	_mutex.ReleaseMutex();
+}

@@ -82,6 +82,9 @@ namespace Active_Learning_Classroom
         public Active_Learning_Classroom.Admin_Volume_Widget.IAdmin_Volume_Widget Admin_Volume_Widget { get { return (Active_Learning_Classroom.Admin_Volume_Widget.IAdmin_Volume_Widget)InternalAdmin_Volume_Widget; } }
         private Active_Learning_Classroom.Admin_Volume_Widget.Admin_Volume_Widget InternalAdmin_Volume_Widget { get; set; }
 
+        public Active_Learning_Classroom.IVolume_Control_03_Panel_Widget Volume_Control_03_Panel_Widget { get { return (Active_Learning_Classroom.IVolume_Control_03_Panel_Widget)InternalVolume_Control_03_Panel_Widget; } }
+        private Active_Learning_Classroom.Volume_Control_03_Panel_Widget InternalVolume_Control_03_Panel_Widget { get; set; }
+
         #endregion
 
         #region Construction and Initialization
@@ -128,6 +131,8 @@ namespace Active_Learning_Classroom
 
             InternalAdmin_Volume_Widget = new Active_Learning_Classroom.Admin_Volume_Widget.Admin_Volume_Widget(ComponentMediator, 28);
 
+            InternalVolume_Control_03_Panel_Widget = new Active_Learning_Classroom.Volume_Control_03_Panel_Widget(ComponentMediator, 30);
+
 
             for (int index = 0; index < devices.Length; index++)
             {
@@ -165,6 +170,7 @@ namespace Active_Learning_Classroom
             InternalAdmin_Login_Widget.AddDevice(device);
             InternalCam_01_Control_Widget.AddDevice(device);
             InternalAdmin_Volume_Widget.AddDevice(device);
+            InternalVolume_Control_03_Panel_Widget.AddDevice(device);
 
         }
 
@@ -182,6 +188,7 @@ namespace Active_Learning_Classroom
             InternalAdmin_Login_Widget.RemoveDevice(device);
             InternalCam_01_Control_Widget.RemoveDevice(device);
             InternalAdmin_Volume_Widget.RemoveDevice(device);
+            InternalVolume_Control_03_Panel_Widget.RemoveDevice(device);
         }
 
         #endregion
@@ -209,6 +216,7 @@ namespace Active_Learning_Classroom
             InternalAdmin_Login_Widget.Dispose();
             InternalCam_01_Control_Widget.Dispose();
             InternalAdmin_Volume_Widget.Dispose();
+            InternalVolume_Control_03_Panel_Widget.Dispose();
 
             ComponentMediator.Dispose(); 
         }

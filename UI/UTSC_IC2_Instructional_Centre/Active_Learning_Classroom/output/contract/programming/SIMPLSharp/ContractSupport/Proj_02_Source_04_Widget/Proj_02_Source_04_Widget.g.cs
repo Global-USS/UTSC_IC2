@@ -192,28 +192,28 @@ namespace Active_Learning_Classroom.Proj_02_Source_04_Widget
         void StrProj_2__CurrentSrc_Indirect(string serial);
 
         /// <summary>
-        /// Btn.SendToProj[1].Indirect Text Feedback
+        /// Btn.SendToProj[1].Indirect Rich Text Feedback
         /// </summary>
         /// <param name="callback">The <see cref="string"/> delegate to update the panel.</param>
-        void BtnSendToProj_1__IndirectText(Proj_02_Source_04_WidgetStringInputSigDelegate callback);
+        void BtnSendToProj_1__IndirectRichText(Proj_02_Source_04_WidgetStringInputSigDelegate callback);
 
         /// <summary>
-        /// Btn.SendToProj[1].Indirect Text Feedback
+        /// Btn.SendToProj[1].Indirect Rich Text Feedback
         /// </summary>
         /// <param name="serial">The <see cref="string"/> to update the panel.</param>
-        void BtnSendToProj_1__IndirectText(string serial);
+        void BtnSendToProj_1__IndirectRichText(string serial);
 
         /// <summary>
-        /// btn.SendToProj[2].Indirect Text Feedback
+        /// btn.SendToProj[2].Indirect Rich Text Feedback
         /// </summary>
         /// <param name="callback">The <see cref="string"/> delegate to update the panel.</param>
-        void btnSendToProj_2__IndirectText(Proj_02_Source_04_WidgetStringInputSigDelegate callback);
+        void btnSendToProj_2__IndirectRichText(Proj_02_Source_04_WidgetStringInputSigDelegate callback);
 
         /// <summary>
-        /// btn.SendToProj[2].Indirect Text Feedback
+        /// btn.SendToProj[2].Indirect Rich Text Feedback
         /// </summary>
         /// <param name="serial">The <see cref="string"/> to update the panel.</param>
-        void btnSendToProj_2__IndirectText(string serial);
+        void btnSendToProj_2__IndirectRichText(string serial);
 
         /// <summary>
         /// ComplexComponent BtnList.SrcSelect
@@ -383,15 +383,15 @@ namespace Active_Learning_Classroom.Proj_02_Source_04_Widget
                 /// </summary>
                 public const uint StrProj_2__CurrentSrc_IndirectState = 2;
                 /// <summary>
-                /// Input or Feedback serial signal from Control System to panel: Proj_02_Source_04_Widget.BtnSendToProj[1].IndirectText
-                /// Btn.SendToProj[1].Indirect Text
+                /// Input or Feedback serial signal from Control System to panel: Proj_02_Source_04_Widget.BtnSendToProj[1].IndirectRichText
+                /// Btn.SendToProj[1].Indirect Rich Text
                 /// </summary>
-                public const uint BtnSendToProj_1__IndirectTextState = 3;
+                public const uint BtnSendToProj_1__IndirectRichTextState = 3;
                 /// <summary>
-                /// Input or Feedback serial signal from Control System to panel: Proj_02_Source_04_Widget.btnSendToProj[2].IndirectText
-                /// btn.SendToProj[2].Indirect Text
+                /// Input or Feedback serial signal from Control System to panel: Proj_02_Source_04_Widget.btnSendToProj[2].IndirectRichText
+                /// btn.SendToProj[2].Indirect Rich Text
                 /// </summary>
-                public const uint btnSendToProj_2__IndirectTextState = 4;
+                public const uint btnSendToProj_2__IndirectRichTextState = 4;
             }
         }
 
@@ -709,46 +709,46 @@ namespace Active_Learning_Classroom.Proj_02_Source_04_Widget
 
 
         /// <summary>
-        /// String feedback Btn.SendToProj[1].Indirect Text
+        /// String feedback Btn.SendToProj[1].Indirect Rich Text
         /// </summary>
         /// <param name="buttonIndex">The index of the button (0 based).</param>
         /// <param name="callback">The delegate to set the string feedback.</param>
-        public void BtnSendToProj_1__IndirectText(Proj_02_Source_04_WidgetStringInputSigDelegate callback)
+        public void BtnSendToProj_1__IndirectRichText(Proj_02_Source_04_WidgetStringInputSigDelegate callback)
         {
             for (int index = 0; index < Devices.Count; index++)
             {
-                callback(Devices[index].SmartObjects[ControlJoinId].StringInput[Joins.Strings.BtnSendToProj_1__IndirectTextState], this);
+                callback(Devices[index].SmartObjects[ControlJoinId].StringInput[Joins.Strings.BtnSendToProj_1__IndirectRichTextState], this);
             }
         }
 
         /// <summary>
-        /// String feedback Btn.SendToProj[1].Indirect Text
+        /// String feedback Btn.SendToProj[1].Indirect Rich Text
         /// </summary>
         /// <param name="serial">The <see cref="string"/> to update the panel.</param>
-        public void BtnSendToProj_1__IndirectText(string serial)
+        public void BtnSendToProj_1__IndirectRichText(string serial)
         {
-            BtnSendToProj_1__IndirectText((sig, component) => sig.StringValue = serial);
+            BtnSendToProj_1__IndirectRichText((sig, component) => sig.StringValue = serial);
         }
         /// <summary>
-        /// String feedback btn.SendToProj[2].Indirect Text
+        /// String feedback btn.SendToProj[2].Indirect Rich Text
         /// </summary>
         /// <param name="buttonIndex">The index of the button (0 based).</param>
         /// <param name="callback">The delegate to set the string feedback.</param>
-        public void btnSendToProj_2__IndirectText(Proj_02_Source_04_WidgetStringInputSigDelegate callback)
+        public void btnSendToProj_2__IndirectRichText(Proj_02_Source_04_WidgetStringInputSigDelegate callback)
         {
             for (int index = 0; index < Devices.Count; index++)
             {
-                callback(Devices[index].SmartObjects[ControlJoinId].StringInput[Joins.Strings.btnSendToProj_2__IndirectTextState], this);
+                callback(Devices[index].SmartObjects[ControlJoinId].StringInput[Joins.Strings.btnSendToProj_2__IndirectRichTextState], this);
             }
         }
 
         /// <summary>
-        /// String feedback btn.SendToProj[2].Indirect Text
+        /// String feedback btn.SendToProj[2].Indirect Rich Text
         /// </summary>
         /// <param name="serial">The <see cref="string"/> to update the panel.</param>
-        public void btnSendToProj_2__IndirectText(string serial)
+        public void btnSendToProj_2__IndirectRichText(string serial)
         {
-            btnSendToProj_2__IndirectText((sig, component) => sig.StringValue = serial);
+            btnSendToProj_2__IndirectRichText((sig, component) => sig.StringValue = serial);
         }
         /// <summary>
         /// String feedback Str.Proj[1]_CurrentSrc.Indirect

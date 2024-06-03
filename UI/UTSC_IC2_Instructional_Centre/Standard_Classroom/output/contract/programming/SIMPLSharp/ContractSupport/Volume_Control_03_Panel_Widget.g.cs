@@ -21,201 +21,184 @@ using Crestron.SimplSharpPro.DeviceSupport;
 using Crestron.SimplSharpPro;
 using Standard_Classroom;
 
-namespace Standard_Classroom.Main_Page.Volume_Control_0x_Panel_Widget
+namespace Standard_Classroom
 {
 
     /// <summary>
-    /// Volume_Control_0x_Panel_Widget
+    /// Volume_Control_03_Panel_Widget
     /// </summary>
-    public partial interface IVolume_Control_0x_Panel_Widget 
+    public partial interface IVolume_Control_03_Panel_Widget 
     {
         object UserObject { get; set; }
 
         /// <summary>
-        /// Main_Page.Volume_Control_0x_Panel_Widget.Btn.PodMicVolDec.Press
+        /// Btn.PodMicVolDec.Press
         /// </summary>
         event EventHandler<UIEventArgs> BtnPodMicVolDec_PressEvent;
 
         /// <summary>
-        /// Main_Page.Volume_Control_0x_Panel_Widget.Btn.PodMicVolInc.Press
+        /// Btn.PodMicVolInc.Press
         /// </summary>
         event EventHandler<UIEventArgs> BtnPodMicVolInc_PressEvent;
 
         /// <summary>
-        /// Main_Page.Volume_Control_0x_Panel_Widget.Btn.PodMicVolMuteTgl.Press
-        /// </summary>
-        event EventHandler<UIEventArgs> BtnPodMicVolMuteTgl_PressEvent;
-
-        /// <summary>
-        /// Main_Page.Volume_Control_0x_Panel_Widget.Guage.PodMicVol.Lower Touch
+        /// Guage.PodMicVol.Lower Touch
         /// </summary>
         event EventHandler<UIEventArgs> GuagePodMicVol_LowerTouchEvent;
 
         /// <summary>
-        /// Main_Page.Volume_Control_0x_Panel_Widget.Btn.SrcVolDec.Press
+        /// Btn.PodMicVolMuteTgl.Press
         /// </summary>
-        event EventHandler<UIEventArgs> BtnSrcVolDec_PressEvent;
+        event EventHandler<UIEventArgs> BtnPodMicVolMuteTgl_PressEvent;
 
         /// <summary>
-        /// Main_Page.Volume_Control_0x_Panel_Widget.Guage.SrcVol.Lower Touch
+        /// Guage.SrcVol.Lower Touch
         /// </summary>
         event EventHandler<UIEventArgs> GuageSrcVol_LowerTouchEvent;
 
         /// <summary>
-        /// Main_Page.Volume_Control_0x_Panel_Widget.Btn.SrcVolInc.Press
+        /// Btn.SrcVolDec.Press
         /// </summary>
-        event EventHandler<UIEventArgs> BtnSrcVolInc_PressEvent;
+        event EventHandler<UIEventArgs> BtnSrcVolDec_PressEvent;
 
         /// <summary>
-        /// Main_Page.Volume_Control_0x_Panel_Widget.Guage.WirelessMicVol.Lower Touch
+        /// Guage.WirelessMicVol.Lower Touch
         /// </summary>
         event EventHandler<UIEventArgs> GuageWirelessMicVol_LowerTouchEvent;
 
         /// <summary>
-        /// Main_Page.Volume_Control_0x_Panel_Widget.Btn.SrcVolMuteTgl.Press
+        /// Btn.SrcVolInc.Press
+        /// </summary>
+        event EventHandler<UIEventArgs> BtnSrcVolInc_PressEvent;
+
+        /// <summary>
+        /// Btn.SrcVolMuteTgl.Press
         /// </summary>
         event EventHandler<UIEventArgs> BtnSrcVolMuteTgl_PressEvent;
 
         /// <summary>
-        /// Main_Page.Volume_Control_0x_Panel_Widget.Btn.WirelessMicVolDec.Press
+        /// Btn.WirelessMicVolDec.Press
         /// </summary>
         event EventHandler<UIEventArgs> BtnWirelessMicVolDec_PressEvent;
 
         /// <summary>
-        /// Main_Page.Volume_Control_0x_Panel_Widget.Btn.WirelessMicVolInc.Press
+        /// Btn.WirelessMicVolInc.Press
         /// </summary>
         event EventHandler<UIEventArgs> BtnWirelessMicVolInc_PressEvent;
 
         /// <summary>
-        /// Main_Page.Volume_Control_0x_Panel_Widget.Btn.WirelessMicVolMuteTgl.Press
+        /// Btn.WirelessMicVolMuteTgl.Press
         /// </summary>
         event EventHandler<UIEventArgs> BtnWirelessMicVolMuteTgl_PressEvent;
 
         /// <summary>
-        /// Volume_Control_0x_Panel_Widget.Visibility Feedback
+        /// Btn.PodMicVolMuteTgl.Selected Feedback
         /// </summary>
         /// <param name="callback">The bool delegate to update the panel.</param>
-        void Volume_Control_0x_Panel_Widget_Visibility(Volume_Control_0x_Panel_WidgetBoolInputSigDelegate callback);
+        void BtnPodMicVolMuteTgl_Selected(Volume_Control_03_Panel_WidgetBoolInputSigDelegate callback);
 
         /// <summary>
-        /// Volume_Control_0x_Panel_Widget.Visibility Feedback
-        /// </summary>
-        /// <param name="digital">The bool to update the panel.</param>
-        void Volume_Control_0x_Panel_Widget_Visibility(bool digital);
-
-        /// <summary>
-        /// Main_Page.Volume_Control_0x_Panel_Widget.Btn.PodMicVolMuteTgl.Selected Feedback
-        /// </summary>
-        /// <param name="callback">The bool delegate to update the panel.</param>
-        void BtnPodMicVolMuteTgl_Selected(Volume_Control_0x_Panel_WidgetBoolInputSigDelegate callback);
-
-        /// <summary>
-        /// Main_Page.Volume_Control_0x_Panel_Widget.Btn.PodMicVolMuteTgl.Selected Feedback
+        /// Btn.PodMicVolMuteTgl.Selected Feedback
         /// </summary>
         /// <param name="digital">The bool to update the panel.</param>
         void BtnPodMicVolMuteTgl_Selected(bool digital);
 
         /// <summary>
-        /// Main_Page.Volume_Control_0x_Panel_Widget.Btn.SrcVolMuteTgl.Selected Feedback
+        /// Btn.SrcVolMuteTgl.Selected Feedback
         /// </summary>
         /// <param name="callback">The bool delegate to update the panel.</param>
-        void BtnSrcVolMuteTgl_Selected(Volume_Control_0x_Panel_WidgetBoolInputSigDelegate callback);
+        void BtnSrcVolMuteTgl_Selected(Volume_Control_03_Panel_WidgetBoolInputSigDelegate callback);
 
         /// <summary>
-        /// Main_Page.Volume_Control_0x_Panel_Widget.Btn.SrcVolMuteTgl.Selected Feedback
+        /// Btn.SrcVolMuteTgl.Selected Feedback
         /// </summary>
         /// <param name="digital">The bool to update the panel.</param>
         void BtnSrcVolMuteTgl_Selected(bool digital);
 
         /// <summary>
-        /// Main_Page.Volume_Control_0x_Panel_Widget.Btn.WirelessMicVolMuteTgl.Selected Feedback
+        /// Btn.WirelessMicVolMuteTgl.Selected Feedback
         /// </summary>
         /// <param name="callback">The bool delegate to update the panel.</param>
-        void BtnWirelessMicVolMuteTgl_Selected(Volume_Control_0x_Panel_WidgetBoolInputSigDelegate callback);
+        void BtnWirelessMicVolMuteTgl_Selected(Volume_Control_03_Panel_WidgetBoolInputSigDelegate callback);
 
         /// <summary>
-        /// Main_Page.Volume_Control_0x_Panel_Widget.Btn.WirelessMicVolMuteTgl.Selected Feedback
+        /// Btn.WirelessMicVolMuteTgl.Selected Feedback
         /// </summary>
         /// <param name="digital">The bool to update the panel.</param>
         void BtnWirelessMicVolMuteTgl_Selected(bool digital);
 
         /// <summary>
-        /// Main_Page.Volume_Control_0x_Panel_Widget.Guage.PodMicVol.Lower Touch fb Feedback
+        /// Guage.PodMicVol.Lower Touch fb Feedback
         /// </summary>
         /// <param name="callback">The ushort delegate to update the panel.</param>
-        void GuagePodMicVol_LowerTouchfb(Volume_Control_0x_Panel_WidgetUShortInputSigDelegate callback);
+        void GuagePodMicVol_LowerTouchfb(Volume_Control_03_Panel_WidgetUShortInputSigDelegate callback);
 
         /// <summary>
-        /// Main_Page.Volume_Control_0x_Panel_Widget.Guage.PodMicVol.Lower Touch fb Feedback
+        /// Guage.PodMicVol.Lower Touch fb Feedback
         /// </summary>
         /// <param name="callback">The ushort analog to update the panel.</param>
         void GuagePodMicVol_LowerTouchfb(ushort analog);
 
         /// <summary>
-        /// Main_Page.Volume_Control_0x_Panel_Widget.Guage.PodMicVol.Lower Touch fb Feedback
+        /// Guage.PodMicVol.Lower Touch fb Feedback
         /// </summary>
         /// <param name="callback">The short analog to update the panel.</param>
         void GuagePodMicVol_LowerTouchfb(short analog);
 
         /// <summary>
-        /// Main_Page.Volume_Control_0x_Panel_Widget.Guage.SrcVol.Lower Touch fb Feedback
+        /// Guage.SrcVol.Lower Touch fb Feedback
         /// </summary>
         /// <param name="callback">The ushort delegate to update the panel.</param>
-        void GuageSrcVol_LowerTouchfb(Volume_Control_0x_Panel_WidgetUShortInputSigDelegate callback);
+        void GuageSrcVol_LowerTouchfb(Volume_Control_03_Panel_WidgetUShortInputSigDelegate callback);
 
         /// <summary>
-        /// Main_Page.Volume_Control_0x_Panel_Widget.Guage.SrcVol.Lower Touch fb Feedback
+        /// Guage.SrcVol.Lower Touch fb Feedback
         /// </summary>
         /// <param name="callback">The ushort analog to update the panel.</param>
         void GuageSrcVol_LowerTouchfb(ushort analog);
 
         /// <summary>
-        /// Main_Page.Volume_Control_0x_Panel_Widget.Guage.SrcVol.Lower Touch fb Feedback
+        /// Guage.SrcVol.Lower Touch fb Feedback
         /// </summary>
         /// <param name="callback">The short analog to update the panel.</param>
         void GuageSrcVol_LowerTouchfb(short analog);
 
         /// <summary>
-        /// Main_Page.Volume_Control_0x_Panel_Widget.Guage.WirelessMicVol.Lower Touch fb Feedback
+        /// Guage.WirelessMicVol.Lower Touch fb Feedback
         /// </summary>
         /// <param name="callback">The ushort delegate to update the panel.</param>
-        void GuageWirelessMicVol_LowerTouchfb(Volume_Control_0x_Panel_WidgetUShortInputSigDelegate callback);
+        void GuageWirelessMicVol_LowerTouchfb(Volume_Control_03_Panel_WidgetUShortInputSigDelegate callback);
 
         /// <summary>
-        /// Main_Page.Volume_Control_0x_Panel_Widget.Guage.WirelessMicVol.Lower Touch fb Feedback
+        /// Guage.WirelessMicVol.Lower Touch fb Feedback
         /// </summary>
         /// <param name="callback">The ushort analog to update the panel.</param>
         void GuageWirelessMicVol_LowerTouchfb(ushort analog);
 
         /// <summary>
-        /// Main_Page.Volume_Control_0x_Panel_Widget.Guage.WirelessMicVol.Lower Touch fb Feedback
+        /// Guage.WirelessMicVol.Lower Touch fb Feedback
         /// </summary>
         /// <param name="callback">The short analog to update the panel.</param>
         void GuageWirelessMicVol_LowerTouchfb(short analog);
-
-        /// <summary>
-        /// ComplexComponent List.MicSelection
-        /// </summary>
-        Standard_Classroom.Main_Page.Volume_Control_0x_Panel_Widget.IListMicSelection ListMicSelection { get; }
     }
 
     /// <summary>
     /// Digital callback used in feedback events.
     /// </summary>
     /// <param name="boolInputSig">The <see cref="BoolInputSig"/> signal data.</param>
-    /// <param name="volume_control_0x_panel_widget">The <see cref="IVolume_Control_0x_Panel_Widget"/> on which to apply the feedback.</param>
-    public delegate void Volume_Control_0x_Panel_WidgetBoolInputSigDelegate(BoolInputSig boolInputSig, IVolume_Control_0x_Panel_Widget volume_control_0x_panel_widget);
+    /// <param name="volume_control_03_panel_widget">The <see cref="IVolume_Control_03_Panel_Widget"/> on which to apply the feedback.</param>
+    public delegate void Volume_Control_03_Panel_WidgetBoolInputSigDelegate(BoolInputSig boolInputSig, IVolume_Control_03_Panel_Widget volume_control_03_panel_widget);
     /// <summary>
     /// Digital callback used in feedback events.
     /// </summary>
     /// <param name="uShortInputSig">The <see cref="UShortInputSig"/> signal data.</param>
-    /// <param name="volume_control_0x_panel_widget">The <see cref="IVolume_Control_0x_Panel_Widget"/> on which to apply the feedback.</param>
-    public delegate void Volume_Control_0x_Panel_WidgetUShortInputSigDelegate(UShortInputSig uShortInputSig, IVolume_Control_0x_Panel_Widget volume_control_0x_panel_widget);
+    /// <param name="volume_control_03_panel_widget">The <see cref="IVolume_Control_03_Panel_Widget"/> on which to apply the feedback.</param>
+    public delegate void Volume_Control_03_Panel_WidgetUShortInputSigDelegate(UShortInputSig uShortInputSig, IVolume_Control_03_Panel_Widget volume_control_03_panel_widget);
 
     /// <summary>
-    /// Volume_Control_0x_Panel_Widget
+    /// Volume_Control_03_Panel_Widget
     /// </summary>
-    internal partial class Volume_Control_0x_Panel_Widget : IVolume_Control_0x_Panel_Widget, IDisposable
+    internal partial class Volume_Control_03_Panel_Widget : IVolume_Control_03_Panel_Widget, IDisposable
     {
         #region Standard CH5 Component members
 
@@ -247,81 +230,75 @@ namespace Standard_Classroom.Main_Page.Volume_Control_0x_Panel_Widget
             internal static class Booleans
             {
                 /// <summary>
-                /// Output or Event digital signal from panel to Control System: Main_Page.Volume_Control_0x_Panel_Widget.BtnPodMicVolDec.Press
-                /// Main_Page.Volume_Control_0x_Panel_Widget.Btn.PodMicVolDec.Press
+                /// Output or Event digital signal from panel to Control System: Volume_Control_03_Panel_Widget.BtnPodMicVolDec.Press
+                /// Btn.PodMicVolDec.Press
                 /// </summary>
-                public const uint BtnPodMicVolDec_PressEvent = 2;
+                public const uint BtnPodMicVolDec_PressEvent = 3;
 
                 /// <summary>
-                /// Output or Event digital signal from panel to Control System: Main_Page.Volume_Control_0x_Panel_Widget.BtnPodMicVolInc.Press
-                /// Main_Page.Volume_Control_0x_Panel_Widget.Btn.PodMicVolInc.Press
+                /// Output or Event digital signal from panel to Control System: Volume_Control_03_Panel_Widget.BtnPodMicVolInc.Press
+                /// Btn.PodMicVolInc.Press
                 /// </summary>
-                public const uint BtnPodMicVolInc_PressEvent = 3;
+                public const uint BtnPodMicVolInc_PressEvent = 4;
 
                 /// <summary>
-                /// Output or Event digital signal from panel to Control System: Main_Page.Volume_Control_0x_Panel_Widget.BtnPodMicVolMuteTgl.Press
-                /// Main_Page.Volume_Control_0x_Panel_Widget.Btn.PodMicVolMuteTgl.Press
+                /// Output or Event digital signal from panel to Control System: Volume_Control_03_Panel_Widget.BtnPodMicVolMuteTgl.Press
+                /// Btn.PodMicVolMuteTgl.Press
                 /// </summary>
-                public const uint BtnPodMicVolMuteTgl_PressEvent = 4;
+                public const uint BtnPodMicVolMuteTgl_PressEvent = 5;
 
                 /// <summary>
-                /// Output or Event digital signal from panel to Control System: Main_Page.Volume_Control_0x_Panel_Widget.BtnSrcVolDec.Press
-                /// Main_Page.Volume_Control_0x_Panel_Widget.Btn.SrcVolDec.Press
+                /// Output or Event digital signal from panel to Control System: Volume_Control_03_Panel_Widget.BtnSrcVolDec.Press
+                /// Btn.SrcVolDec.Press
                 /// </summary>
-                public const uint BtnSrcVolDec_PressEvent = 5;
+                public const uint BtnSrcVolDec_PressEvent = 6;
 
                 /// <summary>
-                /// Output or Event digital signal from panel to Control System: Main_Page.Volume_Control_0x_Panel_Widget.BtnSrcVolInc.Press
-                /// Main_Page.Volume_Control_0x_Panel_Widget.Btn.SrcVolInc.Press
+                /// Output or Event digital signal from panel to Control System: Volume_Control_03_Panel_Widget.BtnSrcVolInc.Press
+                /// Btn.SrcVolInc.Press
                 /// </summary>
-                public const uint BtnSrcVolInc_PressEvent = 6;
+                public const uint BtnSrcVolInc_PressEvent = 7;
 
                 /// <summary>
-                /// Output or Event digital signal from panel to Control System: Main_Page.Volume_Control_0x_Panel_Widget.BtnSrcVolMuteTgl.Press
-                /// Main_Page.Volume_Control_0x_Panel_Widget.Btn.SrcVolMuteTgl.Press
+                /// Output or Event digital signal from panel to Control System: Volume_Control_03_Panel_Widget.BtnSrcVolMuteTgl.Press
+                /// Btn.SrcVolMuteTgl.Press
                 /// </summary>
-                public const uint BtnSrcVolMuteTgl_PressEvent = 7;
+                public const uint BtnSrcVolMuteTgl_PressEvent = 8;
 
                 /// <summary>
-                /// Output or Event digital signal from panel to Control System: Main_Page.Volume_Control_0x_Panel_Widget.BtnWirelessMicVolDec.Press
-                /// Main_Page.Volume_Control_0x_Panel_Widget.Btn.WirelessMicVolDec.Press
+                /// Output or Event digital signal from panel to Control System: Volume_Control_03_Panel_Widget.BtnWirelessMicVolDec.Press
+                /// Btn.WirelessMicVolDec.Press
                 /// </summary>
-                public const uint BtnWirelessMicVolDec_PressEvent = 8;
+                public const uint BtnWirelessMicVolDec_PressEvent = 9;
 
                 /// <summary>
-                /// Output or Event digital signal from panel to Control System: Main_Page.Volume_Control_0x_Panel_Widget.BtnWirelessMicVolInc.Press
-                /// Main_Page.Volume_Control_0x_Panel_Widget.Btn.WirelessMicVolInc.Press
+                /// Output or Event digital signal from panel to Control System: Volume_Control_03_Panel_Widget.BtnWirelessMicVolInc.Press
+                /// Btn.WirelessMicVolInc.Press
                 /// </summary>
-                public const uint BtnWirelessMicVolInc_PressEvent = 9;
+                public const uint BtnWirelessMicVolInc_PressEvent = 10;
 
                 /// <summary>
-                /// Output or Event digital signal from panel to Control System: Main_Page.Volume_Control_0x_Panel_Widget.BtnWirelessMicVolMuteTgl.Press
-                /// Main_Page.Volume_Control_0x_Panel_Widget.Btn.WirelessMicVolMuteTgl.Press
+                /// Output or Event digital signal from panel to Control System: Volume_Control_03_Panel_Widget.BtnWirelessMicVolMuteTgl.Press
+                /// Btn.WirelessMicVolMuteTgl.Press
                 /// </summary>
-                public const uint BtnWirelessMicVolMuteTgl_PressEvent = 10;
+                public const uint BtnWirelessMicVolMuteTgl_PressEvent = 11;
 
 
                 /// <summary>
-                /// Input or Feedback digital signal from Control System to panel: Main_Page.Volume_Control_0x_Panel_Widget.Visibility
-                /// Volume_Control_0x_Panel_Widget.Visibility
-                /// </summary>
-                public const uint Volume_Control_0x_Panel_Widget_VisibilityState = 1;
-
-                /// <summary>
-                /// Input or Feedback digital signal from Control System to panel: Main_Page.Volume_Control_0x_Panel_Widget.BtnPodMicVolMuteTgl.Selected
-                /// Main_Page.Volume_Control_0x_Panel_Widget.Btn.PodMicVolMuteTgl.Selected
+                /// Input or Feedback digital signal from Control System to panel: Volume_Control_03_Panel_Widget.BtnPodMicVolMuteTgl.Selected
+                /// Btn.PodMicVolMuteTgl.Selected
                 /// </summary>
                 public const uint BtnPodMicVolMuteTgl_SelectedState = 3;
 
                 /// <summary>
-                /// Input or Feedback digital signal from Control System to panel: Main_Page.Volume_Control_0x_Panel_Widget.BtnSrcVolMuteTgl.Selected
-                /// Main_Page.Volume_Control_0x_Panel_Widget.Btn.SrcVolMuteTgl.Selected
+                /// Input or Feedback digital signal from Control System to panel: Volume_Control_03_Panel_Widget.BtnSrcVolMuteTgl.Selected
+                /// Btn.SrcVolMuteTgl.Selected
                 /// </summary>
                 public const uint BtnSrcVolMuteTgl_SelectedState = 4;
 
                 /// <summary>
-                /// Input or Feedback digital signal from Control System to panel: Main_Page.Volume_Control_0x_Panel_Widget.BtnWirelessMicVolMuteTgl.Selected
-                /// Main_Page.Volume_Control_0x_Panel_Widget.Btn.WirelessMicVolMuteTgl.Selected
+                /// Input or Feedback digital signal from Control System to panel: Volume_Control_03_Panel_Widget.BtnWirelessMicVolMuteTgl.Selected
+                /// Btn.WirelessMicVolMuteTgl.Selected
                 /// </summary>
                 public const uint BtnWirelessMicVolMuteTgl_SelectedState = 5;
 
@@ -332,39 +309,39 @@ namespace Standard_Classroom.Main_Page.Volume_Control_0x_Panel_Widget
             internal static class Numerics
             {
                 /// <summary>
-                /// Output or Event analog signal from panel to Control System: Main_Page.Volume_Control_0x_Panel_Widget.GuagePodMicVol.LowerTouch
-                /// Main_Page.Volume_Control_0x_Panel_Widget.Guage.PodMicVol.Lower Touch
+                /// Output or Event analog signal from panel to Control System: Volume_Control_03_Panel_Widget.GuagePodMicVol.LowerTouch
+                /// Guage.PodMicVol.Lower Touch
                 /// </summary>
                 public const uint GuagePodMicVol_LowerTouchEvent = 4;
 
                 /// <summary>
-                /// Output or Event analog signal from panel to Control System: Main_Page.Volume_Control_0x_Panel_Widget.GuageSrcVol.LowerTouch
-                /// Main_Page.Volume_Control_0x_Panel_Widget.Guage.SrcVol.Lower Touch
+                /// Output or Event analog signal from panel to Control System: Volume_Control_03_Panel_Widget.GuageSrcVol.LowerTouch
+                /// Guage.SrcVol.Lower Touch
                 /// </summary>
                 public const uint GuageSrcVol_LowerTouchEvent = 5;
 
                 /// <summary>
-                /// Output or Event analog signal from panel to Control System: Main_Page.Volume_Control_0x_Panel_Widget.GuageWirelessMicVol.LowerTouch
-                /// Main_Page.Volume_Control_0x_Panel_Widget.Guage.WirelessMicVol.Lower Touch
+                /// Output or Event analog signal from panel to Control System: Volume_Control_03_Panel_Widget.GuageWirelessMicVol.LowerTouch
+                /// Guage.WirelessMicVol.Lower Touch
                 /// </summary>
                 public const uint GuageWirelessMicVol_LowerTouchEvent = 6;
 
 
                 /// <summary>
-                /// Input or Feedback analog signal from Control System to panel: Main_Page.Volume_Control_0x_Panel_Widget.GuagePodMicVol.LowerTouchfb
-                /// Main_Page.Volume_Control_0x_Panel_Widget.Guage.PodMicVol.Lower Touch fb
+                /// Input or Feedback analog signal from Control System to panel: Volume_Control_03_Panel_Widget.GuagePodMicVol.LowerTouchfb
+                /// Guage.PodMicVol.Lower Touch fb
                 /// </summary>
                 public const uint GuagePodMicVol_LowerTouchfbState = 4;
 
                 /// <summary>
-                /// Input or Feedback analog signal from Control System to panel: Main_Page.Volume_Control_0x_Panel_Widget.GuageSrcVol.LowerTouchfb
-                /// Main_Page.Volume_Control_0x_Panel_Widget.Guage.SrcVol.Lower Touch fb
+                /// Input or Feedback analog signal from Control System to panel: Volume_Control_03_Panel_Widget.GuageSrcVol.LowerTouchfb
+                /// Guage.SrcVol.Lower Touch fb
                 /// </summary>
                 public const uint GuageSrcVol_LowerTouchfbState = 5;
 
                 /// <summary>
-                /// Input or Feedback analog signal from Control System to panel: Main_Page.Volume_Control_0x_Panel_Widget.GuageWirelessMicVol.LowerTouchfb
-                /// Main_Page.Volume_Control_0x_Panel_Widget.Guage.WirelessMicVol.Lower Touch fb
+                /// Input or Feedback analog signal from Control System to panel: Volume_Control_03_Panel_Widget.GuageWirelessMicVol.LowerTouchfb
+                /// Guage.WirelessMicVol.Lower Touch fb
                 /// </summary>
                 public const uint GuageWirelessMicVol_LowerTouchfbState = 6;
 
@@ -376,23 +353,23 @@ namespace Standard_Classroom.Main_Page.Volume_Control_0x_Panel_Widget
         #region Construction and Initialization
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="Volume_Control_0x_Panel_Widget"/> component class.
+        /// Initializes a new instance of the <see cref="Volume_Control_03_Panel_Widget"/> component class.
         /// </summary>
         /// <param name="componentMediator">The <see cref="ComponentMediator"/> used to instantiate the component.</param>
         /// <param name="controlJoinId">The SmartObjectId at which to create the component.</param>
         /// <param name="itemCount">The number of items.</param>
-        internal Volume_Control_0x_Panel_Widget(ComponentMediator componentMediator, uint controlJoinId, uint? itemCount)
+        internal Volume_Control_03_Panel_Widget(ComponentMediator componentMediator, uint controlJoinId, uint? itemCount)
         {
             ComponentMediator = componentMediator;
             Initialize(controlJoinId, itemCount);
         }
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="Volume_Control_0x_Panel_Widget"/> component class.
+        /// Initializes a new instance of the <see cref="Volume_Control_03_Panel_Widget"/> component class.
         /// </summary>
         /// <param name="componentMediator">The <see cref="ComponentMediator"/> used to instantiate the component.</param>
         /// <param name="controlJoinId">The SmartObjectId at which to create the component.</param>
-        internal Volume_Control_0x_Panel_Widget(ComponentMediator componentMediator, uint controlJoinId) : this(componentMediator, controlJoinId, null)
+        internal Volume_Control_03_Panel_Widget(ComponentMediator componentMediator, uint controlJoinId) : this(componentMediator, controlJoinId, null)
         {
         }
 
@@ -408,7 +385,7 @@ namespace Standard_Classroom.Main_Page.Volume_Control_0x_Panel_Widget
         private Dictionary<string, Indexes> _indexLookup = new Dictionary<string, Indexes>();
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="Volume_Control_0x_Panel_Widget"/> component class.
+        /// Initializes a new instance of the <see cref="Volume_Control_03_Panel_Widget"/> component class.
         /// </summary>
         /// <param name="controlJoinId">The SmartObjectId at which to create the component.</param>
         /// <param name="itemCount">The number of items.</param>
@@ -431,23 +408,18 @@ namespace Standard_Classroom.Main_Page.Volume_Control_0x_Panel_Widget
             ComponentMediator.ConfigureNumericEvent(controlJoinId, Joins.Numerics.GuagePodMicVol_LowerTouchEvent, onGuagePodMicVol_LowerTouch);
             ComponentMediator.ConfigureNumericEvent(controlJoinId, Joins.Numerics.GuageSrcVol_LowerTouchEvent, onGuageSrcVol_LowerTouch);
             ComponentMediator.ConfigureNumericEvent(controlJoinId, Joins.Numerics.GuageWirelessMicVol_LowerTouchEvent, onGuageWirelessMicVol_LowerTouch);
-            ListMicSelection = new Standard_Classroom.Main_Page.Volume_Control_0x_Panel_Widget.ListMicSelection(ComponentMediator, 14);
         }
 
         public void AddDevice(BasicTriListWithSmartObject device)
         {
             Devices.Add(device);
             ComponentMediator.HookSmartObjectEvents(device.SmartObjects[ControlJoinId]);
-
-            ((Standard_Classroom.Main_Page.Volume_Control_0x_Panel_Widget.ListMicSelection)ListMicSelection).AddDevice(device);
         }
 
         public void RemoveDevice(BasicTriListWithSmartObject device)
         {
             Devices.Remove(device);
             ComponentMediator.UnHookSmartObjectEvents(device.SmartObjects[ControlJoinId]);
-
-            ((Standard_Classroom.Main_Page.Volume_Control_0x_Panel_Widget.ListMicSelection)ListMicSelection).RemoveDevice(device);
         }
 
         #endregion
@@ -455,7 +427,7 @@ namespace Standard_Classroom.Main_Page.Volume_Control_0x_Panel_Widget
         #region CH5 Contract
 
         /// <summary>
-        /// Event Main_Page.Volume_Control_0x_Panel_Widget.Btn.PodMicVolDec.Press (from panel to Control System)
+        /// Event Btn.PodMicVolDec.Press (from panel to Control System)
         /// </summary>
         public event EventHandler<UIEventArgs> BtnPodMicVolDec_PressEvent;
         private void onBtnPodMicVolDec_Press(SmartObjectEventArgs eventArgs)
@@ -466,7 +438,7 @@ namespace Standard_Classroom.Main_Page.Volume_Control_0x_Panel_Widget
         }
 
         /// <summary>
-        /// Event Main_Page.Volume_Control_0x_Panel_Widget.Btn.PodMicVolInc.Press (from panel to Control System)
+        /// Event Btn.PodMicVolInc.Press (from panel to Control System)
         /// </summary>
         public event EventHandler<UIEventArgs> BtnPodMicVolInc_PressEvent;
         private void onBtnPodMicVolInc_Press(SmartObjectEventArgs eventArgs)
@@ -477,18 +449,7 @@ namespace Standard_Classroom.Main_Page.Volume_Control_0x_Panel_Widget
         }
 
         /// <summary>
-        /// Event Main_Page.Volume_Control_0x_Panel_Widget.Btn.PodMicVolMuteTgl.Press (from panel to Control System)
-        /// </summary>
-        public event EventHandler<UIEventArgs> BtnPodMicVolMuteTgl_PressEvent;
-        private void onBtnPodMicVolMuteTgl_Press(SmartObjectEventArgs eventArgs)
-        {
-            EventHandler<UIEventArgs> handler = BtnPodMicVolMuteTgl_PressEvent;
-            if (handler != null)
-                handler(this, UIEventArgs.CreateEventArgs(eventArgs));
-        }
-
-        /// <summary>
-        /// Event Main_Page.Volume_Control_0x_Panel_Widget.Guage.PodMicVol.Lower Touch (from panel to Control System)
+        /// Event Guage.PodMicVol.Lower Touch (from panel to Control System)
         /// </summary>
         public event EventHandler<UIEventArgs> GuagePodMicVol_LowerTouchEvent;
         private void onGuagePodMicVol_LowerTouch(SmartObjectEventArgs eventArgs)
@@ -499,18 +460,18 @@ namespace Standard_Classroom.Main_Page.Volume_Control_0x_Panel_Widget
         }
 
         /// <summary>
-        /// Event Main_Page.Volume_Control_0x_Panel_Widget.Btn.SrcVolDec.Press (from panel to Control System)
+        /// Event Btn.PodMicVolMuteTgl.Press (from panel to Control System)
         /// </summary>
-        public event EventHandler<UIEventArgs> BtnSrcVolDec_PressEvent;
-        private void onBtnSrcVolDec_Press(SmartObjectEventArgs eventArgs)
+        public event EventHandler<UIEventArgs> BtnPodMicVolMuteTgl_PressEvent;
+        private void onBtnPodMicVolMuteTgl_Press(SmartObjectEventArgs eventArgs)
         {
-            EventHandler<UIEventArgs> handler = BtnSrcVolDec_PressEvent;
+            EventHandler<UIEventArgs> handler = BtnPodMicVolMuteTgl_PressEvent;
             if (handler != null)
                 handler(this, UIEventArgs.CreateEventArgs(eventArgs));
         }
 
         /// <summary>
-        /// Event Main_Page.Volume_Control_0x_Panel_Widget.Guage.SrcVol.Lower Touch (from panel to Control System)
+        /// Event Guage.SrcVol.Lower Touch (from panel to Control System)
         /// </summary>
         public event EventHandler<UIEventArgs> GuageSrcVol_LowerTouchEvent;
         private void onGuageSrcVol_LowerTouch(SmartObjectEventArgs eventArgs)
@@ -521,18 +482,18 @@ namespace Standard_Classroom.Main_Page.Volume_Control_0x_Panel_Widget
         }
 
         /// <summary>
-        /// Event Main_Page.Volume_Control_0x_Panel_Widget.Btn.SrcVolInc.Press (from panel to Control System)
+        /// Event Btn.SrcVolDec.Press (from panel to Control System)
         /// </summary>
-        public event EventHandler<UIEventArgs> BtnSrcVolInc_PressEvent;
-        private void onBtnSrcVolInc_Press(SmartObjectEventArgs eventArgs)
+        public event EventHandler<UIEventArgs> BtnSrcVolDec_PressEvent;
+        private void onBtnSrcVolDec_Press(SmartObjectEventArgs eventArgs)
         {
-            EventHandler<UIEventArgs> handler = BtnSrcVolInc_PressEvent;
+            EventHandler<UIEventArgs> handler = BtnSrcVolDec_PressEvent;
             if (handler != null)
                 handler(this, UIEventArgs.CreateEventArgs(eventArgs));
         }
 
         /// <summary>
-        /// Event Main_Page.Volume_Control_0x_Panel_Widget.Guage.WirelessMicVol.Lower Touch (from panel to Control System)
+        /// Event Guage.WirelessMicVol.Lower Touch (from panel to Control System)
         /// </summary>
         public event EventHandler<UIEventArgs> GuageWirelessMicVol_LowerTouchEvent;
         private void onGuageWirelessMicVol_LowerTouch(SmartObjectEventArgs eventArgs)
@@ -543,7 +504,18 @@ namespace Standard_Classroom.Main_Page.Volume_Control_0x_Panel_Widget
         }
 
         /// <summary>
-        /// Event Main_Page.Volume_Control_0x_Panel_Widget.Btn.SrcVolMuteTgl.Press (from panel to Control System)
+        /// Event Btn.SrcVolInc.Press (from panel to Control System)
+        /// </summary>
+        public event EventHandler<UIEventArgs> BtnSrcVolInc_PressEvent;
+        private void onBtnSrcVolInc_Press(SmartObjectEventArgs eventArgs)
+        {
+            EventHandler<UIEventArgs> handler = BtnSrcVolInc_PressEvent;
+            if (handler != null)
+                handler(this, UIEventArgs.CreateEventArgs(eventArgs));
+        }
+
+        /// <summary>
+        /// Event Btn.SrcVolMuteTgl.Press (from panel to Control System)
         /// </summary>
         public event EventHandler<UIEventArgs> BtnSrcVolMuteTgl_PressEvent;
         private void onBtnSrcVolMuteTgl_Press(SmartObjectEventArgs eventArgs)
@@ -554,7 +526,7 @@ namespace Standard_Classroom.Main_Page.Volume_Control_0x_Panel_Widget
         }
 
         /// <summary>
-        /// Event Main_Page.Volume_Control_0x_Panel_Widget.Btn.WirelessMicVolDec.Press (from panel to Control System)
+        /// Event Btn.WirelessMicVolDec.Press (from panel to Control System)
         /// </summary>
         public event EventHandler<UIEventArgs> BtnWirelessMicVolDec_PressEvent;
         private void onBtnWirelessMicVolDec_Press(SmartObjectEventArgs eventArgs)
@@ -565,7 +537,7 @@ namespace Standard_Classroom.Main_Page.Volume_Control_0x_Panel_Widget
         }
 
         /// <summary>
-        /// Event Main_Page.Volume_Control_0x_Panel_Widget.Btn.WirelessMicVolInc.Press (from panel to Control System)
+        /// Event Btn.WirelessMicVolInc.Press (from panel to Control System)
         /// </summary>
         public event EventHandler<UIEventArgs> BtnWirelessMicVolInc_PressEvent;
         private void onBtnWirelessMicVolInc_Press(SmartObjectEventArgs eventArgs)
@@ -576,7 +548,7 @@ namespace Standard_Classroom.Main_Page.Volume_Control_0x_Panel_Widget
         }
 
         /// <summary>
-        /// Event Main_Page.Volume_Control_0x_Panel_Widget.Btn.WirelessMicVolMuteTgl.Press (from panel to Control System)
+        /// Event Btn.WirelessMicVolMuteTgl.Press (from panel to Control System)
         /// </summary>
         public event EventHandler<UIEventArgs> BtnWirelessMicVolMuteTgl_PressEvent;
         private void onBtnWirelessMicVolMuteTgl_Press(SmartObjectEventArgs eventArgs)
@@ -587,9 +559,9 @@ namespace Standard_Classroom.Main_Page.Volume_Control_0x_Panel_Widget
         }
 
         /// <summary>
-        /// Boolean feedback Main_Page.Volume_Control_0x_Panel_Widget.Btn.PodMicVolMuteTgl.Selected (from Control System to Panel)
+        /// Boolean feedback Btn.PodMicVolMuteTgl.Selected (from Control System to Panel)
         /// </summary>
-        public void BtnPodMicVolMuteTgl_Selected(Volume_Control_0x_Panel_WidgetBoolInputSigDelegate callback)
+        public void BtnPodMicVolMuteTgl_Selected(Volume_Control_03_Panel_WidgetBoolInputSigDelegate callback)
         {
             for (int index = 0; index < Devices.Count; index++)
             {
@@ -598,16 +570,16 @@ namespace Standard_Classroom.Main_Page.Volume_Control_0x_Panel_Widget
         }
 
         /// <summary>
-        /// Boolean feedback Main_Page.Volume_Control_0x_Panel_Widget.Btn.PodMicVolMuteTgl.Selected (from Control System to Panel)
+        /// Boolean feedback Btn.PodMicVolMuteTgl.Selected (from Control System to Panel)
         /// </summary>
         public void BtnPodMicVolMuteTgl_Selected(bool digital)
         {
             BtnPodMicVolMuteTgl_Selected((sig, component) => sig.BoolValue = digital);
         }
         /// <summary>
-        /// Boolean feedback Main_Page.Volume_Control_0x_Panel_Widget.Btn.SrcVolMuteTgl.Selected (from Control System to Panel)
+        /// Boolean feedback Btn.SrcVolMuteTgl.Selected (from Control System to Panel)
         /// </summary>
-        public void BtnSrcVolMuteTgl_Selected(Volume_Control_0x_Panel_WidgetBoolInputSigDelegate callback)
+        public void BtnSrcVolMuteTgl_Selected(Volume_Control_03_Panel_WidgetBoolInputSigDelegate callback)
         {
             for (int index = 0; index < Devices.Count; index++)
             {
@@ -616,16 +588,16 @@ namespace Standard_Classroom.Main_Page.Volume_Control_0x_Panel_Widget
         }
 
         /// <summary>
-        /// Boolean feedback Main_Page.Volume_Control_0x_Panel_Widget.Btn.SrcVolMuteTgl.Selected (from Control System to Panel)
+        /// Boolean feedback Btn.SrcVolMuteTgl.Selected (from Control System to Panel)
         /// </summary>
         public void BtnSrcVolMuteTgl_Selected(bool digital)
         {
             BtnSrcVolMuteTgl_Selected((sig, component) => sig.BoolValue = digital);
         }
         /// <summary>
-        /// Boolean feedback Main_Page.Volume_Control_0x_Panel_Widget.Btn.WirelessMicVolMuteTgl.Selected (from Control System to Panel)
+        /// Boolean feedback Btn.WirelessMicVolMuteTgl.Selected (from Control System to Panel)
         /// </summary>
-        public void BtnWirelessMicVolMuteTgl_Selected(Volume_Control_0x_Panel_WidgetBoolInputSigDelegate callback)
+        public void BtnWirelessMicVolMuteTgl_Selected(Volume_Control_03_Panel_WidgetBoolInputSigDelegate callback)
         {
             for (int index = 0; index < Devices.Count; index++)
             {
@@ -634,37 +606,19 @@ namespace Standard_Classroom.Main_Page.Volume_Control_0x_Panel_Widget
         }
 
         /// <summary>
-        /// Boolean feedback Main_Page.Volume_Control_0x_Panel_Widget.Btn.WirelessMicVolMuteTgl.Selected (from Control System to Panel)
+        /// Boolean feedback Btn.WirelessMicVolMuteTgl.Selected (from Control System to Panel)
         /// </summary>
         public void BtnWirelessMicVolMuteTgl_Selected(bool digital)
         {
             BtnWirelessMicVolMuteTgl_Selected((sig, component) => sig.BoolValue = digital);
         }
-        /// <summary>
-        /// Boolean feedback Volume_Control_0x_Panel_Widget.Visibility (from Control System to Panel)
-        /// </summary>
-        public void Volume_Control_0x_Panel_Widget_Visibility(Volume_Control_0x_Panel_WidgetBoolInputSigDelegate callback)
-        {
-            for (int index = 0; index < Devices.Count; index++)
-            {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.Volume_Control_0x_Panel_Widget_VisibilityState], this);
-            }
-        }
 
         /// <summary>
-        /// Boolean feedback Volume_Control_0x_Panel_Widget.Visibility (from Control System to Panel)
-        /// </summary>
-        public void Volume_Control_0x_Panel_Widget_Visibility(bool digital)
-        {
-            Volume_Control_0x_Panel_Widget_Visibility((sig, component) => sig.BoolValue = digital);
-        }
-
-        /// <summary>
-        /// Numeric feedback Main_Page.Volume_Control_0x_Panel_Widget.Guage.PodMicVol.Lower Touch fb
+        /// Numeric feedback Guage.PodMicVol.Lower Touch fb
         /// </summary>
         /// <param name="itemIndex">Index of the Widget List (0 based).</param>
         /// <param name="callback">The ushort delegate to update the panel.</param>
-        public void GuagePodMicVol_LowerTouchfb(Volume_Control_0x_Panel_WidgetUShortInputSigDelegate callback)
+        public void GuagePodMicVol_LowerTouchfb(Volume_Control_03_Panel_WidgetUShortInputSigDelegate callback)
         {
             for (int index = 0; index < Devices.Count; index++)
             {
@@ -673,7 +627,7 @@ namespace Standard_Classroom.Main_Page.Volume_Control_0x_Panel_Widget
         }
 
         /// <summary>
-        /// Numeric feedback Main_Page.Volume_Control_0x_Panel_Widget.Guage.PodMicVol.Lower Touch fb
+        /// Numeric feedback Guage.PodMicVol.Lower Touch fb
         /// </summary>
         /// <param name="analog">The ushort analog to update the panel.</param>
         public void GuagePodMicVol_LowerTouchfb(ushort analog)
@@ -682,7 +636,7 @@ namespace Standard_Classroom.Main_Page.Volume_Control_0x_Panel_Widget
         }
 
         /// <summary>
-        /// Numeric feedback Main_Page.Volume_Control_0x_Panel_Widget.Guage.PodMicVol.Lower Touch fb
+        /// Numeric feedback Guage.PodMicVol.Lower Touch fb
         /// </summary>
         /// <param name="analog">The short analog to update the panel.</param>
         public void GuagePodMicVol_LowerTouchfb(short analog)
@@ -690,11 +644,11 @@ namespace Standard_Classroom.Main_Page.Volume_Control_0x_Panel_Widget
             GuagePodMicVol_LowerTouchfb((sig, component) => sig.ShortValue = analog);
         }
         /// <summary>
-        /// Numeric feedback Main_Page.Volume_Control_0x_Panel_Widget.Guage.SrcVol.Lower Touch fb
+        /// Numeric feedback Guage.SrcVol.Lower Touch fb
         /// </summary>
         /// <param name="itemIndex">Index of the Widget List (0 based).</param>
         /// <param name="callback">The ushort delegate to update the panel.</param>
-        public void GuageSrcVol_LowerTouchfb(Volume_Control_0x_Panel_WidgetUShortInputSigDelegate callback)
+        public void GuageSrcVol_LowerTouchfb(Volume_Control_03_Panel_WidgetUShortInputSigDelegate callback)
         {
             for (int index = 0; index < Devices.Count; index++)
             {
@@ -703,7 +657,7 @@ namespace Standard_Classroom.Main_Page.Volume_Control_0x_Panel_Widget
         }
 
         /// <summary>
-        /// Numeric feedback Main_Page.Volume_Control_0x_Panel_Widget.Guage.SrcVol.Lower Touch fb
+        /// Numeric feedback Guage.SrcVol.Lower Touch fb
         /// </summary>
         /// <param name="analog">The ushort analog to update the panel.</param>
         public void GuageSrcVol_LowerTouchfb(ushort analog)
@@ -712,7 +666,7 @@ namespace Standard_Classroom.Main_Page.Volume_Control_0x_Panel_Widget
         }
 
         /// <summary>
-        /// Numeric feedback Main_Page.Volume_Control_0x_Panel_Widget.Guage.SrcVol.Lower Touch fb
+        /// Numeric feedback Guage.SrcVol.Lower Touch fb
         /// </summary>
         /// <param name="analog">The short analog to update the panel.</param>
         public void GuageSrcVol_LowerTouchfb(short analog)
@@ -720,11 +674,11 @@ namespace Standard_Classroom.Main_Page.Volume_Control_0x_Panel_Widget
             GuageSrcVol_LowerTouchfb((sig, component) => sig.ShortValue = analog);
         }
         /// <summary>
-        /// Numeric feedback Main_Page.Volume_Control_0x_Panel_Widget.Guage.WirelessMicVol.Lower Touch fb
+        /// Numeric feedback Guage.WirelessMicVol.Lower Touch fb
         /// </summary>
         /// <param name="itemIndex">Index of the Widget List (0 based).</param>
         /// <param name="callback">The ushort delegate to update the panel.</param>
-        public void GuageWirelessMicVol_LowerTouchfb(Volume_Control_0x_Panel_WidgetUShortInputSigDelegate callback)
+        public void GuageWirelessMicVol_LowerTouchfb(Volume_Control_03_Panel_WidgetUShortInputSigDelegate callback)
         {
             for (int index = 0; index < Devices.Count; index++)
             {
@@ -733,7 +687,7 @@ namespace Standard_Classroom.Main_Page.Volume_Control_0x_Panel_Widget
         }
 
         /// <summary>
-        /// Numeric feedback Main_Page.Volume_Control_0x_Panel_Widget.Guage.WirelessMicVol.Lower Touch fb
+        /// Numeric feedback Guage.WirelessMicVol.Lower Touch fb
         /// </summary>
         /// <param name="analog">The ushort analog to update the panel.</param>
         public void GuageWirelessMicVol_LowerTouchfb(ushort analog)
@@ -742,18 +696,13 @@ namespace Standard_Classroom.Main_Page.Volume_Control_0x_Panel_Widget
         }
 
         /// <summary>
-        /// Numeric feedback Main_Page.Volume_Control_0x_Panel_Widget.Guage.WirelessMicVol.Lower Touch fb
+        /// Numeric feedback Guage.WirelessMicVol.Lower Touch fb
         /// </summary>
         /// <param name="analog">The short analog to update the panel.</param>
         public void GuageWirelessMicVol_LowerTouchfb(short analog)
         {
             GuageWirelessMicVol_LowerTouchfb((sig, component) => sig.ShortValue = analog);
         }
-
-        /// <summary>
-        /// ComplexComponent List.MicSelection
-        /// </summary>
-        public Standard_Classroom.Main_Page.Volume_Control_0x_Panel_Widget.IListMicSelection ListMicSelection { get; private set; }
 
         #endregion
 
@@ -766,7 +715,7 @@ namespace Standard_Classroom.Main_Page.Volume_Control_0x_Panel_Widget
 
         public override string ToString()
         {
-            return string.Format("Contract: {0} Component: {1} HashCode: {2} {3}", "Volume_Control_0x_Panel_Widget", GetType().Name, GetHashCode(), UserObject != null ? "UserObject: " + UserObject : null);
+            return string.Format("Contract: {0} Component: {1} HashCode: {2} {3}", "Volume_Control_03_Panel_Widget", GetType().Name, GetHashCode(), UserObject != null ? "UserObject: " + UserObject : null);
         }
 
         #endregion
@@ -784,12 +733,12 @@ namespace Standard_Classroom.Main_Page.Volume_Control_0x_Panel_Widget
 
             BtnPodMicVolDec_PressEvent = null;
             BtnPodMicVolInc_PressEvent = null;
-            BtnPodMicVolMuteTgl_PressEvent = null;
             GuagePodMicVol_LowerTouchEvent = null;
-            BtnSrcVolDec_PressEvent = null;
+            BtnPodMicVolMuteTgl_PressEvent = null;
             GuageSrcVol_LowerTouchEvent = null;
-            BtnSrcVolInc_PressEvent = null;
+            BtnSrcVolDec_PressEvent = null;
             GuageWirelessMicVol_LowerTouchEvent = null;
+            BtnSrcVolInc_PressEvent = null;
             BtnSrcVolMuteTgl_PressEvent = null;
             BtnWirelessMicVolDec_PressEvent = null;
             BtnWirelessMicVolInc_PressEvent = null;

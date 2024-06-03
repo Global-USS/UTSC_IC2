@@ -1,0 +1,113 @@
+#CATEGORY "32" // Miscellaneous
+#SYMBOL_NAME "MK - Passcode Database v1.0"
+
+/*
+Written by: Mat Klucznyk
+Tested on: AV2/AV3
+*/
+
+//****DIRECTIVES****
+#DEFAULT_NONVOLATILE
+#ENABLE_STACK_CHECKING
+//#ENABLE_TRACE
+#DEFINE_CONSTANT MaxPasscodes 10
+
+//****IO****
+Buffer_Input _skip_,_skip_,_skip_,_skip_,FromEntryModules[65534];
+String_Output _skip_,_skip_,_skip_,_skip_,ToEntryModules,_skip_,CurrentPasscode[MaxPasscodes,MaxPasscodes];
+
+
+//****VARS****
+String_Parameter Backdoor[4,4][10];
+
+Integer flag,semephore,boot;
+String data[255],passcode[MaxPasscodes][255];
+
+//****HELPERS****
+Function StorePasscodes(string x) {
+	Integer y,mark1,mark2,ctr;
+	
+	mark1=find("instance=",x)+9;
+	mark2=find(">",x,mark1+1);
+	y=AtoI(Mid(x,mark1,mark2-mark1));
+	
+	mark1=find("new=",x)+4;
+	mark2=find(">",x,mark1+1);
+	If(mark2-mark1) {
+		passcode[y]=Mid(x,mark1,mark2-mark1);
+		MakeString(ToEntryModules,"<0><passcode%u><stored>\n",y);
+		For(ctr=1 to 10)CurrentPasscode[ctr]=passcode[ctr];
+	}
+	Else MakeString(ToEntryModules,"<0><passcode%u><notStored>\n",y);	
+	semephore=1;
+}
+
+Function QueryPasscodes(string x) {
+	String id[2],query[10];
+	Integer mark1,mark2,ctr,found;
+	
+	found=0;
+	
+	mark1=find("<",x)+1;
+	mark2=find(">",x);
+	id=Mid(x,mark1,mark2-mark1);
+	
+	mark1=find("search=",x)+7;
+	mark2=find(">",x,mark1+1);
+	query=Mid(x,mark1,mark2-mark1);
+	
+	For(ctr=1 to MaxPasscodes) {
+		If(CompareStrings(query,passcode[ctr])=0 && len(query)) {
+			MakeString(ToEntryModules,"<%s><passcode%u><correct>\n",id,ctr);
+			found=1;
+		}
+	}
+	
+	For(ctr=1 to 4) {
+		If(CompareStrings(query,Backdoor[ctr])=0 && len(query)) {
+			MakeString(ToEntryModules,"<%s><backdoor%u><correct>\n",id,ctr);
+			found=1;
+		}
+	}
+	
+	If(found=0)MakeString(ToEntryModules,"<%s><0><incorrect>\n",id);	 
+	
+	Semephore=1;
+}
+
+//****EVENTS****
+Change FromEntryModules {
+	If(flag) {
+		flag=0;
+		While(len(FromEntryModules)) {
+       		If(semephore) {
+       			semephore=0;
+       			data=gather("\n",FromEntryModules);
+       			Trace("length of RX$=%u",len(FromEntryModules));
+       			Trace("RX$=%s",FromEntryModules);
+       		
+       			If(find("<query>",data)) QueryPasscodes(data);
+       			Else If(find("<entry>",data)) StorePasscodes(data);
+       		}
+       	}
+       	flag=1;
+    }
+}
+
+//**MAIN**
+Function Main() {
+	Integer ctr;
+	
+	WaitForInitializationComplete();
+	flag=1;
+	semephore=1;
+	If(boot<>1) {
+		boot=1;
+		passcode[1] = "1111";
+	}
+
+	For(ctr=1 to MaxPasscodes)CurrentPasscode[ctr]=passcode[ctr];
+}
+
+//<0><entry><instance=1><new=1234>\n
+//<1><query><search=1234>\n
