@@ -34,7 +34,7 @@
   InputList2SigType2=Serial
   InputList2Cue3=[~UNUSED~]
   InputList2SigType3=Serial
-  InputList2Cue4=Command
+  InputList2Cue4=SendCommand
   InputList2SigType4=Serial
   InputList2Cue5=[~UNUSED~]
   InputList2SigType5=Serial

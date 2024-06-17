@@ -1,0 +1,232 @@
+/* #region Header */
+#CATEGORY "46" "Epson"
+//#SYMBOL_NAME ""
+
+//Author: Mat Klucznyk
+//Company: Global USS
+//Email: mathew.klucznyk@globaluss.com
+
+#USER_SIMPLSHARP_LIBRARY "Epson"
+
+#DEFAULT_VOLATILE
+#ENABLE_STACK_CHECKING
+#ENABLE_TRACE
+
+#DEFINE_CONSTANT true 1
+#DEFINE_CONSTANT false 0
+/* #endregion */
+
+/* #region IO Constructor */
+//inputs
+digital_input PowerOn, PowerOff, PowerToggle, _skip_, _skIp_, AvMuteOn, AvMuteOff, AvMuteToggle, _skip_, FreezeOn, FreezeOff, FreezeToggle;
+analog_input _skIp_, SetSource, _skip_, _skip_, _skip_, _skip_, DebugMode;
+buffer_input RxResponse[255];
+
+//outputs
+digital_output PowerIsOn, PowerIsOff, IsWarmingUp, IsCoolingDown, _skip_, AvMuteIsOn, AvMuteIsOff, _skip_, _skip_, FreezeIsOn, FreezeIsOff;
+analog_output _skip_, _skip_, CurrentSource, _skip_, LampHours;
+string_output LampHoursString, _skip_, _skip_, TxCommand;
+//parameters
+string_parameter  _skip_, _skip_, _skip_, _skip_, _skip_,  _skip_,  _skip_,  _skip_,  _skip_,  _skip_,  _skip_,  _skip_,  _skip_,  _skip_, 
+_skip_,  _skip_,  _skip_,  _skip_,  _skip_, _skip_, DeviceID[255];
+
+/*
+#BEGIN_PARAMETER_PROPERTIES parameter_variable, parameter_variable, ...
+   // propValidUnits = // unitString or unitDecimal|unitHex|unitPercent|unitCharacter|unitTime|unitTicks;
+   // propDefaultUnit = // unitString, unitDecimal, unitHex, unitPercent, unitCharacter, unitTime or unitTicks;
+   // propBounds = lower_bound , upper_bound;
+   // propDefaultValue = ;  // or, propDefaultValue = "";
+   // propList = // { "value" , "label" } , { "value" , "label" } , ... ;
+   // propShortDescription = "status_bar_hint_text";
+   // #BEGIN_PROP_FULL_DESCRIPTION  line_1...  line_2...  line_n  #END_PROP_FULL_DESCRIPTION
+   // #BEGIN_PROP_NOTES line_1...  line_2...  line_n  #END_PROP_NOTES
+#END_PARAMETER_PROPERTIES
+*/
+
+//objects
+Pu2120WProjector _proj;
+
+/* #endregion */
+
+/* #region Functions */
+
+/* #endregion */
+
+/* #region Events */
+push PowerOn
+{
+	_proj.PowerOn();
+}
+
+push PowerOff
+{
+	_proj.PowerOff();
+}
+
+push PowerToggle
+{
+	_proj.PowerToggle();
+}
+
+push AvMuteOn
+{
+	_proj.AvMuteOn();
+}
+
+push AvMuteOff
+{
+	_proj.AvMuteOff();
+}
+
+push AvMuteToggle
+{
+	_proj.AvMuteToggle();
+}
+
+push FreezeOn
+{
+	_proj.FreezeOn();
+}
+
+push Freezeoff
+{
+	_proj.FreezeOff();
+}
+
+push FreezeToggle
+{
+	_proj.FreezeToggle();
+}
+
+change SetSource
+{
+   integer source; 
+
+   source = SetSource;
+
+	_proj.SetSourceByIndex(source - 1);
+}
+
+change DebugMode
+{
+   integer mode;
+
+   mode = DebugMode;
+
+   if(mode > 3) return;
+
+   EpsonLogger.SetIdDebugLevel(DeviceID, mode);
+}
+/* #endregion */
+
+/* #region Callbacks */
+
+eventhandler _proj_ExtendedPowerStateChanged(Pu2120WProjector sender,EpsonUShortEventArgs args)
+{
+	switch(args.Payload)
+	{
+		case(2):
+		{
+			IsWarmingUp = false;
+			IsCoolingDown = false;
+			PowerIsOff = false;
+			PowerIsOn = true;
+		}
+		case(3):
+		{
+			IsCoolingDown = false;
+			PowerIsOff = false;
+			PowerIsOn = false;
+			IsWarmingUp = true;
+		}
+		case(4):
+		{
+			IsWarmingUp = false;
+			PowerIsOff = false;
+			PowerIsOn = false;
+			IsCoolingDown = true;
+		}
+		Default:
+		{
+			IsWarmingUp = false;
+			IsCoolingDown = false;
+			PowerIsOn = false;
+			PowerIsOff = true;
+		}
+	}
+}
+
+eventhandler _proj_AvMuteStateChanged(Pu2120WProjector sender,EpsonBoolEventArgs args)
+{
+	if(args.Payload)
+	{
+		AvMuteIsOff = false;
+		AvMuteIsOn = true;
+		return;
+	}
+	
+	AvMuteIsOn = false;
+	AvMuteIsOff = true;
+}
+
+eventhandler _proj_FreezeStateChanged(Pu2120WProjector sender,EpsonBoolEventArgs args)
+{
+	if(args.Payload)
+	{
+		FreezeIsOff = false;
+		FreezeIsOn = true;
+		return;
+	}
+	
+	FreezeIsOn = false;
+	FreezeIsOff = true;
+}
+
+eventhandler _proj_CurerntSourceIndexChanged(Pu2120WProjector sender,EpsonUShortEventArgs args)
+{
+	CurrentSource = args.Payload + 1;
+}
+
+eventhandler _proj_CurrentLampHoursChanged(Pu2120WProjector sender,EpsonUShortEventArgs args)
+{
+	LampHours = args.Payload;
+	LampHoursString = ItoA(args.Payload);
+}
+
+eventhandler _proj_CommandToSendAvailable(Pu2120WProjector sender,EpsonStringEventArgs args)
+{
+	TxCommand = args.Payload;
+}
+
+callback GatherEventHandler RxResponseGatherHandler(GatherEventArgs args)
+{
+	try
+	{
+		if(args.Results = 0) _proj.ReceiveResponse(args.RxString);
+	}
+	catch
+	{
+		trace("RxResponseGatherHandler Exception: %s",GetExceptionMessage());
+	}
+	
+	ReArmGatherAsync(args.Input);
+} 
+/* #endregion */
+
+Function Main()
+{
+	RegisterEvent(_proj, ExtendedPowerStateChanged, _proj_ExtendedPowerStateChanged);
+	RegisterEvent(_proj, AvMuteStateChanged, _proj_AvMuteStateChanged);
+	RegisterEvent(_proj, FreezeStateChanged, _proj_FreezeStateChanged);
+	RegisterEvent(_proj, CurrentSourceIndexChanged, _proj_CurerntSourceIndexChanged);
+	RegisterEvent(_proj, CurrentLampHoursChanged, _proj_CurrentLampHoursChanged);
+	RegisterEvent(_proj, CommandToSendAvailable, _proj_CommandToSendAvailable);
+   GatherAsync(":", RxResponse, RxResponseGatherHandler);
+   
+   WaitForInitializationComplete();
+   delay(10);
+
+   _proj.Configure(DeviceID);
+	
+	
+}
