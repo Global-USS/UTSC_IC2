@@ -24,7 +24,7 @@ DbVr=225.05.001.00
 DvcDbVr=200.350.001.00
 PgmNm=Mat Klucznyk
 DlrNm=Global USS
-CltNm=UTSC_IC2_TheCloud(2040)
+CltNm=UTSC_IC2_TheCave(1150)
 SmVr=1205
 DvVr=1205
 TpN1=1
@@ -37,7 +37,7 @@ FltTmp=1
 FpCS=0
 EnType=0
 ZeroOnIoOk=0
-PIT=main
+PIT=Main
 SGMethod=1
 ]
 [
