@@ -224,11 +224,6 @@ namespace Active_Learning_Classroom.Main_Page
         Active_Learning_Classroom.Main_Page.IProj_01_Source_Widget Proj_01_Source_Widget { get; }
 
         /// <summary>
-        /// ComplexComponent LogOff_Page
-        /// </summary>
-        Active_Learning_Classroom.Main_Page.ILogOff_Page LogOff_Page { get; }
-
-        /// <summary>
         /// ComplexComponent Cam_01_Control_Widget
         /// </summary>
         Active_Learning_Classroom.Main_Page.ICam_01_Control_Widget Cam_01_Control_Widget { get; }
@@ -455,13 +450,12 @@ namespace Active_Learning_Classroom.Main_Page
             ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.BtnProj_PressEvent, onBtnProj_Press);
             ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.BtnSystemOff_PressEvent, onBtnSystemOff_Press);
             ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.BtnVolume_PressEvent, onBtnVolume_Press);
-            Proj_01_PowerScreen_Widget = new Active_Learning_Classroom.Main_Page.Proj_01_PowerScreen_Widget(ComponentMediator, 4);
-            Proj_02_PowerScreen_Widget = new Active_Learning_Classroom.Main_Page.Proj_02_PowerScreen_Widget(ComponentMediator, 5);
-            Admin_Login_Widget = new Active_Learning_Classroom.Main_Page.Admin_Login_Widget(ComponentMediator, 6);
-            Proj_02_Source_Widget = new Active_Learning_Classroom.Main_Page.Proj_02_Source_Widget(ComponentMediator, 7);
-            Pod_Disp_Power_Widget = new Active_Learning_Classroom.Main_Page.Pod_Disp_Power_Widget(ComponentMediator, 8);
-            Proj_01_Source_Widget = new Active_Learning_Classroom.Main_Page.Proj_01_Source_Widget(ComponentMediator, 9);
-            LogOff_Page = new Active_Learning_Classroom.Main_Page.LogOff_Page(ComponentMediator, 10);
+            Proj_01_PowerScreen_Widget = new Active_Learning_Classroom.Main_Page.Proj_01_PowerScreen_Widget(ComponentMediator, 5);
+            Proj_02_PowerScreen_Widget = new Active_Learning_Classroom.Main_Page.Proj_02_PowerScreen_Widget(ComponentMediator, 6);
+            Admin_Login_Widget = new Active_Learning_Classroom.Main_Page.Admin_Login_Widget(ComponentMediator, 7);
+            Proj_02_Source_Widget = new Active_Learning_Classroom.Main_Page.Proj_02_Source_Widget(ComponentMediator, 8);
+            Pod_Disp_Power_Widget = new Active_Learning_Classroom.Main_Page.Pod_Disp_Power_Widget(ComponentMediator, 9);
+            Proj_01_Source_Widget = new Active_Learning_Classroom.Main_Page.Proj_01_Source_Widget(ComponentMediator, 10);
             Cam_01_Control_Widget = new Active_Learning_Classroom.Main_Page.Cam_01_Control_Widget(ComponentMediator, 11);
             Volume_Control_03_Panel_Widget = new Active_Learning_Classroom.Main_Page.Volume_Control_03_Panel_Widget(ComponentMediator, 12);
             Admin_Volume_Widget = new Active_Learning_Classroom.Main_Page.Admin_Volume_Widget(ComponentMediator, 13);
@@ -485,8 +479,6 @@ namespace Active_Learning_Classroom.Main_Page
             ((Active_Learning_Classroom.Main_Page.Pod_Disp_Power_Widget)Pod_Disp_Power_Widget).AddDevice(device);
 
             ((Active_Learning_Classroom.Main_Page.Proj_01_Source_Widget)Proj_01_Source_Widget).AddDevice(device);
-
-            ((Active_Learning_Classroom.Main_Page.LogOff_Page)LogOff_Page).AddDevice(device);
 
             ((Active_Learning_Classroom.Main_Page.Cam_01_Control_Widget)Cam_01_Control_Widget).AddDevice(device);
 
@@ -515,8 +507,6 @@ namespace Active_Learning_Classroom.Main_Page
             ((Active_Learning_Classroom.Main_Page.Pod_Disp_Power_Widget)Pod_Disp_Power_Widget).RemoveDevice(device);
 
             ((Active_Learning_Classroom.Main_Page.Proj_01_Source_Widget)Proj_01_Source_Widget).RemoveDevice(device);
-
-            ((Active_Learning_Classroom.Main_Page.LogOff_Page)LogOff_Page).RemoveDevice(device);
 
             ((Active_Learning_Classroom.Main_Page.Cam_01_Control_Widget)Cam_01_Control_Widget).RemoveDevice(device);
 
@@ -827,11 +817,6 @@ namespace Active_Learning_Classroom.Main_Page
         /// ComplexComponent Proj_01_Source_Widget
         /// </summary>
         public Active_Learning_Classroom.Main_Page.IProj_01_Source_Widget Proj_01_Source_Widget { get; private set; }
-
-        /// <summary>
-        /// ComplexComponent LogOff_Page
-        /// </summary>
-        public Active_Learning_Classroom.Main_Page.ILogOff_Page LogOff_Page { get; private set; }
 
         /// <summary>
         /// ComplexComponent Cam_01_Control_Widget

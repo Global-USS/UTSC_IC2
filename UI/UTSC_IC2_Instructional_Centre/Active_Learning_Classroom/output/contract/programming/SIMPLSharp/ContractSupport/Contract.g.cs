@@ -49,14 +49,14 @@ namespace Active_Learning_Classroom
         public Active_Learning_Classroom.IShutdown_Page Shutdown_Page { get { return (Active_Learning_Classroom.IShutdown_Page)InternalShutdown_Page; } }
         private Active_Learning_Classroom.Shutdown_Page InternalShutdown_Page { get; set; }
 
+        public Active_Learning_Classroom.ILogOff_Page LogOff_Page { get { return (Active_Learning_Classroom.ILogOff_Page)InternalLogOff_Page; } }
+        private Active_Learning_Classroom.LogOff_Page InternalLogOff_Page { get; set; }
+
         public Active_Learning_Classroom.IWelcome_Page Welcome_Page { get { return (Active_Learning_Classroom.IWelcome_Page)InternalWelcome_Page; } }
         private Active_Learning_Classroom.Welcome_Page InternalWelcome_Page { get; set; }
 
         public Active_Learning_Classroom.Main_Page.IMain_Page Main_Page { get { return (Active_Learning_Classroom.Main_Page.IMain_Page)InternalMain_Page; } }
         private Active_Learning_Classroom.Main_Page.Main_Page InternalMain_Page { get; set; }
-
-        public Active_Learning_Classroom.ILogOff_Page LogOff_Page { get { return (Active_Learning_Classroom.ILogOff_Page)InternalLogOff_Page; } }
-        private Active_Learning_Classroom.LogOff_Page InternalLogOff_Page { get; set; }
 
         public Active_Learning_Classroom.IProj_01_PowerScreen_Widget Proj_01_PowerScreen_Widget { get { return (Active_Learning_Classroom.IProj_01_PowerScreen_Widget)InternalProj_01_PowerScreen_Widget; } }
         private Active_Learning_Classroom.Proj_01_PowerScreen_Widget InternalProj_01_PowerScreen_Widget { get; set; }
@@ -109,29 +109,29 @@ namespace Active_Learning_Classroom
 
             InternalShutdown_Page = new Active_Learning_Classroom.Shutdown_Page(ComponentMediator, 1);
 
-            InternalWelcome_Page = new Active_Learning_Classroom.Welcome_Page(ComponentMediator, 2);
+            InternalLogOff_Page = new Active_Learning_Classroom.LogOff_Page(ComponentMediator, 2);
 
-            InternalMain_Page = new Active_Learning_Classroom.Main_Page.Main_Page(ComponentMediator, 3);
+            InternalWelcome_Page = new Active_Learning_Classroom.Welcome_Page(ComponentMediator, 3);
 
-            InternalLogOff_Page = new Active_Learning_Classroom.LogOff_Page(ComponentMediator, 16);
+            InternalMain_Page = new Active_Learning_Classroom.Main_Page.Main_Page(ComponentMediator, 4);
 
-            InternalProj_01_PowerScreen_Widget = new Active_Learning_Classroom.Proj_01_PowerScreen_Widget(ComponentMediator, 18);
+            InternalProj_01_PowerScreen_Widget = new Active_Learning_Classroom.Proj_01_PowerScreen_Widget(ComponentMediator, 17);
 
-            InternalCam_01_ControlPreset_Widget = new Active_Learning_Classroom.Cam_01_ControlPreset_Widget(ComponentMediator, 19);
+            InternalCam_01_ControlPreset_Widget = new Active_Learning_Classroom.Cam_01_ControlPreset_Widget(ComponentMediator, 18);
 
-            InternalProj_02_Source_04_Widget = new Active_Learning_Classroom.Proj_02_Source_04_Widget.Proj_02_Source_04_Widget(ComponentMediator, 20);
+            InternalProj_02_Source_04_Widget = new Active_Learning_Classroom.Proj_02_Source_04_Widget.Proj_02_Source_04_Widget(ComponentMediator, 19);
 
-            InternalProj_02_PowerScreen_Widget = new Active_Learning_Classroom.Proj_02_PowerScreen_Widget(ComponentMediator, 23);
+            InternalProj_02_PowerScreen_Widget = new Active_Learning_Classroom.Proj_02_PowerScreen_Widget(ComponentMediator, 22);
 
-            InternalProj_01_Source_04_Widget = new Active_Learning_Classroom.Proj_01_Source_04_Widget.Proj_01_Source_04_Widget(ComponentMediator, 24);
+            InternalProj_01_Source_04_Widget = new Active_Learning_Classroom.Proj_01_Source_04_Widget.Proj_01_Source_04_Widget(ComponentMediator, 23);
 
-            InternalAdmin_Login_Widget = new Active_Learning_Classroom.Admin_Login_Widget(ComponentMediator, 26);
+            InternalAdmin_Login_Widget = new Active_Learning_Classroom.Admin_Login_Widget(ComponentMediator, 25);
 
-            InternalCam_01_Control_Widget = new Active_Learning_Classroom.Cam_01_Control_Widget(ComponentMediator, 27);
+            InternalCam_01_Control_Widget = new Active_Learning_Classroom.Cam_01_Control_Widget(ComponentMediator, 26);
 
-            InternalAdmin_Volume_Widget = new Active_Learning_Classroom.Admin_Volume_Widget.Admin_Volume_Widget(ComponentMediator, 28);
+            InternalAdmin_Volume_Widget = new Active_Learning_Classroom.Admin_Volume_Widget.Admin_Volume_Widget(ComponentMediator, 27);
 
-            InternalVolume_Control_03_Panel_Widget = new Active_Learning_Classroom.Volume_Control_03_Panel_Widget(ComponentMediator, 30);
+            InternalVolume_Control_03_Panel_Widget = new Active_Learning_Classroom.Volume_Control_03_Panel_Widget(ComponentMediator, 29);
 
 
             for (int index = 0; index < devices.Length; index++)
@@ -159,9 +159,9 @@ namespace Active_Learning_Classroom
         public void AddDevice(BasicTriListWithSmartObject device)
         {
             InternalShutdown_Page.AddDevice(device);
+            InternalLogOff_Page.AddDevice(device);
             InternalWelcome_Page.AddDevice(device);
             InternalMain_Page.AddDevice(device);
-            InternalLogOff_Page.AddDevice(device);
             InternalProj_01_PowerScreen_Widget.AddDevice(device);
             InternalCam_01_ControlPreset_Widget.AddDevice(device);
             InternalProj_02_Source_04_Widget.AddDevice(device);
@@ -177,9 +177,9 @@ namespace Active_Learning_Classroom
         public void RemoveDevice(BasicTriListWithSmartObject device)
         {
             InternalShutdown_Page.RemoveDevice(device);
+            InternalLogOff_Page.RemoveDevice(device);
             InternalWelcome_Page.RemoveDevice(device);
             InternalMain_Page.RemoveDevice(device);
-            InternalLogOff_Page.RemoveDevice(device);
             InternalProj_01_PowerScreen_Widget.RemoveDevice(device);
             InternalCam_01_ControlPreset_Widget.RemoveDevice(device);
             InternalProj_02_Source_04_Widget.RemoveDevice(device);
@@ -205,9 +205,9 @@ namespace Active_Learning_Classroom
             IsDisposed = true;
 
             InternalShutdown_Page.Dispose();
+            InternalLogOff_Page.Dispose();
             InternalWelcome_Page.Dispose();
             InternalMain_Page.Dispose();
-            InternalLogOff_Page.Dispose();
             InternalProj_01_PowerScreen_Widget.Dispose();
             InternalCam_01_ControlPreset_Widget.Dispose();
             InternalProj_02_Source_04_Widget.Dispose();

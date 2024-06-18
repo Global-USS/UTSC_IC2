@@ -40,6 +40,18 @@ namespace Standard_Classroom
         /// Btn.LogOff.Press
         /// </summary>
         event EventHandler<UIEventArgs> BtnLogOff_PressEvent;
+
+        /// <summary>
+        /// LogOff_Page.VisibilityJoin Feedback
+        /// </summary>
+        /// <param name="callback">The bool delegate to update the panel.</param>
+        void LogOff_Page_VisibilityJoin(LogOff_PageBoolInputSigDelegate callback);
+
+        /// <summary>
+        /// LogOff_Page.VisibilityJoin Feedback
+        /// </summary>
+        /// <param name="digital">The bool to update the panel.</param>
+        void LogOff_Page_VisibilityJoin(bool digital);
     }
 
     /// <summary>
@@ -95,6 +107,12 @@ namespace Standard_Classroom
                 /// </summary>
                 public const uint BtnLogOff_PressEvent = 4;
 
+
+                /// <summary>
+                /// Input or Feedback digital signal from Control System to panel: LogOff_PageVisibilityJoin
+                /// LogOff_Page.VisibilityJoin
+                /// </summary>
+                public const uint LogOff_Page_VisibilityJoinState = 1;
 
             }
         }
@@ -189,6 +207,24 @@ namespace Standard_Classroom
                 handler(this, UIEventArgs.CreateEventArgs(eventArgs));
         }
 
+        /// <summary>
+        /// Boolean feedback LogOff_Page.VisibilityJoin (from Control System to Panel)
+        /// </summary>
+        public void LogOff_Page_VisibilityJoin(LogOff_PageBoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.LogOff_Page_VisibilityJoinState], this);
+            }
+        }
+
+        /// <summary>
+        /// Boolean feedback LogOff_Page.VisibilityJoin (from Control System to Panel)
+        /// </summary>
+        public void LogOff_Page_VisibilityJoin(bool digital)
+        {
+            LogOff_Page_VisibilityJoin((sig, component) => sig.BoolValue = digital);
+        }
 
         #endregion
 

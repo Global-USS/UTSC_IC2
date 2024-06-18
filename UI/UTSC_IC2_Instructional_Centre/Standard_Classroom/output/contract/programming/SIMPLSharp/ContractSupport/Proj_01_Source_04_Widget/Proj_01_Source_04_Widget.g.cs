@@ -172,7 +172,7 @@ namespace Standard_Classroom.Proj_01_Source_04_Widget
  
 
             ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.BtnSendToProj_PressEvent, onBtnSendToProj_Press);
-            BtnListSrcSelect = new Standard_Classroom.Proj_01_Source_04_Widget.BtnListSrcSelect(ComponentMediator, 38);
+            BtnListSrcSelect = new Standard_Classroom.Proj_01_Source_04_Widget.BtnListSrcSelect(ComponentMediator, 37);
         }
 
         public void AddDevice(BasicTriListWithSmartObject device)
