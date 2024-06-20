@@ -376,7 +376,7 @@ namespace Active_Learning_Classroom.Proj_01_Source_04_Widget
             ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.BtnCritiqueCtrls_Reset__PressEvent, onBtnCritiqueCtrls_Reset__Press);
             ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.BtnCritqueCtrls_StepRight__PressEvent, onBtnCritqueCtrls_StepRight__Press);
             ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.BtnSendToProj_PressEvent, onBtnSendToProj_Press);
-            BtnListSrcSelect = new Active_Learning_Classroom.Proj_01_Source_04_Widget.BtnListSrcSelect(ComponentMediator, 24);
+            BtnListSrcSelect = new Active_Learning_Classroom.Proj_01_Source_04_Widget.BtnListSrcSelect(ComponentMediator, 20);
         }
 
         public void AddDevice(BasicTriListWithSmartObject device)

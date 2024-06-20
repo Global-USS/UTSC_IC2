@@ -237,16 +237,6 @@ namespace Active_Learning_Classroom.Main_Page
         /// ComplexComponent Admin_Volume_Widget
         /// </summary>
         Active_Learning_Classroom.Main_Page.IAdmin_Volume_Widget Admin_Volume_Widget { get; }
-
-        /// <summary>
-        /// ComplexComponent Proj_Cooling_Widget
-        /// </summary>
-        Active_Learning_Classroom.Main_Page.IProj_Cooling_Widget Proj_Cooling_Widget { get; }
-
-        /// <summary>
-        /// ComplexComponent Proj_Warming_Widget
-        /// </summary>
-        Active_Learning_Classroom.Main_Page.IProj_Warming_Widget Proj_Warming_Widget { get; }
     }
 
     /// <summary>
@@ -459,8 +449,6 @@ namespace Active_Learning_Classroom.Main_Page
             Cam_01_Control_Widget = new Active_Learning_Classroom.Main_Page.Cam_01_Control_Widget(ComponentMediator, 11);
             Volume_Control_03_Panel_Widget = new Active_Learning_Classroom.Main_Page.Volume_Control_03_Panel_Widget(ComponentMediator, 12);
             Admin_Volume_Widget = new Active_Learning_Classroom.Main_Page.Admin_Volume_Widget(ComponentMediator, 13);
-            Proj_Cooling_Widget = new Active_Learning_Classroom.Main_Page.Proj_Cooling_Widget(ComponentMediator, 14);
-            Proj_Warming_Widget = new Active_Learning_Classroom.Main_Page.Proj_Warming_Widget(ComponentMediator, 15);
         }
 
         public void AddDevice(BasicTriListWithSmartObject device)
@@ -485,10 +473,6 @@ namespace Active_Learning_Classroom.Main_Page
             ((Active_Learning_Classroom.Main_Page.Volume_Control_03_Panel_Widget)Volume_Control_03_Panel_Widget).AddDevice(device);
 
             ((Active_Learning_Classroom.Main_Page.Admin_Volume_Widget)Admin_Volume_Widget).AddDevice(device);
-
-            ((Active_Learning_Classroom.Main_Page.Proj_Cooling_Widget)Proj_Cooling_Widget).AddDevice(device);
-
-            ((Active_Learning_Classroom.Main_Page.Proj_Warming_Widget)Proj_Warming_Widget).AddDevice(device);
         }
 
         public void RemoveDevice(BasicTriListWithSmartObject device)
@@ -513,10 +497,6 @@ namespace Active_Learning_Classroom.Main_Page
             ((Active_Learning_Classroom.Main_Page.Volume_Control_03_Panel_Widget)Volume_Control_03_Panel_Widget).RemoveDevice(device);
 
             ((Active_Learning_Classroom.Main_Page.Admin_Volume_Widget)Admin_Volume_Widget).RemoveDevice(device);
-
-            ((Active_Learning_Classroom.Main_Page.Proj_Cooling_Widget)Proj_Cooling_Widget).RemoveDevice(device);
-
-            ((Active_Learning_Classroom.Main_Page.Proj_Warming_Widget)Proj_Warming_Widget).RemoveDevice(device);
         }
 
         #endregion
@@ -832,16 +812,6 @@ namespace Active_Learning_Classroom.Main_Page
         /// ComplexComponent Admin_Volume_Widget
         /// </summary>
         public Active_Learning_Classroom.Main_Page.IAdmin_Volume_Widget Admin_Volume_Widget { get; private set; }
-
-        /// <summary>
-        /// ComplexComponent Proj_Cooling_Widget
-        /// </summary>
-        public Active_Learning_Classroom.Main_Page.IProj_Cooling_Widget Proj_Cooling_Widget { get; private set; }
-
-        /// <summary>
-        /// ComplexComponent Proj_Warming_Widget
-        /// </summary>
-        public Active_Learning_Classroom.Main_Page.IProj_Warming_Widget Proj_Warming_Widget { get; private set; }
 
         #endregion
 

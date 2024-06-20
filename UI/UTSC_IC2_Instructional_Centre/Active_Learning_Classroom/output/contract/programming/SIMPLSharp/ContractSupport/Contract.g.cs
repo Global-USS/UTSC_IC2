@@ -115,23 +115,23 @@ namespace Active_Learning_Classroom
 
             InternalMain_Page = new Active_Learning_Classroom.Main_Page.Main_Page(ComponentMediator, 4);
 
-            InternalProj_01_PowerScreen_Widget = new Active_Learning_Classroom.Proj_01_PowerScreen_Widget(ComponentMediator, 17);
+            InternalProj_01_PowerScreen_Widget = new Active_Learning_Classroom.Proj_01_PowerScreen_Widget(ComponentMediator, 14);
 
-            InternalCam_01_ControlPreset_Widget = new Active_Learning_Classroom.Cam_01_ControlPreset_Widget(ComponentMediator, 18);
+            InternalCam_01_ControlPreset_Widget = new Active_Learning_Classroom.Cam_01_ControlPreset_Widget(ComponentMediator, 15);
 
-            InternalProj_02_Source_04_Widget = new Active_Learning_Classroom.Proj_02_Source_04_Widget.Proj_02_Source_04_Widget(ComponentMediator, 19);
+            InternalProj_02_Source_04_Widget = new Active_Learning_Classroom.Proj_02_Source_04_Widget.Proj_02_Source_04_Widget(ComponentMediator, 16);
 
-            InternalProj_02_PowerScreen_Widget = new Active_Learning_Classroom.Proj_02_PowerScreen_Widget(ComponentMediator, 22);
+            InternalProj_02_PowerScreen_Widget = new Active_Learning_Classroom.Proj_02_PowerScreen_Widget(ComponentMediator, 18);
 
-            InternalProj_01_Source_04_Widget = new Active_Learning_Classroom.Proj_01_Source_04_Widget.Proj_01_Source_04_Widget(ComponentMediator, 23);
+            InternalProj_01_Source_04_Widget = new Active_Learning_Classroom.Proj_01_Source_04_Widget.Proj_01_Source_04_Widget(ComponentMediator, 19);
 
-            InternalAdmin_Login_Widget = new Active_Learning_Classroom.Admin_Login_Widget(ComponentMediator, 25);
+            InternalAdmin_Login_Widget = new Active_Learning_Classroom.Admin_Login_Widget(ComponentMediator, 21);
 
-            InternalCam_01_Control_Widget = new Active_Learning_Classroom.Cam_01_Control_Widget(ComponentMediator, 26);
+            InternalCam_01_Control_Widget = new Active_Learning_Classroom.Cam_01_Control_Widget(ComponentMediator, 22);
 
-            InternalAdmin_Volume_Widget = new Active_Learning_Classroom.Admin_Volume_Widget.Admin_Volume_Widget(ComponentMediator, 27);
+            InternalAdmin_Volume_Widget = new Active_Learning_Classroom.Admin_Volume_Widget.Admin_Volume_Widget(ComponentMediator, 23);
 
-            InternalVolume_Control_03_Panel_Widget = new Active_Learning_Classroom.Volume_Control_03_Panel_Widget(ComponentMediator, 29);
+            InternalVolume_Control_03_Panel_Widget = new Active_Learning_Classroom.Volume_Control_03_Panel_Widget(ComponentMediator, 25);
 
 
             for (int index = 0; index < devices.Length; index++)
