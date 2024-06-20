@@ -237,19 +237,9 @@ namespace Standard_Classroom.Main_Page
         Standard_Classroom.Main_Page.IAdmin_Volume_Widget Admin_Volume_Widget { get; }
 
         /// <summary>
-        /// ComplexComponent Proj_Cooling_Widget
-        /// </summary>
-        Standard_Classroom.Main_Page.IProj_Cooling_Widget Proj_Cooling_Widget { get; }
-
-        /// <summary>
         /// ComplexComponent ProjDisp_01_Power-Screen_Widget
         /// </summary>
         Standard_Classroom.Main_Page.IProjDisp_01_PowerScreen_Widget ProjDisp_01_PowerScreen_Widget { get; }
-
-        /// <summary>
-        /// ComplexComponent Proj_Warming_Widget
-        /// </summary>
-        Standard_Classroom.Main_Page.IProj_Warming_Widget Proj_Warming_Widget { get; }
     }
 
     /// <summary>
@@ -452,9 +442,7 @@ namespace Standard_Classroom.Main_Page
             Cam_01_Control_Widget = new Standard_Classroom.Main_Page.Cam_01_Control_Widget(ComponentMediator, 13);
             Volume_Control_03_Panel_Widget = new Standard_Classroom.Main_Page.Volume_Control_03_Panel_Widget(ComponentMediator, 14);
             Admin_Volume_Widget = new Standard_Classroom.Main_Page.Admin_Volume_Widget(ComponentMediator, 15);
-            Proj_Cooling_Widget = new Standard_Classroom.Main_Page.Proj_Cooling_Widget(ComponentMediator, 16);
-            ProjDisp_01_PowerScreen_Widget = new Standard_Classroom.Main_Page.ProjDisp_01_PowerScreen_Widget(ComponentMediator, 17);
-            Proj_Warming_Widget = new Standard_Classroom.Main_Page.Proj_Warming_Widget(ComponentMediator, 18);
+            ProjDisp_01_PowerScreen_Widget = new Standard_Classroom.Main_Page.ProjDisp_01_PowerScreen_Widget(ComponentMediator, 16);
         }
 
         public void AddDevice(BasicTriListWithSmartObject device)
@@ -486,11 +474,7 @@ namespace Standard_Classroom.Main_Page
 
             ((Standard_Classroom.Main_Page.Admin_Volume_Widget)Admin_Volume_Widget).AddDevice(device);
 
-            ((Standard_Classroom.Main_Page.Proj_Cooling_Widget)Proj_Cooling_Widget).AddDevice(device);
-
             ((Standard_Classroom.Main_Page.ProjDisp_01_PowerScreen_Widget)ProjDisp_01_PowerScreen_Widget).AddDevice(device);
-
-            ((Standard_Classroom.Main_Page.Proj_Warming_Widget)Proj_Warming_Widget).AddDevice(device);
         }
 
         public void RemoveDevice(BasicTriListWithSmartObject device)
@@ -522,11 +506,7 @@ namespace Standard_Classroom.Main_Page
 
             ((Standard_Classroom.Main_Page.Admin_Volume_Widget)Admin_Volume_Widget).RemoveDevice(device);
 
-            ((Standard_Classroom.Main_Page.Proj_Cooling_Widget)Proj_Cooling_Widget).RemoveDevice(device);
-
             ((Standard_Classroom.Main_Page.ProjDisp_01_PowerScreen_Widget)ProjDisp_01_PowerScreen_Widget).RemoveDevice(device);
-
-            ((Standard_Classroom.Main_Page.Proj_Warming_Widget)Proj_Warming_Widget).RemoveDevice(device);
         }
 
         #endregion
@@ -830,19 +810,9 @@ namespace Standard_Classroom.Main_Page
         public Standard_Classroom.Main_Page.IAdmin_Volume_Widget Admin_Volume_Widget { get; private set; }
 
         /// <summary>
-        /// ComplexComponent Proj_Cooling_Widget
-        /// </summary>
-        public Standard_Classroom.Main_Page.IProj_Cooling_Widget Proj_Cooling_Widget { get; private set; }
-
-        /// <summary>
         /// ComplexComponent ProjDisp_01_Power-Screen_Widget
         /// </summary>
         public Standard_Classroom.Main_Page.IProjDisp_01_PowerScreen_Widget ProjDisp_01_PowerScreen_Widget { get; private set; }
-
-        /// <summary>
-        /// ComplexComponent Proj_Warming_Widget
-        /// </summary>
-        public Standard_Classroom.Main_Page.IProj_Warming_Widget Proj_Warming_Widget { get; private set; }
 
         #endregion
 

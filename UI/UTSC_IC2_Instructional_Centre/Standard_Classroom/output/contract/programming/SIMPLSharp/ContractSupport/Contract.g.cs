@@ -131,37 +131,37 @@ namespace Standard_Classroom
 
             InternalMain_Page = new Standard_Classroom.Main_Page.Main_Page(ComponentMediator, 3);
 
-            InternalLogOff_Page = new Standard_Classroom.LogOff_Page(ComponentMediator, 19);
+            InternalLogOff_Page = new Standard_Classroom.LogOff_Page(ComponentMediator, 17);
 
-            InternalAdmin_Login_Widget = new Standard_Classroom.Admin_Login_Widget(ComponentMediator, 20);
+            InternalAdmin_Login_Widget = new Standard_Classroom.Admin_Login_Widget(ComponentMediator, 18);
 
-            InternalCam_02_ControlPreset_Widget = new Standard_Classroom.Cam_02_ControlPreset_Widget(ComponentMediator, 21);
+            InternalCam_02_ControlPreset_Widget = new Standard_Classroom.Cam_02_ControlPreset_Widget(ComponentMediator, 19);
 
-            InternalVolume_Control_0x_Panel_Widget = new Standard_Classroom.Volume_Control_0x_Panel_Widget.Volume_Control_0x_Panel_Widget(ComponentMediator, 22);
+            InternalVolume_Control_0x_Panel_Widget = new Standard_Classroom.Volume_Control_0x_Panel_Widget.Volume_Control_0x_Panel_Widget(ComponentMediator, 20);
 
-            InternalVolume_Control_03_Panel_Widget = new Standard_Classroom.Volume_Control_03_Panel_Widget(ComponentMediator, 24);
+            InternalVolume_Control_03_Panel_Widget = new Standard_Classroom.Volume_Control_03_Panel_Widget(ComponentMediator, 22);
 
-            InternalProj_03_Source_04_Widget = new Standard_Classroom.Proj_03_Source_04_Widget.Proj_03_Source_04_Widget(ComponentMediator, 26);
+            InternalProj_03_Source_04_Widget = new Standard_Classroom.Proj_03_Source_04_Widget.Proj_03_Source_04_Widget(ComponentMediator, 23);
 
-            InternalCam_01_Control_Widget = new Standard_Classroom.Cam_01_Control_Widget(ComponentMediator, 28);
+            InternalCam_01_Control_Widget = new Standard_Classroom.Cam_01_Control_Widget(ComponentMediator, 25);
 
-            InternalAdmin_Volume_Widget = new Standard_Classroom.Admin_Volume_Widget.Admin_Volume_Widget(ComponentMediator, 29);
+            InternalAdmin_Volume_Widget = new Standard_Classroom.Admin_Volume_Widget.Admin_Volume_Widget(ComponentMediator, 26);
 
-            InternalCam_01_ControlPreset_Widget = new Standard_Classroom.Cam_01_ControlPreset_Widget(ComponentMediator, 32);
+            InternalCam_01_ControlPreset_Widget = new Standard_Classroom.Cam_01_ControlPreset_Widget(ComponentMediator, 28);
 
-            InternalCam_02_Control_Widget = new Standard_Classroom.Cam_02_Control_Widget(ComponentMediator, 33);
+            InternalCam_02_Control_Widget = new Standard_Classroom.Cam_02_Control_Widget(ComponentMediator, 29);
 
-            InternalProj_02_Source_04_Widget = new Standard_Classroom.Proj_02_Source_04_Widget.Proj_02_Source_04_Widget(ComponentMediator, 34);
+            InternalProj_02_Source_04_Widget = new Standard_Classroom.Proj_02_Source_04_Widget.Proj_02_Source_04_Widget(ComponentMediator, 30);
 
-            InternalProj_01_Source_04_Widget = new Standard_Classroom.Proj_01_Source_04_Widget.Proj_01_Source_04_Widget(ComponentMediator, 36);
+            InternalProj_01_Source_04_Widget = new Standard_Classroom.Proj_01_Source_04_Widget.Proj_01_Source_04_Widget(ComponentMediator, 32);
 
-            InternalProj_03_Power_Widget = new Standard_Classroom.Proj_03_Power_Widget(ComponentMediator, 38);
+            InternalProj_03_Power_Widget = new Standard_Classroom.Proj_03_Power_Widget(ComponentMediator, 34);
 
-            InternalProj_01_PowerScreen_Widget = new Standard_Classroom.Proj_01_PowerScreen_Widget(ComponentMediator, 39);
+            InternalProj_01_PowerScreen_Widget = new Standard_Classroom.Proj_01_PowerScreen_Widget(ComponentMediator, 35);
 
-            InternalProj_02_PowerScreen_Widget = new Standard_Classroom.Proj_02_PowerScreen_Widget(ComponentMediator, 40);
+            InternalProj_02_PowerScreen_Widget = new Standard_Classroom.Proj_02_PowerScreen_Widget(ComponentMediator, 36);
 
-            InternalProjDisp_01_PowerScreen_Widget = new Standard_Classroom.ProjDisp_01_PowerScreen_Widget(ComponentMediator, 41);
+            InternalProjDisp_01_PowerScreen_Widget = new Standard_Classroom.ProjDisp_01_PowerScreen_Widget(ComponentMediator, 37);
 
 
             for (int index = 0; index < devices.Length; index++)

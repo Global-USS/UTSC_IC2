@@ -413,7 +413,7 @@ namespace Standard_Classroom.Volume_Control_0x_Panel_Widget
             ComponentMediator.ConfigureNumericEvent(controlJoinId, Joins.Numerics.GuagePodMicVol_LowerTouchEvent, onGuagePodMicVol_LowerTouch);
             ComponentMediator.ConfigureNumericEvent(controlJoinId, Joins.Numerics.GuageSrcVol_LowerTouchEvent, onGuageSrcVol_LowerTouch);
             ComponentMediator.ConfigureNumericEvent(controlJoinId, Joins.Numerics.GuageWirelessMicVol_LowerTouchEvent, onGuageWirelessMicVol_LowerTouch);
-            ListMicSelection = new Standard_Classroom.Volume_Control_0x_Panel_Widget.ListMicSelection(ComponentMediator, 23);
+            ListMicSelection = new Standard_Classroom.Volume_Control_0x_Panel_Widget.ListMicSelection(ComponentMediator, 21);
         }
 
         public void AddDevice(BasicTriListWithSmartObject device)

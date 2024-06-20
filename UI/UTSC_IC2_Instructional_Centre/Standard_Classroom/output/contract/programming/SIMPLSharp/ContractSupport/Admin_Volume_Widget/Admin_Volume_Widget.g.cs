@@ -142,7 +142,7 @@ namespace Standard_Classroom.Admin_Volume_Widget
  
 
             ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.BtnExit_PressEvent, onBtnExit_Press);
-            ListVolControl = new Standard_Classroom.Admin_Volume_Widget.ListVolControl(ComponentMediator, 30);
+            ListVolControl = new Standard_Classroom.Admin_Volume_Widget.ListVolControl(ComponentMediator, 27);
         }
 
         public void AddDevice(BasicTriListWithSmartObject device)
