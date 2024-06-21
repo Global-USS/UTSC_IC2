@@ -1,0 +1,174 @@
+{FileMetadata}
+Schema = "1.0.0.0"
+CreatedByAppHost = "1.3300.16.0"
+Created = 2024-05-31 09:42:01.067268-04:00
+LastModifiedByAppHost = "1.3300.16.0"
+Modified = 2024-05-31 09:42:01.067266-04:00
+CreatedByProjectApp = "1.3300.16.0"
+LastModifiedByProjectApp = "1.3300.16.0"
+MinimumProjectApp = "1.2600.1"
+
+{Html}
+<ch5-background scale="stretch" refreshrate="600" transitioneffect="ease" transitionduration="1s" assetid="1e8dd386-2966-4824-9757-ea66e0ab6959" backgroundcolor="#ffffff" id="i9yqf" componentname="Background_2" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" imgbackgroundcolor="transparent" componentwasresized="true">
+              </ch5-background><ch5-image refreshrate="0" customvstheme="custom" assetid="cb14d7a5-51b4-4f28-b6b1-50b6bdd1a0ac" id="i8dh37tink" componentname="Logo" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" oldid="i12vh">
+              </ch5-image><ch5-text clearlabel="false" labelmodeadvncomponent="advanced" horizontalalignment="center" verticalalignment="middle" multilinesupport="false" truncatetext="false" labelinnerhtml="<p><span style=&quot;font-size: 100%;&quot;>WELCOME TO <ch5-jointotext-string receiveStateValue=&quot;1&quot; textWhenEmpty=&quot;ROOM NAME&quot;></ch5-jointotext-string></span></p>" id="iktd" componentname="Txt.WelcomeMsg" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" ccid_themecssset="true">
+              </ch5-text><ch5-text clearlabel="false" labelmodeadvncomponent="advanced" horizontalalignment="center" verticalalignment="middle" multilinesupport="false" truncatetext="false" id="ikfl92hn59cb1" componentname="Txt.TouchToBeginMsg" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" ccid_themecssset="true" oldid="iktd" labelinnerhtml="<p><span style=&quot;font-size: 100%;&quot;>TOUCH SCREEN TO BEGIN</span></p>"></ch5-text><ch5-button type="default" halignlabel="center" valignlabel="middle" checkboxshow="false" checkboxposition="left" disabled="false" pageflipattributename="pageflip" clearlabel="true" ccid_imageicontype="iconclass" ccid_linksendreceive="False" iconurlfilltype="initial" customclass="ccid-custom" affectedbypreviewstate="True" shape="rounded-rectangle" customvstheme="custom" id="iafk" pageflip="0" iconposition="first" previewstate="selected" orientation="horizontal" labelmode="simple" componentname="Btn.TouchToBegin" ccid_themecssset="true" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" size="custom" sendeventontouch="Contract Enabled" selected="true">
+              </ch5-button>
+
+
+
+
+
+{Css}
+@media (max-width: 99999px){#wrapper{background-color:#fff;}#i8dh37tink{width:587px;height:243px;pointer-events:all;display:block;left:28px;top:4px;position:absolute;background:transparent;border-color:undefined;}#i8dh37tink .ch5-image{border-color:black;object-fit:scale-down;}#ikfl92hn59cb1 .ch5-text{width:1332px;height:267px;font-size:70px;custom-font-size:70px;background-color:rgba(0,113,219,0);}#iktd .ch5-text{width:1332px;height:267px;font-size:100px;custom-font-size:100px;border-style:none;background-color:rgba(0,0,0,0);}#iktd{width:1332px;height:267px;font-family:Roboto;display:block;left:614px;top:511px;position:absolute;}#ikfl92hn59cb1{width:1332px;height:267px;font-family:Roboto;display:block;left:614px;top:758px;position:absolute;}#i9yqf{z-index:default;}#iafk .ch5-button--default{border-style:solid;border-color:rgba(0,145,234,0);color:#ffffff;background-color:rgba(0,153,255,0);border-width:1px;}#iafk .ch5-button--default .ch5-button--label{font-family:Roboto;color:#ffffff;font-size:14px;font-weight:400;buttonDefaultLabel_font-size:14px;buttonDefaultLabel_color:#ffffff;buttonDefaultLabel_font-weight:400;}#iafk .ch5-button--default .ch5-button--icon{color:#ffffff;font-size:14px;custom-font-size:14px;buttonDefaultIcon_font-size:14px;buttonDefaultIcon_color:#ffffff;}#iafk .ch5-button--default .cb-checkbox-icon{color:#ffffff;buttonDefaultCheckbox_color:#ffffff;}#iafk .ccid-custom.ch5-button--default .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#iafk .ch5-button--default.ch5-button--pressed{color:#f0fff0;background-color:rgba(0,138,230,0);border-color:rgba(0,145,234,0);}#iafk .ch5-button--default.ch5-button--pressed .ch5-button--label{color:#f0fff0;font-size:14px;font-weight:400;buttonDefaultPressedLabel_font-size:14px;buttonDefaultPressedLabel_color:#f0fff0;buttonDefaultPressedLabel_font-weight:400;}#iafk .ch5-button--default.ch5-button--pressed .ch5-button--icon{color:#f0fff0;font-size:14px;custom-font-size:14px;buttonDefaultPressedIcon_font-size:14px;buttonDefaultPressedIcon_color:#f0fff0;}#iafk .ch5-button--default.ch5-button--pressed .cb-checkbox-icon{color:#f0fff0;buttonDefaultPressedCheckbox_color:#f0fff0;}#iafk .ccid-custom.ch5-button--default.ch5-button--pressed .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#iafk .ch5-button--default.ch5-button--selected{color:#f0fff0;background-color:rgba(0,115,191,0);border-color:rgba(0,145,234,0);}#iafk .ch5-button--default.ch5-button--selected .ch5-button--label{color:#f0fff0;font-size:14px;font-weight:400;buttonDefaultSelectedLabel_font-size:14px;buttonDefaultSelectedLabel_color:#f0fff0;buttonDefaultSelectedLabel_font-weight:400;}#iafk .ch5-button--default.ch5-button--selected .ch5-button--icon{color:#f0fff0;font-size:14px;custom-font-size:14px;buttonDefaultSelectedIcon_font-size:14px;buttonDefaultSelectedIcon_color:#f0fff0;}#iafk .ch5-button--default.ch5-button--selected .cb-checkbox-icon{color:#f0fff0;buttonDefaultSelectedCheckbox_color:#f0fff0;}#iafk .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#iafk .ch5-button--size-regular .cb-btn{width:2560px;height:1440px;}#iafk{pointer-events:all;width:2560px;height:1440px;font-family:Roboto;display:block;left:0;top:0;position:absolute;}}@media (orientation: landscape) and (max-width: 1281px) and (max-height: 801px), (orientation: landscape) and (max-width: 1279px){#i8dh37tink{width:335px;height:139px;top:3px;left:11px;position:absolute;display:block;}#iktd{left:174px;width:932px;height:193px;top:271px;}#iktd .ch5-text{width:932px;font-size:60px;custom-font-size:60px;height:193px;}#i9yqf{width:1280px;height:800px;top:0px;left:0px;position:absolute;}#ikfl92hn59cb1{width:932px;height:157px;top:423px;left:174px;position:absolute;}#ikfl92hn59cb1 .ch5-text{font-size:40px;custom-font-size:40px;width:932px;height:157px;}#iafk .ch5-button--size-regular .cb-btn{width:1280px;height:798px;}body{background-color:#fff;}#iafk{width:1280px;height:798px;top:0;left:0px;position:absolute;}}
+
+
+
+
+
+{PageAttributes}
+
+[Attributes]
+Name = "Welcome_Page"
+PageMode = "absolute"
+Id = "9ca03bd6-16fa-46b7-af1d-85cbff58c75e"
+StartPage = "True"
+VisibilityJoin = "VisibilityJoin"
+
+[[Elements]]
+Name = ""
+Type = "Ch5 Background"
+Status = ""
+Content = ""
+Editable = true
+
+[[Elements.Components]]
+Name = ""
+Type = "textnode"
+Status = ""
+Content = "\n              "
+
+[Elements.Attributes]
+scale = "stretch"
+refreshrate = "600"
+transitioneffect = "ease"
+transitionduration = "1s"
+assetid = "1e8dd386-2966-4824-9757-ea66e0ab6959"
+backgroundcolor = "#ffffff"
+id = "i9yqf"
+componentName = "Background_2"
+ccid_linkSendReceive = "True"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+imgbackgroundcolor = "transparent"
+componentWasResized = "true"
+[[Elements]]
+Name = ""
+Type = "Ch5 Image"
+Status = ""
+Content = ""
+Editable = true
+
+[[Elements.Components]]
+Name = ""
+Type = "textnode"
+Status = ""
+Content = "\n              "
+
+[Elements.Attributes]
+refreshrate = "0"
+customvstheme = "custom"
+assetid = "cb14d7a5-51b4-4f28-b6b1-50b6bdd1a0ac"
+id = "i8dh37tink"
+componentName = "Logo"
+ccid_linkSendReceive = "True"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+oldID = "i12vh"
+[[Elements]]
+Name = ""
+Type = "Ch5 Text"
+Status = ""
+Content = ""
+Editable = true
+
+[[Elements.Components]]
+Name = ""
+Type = "textnode"
+Status = ""
+Content = "\n              "
+
+[Elements.Attributes]
+clearLabel = "false"
+labelmodeadvncomponent = "advanced"
+horizontalalignment = "center"
+verticalalignment = "middle"
+multilinesupport = "false"
+truncatetext = "false"
+labelinnerhtml = "<p><span style=\"font-size: 100%;\">WELCOME TO <ch5-jointotext-string receiveStateValue=\"1\" textWhenEmpty=\"ROOM NAME\"></ch5-jointotext-string></span></p>"
+id = "iktd"
+componentName = "Txt.WelcomeMsg"
+ccid_linkSendReceive = "True"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+ccid_themeCSSSet = "true"
+[[Elements]]
+Name = ""
+Type = "Ch5 Text"
+Status = ""
+Content = ""
+Editable = true
+
+[Elements.Attributes]
+clearLabel = "false"
+labelmodeadvncomponent = "advanced"
+horizontalalignment = "center"
+verticalalignment = "middle"
+multilinesupport = "false"
+truncatetext = "false"
+id = "ikfl92hn59cb1"
+componentName = "Txt.TouchToBeginMsg"
+ccid_linkSendReceive = "True"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+ccid_themeCSSSet = "true"
+oldID = "iktd"
+labelinnerhtml = "<p><span style=\"font-size: 100%;\">TOUCH SCREEN TO BEGIN</span></p>"
+[[Elements]]
+Name = ""
+Type = "Ch5 Button"
+Status = ""
+Content = ""
+Editable = true
+
+[[Elements.Components]]
+Name = ""
+Type = "textnode"
+Status = ""
+Content = "\n              "
+
+[Elements.Attributes]
+type = "default"
+halignlabel = "center"
+valignlabel = "middle"
+checkboxshow = "false"
+checkboxposition = "left"
+disabled = "false"
+pageFlipAttributeName = "pageflip"
+clearLabel = "true"
+ccid_imageIconType = "iconclass"
+ccid_linkSendReceive = "False"
+iconurlfilltype = "initial"
+customclass = "ccid-custom"
+affectedByPreviewState = "True"
+shape = "rounded-rectangle"
+customvstheme = "custom"
+id = "iafk"
+pageflip = "0"
+iconposition = "first"
+previewstate = "selected"
+orientation = "horizontal"
+labelmode = "simple"
+componentName = "Btn.TouchToBegin"
+ccid_themeCSSSet = "true"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+size = "custom"
+sendeventontouch = "Contract Enabled"
+selected = "true"
+

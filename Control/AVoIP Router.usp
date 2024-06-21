@@ -1,0 +1,164 @@
+#DEFAULT_VOLATILE
+#ENABLE_STACK_CHECKING
+#ENABLE_TRACE
+#USER_SIMPLSHARP_LIBRARY "Guss.SimplExtensions"
+
+
+#DEFINE_CONSTANT maxRoutes 30             
+
+#HELP_BEGIN
+Written By: Mat klucznyk
+Written On: 2018-08-16
+****v1.0****
+This module was designed to function the same as DM routing          
+
+INPUTS       
+route: routes the corresponding streamLocation via the the analog value of the streamLocation index
+streamLocationFeedBack: attach to an NVX RX StreamLocation_F  
+streamLocation: attach to an NVX TX StreamLocation_F
+
+OUTPUTS
+routeFeedBack: inidicates which streamLocation, based on its index, is currently being streamed
+streamLocationRoute: attach to an NVX RX StreamLocation
+
+Parameter:
+EmulationMode: 0 dsiables emulation mode and 1 enables it. In Emulation mode, routeFeedBack will
+receive a route directly from its co-responsing route single
+
+****v1.1****
+Added ability to clear a route
+
+****v1.2****
+Added Emulation Mode
+Refactoring
+#HELP_END
+
+analog_input _skip_,  Route[maxRoutes];    
+string_input StreamLocationFeedBack[maxRoutes][100];
+string_input StreamLocation[maxRoutes,maxRoutes][100];
+
+analog_output _skip_,  RouteFeedBack[maxRoutes];
+string_output StreamLocationRoute[maxRoutes,maxRoutes];
+
+integer_parameter EmulationMode;  
+
+integer _enable;
+SimplDictionary _streamLocationRoutes;
+SimplDictionary _streamLocationFeedbacks;
+
+function CheckRoute(integer outputIndex, string strLocF)
+{
+	integer cnt;
+	
+	if(len(strLocF))
+	{
+		_streamLocationFeedbacks.ChangeValue(ItoA(outputIndex), strLocF);
+		RouteFeedBack[outputIndex] = AtoI(_streamLocationRoutes.GetValueByKey(strLocF));
+	}
+	else
+	{
+		_streamLocationFeedbacks.ChangeValue(ItoA(outputIndex), "");
+		RouteFeedBack[outputIndex] = 0;
+	}
+}
+
+change Route
+{
+	integer x;
+	integer y;
+	
+	x = GetLastModifiedArrayIndex();
+	y = Route[x];
+	
+	if(y > 0)
+	{
+		StreamLocationRoute[x] = _streamLocationRoutes.GetKeyByValue(ItoA(y));
+	}
+	else
+	{
+		StreamLocationRoute[x] = "";
+	}
+	
+	if(EmulationMode = 1)
+	{
+		RouteFeedBack[x] = Route[x];
+	}
+}
+
+change StreamLocationFeedBack
+{  
+	integer x;
+	string y[100];
+	
+	x = GetLastModifiedArrayIndex();
+	y = StreamLocationFeedBack[x];
+	
+	CheckRoute(x, y);
+}
+
+change StreamLocation
+{
+	integer index;
+	integer cnt;
+	string key[100];
+	string foundKey[100];
+	FoundKeys foundKeys;
+	
+	index = GetLastModifiedArrayIndex();
+	key = StreamLocation[index];
+	foundKey = _streamLocationRoutes.GetKeyByValue(ItoA(index));
+	
+	if(foundKey != key)
+	{
+		if(len(foundKey))
+		{
+			_streamLocationRoutes.ChangeKeyByValue(key, ItoA(index));
+		}
+		else
+		{
+			_streamLocationRoutes.Add(key, ItoA(index));
+		}
+		
+		_streamLocationFeedbacks.GetAllByValue(key, 0);
+	}
+}
+
+callback function NewFoundKeysByValue(FoundKeys args)
+{
+	integer cnt;
+	
+	if(!args.KeyChanged)
+	{
+		for(cnt = 0 to args.Count)
+		{
+			CheckRoute(AtoI(args.Keys[cnt]), args.Value);
+		}
+	}
+	else
+	{
+		for(cnt = 0 to args.Count)
+		{
+			CheckRoute(AtoI(args.Keys[cnt]), "");
+		}
+	}
+}
+
+callback function NewKeyChanged(string oldKey, string newKey)
+{
+	_streamLocationFeedbacks.GetAllByValue(oldKey, 1);
+}
+
+function Main()
+{
+	integer cnt;
+	
+	for(cnt = 1 to maxRoutes)
+	{
+		_streamLocationFeedbacks.Add(ItoA(cnt), "");
+	}
+	
+	RegisterDelegate(_streamLocationFeedbacks, OnFoundKeysByValue, NewFoundKeysByValue);
+	//RegisterDelegate(_streamLocationRoutes, OnKeyChanged, NewKeyChanged);
+	
+	WaitForInitializationComplete();
+}

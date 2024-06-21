@@ -1,9 +1,9 @@
 {FileMetadata}
 Schema = "1.0.0.0"
 CreatedByAppHost = "1.3300.16.0"
-Created = 2024-05-22 14:13:55.024503-04:00
+Created = 2024-05-30 15:36:14.523221-04:00
 LastModifiedByAppHost = "1.3300.16.0"
-Modified = 2024-05-22 14:13:55.0245-04:00
+Modified = 2024-05-30 15:36:14.52322-04:00
 CreatedByProjectApp = "1.3300.16.0"
 LastModifiedByProjectApp = "1.3300.16.0"
 MinimumProjectApp = "1.2600.1"
@@ -17,9 +17,13 @@ MinimumProjectApp = "1.2600.1"
 
 
 
+
+
 {Css}
 @media (max-width: 99999px) { #wrapper { background-color: #fff } #irwd .ch5-text { width: 1513px; height: 116px; color: #000000; font-size: 70px; custom-font-size: 70px } #irwd { width: 1513px; height: 116px; font-family: Roboto; display: block; left: 486px; top: 599px; position: absolute } #iby7fwgcfdb5l { width: 587px; height: 243px; pointer-events: all; display: block; left: 28px; top: 4px; position: absolute; background: transparent; border-color: undefined } #iby7fwgcfdb5l .ch5-image { border-color: black; object-fit: scale-down } #izlt .ch5-animation { animationColor_color: #3f3f3f; color: #3f3f3f } #izlt { display: block; left: 1228px; top: 787px; position: absolute; animationColor_color: #3f3f3f; width: auto; height: auto } #i7yi { z-index: default } }
 @media (orientation: landscape) and (max-width: 1281px) and (max-height: 801px), (orientation: landscape) and (max-width: 1279px) { #irwd { top: 329px; left: 174px; position: absolute; width: 932px } #irwd .ch5-text { font-size: 40px; custom-font-size: 40px; width: 932px } #iby7fwgcfdb5l { width: 335px; height: 139px; top: 3px; left: 11px; position: absolute; display: block } #i7yi { width: 1280px; height: 800px } #izlt { top: 461px; left: 588px; position: absolute } }
+
+
 
 {PageAttributes}
 
@@ -28,7 +32,7 @@ Name = "Shutdown_Page"
 PageMode = "absolute"
 Id = "20a026f8-1212-48d4-bb86-da9f243dca5f"
 StartPage = "False"
-VisibilityJoin = "0"
+VisibilityJoin = "VisibilityJoin"
 
 [[Elements]]
 Name = ""

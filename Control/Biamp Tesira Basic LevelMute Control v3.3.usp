@@ -49,8 +49,8 @@ Not to be used as a stand-alone module.
   DIGITAL, ANALOG and SERIAL INPUTS and OUTPUTS
   (Uncomment and declare inputs and outputs as needed)
 *******************************************************************************************/
-DIGITAL_INPUT _SKIP_, _SKIP_,_SKIP_,_SKIP_,_SKIP_; 
-DIGITAL_OUTPUT _SKIP_, _SKIP_,_SKIP_,_SKIP_,_SKIP_;
+DIGITAL_INPUT _SKIP_, _SKIP_,_SKIP_,_SKIP_,_SKIP_, _SKIP_; 
+DIGITAL_OUTPUT _SKIP_, _SKIP_,_SKIP_,_SKIP_,_SKIP_, _SKIP_;
 
 DIGITAL_INPUT Poll, _SKIP_; 
 DIGITAL_INPUT Level_Up, Level_Down, _SKIP_;                                                
@@ -73,7 +73,7 @@ ANALOG_OUTPUT Volume_Level_Percent, _SKIP_;
   Parameters
   (Uncomment and declare parameters as needed)
 *******************************************************************************************/
-STRING_PARAMETER Instance_Tag[50];
+STRING_PARAMETER Instance_Tag_Level[50], Instance_Tag_Mute[50];
 INTEGER_PARAMETER Index_1, Index_2;
 INTEGER_PARAMETER Level_Step;
 INTEGER_PARAMETER Command_Processor_ID;
@@ -81,11 +81,18 @@ INTEGER_PARAMETER Command_Processor_ID;
   Parameter Properties
   (Uncomment and declare parameter properties as needed)
 *******************************************************************************************/
-#BEGIN_PARAMETER_PROPERTIES Instance_Tag
+#BEGIN_PARAMETER_PROPERTIES Instance_Tag_Level
    propValidUnits = unitString;
    propDefaultUnit = unitString;
    propDefaultValue = "";
 #END_PARAMETER_PROPERTIES
+
+#BEGIN_PARAMETER_PROPERTIES Instance_Tag_Mute
+   propValidUnits = unitString;
+   propDefaultUnit = unitString;
+   propDefaultValue = "";
+#END_PARAMETER_PROPERTIES
+
 
 #BEGIN_PARAMETER_PROPERTIES Index_1, Index_2
    propValidUnits = unitDecimal;
@@ -234,8 +241,8 @@ THREADSAFE PUSH Enable
 {
 	IF (IsReady)
 	{
-		level.Configure(Command_Processor_ID, Instance_Tag, "level", Index_1, Index_2, Level_Step);
-		mute.Configure(Command_Processor_ID, Instance_Tag, "mute", Index_1, Index_2);
+		level.Configure(Command_Processor_ID, Instance_Tag_Level, "level", Index_1, Index_2, Level_Step);
+		mute.Configure(Command_Processor_ID, Instance_Tag_Mute, "mute", Index_1, Index_2);
 	}
 }
 THREADSAFE RELEASE Enable
@@ -269,8 +276,8 @@ Function Main()
                               
 	IF (Enable)         
 	{
-	    level.Configure(Command_Processor_ID, Instance_Tag, "level", Index_1, Index_2, Level_Step);
-	    mute.Configure(Command_Processor_ID, Instance_Tag, "mute", Index_1, Index_2);
+	    level.Configure(Command_Processor_ID, Instance_Tag_Level, "level", Index_1, Index_2, Level_Step);
+	    mute.Configure(Command_Processor_ID, Instance_Tag_Mute, "mute", Index_1, Index_2);
 	}
 
 	IsReady = TRUE;

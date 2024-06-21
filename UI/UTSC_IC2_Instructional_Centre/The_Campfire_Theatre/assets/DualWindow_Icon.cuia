@@ -1,0 +1,21 @@
+{FileMetadata}
+Schema = "1.0.0.0"
+CreatedByAppHost = "1.3300.16.0"
+Created = 2024-06-21 16:01:11.369364-04:00
+LastModifiedByAppHost = "1.3300.16.0"
+Modified = 2024-06-21 16:01:11.369362-04:00
+CreatedByProjectApp = "1.3300.16.0"
+LastModifiedByProjectApp = "1.3300.16.0"
+MinimumProjectApp = ""
+
+{AssetAttributes}
+
+[Attributes]
+Id = "bb77ac59-252d-471a-9fcb-93d92a1233c2"
+Name = "DualWindow_Icon"
+SourceUri = "DualWindow_Icon.png"
+AspectRatio = "2.6683168316831685"
+AssetSourceType = "File"
+Username = ""
+Password = ""
+

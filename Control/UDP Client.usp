@@ -20,7 +20,7 @@
 //inputs
 digital_input Connect, Disconnect;
 analog_input Port;
-string_input IpAddress[255], _skip_, Command[255];
+string_input IpAddress[255], _skip_, SendCommand[255];
 analog_input _skip_, DebugLevel;
 
 digital_output IsConnected;
@@ -92,11 +92,11 @@ change IpAddress
 	}
 }
 
-change Command
+change SendCommand
 {
 	string c[255];
 	
-	c = Command;
+	c = SendCommand;
 	_client.SendCommand(c);
 }
 

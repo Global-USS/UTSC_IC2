@@ -1,0 +1,220 @@
+#SYMBOL_NAME "Json Store"
+
+#USER_SIMPLSHARP_LIBRARY "JsonStore"
+#ENABLE_TRACE
+
+#DEFINE_CONSTANT Totals 50
+
+
+//#ENABLE_TRACE                   
+
+#HELP_BEGIN
+Written By: Mat Klucznyk
+Written On: 2018-08-27
+****v1.0****
+This module saves Strings, Analogs and Digital signals to a JSON file under \User
+
+Parameters: 
+FilePath: Leave empty for default folder which is \User\App{program number}, or fill in with custom directory
+ID: Any string that is unique to this instance, if mulitple stores will be used multiple files will be created and tagged with the ID. Example: ID = main, file path will be \User\jsonStore_main.json      
+
+Inputs:         
+Initialize: Initializes the JSON file, creates one if one does not exist or pulls the data and sends to SIMPL
+Bools[x]: Stores the bool value when changed    
+Analogs[x]: Stores the analog value when chnaged
+Strings[x]: Stores the strings content when changed
+
+FileCreated: Indicates that the file was created succesfully or the file was found in the directory                                                   
+BoolsOut[x]: Reports the currently saved bool value
+AnalogsOut[x]: Reports the currently saved analog value
+StringsOut[x]: Reports the currently saved strings content
+
+
+**Notes:
+Since this module saves the file to processors harddrive, the file can be retrieved and sent to another procesor
+To send file to another FTP server, ensure in the home directory that a directory has been created named User
+#HELP_END
+Digital_Input _skip_, _skip_, _skip_, _skip_, _skip_, Initialize, Save, Recall, _skip_, Bools[Totals,Totals];
+String_Input _skip_, Strings[Totals][255];   
+Analog_Input _skip_, Analogs[Totals,Totals];
+
+Digital_Output _skip_, _skip_, _skip_, _skip_, _skip_, FileCreated, _skip_, SaveBusy, _skip_, BoolsOut[Totals,Totals];
+String_Output _skip_, StringsOut[Totals,Totals];
+Analog_Output _skip_, AnalogsOut[Totals,Totals];
+
+Integer_Parameter IndentJsonFile;
+String_Parameter FilePath[100], ID[100];
+integer_parameter EnableAutoSave;
+integer_parameter EnableBoolsToggle;
+
+#BEGIN_PARAMETER_PROPERTIES EnableAutoSave, EnableBoolsToggle
+propDefaultValue = 1d;
+#END_PARAMETER_PROPERTIES
+
+Json store;      
+
+Integer enable, waitForInit;
+
+Change Bools
+{    
+	integer x, y;
+	
+	if (!enable)
+	{
+		return;
+	}
+	
+	x = GetLastModifiedArrayIndex();
+	
+	y = Bools[x];
+	
+	if(EnableBoolsToggle)
+	{
+		if(y)
+		{
+			y = !BoolsOut[x];
+			
+			if(EnableAutoSave)
+			store.ChangeBool(y, x - 1);
+			
+			BoolsOut[x] = y;
+		}
+	}
+	else
+	{
+		if(BoolsOut[x] != y)
+		{
+			if(EnableAutoSave)
+			store.ChangeBool(y, x - 1);
+		}
+		
+		BoolsOut[x] = y;
+	}	
+} 
+
+Change Analogs
+{       
+	integer x, y;
+	
+	if (!enable)
+	{
+		return;
+	}	
+	
+	x = GetLastModifiedArrayIndex();
+	y = Analogs[x];
+	
+	if(AnalogsOut[x] != y)
+	{
+		if(EnableAutoSave)
+		store.ChangeInteger(y, x - 1);  
+	}
+	
+	AnalogsOut[x] = y;
+}  
+
+Change Strings
+{     
+	integer x;
+	string y[255];
+	
+	if (!enable)
+	{
+		return;
+	}
+	
+	x = GetLastModifiedArrayIndex();
+	y = Strings[x];
+	
+	if(EnableAutoSave)
+	store.ChangeString(y, x - 1);  
+	
+	StringsOut[x] = y;
+} 
+
+threadsafe Push Initialize
+{
+	while(!waitForInit);
+	store.LoadLists(Totals, Totals, Totals, FilePath, ID);	
+}
+
+threadsafe push Save
+{
+	integer cnt;
+	SimplLists myLists;
+	
+	if(!enable)
+	{
+		return;
+	}
+	
+	SaveBusy = 1;
+	
+	myLists.Resize(Totals);
+	
+	for(cnt = 1 to Totals)
+	{
+		myLists.Strings[cnt - 1] = Strings[cnt];
+		myLists.Integers[cnt - 1] = Analogs[cnt];
+		myLists.Bools[cnt - 1] = Bools[cnt];
+	}
+	
+	store.ChangeTriList(myLists, 0,  Totals - 1);
+	
+	SaveBusy = 0;
+}
+
+push Recall
+{
+	if (!enable)
+	{
+		return;
+	}
+	
+	store.SendLists();
+}
+
+Callback Function NewFileCreated(integer value)
+{
+	trace("FileCreated %d", value);
+	FileCreated = value;
+}
+
+callback function NewTriListChanged(SimplLists newLists)
+{
+	integer cnt;
+	
+	if(!enable)
+	{
+		enable = 1;
+	}
+	
+	for(cnt = 1 to newLists.StringsLength)
+	{
+		StringsOut[cnt] = newLists.Strings[cnt - 1];
+	}
+	
+	for(cnt = 1 to newLists.IntegersLength)
+	{
+		AnalogsOut[cnt] = newLists.Integers[cnt - 1];
+	}
+	
+	for(cnt = 1 to newLists.BoolsLength)
+	{
+		BoolsOut[cnt] = newLists.Bools[cnt - 1];
+	}
+}
+
+Function Main()
+{
+	WaitForInitializationComplete();  
+	
+	store.IndentTrue = IndentJsonFile;
+	RegisterDelegate(store, OnFileCreated, NewFileCreated);
+	RegisterDelegate(store, OnTriListChanged, NewTriListChanged);
+	
+	delay(50);
+	waitForInit = 1;
+}
+
+

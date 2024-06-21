@@ -82,24 +82,6 @@ namespace Standard_Classroom
         /// </summary>
         /// <param name="digital">The bool to update the panel.</param>
         void BtnAutoTrackingTgl_Selected(bool digital);
-
-        /// <summary>
-        /// Btn.AutoTrackingTgl.Mode Feedback
-        /// </summary>
-        /// <param name="callback">The ushort delegate to update the panel.</param>
-        void BtnAutoTrackingTgl_Mode(Cam_01_Control_WidgetUShortInputSigDelegate callback);
-
-        /// <summary>
-        /// Btn.AutoTrackingTgl.Mode Feedback
-        /// </summary>
-        /// <param name="callback">The ushort analog to update the panel.</param>
-        void BtnAutoTrackingTgl_Mode(ushort analog);
-
-        /// <summary>
-        /// Btn.AutoTrackingTgl.Mode Feedback
-        /// </summary>
-        /// <param name="callback">The short analog to update the panel.</param>
-        void BtnAutoTrackingTgl_Mode(short analog);
     }
 
     /// <summary>
@@ -108,12 +90,6 @@ namespace Standard_Classroom
     /// <param name="boolInputSig">The <see cref="BoolInputSig"/> signal data.</param>
     /// <param name="cam_01_control_widget">The <see cref="ICam_01_Control_Widget"/> on which to apply the feedback.</param>
     public delegate void Cam_01_Control_WidgetBoolInputSigDelegate(BoolInputSig boolInputSig, ICam_01_Control_Widget cam_01_control_widget);
-    /// <summary>
-    /// Digital callback used in feedback events.
-    /// </summary>
-    /// <param name="uShortInputSig">The <see cref="UShortInputSig"/> signal data.</param>
-    /// <param name="cam_01_control_widget">The <see cref="ICam_01_Control_Widget"/> on which to apply the feedback.</param>
-    public delegate void Cam_01_Control_WidgetUShortInputSigDelegate(UShortInputSig uShortInputSig, ICam_01_Control_Widget cam_01_control_widget);
 
     /// <summary>
     /// Cam_01_Control_Widget
@@ -203,19 +179,6 @@ namespace Standard_Classroom
                 /// Btn.AutoTrackingTgl.Selected
                 /// </summary>
                 public const uint BtnAutoTrackingTgl_SelectedState = 3;
-
-            }
-            /// <summary>
-            /// Analog signals.
-            /// </summary>
-            internal static class Numerics
-            {
-
-                /// <summary>
-                /// Input or Feedback analog signal from Control System to panel: Cam_01_Control_Widget.BtnAutoTrackingTgl.Mode
-                /// Btn.AutoTrackingTgl.Mode
-                /// </summary>
-                public const uint BtnAutoTrackingTgl_ModeState = 9;
 
             }
         }
@@ -399,37 +362,6 @@ namespace Standard_Classroom
         public void BtnAutoTrackingTgl_Selected(bool digital)
         {
             BtnAutoTrackingTgl_Selected((sig, component) => sig.BoolValue = digital);
-        }
-
-        /// <summary>
-        /// Numeric feedback Btn.AutoTrackingTgl.Mode
-        /// </summary>
-        /// <param name="itemIndex">Index of the Widget List (0 based).</param>
-        /// <param name="callback">The ushort delegate to update the panel.</param>
-        public void BtnAutoTrackingTgl_Mode(Cam_01_Control_WidgetUShortInputSigDelegate callback)
-        {
-            for (int index = 0; index < Devices.Count; index++)
-            {
-                callback(Devices[index].SmartObjects[ControlJoinId].UShortInput[Joins.Numerics.BtnAutoTrackingTgl_ModeState], this);
-            }
-        }
-
-        /// <summary>
-        /// Numeric feedback Btn.AutoTrackingTgl.Mode
-        /// </summary>
-        /// <param name="analog">The ushort analog to update the panel.</param>
-        public void BtnAutoTrackingTgl_Mode(ushort analog)
-        {
-            BtnAutoTrackingTgl_Mode((sig, component) => sig.UShortValue = analog);
-        }
-
-        /// <summary>
-        /// Numeric feedback Btn.AutoTrackingTgl.Mode
-        /// </summary>
-        /// <param name="analog">The short analog to update the panel.</param>
-        public void BtnAutoTrackingTgl_Mode(short analog)
-        {
-            BtnAutoTrackingTgl_Mode((sig, component) => sig.ShortValue = analog);
         }
 
         #endregion

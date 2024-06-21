@@ -1,0 +1,100 @@
+#SYMBOL_NAME "Source Text"
+
+//#INCLUDEPATH "pathTobinDebugFolder"
+//#USER_SIMPLSHARP_LIBRARY "C# Namespace"
+#DEFAULT_VOLATILE
+#ENABLE_STACK_CHECKING
+#ENABLE_TRACE
+#ENCODING_ASCII
+//#ENCODING_UTF16
+
+#DEFINE_CONSTANT maxOuts 50
+#DEFINE_CONSTANT maxIns 20
+
+String_Input NoSourceName[100], SourceName[maxIns,maxIns][100]; 
+Analog_Input Output[maxOuts,maxOuts];
+
+String_Output OutputSourceText[maxOuts,maxOuts];
+
+CMutex _busy;
+
+Change Output
+{
+	integer x;
+	
+	x = GetLastModifiedArrayIndex();
+	
+	_busy.WaitForMutex();
+	
+	try
+	{
+		if(Output[x] <= maxIns)
+		{
+			if(Output[x] = 0)
+			OutputSourceText[x] = NoSourceName;
+			else
+			OutputSourceText[x] = SourceName[Output[x]];
+		}
+	}
+	catch
+	{
+        GenerateUserError("Exception thrown: %s", GetExceptionMessage());
+	}
+
+	_busy.ReleaseMutex();
+}
+
+Change NoSourceName
+{
+	integer cnt;
+	string y[100];
+	
+	y = NoSourceName;
+	
+	_busy.WaitForMutex();
+	
+	try
+	{
+		for(cnt = 1 to maxOuts)
+		{
+			if(Output[cnt] = 0)
+			{
+				OutputSourceText[cnt] = y;
+			}
+		}   
+	}
+	catch
+	{
+		GenerateUserError("Exception thrown: %s", GetExceptionMessage());
+	}
+	
+	_busy.ReleaseMutex();
+}
+
+Change SourceName
+{
+	integer x, cnt;
+	string y[100];
+	
+	x = GetLastModifiedArrayIndex();
+	y = SourceName[x];
+	
+	_busy.WaitForMutex();
+
+	try
+	{
+		for(cnt = 1 to maxOuts)
+		{
+			if(Output[cnt] = x)
+			{
+				OutputSourceText[cnt] = y;
+			}
+		}
+	}
+	catch
+	{
+		GenerateUserError("Exception thrown: %s", GetExceptionMessage());
+	}
+	
+	_busy.ReleaseMutex();
+}

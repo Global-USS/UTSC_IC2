@@ -1,0 +1,21 @@
+{FileMetadata}
+Schema = "1.0.0.0"
+CreatedByAppHost = "1.3300.16.0"
+Created = 2024-05-31 09:42:00.865924-04:00
+LastModifiedByAppHost = "1.3300.16.0"
+Modified = 2024-05-31 09:42:00.865922-04:00
+CreatedByProjectApp = "1.3300.16.0"
+LastModifiedByProjectApp = "1.3300.16.0"
+MinimumProjectApp = ""
+
+{AssetAttributes}
+
+[Attributes]
+Id = "a50f872e-0260-4f5f-9539-d603e4ef4543"
+Name = "Projector_Icon"
+SourceUri = "Projector_Icon.svg"
+AspectRatio = "0"
+AssetSourceType = "File"
+Username = ""
+Password = ""
+

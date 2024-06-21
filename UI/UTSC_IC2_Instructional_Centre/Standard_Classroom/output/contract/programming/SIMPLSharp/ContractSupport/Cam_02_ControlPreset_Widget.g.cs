@@ -167,24 +167,6 @@ namespace Standard_Classroom
         /// </summary>
         /// <param name="digital">The bool to update the panel.</param>
         void BtnWallCam_Selected(bool digital);
-
-        /// <summary>
-        /// Btn.AutoTrackingTgl.Mode Feedback
-        /// </summary>
-        /// <param name="callback">The ushort delegate to update the panel.</param>
-        void BtnAutoTrackingTgl_Mode(Cam_02_ControlPreset_WidgetUShortInputSigDelegate callback);
-
-        /// <summary>
-        /// Btn.AutoTrackingTgl.Mode Feedback
-        /// </summary>
-        /// <param name="callback">The ushort analog to update the panel.</param>
-        void BtnAutoTrackingTgl_Mode(ushort analog);
-
-        /// <summary>
-        /// Btn.AutoTrackingTgl.Mode Feedback
-        /// </summary>
-        /// <param name="callback">The short analog to update the panel.</param>
-        void BtnAutoTrackingTgl_Mode(short analog);
     }
 
     /// <summary>
@@ -193,12 +175,6 @@ namespace Standard_Classroom
     /// <param name="boolInputSig">The <see cref="BoolInputSig"/> signal data.</param>
     /// <param name="cam_02_controlpreset_widget">The <see cref="ICam_02_ControlPreset_Widget"/> on which to apply the feedback.</param>
     public delegate void Cam_02_ControlPreset_WidgetBoolInputSigDelegate(BoolInputSig boolInputSig, ICam_02_ControlPreset_Widget cam_02_controlpreset_widget);
-    /// <summary>
-    /// Digital callback used in feedback events.
-    /// </summary>
-    /// <param name="uShortInputSig">The <see cref="UShortInputSig"/> signal data.</param>
-    /// <param name="cam_02_controlpreset_widget">The <see cref="ICam_02_ControlPreset_Widget"/> on which to apply the feedback.</param>
-    public delegate void Cam_02_ControlPreset_WidgetUShortInputSigDelegate(UShortInputSig uShortInputSig, ICam_02_ControlPreset_Widget cam_02_controlpreset_widget);
 
     /// <summary>
     /// Cam_02_Control-Preset_Widget
@@ -348,19 +324,6 @@ namespace Standard_Classroom
                 /// Btn.WallCam.Selected
                 /// </summary>
                 public const uint BtnWallCam_SelectedState = 8;
-
-            }
-            /// <summary>
-            /// Analog signals.
-            /// </summary>
-            internal static class Numerics
-            {
-
-                /// <summary>
-                /// Input or Feedback analog signal from Control System to panel: Cam_02_ControlPreset_Widget.BtnAutoTrackingTgl.Mode
-                /// Btn.AutoTrackingTgl.Mode
-                /// </summary>
-                public const uint BtnAutoTrackingTgl_ModeState = 9;
 
             }
         }
@@ -694,37 +657,6 @@ namespace Standard_Classroom
         public void BtnWallCam_Selected(bool digital)
         {
             BtnWallCam_Selected((sig, component) => sig.BoolValue = digital);
-        }
-
-        /// <summary>
-        /// Numeric feedback Btn.AutoTrackingTgl.Mode
-        /// </summary>
-        /// <param name="itemIndex">Index of the Widget List (0 based).</param>
-        /// <param name="callback">The ushort delegate to update the panel.</param>
-        public void BtnAutoTrackingTgl_Mode(Cam_02_ControlPreset_WidgetUShortInputSigDelegate callback)
-        {
-            for (int index = 0; index < Devices.Count; index++)
-            {
-                callback(Devices[index].SmartObjects[ControlJoinId].UShortInput[Joins.Numerics.BtnAutoTrackingTgl_ModeState], this);
-            }
-        }
-
-        /// <summary>
-        /// Numeric feedback Btn.AutoTrackingTgl.Mode
-        /// </summary>
-        /// <param name="analog">The ushort analog to update the panel.</param>
-        public void BtnAutoTrackingTgl_Mode(ushort analog)
-        {
-            BtnAutoTrackingTgl_Mode((sig, component) => sig.UShortValue = analog);
-        }
-
-        /// <summary>
-        /// Numeric feedback Btn.AutoTrackingTgl.Mode
-        /// </summary>
-        /// <param name="analog">The short analog to update the panel.</param>
-        public void BtnAutoTrackingTgl_Mode(short analog)
-        {
-            BtnAutoTrackingTgl_Mode((sig, component) => sig.ShortValue = analog);
         }
 
         #endregion
