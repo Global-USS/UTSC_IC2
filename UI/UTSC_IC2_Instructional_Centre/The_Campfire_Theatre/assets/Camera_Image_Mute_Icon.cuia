@@ -1,0 +1,21 @@
+{FileMetadata}
+Schema = "1.0.0.0"
+CreatedByAppHost = "1.3300.16.0"
+Created = 2024-06-21 11:17:14.524807-04:00
+LastModifiedByAppHost = "1.3300.16.0"
+Modified = 2024-06-21 11:17:14.524803-04:00
+CreatedByProjectApp = "1.3300.16.0"
+LastModifiedByProjectApp = "1.3300.16.0"
+MinimumProjectApp = ""
+
+{AssetAttributes}
+
+[Attributes]
+Id = "2835e573-d60c-4f81-af03-0fd6bd871cb3"
+Name = "Camera_Image_Mute_Icon"
+SourceUri = "Camera_Image_Mute_Icon.svg"
+AspectRatio = "0"
+AssetSourceType = "File"
+Username = ""
+Password = ""
+
