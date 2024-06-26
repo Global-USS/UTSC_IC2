@@ -182,6 +182,18 @@ namespace Standard_Classroom.Volume_Control_0x_Panel_Widget
         void GuageWirelessMicVol_LowerTouchfb(short analog);
 
         /// <summary>
+        /// Str.WirelessMicVolName.Indirect Feedback
+        /// </summary>
+        /// <param name="callback">The <see cref="string"/> delegate to update the panel.</param>
+        void StrWirelessMicVolName_Indirect(Volume_Control_0x_Panel_WidgetStringInputSigDelegate callback);
+
+        /// <summary>
+        /// Str.WirelessMicVolName.Indirect Feedback
+        /// </summary>
+        /// <param name="serial">The <see cref="string"/> to update the panel.</param>
+        void StrWirelessMicVolName_Indirect(string serial);
+
+        /// <summary>
         /// ComplexComponent List.MicSelection
         /// </summary>
         Standard_Classroom.Volume_Control_0x_Panel_Widget.IListMicSelection ListMicSelection { get; }
@@ -199,6 +211,12 @@ namespace Standard_Classroom.Volume_Control_0x_Panel_Widget
     /// <param name="uShortInputSig">The <see cref="UShortInputSig"/> joinInfo data.</param>
     /// <param name="volume_control_0x_panel_widget">The <see cref="IVolume_Control_0x_Panel_Widget"/> on which to apply the feedback.</param>
     public delegate void Volume_Control_0x_Panel_WidgetUShortInputSigDelegate(UShortInputSig uShortInputSig, IVolume_Control_0x_Panel_Widget volume_control_0x_panel_widget);
+    /// <summary>
+    /// Digital callback used in feedback events.
+    /// </summary>
+    /// <param name="stringInputSig">The <see cref="StringInputSig"/> joinInfo data.</param>
+    /// <param name="volume_control_0x_panel_widget">The <see cref="IVolume_Control_0x_Panel_Widget"/> on which to apply the feedback.</param>
+    public delegate void Volume_Control_0x_Panel_WidgetStringInputSigDelegate(StringInputSig stringInputSig, IVolume_Control_0x_Panel_Widget volume_control_0x_panel_widget);
 
     /// <summary>
     /// Volume_Control_0x_Panel_Widget
@@ -350,6 +368,18 @@ namespace Standard_Classroom.Volume_Control_0x_Panel_Widget
                 /// </summary>
                 public const uint GuageWirelessMicVol_LowerTouchfbState = 6;
 
+            }
+            /// <summary>
+            /// Serial signals.
+            /// </summary>
+            internal static class Strings
+            {
+
+                /// <summary>
+                /// Input or Feedback serial joinInfo from Control System to panel: Volume_Control_0x_Panel_Widget.StrWirelessMicVolName.Indirect
+                /// Str.WirelessMicVolName.Indirect
+                /// </summary>
+                public const uint StrWirelessMicVolName_IndirectState = 1;
             }
         }
 
@@ -646,6 +676,21 @@ namespace Standard_Classroom.Volume_Control_0x_Panel_Widget
         public void GuageWirelessMicVol_LowerTouchfb(short analog)
         {
             GuageWirelessMicVol_LowerTouchfb((sig, component) => sig.ShortValue = analog);
+        }
+
+        /// <inheritdoc/>
+        public void StrWirelessMicVolName_Indirect(Volume_Control_0x_Panel_WidgetStringInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].StringInput[Joins.Strings.StrWirelessMicVolName_IndirectState], this);
+            }
+        }
+
+        /// <inheritdoc/>
+        public void StrWirelessMicVolName_Indirect(string serial)
+        {
+            StrWirelessMicVolName_Indirect((sig, component) => sig.StringValue = serial);
         }
 
         /// <summary>
