@@ -61,9 +61,6 @@ namespace The_Campfire_Theatre
         public The_Campfire_Theatre.IWelcome_Page Welcome_Page { get { return (The_Campfire_Theatre.IWelcome_Page)InternalWelcome_Page; } }
         private The_Campfire_Theatre.Welcome_Page InternalWelcome_Page { get; set; }
 
-        public The_Campfire_Theatre.IVolume_Control_03_Panel_Widget Volume_Control_03_Panel_Widget { get { return (The_Campfire_Theatre.IVolume_Control_03_Panel_Widget)InternalVolume_Control_03_Panel_Widget; } }
-        private The_Campfire_Theatre.Volume_Control_03_Panel_Widget InternalVolume_Control_03_Panel_Widget { get; set; }
-
         public The_Campfire_Theatre.Source_04_Widget.ISource_04_Widget Source_04_Widget { get { return (The_Campfire_Theatre.Source_04_Widget.ISource_04_Widget)InternalSource_04_Widget; } }
         private The_Campfire_Theatre.Source_04_Widget.Source_04_Widget InternalSource_04_Widget { get; set; }
 
@@ -108,25 +105,23 @@ namespace The_Campfire_Theatre
 
             InternalMain_Page = new The_Campfire_Theatre.Main_Page.Main_Page(ComponentMediator, 2);
 
-            InternalLogin_Page = new The_Campfire_Theatre.Login_Page(ComponentMediator, 9);
+            InternalLogin_Page = new The_Campfire_Theatre.Login_Page(ComponentMediator, 8);
 
-            InternalLogOff_Page = new The_Campfire_Theatre.LogOff_Page(ComponentMediator, 10);
+            InternalLogOff_Page = new The_Campfire_Theatre.LogOff_Page(ComponentMediator, 9);
 
-            InternalWelcome_Page = new The_Campfire_Theatre.Welcome_Page(ComponentMediator, 11);
+            InternalWelcome_Page = new The_Campfire_Theatre.Welcome_Page(ComponentMediator, 10);
 
-            InternalVolume_Control_03_Panel_Widget = new The_Campfire_Theatre.Volume_Control_03_Panel_Widget(ComponentMediator, 12);
+            InternalSource_04_Widget = new The_Campfire_Theatre.Source_04_Widget.Source_04_Widget(ComponentMediator, 11);
 
-            InternalSource_04_Widget = new The_Campfire_Theatre.Source_04_Widget.Source_04_Widget(ComponentMediator, 13);
+            InternalCam_03_ControlPreset_Widget = new The_Campfire_Theatre.Cam_03_ControlPreset_Widget(ComponentMediator, 13);
 
-            InternalCam_03_ControlPreset_Widget = new The_Campfire_Theatre.Cam_03_ControlPreset_Widget(ComponentMediator, 15);
+            InternalAdmin_Login_Widget = new The_Campfire_Theatre.Admin_Login_Widget(ComponentMediator, 14);
 
-            InternalAdmin_Login_Widget = new The_Campfire_Theatre.Admin_Login_Widget(ComponentMediator, 16);
+            InternalVidWall_Control_Widget = new The_Campfire_Theatre.VidWall_Control_Widget(ComponentMediator, 15);
 
-            InternalVidWall_Control_Widget = new The_Campfire_Theatre.VidWall_Control_Widget(ComponentMediator, 17);
+            InternalVolume_Control_0x_Panel_Widget = new The_Campfire_Theatre.Volume_Control_0x_Panel_Widget.Volume_Control_0x_Panel_Widget(ComponentMediator, 16);
 
-            InternalVolume_Control_0x_Panel_Widget = new The_Campfire_Theatre.Volume_Control_0x_Panel_Widget.Volume_Control_0x_Panel_Widget(ComponentMediator, 18);
-
-            InternalCam_03_Control_Widget = new The_Campfire_Theatre.Cam_03_Control_Widget(ComponentMediator, 20);
+            InternalCam_03_Control_Widget = new The_Campfire_Theatre.Cam_03_Control_Widget(ComponentMediator, 18);
 
 
             for (int index = 0; index < devices.Length; index++)
@@ -158,7 +153,6 @@ namespace The_Campfire_Theatre
             InternalLogin_Page.AddDevice(device);
             InternalLogOff_Page.AddDevice(device);
             InternalWelcome_Page.AddDevice(device);
-            InternalVolume_Control_03_Panel_Widget.AddDevice(device);
             InternalSource_04_Widget.AddDevice(device);
             InternalCam_03_ControlPreset_Widget.AddDevice(device);
             InternalAdmin_Login_Widget.AddDevice(device);
@@ -175,7 +169,6 @@ namespace The_Campfire_Theatre
             InternalLogin_Page.RemoveDevice(device);
             InternalLogOff_Page.RemoveDevice(device);
             InternalWelcome_Page.RemoveDevice(device);
-            InternalVolume_Control_03_Panel_Widget.RemoveDevice(device);
             InternalSource_04_Widget.RemoveDevice(device);
             InternalCam_03_ControlPreset_Widget.RemoveDevice(device);
             InternalAdmin_Login_Widget.RemoveDevice(device);
@@ -202,7 +195,6 @@ namespace The_Campfire_Theatre
             InternalLogin_Page.Dispose();
             InternalLogOff_Page.Dispose();
             InternalWelcome_Page.Dispose();
-            InternalVolume_Control_03_Panel_Widget.Dispose();
             InternalSource_04_Widget.Dispose();
             InternalCam_03_ControlPreset_Widget.Dispose();
             InternalAdmin_Login_Widget.Dispose();

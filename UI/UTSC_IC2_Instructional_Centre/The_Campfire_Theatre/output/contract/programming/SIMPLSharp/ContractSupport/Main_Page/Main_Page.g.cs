@@ -200,11 +200,6 @@ namespace The_Campfire_Theatre.Main_Page
         /// ComplexComponent Volume_Control_0x_Panel_Widget
         /// </summary>
         The_Campfire_Theatre.Main_Page.IVolume_Control_0x_Panel_Widget Volume_Control_0x_Panel_Widget { get; }
-
-        /// <summary>
-        /// ComplexComponent Volume_Control_03_Panel_Widget
-        /// </summary>
-        The_Campfire_Theatre.Main_Page.IVolume_Control_03_Panel_Widget Volume_Control_03_Panel_Widget { get; }
     }
 
     /// <summary>
@@ -400,7 +395,6 @@ namespace The_Campfire_Theatre.Main_Page
             Source_04_Widget = new The_Campfire_Theatre.Main_Page.Source_04_Widget(ComponentMediator, 5);
             Cam_02_Control_Widget = new The_Campfire_Theatre.Main_Page.Cam_02_Control_Widget(ComponentMediator, 6);
             Volume_Control_0x_Panel_Widget = new The_Campfire_Theatre.Main_Page.Volume_Control_0x_Panel_Widget(ComponentMediator, 7);
-            Volume_Control_03_Panel_Widget = new The_Campfire_Theatre.Main_Page.Volume_Control_03_Panel_Widget(ComponentMediator, 8);
         }
 
         public void AddDevice(BasicTriListWithSmartObject device)
@@ -417,8 +411,6 @@ namespace The_Campfire_Theatre.Main_Page
             ((The_Campfire_Theatre.Main_Page.Cam_02_Control_Widget)Cam_02_Control_Widget).AddDevice(device);
 
             ((The_Campfire_Theatre.Main_Page.Volume_Control_0x_Panel_Widget)Volume_Control_0x_Panel_Widget).AddDevice(device);
-
-            ((The_Campfire_Theatre.Main_Page.Volume_Control_03_Panel_Widget)Volume_Control_03_Panel_Widget).AddDevice(device);
         }
 
         public void RemoveDevice(BasicTriListWithSmartObject device)
@@ -435,8 +427,6 @@ namespace The_Campfire_Theatre.Main_Page
             ((The_Campfire_Theatre.Main_Page.Cam_02_Control_Widget)Cam_02_Control_Widget).RemoveDevice(device);
 
             ((The_Campfire_Theatre.Main_Page.Volume_Control_0x_Panel_Widget)Volume_Control_0x_Panel_Widget).RemoveDevice(device);
-
-            ((The_Campfire_Theatre.Main_Page.Volume_Control_03_Panel_Widget)Volume_Control_03_Panel_Widget).RemoveDevice(device);
         }
 
         #endregion
@@ -653,11 +643,6 @@ namespace The_Campfire_Theatre.Main_Page
         /// ComplexComponent Volume_Control_0x_Panel_Widget
         /// </summary>
         public The_Campfire_Theatre.Main_Page.IVolume_Control_0x_Panel_Widget Volume_Control_0x_Panel_Widget { get; private set; }
-
-        /// <summary>
-        /// ComplexComponent Volume_Control_03_Panel_Widget
-        /// </summary>
-        public The_Campfire_Theatre.Main_Page.IVolume_Control_03_Panel_Widget Volume_Control_03_Panel_Widget { get; private set; }
 
         #endregion
 

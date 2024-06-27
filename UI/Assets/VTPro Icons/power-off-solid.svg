@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 160 160"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="power-off-solid.svg"
+   width="160"
+   height="160"
+   inkscape:export-filename="C:\Users\mathew.klucznyk.GUSS\Programming\GitProjects\UTSC_IC2\UI\Assets\VTPro Icons\power-off-solid.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)">
+  <metadata
+     id="metadata10">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     pagecolor="#7d7d7d"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2560"
+     inkscape:window-height="1417"
+     id="namedview6"
+     showgrid="false"
+     inkscape:zoom="1.4355469"
+     inkscape:cx="256"
+     inkscape:cy="310.76398"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
+  <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+  <path
+     d="M 84.129033,52.129032 C 84.129033,49.845161 82.283869,48 79.999999,48 c -2.283872,0 -4.129033,1.845161 -4.129033,4.129032 v 28.903226 c 0,2.283871 1.845161,4.129032 4.129033,4.129032 2.28387,0 4.129034,-1.845161 4.129034,-4.129032 z M 65.483869,63.56129 c 1.754839,-1.458064 1.987097,-4.064516 0.529033,-5.819354 -1.458065,-1.754839 -4.064516,-1.987097 -5.819355,-0.529033 -6.812903,5.677419 -11.16129,14.245161 -11.16129,23.819355 0,17.096774 13.870967,30.967742 30.967742,30.967742 17.096776,0 30.967741,-13.870968 30.967741,-30.967742 0,-9.574194 -4.36129,-18.141936 -11.174193,-23.819355 C 98.038711,55.754839 95.432259,56 93.974195,57.741936 c -1.458068,1.741935 -1.212905,4.36129 0.529028,5.819354 5.019356,4.167742 8.193547,10.451613 8.193547,17.470968 0,12.541934 -10.167739,22.709682 -22.709675,22.709682 -12.541935,0 -22.709677,-10.167748 -22.709677,-22.709682 0,-7.019355 3.187096,-13.303226 8.193548,-17.470968 z"
+     id="path2"
+     style="fill:#ffffff;fill-opacity:1;stroke-width:0.129032" />
+</svg>

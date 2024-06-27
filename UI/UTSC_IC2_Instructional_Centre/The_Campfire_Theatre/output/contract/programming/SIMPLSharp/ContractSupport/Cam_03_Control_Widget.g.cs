@@ -87,30 +87,6 @@ namespace The_Campfire_Theatre
         event EventHandler<UIEventArgs> VideoCam_3__PressedEvent;
 
         /// <summary>
-        /// Button_1.Visibility Feedback
-        /// </summary>
-        /// <param name="callback">The bool delegate to update the panel.</param>
-        void Button_1_Visibility(Cam_03_Control_WidgetBoolInputSigDelegate callback);
-
-        /// <summary>
-        /// Button_1.Visibility Feedback
-        /// </summary>
-        /// <param name="digital">The bool to update the panel.</param>
-        void Button_1_Visibility(bool digital);
-
-        /// <summary>
-        /// Button.Visibility Feedback
-        /// </summary>
-        /// <param name="callback">The bool delegate to update the panel.</param>
-        void Button_Visibility(Cam_03_Control_WidgetBoolInputSigDelegate callback);
-
-        /// <summary>
-        /// Button.Visibility Feedback
-        /// </summary>
-        /// <param name="digital">The bool to update the panel.</param>
-        void Button_Visibility(bool digital);
-
-        /// <summary>
         /// Indicator.Cam[1].Selected.Visibility Feedback
         /// </summary>
         /// <param name="callback">The bool delegate to update the panel.</param>
@@ -121,6 +97,30 @@ namespace The_Campfire_Theatre
         /// </summary>
         /// <param name="digital">The bool to update the panel.</param>
         void IndicatorCam_1_Selected_Visibility(bool digital);
+
+        /// <summary>
+        /// Indicator.Cam[2].Selected.Visibility Feedback
+        /// </summary>
+        /// <param name="callback">The bool delegate to update the panel.</param>
+        void IndicatorCam_2_Selected_Visibility(Cam_03_Control_WidgetBoolInputSigDelegate callback);
+
+        /// <summary>
+        /// Indicator.Cam[2].Selected.Visibility Feedback
+        /// </summary>
+        /// <param name="digital">The bool to update the panel.</param>
+        void IndicatorCam_2_Selected_Visibility(bool digital);
+
+        /// <summary>
+        /// Indicator.Cam[3].Selected.Visibility Feedback
+        /// </summary>
+        /// <param name="callback">The bool delegate to update the panel.</param>
+        void IndicatorCam_3_Selected_Visibility(Cam_03_Control_WidgetBoolInputSigDelegate callback);
+
+        /// <summary>
+        /// Indicator.Cam[3].Selected.Visibility Feedback
+        /// </summary>
+        /// <param name="digital">The bool to update the panel.</param>
+        void IndicatorCam_3_Selected_Visibility(bool digital);
 
         /// <summary>
         /// Btn.AutoTrackingTgl.Selected Feedback
@@ -346,22 +346,22 @@ namespace The_Campfire_Theatre
 
 
                 /// <summary>
-                /// Input or Feedback digital joinInfo from Control System to panel: Cam_03_Control_Widget.Button_1.Visibility
-                /// Button_1.Visibility
-                /// </summary>
-                public const uint Button_1_VisibilityState = 1;
-
-                /// <summary>
-                /// Input or Feedback digital joinInfo from Control System to panel: Cam_03_Control_Widget.Button.Visibility
-                /// Button.Visibility
-                /// </summary>
-                public const uint Button_VisibilityState = 2;
-
-                /// <summary>
                 /// Input or Feedback digital joinInfo from Control System to panel: Cam_03_Control_Widget.IndicatorCam[1]Selected.Visibility
                 /// Indicator.Cam[1].Selected.Visibility
                 /// </summary>
-                public const uint IndicatorCam_1_Selected_VisibilityState = 3;
+                public const uint IndicatorCam_1_Selected_VisibilityState = 1;
+
+                /// <summary>
+                /// Input or Feedback digital joinInfo from Control System to panel: Cam_03_Control_Widget.IndicatorCam[2]Selected.Visibility
+                /// Indicator.Cam[2].Selected.Visibility
+                /// </summary>
+                public const uint IndicatorCam_2_Selected_VisibilityState = 2;
+
+                /// <summary>
+                /// Input or Feedback digital joinInfo from Control System to panel: Cam_03_Control_Widget.IndicatorCam[3]Selected.Visibility
+                /// Indicator.Cam[3].Selected.Visibility
+                /// </summary>
+                public const uint IndicatorCam_3_Selected_VisibilityState = 3;
 
                 /// <summary>
                 /// Input or Feedback digital joinInfo from Control System to panel: Cam_03_Control_Widget.BtnAutoTrackingTgl.Selected
@@ -610,34 +610,6 @@ namespace The_Campfire_Theatre
             BtnAutoTrackingTgl_Selected((sig, component) => sig.BoolValue = digital);
         }
         /// <inheritdoc/>
-        public void Button_1_Visibility(Cam_03_Control_WidgetBoolInputSigDelegate callback)
-        {
-            for (int index = 0; index < Devices.Count; index++)
-            {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.Button_1_VisibilityState], this);
-            }
-        }
-
-        /// <inheritdoc/>
-        public void Button_1_Visibility(bool digital)
-        {
-            Button_1_Visibility((sig, component) => sig.BoolValue = digital);
-        }
-        /// <inheritdoc/>
-        public void Button_Visibility(Cam_03_Control_WidgetBoolInputSigDelegate callback)
-        {
-            for (int index = 0; index < Devices.Count; index++)
-            {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.Button_VisibilityState], this);
-            }
-        }
-
-        /// <inheritdoc/>
-        public void Button_Visibility(bool digital)
-        {
-            Button_Visibility((sig, component) => sig.BoolValue = digital);
-        }
-        /// <inheritdoc/>
         public void IndicatorCam_1_Selected_Visibility(Cam_03_Control_WidgetBoolInputSigDelegate callback)
         {
             for (int index = 0; index < Devices.Count; index++)
@@ -650,6 +622,34 @@ namespace The_Campfire_Theatre
         public void IndicatorCam_1_Selected_Visibility(bool digital)
         {
             IndicatorCam_1_Selected_Visibility((sig, component) => sig.BoolValue = digital);
+        }
+        /// <inheritdoc/>
+        public void IndicatorCam_2_Selected_Visibility(Cam_03_Control_WidgetBoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.IndicatorCam_2_Selected_VisibilityState], this);
+            }
+        }
+
+        /// <inheritdoc/>
+        public void IndicatorCam_2_Selected_Visibility(bool digital)
+        {
+            IndicatorCam_2_Selected_Visibility((sig, component) => sig.BoolValue = digital);
+        }
+        /// <inheritdoc/>
+        public void IndicatorCam_3_Selected_Visibility(Cam_03_Control_WidgetBoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.IndicatorCam_3_Selected_VisibilityState], this);
+            }
+        }
+
+        /// <inheritdoc/>
+        public void IndicatorCam_3_Selected_Visibility(bool digital)
+        {
+            IndicatorCam_3_Selected_Visibility((sig, component) => sig.BoolValue = digital);
         }
 
         /// <inheritdoc/>

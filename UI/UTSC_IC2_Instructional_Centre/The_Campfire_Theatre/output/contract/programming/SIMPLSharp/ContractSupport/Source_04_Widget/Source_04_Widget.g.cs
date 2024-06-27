@@ -247,7 +247,7 @@ namespace The_Campfire_Theatre.Source_04_Widget
             ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.BtnSendToAll_PressEvent, onBtnSendToAll_Press);
             ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.BtnSendToProj_1__PressEvent, onBtnSendToProj_1__Press);
             ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.btnSendToProj_2__PressEvent, onbtnSendToProj_2__Press);
-            BtnListSrcSelect = new The_Campfire_Theatre.Source_04_Widget.BtnListSrcSelect(ComponentMediator, 14);
+            BtnListSrcSelect = new The_Campfire_Theatre.Source_04_Widget.BtnListSrcSelect(ComponentMediator, 12);
         }
 
         public void AddDevice(BasicTriListWithSmartObject device)

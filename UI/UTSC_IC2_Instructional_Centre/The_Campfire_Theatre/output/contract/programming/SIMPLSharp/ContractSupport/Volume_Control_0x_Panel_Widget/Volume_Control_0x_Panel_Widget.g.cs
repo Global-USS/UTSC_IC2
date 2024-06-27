@@ -413,7 +413,7 @@ namespace The_Campfire_Theatre.Volume_Control_0x_Panel_Widget
             ComponentMediator.ConfigureNumericEvent(controlJoinId, Joins.Numerics.GuagePodMicVol_LowerTouchEvent, onGuagePodMicVol_LowerTouch);
             ComponentMediator.ConfigureNumericEvent(controlJoinId, Joins.Numerics.GuageSrcVol_LowerTouchEvent, onGuageSrcVol_LowerTouch);
             ComponentMediator.ConfigureNumericEvent(controlJoinId, Joins.Numerics.GuageWirelessMicVol_LowerTouchEvent, onGuageWirelessMicVol_LowerTouch);
-            ListMicSelection = new The_Campfire_Theatre.Volume_Control_0x_Panel_Widget.ListMicSelection(ComponentMediator, 19);
+            ListMicSelection = new The_Campfire_Theatre.Volume_Control_0x_Panel_Widget.ListMicSelection(ComponentMediator, 17);
         }
 
         public void AddDevice(BasicTriListWithSmartObject device)
