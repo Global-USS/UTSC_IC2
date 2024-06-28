@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 160 160"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="pen-solid.svg"
+   width="160"
+   height="160"
+   inkscape:export-filename="C:\Users\mathew.klucznyk.GUSS\Programming\GitProjects\UTSC_IC2\UI\Assets\VTPro Icons\pen-solid.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)">
+  <metadata
+     id="metadata10">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1129"
+     id="namedview6"
+     showgrid="false"
+     inkscape:pagecheckerboard="true"
+     inkscape:zoom="0.71777344"
+     inkscape:cx="48.038014"
+     inkscape:cy="341.8398"
+     inkscape:window-x="1040"
+     inkscape:window-y="2152"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
+  <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+  <path
+     d="m 93.385658,50.89612 -6.056117,6.056116 16.266429,16.266428 6.05612,-6.056116 c 3.12815,-3.128159 3.12815,-8.195777 0,-11.323937 l -4.92998,-4.942491 c -3.12816,-3.128159 -8.19578,-3.128159 -11.32394,0 z m -8.883973,8.883972 -29.166957,29.179469 c -1.301314,1.301316 -2.252274,2.915444 -2.777805,4.679728 l -4.429474,15.052701 c -0.312816,1.06357 -0.02502,2.20222 0.750759,2.97801 0.775783,0.77578 1.914433,1.06357 2.965495,0.76327 l 15.052702,-4.42948 c 1.764281,-0.52553 3.378412,-1.47649 4.679726,-2.7778 L 100.76811,76.04652 Z"
+     id="path2"
+     style="fill:#ffffff;fill-opacity:1;stroke-width:0.125126" />
+</svg>
