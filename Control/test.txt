@@ -1,1 +1,6 @@
-utsc
+TP:
+auto brightness off
+run command poeplus on
+
+General:
+confirm all network settings
