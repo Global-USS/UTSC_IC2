@@ -1,0 +1,95 @@
+/* #region Header */
+//Author: Mat Klucznyk
+//Company: Global USS
+//Email: mathew.klucznyk@globaluss.com
+
+#USER_SIMPLSHARP_LIBRARY "NetworkPing"
+
+#DEFAULT_VOLATILE
+#ENABLE_STACK_CHECKING
+#ENABLE_TRACE
+
+//#DEFINE_CONSTANT
+/* #endregion */
+
+/* #region IO Constructor */
+//digital_inputs
+digital_input PingNow;
+//analog_inputs
+
+//serial_inputs
+string_input IpAddressOrHostName[255];
+
+//buffer_inputs
+
+//digital_outputs
+digital_output Success, Failure;
+
+//analog_outputs
+analog_output RoundTripTime, TTL;
+
+//serial_outputs
+string_output AddressPinged, Status;
+
+//parameters
+string_parameter _skip_, _skip_, _skip_, _skip_, _skip_, _skip_, Default_IpAddress_Or_HostName[255];
+/*
+#BEGIN_PARAMETER_PROPERTIES parameter_variable, parameter_variable, ...
+   // propValidUnits = // unitString or unitDecimal|unitHex|unitPercent|unitCharacter|unitTime|unitTicks;
+   // propDefaultUnit = // unitString, unitDecimal, unitHex, unitPercent, unitCharacter, unitTime or unitTicks;
+   // propBounds = lower_bound , upper_bound;
+   // propDefaultValue = ;  // or, propDefaultValue = "";
+   // propList = // { "value" , "label" } , { "value" , "label" } , ... ;
+   // propShortDescription = "status_bar_hint_text";
+   // #BEGIN_PROP_FULL_DESCRIPTION  line_1...  line_2...  line_n  #END_PROP_FULL_DESCRIPTION
+   // #BEGIN_PROP_NOTES line_1...  line_2...  line_n  #END_PROP_NOTES
+#END_PARAMETER_PROPERTIES
+*/
+
+//objects
+Ping _ping;
+string _ipa[255];
+/* #endregion */
+
+/* #region Functions */
+
+/* #endregion */
+
+/* #region Events */
+push PingNow
+{
+   _ping.PingNow(_ipa);
+}
+
+change IpAddressOrHostName
+{
+   _ipa = IpAddressOrHostName;
+}
+/* #endregion */
+
+/* #region Callbacks */
+callback function NewPingResponse(integer scs, string address, integer roundTrip, integer tl, string stat)
+{
+   if(scs)
+   {
+      pulse(10, Success);
+   }
+   else
+   {
+      pulse(10, Failure);   
+   }
+   AddressPinged = address;
+   RoundTripTime = roundTrip;
+   TTL = tl;
+   Status = stat;
+}
+/* #endregion */
+
+Function Main()
+{
+	WaitForInitializationComplete();
+
+   RegisterDelegate(_ping, OnPingResponse, NewPingResponse);
+
+   _ipa = Default_IpAddress_Or_HostName;
+}
