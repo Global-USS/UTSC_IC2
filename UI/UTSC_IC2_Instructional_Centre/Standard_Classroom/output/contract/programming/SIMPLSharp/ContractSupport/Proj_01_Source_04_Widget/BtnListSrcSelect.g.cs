@@ -5,7 +5,7 @@
 //
 //     Project:     Standard_Classroom
 //     Version:     1.0.0.0
-//     Sdk:         CH5:2.8.0
+//     Sdk:         CH5:2.10.0
 //     Strategy:    Classic
 //     IndexOnly:   False
 //

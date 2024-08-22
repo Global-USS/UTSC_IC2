@@ -5,7 +5,7 @@
 //
 //     Project:     The_Campfire_Theatre
 //     Version:     1.0.0.0
-//     Sdk:         CH5:2.8.0
+//     Sdk:         CH5:2.10.0
 //     Strategy:    Classic
 //     IndexOnly:   False
 //
@@ -90,37 +90,37 @@ namespace The_Campfire_Theatre
         /// Indicator.Cam[1].Selected.Visibility Feedback
         /// </summary>
         /// <param name="callback">The bool delegate to update the panel.</param>
-        void IndicatorCam_1_Selected_Visibility(Cam_03_Control_WidgetBoolInputSigDelegate callback);
+        void IndicatorCam_1_Selected_Visibility_fb(Cam_03_Control_WidgetBoolInputSigDelegate callback);
 
         /// <summary>
         /// Indicator.Cam[1].Selected.Visibility Feedback
         /// </summary>
         /// <param name="digital">The bool to update the panel.</param>
-        void IndicatorCam_1_Selected_Visibility(bool digital);
+        void IndicatorCam_1_Selected_Visibility_fb(bool digital);
 
         /// <summary>
         /// Indicator.Cam[2].Selected.Visibility Feedback
         /// </summary>
         /// <param name="callback">The bool delegate to update the panel.</param>
-        void IndicatorCam_2_Selected_Visibility(Cam_03_Control_WidgetBoolInputSigDelegate callback);
+        void IndicatorCam_2_Selected_Visibility_fb(Cam_03_Control_WidgetBoolInputSigDelegate callback);
 
         /// <summary>
         /// Indicator.Cam[2].Selected.Visibility Feedback
         /// </summary>
         /// <param name="digital">The bool to update the panel.</param>
-        void IndicatorCam_2_Selected_Visibility(bool digital);
+        void IndicatorCam_2_Selected_Visibility_fb(bool digital);
 
         /// <summary>
         /// Indicator.Cam[3].Selected.Visibility Feedback
         /// </summary>
         /// <param name="callback">The bool delegate to update the panel.</param>
-        void IndicatorCam_3_Selected_Visibility(Cam_03_Control_WidgetBoolInputSigDelegate callback);
+        void IndicatorCam_3_Selected_Visibility_fb(Cam_03_Control_WidgetBoolInputSigDelegate callback);
 
         /// <summary>
         /// Indicator.Cam[3].Selected.Visibility Feedback
         /// </summary>
         /// <param name="digital">The bool to update the panel.</param>
-        void IndicatorCam_3_Selected_Visibility(bool digital);
+        void IndicatorCam_3_Selected_Visibility_fb(bool digital);
 
         /// <summary>
         /// Btn.AutoTrackingTgl.Selected Feedback
@@ -192,37 +192,37 @@ namespace The_Campfire_Theatre
         /// Video.Cam[1].Snapshot URL Feedback
         /// </summary>
         /// <param name="callback">The <see cref="string"/> delegate to update the panel.</param>
-        void VideoCam_1__SnapshotURL(Cam_03_Control_WidgetStringInputSigDelegate callback);
+        void VideoCam_1__SnapshotURL_fb(Cam_03_Control_WidgetStringInputSigDelegate callback);
 
         /// <summary>
         /// Video.Cam[1].Snapshot URL Feedback
         /// </summary>
         /// <param name="serial">The <see cref="string"/> to update the panel.</param>
-        void VideoCam_1__SnapshotURL(string serial);
+        void VideoCam_1__SnapshotURL_fb(string serial);
 
         /// <summary>
         /// Video.Cam[2].Snapshot URL Feedback
         /// </summary>
         /// <param name="callback">The <see cref="string"/> delegate to update the panel.</param>
-        void VideoCam_2__SnapshotURL(Cam_03_Control_WidgetStringInputSigDelegate callback);
+        void VideoCam_2__SnapshotURL_fb(Cam_03_Control_WidgetStringInputSigDelegate callback);
 
         /// <summary>
         /// Video.Cam[2].Snapshot URL Feedback
         /// </summary>
         /// <param name="serial">The <see cref="string"/> to update the panel.</param>
-        void VideoCam_2__SnapshotURL(string serial);
+        void VideoCam_2__SnapshotURL_fb(string serial);
 
         /// <summary>
         /// Video.Cam[3].Snapshot URL Feedback
         /// </summary>
         /// <param name="callback">The <see cref="string"/> delegate to update the panel.</param>
-        void VideoCam_3__SnapshotURL(Cam_03_Control_WidgetStringInputSigDelegate callback);
+        void VideoCam_3__SnapshotURL_fb(Cam_03_Control_WidgetStringInputSigDelegate callback);
 
         /// <summary>
         /// Video.Cam[3].Snapshot URL Feedback
         /// </summary>
         /// <param name="serial">The <see cref="string"/> to update the panel.</param>
-        void VideoCam_3__SnapshotURL(string serial);
+        void VideoCam_3__SnapshotURL_fb(string serial);
     }
 
     /// <summary>
@@ -346,22 +346,22 @@ namespace The_Campfire_Theatre
 
 
                 /// <summary>
-                /// Input or Feedback digital joinInfo from Control System to panel: Cam_03_Control_Widget.IndicatorCam[1]Selected.Visibility
+                /// Input or Feedback digital joinInfo from Control System to panel: Cam_03_Control_Widget.IndicatorCam[1]Selected.Visibility_fb
                 /// Indicator.Cam[1].Selected.Visibility
                 /// </summary>
-                public const uint IndicatorCam_1_Selected_VisibilityState = 1;
+                public const uint IndicatorCam_1_Selected_Visibility_fbState = 1;
 
                 /// <summary>
-                /// Input or Feedback digital joinInfo from Control System to panel: Cam_03_Control_Widget.IndicatorCam[2]Selected.Visibility
+                /// Input or Feedback digital joinInfo from Control System to panel: Cam_03_Control_Widget.IndicatorCam[2]Selected.Visibility_fb
                 /// Indicator.Cam[2].Selected.Visibility
                 /// </summary>
-                public const uint IndicatorCam_2_Selected_VisibilityState = 2;
+                public const uint IndicatorCam_2_Selected_Visibility_fbState = 2;
 
                 /// <summary>
-                /// Input or Feedback digital joinInfo from Control System to panel: Cam_03_Control_Widget.IndicatorCam[3]Selected.Visibility
+                /// Input or Feedback digital joinInfo from Control System to panel: Cam_03_Control_Widget.IndicatorCam[3]Selected.Visibility_fb
                 /// Indicator.Cam[3].Selected.Visibility
                 /// </summary>
-                public const uint IndicatorCam_3_Selected_VisibilityState = 3;
+                public const uint IndicatorCam_3_Selected_Visibility_fbState = 3;
 
                 /// <summary>
                 /// Input or Feedback digital joinInfo from Control System to panel: Cam_03_Control_Widget.BtnAutoTrackingTgl.Selected
@@ -402,20 +402,20 @@ namespace The_Campfire_Theatre
             {
 
                 /// <summary>
-                /// Input or Feedback serial joinInfo from Control System to panel: Cam_03_Control_Widget.VideoCam[1].SnapshotURL
+                /// Input or Feedback serial joinInfo from Control System to panel: Cam_03_Control_Widget.VideoCam[1].SnapshotURL_fb
                 /// Video.Cam[1].Snapshot URL
                 /// </summary>
-                public const uint VideoCam_1__SnapshotURLState = 11;
+                public const uint VideoCam_1__SnapshotURL_fbState = 11;
                 /// <summary>
-                /// Input or Feedback serial joinInfo from Control System to panel: Cam_03_Control_Widget.VideoCam[2].SnapshotURL
+                /// Input or Feedback serial joinInfo from Control System to panel: Cam_03_Control_Widget.VideoCam[2].SnapshotURL_fb
                 /// Video.Cam[2].Snapshot URL
                 /// </summary>
-                public const uint VideoCam_2__SnapshotURLState = 12;
+                public const uint VideoCam_2__SnapshotURL_fbState = 12;
                 /// <summary>
-                /// Input or Feedback serial joinInfo from Control System to panel: Cam_03_Control_Widget.VideoCam[3].SnapshotURL
+                /// Input or Feedback serial joinInfo from Control System to panel: Cam_03_Control_Widget.VideoCam[3].SnapshotURL_fb
                 /// Video.Cam[3].Snapshot URL
                 /// </summary>
-                public const uint VideoCam_3__SnapshotURLState = 13;
+                public const uint VideoCam_3__SnapshotURL_fbState = 13;
             }
         }
 
@@ -610,46 +610,46 @@ namespace The_Campfire_Theatre
             BtnAutoTrackingTgl_Selected((sig, component) => sig.BoolValue = digital);
         }
         /// <inheritdoc/>
-        public void IndicatorCam_1_Selected_Visibility(Cam_03_Control_WidgetBoolInputSigDelegate callback)
+        public void IndicatorCam_1_Selected_Visibility_fb(Cam_03_Control_WidgetBoolInputSigDelegate callback)
         {
             for (int index = 0; index < Devices.Count; index++)
             {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.IndicatorCam_1_Selected_VisibilityState], this);
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.IndicatorCam_1_Selected_Visibility_fbState], this);
             }
         }
 
         /// <inheritdoc/>
-        public void IndicatorCam_1_Selected_Visibility(bool digital)
+        public void IndicatorCam_1_Selected_Visibility_fb(bool digital)
         {
-            IndicatorCam_1_Selected_Visibility((sig, component) => sig.BoolValue = digital);
+            IndicatorCam_1_Selected_Visibility_fb((sig, component) => sig.BoolValue = digital);
         }
         /// <inheritdoc/>
-        public void IndicatorCam_2_Selected_Visibility(Cam_03_Control_WidgetBoolInputSigDelegate callback)
+        public void IndicatorCam_2_Selected_Visibility_fb(Cam_03_Control_WidgetBoolInputSigDelegate callback)
         {
             for (int index = 0; index < Devices.Count; index++)
             {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.IndicatorCam_2_Selected_VisibilityState], this);
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.IndicatorCam_2_Selected_Visibility_fbState], this);
             }
         }
 
         /// <inheritdoc/>
-        public void IndicatorCam_2_Selected_Visibility(bool digital)
+        public void IndicatorCam_2_Selected_Visibility_fb(bool digital)
         {
-            IndicatorCam_2_Selected_Visibility((sig, component) => sig.BoolValue = digital);
+            IndicatorCam_2_Selected_Visibility_fb((sig, component) => sig.BoolValue = digital);
         }
         /// <inheritdoc/>
-        public void IndicatorCam_3_Selected_Visibility(Cam_03_Control_WidgetBoolInputSigDelegate callback)
+        public void IndicatorCam_3_Selected_Visibility_fb(Cam_03_Control_WidgetBoolInputSigDelegate callback)
         {
             for (int index = 0; index < Devices.Count; index++)
             {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.IndicatorCam_3_Selected_VisibilityState], this);
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.IndicatorCam_3_Selected_Visibility_fbState], this);
             }
         }
 
         /// <inheritdoc/>
-        public void IndicatorCam_3_Selected_Visibility(bool digital)
+        public void IndicatorCam_3_Selected_Visibility_fb(bool digital)
         {
-            IndicatorCam_3_Selected_Visibility((sig, component) => sig.BoolValue = digital);
+            IndicatorCam_3_Selected_Visibility_fb((sig, component) => sig.BoolValue = digital);
         }
 
         /// <inheritdoc/>
@@ -714,46 +714,46 @@ namespace The_Campfire_Theatre
         }
 
         /// <inheritdoc/>
-        public void VideoCam_1__SnapshotURL(Cam_03_Control_WidgetStringInputSigDelegate callback)
+        public void VideoCam_1__SnapshotURL_fb(Cam_03_Control_WidgetStringInputSigDelegate callback)
         {
             for (int index = 0; index < Devices.Count; index++)
             {
-                callback(Devices[index].SmartObjects[ControlJoinId].StringInput[Joins.Strings.VideoCam_1__SnapshotURLState], this);
+                callback(Devices[index].SmartObjects[ControlJoinId].StringInput[Joins.Strings.VideoCam_1__SnapshotURL_fbState], this);
             }
         }
 
         /// <inheritdoc/>
-        public void VideoCam_1__SnapshotURL(string serial)
+        public void VideoCam_1__SnapshotURL_fb(string serial)
         {
-            VideoCam_1__SnapshotURL((sig, component) => sig.StringValue = serial);
+            VideoCam_1__SnapshotURL_fb((sig, component) => sig.StringValue = serial);
         }
         /// <inheritdoc/>
-        public void VideoCam_2__SnapshotURL(Cam_03_Control_WidgetStringInputSigDelegate callback)
+        public void VideoCam_2__SnapshotURL_fb(Cam_03_Control_WidgetStringInputSigDelegate callback)
         {
             for (int index = 0; index < Devices.Count; index++)
             {
-                callback(Devices[index].SmartObjects[ControlJoinId].StringInput[Joins.Strings.VideoCam_2__SnapshotURLState], this);
+                callback(Devices[index].SmartObjects[ControlJoinId].StringInput[Joins.Strings.VideoCam_2__SnapshotURL_fbState], this);
             }
         }
 
         /// <inheritdoc/>
-        public void VideoCam_2__SnapshotURL(string serial)
+        public void VideoCam_2__SnapshotURL_fb(string serial)
         {
-            VideoCam_2__SnapshotURL((sig, component) => sig.StringValue = serial);
+            VideoCam_2__SnapshotURL_fb((sig, component) => sig.StringValue = serial);
         }
         /// <inheritdoc/>
-        public void VideoCam_3__SnapshotURL(Cam_03_Control_WidgetStringInputSigDelegate callback)
+        public void VideoCam_3__SnapshotURL_fb(Cam_03_Control_WidgetStringInputSigDelegate callback)
         {
             for (int index = 0; index < Devices.Count; index++)
             {
-                callback(Devices[index].SmartObjects[ControlJoinId].StringInput[Joins.Strings.VideoCam_3__SnapshotURLState], this);
+                callback(Devices[index].SmartObjects[ControlJoinId].StringInput[Joins.Strings.VideoCam_3__SnapshotURL_fbState], this);
             }
         }
 
         /// <inheritdoc/>
-        public void VideoCam_3__SnapshotURL(string serial)
+        public void VideoCam_3__SnapshotURL_fb(string serial)
         {
-            VideoCam_3__SnapshotURL((sig, component) => sig.StringValue = serial);
+            VideoCam_3__SnapshotURL_fb((sig, component) => sig.StringValue = serial);
         }
 
         #endregion

@@ -5,7 +5,7 @@
 //
 //     Project:     Standard_Classroom
 //     Version:     1.0.0.0
-//     Sdk:         CH5:2.8.0
+//     Sdk:         CH5:2.10.0
 //     Strategy:    Classic
 //     IndexOnly:   False
 //
@@ -35,13 +35,13 @@ namespace Standard_Classroom.Main_Page
         /// Proj_01_Power-Screen_Widget.Visibility Feedback
         /// </summary>
         /// <param name="callback">The bool delegate to update the panel.</param>
-        void Proj_01_PowerScreen_Widget_Visibility(Proj_01_PowerScreen_WidgetBoolInputSigDelegate callback);
+        void Proj_01_PowerScreen_Widget_Visibility_fb(Proj_01_PowerScreen_WidgetBoolInputSigDelegate callback);
 
         /// <summary>
         /// Proj_01_Power-Screen_Widget.Visibility Feedback
         /// </summary>
         /// <param name="digital">The bool to update the panel.</param>
-        void Proj_01_PowerScreen_Widget_Visibility(bool digital);
+        void Proj_01_PowerScreen_Widget_Visibility_fb(bool digital);
     }
 
     /// <summary>
@@ -87,10 +87,10 @@ namespace Standard_Classroom.Main_Page
             {
 
                 /// <summary>
-                /// Input or Feedback digital joinInfo from Control System to panel: Main_Page.Proj_01_PowerScreen_Widget.Visibility
+                /// Input or Feedback digital joinInfo from Control System to panel: Main_Page.Proj_01_PowerScreen_Widget.Visibility_fb
                 /// Proj_01_Power-Screen_Widget.Visibility
                 /// </summary>
-                public const uint Proj_01_PowerScreen_Widget_VisibilityState = 1;
+                public const uint Proj_01_PowerScreen_Widget_Visibility_fbState = 1;
 
             }
         }
@@ -162,18 +162,18 @@ namespace Standard_Classroom.Main_Page
         #region CH5 Contract
 
         /// <inheritdoc/>
-        public void Proj_01_PowerScreen_Widget_Visibility(Proj_01_PowerScreen_WidgetBoolInputSigDelegate callback)
+        public void Proj_01_PowerScreen_Widget_Visibility_fb(Proj_01_PowerScreen_WidgetBoolInputSigDelegate callback)
         {
             for (int index = 0; index < Devices.Count; index++)
             {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.Proj_01_PowerScreen_Widget_VisibilityState], this);
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.Proj_01_PowerScreen_Widget_Visibility_fbState], this);
             }
         }
 
         /// <inheritdoc/>
-        public void Proj_01_PowerScreen_Widget_Visibility(bool digital)
+        public void Proj_01_PowerScreen_Widget_Visibility_fb(bool digital)
         {
-            Proj_01_PowerScreen_Widget_Visibility((sig, component) => sig.BoolValue = digital);
+            Proj_01_PowerScreen_Widget_Visibility_fb((sig, component) => sig.BoolValue = digital);
         }
 
         #endregion

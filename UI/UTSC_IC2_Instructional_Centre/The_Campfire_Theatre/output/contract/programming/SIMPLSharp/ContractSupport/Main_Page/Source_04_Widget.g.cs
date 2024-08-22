@@ -5,7 +5,7 @@
 //
 //     Project:     The_Campfire_Theatre
 //     Version:     1.0.0.0
-//     Sdk:         CH5:2.8.0
+//     Sdk:         CH5:2.10.0
 //     Strategy:    Classic
 //     IndexOnly:   False
 //
@@ -35,13 +35,13 @@ namespace The_Campfire_Theatre.Main_Page
         /// Source_04_Widget.Visibility Feedback
         /// </summary>
         /// <param name="callback">The bool delegate to update the panel.</param>
-        void Source_04_Widget_Visibility(Source_04_WidgetBoolInputSigDelegate callback);
+        void Source_04_Widget_Visibility_fb(Source_04_WidgetBoolInputSigDelegate callback);
 
         /// <summary>
         /// Source_04_Widget.Visibility Feedback
         /// </summary>
         /// <param name="digital">The bool to update the panel.</param>
-        void Source_04_Widget_Visibility(bool digital);
+        void Source_04_Widget_Visibility_fb(bool digital);
     }
 
     /// <summary>
@@ -87,10 +87,10 @@ namespace The_Campfire_Theatre.Main_Page
             {
 
                 /// <summary>
-                /// Input or Feedback digital joinInfo from Control System to panel: Main_Page.Source_04_Widget.Visibility
+                /// Input or Feedback digital joinInfo from Control System to panel: Main_Page.Source_04_Widget.Visibility_fb
                 /// Source_04_Widget.Visibility
                 /// </summary>
-                public const uint Source_04_Widget_VisibilityState = 1;
+                public const uint Source_04_Widget_Visibility_fbState = 1;
 
             }
         }
@@ -162,18 +162,18 @@ namespace The_Campfire_Theatre.Main_Page
         #region CH5 Contract
 
         /// <inheritdoc/>
-        public void Source_04_Widget_Visibility(Source_04_WidgetBoolInputSigDelegate callback)
+        public void Source_04_Widget_Visibility_fb(Source_04_WidgetBoolInputSigDelegate callback)
         {
             for (int index = 0; index < Devices.Count; index++)
             {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.Source_04_Widget_VisibilityState], this);
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.Source_04_Widget_Visibility_fbState], this);
             }
         }
 
         /// <inheritdoc/>
-        public void Source_04_Widget_Visibility(bool digital)
+        public void Source_04_Widget_Visibility_fb(bool digital)
         {
-            Source_04_Widget_Visibility((sig, component) => sig.BoolValue = digital);
+            Source_04_Widget_Visibility_fb((sig, component) => sig.BoolValue = digital);
         }
 
         #endregion

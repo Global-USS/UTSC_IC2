@@ -5,7 +5,7 @@
 //
 //     Project:     Active_Learning_Classroom
 //     Version:     1.0.0.0
-//     Sdk:         CH5:2.8.0
+//     Sdk:         CH5:2.10.0
 //     Strategy:    Classic
 //     IndexOnly:   False
 //
@@ -62,64 +62,64 @@ namespace Active_Learning_Classroom.Proj_01_Source_04_Widget
         event EventHandler<UIEventArgs> BtnSendToProj_PressEvent;
 
         /// <summary>
-        /// Txt.CritiqueCtrls.Visibility Feedback
-        /// </summary>
-        /// <param name="callback">The bool delegate to update the panel.</param>
-        void TxtCritiqueCtrls_Visibility(Proj_01_Source_04_WidgetBoolInputSigDelegate callback);
-
-        /// <summary>
-        /// Txt.CritiqueCtrls.Visibility Feedback
-        /// </summary>
-        /// <param name="digital">The bool to update the panel.</param>
-        void TxtCritiqueCtrls_Visibility(bool digital);
-
-        /// <summary>
         /// Btn.CritiqueCtrls[Reset].Visibility Feedback
         /// </summary>
         /// <param name="callback">The bool delegate to update the panel.</param>
-        void BtnCritiqueCtrls_Reset__Visibility(Proj_01_Source_04_WidgetBoolInputSigDelegate callback);
+        void BtnCritiqueCtrls_Reset__Visibility_fb(Proj_01_Source_04_WidgetBoolInputSigDelegate callback);
 
         /// <summary>
         /// Btn.CritiqueCtrls[Reset].Visibility Feedback
         /// </summary>
         /// <param name="digital">The bool to update the panel.</param>
-        void BtnCritiqueCtrls_Reset__Visibility(bool digital);
+        void BtnCritiqueCtrls_Reset__Visibility_fb(bool digital);
 
         /// <summary>
         /// Btn.CritqueCtrls[StepRight].Visibility Feedback
         /// </summary>
         /// <param name="callback">The bool delegate to update the panel.</param>
-        void BtnCritqueCtrls_StepRight__Visibility(Proj_01_Source_04_WidgetBoolInputSigDelegate callback);
+        void BtnCritqueCtrls_StepRight__Visibility_fb(Proj_01_Source_04_WidgetBoolInputSigDelegate callback);
 
         /// <summary>
         /// Btn.CritqueCtrls[StepRight].Visibility Feedback
         /// </summary>
         /// <param name="digital">The bool to update the panel.</param>
-        void BtnCritqueCtrls_StepRight__Visibility(bool digital);
+        void BtnCritqueCtrls_StepRight__Visibility_fb(bool digital);
 
         /// <summary>
         /// CritiqueCtrlsBorder.Visibility Feedback
         /// </summary>
         /// <param name="callback">The bool delegate to update the panel.</param>
-        void CritiqueCtrlsBorder_Visibility(Proj_01_Source_04_WidgetBoolInputSigDelegate callback);
+        void CritiqueCtrlsBorder_Visibility_fb(Proj_01_Source_04_WidgetBoolInputSigDelegate callback);
 
         /// <summary>
         /// CritiqueCtrlsBorder.Visibility Feedback
         /// </summary>
         /// <param name="digital">The bool to update the panel.</param>
-        void CritiqueCtrlsBorder_Visibility(bool digital);
+        void CritiqueCtrlsBorder_Visibility_fb(bool digital);
+
+        /// <summary>
+        /// Txt.CritiqueCtrls.Visibility Feedback
+        /// </summary>
+        /// <param name="callback">The bool delegate to update the panel.</param>
+        void TxtCritiqueCtrls_Visibility_fb(Proj_01_Source_04_WidgetBoolInputSigDelegate callback);
+
+        /// <summary>
+        /// Txt.CritiqueCtrls.Visibility Feedback
+        /// </summary>
+        /// <param name="digital">The bool to update the panel.</param>
+        void TxtCritiqueCtrls_Visibility_fb(bool digital);
 
         /// <summary>
         /// Txt.CritiqueCtrls.BG.Visibility Feedback
         /// </summary>
         /// <param name="callback">The bool delegate to update the panel.</param>
-        void TxtCritiqueCtrlsBG_Visibility(Proj_01_Source_04_WidgetBoolInputSigDelegate callback);
+        void TxtCritiqueCtrlsBG_Visibility_fb(Proj_01_Source_04_WidgetBoolInputSigDelegate callback);
 
         /// <summary>
         /// Txt.CritiqueCtrls.BG.Visibility Feedback
         /// </summary>
         /// <param name="digital">The bool to update the panel.</param>
-        void TxtCritiqueCtrlsBG_Visibility(bool digital);
+        void TxtCritiqueCtrlsBG_Visibility_fb(bool digital);
 
         /// <summary>
         /// Btn.AL_Mode[Breakout].Selected Feedback
@@ -260,34 +260,34 @@ namespace Active_Learning_Classroom.Proj_01_Source_04_Widget
 
 
                 /// <summary>
-                /// Input or Feedback digital joinInfo from Control System to panel: Proj_01_Source_04_Widget.TxtCritiqueCtrls.Visibility
-                /// Txt.CritiqueCtrls.Visibility
-                /// </summary>
-                public const uint TxtCritiqueCtrls_VisibilityState = 1;
-
-                /// <summary>
-                /// Input or Feedback digital joinInfo from Control System to panel: Proj_01_Source_04_Widget.BtnCritiqueCtrls[Reset].Visibility
+                /// Input or Feedback digital joinInfo from Control System to panel: Proj_01_Source_04_Widget.BtnCritiqueCtrls[Reset].Visibility_fb
                 /// Btn.CritiqueCtrls[Reset].Visibility
                 /// </summary>
-                public const uint BtnCritiqueCtrls_Reset__VisibilityState = 2;
+                public const uint BtnCritiqueCtrls_Reset__Visibility_fbState = 1;
 
                 /// <summary>
-                /// Input or Feedback digital joinInfo from Control System to panel: Proj_01_Source_04_Widget.BtnCritqueCtrls[StepRight].Visibility
+                /// Input or Feedback digital joinInfo from Control System to panel: Proj_01_Source_04_Widget.BtnCritqueCtrls[StepRight].Visibility_fb
                 /// Btn.CritqueCtrls[StepRight].Visibility
                 /// </summary>
-                public const uint BtnCritqueCtrls_StepRight__VisibilityState = 3;
+                public const uint BtnCritqueCtrls_StepRight__Visibility_fbState = 2;
 
                 /// <summary>
-                /// Input or Feedback digital joinInfo from Control System to panel: Proj_01_Source_04_Widget.CritiqueCtrlsBorder.Visibility
+                /// Input or Feedback digital joinInfo from Control System to panel: Proj_01_Source_04_Widget.CritiqueCtrlsBorder.Visibility_fb
                 /// CritiqueCtrlsBorder.Visibility
                 /// </summary>
-                public const uint CritiqueCtrlsBorder_VisibilityState = 4;
+                public const uint CritiqueCtrlsBorder_Visibility_fbState = 3;
 
                 /// <summary>
-                /// Input or Feedback digital joinInfo from Control System to panel: Proj_01_Source_04_Widget.TxtCritiqueCtrlsBG.Visibility
+                /// Input or Feedback digital joinInfo from Control System to panel: Proj_01_Source_04_Widget.TxtCritiqueCtrls.Visibility_fb
+                /// Txt.CritiqueCtrls.Visibility
+                /// </summary>
+                public const uint TxtCritiqueCtrls_Visibility_fbState = 4;
+
+                /// <summary>
+                /// Input or Feedback digital joinInfo from Control System to panel: Proj_01_Source_04_Widget.TxtCritiqueCtrlsBG.Visibility_fb
                 /// Txt.CritiqueCtrls.BG.Visibility
                 /// </summary>
-                public const uint TxtCritiqueCtrlsBG_VisibilityState = 5;
+                public const uint TxtCritiqueCtrlsBG_Visibility_fbState = 5;
 
                 /// <summary>
                 /// Input or Feedback digital joinInfo from Control System to panel: Proj_01_Source_04_Widget.BtnAL_Mode[Breakout].Selected
@@ -496,74 +496,74 @@ namespace Active_Learning_Classroom.Proj_01_Source_04_Widget
             BtnAL_Mode_Critique__Selected((sig, component) => sig.BoolValue = digital);
         }
         /// <inheritdoc/>
-        public void BtnCritiqueCtrls_Reset__Visibility(Proj_01_Source_04_WidgetBoolInputSigDelegate callback)
+        public void BtnCritiqueCtrls_Reset__Visibility_fb(Proj_01_Source_04_WidgetBoolInputSigDelegate callback)
         {
             for (int index = 0; index < Devices.Count; index++)
             {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.BtnCritiqueCtrls_Reset__VisibilityState], this);
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.BtnCritiqueCtrls_Reset__Visibility_fbState], this);
             }
         }
 
         /// <inheritdoc/>
-        public void BtnCritiqueCtrls_Reset__Visibility(bool digital)
+        public void BtnCritiqueCtrls_Reset__Visibility_fb(bool digital)
         {
-            BtnCritiqueCtrls_Reset__Visibility((sig, component) => sig.BoolValue = digital);
+            BtnCritiqueCtrls_Reset__Visibility_fb((sig, component) => sig.BoolValue = digital);
         }
         /// <inheritdoc/>
-        public void BtnCritqueCtrls_StepRight__Visibility(Proj_01_Source_04_WidgetBoolInputSigDelegate callback)
+        public void BtnCritqueCtrls_StepRight__Visibility_fb(Proj_01_Source_04_WidgetBoolInputSigDelegate callback)
         {
             for (int index = 0; index < Devices.Count; index++)
             {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.BtnCritqueCtrls_StepRight__VisibilityState], this);
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.BtnCritqueCtrls_StepRight__Visibility_fbState], this);
             }
         }
 
         /// <inheritdoc/>
-        public void BtnCritqueCtrls_StepRight__Visibility(bool digital)
+        public void BtnCritqueCtrls_StepRight__Visibility_fb(bool digital)
         {
-            BtnCritqueCtrls_StepRight__Visibility((sig, component) => sig.BoolValue = digital);
+            BtnCritqueCtrls_StepRight__Visibility_fb((sig, component) => sig.BoolValue = digital);
         }
         /// <inheritdoc/>
-        public void CritiqueCtrlsBorder_Visibility(Proj_01_Source_04_WidgetBoolInputSigDelegate callback)
+        public void CritiqueCtrlsBorder_Visibility_fb(Proj_01_Source_04_WidgetBoolInputSigDelegate callback)
         {
             for (int index = 0; index < Devices.Count; index++)
             {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.CritiqueCtrlsBorder_VisibilityState], this);
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.CritiqueCtrlsBorder_Visibility_fbState], this);
             }
         }
 
         /// <inheritdoc/>
-        public void CritiqueCtrlsBorder_Visibility(bool digital)
+        public void CritiqueCtrlsBorder_Visibility_fb(bool digital)
         {
-            CritiqueCtrlsBorder_Visibility((sig, component) => sig.BoolValue = digital);
+            CritiqueCtrlsBorder_Visibility_fb((sig, component) => sig.BoolValue = digital);
         }
         /// <inheritdoc/>
-        public void TxtCritiqueCtrls_Visibility(Proj_01_Source_04_WidgetBoolInputSigDelegate callback)
+        public void TxtCritiqueCtrls_Visibility_fb(Proj_01_Source_04_WidgetBoolInputSigDelegate callback)
         {
             for (int index = 0; index < Devices.Count; index++)
             {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.TxtCritiqueCtrls_VisibilityState], this);
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.TxtCritiqueCtrls_Visibility_fbState], this);
             }
         }
 
         /// <inheritdoc/>
-        public void TxtCritiqueCtrls_Visibility(bool digital)
+        public void TxtCritiqueCtrls_Visibility_fb(bool digital)
         {
-            TxtCritiqueCtrls_Visibility((sig, component) => sig.BoolValue = digital);
+            TxtCritiqueCtrls_Visibility_fb((sig, component) => sig.BoolValue = digital);
         }
         /// <inheritdoc/>
-        public void TxtCritiqueCtrlsBG_Visibility(Proj_01_Source_04_WidgetBoolInputSigDelegate callback)
+        public void TxtCritiqueCtrlsBG_Visibility_fb(Proj_01_Source_04_WidgetBoolInputSigDelegate callback)
         {
             for (int index = 0; index < Devices.Count; index++)
             {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.TxtCritiqueCtrlsBG_VisibilityState], this);
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.TxtCritiqueCtrlsBG_Visibility_fbState], this);
             }
         }
 
         /// <inheritdoc/>
-        public void TxtCritiqueCtrlsBG_Visibility(bool digital)
+        public void TxtCritiqueCtrlsBG_Visibility_fb(bool digital)
         {
-            TxtCritiqueCtrlsBG_Visibility((sig, component) => sig.BoolValue = digital);
+            TxtCritiqueCtrlsBG_Visibility_fb((sig, component) => sig.BoolValue = digital);
         }
 
 

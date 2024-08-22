@@ -5,7 +5,7 @@
 //
 //     Project:     Active_Learning_Classroom
 //     Version:     1.0.0.0
-//     Sdk:         CH5:2.8.0
+//     Sdk:         CH5:2.10.0
 //     Strategy:    Classic
 //     IndexOnly:   False
 //
@@ -35,13 +35,13 @@ namespace Active_Learning_Classroom.Main_Page
         /// Cam_01_Control_Widget.Visibility Feedback
         /// </summary>
         /// <param name="callback">The bool delegate to update the panel.</param>
-        void Cam_01_Control_Widget_Visibility(Cam_01_Control_WidgetBoolInputSigDelegate callback);
+        void Cam_01_Control_Widget_Visibility_fb(Cam_01_Control_WidgetBoolInputSigDelegate callback);
 
         /// <summary>
         /// Cam_01_Control_Widget.Visibility Feedback
         /// </summary>
         /// <param name="digital">The bool to update the panel.</param>
-        void Cam_01_Control_Widget_Visibility(bool digital);
+        void Cam_01_Control_Widget_Visibility_fb(bool digital);
     }
 
     /// <summary>
@@ -87,10 +87,10 @@ namespace Active_Learning_Classroom.Main_Page
             {
 
                 /// <summary>
-                /// Input or Feedback digital joinInfo from Control System to panel: Main_Page.Cam_01_Control_Widget.Visibility
+                /// Input or Feedback digital joinInfo from Control System to panel: Main_Page.Cam_01_Control_Widget.Visibility_fb
                 /// Cam_01_Control_Widget.Visibility
                 /// </summary>
-                public const uint Cam_01_Control_Widget_VisibilityState = 1;
+                public const uint Cam_01_Control_Widget_Visibility_fbState = 1;
 
             }
         }
@@ -162,18 +162,18 @@ namespace Active_Learning_Classroom.Main_Page
         #region CH5 Contract
 
         /// <inheritdoc/>
-        public void Cam_01_Control_Widget_Visibility(Cam_01_Control_WidgetBoolInputSigDelegate callback)
+        public void Cam_01_Control_Widget_Visibility_fb(Cam_01_Control_WidgetBoolInputSigDelegate callback)
         {
             for (int index = 0; index < Devices.Count; index++)
             {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.Cam_01_Control_Widget_VisibilityState], this);
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.Cam_01_Control_Widget_Visibility_fbState], this);
             }
         }
 
         /// <inheritdoc/>
-        public void Cam_01_Control_Widget_Visibility(bool digital)
+        public void Cam_01_Control_Widget_Visibility_fb(bool digital)
         {
-            Cam_01_Control_Widget_Visibility((sig, component) => sig.BoolValue = digital);
+            Cam_01_Control_Widget_Visibility_fb((sig, component) => sig.BoolValue = digital);
         }
 
         #endregion

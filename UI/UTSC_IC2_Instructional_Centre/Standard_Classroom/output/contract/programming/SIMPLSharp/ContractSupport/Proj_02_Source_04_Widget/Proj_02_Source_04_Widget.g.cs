@@ -5,7 +5,7 @@
 //
 //     Project:     Standard_Classroom
 //     Version:     1.0.0.0
-//     Sdk:         CH5:2.8.0
+//     Sdk:         CH5:2.10.0
 //     Strategy:    Classic
 //     IndexOnly:   False
 //
@@ -47,30 +47,6 @@ namespace Standard_Classroom.Proj_02_Source_04_Widget
         event EventHandler<UIEventArgs> btnSendToProj_2__PressEvent;
 
         /// <summary>
-        /// Str.Proj[1]_CurrentSrc.Indirect Feedback
-        /// </summary>
-        /// <param name="callback">The <see cref="string"/> delegate to update the panel.</param>
-        void StrProj_1__CurrentSrc_Indirect(Proj_02_Source_04_WidgetStringInputSigDelegate callback);
-
-        /// <summary>
-        /// Str.Proj[1]_CurrentSrc.Indirect Feedback
-        /// </summary>
-        /// <param name="serial">The <see cref="string"/> to update the panel.</param>
-        void StrProj_1__CurrentSrc_Indirect(string serial);
-
-        /// <summary>
-        /// Str.Proj[2]_CurrentSrc.Indirect Feedback
-        /// </summary>
-        /// <param name="callback">The <see cref="string"/> delegate to update the panel.</param>
-        void StrProj_2__CurrentSrc_Indirect(Proj_02_Source_04_WidgetStringInputSigDelegate callback);
-
-        /// <summary>
-        /// Str.Proj[2]_CurrentSrc.Indirect Feedback
-        /// </summary>
-        /// <param name="serial">The <see cref="string"/> to update the panel.</param>
-        void StrProj_2__CurrentSrc_Indirect(string serial);
-
-        /// <summary>
         /// Btn.SendToProj[1].Indirect Rich Text Feedback
         /// </summary>
         /// <param name="callback">The <see cref="string"/> delegate to update the panel.</param>
@@ -93,6 +69,30 @@ namespace Standard_Classroom.Proj_02_Source_04_Widget
         /// </summary>
         /// <param name="serial">The <see cref="string"/> to update the panel.</param>
         void btnSendToProj_2__IndirectRichText(string serial);
+
+        /// <summary>
+        /// Str.Proj[1]_CurrentSrc.Indirect Feedback
+        /// </summary>
+        /// <param name="callback">The <see cref="string"/> delegate to update the panel.</param>
+        void StrProj_1__CurrentSrc_Indirect(Proj_02_Source_04_WidgetStringInputSigDelegate callback);
+
+        /// <summary>
+        /// Str.Proj[1]_CurrentSrc.Indirect Feedback
+        /// </summary>
+        /// <param name="serial">The <see cref="string"/> to update the panel.</param>
+        void StrProj_1__CurrentSrc_Indirect(string serial);
+
+        /// <summary>
+        /// Str.Proj[2]_CurrentSrc.Indirect Feedback
+        /// </summary>
+        /// <param name="callback">The <see cref="string"/> delegate to update the panel.</param>
+        void StrProj_2__CurrentSrc_Indirect(Proj_02_Source_04_WidgetStringInputSigDelegate callback);
+
+        /// <summary>
+        /// Str.Proj[2]_CurrentSrc.Indirect Feedback
+        /// </summary>
+        /// <param name="serial">The <see cref="string"/> to update the panel.</param>
+        void StrProj_2__CurrentSrc_Indirect(string serial);
 
         /// <summary>
         /// ComplexComponent BtnList.SrcSelect
@@ -174,25 +174,25 @@ namespace Standard_Classroom.Proj_02_Source_04_Widget
             {
 
                 /// <summary>
-                /// Input or Feedback serial joinInfo from Control System to panel: Proj_02_Source_04_Widget.StrProj[1]_CurrentSrc.Indirect
-                /// Str.Proj[1]_CurrentSrc.Indirect
-                /// </summary>
-                public const uint StrProj_1__CurrentSrc_IndirectState = 1;
-                /// <summary>
-                /// Input or Feedback serial joinInfo from Control System to panel: Proj_02_Source_04_Widget.StrProj[2]_CurrentSrc.Indirect
-                /// Str.Proj[2]_CurrentSrc.Indirect
-                /// </summary>
-                public const uint StrProj_2__CurrentSrc_IndirectState = 2;
-                /// <summary>
                 /// Input or Feedback serial joinInfo from Control System to panel: Proj_02_Source_04_Widget.BtnSendToProj[1].IndirectRichText
                 /// Btn.SendToProj[1].Indirect Rich Text
                 /// </summary>
-                public const uint BtnSendToProj_1__IndirectRichTextState = 3;
+                public const uint BtnSendToProj_1__IndirectRichTextState = 1;
                 /// <summary>
                 /// Input or Feedback serial joinInfo from Control System to panel: Proj_02_Source_04_Widget.btnSendToProj[2].IndirectRichText
                 /// btn.SendToProj[2].Indirect Rich Text
                 /// </summary>
-                public const uint btnSendToProj_2__IndirectRichTextState = 4;
+                public const uint btnSendToProj_2__IndirectRichTextState = 2;
+                /// <summary>
+                /// Input or Feedback serial joinInfo from Control System to panel: Proj_02_Source_04_Widget.StrProj[1]_CurrentSrc.Indirect
+                /// Str.Proj[1]_CurrentSrc.Indirect
+                /// </summary>
+                public const uint StrProj_1__CurrentSrc_IndirectState = 3;
+                /// <summary>
+                /// Input or Feedback serial joinInfo from Control System to panel: Proj_02_Source_04_Widget.StrProj[2]_CurrentSrc.Indirect
+                /// Str.Proj[2]_CurrentSrc.Indirect
+                /// </summary>
+                public const uint StrProj_2__CurrentSrc_IndirectState = 4;
             }
         }
 

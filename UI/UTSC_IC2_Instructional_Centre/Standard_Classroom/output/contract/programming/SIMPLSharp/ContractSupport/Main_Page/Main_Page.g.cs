@@ -5,7 +5,7 @@
 //
 //     Project:     Standard_Classroom
 //     Version:     1.0.0.0
-//     Sdk:         CH5:2.8.0
+//     Sdk:         CH5:2.10.0
 //     Strategy:    Classic
 //     IndexOnly:   False
 //
@@ -57,52 +57,28 @@ namespace Standard_Classroom.Main_Page
         event EventHandler<UIEventArgs> BtnVolume_PressEvent;
 
         /// <summary>
-        /// Txt.LogOffMsg.Visibility Feedback
-        /// </summary>
-        /// <param name="callback">The bool delegate to update the panel.</param>
-        void TxtLogOffMsg_Visibility(Main_PageBoolInputSigDelegate callback);
-
-        /// <summary>
-        /// Txt.LogOffMsg.Visibility Feedback
-        /// </summary>
-        /// <param name="digital">The bool to update the panel.</param>
-        void TxtLogOffMsg_Visibility(bool digital);
-
-        /// <summary>
-        /// Txt.WelcomeMsg.Visibility Feedback
-        /// </summary>
-        /// <param name="callback">The bool delegate to update the panel.</param>
-        void TxtWelcomeMsg_Visibility(Main_PageBoolInputSigDelegate callback);
-
-        /// <summary>
-        /// Txt.WelcomeMsg.Visibility Feedback
-        /// </summary>
-        /// <param name="digital">The bool to update the panel.</param>
-        void TxtWelcomeMsg_Visibility(bool digital);
-
-        /// <summary>
         /// Date Time.Visibility Feedback
         /// </summary>
         /// <param name="callback">The bool delegate to update the panel.</param>
-        void DateTime_Visibility(Main_PageBoolInputSigDelegate callback);
+        void DateTime_Visibility_fb(Main_PageBoolInputSigDelegate callback);
 
         /// <summary>
         /// Date Time.Visibility Feedback
         /// </summary>
         /// <param name="digital">The bool to update the panel.</param>
-        void DateTime_Visibility(bool digital);
+        void DateTime_Visibility_fb(bool digital);
 
         /// <summary>
         /// Logo.Visibility Feedback
         /// </summary>
         /// <param name="callback">The bool delegate to update the panel.</param>
-        void Logo_Visibility(Main_PageBoolInputSigDelegate callback);
+        void Logo_Visibility_fb(Main_PageBoolInputSigDelegate callback);
 
         /// <summary>
         /// Logo.Visibility Feedback
         /// </summary>
         /// <param name="digital">The bool to update the panel.</param>
-        void Logo_Visibility(bool digital);
+        void Logo_Visibility_fb(bool digital);
 
         /// <summary>
         /// Main_Page.VisibilityJoin Feedback
@@ -115,6 +91,30 @@ namespace Standard_Classroom.Main_Page
         /// </summary>
         /// <param name="digital">The bool to update the panel.</param>
         void Main_Page_VisibilityJoin(bool digital);
+
+        /// <summary>
+        /// Txt.LogOffMsg.Visibility Feedback
+        /// </summary>
+        /// <param name="callback">The bool delegate to update the panel.</param>
+        void TxtLogOffMsg_Visibility_fb(Main_PageBoolInputSigDelegate callback);
+
+        /// <summary>
+        /// Txt.LogOffMsg.Visibility Feedback
+        /// </summary>
+        /// <param name="digital">The bool to update the panel.</param>
+        void TxtLogOffMsg_Visibility_fb(bool digital);
+
+        /// <summary>
+        /// Txt.WelcomeMsg.Visibility Feedback
+        /// </summary>
+        /// <param name="callback">The bool delegate to update the panel.</param>
+        void TxtWelcomeMsg_Visibility_fb(Main_PageBoolInputSigDelegate callback);
+
+        /// <summary>
+        /// Txt.WelcomeMsg.Visibility Feedback
+        /// </summary>
+        /// <param name="digital">The bool to update the panel.</param>
+        void TxtWelcomeMsg_Visibility_fb(bool digital);
 
         /// <summary>
         /// Btn.SystemOff.Enable Feedback
@@ -315,34 +315,34 @@ namespace Standard_Classroom.Main_Page
 
 
                 /// <summary>
-                /// Input or Feedback digital joinInfo from Control System to panel: Main_Page.TxtLogOffMsg.Visibility
-                /// Txt.LogOffMsg.Visibility
-                /// </summary>
-                public const uint TxtLogOffMsg_VisibilityState = 1;
-
-                /// <summary>
-                /// Input or Feedback digital joinInfo from Control System to panel: Main_Page.TxtWelcomeMsg.Visibility
-                /// Txt.WelcomeMsg.Visibility
-                /// </summary>
-                public const uint TxtWelcomeMsg_VisibilityState = 2;
-
-                /// <summary>
-                /// Input or Feedback digital joinInfo from Control System to panel: Main_Page.DateTime.Visibility
+                /// Input or Feedback digital joinInfo from Control System to panel: Main_Page.DateTime.Visibility_fb
                 /// Date Time.Visibility
                 /// </summary>
-                public const uint DateTime_VisibilityState = 3;
+                public const uint DateTime_Visibility_fbState = 1;
 
                 /// <summary>
-                /// Input or Feedback digital joinInfo from Control System to panel: Main_Page.Logo.Visibility
+                /// Input or Feedback digital joinInfo from Control System to panel: Main_Page.Logo.Visibility_fb
                 /// Logo.Visibility
                 /// </summary>
-                public const uint Logo_VisibilityState = 4;
+                public const uint Logo_Visibility_fbState = 2;
 
                 /// <summary>
                 /// Input or Feedback digital joinInfo from Control System to panel: Main_PageVisibilityJoin
                 /// Main_Page.VisibilityJoin
                 /// </summary>
-                public const uint Main_Page_VisibilityJoinState = 5;
+                public const uint Main_Page_VisibilityJoinState = 3;
+
+                /// <summary>
+                /// Input or Feedback digital joinInfo from Control System to panel: Main_Page.TxtLogOffMsg.Visibility_fb
+                /// Txt.LogOffMsg.Visibility
+                /// </summary>
+                public const uint TxtLogOffMsg_Visibility_fbState = 4;
+
+                /// <summary>
+                /// Input or Feedback digital joinInfo from Control System to panel: Main_Page.TxtWelcomeMsg.Visibility_fb
+                /// Txt.WelcomeMsg.Visibility
+                /// </summary>
+                public const uint TxtWelcomeMsg_Visibility_fbState = 5;
 
                 /// <summary>
                 /// Input or Feedback digital joinInfo from Control System to panel: Main_Page.BtnSystemOff.Enable
@@ -629,32 +629,32 @@ namespace Standard_Classroom.Main_Page
             BtnVolume_Selected((sig, component) => sig.BoolValue = digital);
         }
         /// <inheritdoc/>
-        public void DateTime_Visibility(Main_PageBoolInputSigDelegate callback)
+        public void DateTime_Visibility_fb(Main_PageBoolInputSigDelegate callback)
         {
             for (int index = 0; index < Devices.Count; index++)
             {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.DateTime_VisibilityState], this);
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.DateTime_Visibility_fbState], this);
             }
         }
 
         /// <inheritdoc/>
-        public void DateTime_Visibility(bool digital)
+        public void DateTime_Visibility_fb(bool digital)
         {
-            DateTime_Visibility((sig, component) => sig.BoolValue = digital);
+            DateTime_Visibility_fb((sig, component) => sig.BoolValue = digital);
         }
         /// <inheritdoc/>
-        public void Logo_Visibility(Main_PageBoolInputSigDelegate callback)
+        public void Logo_Visibility_fb(Main_PageBoolInputSigDelegate callback)
         {
             for (int index = 0; index < Devices.Count; index++)
             {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.Logo_VisibilityState], this);
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.Logo_Visibility_fbState], this);
             }
         }
 
         /// <inheritdoc/>
-        public void Logo_Visibility(bool digital)
+        public void Logo_Visibility_fb(bool digital)
         {
-            Logo_Visibility((sig, component) => sig.BoolValue = digital);
+            Logo_Visibility_fb((sig, component) => sig.BoolValue = digital);
         }
         /// <inheritdoc/>
         public void Main_Page_VisibilityJoin(Main_PageBoolInputSigDelegate callback)
@@ -671,32 +671,32 @@ namespace Standard_Classroom.Main_Page
             Main_Page_VisibilityJoin((sig, component) => sig.BoolValue = digital);
         }
         /// <inheritdoc/>
-        public void TxtLogOffMsg_Visibility(Main_PageBoolInputSigDelegate callback)
+        public void TxtLogOffMsg_Visibility_fb(Main_PageBoolInputSigDelegate callback)
         {
             for (int index = 0; index < Devices.Count; index++)
             {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.TxtLogOffMsg_VisibilityState], this);
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.TxtLogOffMsg_Visibility_fbState], this);
             }
         }
 
         /// <inheritdoc/>
-        public void TxtLogOffMsg_Visibility(bool digital)
+        public void TxtLogOffMsg_Visibility_fb(bool digital)
         {
-            TxtLogOffMsg_Visibility((sig, component) => sig.BoolValue = digital);
+            TxtLogOffMsg_Visibility_fb((sig, component) => sig.BoolValue = digital);
         }
         /// <inheritdoc/>
-        public void TxtWelcomeMsg_Visibility(Main_PageBoolInputSigDelegate callback)
+        public void TxtWelcomeMsg_Visibility_fb(Main_PageBoolInputSigDelegate callback)
         {
             for (int index = 0; index < Devices.Count; index++)
             {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.TxtWelcomeMsg_VisibilityState], this);
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.TxtWelcomeMsg_Visibility_fbState], this);
             }
         }
 
         /// <inheritdoc/>
-        public void TxtWelcomeMsg_Visibility(bool digital)
+        public void TxtWelcomeMsg_Visibility_fb(bool digital)
         {
-            TxtWelcomeMsg_Visibility((sig, component) => sig.BoolValue = digital);
+            TxtWelcomeMsg_Visibility_fb((sig, component) => sig.BoolValue = digital);
         }
 
         /// <summary>
