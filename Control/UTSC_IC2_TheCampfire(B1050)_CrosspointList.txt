@@ -4,23 +4,86 @@ Note:  Crosspoint symbols with EquipID or ControlID set to 0d are not routeable.
 
 Equipment Crosspoint Routing.                                                                       EquipID
 ===========================================================================================================
-S-3 in macro S-3.2.3.2.3.3 (Module File C:\Users\mathew.klucznyk.GUSS\Programming\GitProje          1000
+S-3 in macro S-3.2.4.2.3.3 (Module File C:\Users\mathew.klucznyk.GUSS\Programming\GitProje          1000
 cts\UTSC_IC2\Control\Audio Router Equipment v2.1.0.umc)                                             
-S-3 in macro S-3.2.3.2.4.3 (Module File C:\Users\mathew.klucznyk.GUSS\Programming\GitProje          1001
+S-3 in macro S-3.2.4.2.4.3 (Module File C:\Users\mathew.klucznyk.GUSS\Programming\GitProje          1001
 cts\UTSC_IC2\Control\Audio Router Equipment v2.1.0.umc)                                             
-S-3 in macro S-3.2.3.2.5.3 (Module File C:\Users\mathew.klucznyk.GUSS\Programming\GitProje          1002
+S-3 in macro S-3.2.4.2.5.3 (Module File C:\Users\mathew.klucznyk.GUSS\Programming\GitProje          1002
 cts\UTSC_IC2\Control\Audio Router Equipment v2.1.0.umc)                                             
-S-3 in macro S-3.2.3.2.6.3 (Module File C:\Users\mathew.klucznyk.GUSS\Programming\GitProje          1003
+S-3 in macro S-3.2.4.2.6.3 (Module File C:\Users\mathew.klucznyk.GUSS\Programming\GitProje          1003
 cts\UTSC_IC2\Control\Audio Router Equipment v2.1.0.umc)                                             
-S-3 in macro S-3.2.3.2.7.3 (Module File C:\Users\mathew.klucznyk.GUSS\Programming\GitProje          1004
+S-3 in macro S-3.2.4.2.7.3 (Module File C:\Users\mathew.klucznyk.GUSS\Programming\GitProje          1004
 cts\UTSC_IC2\Control\Audio Router Equipment v2.1.0.umc)                                             
-S-3 in macro S-3.2.3.2.8.3 (Module File C:\Users\mathew.klucznyk.GUSS\Programming\GitProje          1005
+S-3 in macro S-3.2.4.2.8.3 (Module File C:\Users\mathew.klucznyk.GUSS\Programming\GitProje          1005
 cts\UTSC_IC2\Control\Audio Router Equipment v2.1.0.umc)                                             
-S-3 in macro S-3.2.3.2.9.3 (Module File C:\Users\mathew.klucznyk.GUSS\Programming\GitProje          1006
+S-3 in macro S-3.2.4.2.9.3 (Module File C:\Users\mathew.klucznyk.GUSS\Programming\GitProje          1006
 cts\UTSC_IC2\Control\Audio Router Equipment v2.1.0.umc)                                             
-S-3 in macro S-3.2.3.2.10.3 (Module File C:\Users\mathew.klucznyk.GUSS\Programming\GitProj          1007
+S-3 in macro S-3.2.4.2.10.3 (Module File C:\Users\mathew.klucznyk.GUSS\Programming\GitProj          1007
 ects\UTSC_IC2\Control\Audio Router Equipment v2.1.0.umc)                                            
-S-3 in macro S-3.2.3.2.11.3 (Module File C:\Users\mathew.klucznyk.GUSS\Programming\GitProj          1008
+S-3 in macro S-3.2.4.2.11.3 (Module File C:\Users\mathew.klucznyk.GUSS\Programming\GitProj          1008
+ects\UTSC_IC2\Control\Audio Router Equipment v2.1.0.umc)                                            
+S-3.5.4.3                                                                                           2000
+S-3.5.5.3                                                                                           2001
+S-3.5.6.3                                                                                           2002
+S-3 in macro S-3.2.6.1.5.1 (Module File C:\Users\mathew.klucznyk.GUSS\Programming\GitProje          3000
+cts\UTSC_IC2\Control\Audio Router Equipment v2.1.0.umc)                                             
+S-3 in macro S-3.2.6.1.6.1 (Module File C:\Users\mathew.klucznyk.GUSS\Programming\GitProje          3001
+cts\UTSC_IC2\Control\Audio Router Equipment v2.1.0.umc)                                             
+S-3 in macro S-3.2.6.1.7.1 (Module File C:\Users\mathew.klucznyk.GUSS\Programming\GitProje          3002
+cts\UTSC_IC2\Control\Audio Router Equipment v2.1.0.umc)                                             
+S-3 in macro S-3.2.6.1.8.1 (Module File C:\Users\mathew.klucznyk.GUSS\Programming\GitProje          3003
+cts\UTSC_IC2\Control\Audio Router Equipment v2.1.0.umc)                                             
+S-3 in macro S-3.2.6.1.9.1 (Module File C:\Users\mathew.klucznyk.GUSS\Programming\GitProje          3004
+cts\UTSC_IC2\Control\Audio Router Equipment v2.1.0.umc)                                             
+S-3 in macro S-3.2.6.1.10.1 (Module File C:\Users\mathew.klucznyk.GUSS\Programming\GitProj          3005
+ects\UTSC_IC2\Control\Audio Router Equipment v2.1.0.umc)                                            
+S-3 in macro S-3.2.6.1.11.1 (Module File C:\Users\mathew.klucznyk.GUSS\Programming\GitProj          3006
+ects\UTSC_IC2\Control\Audio Router Equipment v2.1.0.umc)                                            
+S-3 in macro S-3.2.6.1.12.1 (Module File C:\Users\mathew.klucznyk.GUSS\Programming\GitProj          3007
+ects\UTSC_IC2\Control\Audio Router Equipment v2.1.0.umc)                                            
+S-3 in macro S-3.2.6.1.13.1 (Module File C:\Users\mathew.klucznyk.GUSS\Programming\GitProj          3008
+ects\UTSC_IC2\Control\Audio Router Equipment v2.1.0.umc)                                            
+S-3 in macro S-3.2.6.1.14.1 (Module File C:\Users\mathew.klucznyk.GUSS\Programming\GitProj          3009
+ects\UTSC_IC2\Control\Audio Router Equipment v2.1.0.umc)                                            
+S-3 in macro S-3.2.6.1.15.1 (Module File C:\Users\mathew.klucznyk.GUSS\Programming\GitProj          3010
+ects\UTSC_IC2\Control\Audio Router Equipment v2.1.0.umc)                                            
+S-3 in macro S-3.2.6.1.16.1 (Module File C:\Users\mathew.klucznyk.GUSS\Programming\GitProj          3011
+ects\UTSC_IC2\Control\Audio Router Equipment v2.1.0.umc)                                            
+S-3 in macro S-3.2.6.1.17.1 (Module File C:\Users\mathew.klucznyk.GUSS\Programming\GitProj          3012
+ects\UTSC_IC2\Control\Audio Router Equipment v2.1.0.umc)                                            
+S-3 in macro S-3.2.6.1.18.1 (Module File C:\Users\mathew.klucznyk.GUSS\Programming\GitProj          3013
+ects\UTSC_IC2\Control\Audio Router Equipment v2.1.0.umc)                                            
+S-3 in macro S-3.2.6.1.19.1 (Module File C:\Users\mathew.klucznyk.GUSS\Programming\GitProj          3014
+ects\UTSC_IC2\Control\Audio Router Equipment v2.1.0.umc)                                            
+S-3 in macro S-3.2.6.2.5.1 (Module File C:\Users\mathew.klucznyk.GUSS\Programming\GitProje          4000
+cts\UTSC_IC2\Control\Audio Router Equipment v2.1.0.umc)                                             
+S-3 in macro S-3.2.6.2.6.1 (Module File C:\Users\mathew.klucznyk.GUSS\Programming\GitProje          4001
+cts\UTSC_IC2\Control\Audio Router Equipment v2.1.0.umc)                                             
+S-3 in macro S-3.2.6.2.7.1 (Module File C:\Users\mathew.klucznyk.GUSS\Programming\GitProje          4002
+cts\UTSC_IC2\Control\Audio Router Equipment v2.1.0.umc)                                             
+S-3 in macro S-3.2.6.2.8.1 (Module File C:\Users\mathew.klucznyk.GUSS\Programming\GitProje          4003
+cts\UTSC_IC2\Control\Audio Router Equipment v2.1.0.umc)                                             
+S-3 in macro S-3.2.6.2.9.1 (Module File C:\Users\mathew.klucznyk.GUSS\Programming\GitProje          4004
+cts\UTSC_IC2\Control\Audio Router Equipment v2.1.0.umc)                                             
+S-3 in macro S-3.2.6.2.10.1 (Module File C:\Users\mathew.klucznyk.GUSS\Programming\GitProj          4005
+ects\UTSC_IC2\Control\Audio Router Equipment v2.1.0.umc)                                            
+S-3 in macro S-3.2.6.2.11.1 (Module File C:\Users\mathew.klucznyk.GUSS\Programming\GitProj          4006
+ects\UTSC_IC2\Control\Audio Router Equipment v2.1.0.umc)                                            
+S-3 in macro S-3.2.6.2.12.1 (Module File C:\Users\mathew.klucznyk.GUSS\Programming\GitProj          4007
+ects\UTSC_IC2\Control\Audio Router Equipment v2.1.0.umc)                                            
+S-3 in macro S-3.2.6.2.13.1 (Module File C:\Users\mathew.klucznyk.GUSS\Programming\GitProj          4008
+ects\UTSC_IC2\Control\Audio Router Equipment v2.1.0.umc)                                            
+S-3 in macro S-3.2.6.2.14.1 (Module File C:\Users\mathew.klucznyk.GUSS\Programming\GitProj          4009
+ects\UTSC_IC2\Control\Audio Router Equipment v2.1.0.umc)                                            
+S-3 in macro S-3.2.6.2.15.1 (Module File C:\Users\mathew.klucznyk.GUSS\Programming\GitProj          4010
+ects\UTSC_IC2\Control\Audio Router Equipment v2.1.0.umc)                                            
+S-3 in macro S-3.2.6.2.16.1 (Module File C:\Users\mathew.klucznyk.GUSS\Programming\GitProj          4011
+ects\UTSC_IC2\Control\Audio Router Equipment v2.1.0.umc)                                            
+S-3 in macro S-3.2.6.2.17.1 (Module File C:\Users\mathew.klucznyk.GUSS\Programming\GitProj          4012
+ects\UTSC_IC2\Control\Audio Router Equipment v2.1.0.umc)                                            
+S-3 in macro S-3.2.6.2.18.1 (Module File C:\Users\mathew.klucznyk.GUSS\Programming\GitProj          4013
+ects\UTSC_IC2\Control\Audio Router Equipment v2.1.0.umc)                                            
+S-3 in macro S-3.2.6.2.19.1 (Module File C:\Users\mathew.klucznyk.GUSS\Programming\GitProj          4014
 ects\UTSC_IC2\Control\Audio Router Equipment v2.1.0.umc)                                            
 
 Control Crosspoint Routing.                                                                         ControlID
@@ -29,8 +92,16 @@ S-2 in macro S-2.1.2.3.3 (Module File C:\Users\mathew.klucznyk.GUSS\Programming\
 s\UTSC_IC2\Control\Audio Router Control v2.1.0.umc)                                                 
 S-2.1.2.4.4                                                                                         101
 S-2.1.2.5.4                                                                                         102
-S-2 in macro S-2.2.1.3.3 (Module File C:\Users\mathew.klucznyk.GUSS\Programming\GitProject          200
+S-2 in macro S-2.2.2.3.3 (Module File C:\Users\mathew.klucznyk.GUSS\Programming\GitProject          200
 s\UTSC_IC2\Control\Audio Router Control v2.1.0.umc)                                                 
-S-2.2.1.4.4                                                                                         201
-S-2.2.1.5.4                                                                                         202
+S-2.2.2.4.4                                                                                         201
+S-2.2.2.5.4                                                                                         202
+S-2 in macro S-2.2.2.6.2 (Module File C:\Users\mathew.klucznyk.GUSS\Programming\GitProject          203
+s\UTSC_IC2\Control\Audio Router Control v2.1.0.umc)                                                 
+S-2 in macro S-2.3.2.3.3 (Module File C:\Users\mathew.klucznyk.GUSS\Programming\GitProject          300
+s\UTSC_IC2\Control\Audio Router Control v2.1.0.umc)                                                 
+S-2.3.2.4.4                                                                                         301
+S-2.3.2.5.4                                                                                         302
+S-2 in macro S-2.3.2.6.2 (Module File C:\Users\mathew.klucznyk.GUSS\Programming\GitProject          303
+s\UTSC_IC2\Control\Audio Router Control v2.1.0.umc)                                                 
 

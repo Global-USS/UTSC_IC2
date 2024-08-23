@@ -1,0 +1,38 @@
+#SYMBOL_NAME "String Router"
+
+#DEFAULT_VOLATILE
+#ENABLE_STACK_CHECKING
+#ENABLE_TRACE
+#DEFINE_CONSTANT totalStrings 20
+
+
+Analog_Input Route;
+String_Input Strings[totalStrings,totalStrings][255];
+
+String_Output StringOut;
+
+Change Route
+{
+	integer x;
+	
+	x = Route; 
+	
+	if(x > 0 && x <= totalStrings)
+	StringOut = Strings[x];
+}
+
+change Strings
+{
+	integer x, y;
+	string new[255];
+	
+	
+	y = GetLastModifiedArrayIndex();  
+	new = Strings[y];
+	x = Route;
+	
+	if(x = y)
+	{
+		StringOut = new;
+	}
+}
