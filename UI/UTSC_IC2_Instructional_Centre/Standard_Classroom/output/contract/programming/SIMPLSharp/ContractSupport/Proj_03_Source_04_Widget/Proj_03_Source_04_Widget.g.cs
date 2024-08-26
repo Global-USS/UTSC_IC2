@@ -52,6 +52,54 @@ namespace Standard_Classroom.Proj_03_Source_04_Widget
         event EventHandler<UIEventArgs> BtnSendToProj_3__PressEvent;
 
         /// <summary>
+        /// Btn.SendToAll.Enable Feedback
+        /// </summary>
+        /// <param name="callback">The bool delegate to update the panel.</param>
+        void BtnSendToAll_Enable(Proj_03_Source_04_WidgetBoolInputSigDelegate callback);
+
+        /// <summary>
+        /// Btn.SendToAll.Enable Feedback
+        /// </summary>
+        /// <param name="digital">The bool to update the panel.</param>
+        void BtnSendToAll_Enable(bool digital);
+
+        /// <summary>
+        /// Btn.SendToProj[1].Enable Feedback
+        /// </summary>
+        /// <param name="callback">The bool delegate to update the panel.</param>
+        void BtnSendToProj_1__Enable(Proj_03_Source_04_WidgetBoolInputSigDelegate callback);
+
+        /// <summary>
+        /// Btn.SendToProj[1].Enable Feedback
+        /// </summary>
+        /// <param name="digital">The bool to update the panel.</param>
+        void BtnSendToProj_1__Enable(bool digital);
+
+        /// <summary>
+        /// Btn.SendToProj[2].Enable Feedback
+        /// </summary>
+        /// <param name="callback">The bool delegate to update the panel.</param>
+        void BtnSendToProj_2__Enable(Proj_03_Source_04_WidgetBoolInputSigDelegate callback);
+
+        /// <summary>
+        /// Btn.SendToProj[2].Enable Feedback
+        /// </summary>
+        /// <param name="digital">The bool to update the panel.</param>
+        void BtnSendToProj_2__Enable(bool digital);
+
+        /// <summary>
+        /// Btn.SendToProj[3].Enable Feedback
+        /// </summary>
+        /// <param name="callback">The bool delegate to update the panel.</param>
+        void BtnSendToProj_3__Enable(Proj_03_Source_04_WidgetBoolInputSigDelegate callback);
+
+        /// <summary>
+        /// Btn.SendToProj[3].Enable Feedback
+        /// </summary>
+        /// <param name="digital">The bool to update the panel.</param>
+        void BtnSendToProj_3__Enable(bool digital);
+
+        /// <summary>
         /// Str.Proj[1]_CurrentSrc.Indirect Feedback
         /// </summary>
         /// <param name="callback">The <see cref="string"/> delegate to update the panel.</param>
@@ -144,26 +192,50 @@ namespace Standard_Classroom.Proj_03_Source_04_Widget
                 /// Output or Event digital joinInfo from panel to Control System: Proj_03_Source_04_Widget.BtnSendToAll.Press
                 /// Btn.SendToAll.Press
                 /// </summary>
-                public const uint BtnSendToAll_PressEvent = 3;
+                public const uint BtnSendToAll_PressEvent = 2;
 
                 /// <summary>
                 /// Output or Event digital joinInfo from panel to Control System: Proj_03_Source_04_Widget.BtnSendToProj[1].Press
                 /// Btn.SendToProj[1].Press
                 /// </summary>
-                public const uint BtnSendToProj_1__PressEvent = 4;
+                public const uint BtnSendToProj_1__PressEvent = 3;
 
                 /// <summary>
                 /// Output or Event digital joinInfo from panel to Control System: Proj_03_Source_04_Widget.BtnSendToProj[2].Press
                 /// Btn.SendToProj[2].Press
                 /// </summary>
-                public const uint BtnSendToProj_2__PressEvent = 5;
+                public const uint BtnSendToProj_2__PressEvent = 4;
 
                 /// <summary>
                 /// Output or Event digital joinInfo from panel to Control System: Proj_03_Source_04_Widget.BtnSendToProj[3].Press
                 /// Btn.SendToProj[3].Press
                 /// </summary>
-                public const uint BtnSendToProj_3__PressEvent = 6;
+                public const uint BtnSendToProj_3__PressEvent = 5;
 
+
+                /// <summary>
+                /// Input or Feedback digital joinInfo from Control System to panel: Proj_03_Source_04_Widget.BtnSendToAll.Enable
+                /// Btn.SendToAll.Enable
+                /// </summary>
+                public const uint BtnSendToAll_EnableState = 2;
+
+                /// <summary>
+                /// Input or Feedback digital joinInfo from Control System to panel: Proj_03_Source_04_Widget.BtnSendToProj[1].Enable
+                /// Btn.SendToProj[1].Enable
+                /// </summary>
+                public const uint BtnSendToProj_1__EnableState = 3;
+
+                /// <summary>
+                /// Input or Feedback digital joinInfo from Control System to panel: Proj_03_Source_04_Widget.BtnSendToProj[2].Enable
+                /// Btn.SendToProj[2].Enable
+                /// </summary>
+                public const uint BtnSendToProj_2__EnableState = 4;
+
+                /// <summary>
+                /// Input or Feedback digital joinInfo from Control System to panel: Proj_03_Source_04_Widget.BtnSendToProj[3].Enable
+                /// Btn.SendToProj[3].Enable
+                /// </summary>
+                public const uint BtnSendToProj_3__EnableState = 5;
 
             }
             /// <summary>
@@ -301,6 +373,62 @@ namespace Standard_Classroom.Proj_03_Source_04_Widget
                 handler(this, UIEventArgs.CreateEventArgs(eventArgs));
         }
 
+        /// <inheritdoc/>
+        public void BtnSendToAll_Enable(Proj_03_Source_04_WidgetBoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.BtnSendToAll_EnableState], this);
+            }
+        }
+
+        /// <inheritdoc/>
+        public void BtnSendToAll_Enable(bool digital)
+        {
+            BtnSendToAll_Enable((sig, component) => sig.BoolValue = digital);
+        }
+        /// <inheritdoc/>
+        public void BtnSendToProj_1__Enable(Proj_03_Source_04_WidgetBoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.BtnSendToProj_1__EnableState], this);
+            }
+        }
+
+        /// <inheritdoc/>
+        public void BtnSendToProj_1__Enable(bool digital)
+        {
+            BtnSendToProj_1__Enable((sig, component) => sig.BoolValue = digital);
+        }
+        /// <inheritdoc/>
+        public void BtnSendToProj_2__Enable(Proj_03_Source_04_WidgetBoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.BtnSendToProj_2__EnableState], this);
+            }
+        }
+
+        /// <inheritdoc/>
+        public void BtnSendToProj_2__Enable(bool digital)
+        {
+            BtnSendToProj_2__Enable((sig, component) => sig.BoolValue = digital);
+        }
+        /// <inheritdoc/>
+        public void BtnSendToProj_3__Enable(Proj_03_Source_04_WidgetBoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.BtnSendToProj_3__EnableState], this);
+            }
+        }
+
+        /// <inheritdoc/>
+        public void BtnSendToProj_3__Enable(bool digital)
+        {
+            BtnSendToProj_3__Enable((sig, component) => sig.BoolValue = digital);
+        }
 
 
         /// <inheritdoc/>
