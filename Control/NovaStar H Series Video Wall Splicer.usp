@@ -20,7 +20,7 @@
 //inputs
 digital_input Initialize, Connect, Disconnect, GetDeviceStatus;
 //outputs
-digital_output IsConnected, IsCommunicating, DeviceIsReady, DeviceTemperatureIsNoraml, DeviceVoltageIsNormal;
+digital_output IsConnected, IsCommunicating, DeviceIsReady, DeviceTemperatureIsNormal, DeviceVoltageIsNormal;
 
 //parameters
 string_parameter _skip_, _skip_, _skip_, _skip_, _skip_, Device_ID[255], Default_IP_Address[255];
@@ -92,7 +92,7 @@ eventhandler NewDeviceDetailsUpdated(HSeriesCommunicator sender,HSeriesDeviceDet
 	x = args.Payload;
 	
 	DeviceIsReady = x.DeviceIsReady;
-	DeviceTemperatureIsNoraml = x.TemperatureIsNormal;
+	DeviceTemperatureIsNormal = x.TemperatureIsNormal;
 	DeviceVoltageIsNormal = x.VoltageIsNormal;
 }
 /* #endregion */
@@ -105,5 +105,6 @@ Function Main()
 	RegisterEvent(_dev, DeviceDetailsUpdated, NewDeviceDetailsUpdated);
 
    _ipa = Default_IP_Address;
+   delay(10);
    _ready = true;
 }

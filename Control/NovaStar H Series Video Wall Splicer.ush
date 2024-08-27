@@ -36,7 +36,7 @@
   OutputSigType2=Digital
   OutputCue3=DeviceIsReady
   OutputSigType3=Digital
-  OutputCue4=DeviceTemperatureIsNoraml
+  OutputCue4=DeviceTemperatureIsNormal
   OutputSigType4=Digital
   OutputCue5=DeviceVoltageIsNormal
   OutputSigType5=Digital

@@ -105,6 +105,8 @@ Function Main()
 	WaitForInitializationComplete();
 	RegisterEvent(_screen, FtbStatusChanged, NewFtbStatusChanged);
 	RegisterEvent(_screen, FreezeStatusChanged, NewFreezeStatusChanges);
+
+   delay(50);
 	
 	_screen.Configure(Screen_ID, Video_Wall_Splicer_Device_ID);
 }
