@@ -18,17 +18,12 @@
 
 /* #region IO Constructor */
 //inputs
-digital_input Initialize, Connect, Disconnect, GetDeviceStatus, _skip_, _skip_, FadeToBlackOnScreen[6], FadeToBlackOffScreen[6], _skip_,
-				FreezeScreen[6], UnFreezeScreen[6,6];
+digital_input Initialize, Connect, Disconnect, GetDeviceStatus;
 //outputs
-digital_output IsConnected, IsCommunicating, DeviceIsReady, DeviceTemperatureIsNoraml, DeviceVoltageIsNormal, _skip_, FadeToBlackIsOnScreen[6],
-				FadeToBlackIsOffScreen[6], _skip_, FreezeIsOnScreen[6], FreezeIsOffScreen[6,6];
+digital_output IsConnected, IsCommunicating, DeviceIsReady, DeviceTemperatureIsNoraml, DeviceVoltageIsNormal;
 
 //parameters
-string_parameter _skip_, _skip_, _skip_, _skip_, _skip_, _skip_, _skip_, _skip_, _skip_, _skip_,
-_skip_, _skip_, _skip_, _skip_, _skip_, _skip_, _skip_, _skip_, _skip_, _skip_,
-_skip_, _skip_, _skip_, _skip_, _skip_, _skip_, _skip_, _skip_, _skip_, _skip_,
-_skip_, Device_ID[255], Default_IP_Address[255];
+string_parameter _skip_, _skip_, _skip_, _skip_, _skip_, Device_ID[255], Default_IP_Address[255];
 
 /*
 #BEGIN_PARAMETER_PROPERTIES parameter_variable, parameter_variable, ...
@@ -47,6 +42,7 @@ _skip_, Device_ID[255], Default_IP_Address[255];
 HSeriesCommunicator _dev;
 integer _ready;
 string _ipa[255];
+
 /* #endregion */
 
 /* #region Functions */
@@ -76,43 +72,6 @@ push GetDeviceStatus
    _dev.GetDeviceDetails();
 }
 
-push FadeToBlackOnScreen
-{
-   integer index;
-
-   index = GetLastModifiedArrayIndex() - 1;
-
-   _dev.SingleScreenFadeToBlackOn(index);
-   
-}
-
-push FadeToBlackOffScreen
-{
-   integer index;
-
-   index = GetLastModifiedArrayIndex() - 1;
-
-   _dev.SingleScreenFadeToBlackOff(index);
-   
-}
-
-push FreezeScreen
-{
-   integer index;
-
-   index = GetLastModifiedArrayIndex() - 1;
-   
-   _dev.SingleScreenFreezeOn(index);
-}
-
-push UnfreezeScreen
-{
-   integer index;
-
-   index = GetLastModifiedArrayIndex() - 1;
-   
-   _dev.SingleScreenFreezeOff(index);
-}
 /* #endregion */
 
 /* #region Callbacks */
@@ -136,53 +95,15 @@ eventhandler NewDeviceDetailsUpdated(HSeriesCommunicator sender,HSeriesDeviceDet
 	DeviceTemperatureIsNoraml = x.TemperatureIsNormal;
 	DeviceVoltageIsNormal = x.VoltageIsNormal;
 }
-
-eventhandler NewScreenFadeToBlackStatusChanged(HSeriesCommunicator sender,NovaStarIndexedBoolEventArgs args)
-{
-	integer index;
-	
-	index = args.Payload.Index + 1;
-	
-	if(args.Payload.Value)
-   {
-      FadeToBlackIsOffScreen[index] = false;
-      FadeToBlackIsOnScreen[index] = true;
-   }
-   else
-   {
-      FadeToBlackIsOnScreen[index] = false;
-      FadeToBlackIsOffScreen[index] = true;
-   }
-}
-
-eventhandler NewScreenFreezeStatusChanged(HSeriesCommunicator sender,NovaStarIndexedBoolEventArgs args)
-{
-	integer index;
-	
-	index = args.Payload.Index + 1;
-	
-	if(args.Payload.Value)
-	{
-		FreezeIsOffScreen[index] = false;
-		FreezeIsOnScreen[index] = true;
-	}
-	else
-	{
-		FreezeIsOnScreen[index] = false;
-		FreezeIsOffScreen[index] = true;
-	}
-}
 /* #endregion */
 
 Function Main()
 {
-	WaitForInitializationComplete();
+   WaitForInitializationComplete();
 	RegisterEvent(_dev, ConnectedChanged, NewConnectedChanged);
 	RegisterEvent(_dev, CommunicatingChanged, NewCommunicatingChanged);
 	RegisterEvent(_dev, DeviceDetailsUpdated, NewDeviceDetailsUpdated);
-	RegisterEvent(_dev, ScreenFadeToBlackStatusChanged, NewScreenFadeToBlackStatusChanged);
-	RegisterEvent(_dev, ScreenFreezeStatusChanged, NewScreenFreezeStatusChanged);
-	
+
    _ipa = Default_IP_Address;
    _ready = true;
 }
