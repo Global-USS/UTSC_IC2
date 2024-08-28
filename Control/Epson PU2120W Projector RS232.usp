@@ -44,7 +44,7 @@ _skip_,  _skip_,  _skip_,  _skip_,  _skip_, _skip_, DeviceID[255];
 */
 
 //objects
-Pu2120WProjector _proj;
+PU2120WProjector _proj;
 
 /* #endregion */
 
@@ -121,7 +121,7 @@ change DebugMode
 
 /* #region Callbacks */
 
-eventhandler _proj_ExtendedPowerStateChanged(Pu2120WProjector sender,EpsonUShortEventArgs args)
+eventhandler _proj_ExtendedPowerStateChanged(PU2120WProjector sender,EpsonUShortEventArgs args)
 {
 	switch(args.Payload)
 	{
@@ -156,7 +156,7 @@ eventhandler _proj_ExtendedPowerStateChanged(Pu2120WProjector sender,EpsonUShort
 	}
 }
 
-eventhandler _proj_AvMuteStateChanged(Pu2120WProjector sender,EpsonBoolEventArgs args)
+eventhandler _proj_AvMuteStateChanged(PU2120WProjector sender,EpsonBoolEventArgs args)
 {
 	if(args.Payload)
 	{
@@ -169,7 +169,7 @@ eventhandler _proj_AvMuteStateChanged(Pu2120WProjector sender,EpsonBoolEventArgs
 	AvMuteIsOff = true;
 }
 
-eventhandler _proj_FreezeStateChanged(Pu2120WProjector sender,EpsonBoolEventArgs args)
+eventhandler _proj_FreezeStateChanged(PU2120WProjector sender,EpsonBoolEventArgs args)
 {
 	if(args.Payload)
 	{
@@ -182,18 +182,18 @@ eventhandler _proj_FreezeStateChanged(Pu2120WProjector sender,EpsonBoolEventArgs
 	FreezeIsOff = true;
 }
 
-eventhandler _proj_CurerntSourceIndexChanged(Pu2120WProjector sender,EpsonUShortEventArgs args)
+eventhandler _proj_CurerntSourceIndexChanged(PU2120WProjector sender,EpsonUShortEventArgs args)
 {
 	CurrentSource = args.Payload + 1;
 }
 
-eventhandler _proj_CurrentLampHoursChanged(Pu2120WProjector sender,EpsonUShortEventArgs args)
+eventhandler _proj_CurrentLampHoursChanged(PU2120WProjector sender,EpsonUShortEventArgs args)
 {
 	LampHours = args.Payload;
 	LampHoursString = ItoA(args.Payload);
 }
 
-eventhandler _proj_CommandToSendAvailable(Pu2120WProjector sender,EpsonStringEventArgs args)
+eventhandler _proj_CommandToSendAvailable(PU2120WProjector sender,EpsonStringEventArgs args)
 {
 	TxCommand = args.Payload;
 }
