@@ -1,0 +1,132 @@
+{
+  "type": "activeLeaningClassroom",
+  "room": {
+    "number": "3050",
+    "projectors": {
+      "count": 2,
+      "projectors": [
+        {
+          "name": "Left"
+        },
+        {
+          "name": "Right"
+        }
+      ]
+    },
+    "displays": {
+      "count": 0,
+      "displays": []
+    },
+    "pods": {
+      "count": 10
+    },
+    "sources": [
+      {
+        "name": "None",
+        "vidRoute": 0,
+        "audRoute": 0
+      },
+      {
+        "name": "Room PC",
+        "vidRoute": 1,
+        "audRoute": 6
+      },
+      {
+        "name": "Laptop HDMI",
+        "vidRoute": 2,
+        "audRoute": 7
+      },
+      {
+        "name": "Doc Cam",
+        "vidRoute": 3,
+        "audRoute": 8
+      },
+      {
+        "name": "Not Supported",
+        "vidRoute": 4,
+        "audRoute": 9
+      },
+      {
+        "name": "Not Supported",
+        "vidRoute": 5,
+        "audRoute": 10
+      },
+      {
+        "name": "Not Supported",
+        "vidRoute": 6,
+        "audRoute": 11
+      },
+      {
+        "name": "Not Supported",
+        "vidRoute": 7,
+        "audRoute": 12
+      },
+      {
+        "name": "Not Supported",
+        "vidRoute": 8,
+        "audRoute": 13
+      },
+      {
+        "name": "AirMedia",
+        "vidRoute": 9,
+        "audRoute": 14
+      }
+    ],
+    "cameras": {
+      "count": 1,
+      "cameras": [
+        {
+          "name": "Rear",
+          "ipAddress": "172.16.30.108"
+        }
+      ]
+    },
+    "wirelessMics": {
+      "count": 1,
+      "mics": [
+        {
+          "name": "Wireless 1"
+        }
+      ]
+    },
+    "caeilingMics": {
+      "count": 4,
+      "mics": [
+        {
+          "name": "Front Left",
+          "ipAddress": "172.16.30.100"
+        },
+        {
+          "name": "Front Right",
+          "ipAddress": "172.16.30.102"
+        },
+        {
+          "name": "Rear Left",
+          "ipAddress": "172.16.30.104"
+        },
+        {
+          "name": "Rear Right",
+          "ipAddress": "172.16.30.106"
+        }
+      ]
+    }
+  },
+  "uiConfig": {
+    "widgets": {
+      "projCtrlWidget": {
+        "widget": "Proj_02_Power-Sreen_Widget",
+        "sendToProj1Label": "Send to Left Projector",
+        "sendToProj2Label": "Send to Right Projector"
+      },
+      "volCtrlWidget": {
+        "widget": "Volume_Control_03_Panel_Widget"
+      },
+      "camCtrlWidget": {
+        "widget": "Cam_01_Control_Widget"
+      },
+      "srcRoutingWidget": {
+        "widget": "Proj_02_Source_04_Widget"
+      }
+    }
+  }
+}
