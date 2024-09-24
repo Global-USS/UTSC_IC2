@@ -89,7 +89,7 @@
         }
       ]
     },
-    "caeilingMics": {
+    "ceilingMics": {
       "count": 4,
       "mics": [
         {
@@ -109,14 +109,17 @@
           "ipAddress": "172.16.30.106"
         }
       ]
+    },
+    "dsp": {
+      "ipAddress": "172.16.30.111"
     }
   },
   "uiConfig": {
     "widgets": {
       "projCtrlWidget": {
         "widget": "Proj_02_Power-Sreen_Widget",
-        "sendToProj1Label": "Send to Left Projector",
-        "sendToProj2Label": "Send to Right Projector"
+        "sendToProj1Label": "Send to Left<br>Projector",
+        "sendToProj2Label": "Send to Right<br>Projector"
       },
       "volCtrlWidget": {
         "widget": "Volume_Control_03_Panel_Widget"
