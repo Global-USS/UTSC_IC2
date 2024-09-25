@@ -117,7 +117,7 @@
   "uiConfig": {
     "widgets": {
       "projCtrlWidget": {
-        "widget": "Proj_02_Power-Sreen_Widget",
+        "widget": "Proj_02_Power-Screen_Widget",
         "sendToProj1Label": "Send to Left<br>Projector",
         "sendToProj2Label": "Send to Right<br>Projector"
       },

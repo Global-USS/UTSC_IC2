@@ -1,0 +1,120 @@
+{
+  "type": "standardClassroom",
+  "room": {
+    "number": "2120",
+    "projectors": {
+      "count": 1,
+      "projectors": [
+        {
+          "name": "Projector"
+        }
+      ]
+    },
+    "displays": {
+      "count": 0,
+      "displays": []
+    },
+    "pods": {
+      "count": 0
+    },
+    "sources": [
+      {
+        "name": "None",
+        "vidRoute": 0,
+        "audRoute": 0
+      },
+      {
+        "name": "Room PC",
+        "vidRoute": 1,
+        "audRoute": 6
+      },
+      {
+        "name": "Laptop HDMI",
+        "vidRoute": 2,
+        "audRoute": 7
+      },
+      {
+        "name": "Doc Cam",
+        "vidRoute": 3,
+        "audRoute": 8
+      },
+      {
+        "name": "Not Supported",
+        "vidRoute": 4,
+        "audRoute": 9
+      },
+      {
+        "name": "Not Supported",
+        "vidRoute": 5,
+        "audRoute": 10
+      },
+      {
+        "name": "Not Supported",
+        "vidRoute": 6,
+        "audRoute": 11
+      },
+      {
+        "name": "Not Supported",
+        "vidRoute": 7,
+        "audRoute": 12
+      },
+      {
+        "name": "Not Supported",
+        "vidRoute": 8,
+        "audRoute": 13
+      },
+      {
+        "name": "AirMedia",
+        "vidRoute": 9,
+        "audRoute": 14
+      }
+    ],
+    "cameras": {
+      "count": 1,
+      "cameras": [
+        {
+          "name": "Rear",
+          "ipAddress": "172.16.30.157"
+        }
+      ]
+    },
+    "wirelessMics": {
+      "count": 1,
+      "mics": [
+        {
+          "name": "Wireless"
+        }
+      ]
+    },
+    "ceilingMics": {
+      "count": 1,
+      "mics": [
+        {
+          "name": "Ceiling Mics",
+          "ipAddress": "172.16.30.155"
+        }
+      ]
+    },
+    "dsp": {
+      "ipAddress": "172.16.30.160"
+    }
+  },
+  "uiConfig": {
+    "widgets": {
+      "projCtrlWidget": {
+        "widget": "Proj_01_Power-Screen_Widget",
+        "sendToProj1Label": "Send to Projector",
+        "sendToProj2Label": "Not Supported"
+      },
+      "volCtrlWidget": {
+        "widget": "Volume_Control_03_Panel_Widget"
+      },
+      "camCtrlWidget": {
+        "widget": "Cam_01_Control_Widget"
+      },
+      "srcRoutingWidget": {
+        "widget": "Proj_01_Source_04_Widget"
+      }
+    }
+  }
+}
