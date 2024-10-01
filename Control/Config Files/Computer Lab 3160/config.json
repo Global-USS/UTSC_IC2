@@ -1,0 +1,111 @@
+{
+  "type": "standardLab",
+  "room": {
+    "number": "3160",
+    "projectors": {
+      "count": 2,
+      "projectors": [
+        {
+          "name": "Left"
+        },
+        {
+          "name": "Right"
+        }
+      ]
+    },
+    "displays": {
+      "count": 0,
+      "displays": []
+    },
+    "pods": {
+      "count": 0
+    },
+    "sources": [
+      {
+        "name": "None",
+        "vidRoute": 0,
+        "audRoute": 0
+      },
+      {
+        "name": "Room PC",
+        "vidRoute": 1,
+        "audRoute": 6
+      },
+      {
+        "name": "Laptop HDMI",
+        "vidRoute": 2,
+        "audRoute": 7
+      },
+      {
+        "name": "Not Supported",
+        "vidRoute": 3,
+        "audRoute": 8
+      },
+      {
+        "name": "Not Supported",
+        "vidRoute": 4,
+        "audRoute": 9
+      },
+      {
+        "name": "Not Supported",
+        "vidRoute": 5,
+        "audRoute": 10
+      },
+      {
+        "name": "Not Supported",
+        "vidRoute": 6,
+        "audRoute": 11
+      },
+      {
+        "name": "Not Supported",
+        "vidRoute": 7,
+        "audRoute": 12
+      },
+      {
+        "name": "Not Supported",
+        "vidRoute": 8,
+        "audRoute": 13
+      },
+      {
+        "name": "AirMedia",
+        "vidRoute": 9,
+        "audRoute": 14
+      }
+    ],
+    "cameras": {
+      "count": 0,
+      "cameras": []
+    },
+    "wirelessMics": {
+      "count": 1,
+      "mics": [
+        {
+          "name": "Wireless"
+        }
+      ]
+    },
+    "ceilingMics": {
+      "count": 0,
+      "mics": []
+    },
+    "dsp": {}
+  },
+  "uiConfig": {
+    "widgets": {
+      "projCtrlWidget": {
+        "widget": "Proj_02_Power-Screen_Widget",
+        "sendToProj1Label": "Send to Left<br>Projector",
+        "sendToProj2Label": "Send to Right<br>Projector"
+      },
+      "volCtrlWidget": {
+        "widget": "Volume_Control_03_Panel_Widget"
+      },
+      "camCtrlWidget": {
+        "widget": ""
+      },
+      "srcRoutingWidget": {
+        "widget": "Proj_02_Source_04_Widget"
+      }
+    }
+  }
+}
