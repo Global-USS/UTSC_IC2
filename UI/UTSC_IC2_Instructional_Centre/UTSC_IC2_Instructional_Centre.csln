@@ -3,21 +3,26 @@
     "_schema": "1.0.0.0",
     "_createdByAppHost": "1.3201.17.0",
     "_created": "2024-05-01T17:16:36.8557812-04:00",
-    "_lastModifiedByAppHost": "1.3300.16.0",
-    "_modified": "2024-06-21T11:17:14.504339-04:00"
+    "_lastModifiedByAppHost": "1.3501.13.0",
+    "_modified": "2024-10-01T08:36:40.9764417-04:00"
   },
   "_solution": {
     "_name": "UTSC_IC2_Instructional_Centre",
     "_projects": [
+      {
+        "_name": "Standard_Classroom",
+        "_filename": "Standard_Classroom/Standard_Classroom.cuip",
+        "_datetime": "2024-05-30T19:46:29.6469256Z"
+      },
       {
         "_name": "Active_Learning_Classroom",
         "_filename": "Active_Learning_Classroom/Active_Learning_Classroom.cuip",
         "_datetime": "2024-05-31T13:42:00.825376Z"
       },
       {
-        "_name": "Standard_Classroom",
-        "_filename": "Standard_Classroom/Standard_Classroom.cuip",
-        "_datetime": "2024-05-30T19:46:29.6469256Z"
+        "_name": "Standard_Lab",
+        "_filename": "Standard_Lab/Standard_Lab.cuip",
+        "_datetime": "2024-10-01T12:36:40.9586936Z"
       },
       {
         "_name": "The_Campfire_Theatre",

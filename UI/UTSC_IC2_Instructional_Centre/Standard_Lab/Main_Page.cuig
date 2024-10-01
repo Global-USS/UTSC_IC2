@@ -1,0 +1,484 @@
+{FileMetadata}
+Schema = "1.0.0.0"
+CreatedByAppHost = "1.3501.13.0"
+Created = 2024-10-01 08:38:18.392533-04:00
+LastModifiedByAppHost = "1.3501.13.0"
+Modified = 2024-10-01 08:38:18.39252-04:00
+CreatedByProjectApp = "1.3501.13.0"
+LastModifiedByProjectApp = "1.3501.13.0"
+MinimumProjectApp = "1.2600.1"
+
+{Html}
+<ch5-background scale="fill" refreshrate="600" transitioneffect="ease" transitionduration="1s" assetid="0" id="ia83" componentname="Background" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" backgroundcolor="#ffffff" imgbackgroundcolor="transparent" componentwasresized="true">
+              </ch5-background><div componentname="Top.Menu.Panel" id="iv6q55rbw09gh" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" oldid="iupz" componentwasresized="true"></div><div componentname="Right.Menu.Panel" id="iupz" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" componentwasresized="true"></div><ch5-datetime timeoffsethours="0" horizontalalignment="center" displaytype="time" display24hourformat="false" displayampm="true" displaytwodigitshour="false" displayseconds="false" stylefordate="MM-dd-yyyy" id="iguill6497pnf" componentname="Date Time" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" ccid_themecssset="true" oldid="i939d" pd-receivestateshow="Contract Enabled"></ch5-datetime><ch5-image refreshrate="0" customvstheme="custom" assetid="f34b18b4-88e1-414a-91cc-0d761746927d" id="i12vh" componentname="Logo" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" pd-receivestateshow="Contract Enabled">
+              </ch5-image><ch5-text clearlabel="false" labelmodeadvncomponent="advanced" horizontalalignment="center" verticalalignment="middle" multilinesupport="false" truncatetext="false" id="io6ry" componentname="Txt.WelcomeMsg" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" ccid_themecssset="true" labelinnerhtml="<p>Welcome To <ch5-jointotext-string receiveStateValue=&quot;1&quot; textWhenEmpty=&quot;Room Name&quot;></ch5-jointotext-string></p>" pd-receivestateshow="Contract Enabled">
+              </ch5-text><ch5-text clearlabel="false" labelmodeadvncomponent="simple" horizontalalignment="center" verticalalignment="middle" multilinesupport="false" truncatetext="false" labelinnerhtml="Remember To Log Off When Finished" id="issod" componentname="Txt.LogOffMsg" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" ccid_themecssset="true" pd-receivestateshow="Contract Enabled">
+              </ch5-text><ch5-button type="default" halignlabel="center" valignlabel="middle" checkboxshow="false" checkboxposition="left" pageflipattributename="pageflip" clearlabel="false" ccid_imageicontype="iconclass" ccid_linksendreceive="True" iconurlfilltype="initial" customclass="ccid-custom" affectedbypreviewstate="True" shape="custom" customvstheme="custom" id="iukp5q4aos7v2" labelinnerhtml="Volume" pageflip="0" iconposition="top" previewstate="normal" orientation="horizontal" labelmode="simple" componentname="Btn.Volume" ccid_themecssset="true" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" size="custom" oldid="ihp6k" iconclass="fas fa-music" selected="false" sendeventontouch="Contract Enabled" pd-receivestateselected="Contract Enabled" assetid="0"></ch5-button><ch5-button type="default" halignlabel="center" valignlabel="middle" checkboxshow="false" checkboxposition="left" pageflipattributename="pageflip" clearlabel="false" ccid_imageicontype="imageasset" ccid_linksendreceive="True" iconurlfilltype="initial" customclass="ccid-custom" affectedbypreviewstate="True" shape="custom" customvstheme="custom" id="ihp6k" labelinnerhtml="Projector" pageflip="0" iconposition="top" previewstate="normal" orientation="horizontal" labelmode="simple" componentname="Btn.Proj" ccid_themecssset="true" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" size="custom" assetid="44beb9b0-ad77-4879-a413-da0b8d2d67e7" selected="false" sendeventontouch="Contract Enabled" pd-receivestateselected="Contract Enabled">
+              </ch5-button><ch5-button type="default" halignlabel="center" valignlabel="middle" checkboxshow="false" checkboxposition="left" pageflipattributename="pageflip" clearlabel="false" ccid_imageicontype="imageasset" ccid_linksendreceive="True" iconurlfilltype="initial" customclass="ccid-custom" affectedbypreviewstate="True" shape="custom" customvstheme="custom" id="i08dh1ltw0507" labelinnerhtml="AuRA" pageflip="0" iconposition="top" previewstate="normal" orientation="horizontal" labelmode="advanced" componentname="Btn.AuRA" ccid_themecssset="true" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" size="custom" oldid="iukp5q4aos7v2" assetid="c9cd3bc8-a3a1-4e40-8ce9-f99fcf64de1d" componentwasresized="true" selected="false" sendeventontouch="Contract Enabled" pd-receivestateselected="Contract Enabled"></ch5-button><ch5-button type="default" halignlabel="center" valignlabel="middle" checkboxshow="false" checkboxposition="left" pageflipattributename="pageflip" clearlabel="false" ccid_imageicontype="imageasset" ccid_linksendreceive="True" iconurlfilltype="initial" customclass="ccid-custom" affectedbypreviewstate="True" shape="custom" customvstheme="custom" id="ibjufjxa3ww1w" labelinnerhtml="Privacy Mute" pageflip="0" iconposition="top" previewstate="normal" orientation="horizontal" labelmode="simple" componentname="Btn.PrivacyMuteTgl" ccid_themecssset="true" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" size="custom" oldid="ihp6k" assetid="eeaf5c03-8a2b-4afd-9f15-a9b4e99745dd" selected="false" sendeventontouch="Contract Enabled" pd-receivestateselected="Contract Enabled"></ch5-button><ch5-button type="default" halignlabel="center" valignlabel="middle" checkboxshow="false" checkboxposition="left" pageflipattributename="pageflip" clearlabel="false" ccid_imageicontype="iconclass" ccid_linksendreceive="False" iconurlfilltype="initial" customclass="ccid-custom" affectedbypreviewstate="True" shape="custom" customvstheme="custom" id="iqgcoitkdtfrf" labelinnerhtml="Shut Down" pageflip="0" iconposition="top" previewstate="normal" orientation="horizontal" labelmode="simple" componentname="Btn.SystemOff" ccid_themecssset="true" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" size="custom" oldid="iukp5q4aos7v2" iconclass="fas fa-power-off" componentwasresized="true" selected="false" pd-receivestateenable="Contract Enabled" sendeventontouch="Contract Enabled" assetid="0"></ch5-button><ch5-template templateid="w33bb5ddc-a47d-4766-8e02-9bb12459e22b" id="ikuy2" componentname="Proj_01_Source_Widget" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" pd-receivestateshow="Contract Enabled"></ch5-template><ch5-template templateid="we22f10ee-0c12-4eea-8360-0642def957cd" id="icbbf" componentname="Proj_02_Source_Widget" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" pd-receivestateshow="Contract Enabled"></ch5-template><ch5-template templateid="wa858e49b-e0b0-4792-8358-9519471cd8fe" id="i762v" componentname="Proj_02_Power-Screen_Widget" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" pd-receivestateshow="Contract Enabled"></ch5-template><ch5-template templateid="w6a0ab41e-0181-44ef-b787-81c69c66b6f7" id="i2el6" componentname="Proj_01_Power-Screen_Widget" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" pd-receivestateshow="Contract Enabled"></ch5-template><ch5-template templateid="w952f7e37-84f9-491e-90de-c3f9911b9bc5" id="it2e1" componentname="Volume_Control_03_Panel_Widget" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" pd-receivestateshow="Contract Enabled"></ch5-template><ch5-template templateid="w32f64bba-ce9c-4154-b1d6-edbc92992934" id="iqtzo" componentname="Volume_Control_0x_Panel_Widget" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" pd-receivestateshow="Contract Enabled"></ch5-template><ch5-template templateid="wf01555f5-7eff-4e96-b862-2e1589e19e44" id="i8qcg" componentname="Admin_Login_Widget" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" pd-receivestateshow="Contract Enabled"></ch5-template><ch5-template templateid="w9e4ea1c1-9df6-4990-a19e-7d34a666e772" id="iw30d" componentname="Admin_Volume_Widget" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" pd-receivestateshow="Contract Enabled"></ch5-template>
+
+
+
+
+
+
+
+{Css}
+@media (max-width: 99999px) { #wrapper { background-color: rgb(255, 255, 255) } #ia83 { width: 100%; height: 100%; z-index: -98; overflow: hidden; position: absolute; display: block; left: 0; top: 0 } body { background-color: rgb(255, 255, 255) } #ige9c9hhyfx4d .ch5-button--default { border: 1px solid rgb(0, 145, 234); color: rgb(255, 255, 255); background-color: rgb(0, 153, 255) } #ige9c9hhyfx4d .ch5-button--default .ch5-button--label { font-family: Roboto; color: rgb(255, 255, 255); font-size: 14px; font-weight: 400 } #ige9c9hhyfx4d .ch5-button--default .ch5-button--icon { color: rgb(255, 255, 255); font-size: 14px } #ige9c9hhyfx4d .ch5-button--default .cb-checkbox-icon { color: rgb(255, 255, 255) } #ige9c9hhyfx4d .ccid-custom.ch5-button--default .ch5-button--img { width: 21px; height: 21px } #ige9c9hhyfx4d .ch5-button--default.ch5-button--pressed { color: rgb(240, 255, 240); background-color: rgb(0, 138, 230); border-color: rgb(0, 145, 234) } #ige9c9hhyfx4d .ch5-button--default.ch5-button--pressed .ch5-button--label { color: rgb(240, 255, 240); font-size: 14px; font-weight: 400 } #ige9c9hhyfx4d .ch5-button--default.ch5-button--pressed .ch5-button--icon { color: rgb(240, 255, 240); font-size: 14px } #ige9c9hhyfx4d .ch5-button--default.ch5-button--pressed .cb-checkbox-icon { color: rgb(240, 255, 240) } #ige9c9hhyfx4d .ccid-custom.ch5-button--default.ch5-button--pressed .ch5-button--img { width: 21px; height: 21px } #ige9c9hhyfx4d .ch5-button--default.ch5-button--selected { color: rgb(240, 255, 240); background-color: rgb(0, 115, 191); border-color: rgb(0, 145, 234) } #ige9c9hhyfx4d .ch5-button--default.ch5-button--selected .ch5-button--label { color: rgb(240, 255, 240); font-size: 14px; font-weight: 400 } #ige9c9hhyfx4d .ch5-button--default.ch5-button--selected .ch5-button--icon { color: rgb(240, 255, 240); font-size: 14px } #ige9c9hhyfx4d .ch5-button--default.ch5-button--selected .cb-checkbox-icon { color: rgb(240, 255, 240) } #ige9c9hhyfx4d .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img { width: 21px; height: 21px } #ige9c9hhyfx4d .ch5-button--size-regular .cb-btn { width: 185px; height: 105px } #i6358zdk63895 .ch5-button--default { border: 1px solid rgb(0, 145, 234); color: rgb(255, 255, 255); background-color: rgb(0, 153, 255) } #i6358zdk63895 .ch5-button--default .ch5-button--label { font-family: Roboto; color: rgb(255, 255, 255); font-size: 14px; font-weight: 400 } #i6358zdk63895 .ch5-button--default .ch5-button--icon { color: rgb(255, 255, 255); font-size: 14px } #i6358zdk63895 .ch5-button--default .cb-checkbox-icon { color: rgb(255, 255, 255) } #i6358zdk63895 .ccid-custom.ch5-button--default .ch5-button--img { width: 21px; height: 21px } #i6358zdk63895 .ch5-button--default.ch5-button--pressed { color: rgb(240, 255, 240); background-color: rgb(0, 138, 230); border-color: rgb(0, 145, 234) } #i6358zdk63895 .ch5-button--default.ch5-button--pressed .ch5-button--label { color: rgb(240, 255, 240); font-size: 14px; font-weight: 400 } #i6358zdk63895 .ch5-button--default.ch5-button--pressed .ch5-button--icon { color: rgb(240, 255, 240); font-size: 14px } #i6358zdk63895 .ch5-button--default.ch5-button--pressed .cb-checkbox-icon { color: rgb(240, 255, 240) } #i6358zdk63895 .ccid-custom.ch5-button--default.ch5-button--pressed .ch5-button--img { width: 21px; height: 21px } #i6358zdk63895 .ch5-button--default.ch5-button--selected { color: rgb(240, 255, 240); background-color: rgb(0, 115, 191); border-color: rgb(0, 145, 234) } #i6358zdk63895 .ch5-button--default.ch5-button--selected .ch5-button--label { color: rgb(240, 255, 240); font-size: 14px; font-weight: 400 } #i6358zdk63895 .ch5-button--default.ch5-button--selected .ch5-button--icon { color: rgb(240, 255, 240); font-size: 14px } #i6358zdk63895 .ch5-button--default.ch5-button--selected .cb-checkbox-icon { color: rgb(240, 255, 240) } #i6358zdk63895 .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img { width: 21px; height: 21px } #i6358zdk63895 .ch5-button--size-regular .cb-btn { width: 185px; height: 134px } #i438i002bep5s .ch5-button--default { border: 1px solid rgb(0, 145, 234); color: rgb(255, 255, 255); background-color: rgb(0, 153, 255) } #i438i002bep5s .ch5-button--default .ch5-button--label { font-family: Roboto; color: rgb(255, 255, 255); font-size: 14px; font-weight: 400 } #i438i002bep5s .ch5-button--default .ch5-button--icon { color: rgb(255, 255, 255); font-size: 14px } #i438i002bep5s .ch5-button--default .cb-checkbox-icon { color: rgb(255, 255, 255) } #i438i002bep5s .ccid-custom.ch5-button--default .ch5-button--img { width: 21px; height: 21px } #i438i002bep5s .ch5-button--default.ch5-button--pressed { color: rgb(240, 255, 240); background-color: rgb(0, 138, 230); border-color: rgb(0, 145, 234) } #i438i002bep5s .ch5-button--default.ch5-button--pressed .ch5-button--label { color: rgb(240, 255, 240); font-size: 14px; font-weight: 400 } #i438i002bep5s .ch5-button--default.ch5-button--pressed .ch5-button--icon { color: rgb(240, 255, 240); font-size: 14px } #i438i002bep5s .ch5-button--default.ch5-button--pressed .cb-checkbox-icon { color: rgb(240, 255, 240) } #i438i002bep5s .ccid-custom.ch5-button--default.ch5-button--pressed .ch5-button--img { width: 21px; height: 21px } #i438i002bep5s .ch5-button--default.ch5-button--selected { color: rgb(240, 255, 240); background-color: rgb(0, 115, 191); border-color: rgb(0, 145, 234) } #i438i002bep5s .ch5-button--default.ch5-button--selected .ch5-button--label { color: rgb(240, 255, 240); font-size: 14px; font-weight: 400 } #i438i002bep5s .ch5-button--default.ch5-button--selected .ch5-button--icon { color: rgb(240, 255, 240); font-size: 14px } #i438i002bep5s .ch5-button--default.ch5-button--selected .cb-checkbox-icon { color: rgb(240, 255, 240) } #i438i002bep5s .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img { width: 21px; height: 21px } #i438i002bep5s .ch5-button--size-regular .cb-btn { width: 185px; height: 105px } #iv6q55rbw09gh { display: block; background-color: rgb(0, 113, 219); border: 0 solid rgb(27, 75, 124); width: 2560px; height: 247px; left: 0; top: 0; position: absolute } #i12vh .ch5-image { border-color: rgb(0, 0, 0); object-fit: scale-down } #i12vh { width: 559px; height: 235px; display: block; left: 8px; top: 8px; position: absolute; background: rgba(0, 0, 0, 0) } #icbbf { display: none; left: 0; top: 247px; position: absolute } #iupz { display: block; background-color: rgb(0, 113, 219); border: 0 solid rgb(27, 75, 124); width: 337px; height: 1440px; left: 2223px; top: 0; position: absolute } #i762v { display: none; left: 0; top: 0; position: absolute } #i2el6 { display: none; left: 0; top: 0; position: absolute } #ikuy2 { display: none; left: 0; top: 247px; position: absolute } #it2e1 { display: none; left: 0; top: 0; position: absolute } #iqtzo { display: none; left: 0; top: 0; position: absolute } #iguill6497pnf { width: 337px; height: 247px; font-family: Roboto; display: block; left: 2223px; top: 0; position: absolute; font-weight: 700; white-space: normal; border-radius: 1px } #iguill6497pnf .ch5-datetime { width: 337px; height: 247px; font-size: 40px; background-color: rgb(0, 131, 139); color: rgb(255, 255, 255); border: 5px dashed rgb(1, 85, 89); border-radius: 1px; white-space: normal } #iukp5q4aos7v2 .ch5-button--default { border: 0 solid rgb(0, 145, 234); color: rgb(255, 255, 255); background-color: rgb(0, 153, 255) } #iukp5q4aos7v2 .ch5-button--default .ch5-button--label { font-family: Roboto; color: rgb(255, 255, 255); font-weight: 400; margin-left: 0; margin-right: 0; margin-bottom: 0; font-size: xx-large } #iukp5q4aos7v2 .ch5-button--default .ch5-button--icon { color: rgb(255, 255, 255); font-size: 30px; margin-left: 0; margin-right: 0; margin-bottom: 0 } #iukp5q4aos7v2 .ch5-button--default .cb-checkbox-icon { color: rgb(255, 255, 255) } #iukp5q4aos7v2 .ccid-custom.ch5-button--default .ch5-button--img { width: 21px; height: 21px } #iukp5q4aos7v2 .ch5-button--default.ch5-button--pressed { color: rgb(240, 255, 240); background-color: rgb(0, 138, 230); border-color: rgb(0, 145, 234) } #iukp5q4aos7v2 .ch5-button--default.ch5-button--pressed .ch5-button--label { color: rgb(240, 255, 240); font-size: x-large; font-weight: 400; margin-left: 0; margin-right: 0; margin-bottom: 0 } #iukp5q4aos7v2 .ch5-button--default.ch5-button--pressed .ch5-button--icon { color: rgb(240, 255, 240); font-size: 25px; margin-left: 0; margin-right: 0; margin-bottom: 0 } #iukp5q4aos7v2 .ch5-button--default.ch5-button--pressed .cb-checkbox-icon { color: rgb(240, 255, 240) } #iukp5q4aos7v2 .ccid-custom.ch5-button--default.ch5-button--pressed .ch5-button--img { width: 21px; height: 21px } #iukp5q4aos7v2 .ch5-button--default.ch5-button--selected { color: rgb(240, 255, 240); background-color: rgb(0, 54, 89); border-color: rgb(0, 145, 234) } #iukp5q4aos7v2 .ch5-button--default.ch5-button--selected .ch5-button--label { color: rgb(240, 255, 240); font-weight: 400; margin-left: 0; margin-right: 0; margin-bottom: 0 } #iukp5q4aos7v2 .ch5-button--default.ch5-button--selected .ch5-button--icon { color: rgb(240, 255, 240); font-size: 30px; margin-left: 0; margin-right: 0; margin-bottom: 0 } #iukp5q4aos7v2 .ch5-button--default.ch5-button--selected .cb-checkbox-icon { color: rgb(240, 255, 240) } #iukp5q4aos7v2 .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img { width: 21px; height: 21px } #iukp5q4aos7v2 .ch5-button--size-regular .cb-btn { width: 237px; height: 133px } #iukp5q4aos7v2 .ch5-button--rounded-rectangle { border-radius: 20px } #iukp5q4aos7v2 { display: block; left: 2273px; top: 292px; height: 133px; width: 237px; position: absolute } #io6ry .ch5-text { width: 1258px; height: 66px; font-size: 70px; background-color: rgba(0, 0, 0, 0); color: rgb(255, 255, 255) } #i6v7jy14vhqdh .ch5-button--default { border: 0 solid rgb(0, 145, 234); color: rgb(255, 255, 255); background-color: rgb(0, 0, 0) } #i6v7jy14vhqdh .ch5-button--default .ch5-button--label { font-family: Roboto; color: rgb(255, 255, 255); font-weight: 400; margin-left: 0; margin-right: 0; margin-bottom: 0; font-size: xx-large } #i6v7jy14vhqdh .ch5-button--default .ch5-button--icon { color: rgb(255, 255, 255); font-size: 30px; margin-left: 0; margin-right: 0; margin-bottom: 0 } #i6v7jy14vhqdh .ch5-button--default .cb-checkbox-icon { color: rgb(255, 255, 255) } #i6v7jy14vhqdh .ccid-custom.ch5-button--default .ch5-button--img { width: 21px; height: 21px } #i6v7jy14vhqdh .ch5-button--default.ch5-button--pressed { color: rgb(240, 255, 240); background-color: rgb(88, 0, 19); border-color: rgb(0, 145, 234) } #i6v7jy14vhqdh .ch5-button--default.ch5-button--pressed .ch5-button--label { color: rgb(240, 255, 240); font-size: x-large; font-weight: 400; margin-left: 0; margin-right: 0; margin-bottom: 0 } #i6v7jy14vhqdh .ch5-button--default.ch5-button--pressed .ch5-button--icon { color: rgb(240, 255, 240); font-size: 25px; margin-left: 0; margin-right: 0; margin-bottom: 0 } #i6v7jy14vhqdh .ch5-button--default.ch5-button--pressed .cb-checkbox-icon { color: rgb(240, 255, 240) } #i6v7jy14vhqdh .ccid-custom.ch5-button--default.ch5-button--pressed .ch5-button--img { width: 21px; height: 21px } #i6v7jy14vhqdh .ch5-button--default.ch5-button--selected { color: rgb(240, 255, 240); background-color: rgb(132, 0, 29); border-color: rgb(0, 145, 234) } #i6v7jy14vhqdh .ch5-button--default.ch5-button--selected .ch5-button--label { color: rgb(255, 255, 255); font-size: 30px; font-weight: 400; margin-left: 0; margin-right: 0; margin-bottom: 0 } #i6v7jy14vhqdh .ch5-button--default.ch5-button--selected .ch5-button--icon { color: rgb(240, 255, 240); font-size: 30px; margin-left: 0; margin-right: 0; margin-bottom: 0 } #i6v7jy14vhqdh .ch5-button--default.ch5-button--selected .cb-checkbox-icon { color: rgb(240, 255, 240) } #i6v7jy14vhqdh .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img { width: 21px; height: 21px } #i6v7jy14vhqdh .ch5-button--size-regular .cb-btn { width: 237px; height: 133px } #i6v7jy14vhqdh .ch5-button--rounded-rectangle.ch5-button--pressed { border-radius: 20px } #i6v7jy14vhqdh .ch5-button--rounded-rectangle { border-radius: 20px } #il597ajg10gac .ch5-button--default { border: 0 solid rgb(0, 145, 234); color: rgb(255, 255, 255); background-color: rgb(0, 0, 0) } #il597ajg10gac .ch5-button--default .ch5-button--label { font-family: Roboto; color: rgb(255, 255, 255); font-weight: 400; margin-left: 20px; margin-right: 0; margin-bottom: 0; font-size: xx-large } #il597ajg10gac .ch5-button--default .ch5-button--icon { color: rgb(255, 255, 255); font-size: 50px; margin-left: 0; margin-right: 0; margin-bottom: 0 } #il597ajg10gac .ch5-button--default .cb-checkbox-icon { color: rgb(255, 255, 255) } #il597ajg10gac .ccid-custom.ch5-button--default .ch5-button--img { width: 35px; height: 35px } #il597ajg10gac .ch5-button--default.ch5-button--pressed { color: rgb(240, 255, 240); background-color: rgb(255, 84, 84); border-color: rgb(0, 145, 234) } #il597ajg10gac .ch5-button--default.ch5-button--pressed .ch5-button--label { color: rgb(240, 255, 240); font-size: 25px; font-weight: 400; margin-left: 0; margin-right: 0; margin-bottom: 0 } #il597ajg10gac .ch5-button--default.ch5-button--pressed .ch5-button--icon { color: rgb(240, 255, 240); font-size: 25px; margin-left: 0; margin-right: 0; margin-bottom: 0 } #il597ajg10gac .ch5-button--default.ch5-button--pressed .cb-checkbox-icon { color: rgb(240, 255, 240) } #il597ajg10gac .ccid-custom.ch5-button--default.ch5-button--pressed .ch5-button--img { width: 21px; height: 21px } #il597ajg10gac .ch5-button--default.ch5-button--selected { color: rgb(240, 255, 240); background-color: rgb(255, 0, 0); border: 3px solid rgb(145, 0, 0) } #il597ajg10gac .ch5-button--default.ch5-button--selected .ch5-button--label { color: rgb(240, 255, 240); font-size: 30px; font-weight: 400; margin-left: 0; margin-right: 0; margin-bottom: 0 } #il597ajg10gac .ch5-button--default.ch5-button--selected .ch5-button--icon { color: rgb(240, 255, 240); font-size: 30px; margin-left: 0; margin-right: 0; margin-bottom: 0 } #il597ajg10gac .ch5-button--default.ch5-button--selected .cb-checkbox-icon { color: rgb(240, 255, 240) } #il597ajg10gac .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img { width: 35px; height: 35px } #il597ajg10gac .ch5-button--size-regular .cb-btn { width: 237px; height: 133px } #il597ajg10gac .ch5-button--rounded-rectangle { border-radius: 20px } #itgef5iy9dhg5 .ch5-button--default { border: 0 solid rgb(0, 145, 234); color: rgb(255, 255, 255); background-color: rgb(0, 153, 255) } #itgef5iy9dhg5 .ch5-button--default .ch5-button--label { font-family: Roboto; color: rgb(255, 255, 255); font-weight: 400; margin-left: 0; margin-right: 0; margin-bottom: 0; font-size: xx-large } #itgef5iy9dhg5 .ch5-button--default .ch5-button--icon { color: rgb(255, 255, 255); font-size: 30px; margin-left: 0; margin-right: 0; margin-bottom: 0 } #itgef5iy9dhg5 .ch5-button--default .cb-checkbox-icon { color: rgb(255, 255, 255) } #itgef5iy9dhg5 .ccid-custom.ch5-button--default .ch5-button--img { width: 35px; height: 35px } #itgef5iy9dhg5 .ch5-button--default.ch5-button--pressed { color: rgb(240, 255, 240); background-color: rgb(0, 138, 230); border-color: rgb(0, 145, 234) } #itgef5iy9dhg5 .ch5-button--default.ch5-button--pressed .ch5-button--label { color: rgb(240, 255, 240); font-size: 25px; font-weight: 400; margin-left: 0; margin-right: 0; margin-bottom: 0 } #itgef5iy9dhg5 .ch5-button--default.ch5-button--pressed .ch5-button--icon { color: rgb(240, 255, 240); font-size: 25px; margin-left: 0; margin-right: 0; margin-bottom: 0 } #itgef5iy9dhg5 .ch5-button--default.ch5-button--pressed .cb-checkbox-icon { color: rgb(240, 255, 240) } #itgef5iy9dhg5 .ccid-custom.ch5-button--default.ch5-button--pressed .ch5-button--img { width: 30px; height: 30px } #itgef5iy9dhg5 .ch5-button--default.ch5-button--selected { color: rgb(240, 255, 240); background-color: rgb(0, 54, 89); border-color: rgb(0, 145, 234) } #itgef5iy9dhg5 .ch5-button--default.ch5-button--selected .ch5-button--label { color: rgb(240, 255, 240); font-size: 30px; font-weight: 400; margin-left: 0; margin-right: 0; margin-bottom: 0 } #itgef5iy9dhg5 .ch5-button--default.ch5-button--selected .ch5-button--icon { color: rgb(240, 255, 240); font-size: 30px; margin-left: 0; margin-right: 0; margin-bottom: 0 } #itgef5iy9dhg5 .ch5-button--default.ch5-button--selected .cb-checkbox-icon { color: rgb(240, 255, 240) } #itgef5iy9dhg5 .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img { width: 35px; height: 35px } #itgef5iy9dhg5 .ch5-button--size-regular .cb-btn { width: 237px; height: 133px } #itgef5iy9dhg5 .ch5-button--rounded-rectangle { border-radius: 20px } #ik8ylmcvtts2l .ch5-button--default { border: 0 solid rgb(0, 145, 234); color: rgb(255, 255, 255); background-color: rgb(0, 153, 255) } #ik8ylmcvtts2l .ch5-button--default .ch5-button--label { font-family: Roboto; color: rgb(255, 255, 255); font-weight: 400; margin-left: 0; margin-right: 0; margin-bottom: 0; font-size: xx-large } #ik8ylmcvtts2l .ch5-button--default .ch5-button--icon { color: rgb(255, 255, 255); font-size: 30px; margin-left: 0; margin-right: 0; margin-bottom: 0 } #ik8ylmcvtts2l .ch5-button--default .cb-checkbox-icon { color: rgb(255, 255, 255) } #ik8ylmcvtts2l .ccid-custom.ch5-button--default .ch5-button--img { width: 40px; height: 40px } #ik8ylmcvtts2l .ch5-button--default.ch5-button--pressed { color: rgb(240, 255, 240); background-color: rgb(0, 138, 230); border-color: rgb(0, 145, 234) } #ik8ylmcvtts2l .ch5-button--default.ch5-button--pressed .ch5-button--label { color: rgb(240, 255, 240); font-size: 25px; font-weight: 400; margin-left: 0; margin-right: 0; margin-bottom: 0 } #ik8ylmcvtts2l .ch5-button--default.ch5-button--pressed .ch5-button--icon { color: rgb(240, 255, 240); font-size: 25px; margin-left: 0; margin-right: 0; margin-bottom: 0 } #ik8ylmcvtts2l .ch5-button--default.ch5-button--pressed .cb-checkbox-icon { color: rgb(240, 255, 240) } #ik8ylmcvtts2l .ccid-custom.ch5-button--default.ch5-button--pressed .ch5-button--img { width: 21px; height: 21px } #ik8ylmcvtts2l .ch5-button--default.ch5-button--selected { color: rgb(240, 255, 240); background-color: rgb(0, 54, 89); border-color: rgb(0, 145, 234) } #ik8ylmcvtts2l .ch5-button--default.ch5-button--selected .ch5-button--label { color: rgb(240, 255, 240); font-size: 30px; font-weight: 400; margin-left: 0; margin-right: 0; margin-bottom: 0 } #ik8ylmcvtts2l .ch5-button--default.ch5-button--selected .ch5-button--icon { color: rgb(240, 255, 240); font-size: 30px; margin-left: 0; margin-right: 0; margin-bottom: 0 } #ik8ylmcvtts2l .ch5-button--default.ch5-button--selected .cb-checkbox-icon { color: rgb(240, 255, 240) } #ik8ylmcvtts2l .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img { width: 40px; height: 40px } #ik8ylmcvtts2l .ch5-button--size-regular .cb-btn { width: 237px; height: 133px } #ik8ylmcvtts2l .ch5-button--circle.ch5-button--size-regular .cb-btn { width: 237px; height: 237px } #ik8ylmcvtts2l .ch5-button--rounded-rectangle { border-radius: 20px } #io6ry { width: 1258px; height: 66px; font-family: Roboto; display: block; left: 575px; top: 43px; position: absolute } #issod .ch5-text { width: 1258px; height: 84px; font-size: 60px; color: rgb(255, 255, 255) } #issod { width: 1258px; height: 84px; font-family: Roboto; display: block; left: 575px; top: 129px; position: absolute } #iqgcoitkdtfrf { left: 2273px; top: 1268px; position: absolute; width: 237px; height: 133px; font-family: Roboto; display: block } #iqgcoitkdtfrf .ch5-button--default { border: 0 solid rgb(0, 145, 234); color: rgb(255, 255, 255); background-color: rgb(0, 0, 0) } #iqgcoitkdtfrf .ch5-button--default .ch5-button--label { font-family: Roboto; color: rgb(255, 255, 255); font-weight: 400; margin-left: 0; margin-right: 0; margin-bottom: 0; font-size: xx-large } #iqgcoitkdtfrf .ch5-button--default .ch5-button--icon { color: rgb(255, 255, 255); font-size: 30px; margin-left: 0; margin-right: 0; margin-bottom: 0 } #iqgcoitkdtfrf .ch5-button--default .cb-checkbox-icon { color: rgb(255, 255, 255) } #iqgcoitkdtfrf .ccid-custom.ch5-button--default .ch5-button--img { width: 21px; height: 21px } #iqgcoitkdtfrf .ch5-button--default.ch5-button--pressed { color: rgb(240, 255, 240); background-color: rgb(88, 0, 19); border-color: rgb(0, 145, 234) } #iqgcoitkdtfrf .ch5-button--default.ch5-button--pressed .ch5-button--label { color: rgb(240, 255, 240); font-weight: 400; margin-left: 0; margin-right: 0; margin-bottom: 0; font-size: x-large } #iqgcoitkdtfrf .ch5-button--default.ch5-button--pressed .ch5-button--icon { color: rgb(240, 255, 240); font-size: 25px; margin-left: 0; margin-right: 0; margin-bottom: 0 } #iqgcoitkdtfrf .ch5-button--default.ch5-button--pressed .cb-checkbox-icon { color: rgb(240, 255, 240) } #iqgcoitkdtfrf .ccid-custom.ch5-button--default.ch5-button--pressed .ch5-button--img { width: 21px; height: 21px } #iqgcoitkdtfrf .ch5-button--default.ch5-button--selected { color: rgb(240, 255, 240); background-color: rgb(132, 0, 29); border-color: rgb(0, 145, 234) } #iqgcoitkdtfrf .ch5-button--default.ch5-button--selected .ch5-button--label { color: rgb(255, 255, 255); font-weight: 400; margin-left: 0; margin-right: 0; margin-bottom: 0 } #iqgcoitkdtfrf .ch5-button--default.ch5-button--selected .ch5-button--icon { color: rgb(240, 255, 240); font-size: 30px; margin-left: 0; margin-right: 0; margin-bottom: 0 } #iqgcoitkdtfrf .ch5-button--default.ch5-button--selected .cb-checkbox-icon { color: rgb(240, 255, 240) } #iqgcoitkdtfrf .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img { width: 21px; height: 21px } #iqgcoitkdtfrf .ch5-button--size-regular .cb-btn { width: 237px; height: 133px } #iqgcoitkdtfrf .ch5-button--rounded-rectangle.ch5-button--pressed { border-radius: 20px } #iqgcoitkdtfrf .ch5-button--rounded-rectangle { border-radius: 20px } #ibjufjxa3ww1w { left: 2273px; top: 1114px; width: 237px; height: 133px; font-family: Roboto; display: block; position: absolute } #ibjufjxa3ww1w .ch5-button--default { border: 0 solid rgb(0, 145, 234); color: rgb(255, 255, 255); background-color: rgb(0, 0, 0) } #ibjufjxa3ww1w .ch5-button--default .ch5-button--label { font-family: Roboto; color: rgb(255, 255, 255); font-weight: 400; margin-left: 20px; margin-right: 0; margin-bottom: 0; font-size: xx-large } #ibjufjxa3ww1w .ch5-button--default .ch5-button--icon { color: rgb(255, 255, 255); font-size: 50px; margin-left: 0; margin-right: 0; margin-bottom: 0 } #ibjufjxa3ww1w .ch5-button--default .cb-checkbox-icon { color: rgb(255, 255, 255) } #ibjufjxa3ww1w .ccid-custom.ch5-button--default .ch5-button--img { width: 35px; height: 35px } #ibjufjxa3ww1w .ch5-button--default.ch5-button--pressed { color: rgb(240, 255, 240); background-color: rgb(255, 84, 84); border-color: rgb(0, 145, 234) } #ibjufjxa3ww1w .ch5-button--default.ch5-button--pressed .ch5-button--label { color: rgb(240, 255, 240); font-size: x-large; font-weight: 400; margin-left: 0; margin-right: 0; margin-bottom: 0 } #ibjufjxa3ww1w .ch5-button--default.ch5-button--pressed .ch5-button--icon { color: rgb(240, 255, 240); font-size: 25px; margin-left: 0; margin-right: 0; margin-bottom: 0 } #ibjufjxa3ww1w .ch5-button--default.ch5-button--pressed .cb-checkbox-icon { color: rgb(240, 255, 240) } #ibjufjxa3ww1w .ccid-custom.ch5-button--default.ch5-button--pressed .ch5-button--img { width: 21px; height: 21px } #ibjufjxa3ww1w .ch5-button--default.ch5-button--selected { color: rgb(240, 255, 240); background-color: rgb(255, 0, 0); border: 3px solid rgb(145, 0, 0) } #ibjufjxa3ww1w .ch5-button--default.ch5-button--selected .ch5-button--label { color: rgb(240, 255, 240); font-weight: 400; margin-left: 0; margin-right: 0; margin-bottom: 0 } #ibjufjxa3ww1w .ch5-button--default.ch5-button--selected .ch5-button--icon { color: rgb(240, 255, 240); font-size: 30px; margin-left: 0; margin-right: 0; margin-bottom: 0 } #ibjufjxa3ww1w .ch5-button--default.ch5-button--selected .cb-checkbox-icon { color: rgb(240, 255, 240) } #ibjufjxa3ww1w .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img { width: 35px; height: 35px } #ibjufjxa3ww1w .ch5-button--size-regular .cb-btn { width: 237px; height: 133px } #ibjufjxa3ww1w .ch5-button--rounded-rectangle { border-radius: 20px } #i08dh1ltw0507 .ch5-button--default { border: 0 solid rgb(0, 145, 234); color: rgb(255, 255, 255); background-color: rgb(0, 153, 255) } #i08dh1ltw0507 .ch5-button--default .ch5-button--label { font-family: Roboto; color: rgb(255, 255, 255); font-weight: 400; margin-left: 0; margin-right: 0; margin-bottom: 0; font-size: xx-large } #i08dh1ltw0507 .ch5-button--default .ch5-button--icon { color: rgb(255, 255, 255); font-size: 30px; margin-left: 0; margin-right: 0; margin-bottom: 0 } #i08dh1ltw0507 .ch5-button--default .cb-checkbox-icon { color: rgb(255, 255, 255) } #i08dh1ltw0507 .ccid-custom.ch5-button--default .ch5-button--img { width: 35px; height: 35px } #i08dh1ltw0507 .ch5-button--default.ch5-button--pressed { color: rgb(240, 255, 240); background-color: rgb(0, 138, 230); border-color: rgb(0, 145, 234) } #i08dh1ltw0507 .ch5-button--default.ch5-button--pressed .ch5-button--label { color: rgb(240, 255, 240); font-size: x-large; font-weight: 400; margin-left: 0; margin-right: 0; margin-bottom: 0 } #i08dh1ltw0507 .ch5-button--default.ch5-button--pressed .ch5-button--icon { color: rgb(240, 255, 240); font-size: 25px; margin-left: 0; margin-right: 0; margin-bottom: 0 } #i08dh1ltw0507 .ch5-button--default.ch5-button--pressed .cb-checkbox-icon { color: rgb(240, 255, 240) } #i08dh1ltw0507 .ccid-custom.ch5-button--default.ch5-button--pressed .ch5-button--img { width: 30px; height: 30px } #i08dh1ltw0507 .ch5-button--default.ch5-button--selected { color: rgb(240, 255, 240); background-color: rgb(0, 54, 89); border-color: rgb(0, 145, 234) } #i08dh1ltw0507 .ch5-button--default.ch5-button--selected .ch5-button--label { color: rgb(240, 255, 240); font-weight: 400; margin-left: 0; margin-right: 0; margin-bottom: 0 } #i08dh1ltw0507 .ch5-button--default.ch5-button--selected .ch5-button--icon { color: rgb(240, 255, 240); font-size: 30px; margin-left: 0; margin-right: 0; margin-bottom: 0 } #i08dh1ltw0507 .ch5-button--default.ch5-button--selected .cb-checkbox-icon { color: rgb(240, 255, 240) } #i08dh1ltw0507 .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img { width: 35px; height: 35px } #i08dh1ltw0507 .ch5-button--size-regular .cb-btn { width: 237px; height: 133px } #i08dh1ltw0507 .ch5-button--rounded-rectangle { border-radius: 20px } #i08dh1ltw0507 { left: 2273px; top: 612px; position: absolute; width: 237px; height: 133px; font-family: Roboto; display: block } #ihp6k { width: 237px; height: 133px; left: 2273px; font-family: Roboto; display: block; top: 453px; position: absolute } #ihp6k .ch5-button--default { border: 0 solid rgb(0, 145, 234); color: rgb(255, 255, 255); background-color: rgb(0, 153, 255) } #ihp6k .ch5-button--default .ch5-button--label { font-family: Roboto; color: rgb(255, 255, 255); font-weight: 400; margin-left: 0; margin-right: 0; margin-bottom: 0; font-size: xx-large } #ihp6k .ch5-button--default .ch5-button--icon { color: rgb(255, 255, 255); font-size: 30px; margin-left: 0; margin-right: 0; margin-bottom: 0 } #ihp6k .ch5-button--default .cb-checkbox-icon { color: rgb(255, 255, 255) } #ihp6k .ccid-custom.ch5-button--default .ch5-button--img { width: 40px; height: 40px } #ihp6k .ch5-button--default.ch5-button--pressed { color: rgb(240, 255, 240); background-color: rgb(0, 138, 230); border-color: rgb(0, 145, 234) } #ihp6k .ch5-button--default.ch5-button--pressed .ch5-button--label { color: rgb(240, 255, 240); font-size: x-large; font-weight: 400; margin-left: 0; margin-right: 0; margin-bottom: 0 } #ihp6k .ch5-button--default.ch5-button--pressed .ch5-button--icon { color: rgb(240, 255, 240); font-size: 25px; margin-left: 0; margin-right: 0; margin-bottom: 0 } #ihp6k .ch5-button--default.ch5-button--pressed .cb-checkbox-icon { color: rgb(240, 255, 240) } #ihp6k .ccid-custom.ch5-button--default.ch5-button--pressed .ch5-button--img { width: 21px; height: 21px } #ihp6k .ch5-button--default.ch5-button--selected { color: rgb(240, 255, 240); background-color: rgb(0, 54, 89); border-color: rgb(0, 145, 234) } #ihp6k .ch5-button--default.ch5-button--selected .ch5-button--label { color: rgb(240, 255, 240); font-weight: 400; margin-left: 0; margin-right: 0; margin-bottom: 0 } #ihp6k .ch5-button--default.ch5-button--selected .ch5-button--icon { color: rgb(240, 255, 240); font-size: 30px; margin-left: 0; margin-right: 0; margin-bottom: 0 } #ihp6k .ch5-button--default.ch5-button--selected .cb-checkbox-icon { color: rgb(240, 255, 240) } #ihp6k .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img { width: 40px; height: 40px } #ihp6k .ch5-button--size-regular .cb-btn { width: 237px; height: 133px } #ihp6k .ch5-button--circle.ch5-button--size-regular .cb-btn { width: 237px; height: 237px } #ihp6k .ch5-button--rounded-rectangle { border-radius: 20px } #i8qcg { display: none; left: 0; top: 247px; position: absolute } #iw30d { display: none; left: 0; top: 247px; position: absolute } }
+@media (orientation: landscape) and (max-width: 2561px) and (max-height: 1441px), (orientation: landscape) and (max-width: 2559px) { body { background-color: rgb(255, 255, 255) } body { background-color: rgb(255, 255, 255) } }
+@media (orientation: landscape) and (max-width: 1281px) and (max-height: 801px), (orientation: landscape) and (max-width: 1279px) { #i6v7jy14vhqdh .ch5-button--rounded-rectangle { border-radius: 10px } #i6v7jy14vhqdh .ch5-button--default .ch5-button--icon { font-size: 20px } #i6v7jy14vhqdh .ch5-button--default .ch5-button--label { font-size: 20px } #i6v7jy14vhqdh .ch5-button--size-regular .cb-btn { width: 135px; height: 80px } #il597ajg10gac .ch5-button--rounded-rectangle { border-radius: 10px } #il597ajg10gac .ch5-button--default .ch5-button--label { font-size: 20px; margin-left: 0; margin-right: 0 } #il597ajg10gac .ccid-custom.ch5-button--default .ch5-button--img { width: 25px; height: 25px } #il597ajg10gac .ch5-button--size-regular .cb-btn { width: 135px; height: 80px } #itgef5iy9dhg5 .ch5-button--rounded-rectangle { border-radius: 10px } #itgef5iy9dhg5 .ch5-button--default .ch5-button--label { font-size: 20px } #itgef5iy9dhg5 .ch5-button--default .ch5-button--icon { font-size: 20px } #itgef5iy9dhg5 .ch5-button--size-regular .cb-btn { width: 135px; height: 80px } #itgef5iy9dhg5 .ch5-button--default.ch5-button--pressed { background-color: rgb(97, 189, 251) } #itgef5iy9dhg5 .ch5-button--default.ch5-button--pressed .ch5-button--label { font-size: 15px } #itgef5iy9dhg5 .ch5-button--default.ch5-button--pressed .ch5-button--icon { font-size: 15px } #itgef5iy9dhg5 .ch5-button--default.ch5-button--selected .ch5-button--label { font-size: 20px } #itgef5iy9dhg5 .ch5-button--default.ch5-button--selected .ch5-button--icon { font-size: 20px } #itgef5iy9dhg5 .ch5-button--default.ch5-button--selected { background-color: rgb(0, 54, 89) } #ik8ylmcvtts2l .ch5-button--size-regular .cb-btn { height: 80px; width: 135px } #ik8ylmcvtts2l .ch5-button--rounded-rectangle { border-radius: 10px } #ik8ylmcvtts2l .ch5-button--default .ch5-button--label { font-size: 20px } #ik8ylmcvtts2l .ch5-button--default .ch5-button--icon { font-size: 20px } #ik8ylmcvtts2l .ch5-button--default.ch5-button--pressed .ch5-button--label { font-size: 15px } #ik8ylmcvtts2l .ch5-button--default.ch5-button--pressed .ch5-button--icon { font-size: 15px } #ik8ylmcvtts2l .ch5-button--default.ch5-button--pressed { background-color: rgb(97, 189, 251) } #ik8ylmcvtts2l .ch5-button--default.ch5-button--selected .ch5-button--label { font-size: 20px } #ik8ylmcvtts2l .ch5-button--default.ch5-button--selected .ch5-button--icon { font-size: 20px } #iv6q55rbw09gh { position: absolute; left: 0; top: 0; width: 1280px; height: 150px } #iupz { position: absolute; left: 1080px; top: 0; width: 200px; height: 800px } #iguill6497pnf { position: absolute; left: 1080px; top: 0; width: 200px; height: 150px; display: block } #i12vh { width: 308px; height: 134px; display: block } #io6ry .ch5-text { font-size: 40px; color: rgb(255, 255, 255); width: 607px } #io6ry { position: absolute; left: 336px; top: 27px; width: 607px; height: 55px; display: block } #iguill6497pnf .ch5-datetime { width: 200px; height: 150px; font-size: 30px; border-width: 3px } #iukp5q4aos7v2 { position: absolute; left: 1105px; top: 175px; width: 150px; height: 75px } #iukp5q4aos7v2 .ch5-button--size-regular .cb-btn { width: 150px; height: 75px } #iukp5q4aos7v2 .ch5-button--default .ch5-button--label { font-size: large } #iukp5q4aos7v2 .ch5-button--default .ch5-button--icon { font-size: x-large } #iukp5q4aos7v2 .ch5-button--rounded-rectangle { border-radius: 10px } #iukp5q4aos7v2 .ch5-button--default.ch5-button--pressed .ch5-button--label { font-size: medium } #iukp5q4aos7v2 .ch5-button--default.ch5-button--pressed .ch5-button--icon { font-size: large } #iukp5q4aos7v2 .ch5-button--default.ch5-button--selected .ch5-button--icon { font-size: x-large } #issod { position: absolute; left: 336px; top: 84px; width: 607px; height: 55px; display: block } #issod .ch5-text { width: 607px; font-size: 30px; height: 55px } #ikuy2 { top: 150px; display: block } #iqgcoitkdtfrf { position: absolute; left: 1105px; top: 705px; width: 150px; height: 75px; display: block } #iqgcoitkdtfrf .ch5-button--size-regular .cb-btn { width: 150px; height: 75px } #iqgcoitkdtfrf .ch5-button--rounded-rectangle { border-radius: 10px } #iqgcoitkdtfrf .ch5-button--default .ch5-button--label { font-size: large } #iqgcoitkdtfrf .ch5-button--default .ch5-button--icon { font-size: x-large } #iqgcoitkdtfrf .ch5-button--default.ch5-button--pressed .ch5-button--label { font-size: medium } #iqgcoitkdtfrf .ch5-button--default.ch5-button--pressed .ch5-button--icon { font-size: large } #iqgcoitkdtfrf .ch5-button--default.ch5-button--selected .ch5-button--icon { font-size: x-large } #ibjufjxa3ww1w { position: absolute; left: 1105px; top: 610px; width: 150px; height: 75px; display: block } #ibjufjxa3ww1w .ch5-button--size-regular .cb-btn { width: 150px; height: 75px } #ibjufjxa3ww1w .ch5-button--rounded-rectangle { border-radius: 10px } #ibjufjxa3ww1w .ch5-button--default .ch5-button--label { font-size: large } #ibjufjxa3ww1w .ch5-button--default.ch5-button--pressed .ch5-button--label { font-size: medium } #ibjufjxa3ww1w .ch5-button--default.ch5-button--pressed .ch5-button--icon { font-size: large } #i08dh1ltw0507 { position: absolute; left: 1105px; top: 365px; width: 150px; height: 75px; display: block } #i08dh1ltw0507 .ch5-button--size-regular .cb-btn { width: 150px; height: 75px } #i08dh1ltw0507 .ch5-button--rounded-rectangle { border-radius: 10px } #i08dh1ltw0507 .ch5-button--default .ch5-button--label { font-size: large } #i08dh1ltw0507 .ch5-button--default.ch5-button--pressed .ch5-button--label { font-size: medium } #i08dh1ltw0507 .ch5-button--default.ch5-button--pressed .ch5-button--icon { font-size: large } #i08dh1ltw0507 .ch5-button--default.ch5-button--selected .ch5-button--icon { font-size: x-large } #ihp6k { position: absolute; left: 1105px; top: 270px; width: 150px; height: 75px; display: block } #ihp6k .ch5-button--default.ch5-button--selected .ch5-button--label { font-family: Roboto } #ihp6k .ch5-button--size-regular .cb-btn { width: 150px; height: 75px } #ihp6k .ch5-button--rounded-rectangle { border-radius: 10px } #ihp6k .ch5-button--default .ch5-button--label { font-size: large } #ihp6k .ch5-button--default.ch5-button--pressed .ch5-button--label { font-size: medium } #ihp6k .ch5-button--default.ch5-button--pressed .ch5-button--icon { font-size: large } #ihp6k .ch5-button--default.ch5-button--selected .ch5-button--icon { font-size: x-large } #i08dh1ltw0507 .ch5-button--default .ch5-button--icon { font-size: x-large } #icbbf { top: 150px; display: block } #i762v { left: 0; top: 0; display: block } #i2el6 { left: 0; top: 0; display: block } #iqtzo { left: 0; top: 0; position: absolute; display: block } #it2e1 { display: block; left: 0; top: 0 } #ia83 { width: 1280px; height: 800px } #i8qcg { top: 150px; display: block } #iw30d { top: 150px; display: block } body { background-color: rgb(255, 255, 255) } }
+
+{PageAttributes}
+
+[Attributes]
+Name = "Main_Page"
+PageMode = "absolute"
+Id = "f7732012-ce5c-4925-b365-49ee347c4f7c"
+StartPage = "False"
+PreloadPage = "True"
+CachePage = "False"
+VisibilityJoin = "VisibilityJoin"
+
+[[Elements]]
+Name = ""
+Type = "Ch5 Background"
+Status = ""
+Content = ""
+Editable = true
+
+[[Elements.Components]]
+Name = ""
+Type = "textnode"
+Status = ""
+Content = "\n              "
+
+[Elements.Attributes]
+scale = "fill"
+refreshrate = "600"
+transitioneffect = "ease"
+transitionduration = "1s"
+assetid = "0"
+id = "ia83"
+componentName = "Background"
+ccid_linkSendReceive = "True"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+backgroundcolor = "#ffffff"
+imgbackgroundcolor = "transparent"
+componentWasResized = "true"
+[[Elements]]
+Name = ""
+Type = "html-div"
+Status = ""
+Content = ""
+
+[Elements.Attributes]
+componentName = "Top.Menu.Panel"
+id = "iv6q55rbw09gh"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+oldID = "iupz"
+componentWasResized = "true"
+[[Elements]]
+Name = ""
+Type = "html-div"
+Status = ""
+Content = ""
+
+[Elements.Attributes]
+componentName = "Right.Menu.Panel"
+id = "iupz"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+componentWasResized = "true"
+[[Elements]]
+Name = ""
+Type = "Ch5 Date Time"
+Status = ""
+Content = ""
+Editable = true
+
+[Elements.Attributes]
+timeoffsethours = "0"
+horizontalalignment = "center"
+displaytype = "time"
+display24hourformat = "false"
+displayampm = "true"
+displaytwodigitshour = "false"
+displayseconds = "false"
+stylefordate = "MM-dd-yyyy"
+id = "iguill6497pnf"
+componentName = "Date Time"
+ccid_linkSendReceive = "True"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+ccid_themeCSSSet = "true"
+oldID = "i939d"
+pd-receivestateshow = "Contract Enabled"
+[[Elements]]
+Name = ""
+Type = "Ch5 Image"
+Status = ""
+Content = ""
+Editable = true
+
+[[Elements.Components]]
+Name = ""
+Type = "textnode"
+Status = ""
+Content = "\n              "
+
+[Elements.Attributes]
+refreshrate = "0"
+customvstheme = "custom"
+assetid = "f34b18b4-88e1-414a-91cc-0d761746927d"
+id = "i12vh"
+componentName = "Logo"
+ccid_linkSendReceive = "True"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+pd-receivestateshow = "Contract Enabled"
+[[Elements]]
+Name = ""
+Type = "Ch5 Text"
+Status = ""
+Content = ""
+Editable = true
+
+[[Elements.Components]]
+Name = ""
+Type = "textnode"
+Status = ""
+Content = "\n              "
+
+[Elements.Attributes]
+clearLabel = "false"
+labelmodeadvncomponent = "advanced"
+horizontalalignment = "center"
+verticalalignment = "middle"
+multilinesupport = "false"
+truncatetext = "false"
+id = "io6ry"
+componentName = "Txt.WelcomeMsg"
+ccid_linkSendReceive = "True"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+ccid_themeCSSSet = "true"
+labelinnerhtml = "<p>Welcome To <ch5-jointotext-string receiveStateValue=\"1\" textWhenEmpty=\"Room Name\"></ch5-jointotext-string></p>"
+pd-receivestateshow = "Contract Enabled"
+[[Elements]]
+Name = ""
+Type = "Ch5 Text"
+Status = ""
+Content = ""
+Editable = true
+
+[[Elements.Components]]
+Name = ""
+Type = "textnode"
+Status = ""
+Content = "\n              "
+
+[Elements.Attributes]
+clearLabel = "false"
+labelmodeadvncomponent = "simple"
+horizontalalignment = "center"
+verticalalignment = "middle"
+multilinesupport = "false"
+truncatetext = "false"
+labelinnerhtml = "Remember To Log Off When Finished"
+id = "issod"
+componentName = "Txt.LogOffMsg"
+ccid_linkSendReceive = "True"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+ccid_themeCSSSet = "true"
+pd-receivestateshow = "Contract Enabled"
+[[Elements]]
+Name = ""
+Type = "Ch5 Button"
+Status = ""
+Content = ""
+Editable = true
+
+[Elements.Attributes]
+type = "default"
+halignlabel = "center"
+valignlabel = "middle"
+checkboxshow = "false"
+checkboxposition = "left"
+pageFlipAttributeName = "pageflip"
+clearLabel = "false"
+ccid_imageIconType = "iconclass"
+ccid_linkSendReceive = "True"
+iconurlfilltype = "initial"
+customclass = "ccid-custom"
+affectedByPreviewState = "True"
+shape = "custom"
+customvstheme = "custom"
+id = "iukp5q4aos7v2"
+labelinnerhtml = "Volume"
+pageflip = "0"
+iconposition = "top"
+previewstate = "normal"
+orientation = "horizontal"
+labelmode = "simple"
+componentName = "Btn.Volume"
+ccid_themeCSSSet = "true"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+size = "custom"
+oldID = "ihp6k"
+iconclass = "fas fa-music"
+selected = "false"
+sendeventontouch = "Contract Enabled"
+pd-receivestateselected = "Contract Enabled"
+assetid = "0"
+[[Elements]]
+Name = ""
+Type = "Ch5 Button"
+Status = ""
+Content = ""
+Editable = true
+
+[[Elements.Components]]
+Name = ""
+Type = "textnode"
+Status = ""
+Content = "\n              "
+
+[Elements.Attributes]
+type = "default"
+halignlabel = "center"
+valignlabel = "middle"
+checkboxshow = "false"
+checkboxposition = "left"
+pageFlipAttributeName = "pageflip"
+clearLabel = "false"
+ccid_imageIconType = "imageasset"
+ccid_linkSendReceive = "True"
+iconurlfilltype = "initial"
+customclass = "ccid-custom"
+affectedByPreviewState = "True"
+shape = "custom"
+customvstheme = "custom"
+id = "ihp6k"
+labelinnerhtml = "Projector"
+pageflip = "0"
+iconposition = "top"
+previewstate = "normal"
+orientation = "horizontal"
+labelmode = "simple"
+componentName = "Btn.Proj"
+ccid_themeCSSSet = "true"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+size = "custom"
+assetid = "44beb9b0-ad77-4879-a413-da0b8d2d67e7"
+selected = "false"
+sendeventontouch = "Contract Enabled"
+pd-receivestateselected = "Contract Enabled"
+[[Elements]]
+Name = ""
+Type = "Ch5 Button"
+Status = ""
+Content = ""
+Editable = true
+
+[Elements.Attributes]
+type = "default"
+halignlabel = "center"
+valignlabel = "middle"
+checkboxshow = "false"
+checkboxposition = "left"
+pageFlipAttributeName = "pageflip"
+clearLabel = "false"
+ccid_imageIconType = "imageasset"
+ccid_linkSendReceive = "True"
+iconurlfilltype = "initial"
+customclass = "ccid-custom"
+affectedByPreviewState = "True"
+shape = "custom"
+customvstheme = "custom"
+id = "i08dh1ltw0507"
+labelinnerhtml = "AuRA"
+pageflip = "0"
+iconposition = "top"
+previewstate = "normal"
+orientation = "horizontal"
+labelmode = "advanced"
+componentName = "Btn.AuRA"
+ccid_themeCSSSet = "true"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+size = "custom"
+oldID = "iukp5q4aos7v2"
+assetid = "c9cd3bc8-a3a1-4e40-8ce9-f99fcf64de1d"
+componentWasResized = "true"
+selected = "false"
+sendeventontouch = "Contract Enabled"
+pd-receivestateselected = "Contract Enabled"
+[[Elements]]
+Name = ""
+Type = "Ch5 Button"
+Status = ""
+Content = ""
+Editable = true
+
+[Elements.Attributes]
+type = "default"
+halignlabel = "center"
+valignlabel = "middle"
+checkboxshow = "false"
+checkboxposition = "left"
+pageFlipAttributeName = "pageflip"
+clearLabel = "false"
+ccid_imageIconType = "imageasset"
+ccid_linkSendReceive = "True"
+iconurlfilltype = "initial"
+customclass = "ccid-custom"
+affectedByPreviewState = "True"
+shape = "custom"
+customvstheme = "custom"
+id = "ibjufjxa3ww1w"
+labelinnerhtml = "Privacy Mute"
+pageflip = "0"
+iconposition = "top"
+previewstate = "normal"
+orientation = "horizontal"
+labelmode = "simple"
+componentName = "Btn.PrivacyMuteTgl"
+ccid_themeCSSSet = "true"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+size = "custom"
+oldID = "ihp6k"
+assetid = "eeaf5c03-8a2b-4afd-9f15-a9b4e99745dd"
+selected = "false"
+sendeventontouch = "Contract Enabled"
+pd-receivestateselected = "Contract Enabled"
+[[Elements]]
+Name = ""
+Type = "Ch5 Button"
+Status = ""
+Content = ""
+Editable = true
+
+[Elements.Attributes]
+type = "default"
+halignlabel = "center"
+valignlabel = "middle"
+checkboxshow = "false"
+checkboxposition = "left"
+pageFlipAttributeName = "pageflip"
+clearLabel = "false"
+ccid_imageIconType = "iconclass"
+ccid_linkSendReceive = "False"
+iconurlfilltype = "initial"
+customclass = "ccid-custom"
+affectedByPreviewState = "True"
+shape = "custom"
+customvstheme = "custom"
+id = "iqgcoitkdtfrf"
+labelinnerhtml = "Shut Down"
+pageflip = "0"
+iconposition = "top"
+previewstate = "normal"
+orientation = "horizontal"
+labelmode = "simple"
+componentName = "Btn.SystemOff"
+ccid_themeCSSSet = "true"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+size = "custom"
+oldID = "iukp5q4aos7v2"
+iconclass = "fas fa-power-off"
+componentWasResized = "true"
+selected = "false"
+pd-receivestateenable = "Contract Enabled"
+sendeventontouch = "Contract Enabled"
+assetid = "0"
+[[Elements]]
+Name = ""
+Type = "Ch5 Template"
+Status = ""
+Content = ""
+
+[Elements.Attributes]
+templateid = "w33bb5ddc-a47d-4766-8e02-9bb12459e22b"
+id = "ikuy2"
+componentName = "Proj_01_Source_Widget"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+pd-receivestateshow = "Contract Enabled"
+[[Elements]]
+Name = ""
+Type = "Ch5 Template"
+Status = ""
+Content = ""
+
+[Elements.Attributes]
+templateid = "we22f10ee-0c12-4eea-8360-0642def957cd"
+id = "icbbf"
+componentName = "Proj_02_Source_Widget"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+pd-receivestateshow = "Contract Enabled"
+[[Elements]]
+Name = ""
+Type = "Ch5 Template"
+Status = ""
+Content = ""
+
+[Elements.Attributes]
+templateid = "wa858e49b-e0b0-4792-8358-9519471cd8fe"
+id = "i762v"
+componentName = "Proj_02_Power-Screen_Widget"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+pd-receivestateshow = "Contract Enabled"
+[[Elements]]
+Name = ""
+Type = "Ch5 Template"
+Status = ""
+Content = ""
+
+[Elements.Attributes]
+templateid = "w6a0ab41e-0181-44ef-b787-81c69c66b6f7"
+id = "i2el6"
+componentName = "Proj_01_Power-Screen_Widget"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+pd-receivestateshow = "Contract Enabled"
+[[Elements]]
+Name = ""
+Type = "Ch5 Template"
+Status = ""
+Content = ""
+
+[Elements.Attributes]
+templateid = "w952f7e37-84f9-491e-90de-c3f9911b9bc5"
+id = "it2e1"
+componentName = "Volume_Control_03_Panel_Widget"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+pd-receivestateshow = "Contract Enabled"
+[[Elements]]
+Name = ""
+Type = "Ch5 Template"
+Status = ""
+Content = ""
+
+[Elements.Attributes]
+templateid = "w32f64bba-ce9c-4154-b1d6-edbc92992934"
+id = "iqtzo"
+componentName = "Volume_Control_0x_Panel_Widget"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+pd-receivestateshow = "Contract Enabled"
+[[Elements]]
+Name = ""
+Type = "Ch5 Template"
+Status = ""
+Content = ""
+
+[Elements.Attributes]
+templateid = "wf01555f5-7eff-4e96-b862-2e1589e19e44"
+id = "i8qcg"
+componentName = "Admin_Login_Widget"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+pd-receivestateshow = "Contract Enabled"
+[[Elements]]
+Name = ""
+Type = "Ch5 Template"
+Status = ""
+Content = ""
+
+[Elements.Attributes]
+templateid = "w9e4ea1c1-9df6-4990-a19e-7d34a666e772"
+id = "iw30d"
+componentName = "Admin_Volume_Widget"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+pd-receivestateshow = "Contract Enabled"
+

@@ -1,0 +1,21 @@
+{FileMetadata}
+Schema = "1.0.0.0"
+CreatedByAppHost = "1.3501.13.0"
+Created = 2024-10-01 08:36:41.046784-04:00
+LastModifiedByAppHost = "1.3501.13.0"
+Modified = 2024-10-01 08:36:41.046781-04:00
+CreatedByProjectApp = "1.3501.13.0"
+LastModifiedByProjectApp = "1.3501.13.0"
+MinimumProjectApp = ""
+
+{AssetAttributes}
+
+[Attributes]
+Id = "e15ee050-7c9f-4f9f-b737-3c8c3708c2c4"
+Name = "splash2"
+SourceUri = "splash2.jpg"
+AspectRatio = "1.6"
+AssetSourceType = "File"
+Username = ""
+Password = ""
+

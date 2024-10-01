@@ -1,0 +1,21 @@
+{FileMetadata}
+Schema = "1.0.0.0"
+CreatedByAppHost = "1.3501.13.0"
+Created = 2024-10-01 08:36:41.044627-04:00
+LastModifiedByAppHost = "1.3501.13.0"
+Modified = 2024-10-01 08:36:41.044625-04:00
+CreatedByProjectApp = "1.3501.13.0"
+LastModifiedByProjectApp = "1.3501.13.0"
+MinimumProjectApp = ""
+
+{AssetAttributes}
+
+[Attributes]
+Id = "79a6897e-4aa5-42f0-ba76-962b2cd25ae7"
+Name = "ShutDown_Screen"
+SourceUri = "ShutDown_Screen.jpg"
+AspectRatio = "1.7777777777777777"
+AssetSourceType = "File"
+Username = ""
+Password = ""
+

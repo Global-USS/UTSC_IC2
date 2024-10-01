@@ -1,0 +1,21 @@
+{FileMetadata}
+Schema = "1.0.0.0"
+CreatedByAppHost = "1.3501.13.0"
+Created = 2024-10-01 08:36:41.01363-04:00
+LastModifiedByAppHost = "1.3501.13.0"
+Modified = 2024-10-01 08:36:41.013626-04:00
+CreatedByProjectApp = "1.3501.13.0"
+LastModifiedByProjectApp = "1.3501.13.0"
+MinimumProjectApp = ""
+
+{AssetAttributes}
+
+[Attributes]
+Id = "28c8f5f9-7f88-4d49-9d22-b23aab14cc3c"
+Name = "DPad"
+SourceUri = "DPad.png"
+AspectRatio = "1.0141987829614605"
+AssetSourceType = "File"
+Username = ""
+Password = ""
+
