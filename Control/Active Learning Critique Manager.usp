@@ -1,0 +1,177 @@
+/* #region Header */
+//#SYMBOL_NAME ""
+
+//Author: Mat Klucznyk
+//Company: Global USS
+//Email: mathew.klucznyk@globaluss.com
+
+//#USER_SIMPLSHARP_LIBRARY ""
+
+#DEFAULT_VOLATILE
+#ENABLE_STACK_CHECKING
+#ENABLE_TRACE
+
+#DEFINE_CONSTANT true 1
+#DEFINE_CONSTANT false 0
+
+#DEFINE_CONSTANT MaxPods 10
+#DEFINE_CONSTANT LeftDir 0
+#DEFINE_CONSTANT RightDir 1
+
+/* #endregion */
+
+/* #region IO Constructor */
+//inputs
+digital_input _skip_, StepRight, StepLeft, Reset;
+analog_input TotalPods;
+//outputs
+analog_output _skip_, RoutePod[MaxPods,MaxPods];
+
+//parameters
+integer_parameter Default_Total_Pods;
+
+#BEGIN_PARAMETER_PROPERTIES Default_Total_Pods
+propValidUnits = unitDecimal;
+propBounds = 2d , 10d;  //cannot assign constant to max value, make sure to update to MaxPods value
+propDefaultValue = 2d;
+#END_PARAMETER_PROPERTIES
+
+//objects
+integer _podCnt;
+integer _ready;
+integer _step;
+CMutex _mutex;
+/* #endregion */
+
+/* #region Functions */
+function DefaultRoutes()
+{
+	integer cnt, podCnt;;
+	
+	_mutex.WaitForMutex();
+	for(cnt = 1 to _podCnt)
+	{
+		RoutePod[cnt] = cnt;
+	}
+	
+	_step = 1;
+	_mutex.ReleaseMutex();
+}
+
+function ShiftStep(integer direction, integer shiftValue)
+{
+	integer podIndex;
+	integer newStep;
+	integer position;
+
+	if(direction != LeftDir && direction != RightDir)
+	{
+		return;
+	}
+
+	_mutex.WaitForMutex();
+
+	// Calculate the new step based on direction and shift value
+	if(direction = LeftDir)
+	{
+		newStep = (_step - shiftValue);
+		if(newStep <= 0)
+		{
+			newStep = (_podCnt + (newStep MOD _podCnt)) MOD _podCnt;  // Ensure non-negative modulus
+			if(newStep = 0)
+			{
+				newStep = _podCnt;  // Wrap around to _podCnt instead of zero
+			}
+		}
+	}
+	else if(direction = RightDir)
+	{
+		newStep = (_step + shiftValue) MOD _podCnt;
+		if(newStep = 0)
+		{
+			newStep = _podCnt;  // Wrap around to _podCnt instead of zero
+		}
+	}
+
+	// Update the step value
+	_step = newStep;
+
+	// Update RoutePod array with the new positions
+	for(podIndex = 1 to _podCnt)
+	{
+		position = (_step + (podIndex - 1));
+		if(position > _podCnt)
+		{
+			RoutePod[podIndex] = (position - _podCnt);
+		}
+		else
+		{
+			RoutePod[podIndex] = position;
+		}
+	}
+
+	_mutex.ReleaseMutex();
+}
+
+/* #endregion */
+
+/* #region Events */
+push StepRight
+{
+	if(!_ready) return;
+	
+   ShiftStep(RightDir, 1);
+}
+
+push StepLeft
+{
+   if(!_ready) return;
+
+   ShiftStep(LeftDir, 1);
+}
+
+push Reset
+{
+   DefaultRoutes();
+}
+
+threadsafe change TotalPods
+{
+	integer x;
+	while(!_ready);
+	
+	while(_podCnt != TotalPods && TotalPods > 2 && TotalPods < MaxPods)
+	{
+		_mutex.WaitForMutex();
+		_podCnt = TotalPods;
+		DefaultRoutes();
+		_mutex.ReleaseMutex();
+	}
+}
+/* #endregion */
+
+/* #region Callbacks */
+
+/* #endregion */
+
+Function Main()
+{
+	WaitForInitializationComplete();
+	
+	if(TotalPods > 2 && TotalPods < MaxPods)
+	{
+		_mutex.WaitForMutex();
+		_podCnt = TotalPods;
+		DefaultRoutes();
+		_mutex.ReleaseMutex();
+	}
+	else
+	{
+		_mutex.WaitForMutex();
+		_podCnt = Default_Total_Pods;
+		DefaultRoutes();
+		_mutex.ReleaseMutex();
+	}
+	
+	_ready = true;
+}
