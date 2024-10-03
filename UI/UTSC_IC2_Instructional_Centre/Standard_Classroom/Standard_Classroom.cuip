@@ -2,10 +2,10 @@
 Schema = "1.0.0.0"
 CreatedByAppHost = "1.3400.21.0"
 Created = 2024-08-22 12:13:17.678996-04:00
-LastModifiedByAppHost = "1.3400.21.0"
-Modified = 2024-08-22 12:13:17.678992-04:00
+LastModifiedByAppHost = "1.3501.13.0"
+Modified = 2024-10-03 08:40:17.050221-04:00
 CreatedByProjectApp = "1.3400.21.0"
-LastModifiedByProjectApp = "1.3400.21.0"
+LastModifiedByProjectApp = "1.3501.13.0"
 MinimumProjectApp = "1.2600.1"
 
 {DeviceResolutionSource}
@@ -17,7 +17,7 @@ MinimumProjectApp = "1.2600.1"
 Name = "Standard_Classroom"
 ThemeId = "light-theme.css"
 ThemePageColor = "#ffffff"
-SdkId = "CH5:2.10.0"
+SdkId = "CH5:2.11.1"
 ComponentKey = "UiEditor"
 DeviceResolutionIds = "G-L-4KMONIT-2560-1440,D-L-TSW1070-1280-0800"
 ipId = "99"

@@ -5,7 +5,7 @@
 //
 //     Project:     Standard_Lab
 //     Version:     1.0.0.0
-//     Sdk:         CH5:2.10.0
+//     Sdk:         CH5:2.11.1
 //     Strategy:    Classic
 //     IndexOnly:   False
 //
