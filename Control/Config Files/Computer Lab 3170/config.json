@@ -107,5 +107,26 @@
         "widget": "Proj_02_Source_04_Widget"
       }
     }
+  },
+  "dmpsConfig": {
+    "deviceControl":
+    {
+      "Input_Name_HDMI_1": "PODIUM PC",
+      "Input_Name_HDMI_2": "LAPTOP HDMI",
+      "Input_Name_HDMI_3": "UNUSED",
+      "Input_Name_HDMI_4": "UNUSED",
+      "Input_Name_HDMI_5": "UNUSED",
+      "Input_Name_HDMI_6": "AuRA PREVIEW",
+      "Input_Name_DM_7": "UNUSED",
+      "Input_Name_DM_8": "UNUSED",
+      "Input_Name_AirMedia_9": "AIRMEDIA",
+      "Output_Name_Program": "PROGRAM",
+      "Output_Name_Aux_1": "AUX 1",
+      "Output_Name_Aux_2": "AUX 2",
+      "Output_Name_HDMI_1": "PODIUM MONITOR",
+      "Output_Name_HDMI_2": "AuRA CONTENT",
+      "Output_name_DM_3": "LEFT PROJECTOR",
+      "Output_Name_DM_4": "RIGHT PROJECTOR"
+    }
   }
 }

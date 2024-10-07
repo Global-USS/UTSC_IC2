@@ -54,7 +54,7 @@ function DefaultRoutes()
 		RoutePod[cnt] = cnt;
 	}
 	
-	_step = 1;
+	_step = 2;
 	_mutex.ReleaseMutex();
 }
 
