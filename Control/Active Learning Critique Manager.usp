@@ -135,7 +135,7 @@ threadsafe change TotalPods
 	integer x;
 	while(!_ready);
 	
-	while(_podCnt != TotalPods && TotalPods > 2 && TotalPods < MaxPods)
+	while(_podCnt != TotalPods && TotalPods > 2 && TotalPods <= MaxPods)
 	{
 		_mutex.WaitForMutex();
 		_podCnt = TotalPods;
@@ -153,7 +153,7 @@ Function Main()
 {
 	WaitForInitializationComplete();
 	
-	if(TotalPods > 2 && TotalPods < MaxPods)
+	if(TotalPods > 2 && TotalPods <= MaxPods)
 	{
 		_mutex.WaitForMutex();
 		_podCnt = TotalPods;
