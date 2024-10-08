@@ -18,7 +18,39 @@
       "displays": []
     },
     "pods": {
-      "count": 10
+      "count": 10,
+      "pods":[
+        {
+          "name": "Pod 1"
+        },
+        {
+          "name": "Pod 2"
+        },
+        {
+          "name": "Pod 3"
+        },
+        {
+          "name": "Pod 4"
+        },
+        {
+          "name": "Pod 5"
+        },
+        {
+          "name": "Pod 6"
+        },
+        {
+          "name": "Pod 7"
+        },
+        {
+          "name": "Pod 8"
+        },
+        {
+          "name": "Pod 9"
+        },
+        {
+          "name": "Pod 10"
+        }
+      ]
     },
     "sources": [
       {

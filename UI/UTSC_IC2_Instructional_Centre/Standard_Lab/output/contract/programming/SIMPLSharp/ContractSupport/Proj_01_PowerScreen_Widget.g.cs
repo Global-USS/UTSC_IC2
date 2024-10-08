@@ -7,7 +7,7 @@
 //     Version:     1.0.0.0
 //     Sdk:         CH5:2.11.1
 //     Strategy:    Classic
-//     IndexOnly:   False
+//     IndexOnly:   True
 //
 //     Changes to this file may cause incorrect behavior and will be lost if
 //     the code is regenerated.

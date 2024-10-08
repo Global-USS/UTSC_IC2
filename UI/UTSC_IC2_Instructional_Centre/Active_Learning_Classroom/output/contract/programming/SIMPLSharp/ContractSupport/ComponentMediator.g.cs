@@ -7,7 +7,7 @@
 //     Version:     1.0.0.0
 //     Sdk:         CH5:2.11.1
 //     Strategy:    Classic
-//     IndexOnly:   False
+//     IndexOnly:   True
 //
 //     Changes to this file may cause incorrect behavior and will be lost if
 //     the code is regenerated.
@@ -208,7 +208,7 @@ namespace Active_Learning_Classroom
                         ErrorLog.Error("Unable to find action for {0} from {1} {2}", theKey, args.SmartObjectArgs.ID, args.Sig.Number);
                     }
 
-                    break;
+                    return;
                 }
 
                 Dictionary<string, Action<SmartObjectEventArgs>> signals = null;

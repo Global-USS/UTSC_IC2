@@ -44,20 +44,6 @@ CMutex _mutex;
 /* #endregion */
 
 /* #region Functions */
-function DefaultRoutes()
-{
-	integer cnt, podCnt;;
-	
-	_mutex.WaitForMutex();
-	for(cnt = 1 to _podCnt)
-	{
-		RoutePod[cnt] = cnt;
-	}
-	
-	_step = 2;
-	_mutex.ReleaseMutex();
-}
-
 function ShiftStep(integer direction, integer shiftValue)
 {
 	integer podIndex;
@@ -113,6 +99,15 @@ function ShiftStep(integer direction, integer shiftValue)
 	_mutex.ReleaseMutex();
 }
 
+function DefaultRoutes()
+{
+	integer cnt, podCnt;;
+	
+	_mutex.WaitForMutex();
+	_step = 1;
+	ShiftStep(RightDir, 1);
+	_mutex.ReleaseMutex();
+}
 /* #endregion */
 
 /* #region Events */

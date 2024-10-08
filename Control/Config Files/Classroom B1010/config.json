@@ -15,7 +15,8 @@
       "displays": []
     },
     "pods": {
-      "count": 0
+      "count": 0,
+      "pods": []
     },
     "sources": [
       {
@@ -122,8 +123,7 @@
     }
   },
   "dmpsConfig": {
-    "deviceControl":
-    {
+    "deviceControl": {
       "Input_Name_HDMI_1": "PODIUM PC",
       "Input_Name_HDMI_2": "LAPTOP HDMI",
       "Input_Name_HDMI_3": "DOCUMENT CAMERA",

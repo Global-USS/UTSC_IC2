@@ -7,7 +7,7 @@
 //     Version:     1.0.0.0
 //     Sdk:         CH5:2.11.1
 //     Strategy:    Classic
-//     IndexOnly:   False
+//     IndexOnly:   True
 //
 //     Changes to this file may cause incorrect behavior and will be lost if
 //     the code is regenerated.
@@ -91,74 +91,6 @@ namespace Standard_Lab.Volume_Control_0x_Panel_Widget
     public partial interface IListMicSelection : IListMicSelectionByItem
     {
         object UserObject { get; set; }
-
-        /// <summary>
-        /// Event Button1.ItemPress (from panel to Control System)
-        /// </summary>
-        event EventHandler<UIEventArgs> Button_1_Button_PressEvent;
-
-        /// <summary>
-        /// Event Button2.ItemPress (from panel to Control System)
-        /// </summary>
-        event EventHandler<UIEventArgs> Button_2_Button_PressEvent;
-
-        /// <summary>
-        /// Event Button3.ItemPress (from panel to Control System)
-        /// </summary>
-        event EventHandler<UIEventArgs> Button_3_Button_PressEvent;
-
-        /// <summary>
-        /// Event Button4.ItemPress (from panel to Control System)
-        /// </summary>
-        event EventHandler<UIEventArgs> Button_4_Button_PressEvent;
-
-        /// <summary>
-        /// Button1.ItemSelected Feedback
-        /// </summary>
-        /// <param name="callback">The bool delegate to update the panel.</param>
-        void Button_1_Button_Selected(ListMicSelectionBoolInputSigDelegate callback);
-
-        /// <summary>
-        /// Button1.ItemSelected Feedback
-        /// </summary>
-        /// <param name="digital">The bool to update the panel.</param>
-        void Button_1_Button_Selected(bool digital);
-
-        /// <summary>
-        /// Button2.ItemSelected Feedback
-        /// </summary>
-        /// <param name="callback">The bool delegate to update the panel.</param>
-        void Button_2_Button_Selected(ListMicSelectionBoolInputSigDelegate callback);
-
-        /// <summary>
-        /// Button2.ItemSelected Feedback
-        /// </summary>
-        /// <param name="digital">The bool to update the panel.</param>
-        void Button_2_Button_Selected(bool digital);
-
-        /// <summary>
-        /// Button3.ItemSelected Feedback
-        /// </summary>
-        /// <param name="callback">The bool delegate to update the panel.</param>
-        void Button_3_Button_Selected(ListMicSelectionBoolInputSigDelegate callback);
-
-        /// <summary>
-        /// Button3.ItemSelected Feedback
-        /// </summary>
-        /// <param name="digital">The bool to update the panel.</param>
-        void Button_3_Button_Selected(bool digital);
-
-        /// <summary>
-        /// Button4.ItemSelected Feedback
-        /// </summary>
-        /// <param name="callback">The bool delegate to update the panel.</param>
-        void Button_4_Button_Selected(ListMicSelectionBoolInputSigDelegate callback);
-
-        /// <summary>
-        /// Button4.ItemSelected Feedback
-        /// </summary>
-        /// <param name="digital">The bool to update the panel.</param>
-        void Button_4_Button_Selected(bool digital);
 
         /// <summary>
         /// List.MicSelection.List Number Of Items Feedback
@@ -338,11 +270,7 @@ namespace Standard_Lab.Volume_Control_0x_Panel_Widget
             _devices = new List<BasicTriListWithSmartObject>(); 
  
 
-            ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.Button_1_Button_PressEvent, onButton_1_Button_Press);
             ComponentMediator.ConfigureBooleanItemEvent(controlJoinId, Joins.Booleans.Button_1_Button_PressEvent, GetIndexes, onButton_Press);
-            ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.Button_2_Button_PressEvent, onButton_2_Button_Press);
-            ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.Button_3_Button_PressEvent, onButton_3_Button_Press);
-            ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.Button_4_Button_PressEvent, onButton_4_Button_Press);
         }
 
         /// <summary>
@@ -379,98 +307,6 @@ namespace Standard_Lab.Volume_Control_0x_Panel_Widget
 
         #region CH5 Contract
 
-        /// <inheritdoc/>
-        public event EventHandler<UIEventArgs> Button_1_Button_PressEvent;
-        private void onButton_1_Button_Press(SmartObjectEventArgs eventArgs)
-        {
-            EventHandler<UIEventArgs> handler = Button_1_Button_PressEvent;
-            if (handler != null)
-                handler(this, UIEventArgs.CreateEventArgs(eventArgs));
-        }
-
-        /// <inheritdoc/>
-        public event EventHandler<UIEventArgs> Button_2_Button_PressEvent;
-        private void onButton_2_Button_Press(SmartObjectEventArgs eventArgs)
-        {
-            EventHandler<UIEventArgs> handler = Button_2_Button_PressEvent;
-            if (handler != null)
-                handler(this, UIEventArgs.CreateEventArgs(eventArgs));
-        }
-
-        /// <inheritdoc/>
-        public event EventHandler<UIEventArgs> Button_3_Button_PressEvent;
-        private void onButton_3_Button_Press(SmartObjectEventArgs eventArgs)
-        {
-            EventHandler<UIEventArgs> handler = Button_3_Button_PressEvent;
-            if (handler != null)
-                handler(this, UIEventArgs.CreateEventArgs(eventArgs));
-        }
-
-        /// <inheritdoc/>
-        public event EventHandler<UIEventArgs> Button_4_Button_PressEvent;
-        private void onButton_4_Button_Press(SmartObjectEventArgs eventArgs)
-        {
-            EventHandler<UIEventArgs> handler = Button_4_Button_PressEvent;
-            if (handler != null)
-                handler(this, UIEventArgs.CreateEventArgs(eventArgs));
-        }
-
-        /// <inheritdoc/>
-        public void Button_1_Button_Selected(ListMicSelectionBoolInputSigDelegate callback)
-        {
-            for (int index = 0; index < Devices.Count; index++)
-            {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.Button_1_Button_SelectedState], this);
-            }
-        }
-
-        /// <inheritdoc/>
-        public void Button_1_Button_Selected(bool digital)
-        {
-            Button_1_Button_Selected((sig, component) => sig.BoolValue = digital);
-        }
-        /// <inheritdoc/>
-        public void Button_2_Button_Selected(ListMicSelectionBoolInputSigDelegate callback)
-        {
-            for (int index = 0; index < Devices.Count; index++)
-            {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.Button_2_Button_SelectedState], this);
-            }
-        }
-
-        /// <inheritdoc/>
-        public void Button_2_Button_Selected(bool digital)
-        {
-            Button_2_Button_Selected((sig, component) => sig.BoolValue = digital);
-        }
-        /// <inheritdoc/>
-        public void Button_3_Button_Selected(ListMicSelectionBoolInputSigDelegate callback)
-        {
-            for (int index = 0; index < Devices.Count; index++)
-            {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.Button_3_Button_SelectedState], this);
-            }
-        }
-
-        /// <inheritdoc/>
-        public void Button_3_Button_Selected(bool digital)
-        {
-            Button_3_Button_Selected((sig, component) => sig.BoolValue = digital);
-        }
-        /// <inheritdoc/>
-        public void Button_4_Button_Selected(ListMicSelectionBoolInputSigDelegate callback)
-        {
-            for (int index = 0; index < Devices.Count; index++)
-            {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.Button_4_Button_SelectedState], this);
-            }
-        }
-
-        /// <inheritdoc/>
-        public void Button_4_Button_Selected(bool digital)
-        {
-            Button_4_Button_Selected((sig, component) => sig.BoolValue = digital);
-        }
 
         /// <inheritdoc/>
         public void ListMicSelection_ListNumberOfItems(ListMicSelectionUShortInputSigDelegate callback)
@@ -520,11 +356,7 @@ namespace Standard_Lab.Volume_Control_0x_Panel_Widget
 
             IsDisposed = true;
 
-            Button_1_Button_PressEvent = null;
             Button_PressEvent = null;
-            Button_2_Button_PressEvent = null;
-            Button_3_Button_PressEvent = null;
-            Button_4_Button_PressEvent = null;
         }
 
         #endregion

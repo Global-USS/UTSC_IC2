@@ -7,7 +7,7 @@
 //     Version:     1.0.0.0
 //     Sdk:         CH5:2.11.1
 //     Strategy:    Classic
-//     IndexOnly:   False
+//     IndexOnly:   True
 //
 //     Changes to this file may cause incorrect behavior and will be lost if
 //     the code is regenerated.
@@ -118,122 +118,6 @@ namespace Active_Learning_Classroom.Proj_01_Source_04_Widget
     public partial interface IBtnListSrcSelect : IBtnListSrcSelectByItem
     {
         object UserObject { get; set; }
-
-        /// <summary>
-        /// Event Button1.ItemPress (from panel to Control System)
-        /// </summary>
-        event EventHandler<UIEventArgs> Button_1_Button_PressEvent;
-
-        /// <summary>
-        /// Event Button2.ItemPress (from panel to Control System)
-        /// </summary>
-        event EventHandler<UIEventArgs> Button_2_Button_PressEvent;
-
-        /// <summary>
-        /// Event Button3.ItemPress (from panel to Control System)
-        /// </summary>
-        event EventHandler<UIEventArgs> Button_3_Button_PressEvent;
-
-        /// <summary>
-        /// Event Button4.ItemPress (from panel to Control System)
-        /// </summary>
-        event EventHandler<UIEventArgs> Button_4_Button_PressEvent;
-
-        /// <summary>
-        /// Button1.ItemSelected Feedback
-        /// </summary>
-        /// <param name="callback">The bool delegate to update the panel.</param>
-        void Button_1_Button_Selected(BtnListSrcSelectBoolInputSigDelegate callback);
-
-        /// <summary>
-        /// Button1.ItemSelected Feedback
-        /// </summary>
-        /// <param name="digital">The bool to update the panel.</param>
-        void Button_1_Button_Selected(bool digital);
-
-        /// <summary>
-        /// Button2.ItemSelected Feedback
-        /// </summary>
-        /// <param name="callback">The bool delegate to update the panel.</param>
-        void Button_2_Button_Selected(BtnListSrcSelectBoolInputSigDelegate callback);
-
-        /// <summary>
-        /// Button2.ItemSelected Feedback
-        /// </summary>
-        /// <param name="digital">The bool to update the panel.</param>
-        void Button_2_Button_Selected(bool digital);
-
-        /// <summary>
-        /// Button3.ItemSelected Feedback
-        /// </summary>
-        /// <param name="callback">The bool delegate to update the panel.</param>
-        void Button_3_Button_Selected(BtnListSrcSelectBoolInputSigDelegate callback);
-
-        /// <summary>
-        /// Button3.ItemSelected Feedback
-        /// </summary>
-        /// <param name="digital">The bool to update the panel.</param>
-        void Button_3_Button_Selected(bool digital);
-
-        /// <summary>
-        /// Button4.ItemSelected Feedback
-        /// </summary>
-        /// <param name="callback">The bool delegate to update the panel.</param>
-        void Button_4_Button_Selected(BtnListSrcSelectBoolInputSigDelegate callback);
-
-        /// <summary>
-        /// Button4.ItemSelected Feedback
-        /// </summary>
-        /// <param name="digital">The bool to update the panel.</param>
-        void Button_4_Button_Selected(bool digital);
-
-        /// <summary>
-        /// Button1.Visible Feedback
-        /// </summary>
-        /// <param name="callback">The bool delegate to update the panel.</param>
-        void Button_1_Button_Visible(BtnListSrcSelectBoolInputSigDelegate callback);
-
-        /// <summary>
-        /// Button1.Visible Feedback
-        /// </summary>
-        /// <param name="digital">The bool to update the panel.</param>
-        void Button_1_Button_Visible(bool digital);
-
-        /// <summary>
-        /// Button2.Visible Feedback
-        /// </summary>
-        /// <param name="callback">The bool delegate to update the panel.</param>
-        void Button_2_Button_Visible(BtnListSrcSelectBoolInputSigDelegate callback);
-
-        /// <summary>
-        /// Button2.Visible Feedback
-        /// </summary>
-        /// <param name="digital">The bool to update the panel.</param>
-        void Button_2_Button_Visible(bool digital);
-
-        /// <summary>
-        /// Button3.Visible Feedback
-        /// </summary>
-        /// <param name="callback">The bool delegate to update the panel.</param>
-        void Button_3_Button_Visible(BtnListSrcSelectBoolInputSigDelegate callback);
-
-        /// <summary>
-        /// Button3.Visible Feedback
-        /// </summary>
-        /// <param name="digital">The bool to update the panel.</param>
-        void Button_3_Button_Visible(bool digital);
-
-        /// <summary>
-        /// Button4.Visible Feedback
-        /// </summary>
-        /// <param name="callback">The bool delegate to update the panel.</param>
-        void Button_4_Button_Visible(BtnListSrcSelectBoolInputSigDelegate callback);
-
-        /// <summary>
-        /// Button4.Visible Feedback
-        /// </summary>
-        /// <param name="digital">The bool to update the panel.</param>
-        void Button_4_Button_Visible(bool digital);
     }
 
     /// <summary>
@@ -301,6 +185,66 @@ namespace Active_Learning_Classroom.Proj_01_Source_04_Widget
                 /// </summary>
                 public const uint Button_4_Button_PressEvent = 1004;
 
+                /// <summary>
+                /// Output or Event digital joinInfo from panel to Control System: Proj_01_Source_04_Widget.BtnListSrcSelect.Button5ItemPress
+                /// Button5.ItemPress
+                /// </summary>
+                public const uint Button_5_Button_PressEvent = 1005;
+
+                /// <summary>
+                /// Output or Event digital joinInfo from panel to Control System: Proj_01_Source_04_Widget.BtnListSrcSelect.Button6ItemPress
+                /// Button6.ItemPress
+                /// </summary>
+                public const uint Button_6_Button_PressEvent = 1006;
+
+                /// <summary>
+                /// Output or Event digital joinInfo from panel to Control System: Proj_01_Source_04_Widget.BtnListSrcSelect.Button7ItemPress
+                /// Button7.ItemPress
+                /// </summary>
+                public const uint Button_7_Button_PressEvent = 1007;
+
+                /// <summary>
+                /// Output or Event digital joinInfo from panel to Control System: Proj_01_Source_04_Widget.BtnListSrcSelect.Button8ItemPress
+                /// Button8.ItemPress
+                /// </summary>
+                public const uint Button_8_Button_PressEvent = 1008;
+
+                /// <summary>
+                /// Output or Event digital joinInfo from panel to Control System: Proj_01_Source_04_Widget.BtnListSrcSelect.Button9ItemPress
+                /// Button9.ItemPress
+                /// </summary>
+                public const uint Button_9_Button_PressEvent = 1009;
+
+                /// <summary>
+                /// Output or Event digital joinInfo from panel to Control System: Proj_01_Source_04_Widget.BtnListSrcSelect.Button10ItemPress
+                /// Button10.ItemPress
+                /// </summary>
+                public const uint Button_10_Button_PressEvent = 1010;
+
+                /// <summary>
+                /// Output or Event digital joinInfo from panel to Control System: Proj_01_Source_04_Widget.BtnListSrcSelect.Button11ItemPress
+                /// Button11.ItemPress
+                /// </summary>
+                public const uint Button_11_Button_PressEvent = 1011;
+
+                /// <summary>
+                /// Output or Event digital joinInfo from panel to Control System: Proj_01_Source_04_Widget.BtnListSrcSelect.Button12ItemPress
+                /// Button12.ItemPress
+                /// </summary>
+                public const uint Button_12_Button_PressEvent = 1012;
+
+                /// <summary>
+                /// Output or Event digital joinInfo from panel to Control System: Proj_01_Source_04_Widget.BtnListSrcSelect.Button13ItemPress
+                /// Button13.ItemPress
+                /// </summary>
+                public const uint Button_13_Button_PressEvent = 1013;
+
+                /// <summary>
+                /// Output or Event digital joinInfo from panel to Control System: Proj_01_Source_04_Widget.BtnListSrcSelect.Button14ItemPress
+                /// Button14.ItemPress
+                /// </summary>
+                public const uint Button_14_Button_PressEvent = 1014;
+
 
                 /// <summary>
                 /// Input or Feedback digital joinInfo from Control System to panel: Proj_01_Source_04_Widget.BtnListSrcSelect.Button1ItemSelected
@@ -327,6 +271,66 @@ namespace Active_Learning_Classroom.Proj_01_Source_04_Widget
                 public const uint Button_4_Button_SelectedState = 1004;
 
                 /// <summary>
+                /// Input or Feedback digital joinInfo from Control System to panel: Proj_01_Source_04_Widget.BtnListSrcSelect.Button5ItemSelected
+                /// Button5.ItemSelected
+                /// </summary>
+                public const uint Button_5_Button_SelectedState = 1005;
+
+                /// <summary>
+                /// Input or Feedback digital joinInfo from Control System to panel: Proj_01_Source_04_Widget.BtnListSrcSelect.Button6ItemSelected
+                /// Button6.ItemSelected
+                /// </summary>
+                public const uint Button_6_Button_SelectedState = 1006;
+
+                /// <summary>
+                /// Input or Feedback digital joinInfo from Control System to panel: Proj_01_Source_04_Widget.BtnListSrcSelect.Button7ItemSelected
+                /// Button7.ItemSelected
+                /// </summary>
+                public const uint Button_7_Button_SelectedState = 1007;
+
+                /// <summary>
+                /// Input or Feedback digital joinInfo from Control System to panel: Proj_01_Source_04_Widget.BtnListSrcSelect.Button8ItemSelected
+                /// Button8.ItemSelected
+                /// </summary>
+                public const uint Button_8_Button_SelectedState = 1008;
+
+                /// <summary>
+                /// Input or Feedback digital joinInfo from Control System to panel: Proj_01_Source_04_Widget.BtnListSrcSelect.Button9ItemSelected
+                /// Button9.ItemSelected
+                /// </summary>
+                public const uint Button_9_Button_SelectedState = 1009;
+
+                /// <summary>
+                /// Input or Feedback digital joinInfo from Control System to panel: Proj_01_Source_04_Widget.BtnListSrcSelect.Button10ItemSelected
+                /// Button10.ItemSelected
+                /// </summary>
+                public const uint Button_10_Button_SelectedState = 1010;
+
+                /// <summary>
+                /// Input or Feedback digital joinInfo from Control System to panel: Proj_01_Source_04_Widget.BtnListSrcSelect.Button11ItemSelected
+                /// Button11.ItemSelected
+                /// </summary>
+                public const uint Button_11_Button_SelectedState = 1011;
+
+                /// <summary>
+                /// Input or Feedback digital joinInfo from Control System to panel: Proj_01_Source_04_Widget.BtnListSrcSelect.Button12ItemSelected
+                /// Button12.ItemSelected
+                /// </summary>
+                public const uint Button_12_Button_SelectedState = 1012;
+
+                /// <summary>
+                /// Input or Feedback digital joinInfo from Control System to panel: Proj_01_Source_04_Widget.BtnListSrcSelect.Button13ItemSelected
+                /// Button13.ItemSelected
+                /// </summary>
+                public const uint Button_13_Button_SelectedState = 1013;
+
+                /// <summary>
+                /// Input or Feedback digital joinInfo from Control System to panel: Proj_01_Source_04_Widget.BtnListSrcSelect.Button14ItemSelected
+                /// Button14.ItemSelected
+                /// </summary>
+                public const uint Button_14_Button_SelectedState = 1014;
+
+                /// <summary>
                 /// Input or Feedback digital joinInfo from Control System to panel: Proj_01_Source_04_Widget.BtnListSrcSelect.Button1Visible
                 /// Button1.Visible
                 /// </summary>
@@ -349,6 +353,66 @@ namespace Active_Learning_Classroom.Proj_01_Source_04_Widget
                 /// Button4.Visible
                 /// </summary>
                 public const uint Button_4_Button_VisibleState = 1504;
+
+                /// <summary>
+                /// Input or Feedback digital joinInfo from Control System to panel: Proj_01_Source_04_Widget.BtnListSrcSelect.Button5Visible
+                /// Button5.Visible
+                /// </summary>
+                public const uint Button_5_Button_VisibleState = 1505;
+
+                /// <summary>
+                /// Input or Feedback digital joinInfo from Control System to panel: Proj_01_Source_04_Widget.BtnListSrcSelect.Button6Visible
+                /// Button6.Visible
+                /// </summary>
+                public const uint Button_6_Button_VisibleState = 1506;
+
+                /// <summary>
+                /// Input or Feedback digital joinInfo from Control System to panel: Proj_01_Source_04_Widget.BtnListSrcSelect.Button7Visible
+                /// Button7.Visible
+                /// </summary>
+                public const uint Button_7_Button_VisibleState = 1507;
+
+                /// <summary>
+                /// Input or Feedback digital joinInfo from Control System to panel: Proj_01_Source_04_Widget.BtnListSrcSelect.Button8Visible
+                /// Button8.Visible
+                /// </summary>
+                public const uint Button_8_Button_VisibleState = 1508;
+
+                /// <summary>
+                /// Input or Feedback digital joinInfo from Control System to panel: Proj_01_Source_04_Widget.BtnListSrcSelect.Button9Visible
+                /// Button9.Visible
+                /// </summary>
+                public const uint Button_9_Button_VisibleState = 1509;
+
+                /// <summary>
+                /// Input or Feedback digital joinInfo from Control System to panel: Proj_01_Source_04_Widget.BtnListSrcSelect.Button10Visible
+                /// Button10.Visible
+                /// </summary>
+                public const uint Button_10_Button_VisibleState = 1510;
+
+                /// <summary>
+                /// Input or Feedback digital joinInfo from Control System to panel: Proj_01_Source_04_Widget.BtnListSrcSelect.Button11Visible
+                /// Button11.Visible
+                /// </summary>
+                public const uint Button_11_Button_VisibleState = 1511;
+
+                /// <summary>
+                /// Input or Feedback digital joinInfo from Control System to panel: Proj_01_Source_04_Widget.BtnListSrcSelect.Button12Visible
+                /// Button12.Visible
+                /// </summary>
+                public const uint Button_12_Button_VisibleState = 1512;
+
+                /// <summary>
+                /// Input or Feedback digital joinInfo from Control System to panel: Proj_01_Source_04_Widget.BtnListSrcSelect.Button13Visible
+                /// Button13.Visible
+                /// </summary>
+                public const uint Button_13_Button_VisibleState = 1513;
+
+                /// <summary>
+                /// Input or Feedback digital joinInfo from Control System to panel: Proj_01_Source_04_Widget.BtnListSrcSelect.Button14Visible
+                /// Button14.Visible
+                /// </summary>
+                public const uint Button_14_Button_VisibleState = 1514;
 
             }
         }
@@ -401,11 +465,7 @@ namespace Active_Learning_Classroom.Proj_01_Source_04_Widget
             _devices = new List<BasicTriListWithSmartObject>(); 
  
 
-            ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.Button_1_Button_PressEvent, onButton_1_Button_Press);
             ComponentMediator.ConfigureBooleanItemEvent(controlJoinId, Joins.Booleans.Button_1_Button_PressEvent, GetIndexes, onButton_Press);
-            ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.Button_2_Button_PressEvent, onButton_2_Button_Press);
-            ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.Button_3_Button_PressEvent, onButton_3_Button_Press);
-            ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.Button_4_Button_PressEvent, onButton_4_Button_Press);
         }
 
         /// <summary>
@@ -418,7 +478,7 @@ namespace Active_Learning_Classroom.Proj_01_Source_04_Widget
         {
             if (controlJoinId == ControlJoinId &&
                 join >= Joins.Booleans.Button_1_Button_PressEvent &&
-                join <= 1004)
+                join <= 1014)
             {
                 return new Indexes(0, (ushort)(join - Joins.Booleans.Button_1_Button_PressEvent), false);
             }
@@ -442,154 +502,6 @@ namespace Active_Learning_Classroom.Proj_01_Source_04_Widget
 
         #region CH5 Contract
 
-        /// <inheritdoc/>
-        public event EventHandler<UIEventArgs> Button_1_Button_PressEvent;
-        private void onButton_1_Button_Press(SmartObjectEventArgs eventArgs)
-        {
-            EventHandler<UIEventArgs> handler = Button_1_Button_PressEvent;
-            if (handler != null)
-                handler(this, UIEventArgs.CreateEventArgs(eventArgs));
-        }
-
-        /// <inheritdoc/>
-        public event EventHandler<UIEventArgs> Button_2_Button_PressEvent;
-        private void onButton_2_Button_Press(SmartObjectEventArgs eventArgs)
-        {
-            EventHandler<UIEventArgs> handler = Button_2_Button_PressEvent;
-            if (handler != null)
-                handler(this, UIEventArgs.CreateEventArgs(eventArgs));
-        }
-
-        /// <inheritdoc/>
-        public event EventHandler<UIEventArgs> Button_3_Button_PressEvent;
-        private void onButton_3_Button_Press(SmartObjectEventArgs eventArgs)
-        {
-            EventHandler<UIEventArgs> handler = Button_3_Button_PressEvent;
-            if (handler != null)
-                handler(this, UIEventArgs.CreateEventArgs(eventArgs));
-        }
-
-        /// <inheritdoc/>
-        public event EventHandler<UIEventArgs> Button_4_Button_PressEvent;
-        private void onButton_4_Button_Press(SmartObjectEventArgs eventArgs)
-        {
-            EventHandler<UIEventArgs> handler = Button_4_Button_PressEvent;
-            if (handler != null)
-                handler(this, UIEventArgs.CreateEventArgs(eventArgs));
-        }
-
-        /// <inheritdoc/>
-        public void Button_1_Button_Selected(BtnListSrcSelectBoolInputSigDelegate callback)
-        {
-            for (int index = 0; index < Devices.Count; index++)
-            {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.Button_1_Button_SelectedState], this);
-            }
-        }
-
-        /// <inheritdoc/>
-        public void Button_1_Button_Selected(bool digital)
-        {
-            Button_1_Button_Selected((sig, component) => sig.BoolValue = digital);
-        }
-        /// <inheritdoc/>
-        public void Button_1_Button_Visible(BtnListSrcSelectBoolInputSigDelegate callback)
-        {
-            for (int index = 0; index < Devices.Count; index++)
-            {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.Button_1_Button_VisibleState], this);
-            }
-        }
-
-        /// <inheritdoc/>
-        public void Button_1_Button_Visible(bool digital)
-        {
-            Button_1_Button_Visible((sig, component) => sig.BoolValue = digital);
-        }
-        /// <inheritdoc/>
-        public void Button_2_Button_Selected(BtnListSrcSelectBoolInputSigDelegate callback)
-        {
-            for (int index = 0; index < Devices.Count; index++)
-            {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.Button_2_Button_SelectedState], this);
-            }
-        }
-
-        /// <inheritdoc/>
-        public void Button_2_Button_Selected(bool digital)
-        {
-            Button_2_Button_Selected((sig, component) => sig.BoolValue = digital);
-        }
-        /// <inheritdoc/>
-        public void Button_2_Button_Visible(BtnListSrcSelectBoolInputSigDelegate callback)
-        {
-            for (int index = 0; index < Devices.Count; index++)
-            {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.Button_2_Button_VisibleState], this);
-            }
-        }
-
-        /// <inheritdoc/>
-        public void Button_2_Button_Visible(bool digital)
-        {
-            Button_2_Button_Visible((sig, component) => sig.BoolValue = digital);
-        }
-        /// <inheritdoc/>
-        public void Button_3_Button_Selected(BtnListSrcSelectBoolInputSigDelegate callback)
-        {
-            for (int index = 0; index < Devices.Count; index++)
-            {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.Button_3_Button_SelectedState], this);
-            }
-        }
-
-        /// <inheritdoc/>
-        public void Button_3_Button_Selected(bool digital)
-        {
-            Button_3_Button_Selected((sig, component) => sig.BoolValue = digital);
-        }
-        /// <inheritdoc/>
-        public void Button_3_Button_Visible(BtnListSrcSelectBoolInputSigDelegate callback)
-        {
-            for (int index = 0; index < Devices.Count; index++)
-            {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.Button_3_Button_VisibleState], this);
-            }
-        }
-
-        /// <inheritdoc/>
-        public void Button_3_Button_Visible(bool digital)
-        {
-            Button_3_Button_Visible((sig, component) => sig.BoolValue = digital);
-        }
-        /// <inheritdoc/>
-        public void Button_4_Button_Selected(BtnListSrcSelectBoolInputSigDelegate callback)
-        {
-            for (int index = 0; index < Devices.Count; index++)
-            {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.Button_4_Button_SelectedState], this);
-            }
-        }
-
-        /// <inheritdoc/>
-        public void Button_4_Button_Selected(bool digital)
-        {
-            Button_4_Button_Selected((sig, component) => sig.BoolValue = digital);
-        }
-        /// <inheritdoc/>
-        public void Button_4_Button_Visible(BtnListSrcSelectBoolInputSigDelegate callback)
-        {
-            for (int index = 0; index < Devices.Count; index++)
-            {
-                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.Button_4_Button_VisibleState], this);
-            }
-        }
-
-        /// <inheritdoc/>
-        public void Button_4_Button_Visible(bool digital)
-        {
-            Button_4_Button_Visible((sig, component) => sig.BoolValue = digital);
-        }
 
         #endregion
 
@@ -618,11 +530,7 @@ namespace Active_Learning_Classroom.Proj_01_Source_04_Widget
 
             IsDisposed = true;
 
-            Button_1_Button_PressEvent = null;
             Button_PressEvent = null;
-            Button_2_Button_PressEvent = null;
-            Button_3_Button_PressEvent = null;
-            Button_4_Button_PressEvent = null;
         }
 
         #endregion

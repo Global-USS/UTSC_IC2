@@ -7,7 +7,7 @@
 //     Version:     1.0.0.0
 //     Sdk:         CH5:2.11.1
 //     Strategy:    Classic
-//     IndexOnly:   False
+//     IndexOnly:   True
 //
 //     Changes to this file may cause incorrect behavior and will be lost if
 //     the code is regenerated.
@@ -41,6 +41,18 @@ namespace Active_Learning_Classroom.Main_Page
         /// Event Main_Page.Pod_Disp_Power_Widget.Btn.DispPowerOn.Press (from panel to Control System)
         /// </summary>
         event EventHandler<UIEventArgs> BtnDispPowerOn_PressEvent;
+
+        /// <summary>
+        /// Pod_Disp_Power_Widget.Visibility Feedback
+        /// </summary>
+        /// <param name="callback">The bool delegate to update the panel.</param>
+        void Pod_Disp_Power_Widget_Visibility_fb(Pod_Disp_Power_WidgetBoolInputSigDelegate callback);
+
+        /// <summary>
+        /// Pod_Disp_Power_Widget.Visibility Feedback
+        /// </summary>
+        /// <param name="digital">The bool to update the panel.</param>
+        void Pod_Disp_Power_Widget_Visibility_fb(bool digital);
 
         /// <summary>
         /// Main_Page.Pod_Disp_Power_Widget.Btn.DispPowerOff.Selected Feedback
@@ -112,14 +124,20 @@ namespace Active_Learning_Classroom.Main_Page
                 /// Output or Event digital joinInfo from panel to Control System: Main_Page.Pod_Disp_Power_Widget.BtnDispPowerOff.Press
                 /// Main_Page.Pod_Disp_Power_Widget.Btn.DispPowerOff.Press
                 /// </summary>
-                public const uint BtnDispPowerOff_PressEvent = 3;
+                public const uint BtnDispPowerOff_PressEvent = 2;
 
                 /// <summary>
                 /// Output or Event digital joinInfo from panel to Control System: Main_Page.Pod_Disp_Power_Widget.BtnDispPowerOn.Press
                 /// Main_Page.Pod_Disp_Power_Widget.Btn.DispPowerOn.Press
                 /// </summary>
-                public const uint BtnDispPowerOn_PressEvent = 4;
+                public const uint BtnDispPowerOn_PressEvent = 3;
 
+
+                /// <summary>
+                /// Input or Feedback digital joinInfo from Control System to panel: Main_Page.Pod_Disp_Power_Widget.Visibility_fb
+                /// Pod_Disp_Power_Widget.Visibility
+                /// </summary>
+                public const uint Pod_Disp_Power_Widget_Visibility_fbState = 1;
 
                 /// <summary>
                 /// Input or Feedback digital joinInfo from Control System to panel: Main_Page.Pod_Disp_Power_Widget.BtnDispPowerOff.Selected
@@ -249,6 +267,20 @@ namespace Active_Learning_Classroom.Main_Page
         public void BtnDispPowerOn_Selected(bool digital)
         {
             BtnDispPowerOn_Selected((sig, component) => sig.BoolValue = digital);
+        }
+        /// <inheritdoc/>
+        public void Pod_Disp_Power_Widget_Visibility_fb(Pod_Disp_Power_WidgetBoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.Pod_Disp_Power_Widget_Visibility_fbState], this);
+            }
+        }
+
+        /// <inheritdoc/>
+        public void Pod_Disp_Power_Widget_Visibility_fb(bool digital)
+        {
+            Pod_Disp_Power_Widget_Visibility_fb((sig, component) => sig.BoolValue = digital);
         }
 
         #endregion
