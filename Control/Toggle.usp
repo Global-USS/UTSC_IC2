@@ -1,0 +1,59 @@
+#SYMBOL_NAME "Toggle"
+
+#DEFAULT_VOLATILE
+#ENABLE_STACK_CHECKING
+#ENABLE_TRACE
+
+digital_input AllowSet, AllowReset, Clock, ForceSet, ForceReset;
+
+digital_output SetOn, SetOff, SetOnPulse, SetOffPulse;
+
+function SetOnNow()
+{
+    SetOff = OFF;
+    SetOn = ON;
+    SetOffPulse = OFF;
+    pulse(10, SetOnPulse);
+}
+
+function SetOffNow()
+{
+    SetOn = OFF;
+    SetOff = ON;
+    SetOnPulse = OFF;
+    pulse(10, SetOffPulse);
+}
+
+push Clock
+{
+    if(AllowSet && !AllowReset)
+    {
+        SetOnNow();
+    }
+    else if(!AllowSet && AllowReset)
+    {
+        SetOffNow();
+    }
+    else if(!SetOn && !SetOff)
+    {
+        SetOnNow();
+    }
+    else if(!SetOn && SetOff)
+    {
+        SetOnNow();
+    }
+    else if(SetOn && !SetOff)
+    {
+        SetOffNow();
+    }
+}
+
+push ForceSet
+{       
+    SetOnNow();
+}
+
+push ForceReset
+{
+    SetOffNow();
+}
