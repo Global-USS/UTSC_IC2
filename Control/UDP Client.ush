@@ -167,3 +167,7 @@
   Val4=3d
   Lbl4=All Enabled
 [END]
+[BEGIN]
+ObjTp=Status
+HeaderCompatible=False
+[END]
