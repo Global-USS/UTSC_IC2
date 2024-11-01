@@ -1,7 +1,7 @@
 {
   "type": "activeLearningClassroom",
   "room": {
-    "number": "2050",
+    "number": "2170",
     "projectors": {
       "count": 2,
       "projectors": [
@@ -18,7 +18,7 @@
       "displays": []
     },
     "pods": {
-      "count": 10,
+      "count": 8,
       "pods":[
         {
           "name": "Pod 1"
@@ -43,12 +43,6 @@
         },
         {
           "name": "Pod 8"
-        },
-        {
-          "name": "Pod 9"
-        },
-        {
-          "name": "Pod 10"
         }
       ]
     },
@@ -109,7 +103,7 @@
       "cameras": [
         {
           "name": "Rear",
-          "ipAddress": "172.16.30.73"
+          "ipAddress": "172.16.30.94"
         }
       ]
     },
@@ -122,28 +116,20 @@
       ]
     },
     "ceilingMics": {
-      "count": 4,
+      "count": 2,
       "mics": [
         {
-          "name": "Rear Left",
-          "ipAddress": "172.16.30.65"
+          "name": "Right",
+          "ipAddress": "172.16.30.90"
         },
         {
-          "name": "Rear Right",
-          "ipAddress": "172.16.30.67"
-        },
-        {
-          "name": "Front Left",
-          "ipAddress": "172.16.30.69"
-        },
-        {
-          "name": "Front Right",
-          "ipAddress": "172.16.30.71"
+          "name": "Left",
+          "ipAddress": "172.16.30.91"
         }
       ]
     },
     "dsp": {
-      "ipAddress": "172.16.30.76"
+      "ipAddress": "172.16.30.97"
     }
   },
   "uiConfig": {

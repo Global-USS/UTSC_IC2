@@ -1,15 +1,12 @@
 {
   "type": "activeLearningClassroom",
   "room": {
-    "number": "2050",
+    "number": "2060",
     "projectors": {
-      "count": 2,
+      "count": 1,
       "projectors": [
         {
-          "name": "Left"
-        },
-        {
-          "name": "Right"
+          "name": "Projector"
         }
       ]
     },
@@ -18,7 +15,7 @@
       "displays": []
     },
     "pods": {
-      "count": 10,
+      "count": 6,
       "pods":[
         {
           "name": "Pod 1"
@@ -37,18 +34,6 @@
         },
         {
           "name": "Pod 6"
-        },
-        {
-          "name": "Pod 7"
-        },
-        {
-          "name": "Pod 8"
-        },
-        {
-          "name": "Pod 9"
-        },
-        {
-          "name": "Pod 10"
         }
       ]
     },
@@ -109,7 +94,7 @@
       "cameras": [
         {
           "name": "Rear",
-          "ipAddress": "172.16.30.73"
+          "ipAddress": "172.16.30.84"
         }
       ]
     },
@@ -122,36 +107,28 @@
       ]
     },
     "ceilingMics": {
-      "count": 4,
+      "count": 2,
       "mics": [
         {
-          "name": "Rear Left",
-          "ipAddress": "172.16.30.65"
+          "name": "Left",
+          "ipAddress": "172.16.30.80"
         },
         {
-          "name": "Rear Right",
-          "ipAddress": "172.16.30.67"
-        },
-        {
-          "name": "Front Left",
-          "ipAddress": "172.16.30.69"
-        },
-        {
-          "name": "Front Right",
-          "ipAddress": "172.16.30.71"
+          "name": "Right",
+          "ipAddress": "172.16.30.82"
         }
       ]
     },
     "dsp": {
-      "ipAddress": "172.16.30.76"
+      "ipAddress": "172.16.30.87"
     }
   },
   "uiConfig": {
     "widgets": {
       "projCtrlWidget": {
-        "widget": "Proj_02_Power-Screen_Widget",
-        "sendToProj1Label": "Send to Left<br>Projector",
-        "sendToProj2Label": "Send to Right<br>Projector"
+        "widget": "Proj_01_Power-Screen_Widget",
+        "sendToProj1Label": "Send to Projector",
+        "sendToProj2Label": "Not Supported"
       },
       "volCtrlWidget": {
         "widget": "Volume_Control_03_Panel_Widget"
@@ -160,7 +137,7 @@
         "widget": "Cam_01_Control_Widget"
       },
       "srcRoutingWidget": {
-        "widget": "Proj_02_Source_04_Widget"
+        "widget": "Proj_01_Source_04_Widget"
       }
     }
   },
