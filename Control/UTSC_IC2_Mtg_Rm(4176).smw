@@ -3609,6 +3609,20 @@ Sy1=0
 Mx1=0
 ]
 [
+ObjTp=Bw
+H=1
+Lx=0
+Ly=0
+Rx=862
+Ry=702
+Xm=-1
+Ym=-1
+SH=163
+Z=100
+Ht=3
+Hi=4
+]
+[
 ObjTp=Et
 H=1
 DvH=723
@@ -5892,7 +5906,7 @@ mP=4
 P1=
 P2=
 P3=Manager 1
-P4=//user//config.json
+P4=\\user\\config.json
 ]
 [
 ObjTp=Sm
