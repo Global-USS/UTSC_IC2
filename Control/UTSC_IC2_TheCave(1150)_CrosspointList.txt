@@ -27,4 +27,6 @@ TSC_IC2\Control\Audio Router Control v2.1.0.umc)
 S-2 in macro S-2.10.8 (Module File C:\Users\mathew.klucznyk.GUSS\Programming\GitProjects\U          110
 TSC_IC2\Control\Audio Router Control v2.1.0.umc)                                                    
 S-2.12.4                                                                                            200
+S-6.3 in macro S-1.6.1 (Module File C:\Users\mathew.klucznyk.GUSS\Programming\GitProjects\          60000
+UTSC_IC2\Control\Fusion SSI V2.8.0 - rName.umc)                                                     
 
