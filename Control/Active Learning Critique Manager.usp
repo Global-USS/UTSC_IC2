@@ -58,7 +58,7 @@ function ShiftStep(integer direction, integer shiftValue)
 	_mutex.WaitForMutex();
 
 	// Calculate the new step based on direction and shift value
-	if(direction = LeftDir)
+	if(direction = RightDir)
 	{
 		newStep = (_step - shiftValue);
 		if(newStep <= 0)
@@ -70,7 +70,7 @@ function ShiftStep(integer direction, integer shiftValue)
 			}
 		}
 	}
-	else if(direction = RightDir)
+	else if(direction = LeftDir)
 	{
 		newStep = (_step + shiftValue) MOD _podCnt;
 		if(newStep = 0)
