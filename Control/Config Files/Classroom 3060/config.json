@@ -1,7 +1,7 @@
 {
   "type": "activeLearningClassroom",
   "room": {
-    "number": "2060",
+    "number": "3060",
     "projectors": {
       "count": 1,
       "projectors": [
@@ -94,7 +94,7 @@
       "cameras": [
         {
           "name": "Rear",
-          "ipAddress": "172.16.30.84"
+          "ipAddress": "172.16.30.119"
         }
       ]
     },
@@ -111,16 +111,16 @@
       "mics": [
         {
           "name": "Left",
-          "ipAddress": "172.16.30.80"
+          "ipAddress": "172.16.30.115"
         },
         {
           "name": "Right",
-          "ipAddress": "172.16.30.82"
+          "ipAddress": "172.16.30.117"
         }
       ]
     },
     "dsp": {
-      "ipAddress": "172.16.30.87"
+      "ipAddress": "172.16.30.122"
     }
   },
   "uiConfig": {
