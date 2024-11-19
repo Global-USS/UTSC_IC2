@@ -178,6 +178,11 @@ namespace Mtg_Rm_4176.Main_Page
         void BtnVolume_Selected(bool digital);
 
         /// <summary>
+        /// ComplexComponent Volume_Control_03_Cmute_Widget
+        /// </summary>
+        Mtg_Rm_4176.Main_Page.IVolume_Control_03_Cmute_Widget Volume_Control_03_Cmute_Widget { get; }
+
+        /// <summary>
         /// ComplexComponent Admin_Login_Widget
         /// </summary>
         Mtg_Rm_4176.Main_Page.IAdmin_Login_Widget Admin_Login_Widget { get; }
@@ -396,18 +401,21 @@ namespace Mtg_Rm_4176.Main_Page
             ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.BtnProj_PressEvent, onBtnProj_Press);
             ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.BtnSystemOff_PressEvent, onBtnSystemOff_Press);
             ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.BtnVolume_PressEvent, onBtnVolume_Press);
-            Admin_Login_Widget = new Mtg_Rm_4176.Main_Page.Admin_Login_Widget(ComponentMediator, 5);
-            Proj_02_Source_Widget = new Mtg_Rm_4176.Main_Page.Proj_02_Source_Widget(ComponentMediator, 6);
-            Cam_01_Control_Widget = new Mtg_Rm_4176.Main_Page.Cam_01_Control_Widget(ComponentMediator, 7);
-            Volume_Control_02_Panel_Widget = new Mtg_Rm_4176.Main_Page.Volume_Control_02_Panel_Widget(ComponentMediator, 8);
-            Admin_Volume_Widget = new Mtg_Rm_4176.Main_Page.Admin_Volume_Widget(ComponentMediator, 9);
-            ProjDisp_01_PowerScreen_Widget = new Mtg_Rm_4176.Main_Page.ProjDisp_01_PowerScreen_Widget(ComponentMediator, 10);
+            Volume_Control_03_Cmute_Widget = new Mtg_Rm_4176.Main_Page.Volume_Control_03_Cmute_Widget(ComponentMediator, 5);
+            Admin_Login_Widget = new Mtg_Rm_4176.Main_Page.Admin_Login_Widget(ComponentMediator, 6);
+            Proj_02_Source_Widget = new Mtg_Rm_4176.Main_Page.Proj_02_Source_Widget(ComponentMediator, 7);
+            Cam_01_Control_Widget = new Mtg_Rm_4176.Main_Page.Cam_01_Control_Widget(ComponentMediator, 8);
+            Volume_Control_02_Panel_Widget = new Mtg_Rm_4176.Main_Page.Volume_Control_02_Panel_Widget(ComponentMediator, 9);
+            Admin_Volume_Widget = new Mtg_Rm_4176.Main_Page.Admin_Volume_Widget(ComponentMediator, 10);
+            ProjDisp_01_PowerScreen_Widget = new Mtg_Rm_4176.Main_Page.ProjDisp_01_PowerScreen_Widget(ComponentMediator, 11);
         }
 
         public void AddDevice(BasicTriListWithSmartObject device)
         {
             Devices.Add(device);
             ComponentMediator.HookSmartObjectEvents(device.SmartObjects[ControlJoinId]);
+
+            ((Mtg_Rm_4176.Main_Page.Volume_Control_03_Cmute_Widget)Volume_Control_03_Cmute_Widget).AddDevice(device);
 
             ((Mtg_Rm_4176.Main_Page.Admin_Login_Widget)Admin_Login_Widget).AddDevice(device);
 
@@ -426,6 +434,8 @@ namespace Mtg_Rm_4176.Main_Page
         {
             Devices.Remove(device);
             ComponentMediator.UnHookSmartObjectEvents(device.SmartObjects[ControlJoinId]);
+
+            ((Mtg_Rm_4176.Main_Page.Volume_Control_03_Cmute_Widget)Volume_Control_03_Cmute_Widget).RemoveDevice(device);
 
             ((Mtg_Rm_4176.Main_Page.Admin_Login_Widget)Admin_Login_Widget).RemoveDevice(device);
 
@@ -629,6 +639,11 @@ namespace Mtg_Rm_4176.Main_Page
         {
             TxtWelcomeMsg_Visibility_fb((sig, component) => sig.BoolValue = digital);
         }
+
+        /// <summary>
+        /// ComplexComponent Volume_Control_03_Cmute_Widget
+        /// </summary>
+        public Mtg_Rm_4176.Main_Page.IVolume_Control_03_Cmute_Widget Volume_Control_03_Cmute_Widget { get; private set; }
 
         /// <summary>
         /// ComplexComponent Admin_Login_Widget

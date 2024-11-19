@@ -240,6 +240,11 @@ namespace Standard_Classroom.Main_Page
         Standard_Classroom.Main_Page.ICam_01_Control_Widget Cam_01_Control_Widget { get; }
 
         /// <summary>
+        /// ComplexComponent Volume_Control_03_Cmute_Widget
+        /// </summary>
+        Standard_Classroom.Main_Page.IVolume_Control_03_Cmute_Widget Volume_Control_03_Cmute_Widget { get; }
+
+        /// <summary>
         /// ComplexComponent Volume_Control_03_Panel_Widget
         /// </summary>
         Standard_Classroom.Main_Page.IVolume_Control_03_Panel_Widget Volume_Control_03_Panel_Widget { get; }
@@ -459,9 +464,10 @@ namespace Standard_Classroom.Main_Page
             Proj_01_Source_Widget = new Standard_Classroom.Main_Page.Proj_01_Source_Widget(ComponentMediator, 11);
             Volume_Control_0x_Panel_Widget = new Standard_Classroom.Main_Page.Volume_Control_0x_Panel_Widget(ComponentMediator, 12);
             Cam_01_Control_Widget = new Standard_Classroom.Main_Page.Cam_01_Control_Widget(ComponentMediator, 13);
-            Volume_Control_03_Panel_Widget = new Standard_Classroom.Main_Page.Volume_Control_03_Panel_Widget(ComponentMediator, 14);
-            Admin_Volume_Widget = new Standard_Classroom.Main_Page.Admin_Volume_Widget(ComponentMediator, 15);
-            ProjDisp_01_PowerScreen_Widget = new Standard_Classroom.Main_Page.ProjDisp_01_PowerScreen_Widget(ComponentMediator, 16);
+            Volume_Control_03_Cmute_Widget = new Standard_Classroom.Main_Page.Volume_Control_03_Cmute_Widget(ComponentMediator, 14);
+            Volume_Control_03_Panel_Widget = new Standard_Classroom.Main_Page.Volume_Control_03_Panel_Widget(ComponentMediator, 15);
+            Admin_Volume_Widget = new Standard_Classroom.Main_Page.Admin_Volume_Widget(ComponentMediator, 16);
+            ProjDisp_01_PowerScreen_Widget = new Standard_Classroom.Main_Page.ProjDisp_01_PowerScreen_Widget(ComponentMediator, 17);
         }
 
         public void AddDevice(BasicTriListWithSmartObject device)
@@ -488,6 +494,8 @@ namespace Standard_Classroom.Main_Page
             ((Standard_Classroom.Main_Page.Volume_Control_0x_Panel_Widget)Volume_Control_0x_Panel_Widget).AddDevice(device);
 
             ((Standard_Classroom.Main_Page.Cam_01_Control_Widget)Cam_01_Control_Widget).AddDevice(device);
+
+            ((Standard_Classroom.Main_Page.Volume_Control_03_Cmute_Widget)Volume_Control_03_Cmute_Widget).AddDevice(device);
 
             ((Standard_Classroom.Main_Page.Volume_Control_03_Panel_Widget)Volume_Control_03_Panel_Widget).AddDevice(device);
 
@@ -520,6 +528,8 @@ namespace Standard_Classroom.Main_Page
             ((Standard_Classroom.Main_Page.Volume_Control_0x_Panel_Widget)Volume_Control_0x_Panel_Widget).RemoveDevice(device);
 
             ((Standard_Classroom.Main_Page.Cam_01_Control_Widget)Cam_01_Control_Widget).RemoveDevice(device);
+
+            ((Standard_Classroom.Main_Page.Volume_Control_03_Cmute_Widget)Volume_Control_03_Cmute_Widget).RemoveDevice(device);
 
             ((Standard_Classroom.Main_Page.Volume_Control_03_Panel_Widget)Volume_Control_03_Panel_Widget).RemoveDevice(device);
 
@@ -781,6 +791,11 @@ namespace Standard_Classroom.Main_Page
         /// ComplexComponent Cam_01_Control_Widget
         /// </summary>
         public Standard_Classroom.Main_Page.ICam_01_Control_Widget Cam_01_Control_Widget { get; private set; }
+
+        /// <summary>
+        /// ComplexComponent Volume_Control_03_Cmute_Widget
+        /// </summary>
+        public Standard_Classroom.Main_Page.IVolume_Control_03_Cmute_Widget Volume_Control_03_Cmute_Widget { get; private set; }
 
         /// <summary>
         /// ComplexComponent Volume_Control_03_Panel_Widget

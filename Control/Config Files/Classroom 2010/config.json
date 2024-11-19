@@ -115,7 +115,7 @@
         "sendToProj2Label": "Send to Right<br>Projector"
       },
       "volCtrlWidget": {
-        "widget": "Volume_Control_03_Panel_Widget"
+        "widget": "Volume_Control_03_CMute_Widget"
       },
       "camCtrlWidget": {
         "widget": "Cam_01_Control_Widget"

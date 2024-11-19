@@ -220,6 +220,11 @@ namespace Active_Learning_Classroom.Main_Page
         Active_Learning_Classroom.Main_Page.IPod_Disp_Power_Widget Pod_Disp_Power_Widget { get; }
 
         /// <summary>
+        /// ComplexComponent Volume_Control_03_Cmute_Widget
+        /// </summary>
+        Active_Learning_Classroom.Main_Page.IVolume_Control_03_Cmute_Widget Volume_Control_03_Cmute_Widget { get; }
+
+        /// <summary>
         /// ComplexComponent Proj_01_Source_Widget
         /// </summary>
         Active_Learning_Classroom.Main_Page.IProj_01_Source_Widget Proj_01_Source_Widget { get; }
@@ -446,10 +451,11 @@ namespace Active_Learning_Classroom.Main_Page
             Admin_Login_Widget = new Active_Learning_Classroom.Main_Page.Admin_Login_Widget(ComponentMediator, 7);
             Proj_02_Source_Widget = new Active_Learning_Classroom.Main_Page.Proj_02_Source_Widget(ComponentMediator, 8);
             Pod_Disp_Power_Widget = new Active_Learning_Classroom.Main_Page.Pod_Disp_Power_Widget(ComponentMediator, 9);
-            Proj_01_Source_Widget = new Active_Learning_Classroom.Main_Page.Proj_01_Source_Widget(ComponentMediator, 10);
-            Cam_01_Control_Widget = new Active_Learning_Classroom.Main_Page.Cam_01_Control_Widget(ComponentMediator, 11);
-            Volume_Control_03_Panel_Widget = new Active_Learning_Classroom.Main_Page.Volume_Control_03_Panel_Widget(ComponentMediator, 12);
-            Admin_Volume_Widget = new Active_Learning_Classroom.Main_Page.Admin_Volume_Widget(ComponentMediator, 13);
+            Volume_Control_03_Cmute_Widget = new Active_Learning_Classroom.Main_Page.Volume_Control_03_Cmute_Widget(ComponentMediator, 10);
+            Proj_01_Source_Widget = new Active_Learning_Classroom.Main_Page.Proj_01_Source_Widget(ComponentMediator, 11);
+            Cam_01_Control_Widget = new Active_Learning_Classroom.Main_Page.Cam_01_Control_Widget(ComponentMediator, 12);
+            Volume_Control_03_Panel_Widget = new Active_Learning_Classroom.Main_Page.Volume_Control_03_Panel_Widget(ComponentMediator, 13);
+            Admin_Volume_Widget = new Active_Learning_Classroom.Main_Page.Admin_Volume_Widget(ComponentMediator, 14);
         }
 
         public void AddDevice(BasicTriListWithSmartObject device)
@@ -466,6 +472,8 @@ namespace Active_Learning_Classroom.Main_Page
             ((Active_Learning_Classroom.Main_Page.Proj_02_Source_Widget)Proj_02_Source_Widget).AddDevice(device);
 
             ((Active_Learning_Classroom.Main_Page.Pod_Disp_Power_Widget)Pod_Disp_Power_Widget).AddDevice(device);
+
+            ((Active_Learning_Classroom.Main_Page.Volume_Control_03_Cmute_Widget)Volume_Control_03_Cmute_Widget).AddDevice(device);
 
             ((Active_Learning_Classroom.Main_Page.Proj_01_Source_Widget)Proj_01_Source_Widget).AddDevice(device);
 
@@ -490,6 +498,8 @@ namespace Active_Learning_Classroom.Main_Page
             ((Active_Learning_Classroom.Main_Page.Proj_02_Source_Widget)Proj_02_Source_Widget).RemoveDevice(device);
 
             ((Active_Learning_Classroom.Main_Page.Pod_Disp_Power_Widget)Pod_Disp_Power_Widget).RemoveDevice(device);
+
+            ((Active_Learning_Classroom.Main_Page.Volume_Control_03_Cmute_Widget)Volume_Control_03_Cmute_Widget).RemoveDevice(device);
 
             ((Active_Learning_Classroom.Main_Page.Proj_01_Source_Widget)Proj_01_Source_Widget).RemoveDevice(device);
 
@@ -737,6 +747,11 @@ namespace Active_Learning_Classroom.Main_Page
         /// ComplexComponent Pod_Disp_Power_Widget
         /// </summary>
         public Active_Learning_Classroom.Main_Page.IPod_Disp_Power_Widget Pod_Disp_Power_Widget { get; private set; }
+
+        /// <summary>
+        /// ComplexComponent Volume_Control_03_Cmute_Widget
+        /// </summary>
+        public Active_Learning_Classroom.Main_Page.IVolume_Control_03_Cmute_Widget Volume_Control_03_Cmute_Widget { get; private set; }
 
         /// <summary>
         /// ComplexComponent Proj_01_Source_Widget

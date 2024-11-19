@@ -86,6 +86,9 @@ namespace Active_Learning_Classroom
         public Active_Learning_Classroom.IVolume_Control_03_Panel_Widget Volume_Control_03_Panel_Widget { get { return (Active_Learning_Classroom.IVolume_Control_03_Panel_Widget)InternalVolume_Control_03_Panel_Widget; } }
         private Active_Learning_Classroom.Volume_Control_03_Panel_Widget InternalVolume_Control_03_Panel_Widget { get; set; }
 
+        public Active_Learning_Classroom.IVolume_Control_03_Cmute_Widget Volume_Control_03_Cmute_Widget { get { return (Active_Learning_Classroom.IVolume_Control_03_Cmute_Widget)InternalVolume_Control_03_Cmute_Widget; } }
+        private Active_Learning_Classroom.Volume_Control_03_Cmute_Widget InternalVolume_Control_03_Cmute_Widget { get; set; }
+
         #endregion
 
         #region Construction and Initialization
@@ -116,23 +119,25 @@ namespace Active_Learning_Classroom
 
             InternalMain_Page = new Active_Learning_Classroom.Main_Page.Main_Page(ComponentMediator, 4);
 
-            InternalProj_01_PowerScreen_Widget = new Active_Learning_Classroom.Proj_01_PowerScreen_Widget(ComponentMediator, 14);
+            InternalProj_01_PowerScreen_Widget = new Active_Learning_Classroom.Proj_01_PowerScreen_Widget(ComponentMediator, 15);
 
-            InternalCam_01_ControlPreset_Widget = new Active_Learning_Classroom.Cam_01_ControlPreset_Widget(ComponentMediator, 15);
+            InternalCam_01_ControlPreset_Widget = new Active_Learning_Classroom.Cam_01_ControlPreset_Widget(ComponentMediator, 16);
 
-            InternalProj_02_Source_04_Widget = new Active_Learning_Classroom.Proj_02_Source_04_Widget.Proj_02_Source_04_Widget(ComponentMediator, 16);
+            InternalProj_02_Source_04_Widget = new Active_Learning_Classroom.Proj_02_Source_04_Widget.Proj_02_Source_04_Widget(ComponentMediator, 17);
 
-            InternalProj_02_PowerScreen_Widget = new Active_Learning_Classroom.Proj_02_PowerScreen_Widget(ComponentMediator, 18);
+            InternalProj_02_PowerScreen_Widget = new Active_Learning_Classroom.Proj_02_PowerScreen_Widget(ComponentMediator, 19);
 
-            InternalProj_01_Source_04_Widget = new Active_Learning_Classroom.Proj_01_Source_04_Widget.Proj_01_Source_04_Widget(ComponentMediator, 19);
+            InternalProj_01_Source_04_Widget = new Active_Learning_Classroom.Proj_01_Source_04_Widget.Proj_01_Source_04_Widget(ComponentMediator, 20);
 
-            InternalAdmin_Login_Widget = new Active_Learning_Classroom.Admin_Login_Widget(ComponentMediator, 21);
+            InternalAdmin_Login_Widget = new Active_Learning_Classroom.Admin_Login_Widget(ComponentMediator, 22);
 
-            InternalCam_01_Control_Widget = new Active_Learning_Classroom.Cam_01_Control_Widget(ComponentMediator, 22);
+            InternalCam_01_Control_Widget = new Active_Learning_Classroom.Cam_01_Control_Widget(ComponentMediator, 23);
 
-            InternalAdmin_Volume_Widget = new Active_Learning_Classroom.Admin_Volume_Widget.Admin_Volume_Widget(ComponentMediator, 23);
+            InternalAdmin_Volume_Widget = new Active_Learning_Classroom.Admin_Volume_Widget.Admin_Volume_Widget(ComponentMediator, 24);
 
-            InternalVolume_Control_03_Panel_Widget = new Active_Learning_Classroom.Volume_Control_03_Panel_Widget(ComponentMediator, 25);
+            InternalVolume_Control_03_Panel_Widget = new Active_Learning_Classroom.Volume_Control_03_Panel_Widget(ComponentMediator, 26);
+
+            InternalVolume_Control_03_Cmute_Widget = new Active_Learning_Classroom.Volume_Control_03_Cmute_Widget(ComponentMediator, 27);
 
 
             for (int index = 0; index < devices.Length; index++)
@@ -172,6 +177,7 @@ namespace Active_Learning_Classroom
             InternalCam_01_Control_Widget.AddDevice(device);
             InternalAdmin_Volume_Widget.AddDevice(device);
             InternalVolume_Control_03_Panel_Widget.AddDevice(device);
+            InternalVolume_Control_03_Cmute_Widget.AddDevice(device);
 
         }
 
@@ -190,6 +196,7 @@ namespace Active_Learning_Classroom
             InternalCam_01_Control_Widget.RemoveDevice(device);
             InternalAdmin_Volume_Widget.RemoveDevice(device);
             InternalVolume_Control_03_Panel_Widget.RemoveDevice(device);
+            InternalVolume_Control_03_Cmute_Widget.RemoveDevice(device);
         }
 
         #endregion
@@ -218,6 +225,7 @@ namespace Active_Learning_Classroom
             InternalCam_01_Control_Widget.Dispose();
             InternalAdmin_Volume_Widget.Dispose();
             InternalVolume_Control_03_Panel_Widget.Dispose();
+            InternalVolume_Control_03_Cmute_Widget.Dispose();
 
             ComponentMediator.Dispose(); 
         }

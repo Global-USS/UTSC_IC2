@@ -143,7 +143,7 @@ namespace Mtg_Rm_4176.Admin_Volume_Widget
  
 
             ComponentMediator.ConfigureBooleanEvent(controlJoinId, Joins.Booleans.BtnExit_PressEvent, onBtnExit_Press);
-            ListVolControl = new Mtg_Rm_4176.Admin_Volume_Widget.ListVolControl(ComponentMediator, 18);
+            ListVolControl = new Mtg_Rm_4176.Admin_Volume_Widget.ListVolControl(ComponentMediator, 19);
         }
 
         public void AddDevice(BasicTriListWithSmartObject device)

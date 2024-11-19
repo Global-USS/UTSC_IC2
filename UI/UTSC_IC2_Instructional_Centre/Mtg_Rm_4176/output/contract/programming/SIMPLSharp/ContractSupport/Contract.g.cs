@@ -77,6 +77,9 @@ namespace Mtg_Rm_4176
         public Mtg_Rm_4176.Admin_Volume_Widget.IAdmin_Volume_Widget Admin_Volume_Widget { get { return (Mtg_Rm_4176.Admin_Volume_Widget.IAdmin_Volume_Widget)InternalAdmin_Volume_Widget; } }
         private Mtg_Rm_4176.Admin_Volume_Widget.Admin_Volume_Widget InternalAdmin_Volume_Widget { get; set; }
 
+        public Mtg_Rm_4176.IVolume_Control_02_Cmute_Widget Volume_Control_02_Cmute_Widget { get { return (Mtg_Rm_4176.IVolume_Control_02_Cmute_Widget)InternalVolume_Control_02_Cmute_Widget; } }
+        private Mtg_Rm_4176.Volume_Control_02_Cmute_Widget InternalVolume_Control_02_Cmute_Widget { get; set; }
+
         public Mtg_Rm_4176.ICam_01_ControlPreset_Widget Cam_01_ControlPreset_Widget { get { return (Mtg_Rm_4176.ICam_01_ControlPreset_Widget)InternalCam_01_ControlPreset_Widget; } }
         private Mtg_Rm_4176.Cam_01_ControlPreset_Widget InternalCam_01_ControlPreset_Widget { get; set; }
 
@@ -110,19 +113,21 @@ namespace Mtg_Rm_4176
 
             InternalMain_Page = new Mtg_Rm_4176.Main_Page.Main_Page(ComponentMediator, 4);
 
-            InternalVolume_Control_02_Panel_Widget = new Mtg_Rm_4176.Volume_Control_02_Panel_Widget(ComponentMediator, 11);
+            InternalVolume_Control_02_Panel_Widget = new Mtg_Rm_4176.Volume_Control_02_Panel_Widget(ComponentMediator, 12);
 
-            InternalCam_01_Control_Widget = new Mtg_Rm_4176.Cam_01_Control_Widget(ComponentMediator, 12);
+            InternalCam_01_Control_Widget = new Mtg_Rm_4176.Cam_01_Control_Widget(ComponentMediator, 13);
 
-            InternalProj_02_Source_05_Widget = new Mtg_Rm_4176.Proj_02_Source_05_Widget.Proj_02_Source_05_Widget(ComponentMediator, 13);
+            InternalProj_02_Source_05_Widget = new Mtg_Rm_4176.Proj_02_Source_05_Widget.Proj_02_Source_05_Widget(ComponentMediator, 14);
 
-            InternalAdmin_Login_Widget = new Mtg_Rm_4176.Admin_Login_Widget(ComponentMediator, 15);
+            InternalAdmin_Login_Widget = new Mtg_Rm_4176.Admin_Login_Widget(ComponentMediator, 16);
 
-            InternalProjDisp_01_PowerScreen_Widget = new Mtg_Rm_4176.ProjDisp_01_PowerScreen_Widget(ComponentMediator, 16);
+            InternalProjDisp_01_PowerScreen_Widget = new Mtg_Rm_4176.ProjDisp_01_PowerScreen_Widget(ComponentMediator, 17);
 
-            InternalAdmin_Volume_Widget = new Mtg_Rm_4176.Admin_Volume_Widget.Admin_Volume_Widget(ComponentMediator, 17);
+            InternalAdmin_Volume_Widget = new Mtg_Rm_4176.Admin_Volume_Widget.Admin_Volume_Widget(ComponentMediator, 18);
 
-            InternalCam_01_ControlPreset_Widget = new Mtg_Rm_4176.Cam_01_ControlPreset_Widget(ComponentMediator, 19);
+            InternalVolume_Control_02_Cmute_Widget = new Mtg_Rm_4176.Volume_Control_02_Cmute_Widget(ComponentMediator, 20);
+
+            InternalCam_01_ControlPreset_Widget = new Mtg_Rm_4176.Cam_01_ControlPreset_Widget(ComponentMediator, 21);
 
 
             for (int index = 0; index < devices.Length; index++)
@@ -159,6 +164,7 @@ namespace Mtg_Rm_4176
             InternalAdmin_Login_Widget.AddDevice(device);
             InternalProjDisp_01_PowerScreen_Widget.AddDevice(device);
             InternalAdmin_Volume_Widget.AddDevice(device);
+            InternalVolume_Control_02_Cmute_Widget.AddDevice(device);
             InternalCam_01_ControlPreset_Widget.AddDevice(device);
 
         }
@@ -175,6 +181,7 @@ namespace Mtg_Rm_4176
             InternalAdmin_Login_Widget.RemoveDevice(device);
             InternalProjDisp_01_PowerScreen_Widget.RemoveDevice(device);
             InternalAdmin_Volume_Widget.RemoveDevice(device);
+            InternalVolume_Control_02_Cmute_Widget.RemoveDevice(device);
             InternalCam_01_ControlPreset_Widget.RemoveDevice(device);
         }
 
@@ -201,6 +208,7 @@ namespace Mtg_Rm_4176
             InternalAdmin_Login_Widget.Dispose();
             InternalProjDisp_01_PowerScreen_Widget.Dispose();
             InternalAdmin_Volume_Widget.Dispose();
+            InternalVolume_Control_02_Cmute_Widget.Dispose();
             InternalCam_01_ControlPreset_Widget.Dispose();
 
             ComponentMediator.Dispose(); 
