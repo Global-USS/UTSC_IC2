@@ -58,6 +58,18 @@ namespace Standard_Classroom.Main_Page
         event EventHandler<UIEventArgs> BtnVolume_PressEvent;
 
         /// <summary>
+        /// Btn.AuRA.Visibility Feedback
+        /// </summary>
+        /// <param name="callback">The bool delegate to update the panel.</param>
+        void BtnAuRA_Visibility_fb(Main_PageBoolInputSigDelegate callback);
+
+        /// <summary>
+        /// Btn.AuRA.Visibility Feedback
+        /// </summary>
+        /// <param name="digital">The bool to update the panel.</param>
+        void BtnAuRA_Visibility_fb(bool digital);
+
+        /// <summary>
         /// Date Time.Visibility Feedback
         /// </summary>
         /// <param name="callback">The bool delegate to update the panel.</param>
@@ -316,64 +328,70 @@ namespace Standard_Classroom.Main_Page
 
 
                 /// <summary>
+                /// Input or Feedback digital joinInfo from Control System to panel: Main_Page.BtnAuRA.Visibility_fb
+                /// Btn.AuRA.Visibility
+                /// </summary>
+                public const uint BtnAuRA_Visibility_fbState = 1;
+
+                /// <summary>
                 /// Input or Feedback digital joinInfo from Control System to panel: Main_Page.DateTime.Visibility_fb
                 /// Date Time.Visibility
                 /// </summary>
-                public const uint DateTime_Visibility_fbState = 1;
+                public const uint DateTime_Visibility_fbState = 2;
 
                 /// <summary>
                 /// Input or Feedback digital joinInfo from Control System to panel: Main_Page.Logo.Visibility_fb
                 /// Logo.Visibility
                 /// </summary>
-                public const uint Logo_Visibility_fbState = 2;
+                public const uint Logo_Visibility_fbState = 3;
 
                 /// <summary>
                 /// Input or Feedback digital joinInfo from Control System to panel: Main_PageVisibilityJoin
                 /// Main_Page.VisibilityJoin
                 /// </summary>
-                public const uint Main_Page_VisibilityJoinState = 3;
+                public const uint Main_Page_VisibilityJoinState = 4;
 
                 /// <summary>
                 /// Input or Feedback digital joinInfo from Control System to panel: Main_Page.TxtLogOffMsg.Visibility_fb
                 /// Txt.LogOffMsg.Visibility
                 /// </summary>
-                public const uint TxtLogOffMsg_Visibility_fbState = 4;
+                public const uint TxtLogOffMsg_Visibility_fbState = 5;
 
                 /// <summary>
                 /// Input or Feedback digital joinInfo from Control System to panel: Main_Page.TxtWelcomeMsg.Visibility_fb
                 /// Txt.WelcomeMsg.Visibility
                 /// </summary>
-                public const uint TxtWelcomeMsg_Visibility_fbState = 5;
+                public const uint TxtWelcomeMsg_Visibility_fbState = 6;
 
                 /// <summary>
                 /// Input or Feedback digital joinInfo from Control System to panel: Main_Page.BtnSystemOff.Enable
                 /// Btn.SystemOff.Enable
                 /// </summary>
-                public const uint BtnSystemOff_EnableState = 6;
+                public const uint BtnSystemOff_EnableState = 7;
 
                 /// <summary>
                 /// Input or Feedback digital joinInfo from Control System to panel: Main_Page.BtnAuRA.Selected
                 /// Btn.AuRA.Selected
                 /// </summary>
-                public const uint BtnAuRA_SelectedState = 7;
+                public const uint BtnAuRA_SelectedState = 8;
 
                 /// <summary>
                 /// Input or Feedback digital joinInfo from Control System to panel: Main_Page.BtnPrivacyMuteTgl.Selected
                 /// Btn.PrivacyMuteTgl.Selected
                 /// </summary>
-                public const uint BtnPrivacyMuteTgl_SelectedState = 8;
+                public const uint BtnPrivacyMuteTgl_SelectedState = 9;
 
                 /// <summary>
                 /// Input or Feedback digital joinInfo from Control System to panel: Main_Page.BtnProj.Selected
                 /// Btn.Proj.Selected
                 /// </summary>
-                public const uint BtnProj_SelectedState = 9;
+                public const uint BtnProj_SelectedState = 10;
 
                 /// <summary>
                 /// Input or Feedback digital joinInfo from Control System to panel: Main_Page.BtnVolume.Selected
                 /// Btn.Volume.Selected
                 /// </summary>
-                public const uint BtnVolume_SelectedState = 10;
+                public const uint BtnVolume_SelectedState = 11;
 
             }
         }
@@ -572,6 +590,20 @@ namespace Standard_Classroom.Main_Page
         public void BtnAuRA_Selected(bool digital)
         {
             BtnAuRA_Selected((sig, component) => sig.BoolValue = digital);
+        }
+        /// <inheritdoc/>
+        public void BtnAuRA_Visibility_fb(Main_PageBoolInputSigDelegate callback)
+        {
+            for (int index = 0; index < Devices.Count; index++)
+            {
+                callback(Devices[index].SmartObjects[ControlJoinId].BooleanInput[Joins.Booleans.BtnAuRA_Visibility_fbState], this);
+            }
+        }
+
+        /// <inheritdoc/>
+        public void BtnAuRA_Visibility_fb(bool digital)
+        {
+            BtnAuRA_Visibility_fb((sig, component) => sig.BoolValue = digital);
         }
         /// <inheritdoc/>
         public void BtnPrivacyMuteTgl_Selected(Main_PageBoolInputSigDelegate callback)

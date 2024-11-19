@@ -1,7 +1,7 @@
 {
   "type": "standardClassroom",
   "room": {
-    "number": "B1010",
+    "number": "4180",
     "projectors": {
       "count": 1,
       "projectors": [
@@ -35,7 +35,7 @@
         "audRoute": 7
       },
       {
-        "name": "Doc Cam",
+        "name": "Not Supported",
         "vidRoute": 3,
         "audRoute": 8
       },
@@ -71,12 +71,8 @@
       }
     ],
     "cameras": {
-      "count": 1,
+      "count": 0,
       "cameras": [
-        {
-          "name": "Rear",
-          "ipAddress": "172.16.30.139"
-        }
       ]
     },
     "wirelessMics": {
@@ -92,16 +88,16 @@
       "mics": [
         {
           "name": "Front",
-          "ipAddress": "172.16.30.135"
+          "ipAddress": "172.16.30.235"
         },
         {
           "name": "Rear",
-          "ipAddress": "172.16.30.137"
+          "ipAddress": "172.16.30.237"
         }
       ]
     },
     "dsp": {
-      "ipAddress": "172.16.30.142"
+      "ipAddress": "172.16.30.241"
     }
   },
   "uiConfig": {
@@ -115,7 +111,7 @@
         "widget": "Volume_Control_03_Panel_Widget"
       },
       "camCtrlWidget": {
-        "widget": "Cam_01_Control_Widget"
+        "widget": ""
       },
       "srcRoutingWidget": {
         "widget": "Proj_01_Source_04_Widget"
@@ -126,7 +122,7 @@
     "deviceControl": {
       "Input_Name_HDMI_1": "PODIUM PC",
       "Input_Name_HDMI_2": "LAPTOP HDMI",
-      "Input_Name_HDMI_3": "DOCUMENT CAMERA",
+      "Input_Name_HDMI_3": "UNUSED",
       "Input_Name_HDMI_4": "UNUSED",
       "Input_Name_HDMI_5": "UNUSED",
       "Input_Name_HDMI_6": "AuRA PREVIEW",
