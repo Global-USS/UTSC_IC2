@@ -20,7 +20,6 @@ SPlsWork/
 #--------------------------------------
 # Crestron VTP Pro---------------------
 # output files
-*.vtz
 *.vta
 *.hash
 *.sgd
