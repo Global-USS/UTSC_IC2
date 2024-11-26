@@ -1,0 +1,31 @@
+Crosspoint listing for C:\Users\mathew.klucznyk.GUSS\Programming\GitProjects\UTSC_IC2\Control\UTSC_IC2_SeminarRm.SMW
+
+Note:  Crosspoint symbols with EquipID or ControlID set to 0d are not routeable.
+
+Equipment Crosspoint Routing.                                                                       EquipID
+===========================================================================================================
+S-3 in macro S-3.1.5.1.3 (Module File C:\Users\mathew.klucznyk.GUSS\Programming\GitProject          1000
+s\UTSC_IC2\Control\Audio Router Equipment v2.1.0.umc)                                               
+S-3 in macro S-3.1.5.2.3 (Module File C:\Users\mathew.klucznyk.GUSS\Programming\GitProject          1001
+s\UTSC_IC2\Control\Audio Router Equipment v2.1.0.umc)                                               
+S-3 in macro S-3.1.5.3.3 (Module File C:\Users\mathew.klucznyk.GUSS\Programming\GitProject          1100
+s\UTSC_IC2\Control\Audio Router Equipment v2.1.0.umc)                                               
+S-3 in macro S-3.1.5.4.3 (Module File C:\Users\mathew.klucznyk.GUSS\Programming\GitProject          1101
+s\UTSC_IC2\Control\Audio Router Equipment v2.1.0.umc)                                               
+S-3 in macro S-3.1.5.5.3 (Module File C:\Users\mathew.klucznyk.GUSS\Programming\GitProject          1102
+s\UTSC_IC2\Control\Audio Router Equipment v2.1.0.umc)                                               
+S-3 in macro S-3.1.5.6.3 (Module File C:\Users\mathew.klucznyk.GUSS\Programming\GitProject          1103
+s\UTSC_IC2\Control\Audio Router Equipment v2.1.0.umc)                                               
+S-3.3.1.4                                                                                           2000
+S-3.3.2.4                                                                                           2001
+
+Control Crosspoint Routing.                                                                         ControlID
+=============================================================================================================
+S-2 in macro S-2.10.2 (Module File C:\Users\mathew.klucznyk.GUSS\Programming\GitProjects\U          100
+TSC_IC2\Control\Audio Router Control v2.1.0.umc)                                                    
+S-2 in macro S-2.10.3 (Module File C:\Users\mathew.klucznyk.GUSS\Programming\GitProjects\U          101
+TSC_IC2\Control\Audio Router Control v2.1.0.umc)                                                    
+S-2.12.4                                                                                            200
+S-6.3 in macro S-1.6.1 (Module File C:\Users\mathew.klucznyk.GUSS\Programming\GitProjects\          60000
+UTSC_IC2\Control\Fusion SSI V2.8.0 - rName.umc)                                                     
+

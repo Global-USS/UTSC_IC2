@@ -1,0 +1,25 @@
+{FileMetadata}
+Schema = "1.0.0.0"
+CreatedByAppHost = "1.3501.16.0"
+Created = 2024-11-25 15:15:59.38975-05:00
+LastModifiedByAppHost = "1.3501.16.0"
+Modified = 2024-11-25 15:15:59.389747-05:00
+CreatedByProjectApp = "1.3501.16.0"
+LastModifiedByProjectApp = "1.3501.16.0"
+MinimumProjectApp = "1.2600.1"
+
+{DeviceResolutionSource}
+[]
+
+{ProjectAttributes}
+
+[Attributes]
+ComponentKey = "UiEditor"
+Name = "Seminar_Room"
+ThemeId = "light-theme.css"
+ThemePageColor = "#ffffff"
+SdkId = "CH5:2.11.1"
+DeviceResolutionIds = "G-L-4KMONIT-2560-1440,D-L-TSW1070-1280-0800"
+ipId = "99"
+ProjectSchemaVersion = "4"
+
