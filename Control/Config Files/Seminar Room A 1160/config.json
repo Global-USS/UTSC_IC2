@@ -1,0 +1,145 @@
+{
+  "type": "seminarRoom",
+  "room": {
+    "number": "1160",
+    "projectors": {
+      "count": 1,
+      "projectors": [
+        {
+          "name": "Projector"
+        }
+      ]
+    },
+    "displays": {
+      "count": 1,
+      "displays": [
+        {
+          "name": "Display"
+        }
+      ]
+    },
+    "pods": {
+      "count": 0,
+      "pods": []
+    },
+    "sources": [
+      {
+        "name": "None",
+        "vidRoute": 0,
+        "audRoute": 0
+      },
+      {
+        "name": "Room PC",
+        "vidRoute": 1,
+        "audRoute": 6
+      },
+      {
+        "name": "Rack HDMI",
+        "vidRoute": 2,
+        "audRoute": 7
+      },
+      {
+        "name": "Not Supported",
+        "vidRoute": 3,
+        "audRoute": 8
+      },
+      {
+        "name": "Not Supported",
+        "vidRoute": 4,
+        "audRoute": 9
+      },
+      {
+        "name": "Not Supported",
+        "vidRoute": 5,
+        "audRoute": 10
+      },
+      {
+        "name": "Not Supported",
+        "vidRoute": 6,
+        "audRoute": 11
+      },
+      {
+        "name": "Table HDMI",
+        "vidRoute": 7,
+        "audRoute": 12
+      },
+      {
+        "name": "Not Supported",
+        "vidRoute": 8,
+        "audRoute": 13
+      },
+      {
+        "name": "AirMedia",
+        "vidRoute": 9,
+        "audRoute": 14
+      }
+    ],
+    "cameras": {
+      "count": 2,
+      "cameras": [
+        {
+          "name": "Ceiling",
+          "ipAddress": "172.16.30.202"
+        },
+        {
+          "name": "Wall",
+          "ipAddress": "172.16.30.203"
+        }
+      ]
+    },
+    "wirelessMics": {
+      "count": 0,
+      "mics": []
+    },
+    "ceilingMics": {
+      "count": 1,
+      "mics": [
+        {
+          "name": "Ceiling Mic",
+          "ipAddress": "172.16.30.200"
+        }
+      ]
+    },
+    "dsp": {
+      "ipAddress": "172.16.30.206"
+    }
+  },
+  "uiConfig": {
+    "widgets": {
+      "projCtrlWidget": {
+        "widget": "ProjDisp_01_Power-Screen_Widget",
+        "sendToProj1Label": "Send to<br>Projector",
+        "sendToProj2Label": "Send to<br>Display"
+      },
+      "volCtrlWidget": {
+        "widget": "Volume_Control_02_CMute_Widget"
+      },
+      "camCtrlWidget": {
+        "widget": "Cam_02_Control_Widget"
+      },
+      "srcRoutingWidget": {
+        "widget": "Proj_02_Source_04_Widget"
+      }
+    }
+  },
+  "dmpsConfig": {
+    "deviceControl": {
+      "Input_Name_HDMI_1": "PODIUM PC",
+      "Input_Name_HDMI_2": "RACK HDMI",
+      "Input_Name_HDMI_3": "UNUSED",
+      "Input_Name_HDMI_4": "UNUSED",
+      "Input_Name_HDMI_5": "UNUSED",
+      "Input_Name_HDMI_6": "AuRA PREVIEW",
+      "Input_Name_DM_7": "TABLE DMTX",
+      "Input_Name_DM_8": "UNUSED",
+      "Input_Name_AirMedia_9": "AIRMEDIA",
+      "Output_Name_Program": "PROGRAM",
+      "Output_Name_Aux_1": "AUX 1",
+      "Output_Name_Aux_2": "AUX 2",
+      "Output_Name_HDMI_1": "PODIUM MONITOR",
+      "Output_Name_HDMI_2": "AuRA CONTENT",
+      "Output_Name_DM_3": "PROJECTOR",
+      "Output_Name_DM_4": "DISPLAY"
+    }
+  }
+}
