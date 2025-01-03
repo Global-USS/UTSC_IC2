@@ -1,0 +1,228 @@
+[BEGIN]
+  ObjTp=FSgntr
+  Sgntr=ArchiveManifest
+  RelVrs=4.3000.01
+  IsProgram=1
+  TopLevelProgram=UTSC_IC2_TheCollaboratorium(B1100).smw
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=UTSC_IC2_TheCollaboratorium(B1100).smw
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=UTSC_IC2_TheCollaboratorium(B1100).sig
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=UTSC_IC2_TheCollaboratorium(B1100).lpz
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=UTSC_IC2_TheCollaboratorium(B1100).smft
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=UTSC_IC2_TheCollaboratorium(B1100).lpz.hash
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=UTSC_IC2_TheCollaboratorium(B1100)_CrosspointList.txt
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Standard_Classroom.chd_
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Epson PU2010 Projector RS232.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Epson.clz
+  Scope=1
+  Module=Epson PU2010 Projector RS232.ush
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=String Extract.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Guss.SimplExtensions.clz
+  Scope=1
+  Module=String Extract.ush
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Epson Debug Manager.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Press and Hold.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Audio Router Control v2.1.0.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Device Power v1.5.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Json Store.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=JsonStore.clz
+  Scope=1
+  Module=Json Store.ush
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=MK - Passcode Database v1.0.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=MK - Passcode Database v1.0.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=MK - Passcode Entry v1.0.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=MK - Passcode Entry v1.0.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Source Text.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Analog Min Max Scaler.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=SimplExtensions.clz
+  Scope=1
+  Module=Analog Min Max Scaler.ush
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Biamp Tesira Command Processor IP v3.3.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Biamp Tesira Comm v3.3.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=BiampTesiraLib3.clz
+  Scope=1
+  Module=Biamp Tesira Comm v3.3
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Biamp Tesira Command Processor IP v3.3 Help.pdf
+  Scope=1
+  Module=Biamp Tesira Comm v3.3.ush
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Audio Router Equipment v2.1.0.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Biamp Tesira Basic LevelMute Control v3.3.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Biamp Tesira Basic LevelMute Control v3.3.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Biamp Tesira Basic LevelMute Control v3.3 Help.pdf
+  Scope=1
+  Module=Biamp Tesira Basic LevelMute Control v3.3.ush
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Biamp Tesira Basic LevelMute Control v3.3 Help.pdf
+  Scope=1
+  Module=Biamp Tesira Basic LevelMute Control v3.3.umc
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Toggle.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Biamp Tesira State Control v3.3.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Biamp Tesira State Control v3.3.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Biamp Tesira State Control v3.3 Help.pdf
+  Scope=1
+  Module=Biamp Tesira State Control v3.3.ush
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Biamp Tesira State Control v3.3 Help.pdf
+  Scope=1
+  Module=Biamp Tesira State Control v3.3.umc
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Crosspoint Connector v1.1.1.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Aver-Camera_IP_v2.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=UDP Client.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Guss.Communications.clz
+  Scope=1
+  Module=UDP Client.ush
+[END]

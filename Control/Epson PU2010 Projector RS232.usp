@@ -224,7 +224,6 @@ Function Main()
    GatherAsync(":", RxResponse, RxResponseGatherHandler);
    
    WaitForInitializationComplete();
-   PowerIsOff = true;
    delay(10);
 
    _proj.Configure(DeviceID);

@@ -4,7 +4,7 @@ Version=1
 [
 ObjTp=FSgntr
 Sgntr=UserMacro
-RelVrs=4.30.01
+RelVrs=4.28.00
 IntStrVrs=2
 MinSMWVrs=4.14.0
 MinTIOVrs=0
@@ -17,15 +17,15 @@ S1Nd=2
 SLNd=3
 PrNm=Toggle.umc
 CmVr=3.03
-DbVr=226.05.003.00
-DvcDbVr=200.365.004.00
+DbVr=223.00.001.00
+DvcDbVr=200.325.002.00
 PgmNm=Mat Klucznyk
 DlrNm=Global USS
 CltNm=Toggle
 Incl=1766,2574,2651,2817,2886,2938,2947,3181,3197,3233,3710,3735,3736,3816,3888,4176,4308,4476,4591,4769,5360,5388,5420,5455,5497,5699,5813,5919,6150,6161,6089,6101,6114,6136,6343,6356,6357,6423,8939,8943,
 McNm=Toggle
-SmVr=1209
-DvVr=1209
+SmVr=1198
+DvVr=1198
 TpN1=1
 TpN2=2
 TpN3=3
@@ -44,20 +44,6 @@ Nm1=\
 Sx1=0
 Sy1=0
 Mx1=0
-]
-[
-ObjTp=Bw
-H=1
-Lx=0
-Ly=0
-Rx=862
-Ry=702
-Xm=-1
-Ym=-1
-SH=20
-Z=100
-Ht=1
-Hi=1
 ]
 [
 ObjTp=Symbol
@@ -266,7 +252,7 @@ mO=2
 tO=2
 O1=14
 mP=1
-P1=1d
+P1=1t
 ]
 [
 ObjTp=Sm
@@ -433,7 +419,7 @@ O2=22
 O3=25
 O4=26
 mP=1
-P1=1d
+P1=1t
 ]
 [
 ObjTp=Sm

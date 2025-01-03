@@ -75,8 +75,8 @@
   ParamSigType10=String
   ParamCue11=DefaultPort
   ParamSigType11=Constant
-  ParamCue12=DefaultDebugLevel,0d,1d,2d,3d
-  ParamSigType12=List
+  ParamCue12=DefaultDebugLevel
+  ParamSigType12=Constant
   MinVariableInputs=2
   MaxVariableInputs=2
   MinVariableInputsList2=6
@@ -148,24 +148,13 @@
   ObjTp=Dp
   H=12
   Tp=1
-  SD=default_debug_level
-  HD=True
-  DV=0d
+  HD=False
   Sgn=0
   Lng=False
-  NF=1
+  NF=63
   NoS=True
   DNF=1
-  VVS=2
-  VN=4
-  Val1=0d
-  Lbl1=Disabled
-  Val2=1d
-  Lbl2=Logging Enabled
-  Val3=2d
-  Lbl3=Debug Enabled
-  Val4=3d
-  Lbl4=All Enabled
+  VVS=0
 [END]
 [BEGIN]
 ObjTp=Status
