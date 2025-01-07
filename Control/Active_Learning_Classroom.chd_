@@ -3,7 +3,7 @@ ObjTp=FSgntr
 Sgntr=CHD
 RelVrs=1
 Schema=1
-CrestronConstruct=1.3501.16.0
+CrestronConstruct=1.3601.24.0
 ]
 [
 ObjTp=Hd
@@ -11,7 +11,7 @@ Schema=1
 ProjectFile=Active_Learning_Classroom.cuip
 ContractID=QWN0aXZlX0xlYXJuaW5nX0NsYXNzcm9vbQ==
 CEProjectVer=1.0.0.0
-DateTimeUTC=2024-11-19 21:02:44.214
+DateTimeUTC=2025-01-07 15:07:26.616
 ]
 [
 ObjTp=Symbol
@@ -4193,3 +4193,4 @@ Child12=24
 Child13=4
 Child14=27
 ]
+;;;;;;;;;;;;;;;;
