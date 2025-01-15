@@ -1,0 +1,27 @@
+{FileMetadata}
+Schema = "1.0.0.0"
+CreatedByAppHost = "1.3501.16.0"
+Created = 2024-10-15 13:13:16.448892-04:00
+LastModifiedByAppHost = "2.1.48.0"
+Modified = 2025-01-15 12:15:51.866402-05:00
+CreatedByProjectApp = "1.3501.16.0"
+LastModifiedByProjectApp = "1.3601.24.0"
+MinimumProjectApp = "1.2600.1"
+MinimumAppHost = "2.0.0"
+
+{DeviceResolutionSource}
+[]
+
+{ProjectAttributes}
+
+[Attributes]
+Name = "Mtg_Rm_4176"
+ThemeId = "light-theme.css"
+ThemePageColor = "#ffffff"
+SdkId = "CH5:2.11.1"
+ComponentKey = "UiEditor"
+Id = "e06b122a-ea80-4b9d-b247-8931608ef810"
+DeviceResolutionIds = "G-L-4KMONIT-2560-1440,D-L-TSW1070-1280-0800"
+ipId = "99"
+ProjectSchemaVersion = "5"
+

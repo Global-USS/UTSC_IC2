@@ -1,9 +1,9 @@
 {FileMetadata}
 Schema = "1.0.0.0"
 CreatedByAppHost = "1.3501.16.0"
-Created = 2024-10-15 13:13:16.486386-04:00
+Created = 2024-12-02 09:42:02.30693-05:00
 LastModifiedByAppHost = "1.3501.16.0"
-Modified = 2024-10-15 13:13:16.486384-04:00
+Modified = 2024-12-02 09:42:02.306928-05:00
 CreatedByProjectApp = "1.3501.16.0"
 LastModifiedByProjectApp = "1.3501.16.0"
 MinimumProjectApp = ""
@@ -11,7 +11,7 @@ MinimumProjectApp = ""
 {AssetAttributes}
 
 [Attributes]
-Id = "549c97c3-d5dd-4a29-a860-2261879240c6"
+Id = "508579b5-bfdb-4c19-837d-3b3475fd91e4"
 Name = "Privacy_Mute"
 SourceUri = "Privacy_Mute.svg"
 AspectRatio = "0"

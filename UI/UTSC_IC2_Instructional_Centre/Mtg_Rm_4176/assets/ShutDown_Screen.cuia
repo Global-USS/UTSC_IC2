@@ -1,9 +1,9 @@
 {FileMetadata}
 Schema = "1.0.0.0"
 CreatedByAppHost = "1.3501.16.0"
-Created = 2024-10-15 13:13:16.494443-04:00
+Created = 2024-12-02 09:42:02.315381-05:00
 LastModifiedByAppHost = "1.3501.16.0"
-Modified = 2024-10-15 13:13:16.494441-04:00
+Modified = 2024-12-02 09:42:02.315379-05:00
 CreatedByProjectApp = "1.3501.16.0"
 LastModifiedByProjectApp = "1.3501.16.0"
 MinimumProjectApp = ""
@@ -11,7 +11,7 @@ MinimumProjectApp = ""
 {AssetAttributes}
 
 [Attributes]
-Id = "746e4bf3-1fbe-4dec-b1c6-913b930e9087"
+Id = "d115231d-705b-4c55-8c25-94398e4b974a"
 Name = "ShutDown_Screen"
 SourceUri = "ShutDown_Screen.jpg"
 AspectRatio = "1.7777777777777777"

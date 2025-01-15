@@ -1,0 +1,500 @@
+{FileMetadata}
+Schema = "1.0.0.0"
+CreatedByAppHost = "1.3400.21.0"
+Created = 2024-08-27 08:06:41.204561-04:00
+LastModifiedByAppHost = "1.3400.21.0"
+Modified = 2024-08-27 08:06:41.204558-04:00
+CreatedByProjectApp = "1.3400.21.0"
+LastModifiedByProjectApp = "1.3400.21.0"
+MinimumProjectApp = "1.2600.1"
+
+{Html}
+<div categoryname="Widget Components" id="i8pko139hg" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" defaultwidth="500px" defaultheight="500px" globalcontrolcontract="on" class="widget-container"><html-div componentname="InputBorder" id="ine0u" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" componentwasresized="false"></html-div><ch5-color-chip maxvalue="255" id="i4val" componentname="Txt.Input.BG" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" previewcolor="#ffffff">
+              </ch5-color-chip><ch5-text clearlabel="false" labelmodeadvncomponent="simple" horizontalalignment="center" verticalalignment="middle" multilinesupport="false" truncatetext="false" labelinnerhtml="Input" id="irt67" componentname="Txt.Input" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" ccid_themecssset="true">
+              </ch5-text><ch5-button-list centeritems="true" columns="1" endless="false" numberofitems="4" orientation="vertical" previewstate="buttonnormal" usecontractforcustomstyle="false" usecontractforcustomclass="false" rows="1" scrollbar="true" scrolltoposition="0" stretch="null" indexid="idx" customclass="ccid-custom" buttoncheckboxposition="left" buttoncheckboxshow="false" buttonhalignlabel="center" buttonvalignlabel="middle" buttoniconposition="top" buttonmode="0" buttonshape="custom" buttontype="default" buttoniconurlfilltype="initial" pd-receivestateenable="" pd-receivestateshow="" pd-receivestatescrolltoposition="" pd-receivestatenumberofitems="" pd-buttonreceivestateselected="Contract Enabled" pd-buttonreceivestatescriptlabelhtml="" pd-buttonreceivestateiconclass="" buttonsendeventonclick="Contract Enabled" pd-buttonreceivestateenable="" pd-buttonreceivestateshow="Contract Enabled" usecontractforeachbuttonselection="false" affectedbypreviewstate="True" customvstheme="custom" id="ifu7bjj23rber" componentname="BtnList.SrcSelect" ccid_linksendreceive="True" ccid_imageicontype="iconclass" assetid="0" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" pd-receivestateselectedbutton="" oldid="id6j2jfnxd5q2" buttonselected="false" usecontractforitemshow="true"><ch5-button-list-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 1" id="inhk" devicesvisited="[&quot;4K Monitor&quot;]" pageflipattributename="onRelease" onrelease="0" labelinnerhtml="Room PC" iconclass="fas fa-desktop"></ch5-button-list-individual-button><ch5-button-list-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 2" devicesvisited="[&quot;4K Monitor&quot;]" pageflipattributename="onRelease" onrelease="0" id="i50j" labelinnerhtml="Laptop HDMI" iconclass="fas fa-laptop"></ch5-button-list-individual-button><ch5-button-list-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 3" devicesvisited="[&quot;4K Monitor&quot;]" pageflipattributename="onRelease" onrelease="0" id="ix1h" labelmodeindividualbtnlist="simple" iconclass="fas fa-folder" labelinnerhtml="Doc Cam"></ch5-button-list-individual-button><ch5-button-list-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 4" devicesvisited="[&quot;4K Monitor&quot;]" pageflipattributename="onRelease" onrelease="0" id="i2yg" labelinnerhtml="AirMedia" iconclass="fas fa-wifi"></ch5-button-list-individual-button></ch5-button-list><html-div componentname="Output[1]_Border" id="izfezppjrk515" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" oldid="ine0u" componentwasresized="true"></html-div><ch5-color-chip maxvalue="255" id="i9m2qk1dahppl" componentname="Txt.Output[1].Bg" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" previewcolor="#ffffff" oldid="i4val"></ch5-color-chip><ch5-text clearlabel="false" labelmodeadvncomponent="simple" horizontalalignment="center" verticalalignment="middle" multilinesupport="false" truncatetext="false" id="i426nzprktcbj" componentname="Txt.Ouput[1]" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" ccid_themecssset="true" oldid="irt67" labelinnerhtml="Left & Right Output"></ch5-text><ch5-button type="default" halignlabel="center" valignlabel="middle" checkboxshow="false" checkboxposition="left" disabled="false" pageflipattributename="pageflip" clearlabel="false" ccid_imageicontype="iconclass" ccid_linksendreceive="False" iconurlfilltype="initial" customclass="ccid-custom" affectedbypreviewstate="True" shape="custom" customvstheme="custom" id="ij59" labelinnerhtml="Send to Left<br>Projector" pageflip="0" iconposition="top" previewstate="normal" orientation="horizontal" labelmode="simple" componentname="Btn.SendToProj[1]" ccid_themecssset="true" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" size="custom" oldid="ihwfebdq5h" selected="false" sendeventontouch="Contract Enabled" pd-receivestateenable="Contract Enabled"></ch5-button><ch5-button type="default" halignlabel="center" valignlabel="middle" checkboxshow="false" checkboxposition="left" disabled="false" pageflipattributename="pageflip" clearlabel="false" ccid_imageicontype="iconclass" ccid_linksendreceive="False" iconurlfilltype="initial" customclass="ccid-custom" affectedbypreviewstate="True" shape="custom" customvstheme="custom" id="i7fv" labelinnerhtml="Send to Right<br>Projector" pageflip="0" iconposition="top" previewstate="normal" orientation="horizontal" labelmode="simple" componentname="Btn.SendToProj[2]" ccid_themecssset="true" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" size="custom" oldid="is7w" selected="false" sendeventontouch="Contract Enabled" pd-receivestateenable="Contract Enabled"></ch5-button><ch5-image refreshrate="0" customvstheme="custom" assetid="c0acc97b-8366-4f2b-8d0a-552e1a294f0b" id="iyxk" componentname="DisplayImage[1]" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" oldid="ijk09"></ch5-image><ch5-image refreshrate="0" customvstheme="custom" assetid="c0acc97b-8366-4f2b-8d0a-552e1a294f0b" id="ib99ljjx2gi1a" componentname="DisplayImage[2]" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" oldid="ims7"></ch5-image><ch5-button type="default" halignlabel="center" valignlabel="middle" checkboxshow="false" checkboxposition="left" disabled="false" pageflipattributename="pageflip" clearlabel="false" ccid_imageicontype="iconclass" ccid_linksendreceive="False" iconurlfilltype="initial" customclass="ccid-custom" affectedbypreviewstate="True" shape="custom" customvstheme="custom" id="i8yjc3l4idjml" labelinnerhtml="Send to Both" pageflip="0" iconposition="top" previewstate="normal" orientation="horizontal" labelmode="simple" componentname="Btn.SendToAll" ccid_themecssset="true" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" size="custom" oldid="i7fv" selected="false" sendeventontouch="Contract Enabled" pd-receivestateenable="Contract Enabled"></ch5-button><ch5-text clearlabel="false" labelmodeadvncomponent="simple" horizontalalignment="center" verticalalignment="middle" multilinesupport="false" truncatetext="false" labelinnerhtml="SOURCE INFORMATION" id="i3gb" componentname="Str.Proj[1]_CurrentSrc" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" ccid_themecssset="true" oldid="i63ej" pd-receivestatelabel="Contract Enabled"></ch5-text><ch5-text clearlabel="false" labelmodeadvncomponent="simple" horizontalalignment="center" verticalalignment="middle" multilinesupport="false" truncatetext="false" labelinnerhtml="SOURCE INFORMATION" id="iigt7y29hsb5s" componentname="Str.Proj[2]_CurrentSrc" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" ccid_themecssset="true" oldid="iivx" pd-receivestatelabel="Contract Enabled"></ch5-text><html-div componentname="Output[2]_Border" id="ix1vgb3a4oou6" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" oldid="izfezppjrk515"></html-div><ch5-color-chip maxvalue="255" id="if4n222nukimh" componentname="Txt.Output[2].BG" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" previewcolor="#ffffff" oldid="i9m2qk1dahppl"></ch5-color-chip><ch5-text clearlabel="false" labelmodeadvncomponent="simple" horizontalalignment="center" verticalalignment="middle" multilinesupport="false" truncatetext="false" id="it9ggynmy6kmj" componentname="Txt.Output[2]" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" ccid_themecssset="true" oldid="i426nzprktcbj" labelinnerhtml="Centre Output" componentwasresized="true"></ch5-text><ch5-button type="default" halignlabel="center" valignlabel="middle" checkboxshow="false" checkboxposition="left" disabled="false" pageflipattributename="pageflip" clearlabel="false" ccid_imageicontype="iconclass" ccid_linksendreceive="False" iconurlfilltype="initial" customclass="ccid-custom" affectedbypreviewstate="True" shape="custom" customvstheme="custom" id="iclorpdbn0fj3" labelinnerhtml="Send to Centre<br>Projector" pageflip="0" iconposition="top" previewstate="normal" orientation="horizontal" labelmode="simple" componentname="Btn.SendToProj[3]" ccid_themecssset="true" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" size="custom" oldid="i7fv" selected="false" sendeventontouch="Contract Enabled" pd-receivestateenable="Contract Enabled"></ch5-button><ch5-image refreshrate="0" customvstheme="custom" assetid="c0acc97b-8366-4f2b-8d0a-552e1a294f0b" id="ims7" componentname="DisplayImage[3]" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" oldid="iw0w"></ch5-image><ch5-text clearlabel="false" labelmodeadvncomponent="simple" horizontalalignment="center" verticalalignment="middle" multilinesupport="false" truncatetext="false" labelinnerhtml="SOURCE INFORMATION" id="iivx" componentname="Str.Proj[3]_CurrentSrc" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" ccid_themecssset="true" oldid="i0s3" pd-receivestatelabel="Contract Enabled"></ch5-text></div>
+
+{Css}
+@media (max-width: 99999px){#i8pko139hg{width:2224px;height:1193px;left:0;top:0;position:absolute;}.widget-container{background-image:linear-gradient(45deg, #DAE2EA 25%, transparent 25%), linear-gradient(-45deg, #DAE2EA 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #DAE2EA 75%), linear-gradient(-45deg, transparent 75%, #DAE2EA 75%);background-size:20px 20px;background-position:0 0, 0 10px, 10px -10px, -10px 0px;z-index:0;}#ia7i .ch5-image{border-color:black;object-fit:contain;}#iajc6897wuluf .ch5-button--default{border-style:solid;border-color:#0091ea;color:#ffffff;background-color:#92005d;border-width:1px;}#iajc6897wuluf .ch5-button--default .ch5-button--label{font-family:Roboto;color:#ffffff;font-size:30px;font-weight:400;buttonDefaultLabel_font-size:30px;buttonDefaultLabel_color:#ffffff;buttonDefaultLabel_font-weight:400;custom-font-size:30px;margin-left:0;margin-right:0;margin-bottom:0;}#iajc6897wuluf .ch5-button--default .ch5-button--icon{color:#ffffff;font-size:30px;custom-font-size:30px;buttonDefaultIcon_font-size:30px;buttonDefaultIcon_color:#ffffff;margin-left:0;margin-right:0;margin-bottom:0;}#iajc6897wuluf .ch5-button--default .cb-checkbox-icon{color:#ffffff;buttonDefaultCheckbox_color:#ffffff;}#iajc6897wuluf .ccid-custom.ch5-button--default .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#iajc6897wuluf .ch5-button--default.ch5-button--pressed{color:#f0fff0;background-color:#63849b;border-color:#0091ea;}#iajc6897wuluf .ch5-button--default.ch5-button--pressed .ch5-button--label{color:#f0fff0;font-size:25px;font-weight:400;buttonDefaultPressedLabel_font-size:25px;buttonDefaultPressedLabel_color:#f0fff0;buttonDefaultPressedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:25px;}#iajc6897wuluf .ch5-button--default.ch5-button--pressed .ch5-button--icon{color:#f0fff0;font-size:25px;custom-font-size:25px;buttonDefaultPressedIcon_font-size:25px;buttonDefaultPressedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#iajc6897wuluf .ch5-button--default.ch5-button--pressed .cb-checkbox-icon{color:#f0fff0;buttonDefaultPressedCheckbox_color:#f0fff0;}#iajc6897wuluf .ccid-custom.ch5-button--default.ch5-button--pressed .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#iajc6897wuluf .ch5-button--default.ch5-button--selected{color:#f0fff0;background-color:#012841;border-color:#0091ea;}#iajc6897wuluf .ch5-button--default.ch5-button--selected .ch5-button--label{color:#f0fff0;font-size:30px;font-weight:400;buttonDefaultSelectedLabel_font-size:30px;buttonDefaultSelectedLabel_color:#f0fff0;buttonDefaultSelectedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:30px;}#iajc6897wuluf .ch5-button--default.ch5-button--selected .ch5-button--icon{color:#f0fff0;font-size:30px;custom-font-size:30px;buttonDefaultSelectedIcon_font-size:30px;buttonDefaultSelectedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#iajc6897wuluf .ch5-button--default.ch5-button--selected .cb-checkbox-icon{color:#f0fff0;buttonDefaultSelectedCheckbox_color:#f0fff0;}#iajc6897wuluf .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#iajc6897wuluf .ch5-button--size-regular .cb-btn{width:237px;height:133px;}#iajc6897wuluf .ch5-button--circle.ch5-button--size-regular .cb-btn{width:237px;height:237px;}#iajc6897wuluf .ch5-button--rounded-rectangle{border-top-left-radius:20px;border-radius:20px 20px 20px 20px;border-top-right-radius:20px;border-bottom-right-radius:20px;border-bottom-left-radius:20px;}#ims7 .ch5-image{border-color:black;object-fit:contain;}#iivx .ch5-text{width:390px;height:48px;background-color:rgba(146,0,93,0);color:#ffffff;font-weight:700;font-size:xx-large;custom-font-size:xx-largename;}#iclorpdbn0fj3{width:237px;height:133px;left:962px;font-family:Roboto;display:block;top:930px;position:absolute;buttonDefaultLabel_font-size:xx-largename;buttonDefaultPressedLabel_font-size:x-largename;buttonDefaultPressedIcon_font-size:25px;buttonDefaultSelectedIcon_font-size:30px;buttonDefaultIcon_font-size:xx-largename;newRuleWidth:237px;newRuleHeight:133px;}#iclorpdbn0fj3 .ch5-button--default{border-style:solid;border-color:#0091ea;color:#ffffff;background-color:#92005d;border-width:0;max-height:100%;max-width:100%;display:flex;align-items:center;}#iclorpdbn0fj3 .ch5-button--default .ch5-button--label{font-family:Roboto;color:#ffffff;font-size:xx-large;font-weight:400;buttonDefaultLabel_font-size:xx-largename;buttonDefaultLabel_color:#ffffff;buttonDefaultLabel_font-weight:400;custom-font-size:xx-largename;margin-left:0;margin-right:0;margin-bottom:0;}#iclorpdbn0fj3 .ch5-button--default .ch5-button--icon{color:#ffffff;font-size:xx-large;custom-font-size:xx-largename;buttonDefaultIcon_font-size:xx-largename;buttonDefaultIcon_color:#ffffff;margin-left:0;margin-right:0;margin-bottom:0;}#iclorpdbn0fj3 .ch5-button--default .cb-checkbox-icon{color:#ffffff;buttonDefaultCheckbox_color:#ffffff;}#iclorpdbn0fj3 .ccid-custom.ch5-button--default .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#iclorpdbn0fj3 .ch5-button--default.ch5-button--pressed{color:#f0fff0;background-color:#92005d;border-color:#0091ea;}#iclorpdbn0fj3 .ch5-button--default.ch5-button--pressed .ch5-button--label{color:#f0fff0;font-size:x-large;font-weight:400;buttonDefaultPressedLabel_font-size:x-largename;buttonDefaultPressedLabel_color:#f0fff0;buttonDefaultPressedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:x-largename;buttonDefaultPressedLabel_margin-top:2px;margin-top:4px;}#iclorpdbn0fj3 .ch5-button--default.ch5-button--pressed .ch5-button--icon{color:#f0fff0;custom-font-size:name;buttonDefaultPressedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;buttonDefaultPressedIcon_margin-top:0;margin-top:0;}#iclorpdbn0fj3 .ch5-button--default.ch5-button--pressed .cb-checkbox-icon{color:#f0fff0;buttonDefaultPressedCheckbox_color:#f0fff0;}#iclorpdbn0fj3 .ccid-custom.ch5-button--default.ch5-button--pressed .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#iclorpdbn0fj3 .ch5-button--default.ch5-button--selected{color:#f0fff0;background-color:#d20086;border-color:#0091ea;}#iclorpdbn0fj3 .ch5-button--default.ch5-button--selected .ch5-button--label{color:#f0fff0;font-weight:400;buttonDefaultSelectedLabel_color:#f0fff0;buttonDefaultSelectedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:name;}#iclorpdbn0fj3 .ch5-button--default.ch5-button--selected .ch5-button--icon{color:#f0fff0;custom-font-size:name;buttonDefaultSelectedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#iclorpdbn0fj3 .ch5-button--default.ch5-button--selected .cb-checkbox-icon{color:#f0fff0;buttonDefaultSelectedCheckbox_color:#f0fff0;}#iclorpdbn0fj3 .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#iclorpdbn0fj3 .ch5-button--size-regular .cb-btn{width:237px;height:133px;}#iclorpdbn0fj3 .ch5-button--circle.ch5-button--size-regular .cb-btn{width:237px;height:237px;}#iclorpdbn0fj3 .ch5-button--rounded-rectangle{border-top-left-radius:20px;border-radius:20px 20px 20px 20px;border-top-right-radius:20px;border-bottom-right-radius:20px;border-bottom-left-radius:20px;}#irt67 .ch5-text{width:113px;height:48px;font-size:30px;custom-font-size:30px;font-weight:700;}#i4val .ch5-color-chip{width:106px;height:40px;colorChipPreview_background-color:#ffffff;background-color:#ffffff;}#i4val .ch5-color-chip-preview{background-color:#ffffff;colorChipPreview_background-color:#ffffff;}#i426nzprktcbj .ch5-text{width:302px;height:44px;font-size:30px;custom-font-size:30px;font-weight:700;}#i9m2qk1dahppl .ch5-color-chip{width:302px;height:40px;colorChipPreview_background-color:#ffffff;background-color:#ffffff;}#i9m2qk1dahppl .ch5-color-chip-preview{background-color:#ffffff;colorChipPreview_background-color:#ffffff;}#ifu7bjj23rber .ch5-button-list{width:257px;height:810px;}#ifu7bjj23rber .ch5-button-list--button-container{listbuttonHSize_width:100px;width:100px;listbuttonVSize_height:143px;height:143px;}#ifu7bjj23rber .ch5-button-list.ch5-button-list--orientation-horizontal{listbuttonSpacing_row-gap:50px;row-gap:50px;listbuttonSpacing_column-gap:0px;column-gap:0px;}#ifu7bjj23rber .ccid-custom .ch5-button-list--button-type-default .ch5-button--img{buttonListDefaultImage_width:21px;width:21px;buttonListDefaultImage_height:21px;height:21px;}#ifu7bjj23rber .ch5-button-list.ch5-button-list--orientation-horizontal .ch5-button-list--button-container{height:100%;}#ifu7bjj23rber .ch5-button-list.ch5-button-list--orientation-vertical .ch5-button-list--button-container{width:100%;}#ifu7bjj23rber .ch5-button-list.ch5-button-list--orientation-vertical{listbuttonSpacing_row-gap:50px;row-gap:50px;listbuttonSpacing_column-gap:0px;column-gap:0px;}#ifu7bjj23rber .ccid-custom .ch5-button-list--button-type-default.ch5-button--selected .ch5-button--img{buttonListDefaultImage_width:21px;buttonListDefaultImage_height:21px;width:21px;height:21px;}#ifu7bjj23rber .ccid-custom .ch5-button-list--button-type-default.ch5-button--pressed .ch5-button--img{buttonListDefaultImage_width:21px;buttonListDefaultImage_height:21px;width:21px;height:21px;}#ifu7bjj23rber .ch5-button-list--button-type-default{border-style:solid;background-color:#0099ff;border-width:0;}#ifu7bjj23rber .ch5-button-list--button-shape-rectangle{border-top-left-radius:20px;border-radius:20px 20px 20px 20px;border-top-right-radius:20px;border-bottom-right-radius:20px;border-bottom-left-radius:20px;}#ifu7bjj23rber .ch5-button-list--button-type-default.ch5-button--pressed{background-color:#76c8ff;}#ifu7bjj23rber .ch5-button-list--button-type-default.ch5-button--selected{background-color:#02426d;}#ifu7bjj23rber .ch5-button-list--button-type-default .ch5-button--span .ch5-button--icon{font-size:xx-large;custom-font-size:xx-largename;buttonListDefaultIcon_font-size:xx-largename;}#ifu7bjj23rber .ch5-button-list--button-type-default.ch5-button--pressed .ch5-button--span .ch5-button--icon{font-size:x-large;custom-font-size:x-largename;buttonListDefaultPressedIcon_font-size:x-largename;}#ifu7bjj23rber .ch5-button-list--button-type-default .ch5-button--span .ch5-button--label{buttonListDefaultLabel_font-size:xx-largename;font-size:xx-large;custom-font-size:xx-largename;}#ifu7bjj23rber .ch5-button-list--button-type-default.ch5-button--pressed .ch5-button--span .ch5-button--label{buttonListDefaultPressedLabel_font-size:x-largename;font-size:x-large;custom-font-size:x-largename;}#ifu7bjj23rber .ch5-button-list--button-type-default.ch5-button--selected .ch5-button--span .ch5-button--label{custom-font-size:name;}#ifu7bjj23rber .ch5-button-list--button-type-default.ch5-button--selected .ch5-button--span .ch5-button--icon{custom-font-size:name;}#it9ggynmy6kmj .ch5-text{width:302px;height:44px;font-size:30px;custom-font-size:30px;font-weight:700;}#if4n222nukimh .ch5-color-chip{width:302px;height:40px;colorChipPreview_background-color:#ffffff;background-color:#ffffff;}#if4n222nukimh .ch5-color-chip-preview{background-color:#ffffff;colorChipPreview_background-color:#ffffff;}#ib99ljjx2gi1a .ch5-image{border-color:black;object-fit:contain;}#i8yjc3l4idjml{width:690px;height:133px;left:1043px;font-family:Roboto;display:block;top:638px;position:absolute;buttonDefaultLabel_font-size:xx-largename;buttonDefaultPressedLabel_font-size:x-largename;buttonDefaultPressedIcon_font-size:25px;buttonDefaultSelectedIcon_font-size:30px;buttonDefaultIcon_font-size:xx-largename;newRuleWidth:237px;newRuleHeight:133px;}#i8yjc3l4idjml .ch5-button--default{border-style:solid;border-color:#0091ea;color:#ffffff;background-color:#92005d;border-width:0;max-height:100%;max-width:100%;display:flex;align-items:center;}#i8yjc3l4idjml .ch5-button--default .ch5-button--label{font-family:Roboto;color:#ffffff;font-size:xx-large;font-weight:400;buttonDefaultLabel_font-size:xx-largename;buttonDefaultLabel_color:#ffffff;buttonDefaultLabel_font-weight:400;custom-font-size:xx-largename;margin-left:0;margin-right:0;margin-bottom:0;}#i8yjc3l4idjml .ch5-button--default .ch5-button--icon{color:#ffffff;font-size:xx-large;custom-font-size:xx-largename;buttonDefaultIcon_font-size:xx-largename;buttonDefaultIcon_color:#ffffff;margin-left:0;margin-right:0;margin-bottom:0;}#i8yjc3l4idjml .ch5-button--default .cb-checkbox-icon{color:#ffffff;buttonDefaultCheckbox_color:#ffffff;}#i8yjc3l4idjml .ccid-custom.ch5-button--default .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#i8yjc3l4idjml .ch5-button--default.ch5-button--pressed{color:#f0fff0;background-color:#92005d;border-color:#0091ea;}#i8yjc3l4idjml .ch5-button--default.ch5-button--pressed .ch5-button--label{color:#f0fff0;font-size:x-large;font-weight:400;buttonDefaultPressedLabel_font-size:x-largename;buttonDefaultPressedLabel_color:#f0fff0;buttonDefaultPressedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:x-largename;buttonDefaultPressedLabel_margin-top:2px;margin-top:4px;}#i8yjc3l4idjml .ch5-button--default.ch5-button--pressed .ch5-button--icon{color:#f0fff0;custom-font-size:name;buttonDefaultPressedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;buttonDefaultPressedIcon_margin-top:0;margin-top:0;}#i8yjc3l4idjml .ch5-button--default.ch5-button--pressed .cb-checkbox-icon{color:#f0fff0;buttonDefaultPressedCheckbox_color:#f0fff0;}#i8yjc3l4idjml .ccid-custom.ch5-button--default.ch5-button--pressed .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#i8yjc3l4idjml .ch5-button--default.ch5-button--selected{color:#f0fff0;background-color:#d20086;border-color:#0091ea;}#i8yjc3l4idjml .ch5-button--default.ch5-button--selected .ch5-button--label{color:#f0fff0;font-weight:400;buttonDefaultSelectedLabel_color:#f0fff0;buttonDefaultSelectedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:name;}#i8yjc3l4idjml .ch5-button--default.ch5-button--selected .ch5-button--icon{color:#f0fff0;custom-font-size:name;buttonDefaultSelectedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#i8yjc3l4idjml .ch5-button--default.ch5-button--selected .cb-checkbox-icon{color:#f0fff0;buttonDefaultSelectedCheckbox_color:#f0fff0;}#i8yjc3l4idjml .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#i8yjc3l4idjml .ch5-button--size-regular .cb-btn{width:690px;height:133px;}#i8yjc3l4idjml .ch5-button--circle.ch5-button--size-regular .cb-btn{width:237px;height:237px;}#i8yjc3l4idjml .ch5-button--rounded-rectangle{border-top-left-radius:20px;border-radius:20px 20px 20px 20px;border-top-right-radius:20px;border-bottom-right-radius:20px;border-bottom-left-radius:20px;}#ij59{width:237px;height:133px;left:962px;font-family:Roboto;display:block;top:123px;position:absolute;buttonDefaultLabel_font-size:xx-largename;buttonDefaultPressedLabel_font-size:x-largename;buttonDefaultPressedIcon_font-size:25px;buttonDefaultSelectedIcon_font-size:30px;buttonDefaultIcon_font-size:xx-largename;newRuleWidth:237px;newRuleHeight:133px;}#ij59 .ch5-button--default{border-style:solid;border-color:#0091ea;color:#ffffff;background-color:#92005d;border-width:0;max-height:100%;max-width:100%;display:flex;align-items:center;}#ij59 .ch5-button--default .ch5-button--label{font-family:Roboto;color:#ffffff;font-size:xx-large;font-weight:400;buttonDefaultLabel_font-size:xx-largename;buttonDefaultLabel_color:#ffffff;buttonDefaultLabel_font-weight:400;custom-font-size:xx-largename;margin-left:0;margin-right:0;margin-bottom:0;}#ij59 .ch5-button--default .ch5-button--icon{color:#ffffff;font-size:xx-large;custom-font-size:xx-largename;buttonDefaultIcon_font-size:xx-largename;buttonDefaultIcon_color:#ffffff;margin-left:0;margin-right:0;margin-bottom:0;}#ij59 .ch5-button--default .cb-checkbox-icon{color:#ffffff;buttonDefaultCheckbox_color:#ffffff;}#ij59 .ccid-custom.ch5-button--default .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#ij59 .ch5-button--default.ch5-button--pressed{color:#f0fff0;background-color:#92005d;border-color:#0091ea;}#ij59 .ch5-button--default.ch5-button--pressed .ch5-button--label{color:#f0fff0;font-size:x-large;font-weight:400;buttonDefaultPressedLabel_font-size:x-largename;buttonDefaultPressedLabel_color:#f0fff0;buttonDefaultPressedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:x-largename;buttonDefaultPressedLabel_margin-top:2px;margin-top:4px;}#ij59 .ch5-button--default.ch5-button--pressed .ch5-button--icon{color:#f0fff0;custom-font-size:name;buttonDefaultPressedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;buttonDefaultPressedIcon_margin-top:0;margin-top:0;}#ij59 .ch5-button--default.ch5-button--pressed .cb-checkbox-icon{color:#f0fff0;buttonDefaultPressedCheckbox_color:#f0fff0;}#ij59 .ccid-custom.ch5-button--default.ch5-button--pressed .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#ij59 .ch5-button--default.ch5-button--selected{color:#f0fff0;background-color:#d20086;border-color:#0091ea;}#ij59 .ch5-button--default.ch5-button--selected .ch5-button--label{color:#f0fff0;font-weight:400;buttonDefaultSelectedLabel_color:#f0fff0;buttonDefaultSelectedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:name;}#ij59 .ch5-button--default.ch5-button--selected .ch5-button--icon{color:#f0fff0;custom-font-size:name;buttonDefaultSelectedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#ij59 .ch5-button--default.ch5-button--selected .cb-checkbox-icon{color:#f0fff0;buttonDefaultSelectedCheckbox_color:#f0fff0;}#ij59 .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#ij59 .ch5-button--size-regular .cb-btn{width:237px;height:133px;}#ij59 .ch5-button--circle.ch5-button--size-regular .cb-btn{width:237px;height:237px;}#ij59 .ch5-button--rounded-rectangle{border-top-left-radius:20px;border-radius:20px 20px 20px 20px;border-top-right-radius:20px;border-bottom-right-radius:20px;border-bottom-left-radius:20px;}#i7fv .ch5-button--default{border-style:solid;border-color:#0091ea;color:#ffffff;background-color:#92005d;border-width:0;max-height:100%;max-width:100%;display:flex;align-items:center;}#i7fv .ch5-button--default .ch5-button--label{font-family:Roboto;color:#ffffff;font-size:xx-large;font-weight:400;buttonDefaultLabel_font-size:xx-largename;buttonDefaultLabel_color:#ffffff;buttonDefaultLabel_font-weight:400;custom-font-size:xx-largename;margin-left:0;margin-right:0;margin-bottom:0;}#i7fv .ch5-button--default .ch5-button--icon{color:#ffffff;font-size:xx-large;custom-font-size:xx-largename;buttonDefaultIcon_font-size:xx-largename;buttonDefaultIcon_color:#ffffff;margin-left:0;margin-right:0;margin-bottom:0;}#i7fv .ch5-button--default .cb-checkbox-icon{color:#ffffff;buttonDefaultCheckbox_color:#ffffff;}#i7fv .ccid-custom.ch5-button--default .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#i7fv .ch5-button--default.ch5-button--pressed{color:#f0fff0;background-color:#92005d;border-color:#0091ea;}#i7fv .ch5-button--default.ch5-button--pressed .ch5-button--label{color:#f0fff0;font-size:x-large;font-weight:400;buttonDefaultPressedLabel_font-size:x-largename;buttonDefaultPressedLabel_color:#f0fff0;buttonDefaultPressedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:x-largename;buttonDefaultPressedLabel_margin-top:2px;margin-top:4px;}#i7fv .ch5-button--default.ch5-button--pressed .ch5-button--icon{color:#f0fff0;custom-font-size:name;buttonDefaultPressedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;buttonDefaultPressedIcon_margin-top:0;margin-top:0;}#i7fv .ch5-button--default.ch5-button--pressed .cb-checkbox-icon{color:#f0fff0;buttonDefaultPressedCheckbox_color:#f0fff0;}#i7fv .ccid-custom.ch5-button--default.ch5-button--pressed .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#i7fv .ch5-button--default.ch5-button--selected{color:#f0fff0;background-color:#d20086;border-color:#0091ea;}#i7fv .ch5-button--default.ch5-button--selected .ch5-button--label{color:#f0fff0;font-weight:400;buttonDefaultSelectedLabel_color:#f0fff0;buttonDefaultSelectedLabel_font-weight:400;margin-left:0;margin-right:0;margin-bottom:0;custom-font-size:name;}#i7fv .ch5-button--default.ch5-button--selected .ch5-button--icon{color:#f0fff0;custom-font-size:name;buttonDefaultSelectedIcon_color:#f0fff0;margin-left:0;margin-right:0;margin-bottom:0;}#i7fv .ch5-button--default.ch5-button--selected .cb-checkbox-icon{color:#f0fff0;buttonDefaultSelectedCheckbox_color:#f0fff0;}#i7fv .ccid-custom.ch5-button--default.ch5-button--selected .ch5-button--img{width:21px;height:21px;buttonDefaultImage_width:21px;buttonDefaultImage_height:21px;}#i7fv .ch5-button--size-regular .cb-btn{width:237px;height:133px;}#i7fv .ch5-button--circle.ch5-button--size-regular .cb-btn{width:237px;height:237px;}#i7fv .ch5-button--rounded-rectangle{border-top-left-radius:20px;border-radius:20px 20px 20px 20px;border-top-right-radius:20px;border-bottom-right-radius:20px;border-bottom-left-radius:20px;}#i7fv{width:237px;height:133px;left:962px;font-family:Roboto;display:block;top:392px;position:absolute;buttonDefaultLabel_font-size:xx-largename;buttonDefaultPressedLabel_font-size:x-largename;buttonDefaultPressedIcon_font-size:25px;buttonDefaultSelectedIcon_font-size:30px;buttonDefaultIcon_font-size:xx-largename;newRuleWidth:237px;newRuleHeight:133px;}#iigt7y29hsb5s .ch5-text{width:390px;height:48px;background-color:rgba(146,0,93,0);color:#ffffff;font-weight:700;font-size:xx-large;custom-font-size:xx-largename;}#i3gb .ch5-text{width:390px;height:48px;background-color:rgba(146,0,93,0);color:#ffffff;font-weight:700;font-size:xx-large;custom-font-size:xx-largename;}#iyxk .ch5-image{border-color:black;object-fit:contain;}#irt67{width:119px;height:48px;font-family:Roboto;display:block;left:397px;top:165px;position:absolute;font-weight:700;}#i426nzprktcbj{width:302px;height:44px;font-family:Roboto;display:block;left:928px;top:13px;position:absolute;font-weight:700;}#i3gb{width:390px;height:48px;font-family:Roboto;display:block;left:1381px;top:166px;position:absolute;font-weight:700;}#iigt7y29hsb5s{width:390px;height:48px;font-family:Roboto;display:block;left:1381px;top:435px;position:absolute;font-weight:700;}#it9ggynmy6kmj{width:302px;height:44px;font-family:Roboto;display:block;left:928px;top:812px;position:absolute;font-weight:700;}#iivx{width:390px;height:48px;font-family:Roboto;display:block;left:1381px;top:973px;position:absolute;font-weight:700;}#izfezppjrk515{display:block;background-color:rgba(182,198,213,0);border-style:solid;border-width:5px;border-color:#0099ff;width:1137px;height:769px;left:791px;top:32px;position:absolute;border-top-left-radius:20px;border-radius:20px 20px 20px 20px;border-top-right-radius:20px;border-bottom-right-radius:20px;border-bottom-left-radius:20px;}#i9m2qk1dahppl{width:302px;height:40px;display:block;left:928px;top:13px;position:absolute;colorChipPreview_background-color:#ffffff;}#i4val{width:106px;height:40px;display:block;left:400px;top:168px;position:absolute;colorChipPreview_background-color:#ffffff;}#ine0u{display:block;background-color:rgba(182,198,213,0);border-style:solid;border-width:5px;border-color:#0099ff;width:324px;height:810px;left:295px;top:186px;position:absolute;border-top-left-radius:20px;border-radius:20px 20px 20px 20px;border-top-right-radius:20px;border-bottom-right-radius:20px;border-bottom-left-radius:20px;}#ix1vgb3a4oou6{display:block;background-color:rgba(182,198,213,0);border-style:solid;border-width:5px;border-color:#0099ff;width:1137px;height:333px;left:791px;top:831px;position:absolute;border-top-left-radius:20px;border-radius:20px 20px 20px 20px;border-top-right-radius:20px;border-bottom-right-radius:20px;border-bottom-left-radius:20px;}#if4n222nukimh{width:302px;height:40px;display:block;left:928px;top:812px;position:absolute;colorChipPreview_background-color:#ffffff;}#iyxk{width:453px;height:340px;display:block;left:1349px;top:20px;position:absolute;}#ib99ljjx2gi1a{width:449px;height:340px;display:block;left:1349px;top:293px;position:absolute;}#ims7{width:453px;height:340px;display:block;left:1349px;top:827px;position:absolute;}#wrapper{background-color:#ffffff;}#ifu7bjj23rber{width:257px;height:810px;listbuttonHSize_width:100px;listbuttonVSize_height:143px;listbuttonSpacing_row-gap:50px;listbuttonSpacing_column-gap:0px;buttonListDefaultImage_width:21px;buttonListDefaultImage_height:21px;display:block;left:327px;top:188px;position:absolute;buttonListDefaultLabel_font-size:xx-largename;buttonListDefaultPressedLabel_font-size:x-largename;buttonListDefaultIcon_font-size:xx-largename;buttonListDefaultPressedIcon_font-size:x-largename;}}@media (orientation: landscape) and (max-width: 2561px) and (max-height: 1441px), (orientation: landscape) and (max-width: 2559px){#i8pko139hg{width:2224px;height:1193px;left:0;top:0;position:absolute;}}@media (orientation: landscape) and (max-width: 1281px) and (max-height: 801px), (orientation: landscape) and (max-width: 1279px){#ij59{width:150px;height:75px;buttonDefaultPressedLabel_font-size:mediumname;top:230px;left:432px;position:absolute;buttonDefaultSelectedLabel_font-size:largename;buttonDefaultLabel_font-size:largename;}#i7fv{width:150px;height:75px;buttonDefaultPressedLabel_font-size:mediumname;top:230px;left:758px;position:absolute;buttonDefaultSelectedLabel_font-size:largename;buttonDefaultLabel_font-size:largename;}#iclorpdbn0fj3{width:150px;height:75px;buttonDefaultPressedLabel_font-size:mediumname;left:432px;top:502px;position:absolute;buttonDefaultLabel_font-size:largename;}#ij59 .ch5-button--size-regular .cb-btn{width:150px;height:75px;}#i7fv .ch5-button--size-regular .cb-btn{width:150px;height:75px;}#iclorpdbn0fj3 .ch5-button--size-regular .cb-btn{width:150px;height:75px;}#ij59 .ch5-button--default.ch5-button--pressed .ch5-button--label{buttonDefaultPressedLabel_font-size:mediumname;font-size:medium;custom-font-size:mediumname;}#i7fv .ch5-button--default.ch5-button--pressed .ch5-button--label{buttonDefaultPressedLabel_font-size:mediumname;font-size:medium;custom-font-size:mediumname;}#iclorpdbn0fj3 .ch5-button--default.ch5-button--pressed .ch5-button--label{buttonDefaultPressedLabel_font-size:mediumname;font-size:medium;custom-font-size:mediumname;}#ifu7bjj23rber .ch5-button-list--button-container{listbuttonVSize_height:85px;height:85px;}#i8pko139hg{width:1080px;height:650px;left:0;top:0;position:absolute;}#ifu7bjj23rber .ch5-button-list{width:170px;height:416px;}#ifu7bjj23rber .ch5-button-list--button-shape-rectangle.ch5-button--selected{border-top-left-radius:10px;border-radius:10px 10px 10px 10px;border-top-right-radius:10px;border-bottom-right-radius:10px;border-bottom-left-radius:10px;}#ij59 .ch5-button--rounded-rectangle.ch5-button--pressed{border-top-left-radius:10px;border-radius:10px 10px 10px 10px;border-top-right-radius:10px;border-bottom-right-radius:10px;border-bottom-left-radius:10px;}#i7fv .ch5-button--rounded-rectangle.ch5-button--pressed{border-top-left-radius:10px;border-radius:10px 10px 10px 10px;border-top-right-radius:10px;border-bottom-right-radius:10px;border-bottom-left-radius:10px;}#i8yjc3l4idjml .ch5-button--rounded-rectangle.ch5-button--pressed{border-top-left-radius:10px;border-radius:10px 10px 10px 10px;border-top-right-radius:10px;border-bottom-right-radius:10px;border-bottom-left-radius:10px;}#iclorpdbn0fj3 .ch5-button--rounded-rectangle.ch5-button--pressed{border-top-left-radius:10px;border-radius:10px 10px 10px 10px;border-top-right-radius:10px;border-bottom-right-radius:10px;border-bottom-left-radius:10px;}#ifu7bjj23rber .ch5-button-list--button-type-default .ch5-button--span .ch5-button--label{buttonListDefaultLabel_font-size:largename;font-size:large;custom-font-size:largename;}#ifu7bjj23rber .ch5-button-list--button-type-default .ch5-button--span .ch5-button--icon{buttonListDefaultIcon_font-size:x-largename;font-size:x-large;custom-font-size:x-largename;}#ifu7bjj23rber .ch5-button-list--button-shape-rectangle{border-top-left-radius:10px;border-radius:10px 10px 10px 10px;border-top-right-radius:10px;border-bottom-right-radius:10px;border-bottom-left-radius:10px;}#ifu7bjj23rber .ch5-button-list--button-type-default.ch5-button--pressed .ch5-button--span .ch5-button--label{buttonListDefaultPressedLabel_font-size:mediumname;font-size:medium;custom-font-size:mediumname;}#ifu7bjj23rber .ch5-button-list--button-type-default.ch5-button--pressed .ch5-button--span .ch5-button--icon{buttonListDefaultPressedIcon_font-size:largename;font-size:large;custom-font-size:largename;}#irt67 .ch5-text{font-size:16px;custom-font-size:16px;width:80px;height:44px;}#ifu7bjj23rber .ch5-button-list.ch5-button-list--orientation-horizontal{listbuttonSpacing_row-gap:20px;row-gap:20px;}#ifu7bjj23rber .ch5-button-list.ch5-button-list--orientation-vertical{listbuttonSpacing_row-gap:20px;row-gap:20px;}#i4val .ch5-color-chip{width:80px;height:44px;}#i426nzprktcbj .ch5-text{font-size:16px;custom-font-size:16px;width:177px;}#i9m2qk1dahppl .ch5-color-chip{width:177px;height:44px;}#if4n222nukimh .ch5-color-chip{height:44px;width:141px;}#it9ggynmy6kmj .ch5-text{font-size:16px;custom-font-size:16px;width:141px;}#i8yjc3l4idjml{top:324px;left:540px;position:absolute;width:272px;height:75px;buttonDefaultPressedLabel_font-size:mediumname;buttonDefaultIcon_font-size:largename;buttonDefaultLabel_font-size:largename;buttonDefaultSelectedLabel_font-size:largename;}#i8yjc3l4idjml .ch5-button--size-regular .cb-btn{height:75px;width:272px;}#i8yjc3l4idjml .ch5-button--default.ch5-button--pressed .ch5-button--label{buttonDefaultPressedLabel_font-size:mediumname;font-size:medium;custom-font-size:mediumname;}#i8yjc3l4idjml .ch5-button--default .ch5-button--icon{buttonDefaultIcon_font-size:largename;font-size:large;custom-font-size:largename;}#i8yjc3l4idjml .ch5-button--rounded-rectangle{border-top-left-radius:10px;border-radius:10px 10px 10px 10px;border-top-right-radius:10px;border-bottom-right-radius:10px;border-bottom-left-radius:10px;}#i8yjc3l4idjml .ch5-button--default .ch5-button--label{buttonDefaultLabel_font-size:largename;font-size:large;custom-font-size:largename;}#i3gb .ch5-text{font-size:large;custom-font-size:largename;width:241px;}#iigt7y29hsb5s .ch5-text{font-size:large;custom-font-size:largename;width:241px;}#iivx .ch5-text{font-size:large;custom-font-size:largename;width:241px;}#iclorpdbn0fj3 .ch5-button--default.ch5-button--selected .ch5-button--label{custom-font-size:name;}#i8yjc3l4idjml .ch5-button--default.ch5-button--selected .ch5-button--label{font-size:large;buttonDefaultSelectedLabel_font-size:largename;custom-font-size:largename;}#i7fv .ch5-button--default.ch5-button--selected .ch5-button--label{font-size:large;buttonDefaultSelectedLabel_font-size:largename;custom-font-size:largename;}#ij59 .ch5-button--default.ch5-button--selected .ch5-button--label{font-size:large;buttonDefaultSelectedLabel_font-size:largename;custom-font-size:largename;}#iclorpdbn0fj3 .ch5-button--rounded-rectangle{border-top-left-radius:10px;border-radius:10px 10px 10px 10px;border-top-right-radius:10px;border-bottom-right-radius:10px;border-bottom-left-radius:10px;}#i7fv .ch5-button--rounded-rectangle{border-top-left-radius:10px;border-radius:10px 10px 10px 10px;border-top-right-radius:10px;border-bottom-right-radius:10px;border-bottom-left-radius:10px;}#ij59 .ch5-button--rounded-rectangle{border-top-left-radius:10px;border-radius:10px 10px 10px 10px;border-top-right-radius:10px;border-bottom-right-radius:10px;border-bottom-left-radius:10px;}#iclorpdbn0fj3 .ch5-button--default .ch5-button--label{buttonDefaultLabel_font-size:largename;font-size:large;custom-font-size:largename;}#i7fv .ch5-button--default .ch5-button--label{buttonDefaultLabel_font-size:largename;font-size:large;custom-font-size:largename;}#ij59 .ch5-button--default .ch5-button--label{buttonDefaultLabel_font-size:largename;font-size:large;custom-font-size:largename;}#ifu7bjj23rber .ccid-custom .ch5-button-list--button-type-default .ch5-button--img{height:416px;}#irt67{top:70px;left:109px;position:absolute;width:80px;height:44px;}#i426nzprktcbj{top:20px;left:330px;position:absolute;width:177px;}#i3gb{top:123px;left:393px;position:absolute;width:241px;}#iigt7y29hsb5s{top:123px;left:721px;position:absolute;width:241px;}#it9ggynmy6kmj{top:430px;left:330px;position:absolute;width:141px;}#iivx{top:516px;left:721px;position:absolute;width:241px;}#ine0u{top:92px;left:34px;position:absolute;width:230px;height:465px;}#i4val{left:109px;top:70px;width:80px;height:44px;}#izfezppjrk515{left:301px;top:36px;width:745px;height:384px;position:absolute;}#i9m2qk1dahppl{left:330px;top:20px;width:177px;height:44px;}#ix1vgb3a4oou6{top:452px;left:301px;position:absolute;width:745px;height:180px;}#if4n222nukimh{top:430px;left:330px;position:absolute;width:141px;height:44px;}#iyxk{top:72px;left:393px;position:absolute;width:241px;height:150px;}#ib99ljjx2gi1a{top:72px;left:721px;position:absolute;width:241px;height:150px;}#ims7{top:469px;left:721px;position:absolute;width:241px;height:150px;}#ifu7bjj23rber{listbuttonVSize_height:85px;width:170px;buttonListDefaultLabel_font-size:largename;buttonListDefaultIcon_font-size:x-largename;buttonListDefaultPressedLabel_font-size:mediumname;buttonListDefaultPressedIcon_font-size:largename;height:416px;listbuttonSpacing_row-gap:20px;left:64px;top:117px;position:absolute;}}
+
+{PageAttributes}
+
+[Attributes]
+Name = "Proj_03_Source_04_Widget"
+PageMode = "absolute"
+Id = "4d9270a0-4bb0-4fbc-9df0-7b36dfeecfad"
+
+[[Elements]]
+Type = "widgetContainer"
+Classes = ["widget-container"]
+
+[[Elements.Components]]
+Type = "html-div"
+
+[Elements.Components.Attributes]
+componentName = "InputBorder"
+id = "ine0u"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+componentWasResized = "false"
+[[Elements.Components]]
+Type = "Ch5 Color Chip"
+Editable = true
+
+[[Elements.Components.Components]]
+Type = "textnode"
+Content = "\n              "
+
+[Elements.Components.Attributes]
+maxvalue = "255"
+id = "i4val"
+componentName = "Txt.Input.BG"
+ccid_linkSendReceive = "True"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+previewcolor = "#ffffff"
+[[Elements.Components]]
+Type = "Ch5 Text"
+Editable = true
+
+[[Elements.Components.Components]]
+Type = "textnode"
+Content = "\n              "
+
+[Elements.Components.Attributes]
+clearLabel = "false"
+labelmodeadvncomponent = "simple"
+horizontalalignment = "center"
+verticalalignment = "middle"
+multilinesupport = "false"
+truncatetext = "false"
+labelinnerhtml = "Input"
+id = "irt67"
+componentName = "Txt.Input"
+ccid_linkSendReceive = "True"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+ccid_themeCSSSet = "true"
+[[Elements.Components]]
+Type = "Ch5 Button List"
+Editable = true
+
+[[Elements.Components.Components]]
+Type = "Ch5 Button List Individual Button"
+
+[Elements.Components.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 1"
+id = "inhk"
+devicesVisited = "[\"4K Monitor\"]"
+pageFlipAttributeName = "onRelease"
+onRelease = "0"
+labelinnerhtml = "Room PC"
+iconclass = "fas fa-desktop"
+[[Elements.Components.Components]]
+Type = "Ch5 Button List Individual Button"
+
+[Elements.Components.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 2"
+devicesVisited = "[\"4K Monitor\"]"
+pageFlipAttributeName = "onRelease"
+onRelease = "0"
+id = "i50j"
+labelinnerhtml = "Laptop HDMI"
+iconclass = "fas fa-laptop"
+[[Elements.Components.Components]]
+Type = "Ch5 Button List Individual Button"
+
+[Elements.Components.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 3"
+devicesVisited = "[\"4K Monitor\"]"
+pageFlipAttributeName = "onRelease"
+onRelease = "0"
+id = "ix1h"
+labelmodeIndividualBtnList = "simple"
+iconclass = "fas fa-folder"
+labelinnerhtml = "Doc Cam"
+[[Elements.Components.Components]]
+Type = "Ch5 Button List Individual Button"
+
+[Elements.Components.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 4"
+devicesVisited = "[\"4K Monitor\"]"
+pageFlipAttributeName = "onRelease"
+onRelease = "0"
+id = "i2yg"
+labelinnerhtml = "AirMedia"
+iconclass = "fas fa-wifi"
+
+[Elements.Components.Attributes]
+centeritems = "true"
+columns = "1"
+endless = "false"
+numberofitems = "4"
+orientation = "vertical"
+previewstate = "buttonnormal"
+useContractForCustomStyle = "false"
+useContractForCustomClass = "false"
+rows = "1"
+scrollbar = "true"
+scrolltoposition = "0"
+stretch = "null"
+indexid = "idx"
+customclass = "ccid-custom"
+buttoncheckboxposition = "left"
+buttoncheckboxshow = "false"
+buttonhalignlabel = "center"
+buttonvalignlabel = "middle"
+buttoniconposition = "top"
+buttonmode = "0"
+buttonshape = "custom"
+buttontype = "default"
+buttoniconurlfilltype = "initial"
+pd-receivestateenable = ""
+pd-receivestateshow = ""
+pd-receivestatescrolltoposition = ""
+pd-receivestatenumberofitems = ""
+pd-buttonreceivestateselected = "Contract Enabled"
+pd-buttonreceivestatescriptlabelhtml = ""
+pd-buttonreceivestateiconclass = ""
+buttonsendeventonclick = "Contract Enabled"
+pd-buttonreceivestateenable = ""
+pd-buttonreceivestateshow = "Contract Enabled"
+usecontractforeachbuttonselection = "false"
+affectedByPreviewState = "True"
+customvstheme = "custom"
+id = "ifu7bjj23rber"
+componentName = "BtnList.SrcSelect"
+ccid_linkSendReceive = "True"
+ccid_imageIconType = "iconclass"
+assetid = "0"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+pd-receivestateselectedbutton = ""
+oldID = "id6j2jfnxd5q2"
+buttonselected = "false"
+useContractForItemShow = "true"
+[[Elements.Components]]
+Type = "html-div"
+
+[Elements.Components.Attributes]
+componentName = "Output[1]_Border"
+id = "izfezppjrk515"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+oldID = "ine0u"
+componentWasResized = "true"
+[[Elements.Components]]
+Type = "Ch5 Color Chip"
+Editable = true
+
+[Elements.Components.Attributes]
+maxvalue = "255"
+id = "i9m2qk1dahppl"
+componentName = "Txt.Output[1].Bg"
+ccid_linkSendReceive = "True"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+previewcolor = "#ffffff"
+oldID = "i4val"
+[[Elements.Components]]
+Type = "Ch5 Text"
+Editable = true
+
+[Elements.Components.Attributes]
+clearLabel = "false"
+labelmodeadvncomponent = "simple"
+horizontalalignment = "center"
+verticalalignment = "middle"
+multilinesupport = "false"
+truncatetext = "false"
+id = "i426nzprktcbj"
+componentName = "Txt.Ouput[1]"
+ccid_linkSendReceive = "True"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+ccid_themeCSSSet = "true"
+oldID = "irt67"
+labelinnerhtml = "Left & Right Output"
+[[Elements.Components]]
+Type = "Ch5 Button"
+Editable = true
+
+[Elements.Components.Attributes]
+type = "default"
+halignlabel = "center"
+valignlabel = "middle"
+checkboxshow = "false"
+checkboxposition = "left"
+disabled = "false"
+pageFlipAttributeName = "pageflip"
+clearLabel = "false"
+ccid_imageIconType = "iconclass"
+ccid_linkSendReceive = "False"
+iconurlfilltype = "initial"
+customclass = "ccid-custom"
+affectedByPreviewState = "True"
+shape = "custom"
+customvstheme = "custom"
+id = "ij59"
+labelinnerhtml = "Send to Left<br>Projector"
+pageflip = "0"
+iconposition = "top"
+previewstate = "normal"
+orientation = "horizontal"
+labelmode = "simple"
+componentName = "Btn.SendToProj[1]"
+ccid_themeCSSSet = "true"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+size = "custom"
+oldID = "ihwfebdq5h"
+selected = "false"
+sendeventontouch = "Contract Enabled"
+pd-receivestateenable = "Contract Enabled"
+[[Elements.Components]]
+Type = "Ch5 Button"
+Editable = true
+
+[Elements.Components.Attributes]
+type = "default"
+halignlabel = "center"
+valignlabel = "middle"
+checkboxshow = "false"
+checkboxposition = "left"
+disabled = "false"
+pageFlipAttributeName = "pageflip"
+clearLabel = "false"
+ccid_imageIconType = "iconclass"
+ccid_linkSendReceive = "False"
+iconurlfilltype = "initial"
+customclass = "ccid-custom"
+affectedByPreviewState = "True"
+shape = "custom"
+customvstheme = "custom"
+id = "i7fv"
+labelinnerhtml = "Send to Right<br>Projector"
+pageflip = "0"
+iconposition = "top"
+previewstate = "normal"
+orientation = "horizontal"
+labelmode = "simple"
+componentName = "Btn.SendToProj[2]"
+ccid_themeCSSSet = "true"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+size = "custom"
+oldID = "is7w"
+selected = "false"
+sendeventontouch = "Contract Enabled"
+pd-receivestateenable = "Contract Enabled"
+[[Elements.Components]]
+Type = "Ch5 Image"
+Editable = true
+
+[Elements.Components.Attributes]
+refreshrate = "0"
+customvstheme = "custom"
+assetid = "c0acc97b-8366-4f2b-8d0a-552e1a294f0b"
+id = "iyxk"
+componentName = "DisplayImage[1]"
+ccid_linkSendReceive = "True"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+url = "StaticFiles/4cef4e36-64bd-48f2-8ff0-789dbfbe7984/c0acc97b-8366-4f2b-8d0a-552e1a294f0b/olcglb3k.svg"
+oldID = "ijk09"
+[[Elements.Components]]
+Type = "Ch5 Image"
+Editable = true
+
+[Elements.Components.Attributes]
+refreshrate = "0"
+customvstheme = "custom"
+assetid = "c0acc97b-8366-4f2b-8d0a-552e1a294f0b"
+id = "ib99ljjx2gi1a"
+componentName = "DisplayImage[2]"
+ccid_linkSendReceive = "True"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+url = "StaticFiles/4cef4e36-64bd-48f2-8ff0-789dbfbe7984/c0acc97b-8366-4f2b-8d0a-552e1a294f0b/olcglb3k.svg"
+oldID = "ims7"
+[[Elements.Components]]
+Type = "Ch5 Button"
+Editable = true
+
+[Elements.Components.Attributes]
+type = "default"
+halignlabel = "center"
+valignlabel = "middle"
+checkboxshow = "false"
+checkboxposition = "left"
+disabled = "false"
+pageFlipAttributeName = "pageflip"
+clearLabel = "false"
+ccid_imageIconType = "iconclass"
+ccid_linkSendReceive = "False"
+iconurlfilltype = "initial"
+customclass = "ccid-custom"
+affectedByPreviewState = "True"
+shape = "custom"
+customvstheme = "custom"
+id = "i8yjc3l4idjml"
+labelinnerhtml = "Send to Both"
+pageflip = "0"
+iconposition = "top"
+previewstate = "normal"
+orientation = "horizontal"
+labelmode = "simple"
+componentName = "Btn.SendToAll"
+ccid_themeCSSSet = "true"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+size = "custom"
+oldID = "i7fv"
+selected = "false"
+sendeventontouch = "Contract Enabled"
+pd-receivestateenable = "Contract Enabled"
+[[Elements.Components]]
+Type = "Ch5 Text"
+Editable = true
+
+[Elements.Components.Attributes]
+clearLabel = "false"
+labelmodeadvncomponent = "simple"
+horizontalalignment = "center"
+verticalalignment = "middle"
+multilinesupport = "false"
+truncatetext = "false"
+labelinnerhtml = "SOURCE INFORMATION"
+id = "i3gb"
+componentName = "Str.Proj[1]_CurrentSrc"
+ccid_linkSendReceive = "True"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+ccid_themeCSSSet = "true"
+oldID = "i63ej"
+pd-receivestatelabel = "Contract Enabled"
+[[Elements.Components]]
+Type = "Ch5 Text"
+Editable = true
+
+[Elements.Components.Attributes]
+clearLabel = "false"
+labelmodeadvncomponent = "simple"
+horizontalalignment = "center"
+verticalalignment = "middle"
+multilinesupport = "false"
+truncatetext = "false"
+labelinnerhtml = "SOURCE INFORMATION"
+id = "iigt7y29hsb5s"
+componentName = "Str.Proj[2]_CurrentSrc"
+ccid_linkSendReceive = "True"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+ccid_themeCSSSet = "true"
+oldID = "iivx"
+pd-receivestatelabel = "Contract Enabled"
+[[Elements.Components]]
+Type = "html-div"
+
+[Elements.Components.Attributes]
+componentName = "Output[2]_Border"
+id = "ix1vgb3a4oou6"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+oldID = "izfezppjrk515"
+[[Elements.Components]]
+Type = "Ch5 Color Chip"
+Editable = true
+
+[Elements.Components.Attributes]
+maxvalue = "255"
+id = "if4n222nukimh"
+componentName = "Txt.Output[2].BG"
+ccid_linkSendReceive = "True"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+previewcolor = "#ffffff"
+oldID = "i9m2qk1dahppl"
+[[Elements.Components]]
+Type = "Ch5 Text"
+Editable = true
+
+[Elements.Components.Attributes]
+clearLabel = "false"
+labelmodeadvncomponent = "simple"
+horizontalalignment = "center"
+verticalalignment = "middle"
+multilinesupport = "false"
+truncatetext = "false"
+id = "it9ggynmy6kmj"
+componentName = "Txt.Output[2]"
+ccid_linkSendReceive = "True"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+ccid_themeCSSSet = "true"
+oldID = "i426nzprktcbj"
+labelinnerhtml = "Centre Output"
+componentWasResized = "true"
+[[Elements.Components]]
+Type = "Ch5 Button"
+Editable = true
+
+[Elements.Components.Attributes]
+type = "default"
+halignlabel = "center"
+valignlabel = "middle"
+checkboxshow = "false"
+checkboxposition = "left"
+disabled = "false"
+pageFlipAttributeName = "pageflip"
+clearLabel = "false"
+ccid_imageIconType = "iconclass"
+ccid_linkSendReceive = "False"
+iconurlfilltype = "initial"
+customclass = "ccid-custom"
+affectedByPreviewState = "True"
+shape = "custom"
+customvstheme = "custom"
+id = "iclorpdbn0fj3"
+labelinnerhtml = "Send to Centre<br>Projector"
+pageflip = "0"
+iconposition = "top"
+previewstate = "normal"
+orientation = "horizontal"
+labelmode = "simple"
+componentName = "Btn.SendToProj[3]"
+ccid_themeCSSSet = "true"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+size = "custom"
+oldID = "i7fv"
+selected = "false"
+sendeventontouch = "Contract Enabled"
+pd-receivestateenable = "Contract Enabled"
+[[Elements.Components]]
+Type = "Ch5 Image"
+Editable = true
+
+[Elements.Components.Attributes]
+refreshrate = "0"
+customvstheme = "custom"
+assetid = "c0acc97b-8366-4f2b-8d0a-552e1a294f0b"
+id = "ims7"
+componentName = "DisplayImage[3]"
+ccid_linkSendReceive = "True"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+url = "StaticFiles/4cef4e36-64bd-48f2-8ff0-789dbfbe7984/c0acc97b-8366-4f2b-8d0a-552e1a294f0b/olcglb3k.svg"
+oldID = "iw0w"
+[[Elements.Components]]
+Type = "Ch5 Text"
+Editable = true
+
+[Elements.Components.Attributes]
+clearLabel = "false"
+labelmodeadvncomponent = "simple"
+horizontalalignment = "center"
+verticalalignment = "middle"
+multilinesupport = "false"
+truncatetext = "false"
+labelinnerhtml = "SOURCE INFORMATION"
+id = "iivx"
+componentName = "Str.Proj[3]_CurrentSrc"
+ccid_linkSendReceive = "True"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+ccid_themeCSSSet = "true"
+oldID = "i0s3"
+pd-receivestatelabel = "Contract Enabled"
+
+[Elements.Attributes]
+categoryname = "Widget Components"
+id = "i8pko139hg"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+defaultWidth = "500px"
+defaultHeight = "500px"
+globalControlContract = "on"
+

@@ -1,12 +1,13 @@
 {FileMetadata}
 Schema = "1.0.0.0"
 CreatedByAppHost = "1.3501.16.0"
-Created = 2024-11-25 15:15:59.38975-05:00
-LastModifiedByAppHost = "1.3501.16.0"
-Modified = 2024-11-25 15:15:59.389747-05:00
+Created = 2024-12-02 10:01:35.319512-05:00
+LastModifiedByAppHost = "2.1.48.0"
+Modified = 2024-12-12 08:21:53.018282-05:00
 CreatedByProjectApp = "1.3501.16.0"
-LastModifiedByProjectApp = "1.3501.16.0"
+LastModifiedByProjectApp = "1.3601.24.0"
 MinimumProjectApp = "1.2600.1"
+MinimumAppHost = "2.0.0"
 
 {DeviceResolutionSource}
 []
@@ -14,12 +15,13 @@ MinimumProjectApp = "1.2600.1"
 {ProjectAttributes}
 
 [Attributes]
-ComponentKey = "UiEditor"
 Name = "Seminar_Room"
 ThemeId = "light-theme.css"
 ThemePageColor = "#ffffff"
-SdkId = "CH5:2.11.1"
+SdkId = "CH5:2.10.0"
+ComponentKey = "UiEditor"
+Id = "c089e5b9-55e7-4a0c-bc89-eed7c9f8c239"
 DeviceResolutionIds = "G-L-4KMONIT-2560-1440,D-L-TSW1070-1280-0800"
 ipId = "99"
-ProjectSchemaVersion = "4"
+ProjectSchemaVersion = "5"
 

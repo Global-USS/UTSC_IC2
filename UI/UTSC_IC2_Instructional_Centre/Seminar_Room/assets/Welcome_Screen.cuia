@@ -1,9 +1,9 @@
 {FileMetadata}
 Schema = "1.0.0.0"
 CreatedByAppHost = "1.3501.16.0"
-Created = 2024-11-25 15:15:59.455344-05:00
+Created = 2024-12-02 10:01:35.362981-05:00
 LastModifiedByAppHost = "1.3501.16.0"
-Modified = 2024-11-25 15:15:59.455341-05:00
+Modified = 2024-12-02 10:01:35.362979-05:00
 CreatedByProjectApp = "1.3501.16.0"
 LastModifiedByProjectApp = "1.3501.16.0"
 MinimumProjectApp = ""
@@ -11,7 +11,7 @@ MinimumProjectApp = ""
 {AssetAttributes}
 
 [Attributes]
-Id = "6b4af3fd-85ae-482d-aca5-8d0c302ccb5b"
+Id = "fe59721c-e1d7-4b09-89db-2e998dd84391"
 Name = "Welcome_Screen"
 SourceUri = "Welcome_Screen.jpg"
 AspectRatio = "1.6"

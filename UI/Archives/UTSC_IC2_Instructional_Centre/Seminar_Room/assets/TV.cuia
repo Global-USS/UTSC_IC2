@@ -1,0 +1,21 @@
+{FileMetadata}
+Schema = "1.0.0.0"
+CreatedByAppHost = "1.3501.16.0"
+Created = 2024-11-25 15:15:59.447538-05:00
+LastModifiedByAppHost = "1.3501.16.0"
+Modified = 2024-11-25 15:15:59.447535-05:00
+CreatedByProjectApp = "1.3501.16.0"
+LastModifiedByProjectApp = "1.3501.16.0"
+MinimumProjectApp = ""
+
+{AssetAttributes}
+
+[Attributes]
+Id = "b12582df-e8b2-414f-9a86-2d1dce6a486a"
+Name = "TV"
+SourceUri = "TV.svg"
+AspectRatio = "0"
+AssetSourceType = "File"
+Username = ""
+Password = ""
+

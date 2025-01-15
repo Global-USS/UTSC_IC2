@@ -2,11 +2,12 @@
 Schema = "1.0.0.0"
 CreatedByAppHost = "1.3501.13.0"
 Created = 2024-10-01 08:36:40.970173-04:00
-LastModifiedByAppHost = "1.3501.13.0"
-Modified = 2024-10-03 08:40:07.811387-04:00
+LastModifiedByAppHost = "2.1.48.0"
+Modified = 2024-12-12 08:21:53.724115-05:00
 CreatedByProjectApp = "1.3501.13.0"
-LastModifiedByProjectApp = "1.3501.13.0"
+LastModifiedByProjectApp = "1.3601.24.0"
 MinimumProjectApp = "1.2600.1"
+MinimumAppHost = "2.0.0"
 
 {DeviceResolutionSource}
 []
@@ -17,9 +18,10 @@ MinimumProjectApp = "1.2600.1"
 Name = "Standard_Lab"
 ThemeId = "light-theme.css"
 ThemePageColor = "#ffffff"
-SdkId = "CH5:2.11.1"
+SdkId = "CH5:2.10.0"
 ComponentKey = "UiEditor"
+Id = "7f1b9aef-8d2a-4434-8dc8-ed186625eeff"
 DeviceResolutionIds = "G-L-4KMONIT-2560-1440,D-L-TSW1070-1280-0800"
 ipId = "99"
-ProjectSchemaVersion = "4"
+ProjectSchemaVersion = "5"
 

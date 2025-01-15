@@ -1,0 +1,21 @@
+{FileMetadata}
+Schema = "1.0.0.0"
+CreatedByAppHost = "1.3300.16.0"
+Created = 2024-05-17 08:40:13.320359-04:00
+LastModifiedByAppHost = "1.3300.16.0"
+Modified = 2024-05-17 08:40:13.320356-04:00
+CreatedByProjectApp = "1.3300.16.0"
+LastModifiedByProjectApp = "1.3300.16.0"
+MinimumProjectApp = ""
+
+{AssetAttributes}
+
+[Attributes]
+Id = "c168a49d-2bf0-4494-a055-8eab7c515bc9"
+Name = "Green_Checkmark"
+SourceUri = "Green_Checkmark.png"
+AspectRatio = "1"
+AssetSourceType = "File"
+Username = ""
+Password = ""
+

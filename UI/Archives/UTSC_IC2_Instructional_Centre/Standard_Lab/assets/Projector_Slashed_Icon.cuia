@@ -1,0 +1,21 @@
+{FileMetadata}
+Schema = "1.0.0.0"
+CreatedByAppHost = "1.3501.13.0"
+Created = 2024-10-01 08:36:41.037453-04:00
+LastModifiedByAppHost = "1.3501.13.0"
+Modified = 2024-10-01 08:36:41.037449-04:00
+CreatedByProjectApp = "1.3501.13.0"
+LastModifiedByProjectApp = "1.3501.13.0"
+MinimumProjectApp = ""
+
+{AssetAttributes}
+
+[Attributes]
+Id = "48bed9bd-5f74-4cef-8bb3-4d31f7ecb0c1"
+Name = "Projector_Slashed_Icon"
+SourceUri = "Projector_Slashed_Icon.svg"
+AspectRatio = "0"
+AssetSourceType = "File"
+Username = ""
+Password = ""
+

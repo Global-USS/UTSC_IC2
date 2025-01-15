@@ -1,9 +1,9 @@
 {FileMetadata}
 Schema = "1.0.0.0"
 CreatedByAppHost = "1.3501.16.0"
-Created = 2024-10-15 13:13:16.484157-04:00
+Created = 2024-12-02 09:42:02.304791-05:00
 LastModifiedByAppHost = "1.3501.16.0"
-Modified = 2024-10-15 13:13:16.484154-04:00
+Modified = 2024-12-02 09:42:02.304788-05:00
 CreatedByProjectApp = "1.3501.16.0"
 LastModifiedByProjectApp = "1.3501.16.0"
 MinimumProjectApp = ""
@@ -11,7 +11,7 @@ MinimumProjectApp = ""
 {AssetAttributes}
 
 [Attributes]
-Id = "78592edb-65d3-44e8-87ae-0f96832bee09"
+Id = "1877496e-e767-42cc-bbbb-53dd9852355c"
 Name = "Green_Checkmark"
 SourceUri = "Green_Checkmark.png"
 AspectRatio = "1"

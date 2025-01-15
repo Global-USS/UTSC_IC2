@@ -1,0 +1,237 @@
+{FileMetadata}
+Schema = "1.0.0.0"
+CreatedByAppHost = "2.1.48.0"
+Created = 2025-01-15 14:29:45.280584-05:00
+LastModifiedByAppHost = "2.1.48.0"
+Modified = 2025-01-15 14:29:45.28058-05:00
+CreatedByProjectApp = "1.3601.24.0"
+LastModifiedByProjectApp = "1.3601.24.0"
+MinimumProjectApp = "1.2600.1"
+MinimumAppHost = "2.0.0"
+
+{Html}
+<div categoryname="Widget Components" id="ifd5grfi1q" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" defaultwidth="2224px" defaultheight="1193px" globalcontrolcontract="" class="widget-container"><html-div componentname="Border" id="ip31z9rpjo" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" oldid="idzeax19d3mlf" componentwasresized="true"></html-div><ch5-button-list centeritems="true" columns="5" endless="false" numberofitems="10" orientation="vertical" previewstate="buttonnormal" usecontractforcustomstyle="false" usecontractforcustomclass="false" rows="2" scrollbar="false" scrolltoposition="0" stretch="null" indexid="idx" customclass="ccid-custom" buttoncheckboxposition="left" buttoncheckboxshow="false" buttonhalignlabel="center" buttonvalignlabel="middle" buttoniconposition="top" buttonmode="0" buttonshape="custom" buttontype="default" buttoniconurlfilltype="initial" pd-receivestateenable="" pd-receivestateshow="" pd-receivestatescrolltoposition="" pd-receivestatenumberofitems="" pd-buttonreceivestateselected="Contract Enabled" pd-buttonreceivestatescriptlabelhtml="" pd-buttonreceivestateiconclass="" buttonsendeventonclick="Contract Enabled" pd-buttonreceivestateenable="" pd-buttonreceivestateshow="Contract Enabled" usecontractforeachbuttonselection="false" affectedbypreviewstate="True" customvstheme="custom" loaditems="visible-only" id="i2me" componentname="BtnList.PodSelect" ccid_linksendreceive="True" ccid_imageicontype="iconclass" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" assetid="0" pd-receivestateselectedbutton="" usecontractforitemshow="true"><ch5-button-list-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 1" id="ishq" devicesvisited="[&quot;4K Monitor&quot;]" pageflipattributename="onRelease" onrelease="0" labelmodeindividualbtnlist="simple" labelinnerhtml="Pod 1" iconclass="fas fa-laptop"></ch5-button-list-individual-button><ch5-button-list-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 2" id="iahk" devicesvisited="[&quot;4K Monitor&quot;]" pageflipattributename="onRelease" onrelease="0" labelinnerhtml="Pod 2" iconclass="fas fa-laptop"></ch5-button-list-individual-button><ch5-button-list-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 3" id="ikvh" devicesvisited="[&quot;4K Monitor&quot;]" pageflipattributename="onRelease" onrelease="0" labelinnerhtml="Pod 3" iconclass="fas fa-laptop"></ch5-button-list-individual-button><ch5-button-list-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 4" id="iav2" devicesvisited="[&quot;4K Monitor&quot;]" pageflipattributename="onRelease" onrelease="0" labelinnerhtml="Pod 4" iconclass="fas fa-laptop"></ch5-button-list-individual-button><ch5-button-list-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 5" id="itkl" devicesvisited="[&quot;4K Monitor&quot;]" pageflipattributename="onRelease" onrelease="0" labelinnerhtml="Pod 5" iconclass="fas fa-laptop"></ch5-button-list-individual-button><ch5-button-list-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 6" id="i92c" devicesvisited="[&quot;4K Monitor&quot;]" pageflipattributename="onRelease" onrelease="0" labelinnerhtml="Pod 6" iconclass="fas fa-laptop"></ch5-button-list-individual-button><ch5-button-list-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 7" id="iz0qj" devicesvisited="[&quot;4K Monitor&quot;]" pageflipattributename="onRelease" onrelease="0" labelinnerhtml="Pod 7" iconclass="fas fa-laptop"></ch5-button-list-individual-button><ch5-button-list-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 8" id="i1myh" devicesvisited="[&quot;4K Monitor&quot;]" pageflipattributename="onRelease" onrelease="0" labelinnerhtml="Pod 8" iconclass="fas fa-laptop"></ch5-button-list-individual-button><ch5-button-list-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 9" id="iejwo" devicesvisited="[&quot;4K Monitor&quot;]" pageflipattributename="onRelease" onrelease="0" labelinnerhtml="Pod 9" iconclass="fas fa-laptop"></ch5-button-list-individual-button><ch5-button-list-individual-button ccid_imageicontype="iconclass" componentname="Individual Button 10" id="ifo5j" devicesvisited="[&quot;4K Monitor&quot;]" pageflipattributename="onRelease" onrelease="0" labelinnerhtml="Pod 10" iconclass="fas fa-laptop"></ch5-button-list-individual-button></ch5-button-list><ch5-text clearlabel="false" labelmodeadvncomponent="simple" horizontalalignment="center" verticalalignment="middle" multilinesupport="false" truncatetext="false" labelinnerhtml="Pods" id="i2cnjpj1gygyg" componentname="Txt.Pods" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" ccid_themecssset="true" oldid="ixc8o5oxal94s"></ch5-text></div>
+
+{Css}
+@media (max-width: 99999px){#ifd5grfi1q{width:1461px;height:512px;left:0;top:0;position:absolute;}.widget-container{background-image:linear-gradient(45deg, #DAE2EA 25%, transparent 25%), linear-gradient(-45deg, #DAE2EA 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #DAE2EA 75%), linear-gradient(-45deg, transparent 75%, #DAE2EA 75%);background-size:20px 20px;background-position:0 0, 0 10px, 10px -10px, -10px 0px;z-index:0;}#i2me .ch5-button-list{width:1353px;height:298px;}#i2me .ch5-button-list--button-container{listbuttonHSize_width:217px;width:217px;listbuttonVSize_height:143px;height:143px;}#i2me .ch5-button-list.ch5-button-list--orientation-horizontal{listbuttonSpacing_row-gap:10px;row-gap:10px;listbuttonSpacing_column-gap:10px;column-gap:10px;}#i2me .ccid-custom .ch5-button-list--button-type-default .ch5-button--img{buttonListDefaultImage_width:21px;width:1573px;buttonListDefaultImage_height:21px;height:298px;}#i2me .ch5-button-list.ch5-button-list--orientation-horizontal .ch5-button-list--button-container{height:100%;}#i2me .ch5-button-list.ch5-button-list--orientation-vertical .ch5-button-list--button-container{width:100%;}#i2me .ch5-button-list.ch5-button-list--orientation-vertical{listbuttonSpacing_row-gap:10px;row-gap:10px;listbuttonSpacing_column-gap:10px;column-gap:10px;}#i2me .ccid-custom .ch5-button-list--button-type-default.ch5-button--selected .ch5-button--img{buttonListDefaultImage_width:21px;buttonListDefaultImage_height:21px;width:21px;height:21px;}#i2me .ccid-custom .ch5-button-list--button-type-default.ch5-button--pressed .ch5-button--img{buttonListDefaultImage_width:21px;buttonListDefaultImage_height:21px;width:21px;height:21px;}#i2me .ch5-button-list--button-shape-rectangle{border-top-left-radius:20px;border-radius:20px 20px 20px 20px;border-top-right-radius:20px;border-bottom-right-radius:20px;border-bottom-left-radius:20px;}#i2me .ch5-button-list--button-type-default .ch5-button--span .ch5-button--label{font-size:xx-large;buttonListDefaultLabel_font-size:xx-largename;custom-font-size:xx-largename;}#i2me .ch5-button-list--button-type-default .ch5-button--span .ch5-button--icon{font-size:xx-large;buttonListDefaultIcon_font-size:xx-largename;custom-font-size:xx-largename;}#i2cnjpj1gygyg .ch5-text{width:139px;height:48px;font-size:30px;custom-font-size:30px;font-weight:700;min-height:10px;min-width:10px;padding:0px;}#wrapper{background-color:#ffffff;}#i2cnjpj1gygyg{left:890px;top:44px;position:absolute;width:139px;height:48px;font-family:Roboto;display:block;font-weight:700;}#ip31z9rpjo{display:block;background-color:#ffffff;border-style:solid;border-width:5px;border-color:#0099ff;width:1405px;height:456px;left:28px;top:28px;position:absolute;border-top-left-radius:20px;border-radius:20px 20px 20px 20px;border-top-right-radius:20px;border-bottom-right-radius:20px;border-bottom-left-radius:20px;}#i2me{width:1353px;height:298px;listbuttonHSize_width:217px;listbuttonVSize_height:143px;listbuttonSpacing_row-gap:10px;listbuttonSpacing_column-gap:10px;buttonListDefaultImage_width:21px;buttonListDefaultImage_height:21px;display:block;left:54px;top:107px;position:absolute;buttonListDefaultLabel_font-size:xx-largename;buttonListDefaultIcon_font-size:xx-largename;}}@media (orientation: landscape) and (max-width: 2561px) and (max-height: 1441px), (orientation: landscape) and (max-width: 2559px){#i2me .ch5-button-list.ch5-button-list--orientation-horizontal .ch5-button-list--button-container{height:100%;}#i2me .ch5-button-list.ch5-button-list--orientation-vertical .ch5-button-list--button-container{width:100%;}#i2me .ccid-custom .ch5-button-list--button-type-default.ch5-button--selected .ch5-button--img{buttonListDefaultImage_width:21px;buttonListDefaultImage_height:21px;width:21px;height:21px;}#i2me .ccid-custom .ch5-button-list--button-type-default.ch5-button--pressed .ch5-button--img{buttonListDefaultImage_width:21px;buttonListDefaultImage_height:21px;width:21px;height:21px;}#i2cnjpj1gygyg{left:661px;top:44px;position:absolute;width:139px;height:48px;}#ip31z9rpjo{display:block;background-color:#ffffff;border-style:solid;border-width:5px;border-color:#0099ff;width:1405px;height:456px;left:28px;top:28px;position:absolute;border-top-left-radius:20px;border-radius:20px 20px 20px 20px;border-top-right-radius:20px;border-bottom-right-radius:20px;border-bottom-left-radius:20px;}#i2me{width:1353px;height:298px;listbuttonHSize_width:217px;listbuttonVSize_height:143px;listbuttonSpacing_row-gap:10px;listbuttonSpacing_column-gap:10px;buttonListDefaultImage_width:21px;buttonListDefaultImage_height:21px;display:block;left:54px;top:107px;position:absolute;buttonListDefaultLabel_font-size:xx-largename;buttonListDefaultIcon_font-size:xx-largename;}}@media (orientation: landscape) and (max-width: 1281px) and (max-height: 801px), (orientation: landscape) and (max-width: 1279px){#ifd5grfi1q{width:802px;height:283px;left:0;top:0;position:absolute;}#i2me .ch5-button-list--button-container{listbuttonVSize_height:75px;height:75px;}#i2me .ch5-button-list--button-type-default .ch5-button--span .ch5-button--label{buttonListDefaultLabel_font-size:largename;font-size:large;custom-font-size:largename;}#i2me .ch5-button-list--button-type-default .ch5-button--span .ch5-button--icon{buttonListDefaultIcon_font-size:largename;font-size:large;custom-font-size:largename;}#i2me .ch5-button-list{width:746px;height:243px;}#i2me .ccid-custom .ch5-button-list--button-type-default .ch5-button--img{width:996px;height:243px;}#i2me .ch5-button-list--button-shape-rectangle{border-top-left-radius:10px;border-radius:10px 10px 10px 10px;border-top-right-radius:10px;border-bottom-right-radius:10px;border-bottom-left-radius:10px;}#i2cnjpj1gygyg .ch5-text{font-size:16px;custom-font-size:16px;width:88px;height:44px;}#i2cnjpj1gygyg{left:357px;top:20px;width:88px;height:44px;display:block;}#ip31z9rpjo{left:14px;top:20px;width:774px;height:243px;position:absolute;}#i2me{listbuttonVSize_height:75px;buttonListDefaultLabel_font-size:largename;buttonListDefaultIcon_font-size:largename;width:746px;height:243px;left:28px;top:20px;}}
+
+{PageAttributes}
+
+[Attributes]
+Name = "Pods_List"
+PageMode = "absolute"
+Id = "821416f3-6d84-4e6f-890b-f7d9edee10e6"
+DisplayBackgroundColor = "False"
+
+[[Elements]]
+Type = "widgetContainer"
+Classes = ["widget-container"]
+
+[[Elements.Components]]
+Type = "html-div"
+
+[Elements.Components.Attributes]
+componentName = "Border"
+id = "ip31z9rpjo"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+oldID = "idzeax19d3mlf"
+componentWasResized = "true"
+[[Elements.Components]]
+Type = "Ch5 Button List"
+Editable = true
+
+[[Elements.Components.Components]]
+Type = "Ch5 Button List Individual Button"
+
+[Elements.Components.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 1"
+id = "ishq"
+devicesVisited = "[\"4K Monitor\"]"
+pageFlipAttributeName = "onRelease"
+onRelease = "0"
+labelmodeIndividualBtnList = "simple"
+labelinnerhtml = "Pod 1"
+iconclass = "fas fa-laptop"
+[[Elements.Components.Components]]
+Type = "Ch5 Button List Individual Button"
+
+[Elements.Components.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 2"
+id = "iahk"
+devicesVisited = "[\"4K Monitor\"]"
+pageFlipAttributeName = "onRelease"
+onRelease = "0"
+labelinnerhtml = "Pod 2"
+iconclass = "fas fa-laptop"
+[[Elements.Components.Components]]
+Type = "Ch5 Button List Individual Button"
+
+[Elements.Components.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 3"
+id = "ikvh"
+devicesVisited = "[\"4K Monitor\"]"
+pageFlipAttributeName = "onRelease"
+onRelease = "0"
+labelinnerhtml = "Pod 3"
+iconclass = "fas fa-laptop"
+[[Elements.Components.Components]]
+Type = "Ch5 Button List Individual Button"
+
+[Elements.Components.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 4"
+id = "iav2"
+devicesVisited = "[\"4K Monitor\"]"
+pageFlipAttributeName = "onRelease"
+onRelease = "0"
+labelinnerhtml = "Pod 4"
+iconclass = "fas fa-laptop"
+[[Elements.Components.Components]]
+Type = "Ch5 Button List Individual Button"
+
+[Elements.Components.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 5"
+id = "itkl"
+devicesVisited = "[\"4K Monitor\"]"
+pageFlipAttributeName = "onRelease"
+onRelease = "0"
+labelinnerhtml = "Pod 5"
+iconclass = "fas fa-laptop"
+[[Elements.Components.Components]]
+Type = "Ch5 Button List Individual Button"
+
+[Elements.Components.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 6"
+id = "i92c"
+devicesVisited = "[\"4K Monitor\"]"
+pageFlipAttributeName = "onRelease"
+onRelease = "0"
+labelinnerhtml = "Pod 6"
+iconclass = "fas fa-laptop"
+[[Elements.Components.Components]]
+Type = "Ch5 Button List Individual Button"
+
+[Elements.Components.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 7"
+id = "iz0qj"
+devicesVisited = "[\"4K Monitor\"]"
+pageFlipAttributeName = "onRelease"
+onRelease = "0"
+labelinnerhtml = "Pod 7"
+iconclass = "fas fa-laptop"
+[[Elements.Components.Components]]
+Type = "Ch5 Button List Individual Button"
+
+[Elements.Components.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 8"
+id = "i1myh"
+devicesVisited = "[\"4K Monitor\"]"
+pageFlipAttributeName = "onRelease"
+onRelease = "0"
+labelinnerhtml = "Pod 8"
+iconclass = "fas fa-laptop"
+[[Elements.Components.Components]]
+Type = "Ch5 Button List Individual Button"
+
+[Elements.Components.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 9"
+id = "iejwo"
+devicesVisited = "[\"4K Monitor\"]"
+pageFlipAttributeName = "onRelease"
+onRelease = "0"
+labelinnerhtml = "Pod 9"
+iconclass = "fas fa-laptop"
+[[Elements.Components.Components]]
+Type = "Ch5 Button List Individual Button"
+
+[Elements.Components.Components.Attributes]
+ccid_imageIconType = "iconclass"
+componentName = "Individual Button 10"
+id = "ifo5j"
+devicesVisited = "[\"4K Monitor\"]"
+pageFlipAttributeName = "onRelease"
+onRelease = "0"
+labelinnerhtml = "Pod 10"
+iconclass = "fas fa-laptop"
+
+[Elements.Components.Attributes]
+centeritems = "true"
+columns = "5"
+endless = "false"
+numberofitems = "10"
+orientation = "vertical"
+previewstate = "buttonnormal"
+useContractForCustomStyle = "false"
+useContractForCustomClass = "false"
+rows = "2"
+scrollbar = "false"
+scrolltoposition = "0"
+stretch = "null"
+indexid = "idx"
+customclass = "ccid-custom"
+buttoncheckboxposition = "left"
+buttoncheckboxshow = "false"
+buttonhalignlabel = "center"
+buttonvalignlabel = "middle"
+buttoniconposition = "top"
+buttonmode = "0"
+buttonshape = "custom"
+buttontype = "default"
+buttoniconurlfilltype = "initial"
+pd-receivestateenable = ""
+pd-receivestateshow = ""
+pd-receivestatescrolltoposition = ""
+pd-receivestatenumberofitems = ""
+pd-buttonreceivestateselected = "Contract Enabled"
+pd-buttonreceivestatescriptlabelhtml = ""
+pd-buttonreceivestateiconclass = ""
+buttonsendeventonclick = "Contract Enabled"
+pd-buttonreceivestateenable = ""
+pd-buttonreceivestateshow = "Contract Enabled"
+usecontractforeachbuttonselection = "false"
+affectedByPreviewState = "True"
+customvstheme = "custom"
+loaditems = "visible-only"
+id = "i2me"
+componentName = "BtnList.PodSelect"
+ccid_linkSendReceive = "True"
+ccid_imageIconType = "iconclass"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+assetid = "0"
+pd-receivestateselectedbutton = ""
+useContractForItemShow = "true"
+[[Elements.Components]]
+Type = "Ch5 Text"
+Editable = true
+
+[Elements.Components.Attributes]
+clearLabel = "false"
+labelmodeadvncomponent = "simple"
+horizontalalignment = "center"
+verticalalignment = "middle"
+multilinesupport = "false"
+truncatetext = "false"
+labelinnerhtml = "Pods"
+id = "i2cnjpj1gygyg"
+componentName = "Txt.Pods"
+ccid_linkSendReceive = "True"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+ccid_themeCSSSet = "true"
+oldID = "ixc8o5oxal94s"
+
+[Elements.Attributes]
+categoryname = "Widget Components"
+id = "ifd5grfi1q"
+devicesVisited = "[\"4K Monitor\",\"TSW-1070\"]"
+defaultWidth = "2224px"
+defaultHeight = "1193px"
+globalControlContract = ""
+

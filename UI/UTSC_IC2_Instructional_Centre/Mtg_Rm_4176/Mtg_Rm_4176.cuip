@@ -1,12 +1,13 @@
 {FileMetadata}
 Schema = "1.0.0.0"
 CreatedByAppHost = "1.3501.16.0"
-Created = 2024-10-15 13:13:16.448892-04:00
-LastModifiedByAppHost = "1.3501.16.0"
-Modified = 2024-10-15 13:13:16.44889-04:00
+Created = 2024-12-02 09:42:02.282757-05:00
+LastModifiedByAppHost = "2.1.48.0"
+Modified = 2024-12-12 08:21:51.221515-05:00
 CreatedByProjectApp = "1.3501.16.0"
-LastModifiedByProjectApp = "1.3501.16.0"
+LastModifiedByProjectApp = "1.3601.24.0"
 MinimumProjectApp = "1.2600.1"
+MinimumAppHost = "2.0.0"
 
 {DeviceResolutionSource}
 []
@@ -14,12 +15,13 @@ MinimumProjectApp = "1.2600.1"
 {ProjectAttributes}
 
 [Attributes]
-ComponentKey = "UiEditor"
 Name = "Mtg_Rm_4176"
 ThemeId = "light-theme.css"
 ThemePageColor = "#ffffff"
-SdkId = "CH5:2.11.1"
+SdkId = "CH5:2.10.0"
+ComponentKey = "UiEditor"
+Id = "c79a43ab-1932-4f65-b081-3f14e6f4feb3"
 DeviceResolutionIds = "G-L-4KMONIT-2560-1440,D-L-TSW1070-1280-0800"
 ipId = "99"
-ProjectSchemaVersion = "4"
+ProjectSchemaVersion = "5"
 

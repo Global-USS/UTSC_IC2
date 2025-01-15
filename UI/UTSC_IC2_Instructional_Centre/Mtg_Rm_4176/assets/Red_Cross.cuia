@@ -1,9 +1,9 @@
 {FileMetadata}
 Schema = "1.0.0.0"
 CreatedByAppHost = "1.3501.16.0"
-Created = 2024-10-15 13:13:16.492335-04:00
+Created = 2024-12-02 09:42:02.313214-05:00
 LastModifiedByAppHost = "1.3501.16.0"
-Modified = 2024-10-15 13:13:16.492333-04:00
+Modified = 2024-12-02 09:42:02.313212-05:00
 CreatedByProjectApp = "1.3501.16.0"
 LastModifiedByProjectApp = "1.3501.16.0"
 MinimumProjectApp = ""
@@ -11,7 +11,7 @@ MinimumProjectApp = ""
 {AssetAttributes}
 
 [Attributes]
-Id = "ac58b489-f737-4287-9f5e-f06e2a20b64e"
+Id = "3bea8660-a771-48ab-9d07-09eb79b6a6ca"
 Name = "Red_Cross"
 SourceUri = "Red_Cross.png"
 AspectRatio = "1"

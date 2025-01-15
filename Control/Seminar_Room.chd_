@@ -3,7 +3,7 @@ ObjTp=FSgntr
 Sgntr=CHD
 RelVrs=1
 Schema=1
-CrestronConstruct=1.3501.16.0
+CrestronConstruct=1.3601.24.0
 ]
 [
 ObjTp=Hd
@@ -11,7 +11,7 @@ Schema=1
 ProjectFile=Seminar_Room.cuip
 ContractID=U2VtaW5hcl9Sb29t
 CEProjectVer=1.0.0.0
-DateTimeUTC=2024-12-02 15:17:02.678
+DateTimeUTC=2025-01-15 17:23:19.461
 ]
 [
 ObjTp=Symbol
@@ -141,10 +141,10 @@ InputCue13=BtnAuRA.Selected_fb
 InputSigType13=Digital
 SmplCInputCue13=5df86cfa-25d2-4919-a89b-457db9027848.i08dh1ltw0507.pd-receivestateselected
 InputToolTip13=Btn.AuRA.Selected
-InputCue14=BtnPrivacyMuteTgl.Selected_fb
+InputCue14=BtnMasterMuteTgl.Selected_fb
 InputSigType14=Digital
-SmplCInputCue14=5df86cfa-25d2-4919-a89b-457db9027848.ibjufjxa3ww1w.pd-receivestateselected
-InputToolTip14=Btn.PrivacyMuteTgl.Selected
+SmplCInputCue14=5df86cfa-25d2-4919-a89b-457db9027848.iorw1l3st4abk.pd-receivestateselected
+InputToolTip14=Btn.MasterMuteTgl.Selected
 InputCue15=BtnProj.Selected_fb
 InputSigType15=Digital
 SmplCInputCue15=5df86cfa-25d2-4919-a89b-457db9027848.ihp6k.pd-receivestateselected
@@ -199,10 +199,10 @@ OutputCue13=BtnAuRA.Press
 OutputSigType13=Digital
 SmplCOutputCue13=5df86cfa-25d2-4919-a89b-457db9027848.i08dh1ltw0507.sendeventontouch
 OutputToolTip13=Btn.AuRA.Press
-OutputCue14=BtnPrivacyMuteTgl.Press
+OutputCue14=BtnMasterMuteTgl.Press
 OutputSigType14=Digital
-SmplCOutputCue14=5df86cfa-25d2-4919-a89b-457db9027848.ibjufjxa3ww1w.sendeventontouch
-OutputToolTip14=Btn.PrivacyMuteTgl.Press
+SmplCOutputCue14=5df86cfa-25d2-4919-a89b-457db9027848.iorw1l3st4abk.sendeventontouch
+OutputToolTip14=Btn.MasterMuteTgl.Press
 OutputCue15=BtnProj.Press
 OutputSigType15=Digital
 SmplCOutputCue15=5df86cfa-25d2-4919-a89b-457db9027848.ihp6k.sendeventontouch
@@ -3391,3 +3391,4 @@ Child12=22
 Child13=23
 Child14=24
 ]
+;;;;;;;;;;;;;;;;

@@ -1,9 +1,9 @@
 {FileMetadata}
 Schema = "1.0.0.0"
 CreatedByAppHost = "1.3501.16.0"
-Created = 2024-10-15 13:13:16.477482-04:00
+Created = 2024-12-02 09:42:02.300058-05:00
 LastModifiedByAppHost = "1.3501.16.0"
-Modified = 2024-10-15 13:13:16.47748-04:00
+Modified = 2024-12-02 09:42:02.300056-05:00
 CreatedByProjectApp = "1.3501.16.0"
 LastModifiedByProjectApp = "1.3501.16.0"
 MinimumProjectApp = ""
@@ -11,7 +11,7 @@ MinimumProjectApp = ""
 {AssetAttributes}
 
 [Attributes]
-Id = "fb765b4b-61dc-4f84-a1d3-6e0c3c74f5c9"
+Id = "212cb7f3-f9fd-48b9-9421-99eacb7fcdd4"
 Name = "Camera_Image_Mute_Icon"
 SourceUri = "Camera_Image_Mute_Icon.svg"
 AspectRatio = "0"

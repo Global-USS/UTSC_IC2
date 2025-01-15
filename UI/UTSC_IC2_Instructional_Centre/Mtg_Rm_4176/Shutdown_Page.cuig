@@ -1,21 +1,19 @@
 {FileMetadata}
 Schema = "1.0.0.0"
 CreatedByAppHost = "1.3501.16.0"
-Created = 2024-10-15 13:13:16.984927-04:00
+Created = 2024-12-02 09:42:02.576956-05:00
 LastModifiedByAppHost = "1.3501.16.0"
-Modified = 2024-10-15 13:13:16.984925-04:00
+Modified = 2024-12-02 09:42:02.576952-05:00
 CreatedByProjectApp = "1.3501.16.0"
 LastModifiedByProjectApp = "1.3501.16.0"
 MinimumProjectApp = "1.2600.1"
 
 {Html}
-<ch5-background scale="fill" refreshrate="600" transitioneffect="ease" transitionduration="1s" assetid="0537c6e8-a2ca-424c-8ea2-88985fcfb2b5" backgroundcolor="#ffffff" id="i7yi" componentname="Shut.Down.Page" ccid_linksendreceive="True" imgbackgroundcolor="transparent" componentwasresized="true" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]">
+<ch5-background scale="fill" refreshrate="600" transitioneffect="ease" transitionduration="1s" assetid="81aa2faa-86c3-469a-9fc2-bf3f002f579c" backgroundcolor="#ffffff" id="i7yi" componentname="Shut.Down.Page" ccid_linksendreceive="True" imgbackgroundcolor="transparent" componentwasresized="true" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]">
               </ch5-background><ch5-text clearlabel="false" labelmodeadvncomponent="simple" horizontalalignment="center" verticalalignment="middle" multilinesupport="false" truncatetext="false" labelinnerhtml="PLEASE WAIT, SYSTEM IS SHUTTING DOWN..." id="irwd" componentname="Txt.System.Is.Shutting.Down" ccid_linksendreceive="True" ccid_themecssset="true" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]">
-              </ch5-text><ch5-image refreshrate="0" customvstheme="custom" assetid="d2067b06-18b6-4277-8117-32fd164d72ad" id="iby7fwgcfdb5l" componentname="Logo" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" oldid="i8dh37tink">
+              </ch5-text><ch5-image refreshrate="0" customvstheme="custom" assetid="d0f67262-25da-496e-9505-b3916c1961c7" id="iby7fwgcfdb5l" componentname="Logo" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" oldid="i8dh37tink">
               </ch5-image><ch5-animation startanimating="true" customvstheme="custom" size="large" animationstyle="spinner" id="izlt" componentname="Animation" ccid_linksendreceive="True" ccid_themecssset="true" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]">
               </ch5-animation>
-
-
 
 
 
@@ -35,17 +33,15 @@ MinimumProjectApp = "1.2600.1"
 
 
 
-
-
 {PageAttributes}
 
 [Attributes]
 Name = "Shutdown_Page"
 PageMode = "absolute"
-Id = "654f2e40-06c2-4049-865b-1555065efecf"
+Id = "686398c9-6052-4a3b-b8e2-68210d002b03"
 StartPage = "False"
 PreloadPage = "True"
-CachePage = "True"
+CachePage = "False"
 VisibilityJoin = "VisibilityJoin"
 
 [[Elements]]
@@ -66,7 +62,7 @@ scale = "fill"
 refreshrate = "600"
 transitioneffect = "ease"
 transitionduration = "1s"
-assetid = "0537c6e8-a2ca-424c-8ea2-88985fcfb2b5"
+assetid = "81aa2faa-86c3-469a-9fc2-bf3f002f579c"
 backgroundcolor = "#ffffff"
 id = "i7yi"
 componentName = "Shut.Down.Page"
@@ -116,7 +112,7 @@ Content = "\n              "
 [Elements.Attributes]
 refreshrate = "0"
 customvstheme = "custom"
-assetid = "d2067b06-18b6-4277-8117-32fd164d72ad"
+assetid = "d0f67262-25da-496e-9505-b3916c1961c7"
 id = "iby7fwgcfdb5l"
 componentName = "Logo"
 ccid_linkSendReceive = "True"

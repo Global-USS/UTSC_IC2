@@ -2,11 +2,12 @@
 Schema = "1.0.0.0"
 CreatedByAppHost = "1.3400.21.0"
 Created = 2024-08-22 12:13:28.388356-04:00
-LastModifiedByAppHost = "1.3501.13.0"
-Modified = 2024-10-03 08:41:06.503357-04:00
+LastModifiedByAppHost = "2.1.48.0"
+Modified = 2024-12-12 08:21:54.729027-05:00
 CreatedByProjectApp = "1.3400.21.0"
-LastModifiedByProjectApp = "1.3501.13.0"
+LastModifiedByProjectApp = "1.3601.24.0"
 MinimumProjectApp = "1.2600.1"
+MinimumAppHost = "2.0.0"
 
 {DeviceResolutionSource}
 []
@@ -17,9 +18,10 @@ MinimumProjectApp = "1.2600.1"
 Name = "The_Campfire_Theatre"
 ThemeId = "light-theme.css"
 ThemePageColor = "#ffffff"
-SdkId = "CH5:2.11.1"
+SdkId = "CH5:2.10.0"
 ComponentKey = "UiEditor"
+Id = "88ce5073-f22a-4455-83db-002e64ad07f5"
 DeviceResolutionIds = "G-L-4KMONIT-2560-1440,D-L-TSW1070-1280-0800"
 ipId = "99"
-ProjectSchemaVersion = "4"
+ProjectSchemaVersion = "5"
 

@@ -1,21 +1,19 @@
 {FileMetadata}
 Schema = "1.0.0.0"
 CreatedByAppHost = "1.3501.16.0"
-Created = 2024-10-15 13:13:16.980261-04:00
+Created = 2024-12-02 09:42:02.580926-05:00
 LastModifiedByAppHost = "1.3501.16.0"
-Modified = 2024-10-15 13:13:16.980259-04:00
+Modified = 2024-12-02 09:42:02.580923-05:00
 CreatedByProjectApp = "1.3501.16.0"
 LastModifiedByProjectApp = "1.3501.16.0"
 MinimumProjectApp = "1.2600.1"
 
 {Html}
-<ch5-background scale="stretch" refreshrate="600" transitioneffect="ease" transitionduration="1s" assetid="0537c6e8-a2ca-424c-8ea2-88985fcfb2b5" backgroundcolor="#ffffff" id="i9yqf" componentname="Background_2" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" imgbackgroundcolor="transparent" componentwasresized="true">
-              </ch5-background><ch5-image refreshrate="0" customvstheme="custom" assetid="d2067b06-18b6-4277-8117-32fd164d72ad" id="i8dh37tink" componentname="Logo" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" oldid="i12vh">
+<ch5-background scale="stretch" refreshrate="600" transitioneffect="ease" transitionduration="1s" assetid="81aa2faa-86c3-469a-9fc2-bf3f002f579c" backgroundcolor="#ffffff" id="i9yqf" componentname="Background_2" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" imgbackgroundcolor="transparent" componentwasresized="true">
+              </ch5-background><ch5-image refreshrate="0" customvstheme="custom" assetid="d0f67262-25da-496e-9505-b3916c1961c7" id="i8dh37tink" componentname="Logo" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" oldid="i12vh">
               </ch5-image><ch5-text clearlabel="false" labelmodeadvncomponent="advanced" horizontalalignment="center" verticalalignment="middle" multilinesupport="false" truncatetext="false" labelinnerhtml="<p><span style=&quot;font-size: 100%;&quot;>WELCOME TO <ch5-jointotext-string receiveStateValue=&quot;1&quot; textWhenEmpty=&quot;ROOM NAME&quot;></ch5-jointotext-string></span></p>" id="iktd" componentname="Txt.WelcomeMsg" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" ccid_themecssset="true">
               </ch5-text><ch5-text clearlabel="false" labelmodeadvncomponent="advanced" horizontalalignment="center" verticalalignment="middle" multilinesupport="false" truncatetext="false" id="ikfl92hn59cb1" componentname="Txt.TouchToBeginMsg" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" ccid_themecssset="true" oldid="iktd" labelinnerhtml="<p><span style=&quot;font-size: 100%;&quot;>TOUCH SCREEN TO BEGIN</span></p>"></ch5-text><ch5-button type="default" halignlabel="center" valignlabel="middle" checkboxshow="false" checkboxposition="left" pageflipattributename="pageflip" clearlabel="true" ccid_imageicontype="iconclass" ccid_linksendreceive="False" iconurlfilltype="initial" customclass="ccid-custom" affectedbypreviewstate="True" shape="rounded-rectangle" customvstheme="custom" id="iafk" pageflip="0" iconposition="first" previewstate="selected" orientation="horizontal" labelmode="simple" componentname="Btn.TouchToBegin" ccid_themecssset="true" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" size="custom" sendeventontouch="Contract Enabled" selected="true">
               </ch5-button>
-
-
 
 
 
@@ -31,17 +29,15 @@ MinimumProjectApp = "1.2600.1"
 
 
 
-
-
 {PageAttributes}
 
 [Attributes]
 Name = "Welcome_Page"
 PageMode = "absolute"
-Id = "52f0b383-cbf2-4c91-a466-ba8d1696a4d3"
+Id = "bca5679c-e337-42be-87bd-b57c1125e128"
 StartPage = "True"
 PreloadPage = "True"
-CachePage = "True"
+CachePage = "False"
 VisibilityJoin = "VisibilityJoin"
 
 [[Elements]]
@@ -62,7 +58,7 @@ scale = "stretch"
 refreshrate = "600"
 transitioneffect = "ease"
 transitionduration = "1s"
-assetid = "0537c6e8-a2ca-424c-8ea2-88985fcfb2b5"
+assetid = "81aa2faa-86c3-469a-9fc2-bf3f002f579c"
 backgroundcolor = "#ffffff"
 id = "i9yqf"
 componentName = "Background_2"
@@ -86,7 +82,7 @@ Content = "\n              "
 [Elements.Attributes]
 refreshrate = "0"
 customvstheme = "custom"
-assetid = "d2067b06-18b6-4277-8117-32fd164d72ad"
+assetid = "d0f67262-25da-496e-9505-b3916c1961c7"
 id = "i8dh37tink"
 componentName = "Logo"
 ccid_linkSendReceive = "True"

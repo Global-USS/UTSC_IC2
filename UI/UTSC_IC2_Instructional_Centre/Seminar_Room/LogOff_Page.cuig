@@ -1,21 +1,19 @@
 {FileMetadata}
 Schema = "1.0.0.0"
 CreatedByAppHost = "1.3501.16.0"
-Created = 2024-11-25 15:15:59.92563-05:00
+Created = 2024-12-02 10:01:35.737181-05:00
 LastModifiedByAppHost = "1.3501.16.0"
-Modified = 2024-11-25 15:15:59.925628-05:00
+Modified = 2024-12-02 10:01:35.737178-05:00
 CreatedByProjectApp = "1.3501.16.0"
 LastModifiedByProjectApp = "1.3501.16.0"
 MinimumProjectApp = "1.2600.1"
 
 {Html}
 <html-div componentname="Shtdwn.Light.Blue.Background" id="i4af6yvwodj5a" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" oldid="i35s"></html-div><ch5-text clearlabel="false" labelmodeadvncomponent="simple" horizontalalignment="center" verticalalignment="middle" multilinesupport="false" truncatetext="false" labelinnerhtml="Log Off" id="it4ogvqnitr47" componentname="Shtdwn.Txt.Log.Off" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" ccid_themecssset="true" oldid="ititum4vyz">
-              </ch5-text><ch5-text clearlabel="false" labelmodeadvncomponent="simple" horizontalalignment="center" verticalalignment="middle" multilinesupport="false" truncatetext="false" id="iuaxkaxi4x8ty" componentname="Shtdwn.Txt.Cancel" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" ccid_themecssset="true" oldid="iygnrtq9f7" labelinnerhtml="Cancel"></ch5-text><ch5-image refreshrate="0" customvstheme="custom" assetid="b97adf2d-c55f-4f80-82b0-dcd121f3b98c" id="i2o5fjrsvziyb" componentname="Shtdwn.Green.Checkmark" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" oldid="ifjc">
-              </ch5-image><ch5-image refreshrate="0" customvstheme="custom" assetid="1c11edf2-48e4-44b6-82e3-316b81ebc9cc" id="ih3u4yjexpcnu" componentname="Shtdwn.Red.Checkmark" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" oldid="ikatpsmdns"></ch5-image><ch5-button type="default" halignlabel="center" valignlabel="middle" checkboxshow="false" checkboxposition="left" disabled="false" pageflipattributename="pageflip" clearlabel="true" ccid_imageicontype="iconclass" ccid_linksendreceive="False" iconurlfilltype="initial" customclass="ccid-custom" affectedbypreviewstate="True" shape="circle" customvstheme="custom" id="iuw59iqk5ko46" pageflip="0" iconposition="first" previewstate="pressed" orientation="horizontal" labelmode="simple" componentname="Btn.LogOff" ccid_themecssset="true" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" size="custom" labelinnerhtml="" pressed="true" selected="false" oldid="iss6x" sendeventontouch="Contract Enabled">
-              </ch5-button><ch5-button type="default" halignlabel="center" valignlabel="middle" checkboxshow="false" checkboxposition="left" disabled="false" pageflipattributename="pageflip" clearlabel="true" ccid_imageicontype="iconclass" ccid_linksendreceive="False" iconurlfilltype="initial" customclass="ccid-custom" affectedbypreviewstate="True" shape="circle" customvstheme="custom" id="ijk3iuwr1pio3" pageflip="0" iconposition="first" previewstate="normal" orientation="vertical" labelmode="simple" componentname="Btn.Cancel.Logoff" ccid_themecssset="true" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" size="custom" selected="false" oldid="ii07ljd6x2oxi" labelinnerhtml="" sendeventontouch="Contract Enabled" assetid="0"></ch5-button><ch5-text clearlabel="false" labelmodeadvncomponent="simple" horizontalalignment="center" verticalalignment="middle" multilinesupport="false" truncatetext="false" labelinnerhtml="Equipment will shutdown" id="iic8vv07z369o" componentname="Shtdwn.Txt.EquipmentWillShutdown" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" ccid_themecssset="true" oldid="i8igqnrtjmoo4"></ch5-text><ch5-text clearlabel="false" labelmodeadvncomponent="simple" horizontalalignment="center" verticalalignment="middle" multilinesupport="false" truncatetext="false" labelinnerhtml="Return to previous screen" id="irmr8weqlfnev" componentname="Shtdwn.Txt.ReturnToPreviousScreen" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" ccid_themecssset="true" oldid="ip8989mpgh6dw"></ch5-text><ch5-image refreshrate="0" customvstheme="custom" assetid="08a18233-9a6d-4511-9284-dcfab298d6ac" id="iufrl37py7o5f" componentname="Uoft-SC_Logo" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" oldid="i14il">
+              </ch5-text><ch5-text clearlabel="false" labelmodeadvncomponent="simple" horizontalalignment="center" verticalalignment="middle" multilinesupport="false" truncatetext="false" id="iuaxkaxi4x8ty" componentname="Shtdwn.Txt.Cancel" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" ccid_themecssset="true" oldid="iygnrtq9f7" labelinnerhtml="Cancel"></ch5-text><ch5-image refreshrate="0" customvstheme="custom" assetid="59291832-7c65-417b-82fe-dd09682d397d" id="i2o5fjrsvziyb" componentname="Shtdwn.Green.Checkmark" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" oldid="ifjc">
+              </ch5-image><ch5-image refreshrate="0" customvstheme="custom" assetid="086340ba-7d2d-4944-822a-bc2ff79cba2e" id="ih3u4yjexpcnu" componentname="Shtdwn.Red.Checkmark" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" oldid="ikatpsmdns"></ch5-image><ch5-button type="default" halignlabel="center" valignlabel="middle" checkboxshow="false" checkboxposition="left" disabled="false" pageflipattributename="pageflip" clearlabel="true" ccid_imageicontype="iconclass" ccid_linksendreceive="False" iconurlfilltype="initial" customclass="ccid-custom" affectedbypreviewstate="True" shape="circle" customvstheme="custom" id="iuw59iqk5ko46" pageflip="0" iconposition="first" previewstate="pressed" orientation="horizontal" labelmode="simple" componentname="Btn.LogOff" ccid_themecssset="true" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" size="custom" labelinnerhtml="" pressed="true" selected="false" oldid="iss6x" sendeventontouch="Contract Enabled">
+              </ch5-button><ch5-button type="default" halignlabel="center" valignlabel="middle" checkboxshow="false" checkboxposition="left" disabled="false" pageflipattributename="pageflip" clearlabel="true" ccid_imageicontype="iconclass" ccid_linksendreceive="False" iconurlfilltype="initial" customclass="ccid-custom" affectedbypreviewstate="True" shape="circle" customvstheme="custom" id="ijk3iuwr1pio3" pageflip="0" iconposition="first" previewstate="normal" orientation="vertical" labelmode="simple" componentname="Btn.Cancel.Logoff" ccid_themecssset="true" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" size="custom" selected="false" oldid="ii07ljd6x2oxi" labelinnerhtml="" sendeventontouch="Contract Enabled" assetid="0"></ch5-button><ch5-text clearlabel="false" labelmodeadvncomponent="simple" horizontalalignment="center" verticalalignment="middle" multilinesupport="false" truncatetext="false" labelinnerhtml="Equipment will shutdown" id="iic8vv07z369o" componentname="Shtdwn.Txt.EquipmentWillShutdown" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" ccid_themecssset="true" oldid="i8igqnrtjmoo4"></ch5-text><ch5-text clearlabel="false" labelmodeadvncomponent="simple" horizontalalignment="center" verticalalignment="middle" multilinesupport="false" truncatetext="false" labelinnerhtml="Return to previous screen" id="irmr8weqlfnev" componentname="Shtdwn.Txt.ReturnToPreviousScreen" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" ccid_themecssset="true" oldid="ip8989mpgh6dw"></ch5-text><ch5-image refreshrate="0" customvstheme="custom" assetid="1082c447-9375-4cc0-97b4-23475a1bff8b" id="iufrl37py7o5f" componentname="Uoft-SC_Logo" ccid_linksendreceive="True" devicesvisited="[&quot;4K Monitor&quot;,&quot;TSW-1070&quot;]" oldid="i14il">
               </ch5-image>
-
-
 
 
 
@@ -28,17 +26,15 @@ MinimumProjectApp = "1.2600.1"
 
 
 
-
-
 {PageAttributes}
 
 [Attributes]
 Name = "LogOff_Page"
 PageMode = "absolute"
-Id = "0477a1bf-6b20-4f3b-a8a8-7f72e45f2047"
+Id = "c619a500-c82b-4705-8f19-d565a487c763"
 StartPage = "False"
 PreloadPage = "True"
-CachePage = "True"
+CachePage = "False"
 VisibilityJoin = "VisibilityJoin"
 
 [[Elements]]
@@ -116,7 +112,7 @@ Content = "\n              "
 [Elements.Attributes]
 refreshrate = "0"
 customvstheme = "custom"
-assetid = "b97adf2d-c55f-4f80-82b0-dcd121f3b98c"
+assetid = "59291832-7c65-417b-82fe-dd09682d397d"
 id = "i2o5fjrsvziyb"
 componentName = "Shtdwn.Green.Checkmark"
 ccid_linkSendReceive = "True"
@@ -132,7 +128,7 @@ Editable = true
 [Elements.Attributes]
 refreshrate = "0"
 customvstheme = "custom"
-assetid = "1c11edf2-48e4-44b6-82e3-316b81ebc9cc"
+assetid = "086340ba-7d2d-4944-822a-bc2ff79cba2e"
 id = "ih3u4yjexpcnu"
 componentName = "Shtdwn.Red.Checkmark"
 ccid_linkSendReceive = "True"
@@ -278,7 +274,7 @@ Content = "\n              "
 [Elements.Attributes]
 refreshrate = "0"
 customvstheme = "custom"
-assetid = "08a18233-9a6d-4511-9284-dcfab298d6ac"
+assetid = "1082c447-9375-4cc0-97b4-23475a1bff8b"
 id = "iufrl37py7o5f"
 componentName = "Uoft-SC_Logo"
 ccid_linkSendReceive = "True"

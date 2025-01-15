@@ -1,9 +1,9 @@
 {FileMetadata}
 Schema = "1.0.0.0"
 CreatedByAppHost = "1.3501.16.0"
-Created = 2024-10-15 13:13:16.474676-04:00
+Created = 2024-12-02 09:42:02.298046-05:00
 LastModifiedByAppHost = "1.3501.16.0"
-Modified = 2024-10-15 13:13:16.474673-04:00
+Modified = 2024-12-02 09:42:02.298043-05:00
 CreatedByProjectApp = "1.3501.16.0"
 LastModifiedByProjectApp = "1.3501.16.0"
 MinimumProjectApp = ""
@@ -11,7 +11,7 @@ MinimumProjectApp = ""
 {AssetAttributes}
 
 [Attributes]
-Id = "244f91fe-f58e-41df-8f16-c66e3b76c569"
+Id = "fa5767d0-a3f8-4e61-a8de-911107c404cc"
 Name = "Aura"
 SourceUri = "Aura.png"
 AspectRatio = "0.9001848428835489"
